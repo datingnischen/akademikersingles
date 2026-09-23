@@ -1,0 +1,385 @@
+{
+  "migrated": [
+    {
+      "owner": "nextjs",
+      "path": "/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/einkommen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/akademiker-daten/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/anspruch/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/author/redaktion/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/beide-stark/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/beziehung-mit-unternehmern/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/beziehung-auf-augenhoehe/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/die-gezielt-akademiker-suchen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/erfolg-anziehung/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/gesellschaft-moderne-partnersuche/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/intellektuelle-anziehung-tiefgang/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/psychologie-erfolgreicher-singles/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/status-luxus/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/category/unternehmer-selbststaendige-daten-anders/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/dating-apps/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/depression-dating-loslassen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/emotional-vorsichtig/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/erfolgreiche-partner-suchen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/erfolgsattraktivitaet/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/erotisch-intelligenz/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/exklusive-dating-apps/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/falschen-partner/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/finanzielle-unabhaengigkeit-dating/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/gemeinsame-interessen-online-dating/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/gleichwertigkeit/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/gold-digger/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/high-value-dating-akademiker/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/intelligenz-vs-einkommen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/ist-status-sexy/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/ki-begleiter-partnersuche/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/ki-partner-chatbot-naehe/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/kontrollbeduerfnis/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/leistungsorientierte-menschen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/liebe-als-projekt/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/luxus/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/machtgefaelle/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/mentale-kompatibilitaet/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/neue-partner-kennenlernen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/nicht-akademiker/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/oberflaechlich/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/perfektionismus/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/sapiosexualitaet/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/selten-zeit-haben-aber-lieben/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/single-bleiben/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/smalltalk/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/spaete-partnersuche/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/timing/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/warum-erfolg-anziehend-wirkt/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/magazin/was-wirklich-zaehlt/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/aachen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/berlin/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/bonn/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/dresden/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/frankfurt-am-main/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/freiburg-im-breisgau/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/goettingen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/hamburg/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/heidelberg/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/karlsruhe/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/koeln/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/muenchen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/muenster/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/stuttgart/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnersuche/tuebingen/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/partnervermittlung/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/social-media/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/ueber-50/"
+    },
+    {
+      "owner": "nextjs",
+      "path": "/universitaeten/"
+    }
+  ],
+  "notMigrated": [
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/agb.html/",
+      "sourceUrl": "https://akademikersingles.de/agb.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/barrierefreiheit.html/",
+      "sourceUrl": "https://akademikersingles.de/barrierefreiheit.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/datenschutz.html/",
+      "sourceUrl": "https://akademikersingles.de/datenschutz.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/fotoflirt.html/",
+      "sourceUrl": "https://akademikersingles.de/fotoflirt.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/fragenflirt.html/",
+      "sourceUrl": "https://akademikersingles.de/fragenflirt.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/gutschein/",
+      "sourceUrl": "https://akademikersingles.de/gutschein/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/impressum.html/",
+      "sourceUrl": "https://akademikersingles.de/impressum.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/kontakt/",
+      "sourceUrl": "https://akademikersingles.de/kontakt/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/kontakt/kündigen/",
+      "sourceUrl": "https://akademikersingles.de/kontakt/k%C3%BCndigen/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/kontakt/widerruf/",
+      "sourceUrl": "https://akademikersingles.de/kontakt/widerruf/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/kostenlose-basis-mitgliedschaft.html/",
+      "sourceUrl": "https://akademikersingles.de/kostenlose-basis-mitgliedschaft.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/login/",
+      "sourceUrl": "https://akademikersingles.de/login/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/premium-mitgliedschaft.html/",
+      "sourceUrl": "https://akademikersingles.de/premium-mitgliedschaft.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/redaktionelle-kontrolle.html/",
+      "sourceUrl": "https://akademikersingles.de/redaktionelle-kontrolle.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/registration/",
+      "sourceUrl": "https://akademikersingles.de/registration/"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/sicherheit-und-datenschutz.html/",
+      "sourceUrl": "https://akademikersingles.de/sicherheit-und-datenschutz.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/unsere-erfolgsgeschichten.html/",
+      "sourceUrl": "https://akademikersingles.de/unsere-erfolgsgeschichten.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/videodate.html/",
+      "sourceUrl": "https://akademikersingles.de/videodate.html"
+    },
+    {
+      "owner": "ICONY platform/legal",
+      "path": "/videodating.html/",
+      "sourceUrl": "https://akademikersingles.de/videodating.html"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "count": 6,
+      "description": "",
+      "id": 2,
+      "name": "Erfolg & Anziehung",
+      "path": "/magazin/category/erfolg-anziehung/",
+      "slug": "erfolg-anziehung"
+    },
+    {
+      "count": 4,
+      "description": "",
+      "id": 3,
+      "name": "Unternehmer & Selbstständige daten anders",
+      "path": "/magazin/category/unternehmer-selbststaendige-daten-anders/",
+      "slug": "unternehmer-selbststaendige-daten-anders"
+    },
+    {
+      "count": 5,
+      "description": "",
+      "id": 4,
+      "name": "Intellektuelle Anziehung & Tiefgang",
+      "path": "/magazin/category/intellektuelle-anziehung-tiefgang/",
+      "slug": "intellektuelle-anziehung-tiefgang"
+    },
+    {
+      "count": 4,
+      "description": "",
+      "id": 6,
+      "name": "Lifestyle, Status & Luxus",
+      "path": "/magazin/category/status-luxus/",
+      "slug": "status-luxus"
+    },
+    {
+      "count": 4,
+      "description": "",
+      "id": 7,
+      "name": "Beziehung auf Augenhöhe",
+      "path": "/magazin/category/beziehung-auf-augenhoehe/",
+      "slug": "beziehung-auf-augenhoehe"
+    },
+    {
+      "count": 6,
+      "description": "",
+      "id": 9,
+      "name": "Psychologie erfolgreicher Singles",
+      "path": "/magazin/category/psychologie-erfolgreicher-singles/",
+      "slug": "psychologie-erfolgreicher-singles"
+    },
+    {
+      "count": 4,
+      "description": "",
+      "id": 11,
+      "name": "Frauen, die gezielt Akademiker suchen",
+      "path": "/magazin/category/die-gezielt-akademiker-suchen/",
+      "slug": "die-gezielt-akademiker-suchen"
+    },
+    {
+      "count": 6,
+      "description": "",
+      "id": 12,
+      "name": "Gesellschaft & moderne Partnersuche",
+      "path": "/magazin/category/gesellschaft-moderne-partnersuche/",
+      "slug": "gesellschaft-moderne-partnersuche"
+    }
+  ],
+  "schemaVersion": 1
+}
