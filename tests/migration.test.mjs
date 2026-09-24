@@ -130,13 +130,15 @@ test("Über uns hat Unterpunkte für Bewertungen und Social Media", async () => 
   const authored = await read("lib/authored.ts");
   assert.match(authored, /"\/ueber-uns\/bewertungen\/", "about-reviews"/);
   const company = await read("components/company.tsx");
-  for (const href of ["/ueber-uns/", "/ueber-uns/#gruender", "/ueber-uns/bewertungen/", "/social-media/", "/faq/"]) {
+  for (const href of ["/ueber-uns/", "/ueber-uns/#gruender", "/ueber-uns/bewertungen/", "/ueber-uns/social-media/", "/faq/"]) {
     assert.ok(company.includes(`href: "${href}"`), `Unterpunkt ${href} fehlt`);
   }
   assert.match(company, /singleboersen-vergleichen|REVIEW_SOURCES\.vergleichen/);
   assert.match(company, /REVIEW_SOURCES\.trustpilot\.url/);
   const config = await read("next.config.ts");
-  assert.match(config, /source: "\/ueber-uns\/social-media\/", destination: "\/social-media\/"/);
+  assert.match(config, /source: "\/social-media\/", destination: "\/ueber-uns\/social-media\/"/);
+  assert.match(await read("lib/content.ts"), /export const SOCIAL_PATH = "\/ueber-uns\/social-media\/"/);
+  assert.match(await read("lib/site.ts"), /facebook\.com\/profile\.php\?id=61586656290136/);
   await access(new URL("../public/brand/siegel-singleboersen-vergleichen.png", import.meta.url));
 });
 

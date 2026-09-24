@@ -55,8 +55,12 @@ const TOPIC_COVERS: Record<string, string> = {
 
 const CITY_WIDGET = /^https:\/\/js\.icony\.com\/frame\/\?h=300&id=akademikersingles&pc=a7060c&z=([0-9]{5})&ds=&ctr=49&it=1$/;
 
-// /social-media/ bleibt unter seiner Live-URL, gehört inhaltlich aber zum Bereich „Über uns“.
-const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/" ? { ...page, family: "social" as const } : page), ...AUTHORED_PAGES];
+// Wie in den Schwesterprojekten liegt Social Media unter „Über uns“; die Live-URL /social-media/ leitet dorthin um.
+export const SOCIAL_PATH = "/ueber-uns/social-media/";
+const LINK_MOVES: Record<string, string> = { "/social-media/": SOCIAL_PATH };
+const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/"
+  ? { ...page, family: "social" as const, path: SOCIAL_PATH, canonical: `https://akademikersingles.de${SOCIAL_PATH}` }
+  : page), ...AUTHORED_PAGES];
 const pageIndex = new Map(pages.map(page => [page.path, page]));
 const leadOrder = Object.keys(LEAD_CATEGORIES);
 const categories = (categorySnapshot.categories as MagazineCategory[]).slice().sort((a, b) => {
@@ -226,7 +230,7 @@ export function renderedContentHtml(page: PublicPage): string {
   const registration = pageRegistrationUrl(page).replace(/&/g, "&amp;");
   // Stadt- und Ratgeberseiten zeigen ihr erstes Inhaltsbild bereits im Seitenkopf.
   const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.contentHtml;
-  const body = withoutHero.replace(CREDIT_PARAGRAPH, "");
+  const body = withoutHero.replace(CREDIT_PARAGRAPH, "").replace(/href="(\/[^"]*)"/g, (match, href: string) => LINK_MOVES[href] ? `href="${LINK_MOVES[href]}"` : match);
   return body
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>

@@ -17,6 +17,7 @@ export const LOGIN_URL = legacyUrl("/login/");
 
 export const SOCIAL = {
   youtube: { label: "YouTube", handle: "@akademikersingles", url: "https://www.youtube.com/@akademikersingles" },
+  facebook: { label: "Facebook", handle: "AkademikerSingles", url: "https://www.facebook.com/profile.php?id=61586656290136" },
 };
 
 export const REVIEW_SOURCES = {

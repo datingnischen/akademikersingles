@@ -38,7 +38,7 @@ const ABOUT_NAV = [
   { label: "Überblick", href: "/ueber-uns/" },
   { label: "Gründer", href: "/ueber-uns/#gruender" },
   { label: "Bewertungen", href: "/ueber-uns/bewertungen/" },
-  { label: "Social Media", href: "/social-media/" },
+  { label: "Social Media", href: "/ueber-uns/social-media/" },
   { label: "Erfolgsgeschichten", href: legacyUrl("/unsere-erfolgsgeschichten.html") },
   { label: "FAQ", href: "/faq/" },
 ];
@@ -46,7 +46,7 @@ const ABOUT_NAV = [
 const ABOUT_CARDS = [
   { eyebrow: "Gründer & Experte", title: "Christian M. Haas", text: "Seit 2008 im Online-Dating aktiv: der Mensch und die Erfahrung hinter AkademikerSingles.de.", href: "/ueber-uns/#gruender", label: "Gründer kennenlernen" },
   { eyebrow: "Bewertungen & Erfahrungen", title: "Was andere über uns sagen", text: "Testberichte unabhängiger Vergleichsportale, Trustpilot und die Geschichten unserer Paare.", href: "/ueber-uns/bewertungen/", label: "Bewertungen ansehen" },
-  { eyebrow: "Social Media", title: "AkademikerSingles auf YouTube", text: "Videos, Expertenwissen und Inspiration rund um Partnerschaft, Dating und Beziehungen.", href: "/social-media/", label: "Zu Social Media" },
+  { eyebrow: "Social Media", title: "YouTube & Facebook", text: "Videos, Tipps und Inspiration rund um Partnerschaft, Dating und Beziehungen – auf YouTube und Facebook.", href: "/ueber-uns/social-media/", label: "Zu Social Media" },
   { eyebrow: "Erfolgsgeschichten", title: "Paare, die sich hier fanden", text: "Aus einem Gespräch wurde ein gemeinsamer Weg – lesen Sie, wie es begann.", href: legacyUrl("/unsere-erfolgsgeschichten.html"), label: "Geschichten lesen" },
   { eyebrow: "Häufige Fragen", title: "Kurz & klar beantwortet", text: "Anmeldung, Mitgliedschaft, Sicherheit, Kosten und Kündigung auf einen Blick.", href: "/faq/", label: "Zur FAQ" },
   { eyebrow: "Das Magazin", title: "Erfolg, Stil & Tiefgang", text: "Artikel über Erfolg & Anziehung, Unternehmer Dating, Lifestyle, Status & Luxus und Beziehungen auf Augenhöhe.", href: "/magazin/", label: "Zum Magazin" },
@@ -285,6 +285,11 @@ export function ReviewsTemplate({ page }: { page: PublicPage }) {
   </main>;
 }
 
+const CHANNELS = [
+  { ...SOCIAL.youtube, title: "Videos mit Tiefgang", text: "Videos, Expertenwissen und Inspiration rund um Partnerschaft, Dating und Beziehungen für anspruchsvolle Singles.", cta: "Kanal ansehen", icon: "M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z" },
+  { ...SOCIAL.facebook, title: "Community & Neuigkeiten", text: "Aktuelle Magazinbeiträge, Tipps für die Partnersuche und Neuigkeiten rund um AkademikerSingles.de – direkt in Ihrem Feed.", cta: "Seite besuchen", icon: "M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07" },
+];
+
 export function SocialTemplate({ page }: { page: PublicPage }) {
   const crumbs = crumbsFor(page);
   const latest = getArticles().slice(0, 3);
@@ -292,22 +297,22 @@ export function SocialTemplate({ page }: { page: PublicPage }) {
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
       breadcrumbJsonLd(crumbs, ORIGIN),
       { "@type": "WebPage", name: page.title, url: page.canonical, description: page.description, inLanguage: "de-DE" },
-      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, sameAs: [SOCIAL.youtube.url] },
+      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, sameAs: [SOCIAL.youtube.url, SOCIAL.facebook.url] },
     ] }} />
     <DarkHero page={page} eyebrow="Social Media" title={<>Folgen Sie <em>AkademikerSingles</em></>} lead={page.description || "Videos, Expertenwissen und Inspiration rund um Partnerschaft, Dating und Beziehungen für anspruchsvolle Singles."} />
     <AboutNav current={page.path} />
     <section className={`container ${styles.social}`}>
-      <a className={styles.socialCard} href={SOCIAL.youtube.url} target="_blank" rel="noopener">
+      {CHANNELS.map(channel => <a key={channel.url} className={styles.socialCard} href={channel.url} target="_blank" rel="noopener">
         <span className={styles.socialIcon} aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z" /></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d={channel.icon} /></svg>
         </span>
         <div>
-          <span className={styles.cardEyebrow}>{SOCIAL.youtube.label} · {SOCIAL.youtube.handle}</span>
-          <h2 className="display">Videos mit Tiefgang</h2>
-          <p>Videos, Expertenwissen und Inspiration rund um Partnerschaft, Dating und Beziehungen für anspruchsvolle Singles.</p>
-          <span className={styles.cardLink}>Kanal ansehen →</span>
+          <span className={styles.cardEyebrow}>{channel.label} · {channel.handle}</span>
+          <h2 className="display">{channel.title}</h2>
+          <p>{channel.text}</p>
+          <span className={styles.cardLink}>{channel.cta} →</span>
         </div>
-      </a>
+      </a>)}
     </section>
     <section className={`container ${styles.socialMore}`}>
       <div className={styles.aboutCardsHead}>
