@@ -147,3 +147,14 @@ test("Erfahrung wird einheitlich mit „seit 2008“ angegeben", async () => {
     assert.doesNotMatch(await read(file), /20\+ Jahre|über 20 Jahre/i, file);
   }
 });
+
+test("Städteübersicht verweist auf die individuelle Suche der Live-Domain", async () => {
+  const templates = await read("components/templates.tsx");
+  const hub = templates.slice(templates.indexOf("export function LocationHubTemplate"), templates.indexOf("export function LocationTemplate"));
+  assert.match(hub, /<CitySearchFallback \/>/, "Städteübersicht rendert den Suchhinweis nicht");
+  const fallback = await read("components/city-search-fallback.tsx");
+  assert.match(fallback, /href=\{searchUrl\("location"\)\}/);
+  assert.doesNotMatch(fallback, /href="\/suche/);
+  const site = await read("lib/site.ts");
+  assert.match(site, /\$\{ORIGIN\}\/suche\/\?AID=\$\{aid\}/);
+});

@@ -13,6 +13,11 @@ export function registrationUrl(aid?: Aid | null): string {
   return aid ? `${ORIGIN}/registration/?AID=${aid}` : `${ORIGIN}/registration/`;
 }
 
+// Individuelle ICONY-Suche (Ort, Umkreis, Alter) – ebenfalls nur auf der Live-Domain.
+export function searchUrl(aid?: Aid | null): string {
+  return aid ? `${ORIGIN}/suche/?AID=${aid}` : `${ORIGIN}/suche/`;
+}
+
 export const LOGIN_URL = legacyUrl("/login/");
 
 export const SOCIAL = {

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CitySearchFallback } from "@/components/city-search-fallback";
 import { ArticleCard, Breadcrumbs, CityTile, ImageCredits, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
 import {
   aidFor, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
@@ -206,6 +207,7 @@ export function LocationHubTemplate({ page }: { page: PublicPage }) {
     <section className={`container ${styles.citySection}`}>
       <div className={styles.relatedHead}><p className="eyebrow">Partnersuche nach Städten</p><h2 className="display">Wählen Sie Ihre <em>Stadt</em></h2></div>
       <div className={styles.cityGrid}>{cities.map((city, index) => <CityTile key={city.path} city={city} priority={index < 5} />)}</div>
+      <CitySearchFallback />
     </section>
     <Body page={page} />
   </main>;

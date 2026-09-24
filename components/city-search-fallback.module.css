@@ -1,0 +1,9 @@
+.fallback { display: flex; align-items: center; justify-content: space-between; gap: clamp(24px, 4vw, 56px); margin-top: clamp(32px, 4vw, 48px); padding: clamp(28px, 4vw, 44px); border: 1px solid var(--line); border-radius: var(--radius); background: var(--ivory); }
+.copy { max-width: 720px; }
+.fallback h2 { margin: 0 0 12px; color: var(--navy-900); font-size: clamp(28px, 3vw, 38px); }
+.fallback p:not(:global(.eyebrow)) { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
+.fallback > :global(.btn) { flex-shrink: 0; }
+@media (max-width: 720px) {
+  .fallback { flex-direction: column; align-items: stretch; }
+  .fallback > :global(.btn) { width: 100%; }
+}
