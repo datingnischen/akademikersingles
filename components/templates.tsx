@@ -154,7 +154,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
         {page.description ? <p className={styles.articleLead}>{page.description}</p> : null}
         <div className={styles.articleMeta}>
           <span>Von <Link href={page.author?.path ?? "/magazin/"}>{page.author?.name ?? "Redaktion"}</Link></span>
-          <time dateTime={page.published}>{formatDate(page.published)}</time>
+          <time dateTime={page.modified ?? page.published}>Aktualisiert am {formatDate(page.modified ?? page.published)}</time>
           <span>{page.readingMinutes} Min. Lesezeit</span>
         </div>
       </header>

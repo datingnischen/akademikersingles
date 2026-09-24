@@ -40,7 +40,7 @@ export function ArticleCard({ article, size = "default", priority = false }: { a
       </div>
       <h3 className="display"><Link href={article.path}>{article.heroTitle}</Link></h3>
       {size !== "compact" ? <p>{cardText(article)}</p> : null}
-      {size === "large" ? <span className={styles.cardDate}>{formatDate(article.published)}</span> : null}
+      {size === "large" ? <span className={styles.cardDate}>Aktualisiert {formatDate(article.modified ?? article.published)}</span> : null}
     </div>
   </article>;
 }
