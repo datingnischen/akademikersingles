@@ -95,3 +95,25 @@ test("interne Links auf migrierte Seiten sind relativ", () => {
     }
   }
 });
+
+test("Über uns und FAQ existieren als eigene Seiten mit FAQPage-Daten", async () => {
+  const authored = await read("lib/authored.ts");
+  assert.match(authored, /"\/ueber-uns\/", "about"/);
+  assert.match(authored, /"\/faq\/", "faq"/);
+  const company = await read("components/company.tsx");
+  assert.match(company, /"@type": "FAQPage"/);
+  assert.match(company, /"@type": "AboutPage"/);
+  const shell = await read("components/site-shell.tsx");
+  assert.match(shell, /href="\/ueber-uns\/"/);
+  assert.match(shell, /href="\/faq\/"/);
+});
+
+test("Bildquellen werden als kompakte Nachweise statt roher URLs dargestellt", async () => {
+  const content = await read("lib/content.ts");
+  assert.match(content, /const CREDIT_PARAGRAPH = /);
+  assert.match(content, /withoutHero\.replace\(CREDIT_PARAGRAPH, ""\)/);
+  const templates = await read("components/templates.tsx");
+  assert.match(templates, /<ImageCredits credits=\{imageCredits\(page\)\} \/>/);
+  const withCredits = pages.filter(page => /<p>\s*Bildquelle:/i.test(page.contentHtml));
+  assert.ok(withCredits.some(page => page.path === "/partnersuche/"), "Hub-Bildquellen fehlen im Snapshot");
+});

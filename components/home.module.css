@@ -76,6 +76,7 @@
 
 .about { display: grid; grid-template-columns: minmax(260px, .8fr) 1.6fr; gap: clamp(40px, 6vw, 96px); padding-top: clamp(72px, 9vw, 120px); padding-bottom: clamp(24px, 3vw, 40px); }
 .aboutHead { position: sticky; top: 150px; align-self: start; }
+.aboutMore { display: flex; flex-wrap: wrap; gap: 14px 28px; margin: 32px 0 0; }
 .aboutHead h2 { margin: 0 0 28px; color: var(--navy-900); font-size: clamp(36px, 4vw, 54px); }
 
 .stories { padding: clamp(72px, 9vw, 120px) 0; }

@@ -1,8 +1,9 @@
 import snapshot from "@/data/public-pages.json";
 import categorySnapshot from "@/data/magazine-categories.json";
+import { AUTHORED_PAGES } from "@/lib/authored";
 import { registrationUrl, type Aid } from "@/lib/site";
 
-export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author";
+export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "faq";
 
 export type PublicPage = {
   path: string;
@@ -54,7 +55,7 @@ const TOPIC_COVERS: Record<string, string> = {
 
 const CITY_WIDGET = /^https:\/\/js\.icony\.com\/frame\/\?h=300&id=akademikersingles&pc=a7060c&z=([0-9]{5})&ds=&ctr=49&it=1$/;
 
-const pages = snapshot.pages as PublicPage[];
+const pages = [...(snapshot.pages as PublicPage[]), ...AUTHORED_PAGES];
 const pageIndex = new Map(pages.map(page => [page.path, page]));
 const leadOrder = Object.keys(LEAD_CATEGORIES);
 const categories = (categorySnapshot.categories as MagazineCategory[]).slice().sort((a, b) => {
@@ -176,6 +177,39 @@ function optimizedImage(src: string, width: number): string {
   return `/_next/image?url=${encodeURIComponent(src)}&amp;w=${width}&amp;q=78`;
 }
 
+export type ImageCredit = { provider: string; label: string; href: string };
+
+// Die ICONY-Texte führen Bildquellen als rohe URL-Absätze („Bildquelle: 1) https://… 2) https://…“).
+const CREDIT_PARAGRAPH = /<p>\s*Bildquelle:[\s\S]*?<\/p>/gi;
+const PROVIDERS: Record<string, string> = { "pixabay.com": "Pixabay", "freepik.com": "Freepik", "unsplash.com": "Unsplash", "pexels.com": "Pexels" };
+
+function creditLabel(url: URL): string {
+  const segments = url.pathname.split("/").filter(Boolean);
+  if (url.pathname.startsWith("/search")) return `Motivsuche „${(url.searchParams.get("query") ?? "").trim()}“`;
+  const slug = decodeURIComponent(segments.at(-1) ?? "").replace(/\.htm$/, "").replace(/_\d+$/, "").replace(/-\d+$/, "");
+  const words = slug.split("-").filter(Boolean).join(" ");
+  return words ? `${words.charAt(0).toUpperCase()}${words.slice(1)}` : url.hostname;
+}
+
+export function imageCredits(page: PublicPage): ImageCredit[] {
+  const credits: ImageCredit[] = [];
+  for (const paragraph of page.contentHtml.match(CREDIT_PARAGRAPH) ?? []) {
+    const text = paragraph.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&gt;/g, "");
+    for (const raw of text.match(/https?:\/\/[^\s<>"]+/g) ?? []) {
+      try {
+        const url = new URL(raw.replace(/[>.,;)]+$/, ""));
+        url.hash = "";
+        if (!url.pathname.startsWith("/search")) url.search = "";
+        const host = url.hostname.replace(/^www\./, "");
+        credits.push({ provider: PROVIDERS[host] ?? host, label: creditLabel(url), href: url.toString() });
+      } catch {
+        // unlesbare Quellenangabe überspringen
+      }
+    }
+  }
+  return credits;
+}
+
 function withoutImage(html: string, src: string): string {
   const at = html.indexOf(`src="${src}"`);
   if (at < 0) return html;
@@ -191,7 +225,8 @@ function withoutImage(html: string, src: string): string {
 export function renderedContentHtml(page: PublicPage): string {
   const registration = pageRegistrationUrl(page).replace(/&/g, "&amp;");
   // Stadt- und Ratgeberseiten zeigen ihr erstes Inhaltsbild bereits im Seitenkopf.
-  const body = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.contentHtml;
+  const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.contentHtml;
+  const body = withoutHero.replace(CREDIT_PARAGRAPH, "");
   return body
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>

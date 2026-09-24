@@ -7,7 +7,9 @@
 .header { position: sticky; top: 0; z-index: 50; background: rgba(252, 250, 246, .92); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--line); }
 .topbar { background: var(--navy-950); color: var(--gold-light); font-size: 11px; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
 .topbar > div { display: flex; justify-content: space-between; gap: 16px; padding-top: 9px; padding-bottom: 9px; }
-.topbarRight { color: rgba(247, 242, 233, .6); }
+.topbarRight { display: flex; gap: 22px; }
+.topbarRight a { color: rgba(247, 242, 233, .7); text-decoration: none; }
+.topbarRight a:hover { color: var(--gold-light); }
 
 .bar { display: flex; align-items: center; gap: 32px; min-height: 78px; }
 .brand { display: block; flex: 0 0 auto; line-height: 0; }

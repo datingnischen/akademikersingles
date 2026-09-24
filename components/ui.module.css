@@ -76,3 +76,13 @@
 
 .sidebar { position: sticky; top: 150px; display: grid; gap: 20px; align-self: start; }
 @media (max-width: 1020px) { .sidebar { position: static; } }
+
+/* Bildnachweise am Textende */
+.credits { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; line-height: 1.6; }
+.creditsLabel { flex: 0 0 auto; color: var(--navy-900); font-size: 10.5px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+.credits ul { display: flex; flex-wrap: wrap; gap: 4px 0; margin: 0; padding: 0; list-style: none; }
+.credits li { min-width: 0; }
+.credits li:not(:last-child)::after { content: "/"; margin: 0 10px; color: var(--gold); }
+.credits a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; transition: color .2s ease, border-color .2s ease; }
+.credits a:hover { color: var(--navy-900); border-bottom-color: var(--gold); }
+.credits li span { color: #9a9ea8; }

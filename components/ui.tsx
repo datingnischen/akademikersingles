@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { categoryLabel, cardText, formatDate, primaryCategory, type PublicPage } from "@/lib/content";
+import { categoryLabel, cardText, formatDate, primaryCategory, type ImageCredit, type PublicPage } from "@/lib/content";
 import { REVIEW, TRUST_LINKS, registrationUrl, type Aid } from "@/lib/site";
 import styles from "./ui.module.css";
 
@@ -91,5 +91,13 @@ export function Sidebar({ aid }: { aid?: Aid | null }) {
     <RegisterPanel aid={aid} />
     <ReviewSeal />
     <TrustPanel />
+  </aside>;
+}
+
+export function ImageCredits({ credits }: { credits: ImageCredit[] }) {
+  if (!credits.length) return null;
+  return <aside className={styles.credits} aria-label="Bildnachweise">
+    <span className={styles.creditsLabel}>Bildnachweis{credits.length > 1 ? "e" : ""}</span>
+    <ul>{credits.map(credit => <li key={credit.href}><a href={credit.href} target="_blank" rel="nofollow noopener">{credit.label}</a><span> · {credit.provider}</span></li>)}</ul>
   </aside>;
 }

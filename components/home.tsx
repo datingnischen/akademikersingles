@@ -142,6 +142,7 @@ export function HomeTemplate({ page }: { page: PublicPage }) {
         <p className="eyebrow">Über AkademikerSingles</p>
         <h2 className="display">Gebildete Singles, <em>niveauvoll</em> vereint.</h2>
         <a className="btn btn-dark" href={register}>Kostenlos testen</a>
+        <p className={styles.aboutMore}><Link className="link-arrow" href="/ueber-uns/">Mehr über uns</Link> <Link className="link-arrow" href="/faq/">Häufige Fragen</Link></p>
       </div>
       <div className="prose" dangerouslySetInnerHTML={{ __html: renderedContentHtml(page) }} />
     </section>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { categoryLabel, getCategories, getCities, getGuides, guideLabel } from "@/lib/content";
-import { FEATURE_LINKS, LEGAL_LINKS, LOGIN_URL, REVIEW, TRUST_LINKS, registrationUrl } from "@/lib/site";
+import { FEATURE_LINKS, LEGAL_LINKS, LOGIN_URL, REVIEW, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./site-shell.module.css";
 
 const NAV = [
@@ -19,7 +19,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
     <a className={styles.skip} href="#inhalt">Zum Inhalt springen</a>
     <header className={styles.header}>
       <div className={styles.topbar}>
-        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><span className={styles.topbarRight}>Diskret · Niveauvoll · Auf Augenhöhe</span></div>
+        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><nav className={styles.topbarRight} aria-label="Service"><Link href="/ueber-uns/">Über uns</Link><Link href="/faq/">FAQ</Link><a href={legacyUrl("/hilfe/")}>Hilfe</a></nav></div>
       </div>
       <div className={`container ${styles.bar}`}>
         <Link className={styles.brand} href="/" aria-label="AkademikerSingles – Startseite">
@@ -38,6 +38,8 @@ export function SiteShell({ children, registrationHref, current }: { children: R
             {NAV.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}
             <Link href="/magazin/category/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
             <Link href="/magazin/category/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
+            <Link href="/ueber-uns/">Über uns</Link>
+            <Link href="/faq/">FAQ</Link>
             <a href={LOGIN_URL}>Login</a>
             <a className="btn btn-gold" href={registration}>Kostenlos registrieren</a>
           </div>
@@ -76,7 +78,10 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           {getCities().map(city => <Link key={city.path} href={city.path}>{city.locationName}</Link>)}
         </section>
         <section>
-          <h3>Ratgeber</h3>
+          <h3>AkademikerSingles</h3>
+          <Link href="/ueber-uns/">Über uns</Link>
+          <Link href="/faq/">Häufige Fragen</Link>
+          <h3 className={styles.footerSub}>Ratgeber</h3>
           {getGuides().map(guide => <Link key={guide.path} href={guide.path}>{guideLabel(guide)}</Link>)}
           <h3 className={styles.footerSub}>Mitgliedschaft</h3>
           {[...FEATURE_LINKS, ...TRUST_LINKS].map(link => <a key={link.href} href={link.href}>{link.label}</a>)}

@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArticleCard, Breadcrumbs, CityTile, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
+import { ArticleCard, Breadcrumbs, CityTile, ImageCredits, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
 import {
   aidFor, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
-  guideLabel, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
+  guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import styles from "./templates.module.css";
 
 const PUBLISHER = { "@type": "Organization", name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: { "@type": "ImageObject", url: `${ORIGIN}/brand/logo.svg` } };
 
-function crumbsFor(page: PublicPage): Crumb[] {
+export function crumbsFor(page: PublicPage): Crumb[] {
   const items: Crumb[] = [{ name: "Startseite", href: "/" }];
   if (page.family === "location" || page.family === "location-hub") items.push({ name: "Partnersuche", href: "/partnersuche/" });
   if (page.family.startsWith("magazine")) items.push({ name: "Magazin", href: "/magazin/" });
@@ -23,6 +23,7 @@ function crumbsFor(page: PublicPage): Crumb[] {
   else if (page.family === "magazine-author") items.push({ name: page.heroTitle.replace(/^Autor:\s*/, ""), href: page.path });
   else if (page.family === "guide") items.push({ name: guideLabel(page), href: page.path });
   else if (page.family === "magazine") items.push({ name: page.heroTitle, href: page.path });
+  else if (page.family === "about" || page.family === "faq") items.push({ name: page.family === "faq" ? "FAQ" : page.heroTitle, href: page.path });
   return items;
 }
 
@@ -55,6 +56,7 @@ function Body({ page, children }: { page: PublicPage; children?: React.ReactNode
     <div className={styles.bodyMain}>
       {children}
       <div className="prose" dangerouslySetInnerHTML={{ __html: renderedContentHtml(page) }} />
+      <ImageCredits credits={imageCredits(page)} />
     </div>
     <Sidebar aid={aidFor(page)} />
   </section>;
