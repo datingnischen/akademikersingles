@@ -7,6 +7,13 @@ import { getArticles, getCities, type PublicPage } from "@/lib/content";
 import { ORIGIN, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./company.module.css";
 
+const FOUNDER = {
+  name: "Christian M. Haas",
+  role: "Gründer & Datingexperte",
+  image: "/brand/christian-m-haas.jpg",
+  book: { title: "Dating ohne Bullshit", subtitle: "Der ungeschönte Insiderblick ins Online-Dating-Business", isbn: "9783696371210", isbnDisplay: "978-3-6963-7121-0", url: "https://www.amazon.de/dp/3696371211/", published: "2026-08-21" },
+};
+
 const STATS = [
   { value: "750.000+", label: "Mitglieder mit Anspruch" },
   { value: "100 %", label: "manuell geprüfte Profile" },
@@ -49,7 +56,12 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
       breadcrumbJsonLd(crumbs, ORIGIN),
       { "@type": "AboutPage", name: page.title, url: page.canonical, description: page.description, inLanguage: "de-DE", mainEntity: { "@id": `${ORIGIN}/#organization` } },
-      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: `${ORIGIN}/brand/logo.svg` },
+      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: `${ORIGIN}/brand/logo.svg`, founder: { "@id": `${page.canonical}#gruender` } },
+      {
+        "@type": "Person", "@id": `${page.canonical}#gruender`, name: FOUNDER.name, jobTitle: FOUNDER.role, image: `${ORIGIN}${FOUNDER.image}`, url: `${page.canonical}#gruender`,
+        knowsAbout: ["Online-Dating", "Partnersuche", "Singlebörsen"],
+      },
+      { "@type": "Book", "@id": `${page.canonical}#buch`, name: FOUNDER.book.title, alternateName: FOUNDER.book.subtitle, isbn: FOUNDER.book.isbn, datePublished: FOUNDER.book.published, inLanguage: "de-DE", url: FOUNDER.book.url, author: { "@id": `${page.canonical}#gruender` } },
     ] }} />
     <DarkHero page={page} eyebrow="Über AkademikerSingles" title={<>Wo Anspruch auf <em>Gegenüber</em> trifft.</>} lead="Seit über 20 Jahren bringen wir gebildete Singles zusammen – mit manuell geprüften Profilen, absoluter Diskretion und dem Anspruch, dass sich Menschen auf Augenhöhe begegnen." image="/brand/success-stories.jpg" />
 
@@ -78,19 +90,30 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
       <ol className={styles.steps}>{STEPS.map(step => <li key={step.title}><a href={step.href}><h3 className="display">{step.title}</h3><p>{step.text}</p><span>Mehr erfahren →</span></a></li>)}</ol>
     </section>
 
-    <section className={styles.expertise}>
-      <div className={`container ${styles.expertiseInner}`}>
-        <div>
-          <p className="eyebrow">Die Expertise dahinter</p>
-          <h2 className="display">Rat von Menschen, die das <em>Dating-Business</em> kennen.</h2>
-          <p>Hinter unseren Tipps für die erfolgreiche Partnersuche steht Christian M. Haas, Datingexperte mit langjähriger Erfahrung. Er weiß, dass gebildete Singles oft nach mehr suchen als nur Sympathie – nach gemeinsamen Werten, Lebenszielen und echter geistiger Verbindung.</p>
-          <p>Unsere Redaktion schreibt im Magazin über Erfolg & Anziehung, Unternehmer Dating, Lifestyle, Status & Luxus und Beziehungen auf Augenhöhe – bislang {articleCount} Beiträge. Dazu kommt die Partnersuche in {cityCount} Universitäts- und Wirtschaftsstädten.</p>
-          <div className={styles.actions}>
-            <Link className="btn btn-gold" href="/magazin/">Zum Magazin</Link>
-            <Link className="btn btn-ghost" href="/partnersuche/">Partnersuche nach Städten</Link>
-          </div>
+    <section className={styles.expertise} id="gruender" aria-labelledby="gruender-titel">
+      <div className={`container ${styles.founder}`}>
+        <figure className={styles.founderPortrait}>
+          <Image src={FOUNDER.image} alt="Christian M. Haas, Gründer von AkademikerSingles.de und Datingexperte" width={819} height={1024} sizes="(max-width: 900px) 90vw, 420px" />
+          <figcaption><strong>{FOUNDER.name}</strong>{FOUNDER.role}</figcaption>
+        </figure>
+        <div className={styles.founderText}>
+          <p className="eyebrow">Gründer &amp; Experte</p>
+          <h2 className="display" id="gruender-titel">Christian M. Haas</h2>
+          <p className={styles.founderRole}>Gründer von AkademikerSingles.de · Experte für Online-Dating</p>
+          <p>Christian M. Haas hat AkademikerSingles.de gegründet und beschäftigt sich seit 2008 intensiv mit Online-Dating. Von 2008 bis 2016 hat er Singlebörsen entwickelt und betrieben – er kennt die Technik ebenso wie Community-Aufbau, Content und die Frage, was Menschen online wirklich zusammenbringt.</p>
+          <p>Seine Überzeugung: Gebildete Singles suchen oft mehr als Sympathie – gemeinsame Werte, Lebensziele und echte geistige Verbindung. Auf dieser Erfahrung beruhen unsere Tipps für die erfolgreiche Partnersuche und die Ausrichtung des Magazins, in dem unsere Redaktion bislang {articleCount} Beiträge veröffentlicht hat.</p>
+          <ul className={styles.founderFacts}>
+            <li><strong>Seit 2008</strong><span>im Online-Dating aktiv</span></li>
+            <li><strong>2008–2016</strong><span>Aufbau und Betrieb von Singlebörsen</span></li>
+            <li><strong>{cityCount} Städte</strong><span>Partnersuche vor Ort</span></li>
+          </ul>
+          <a className={styles.book} href={FOUNDER.book.url} target="_blank" rel="noopener">
+            <span className={styles.bookLabel}>Neu erschienen</span>
+            <strong className="display">„{FOUNDER.book.title}“</strong>
+            <span>{FOUNDER.book.subtitle} · Taschenbuch, 136 Seiten · ISBN {FOUNDER.book.isbnDisplay}</span>
+            <em>Bei Amazon ansehen →</em>
+          </a>
         </div>
-        <div className={styles.expertiseSeal}><ReviewSeal variant="inline" /></div>
       </div>
     </section>
 
@@ -102,6 +125,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
           {TRUST_LINKS.map(link => <li key={link.href}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}
           <li><Link href="/faq/">Häufige Fragen<span aria-hidden="true">→</span></Link></li>
         </ul>
+        <div className={styles.closingSeal}><ReviewSeal /></div>
       </div>
       <RegisterPanel title="Lernen Sie uns kennen – kostenlos" text="Erstellen Sie Ihr Profil in wenigen Minuten und entdecken Sie Singles, die Ihre Ansprüche an Bildung, Stil und Tiefgang teilen." />
     </section>
