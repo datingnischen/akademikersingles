@@ -125,3 +125,23 @@ test("Über uns nennt Christian M. Haas als Gründer mit eigenem Porträt", asyn
   assert.match(company, /founder: \{ "@id": `\$\{page\.canonical\}#gruender` \}/);
   await access(new URL("../public/brand/christian-m-haas.jpg", import.meta.url));
 });
+
+test("Über uns hat Unterpunkte für Bewertungen und Social Media", async () => {
+  const authored = await read("lib/authored.ts");
+  assert.match(authored, /"\/ueber-uns\/bewertungen\/", "about-reviews"/);
+  const company = await read("components/company.tsx");
+  for (const href of ["/ueber-uns/", "/ueber-uns/#gruender", "/ueber-uns/bewertungen/", "/social-media/", "/faq/"]) {
+    assert.ok(company.includes(`href: "${href}"`), `Unterpunkt ${href} fehlt`);
+  }
+  assert.match(company, /singleboersen-vergleichen|REVIEW_SOURCES\.vergleichen/);
+  assert.match(company, /REVIEW_SOURCES\.trustpilot\.url/);
+  const config = await read("next.config.ts");
+  assert.match(config, /source: "\/ueber-uns\/social-media\/", destination: "\/social-media\/"/);
+  await access(new URL("../public/brand/siegel-singleboersen-vergleichen.png", import.meta.url));
+});
+
+test("Erfahrung wird einheitlich mit „seit 2008“ angegeben", async () => {
+  for (const file of ["components/company.tsx", "components/home.tsx", "lib/authored.ts"]) {
+    assert.doesNotMatch(await read(file), /20\+ Jahre|über 20 Jahre/i, file);
+  }
+});

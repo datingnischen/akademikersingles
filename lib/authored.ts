@@ -152,7 +152,7 @@ export function faqPlainAnswer(item: FaqItem): string {
   return item.answer.join(" ");
 }
 
-function page(path: string, family: "about" | "faq", title: string, description: string, heroTitle: string): PublicPage {
+function page(path: string, family: "about" | "about-reviews" | "faq", title: string, description: string, heroTitle: string): PublicPage {
   return { path, sourceUrl: `${ORIGIN}${path}`, canonical: `${ORIGIN}${path}`, family, title, description, heroTitle, heroImage: null, categories: [], contentHtml: "" };
 }
 
@@ -160,8 +160,14 @@ export const AUTHORED_PAGES: PublicPage[] = [
   page(
     "/ueber-uns/", "about",
     "Über uns – AkademikerSingles.de | Partnersuche mit Niveau",
-    "Seit über 20 Jahren verbindet AkademikerSingles.de gebildete Singles: manuell geprüfte Profile, absolute Diskretion und Begegnungen auf Augenhöhe.",
+    "Seit 2008 verbindet AkademikerSingles.de gebildete Singles: manuell geprüfte Profile, absolute Diskretion und Begegnungen auf Augenhöhe.",
     "Über uns",
+  ),
+  page(
+    "/ueber-uns/bewertungen/", "about-reviews",
+    "Bewertungen & Erfahrungen zu AkademikerSingles.de",
+    "Was unabhängige Vergleichsportale und Mitglieder über AkademikerSingles.de sagen: Testberichte, Empfehlungen, Trustpilot und Erfolgsgeschichten.",
+    "Bewertungen & Erfahrungen",
   ),
   page(
     "/faq/", "faq",

@@ -15,6 +15,18 @@ export function registrationUrl(aid?: Aid | null): string {
 
 export const LOGIN_URL = legacyUrl("/login/");
 
+export const SOCIAL = {
+  youtube: { label: "YouTube", handle: "@akademikersingles", url: "https://www.youtube.com/@akademikersingles" },
+};
+
+export const REVIEW_SOURCES = {
+  vergleichen: {
+    url: "https://www.singleboersen-vergleichen.de/singleportal/akademikersingles-de/",
+    seal: "/brand/siegel-singleboersen-vergleichen.png",
+  },
+  trustpilot: { url: "https://de.trustpilot.com/review/akademikersingles.de" },
+};
+
 export const REVIEW = {
   url: "https://singleboersen-ueberblick.de/partnersuche/akademikersingles-de/",
   seal: "/brand/siegel-singleboersen-ueberblick.jpg",

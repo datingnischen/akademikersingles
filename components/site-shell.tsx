@@ -19,7 +19,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
     <a className={styles.skip} href="#inhalt">Zum Inhalt springen</a>
     <header className={styles.header}>
       <div className={styles.topbar}>
-        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><nav className={styles.topbarRight} aria-label="Service"><Link href="/ueber-uns/">Über uns</Link><Link href="/faq/">FAQ</Link><a href={legacyUrl("/hilfe/")}>Hilfe</a></nav></div>
+        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><nav className={styles.topbarRight} aria-label="Service"><Link href="/ueber-uns/">Über uns</Link><Link href="/ueber-uns/bewertungen/">Bewertungen</Link><Link href="/social-media/">Social Media</Link><Link href="/faq/">FAQ</Link><a href={legacyUrl("/hilfe/")}>Hilfe</a></nav></div>
       </div>
       <div className={`container ${styles.bar}`}>
         <Link className={styles.brand} href="/" aria-label="AkademikerSingles – Startseite">
@@ -39,6 +39,8 @@ export function SiteShell({ children, registrationHref, current }: { children: R
             <Link href="/magazin/category/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
             <Link href="/magazin/category/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
             <Link href="/ueber-uns/">Über uns</Link>
+            <Link href="/ueber-uns/bewertungen/">Bewertungen</Link>
+            <Link href="/social-media/">Social Media</Link>
             <Link href="/faq/">FAQ</Link>
             <a href={LOGIN_URL}>Login</a>
             <a className="btn btn-gold" href={registration}>Kostenlos registrieren</a>
@@ -80,6 +82,9 @@ export function SiteShell({ children, registrationHref, current }: { children: R
         <section>
           <h3>AkademikerSingles</h3>
           <Link href="/ueber-uns/">Über uns</Link>
+          <Link href="/ueber-uns/#gruender">Gründer Christian M. Haas</Link>
+          <Link href="/ueber-uns/bewertungen/">Bewertungen &amp; Erfahrungen</Link>
+          <Link href="/social-media/">Social Media</Link>
           <Link href="/faq/">Häufige Fragen</Link>
           <h3 className={styles.footerSub}>Ratgeber</h3>
           {getGuides().map(guide => <Link key={guide.path} href={guide.path}>{guideLabel(guide)}</Link>)}

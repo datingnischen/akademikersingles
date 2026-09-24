@@ -3,7 +3,7 @@ import categorySnapshot from "@/data/magazine-categories.json";
 import { AUTHORED_PAGES } from "@/lib/authored";
 import { registrationUrl, type Aid } from "@/lib/site";
 
-export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "faq";
+export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
 
 export type PublicPage = {
   path: string;
@@ -55,7 +55,8 @@ const TOPIC_COVERS: Record<string, string> = {
 
 const CITY_WIDGET = /^https:\/\/js\.icony\.com\/frame\/\?h=300&id=akademikersingles&pc=a7060c&z=([0-9]{5})&ds=&ctr=49&it=1$/;
 
-const pages = [...(snapshot.pages as PublicPage[]), ...AUTHORED_PAGES];
+// /social-media/ bleibt unter seiner Live-URL, gehört inhaltlich aber zum Bereich „Über uns“.
+const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/" ? { ...page, family: "social" as const } : page), ...AUTHORED_PAGES];
 const pageIndex = new Map(pages.map(page => [page.path, page]));
 const leadOrder = Object.keys(LEAD_CATEGORIES);
 const categories = (categorySnapshot.categories as MagazineCategory[]).slice().sort((a, b) => {
@@ -101,7 +102,6 @@ const GUIDE_LABELS: Record<string, string> = {
   "/universitaeten/": "Top-Universitäten",
   "/ueber-50/": "Akademiker über 50",
   "/einkommen/": "Einkommen von Akademikern",
-  "/social-media/": "Social Media",
 };
 
 export function guideLabel(page: PublicPage): string {

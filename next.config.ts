@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
     // Die WordPress-Paginierung entfällt: Hub und Kategorien zeigen alle Artikel auf einer Seite.
     return [
       { source: "/magazin/page/:n/", destination: "/magazin/", permanent: true },
+      // Schwesterprojekte führen Social Media unter /ueber-uns/; hier bleibt die Live-URL /social-media/ kanonisch.
+      { source: "/ueber-uns/social-media/", destination: "/social-media/", permanent: true },
       { source: "/magazin/category/:slug/page/:n/", destination: "/magazin/category/:slug/", permanent: true },
       { source: "/magazin/author/:slug/page/:n/", destination: "/magazin/author/:slug/", permanent: true },
     ];

@@ -36,7 +36,7 @@ export function HomeTemplate({ page }: { page: PublicPage }) {
         <dl className={styles.stats}>
           <div><dt>750.000+</dt><dd>Mitglieder mit Anspruch</dd></div>
           <div><dt>100 %</dt><dd>manuell geprüfte Profile</dd></div>
-          <div><dt>20+ Jahre</dt><dd>Erfahrung in der Partnersuche</dd></div>
+          <div><dt>Seit 2008</dt><dd>Erfahrung im Online-Dating</dd></div>
         </dl>
       </div>
     </section>

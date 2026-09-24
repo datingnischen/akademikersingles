@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { AboutTemplate, FaqTemplate } from "@/components/company";
+import { AboutTemplate, FaqTemplate, ReviewsTemplate, SocialTemplate } from "@/components/company";
 import { HomeTemplate } from "@/components/home";
 import { SiteShell } from "@/components/site-shell";
 import { ArticleTemplate, GuideTemplate, LocationHubTemplate, LocationTemplate, MagazineHubTemplate, MagazineListingTemplate } from "@/components/templates";
@@ -56,6 +56,8 @@ function Template({ page }: { page: PublicPage }) {
     case "location": return <LocationTemplate page={page} />;
     case "about": return <AboutTemplate page={page} />;
     case "faq": return <FaqTemplate page={page} />;
+    case "about-reviews": return <ReviewsTemplate page={page} />;
+    case "social": return <SocialTemplate page={page} />;
     default: return <GuideTemplate page={page} />;
   }
 }

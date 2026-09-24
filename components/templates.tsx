@@ -24,6 +24,7 @@ export function crumbsFor(page: PublicPage): Crumb[] {
   else if (page.family === "guide") items.push({ name: guideLabel(page), href: page.path });
   else if (page.family === "magazine") items.push({ name: page.heroTitle, href: page.path });
   else if (page.family === "about" || page.family === "faq") items.push({ name: page.family === "faq" ? "FAQ" : page.heroTitle, href: page.path });
+  else if (page.family === "about-reviews" || page.family === "social") items.push({ name: "Über uns", href: "/ueber-uns/" }, { name: page.family === "social" ? "Social Media" : "Bewertungen", href: page.path });
   return items;
 }
 
