@@ -6,6 +6,7 @@ import { FAQ_GROUPS, faqPlainAnswer } from "@/lib/authored";
 import { getArticles, getCities, type PublicPage } from "@/lib/content";
 import { ORIGIN, REVIEW, REVIEW_SOURCES, SOCIAL, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./company.module.css";
+import { staticAsset } from "@/lib/static-asset";
 
 const FOUNDER = {
   name: "Christian M. Haas",
@@ -87,9 +88,9 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
       breadcrumbJsonLd(crumbs, ORIGIN),
       { "@type": "AboutPage", name: page.title, url: page.canonical, description: page.description, inLanguage: "de-DE", mainEntity: { "@id": `${ORIGIN}/#organization` } },
-      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: `${ORIGIN}/brand/logo.svg`, founder: { "@id": `${page.canonical}#gruender` } },
+      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: staticAsset("/brand/logo.svg"), founder: { "@id": `${page.canonical}#gruender` } },
       {
-        "@type": "Person", "@id": `${page.canonical}#gruender`, name: FOUNDER.name, jobTitle: FOUNDER.role, image: `${ORIGIN}${FOUNDER.image}`, url: `${page.canonical}#gruender`,
+        "@type": "Person", "@id": `${page.canonical}#gruender`, name: FOUNDER.name, jobTitle: FOUNDER.role, image: staticAsset(FOUNDER.image), url: `${page.canonical}#gruender`,
         knowsAbout: ["Online-Dating", "Partnersuche", "Singlebörsen"],
       },
       { "@type": "Book", "@id": `${page.canonical}#buch`, name: FOUNDER.book.title, alternateName: FOUNDER.book.subtitle, isbn: FOUNDER.book.isbn, datePublished: FOUNDER.book.published, inLanguage: "de-DE", url: FOUNDER.book.url, author: { "@id": `${page.canonical}#gruender` } },

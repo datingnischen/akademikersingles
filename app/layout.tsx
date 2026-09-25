@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
+import { staticAsset } from "@/lib/static-asset";
 import "./globals.css";
 
 const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["500", "600", "700"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(ORIGIN),
   title: SITE_NAME,
   description: "Die Partnersuche für Akademiker, Unternehmer und erfolgreiche Singles mit Anspruch.",
-  icons: { icon: "/brand/favicon-152.png", apple: "/brand/favicon-152.png" },
+  icons: { icon: staticAsset("/brand/favicon-152.png"), apple: staticAsset("/brand/favicon-152.png") },
 };
 
 export const viewport: Viewport = { themeColor: "#0b1730" };

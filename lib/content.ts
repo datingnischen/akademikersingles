@@ -2,6 +2,7 @@ import snapshot from "@/data/public-pages.json";
 import categorySnapshot from "@/data/magazine-categories.json";
 import { AUTHORED_PAGES } from "@/lib/authored";
 import { registrationUrl, type Aid } from "@/lib/site";
+import { imageOptimizerPath, staticAsset } from "./static-asset";
 
 export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
 
@@ -178,7 +179,7 @@ export function cardText(page: PublicPage): string {
 }
 
 function optimizedImage(src: string, width: number): string {
-  return `/_next/image?url=${encodeURIComponent(src)}&amp;w=${width}&amp;q=78`;
+  return `${imageOptimizerPath}?url=${encodeURIComponent(src)}&amp;w=${width}&amp;q=78`;
 }
 
 export type ImageCredit = { provider: string; label: string; href: string };
@@ -234,7 +235,9 @@ export function renderedContentHtml(page: PublicPage): string {
   return body
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>
-      `<img${before}src="${optimizedImage(src, 1200)}" srcset="${optimizedImage(src, 640)} 640w, ${optimizedImage(src, 1080)} 1080w, ${optimizedImage(src, 1920)} 1920w" sizes="(max-width: 760px) 100vw, 720px" decoding="async"${after}>`);
+      `<img${before}src="${optimizedImage(src, 1200)}" srcset="${optimizedImage(src, 640)} 640w, ${optimizedImage(src, 1080)} 1080w, ${optimizedImage(src, 1920)} 1920w" sizes="(max-width: 760px) 100vw, 720px" decoding="async"${after}>`)
+    // Übrige Dateien aus public/ (Audio-Fassungen, sonstige Grafiken) direkt vom Vercel-Host laden.
+    .replace(/\b(src|href|poster)="(\/imported\/[^"]+)"/g, (_match, attr: string, src: string) => `${attr}="${staticAsset(src)}"`);
 }
 
 export function hasAudio(page: PublicPage): boolean {

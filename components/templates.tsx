@@ -8,8 +8,9 @@ import {
 } from "@/lib/content";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import styles from "./templates.module.css";
+import { staticAsset } from "@/lib/static-asset";
 
-const PUBLISHER = { "@type": "Organization", name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: { "@type": "ImageObject", url: `${ORIGIN}/brand/logo.svg` } };
+const PUBLISHER = { "@type": "Organization", name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: { "@type": "ImageObject", url: staticAsset("/brand/logo.svg") } };
 
 export function crumbsFor(page: PublicPage): Crumb[] {
   const items: Crumb[] = [{ name: "Startseite", href: "/" }];
@@ -141,7 +142,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
       {
         "@type": "BlogPosting", headline: page.heroTitle, description: page.description, url: page.canonical, mainEntityOfPage: page.canonical,
         datePublished: page.published, dateModified: page.modified, inLanguage: "de-DE",
-        image: page.heroImage ? `${ORIGIN}${page.heroImage}` : undefined,
+        image: page.heroImage ? staticAsset(page.heroImage) : undefined,
         articleSection: category?.name, author: { "@type": "Organization", name: `${page.author?.name ?? "Redaktion"} AkademikerSingles`, url: `${ORIGIN}${page.author?.path ?? "/magazin/"}` },
         publisher: PUBLISHER,
       },
@@ -173,7 +174,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
 export function GuideTemplate({ page }: { page: PublicPage }) {
   const crumbs = crumbsFor(page);
   return <main>
-    <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumbJsonLd(crumbs, ORIGIN), { "@type": "Article", headline: page.heroTitle, description: page.description, url: page.canonical, inLanguage: "de-DE", image: page.heroImage ? `${ORIGIN}${page.heroImage}` : undefined, publisher: PUBLISHER }] }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumbJsonLd(crumbs, ORIGIN), { "@type": "Article", headline: page.heroTitle, description: page.description, url: page.canonical, inLanguage: "de-DE", image: page.heroImage ? staticAsset(page.heroImage) : undefined, publisher: PUBLISHER }] }} />
     <Hero page={page} eyebrow="Ratgeber" title={page.heroTitle} lead={page.description} image={page.heroImage} />
     <Body page={page} />
   </main>;

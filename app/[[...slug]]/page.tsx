@@ -7,6 +7,7 @@ import { ArticleTemplate, GuideTemplate, LocationHubTemplate, LocationTemplate, 
 import { JsonLd } from "@/components/ui";
 import { getPage, getPages, normalizeContentPath, pageRegistrationUrl, type PublicPage } from "@/lib/content";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
+import { staticAsset } from "@/lib/static-asset";
 
 type Props = { params: Promise<{ slug?: string[] }> };
 
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: "de_DE",
       type: page.family === "magazine" ? "article" : "website",
       ...(page.family === "magazine" ? { publishedTime: page.published, modifiedTime: page.modified } : {}),
-      ...(image ? { images: [{ url: `${ORIGIN}${image}` }] } : {}),
+      ...(image ? { images: [{ url: staticAsset(image) }] } : {}),
     },
     twitter: { card: "summary_large_image", title: page.title, description: page.description },
   };
@@ -66,7 +67,7 @@ export default async function PublicPageRoute({ params }: Props) {
   const page = await activePage(params);
   return <SiteShell registrationHref={pageRegistrationUrl(page)} current={page.path}>
     {page.family === "home" ? <JsonLd data={{ "@context": "https://schema.org", "@graph": [
-      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: `${ORIGIN}/brand/logo.svg` },
+      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: staticAsset("/brand/logo.svg") },
       { "@type": "WebSite", "@id": `${ORIGIN}/#website`, name: SITE_NAME, url: `${ORIGIN}/`, inLanguage: "de-DE", publisher: { "@id": `${ORIGIN}/#organization` } },
     ] }} /> : null}
     <Template page={page} />

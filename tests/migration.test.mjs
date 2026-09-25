@@ -158,3 +158,15 @@ test("Städteübersicht verweist auf die individuelle Suche der Live-Domain", as
   const site = await read("lib/site.ts");
   assert.match(site, /\$\{ORIGIN\}\/suche\/\?AID=\$\{aid\}/);
 });
+
+test("Assets kommen absolut vom Vercel-Host, weil nginx nur Seitenrouten durchreicht", async () => {
+  const config = await read("next.config.ts");
+  assert.match(config, /DEFAULT_ASSET_HOST = "https:\/\/akademikersingles\.vercel\.app"/);
+  assert.match(config, /assetPrefix: isDev \? undefined : `\$\{assetHost\}\$\{assetPathPrefix\}`/);
+  assert.match(config, /path: isDev \? "\/_next\/image" : `\$\{assetHost\}\/_next\/image`/);
+  assert.match(config, /source: `\$\{assetPathPrefix\}\/:path\*`, destination: "\/:path\*"/);
+  assert.match(await read("lib/static-asset.ts"), /DEFAULT_ASSET_HOST = "https:\/\/akademikersingles\.vercel\.app"/);
+  for (const file of ["app/layout.tsx", "components/site-shell.tsx"]) {
+    assert.doesNotMatch(await read(file), /(?:src=|icon: |apple: )"\/brand\//, `${file} lädt public/ relativ`);
+  }
+});

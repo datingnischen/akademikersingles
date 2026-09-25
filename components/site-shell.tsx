@@ -3,6 +3,7 @@ import Link from "next/link";
 import { categoryLabel, getCategories, getCities, getGuides, guideLabel } from "@/lib/content";
 import { FEATURE_LINKS, LEGAL_LINKS, LOGIN_URL, REVIEW, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./site-shell.module.css";
+import { staticAsset } from "@/lib/static-asset";
 
 const NAV = [
   { label: "Magazin", href: "/magazin/" },
@@ -23,7 +24,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
       </div>
       <div className={`container ${styles.bar}`}>
         <Link className={styles.brand} href="/" aria-label="AkademikerSingles – Startseite">
-          <Image src="/brand/logo.svg" alt="AkademikerSingles.de" width={232} height={30} priority />
+          <Image src={staticAsset("/brand/logo.svg")} alt="AkademikerSingles.de" width={232} height={30} priority />
         </Link>
         <nav className={styles.nav} aria-label="Hauptnavigation">
           {NAV.map(item => <Link key={item.href} href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</Link>)}
@@ -62,7 +63,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
       </div>
       <div className={`container ${styles.footerGrid}`}>
         <section className={styles.footerBrand}>
-          <Image src="/brand/logo-light.svg" alt="AkademikerSingles.de" width={200} height={26} className={styles.footerLogo} />
+          <Image src={staticAsset("/brand/logo-light.svg")} alt="AkademikerSingles.de" width={200} height={26} className={styles.footerLogo} />
           <p>Die Partnersuche für Akademiker, Unternehmer und erfolgreiche Singles, die Bildung, Stil und echte Gespräche zu schätzen wissen.</p>
           <a className={styles.footerSeal} href={REVIEW.url} target="_blank" rel="noopener">
             <Image src={REVIEW.seal} alt="Empfohlen von Singlebörsen-Überblick: 4,5 Sterne – sehr gut" width={120} height={180} />
