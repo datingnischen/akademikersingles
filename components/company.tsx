@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SearchForm } from "@/components/search-form";
 import { crumbsFor } from "@/components/templates";
 import { ArticleCard, Breadcrumbs, JsonLd, RegisterPanel, ReviewSeal, breadcrumbJsonLd } from "@/components/ui";
 import { FAQ_GROUPS, faqPlainAnswer } from "@/lib/authored";
 import { getArticles, getCities, type PublicPage } from "@/lib/content";
 import { ORIGIN, REVIEW, REVIEW_SOURCES, SOCIAL, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
+import { SEARCH_PATH } from "@/lib/search";
 import styles from "./company.module.css";
 import { staticAsset } from "@/lib/static-asset";
 
@@ -42,6 +44,7 @@ const ABOUT_NAV = [
   { label: "Social Media", href: "/ueber-uns/social-media/" },
   { label: "Erfolgsgeschichten", href: legacyUrl("/unsere-erfolgsgeschichten.html") },
   { label: "FAQ", href: "/faq/" },
+  { label: "Suche", href: SEARCH_PATH },
 ];
 
 const ABOUT_CARDS = [
@@ -53,7 +56,7 @@ const ABOUT_CARDS = [
   { eyebrow: "Das Magazin", title: "Erfolg, Stil & Tiefgang", text: "Artikel über Erfolg & Anziehung, Unternehmer Dating, Lifestyle, Status & Luxus und Beziehungen auf Augenhöhe.", href: "/magazin/", label: "Zum Magazin" },
 ];
 
-function AboutNav({ current }: { current: string }) {
+export function AboutNav({ current }: { current: string }) {
   return <nav className={styles.aboutNav} aria-label="Bereich Über uns">
     <div className="container">
       {ABOUT_NAV.map(item => {
@@ -148,6 +151,13 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
           </a>
         </div>
       </div>
+    </section>
+
+    <section className={`container ${styles.aboutSearch}`} aria-labelledby="seitensuche">
+      <p className="eyebrow">Suche</p>
+      <h2 className="display" id="seitensuche">Sie suchen etwas <em>Bestimmtes</em>?</h2>
+      <p>Durchsuchen Sie Magazin, Ratgeber, Städteseiten und häufige Fragen.</p>
+      <SearchForm id="suchbegriff-ueber-uns" />
     </section>
 
     <section className={`container ${styles.aboutCards}`} aria-labelledby="mehr-ueber-uns">

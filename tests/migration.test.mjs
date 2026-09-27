@@ -170,3 +170,19 @@ test("Assets kommen absolut vom Vercel-Host, weil nginx nur Seitenrouten durchre
     assert.doesNotMatch(await read(file), /(?:src=|icon: |apple: )"\/brand\//, `${file} lädt public/ relativ`);
   }
 });
+
+test("Seitensuche liegt unter /ueber-uns/suche/, ist noindex und nicht in der Sitemap", async () => {
+  const route = await read("app/ueber-uns/suche/page.tsx");
+  assert.match(route, /robots: \{ index: false, follow: true \}/);
+  assert.match(route, /canonical: `\$\{ORIGIN\}\$\{SEARCH_PATH\}`/);
+  assert.match(await read("lib/search.ts"), /export const SEARCH_PATH = "\/ueber-uns\/suche\/"/);
+  assert.ok(!paths.has("/ueber-uns/suche/"), "Über-uns-Seite „suche“ kollidiert mit der Suchroute");
+  assert.doesNotMatch(await read("app/sitemap.ts"), /suche/i);
+  for (const dir of ["app/suche", "app/themensuche"]) {
+    await assert.rejects(access(new URL(`../${dir}`, import.meta.url)), `${dir} darf es nicht geben – /suche/ gehört ICONY`);
+  }
+  const shell = await read("components/site-shell.tsx");
+  assert.match(shell, /href="\/ueber-uns\/suche\/"/);
+  assert.match(await read("components/company.tsx"), /<SearchForm id="suchbegriff-ueber-uns" \/>/);
+  assert.match(await read("components/search-form.tsx"), /action=\{SEARCH_PATH\} method="get"/);
+});

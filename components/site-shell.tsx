@@ -20,7 +20,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
     <a className={styles.skip} href="#inhalt">Zum Inhalt springen</a>
     <header className={styles.header}>
       <div className={styles.topbar}>
-        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><nav className={styles.topbarRight} aria-label="Service"><Link href="/ueber-uns/">Über uns</Link><Link href="/ueber-uns/bewertungen/">Bewertungen</Link><Link href="/ueber-uns/social-media/">Social Media</Link><Link href="/faq/">FAQ</Link><a href={legacyUrl("/hilfe/")}>Hilfe</a></nav></div>
+        <div className="container"><span><span className={styles.topbarExtra}>Über 750.000 Mitglieder · </span>Jedes Profil manuell geprüft</span><nav className={styles.topbarRight} aria-label="Service"><Link href="/ueber-uns/">Über uns</Link><Link href="/ueber-uns/bewertungen/">Bewertungen</Link><Link href="/ueber-uns/social-media/">Social Media</Link><Link href="/faq/">FAQ</Link><Link href="/ueber-uns/suche/">Suche</Link><a href={legacyUrl("/hilfe/")}>Hilfe</a></nav></div>
       </div>
       <div className={`container ${styles.bar}`}>
         <Link className={styles.brand} href="/" aria-label="AkademikerSingles – Startseite">
@@ -43,6 +43,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
             <Link href="/ueber-uns/bewertungen/">Bewertungen</Link>
             <Link href="/ueber-uns/social-media/">Social Media</Link>
             <Link href="/faq/">FAQ</Link>
+            <Link href="/ueber-uns/suche/">Suche</Link>
             <a href={LOGIN_URL}>Login</a>
             <a className="btn btn-gold" href={registration}>Kostenlos registrieren</a>
           </div>
