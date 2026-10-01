@@ -186,3 +186,15 @@ test("Seitensuche liegt unter /ueber-uns/suche/, ist noindex und nicht in der Si
   assert.match(await read("components/company.tsx"), /<SearchForm id="suchbegriff-ueber-uns" \/>/);
   assert.match(await read("components/search-form.tsx"), /action=\{SEARCH_PATH\} method="get"/);
 });
+
+test("Stadtdossiers: jede Kennzahl hat eine Quelle mit Link, die Stadt nutzt die Dossier-Vorlage", async () => {
+  const profile = JSON.parse(await read("data/city-profiles/hamburg.json"));
+  assert.ok(paths.has(profile.path), `${profile.path} ist keine Stadtseite`);
+  const ids = new Set(profile.sources.map(source => source.id));
+  for (const source of profile.sources) assert.match(source.url, /^https:\/\//, source.id);
+  const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
+  for (const metric of metrics) assert.ok(ids.has(metric.source), `${metric.label} ohne Quelle`);
+  assert.ok(profile.heroAlt, "Hero-Bild ohne Alt-Text");
+  const templates = await read("components/templates.tsx");
+  assert.match(templates, /if \(profile\) return <CityDossierTemplate/);
+});

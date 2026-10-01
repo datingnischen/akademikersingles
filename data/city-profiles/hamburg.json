@@ -1,0 +1,608 @@
+{
+  "path": "/partnersuche/hamburg/",
+  "eyebrow": "Partnersuche für Akademiker · Hansestadt",
+  "lead": "Exzellenzuniversität, DESY, Hafen, Airbus und Elbphilharmonie: In Hamburg hat fast jede dritte Arbeitskraft einen Hochschulabschluss – und in gut der Hälfte aller Haushalte lebt nur eine Person. Gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Speicherstadt in Hamburg am Abend – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "30 %",
+      "label": "der Beschäftigten in Hamburg haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "ba"
+    },
+    {
+      "value": "41 %",
+      "label": "der 25- bis 44-Jährigen haben studiert",
+      "source": "jb-bildung"
+    },
+    {
+      "value": "51 %",
+      "label": "aller Hamburger Haushalte sind Einpersonenhaushalte",
+      "source": "jb-bevoelkerung"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "121.397",
+      "label": "Studierende im Wintersemester 2024/25",
+      "source": "studierende"
+    },
+    {
+      "value": "29",
+      "label": "Hochschulen – von der Uni Hamburg bis zur Bucerius Law School",
+      "source": "hochschulen"
+    },
+    {
+      "value": "5",
+      "label": "Exzellenzcluster ab 2026, die Uni Hamburg ist erneut Exzellenzuniversität",
+      "source": "exzellenz"
+    },
+    {
+      "value": "852.000",
+      "label": "Konzerttickets der Elbphilharmonie in einer Saison",
+      "source": "elphi"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Nach Berlin hat Hamburg den höchsten Anteil an Hochschul- und Tertiärabschlüssen aller Bundesländer – und ist die große Wissenschaftsstadt im Norden.",
+      "metrics": [
+        {
+          "value": "42 %",
+          "label": "der 25- bis 64-Jährigen haben einen Tertiärabschluss",
+          "source": "isced",
+          "note": "ISCED 5–8, schließt Meister- und Technikerabschlüsse ein; Berlin 46 %",
+          "compare": {
+            "city": 42,
+            "germany": 34,
+            "unit": " %",
+            "max": 50
+          }
+        },
+        {
+          "value": "41 %",
+          "label": "Hochschulabschluss bei den 25- bis 44-Jährigen",
+          "source": "jb-bildung",
+          "note": "Bachelor, Master, Diplom oder Promotion – genau in der Altersgruppe, die am häufigsten sucht"
+        },
+        {
+          "value": "41.799",
+          "label": "Studierende allein an der Universität Hamburg",
+          "source": "jb-bildung",
+          "note": "Dazu TU Hamburg, HAW, Helmut-Schmidt-Universität, HafenCity Universität, HfMT, HFBK, Bucerius Law School, Kühne Logistics University u. a."
+        }
+      ],
+      "takeaway": "Ein Gespräch über Forschung, Bücher oder den nächsten Karriereschritt ist hier keine Ausnahme, sondern Alltag."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Hafen, Handel, Luftfahrt, Medien und Forschung: Hamburgs Wirtschaft lebt von Hochqualifizierten.",
+      "metrics": [
+        {
+          "value": "30 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "ba",
+          "note": "325.088 Personen; Hamburg 30.06.2025, Deutschland 31.12.2025",
+          "compare": {
+            "city": 30.0,
+            "germany": 20.8,
+            "unit": " %",
+            "max": 36
+          }
+        },
+        {
+          "value": "118.823 €",
+          "label": "Wirtschaftsleistung je Erwerbstätigen – Platz 1 der Bundesländer",
+          "source": "vgr",
+          "note": "Bruttoinlandsprodukt je Erwerbstätigen 2024",
+          "compare": {
+            "city": 118823,
+            "germany": 93426,
+            "unit": " €",
+            "max": 130000
+          }
+        },
+        {
+          "value": "203",
+          "label": "Startup-Gründungen im Jahr 2025",
+          "source": "startup",
+          "note": "Drittgrößtes Startup-Ökosystem nach Berlin und München; gut jedes fünfte Startup aus dem GreenTech-Bereich"
+        }
+      ],
+      "takeaway": "Wer hier sucht, trifft auf Menschen, die beruflich angekommen sind – und jemanden suchen, der genau das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Hamburg ist das jüngste Bundesland, viele leben allein und entscheiden sich später für die feste Partnerschaft.",
+      "metrics": [
+        {
+          "value": "51 %",
+          "label": "Einpersonenhaushalte",
+          "source": "jb-bevoelkerung",
+          "note": "Mikrozensus: Hamburg 2023, Deutschland 2024",
+          "compare": {
+            "city": 51.1,
+            "germany": 41.6,
+            "unit": " %",
+            "max": 60
+          }
+        },
+        {
+          "value": "34,3 · 36,4",
+          "label": "Jahre: Heiratsalter lediger Frauen und Männer",
+          "source": "jb-bevoelkerung",
+          "note": "2024; bundesweit 32,9 und 35,3 Jahre"
+        },
+        {
+          "value": "42,3",
+          "label": "Jahre Durchschnittsalter – Hamburg ist das jüngste Bundesland",
+          "source": "destatis-alter",
+          "note": "Stand 31.12.2025",
+          "compare": {
+            "city": 42.3,
+            "germany": 45.0,
+            "unit": " J.",
+            "max": 50
+          }
+        }
+      ],
+      "takeaway": "Erst Karriere, dann die passende Partnerschaft: In Hamburg sind Sie damit nicht spät dran, sondern im Takt der Stadt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Hafen, Logistik & Handel",
+      "text": "Deutschlands größter Seehafen und die Logistik-Initiative Hamburg – von Reedereien über Handelshäuser bis zur Kühne Logistics University."
+    },
+    {
+      "name": "Luftfahrt",
+      "text": "Das Cluster Hamburg Aviation mit Airbus in Finkenwerder, Lufthansa Technik und zahlreichen Zulieferern – Ingenieurinnen und Ingenieure aus aller Welt."
+    },
+    {
+      "name": "Life Sciences & Medizin",
+      "text": "Life Science Nord, das UKE, das Bernhard-Nocht-Institut und das Leibniz-Institut für Virologie: Medizin und Forschung auf hohem Niveau."
+    },
+    {
+      "name": "Medien, Digitales & Kreativwirtschaft",
+      "text": "nextMedia.Hamburg bündelt Verlage, Agenturen, Games- und Tech-Unternehmen – viele davon in HafenCity, Altstadt und Ottensen."
+    },
+    {
+      "name": "Erneuerbare Energien & GreenTech",
+      "text": "Wind, Wasserstoff und Klimaforschung: vom Cluster Erneuerbare Energien bis zum Exzellenzcluster für Klimaforschung CLICCS."
+    },
+    {
+      "name": "Wissenschaft & Forschung",
+      "text": "DESY, European XFEL, drei Max-Planck-Institute, das Helmholtz-Zentrum Hereon und Fraunhofer – Hamburg zieht Forschende aus aller Welt an."
+    }
+  ],
+  "places": [
+    {
+      "name": "Universität Hamburg",
+      "kind": "work",
+      "district": "Rotherbaum · Campus Von-Melle-Park",
+      "text": "Hamburgs größte Hochschule, seit 2019 Exzellenzuniversität. Rund um den Campus liegen Cafés und das Grindelviertel.",
+      "lat": 53.5672,
+      "lon": 9.9845
+    },
+    {
+      "name": "UKE – Universitätsklinikum",
+      "kind": "work",
+      "district": "Eppendorf",
+      "text": "Arbeitsort vieler Ärztinnen, Ärzte und Forschender – Eppendorf ist zugleich eines der beliebtesten Wohnviertel.",
+      "lat": 53.5895,
+      "lon": 9.9755
+    },
+    {
+      "name": "DESY & Science City",
+      "kind": "work",
+      "district": "Bahrenfeld",
+      "text": "Forschungszentrum für Teilchenbeschleuniger und Photonenforschung; hier entsteht die Science City Hamburg Bahrenfeld.",
+      "lat": 53.5755,
+      "lon": 9.879
+    },
+    {
+      "name": "HafenCity",
+      "kind": "work",
+      "district": "HafenCity · Überseequartier",
+      "text": "Neues Stadtquartier mit Unternehmenszentralen, Verlagen und der HafenCity Universität – ideal für das After-Work-Treffen.",
+      "lat": 53.5395,
+      "lon": 10.006
+    },
+    {
+      "name": "Airbus-Werk",
+      "kind": "work",
+      "district": "Finkenwerder",
+      "text": "Einer der größten Standorte der zivilen Luftfahrt weltweit – Ingenieurinnen und Ingenieure aus aller Welt arbeiten hier.",
+      "lat": 53.5375,
+      "lon": 9.836
+    },
+    {
+      "name": "TU Hamburg",
+      "kind": "work",
+      "district": "Harburg",
+      "text": "Technische Universität südlich der Elbe mit Schwerpunkten in Ingenieurwesen, Logistik und Green Technologies.",
+      "lat": 53.4605,
+      "lon": 9.9695
+    },
+    {
+      "name": "Elbphilharmonie",
+      "kind": "date",
+      "district": "HafenCity · Platz der Deutschen Einheit",
+      "text": "Ein Konzert im Großen Saal – der Stadt-Guide empfiehlt es ausdrücklich. Die Plaza ist auch ohne Ticket ein schöner Treffpunkt.",
+      "lat": 53.5413,
+      "lon": 9.9841
+    },
+    {
+      "name": "Planten un Blomen",
+      "kind": "date",
+      "district": "St. Pauli · Neustadt",
+      "text": "Park mit wechselnder Pflanzenpracht für den Spaziergang zu zweit – im Sommer mit Wasserlichtkonzerten.",
+      "lat": 53.5585,
+      "lon": 9.981
+    },
+    {
+      "name": "Außenalster",
+      "kind": "date",
+      "district": "Harvestehude · Uhlenhorst",
+      "text": "Bars mit Blick aufs Wasser, Bootsverleih und der Rundweg um die Alster – klassisch und unkompliziert.",
+      "lat": 53.566,
+      "lon": 10.011
+    },
+    {
+      "name": "Kunsthalle & Deichtorhallen",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Kunst von Alten Meistern bis zur Gegenwart, die Deichtorhallen zeigen Fotografie und zeitgenössische Kunst.",
+      "lat": 53.5525,
+      "lon": 10.0035
+    },
+    {
+      "name": "Elbstrand Övelgönne",
+      "kind": "date",
+      "district": "Othmarschen",
+      "text": "Spaziergang an der Elbe mit Blick auf die Containerschiffe – für das zweite Date, wenn man länger reden möchte.",
+      "lat": 53.545,
+      "lon": 9.905
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 9.78,
+      "east": 10.1,
+      "south": 53.44,
+      "north": 53.605
+    },
+    "rivers": [
+      {
+        "major": true,
+        "points": [
+          [
+            53.558,
+            9.78
+          ],
+          [
+            53.556,
+            9.82
+          ],
+          [
+            53.549,
+            9.865
+          ],
+          [
+            53.545,
+            9.905
+          ],
+          [
+            53.5448,
+            9.945
+          ],
+          [
+            53.5445,
+            9.968
+          ],
+          [
+            53.541,
+            9.986
+          ],
+          [
+            53.537,
+            10.005
+          ],
+          [
+            53.535,
+            10.03
+          ],
+          [
+            53.512,
+            10.05
+          ],
+          [
+            53.47,
+            10.062
+          ],
+          [
+            53.445,
+            10.1
+          ]
+        ]
+      },
+      {
+        "points": [
+          [
+            53.548,
+            9.865
+          ],
+          [
+            53.522,
+            9.9
+          ],
+          [
+            53.495,
+            9.94
+          ],
+          [
+            53.474,
+            9.98
+          ],
+          [
+            53.465,
+            10.03
+          ],
+          [
+            53.47,
+            10.062
+          ]
+        ]
+      },
+      {
+        "points": [
+          [
+            53.605,
+            10.012
+          ],
+          [
+            53.585,
+            10.013
+          ],
+          [
+            53.578,
+            10.008
+          ]
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "lat": 53.566,
+        "lon": 10.006,
+        "rx": 20,
+        "ry": 34
+      },
+      {
+        "lat": 53.5535,
+        "lon": 9.995,
+        "rx": 7,
+        "ry": 6
+      }
+    ],
+    "labels": [
+      {
+        "text": "Alster",
+        "lat": 53.575,
+        "lon": 10.024
+      },
+      {
+        "text": "Elbe",
+        "lat": 53.536,
+        "lon": 9.79
+      },
+      {
+        "text": "Süderelbe",
+        "lat": 53.505,
+        "lon": 9.84
+      },
+      {
+        "text": "Altona",
+        "lat": 53.5615,
+        "lon": 9.925,
+        "district": true
+      },
+      {
+        "text": "Eimsbüttel",
+        "lat": 53.577,
+        "lon": 9.948,
+        "district": true
+      },
+      {
+        "text": "Eppendorf",
+        "lat": 53.598,
+        "lon": 9.99,
+        "district": true
+      },
+      {
+        "text": "Bahrenfeld",
+        "lat": 53.588,
+        "lon": 9.879,
+        "district": true
+      },
+      {
+        "text": "Finkenwerder",
+        "lat": 53.523,
+        "lon": 9.836,
+        "district": true
+      },
+      {
+        "text": "Hafen",
+        "lat": 53.527,
+        "lon": 9.945,
+        "district": true
+      },
+      {
+        "text": "Wilhelmsburg",
+        "lat": 53.497,
+        "lon": 10.005,
+        "district": true
+      },
+      {
+        "text": "Harburg",
+        "lat": 53.448,
+        "lon": 9.97,
+        "district": true
+      },
+      {
+        "text": "Barmbek",
+        "lat": 53.592,
+        "lon": 10.058,
+        "district": true
+      },
+      {
+        "text": "St. Georg",
+        "lat": 53.5575,
+        "lon": 10.032,
+        "district": true
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Hamburg?",
+      "answer": "Laut Mikrozensus 2023 haben rund 454.000 Hamburgerinnen und Hamburger ab 15 Jahren einen akademischen Abschluss, das sind etwa 29 Prozent. Bei den 25- bis 44-Jährigen sind es rund 41 Prozent. Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Hamburg hat fast jede dritte Person einen Hochschulabschluss (30 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Hamburg viele Singles?",
+      "answer": "In gut der Hälfte aller Hamburger Haushalte lebt nur eine Person (51 Prozent laut Mikrozensus 2023, bundesweit 41,6 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem heiraten Hamburgerinnen und Hamburger im Schnitt später als der Bundesdurchschnitt."
+    },
+    {
+      "question": "Wo lernen Akademiker in Hamburg Singles kennen?",
+      "answer": "Neben der Kultur – Elbphilharmonie, Theater, Kunsthalle und Deichtorhallen – eignen sich die Bars an der Alster, Festivals und öffentliche Vorträge der Hochschulen. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ba",
+      "publisher": "Bundesagentur für Arbeit / Statistikamt Nord",
+      "title": "Sozialversicherungspflichtig Beschäftigte am Arbeitsort nach Berufsabschluss",
+      "stand": "Stand 30.06.2025",
+      "url": "https://metropolregion.hamburg.de/unsere-services/statistikportal/sozialversicherungspflichtig-beschaeftigte-14862"
+    },
+    {
+      "id": "destatis-besch",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Strukturdaten sozialversicherungspflichtig Beschäftigter",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/strukturdaten.html"
+    },
+    {
+      "id": "jb-bildung",
+      "publisher": "Statistikamt Nord",
+      "title": "Statistisches Jahrbuch Hamburg 2024, Kap. 2 Bildung (Tab. 2.2 und 2.6)",
+      "stand": "Mikrozensus 2023, Wintersemester 2023/24",
+      "url": "https://www.statistik-nord.de/fileadmin/Dokumente/JB2024HH_02.xlsx"
+    },
+    {
+      "id": "isced",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Internationale Bildungsindikatoren im Ländervergleich 2025",
+      "stand": "Mikrozensus 2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsstand/Publikationen/Downloads-Bildungsstand/bildungsindikatoren-1023017257004.pdf?__blob=publicationFile&v=2"
+    },
+    {
+      "id": "studierende",
+      "publisher": "Behörde für Wissenschaft, Forschung und Gleichstellung Hamburg",
+      "title": "Zahl der Studierenden an Hamburger Hochschulen steigt auf über 120.000",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/aktuelles/pressemeldungen/zahl-der-studierenden-an-hamburger-hochschulen-steigt-auf-ueber-120-000-studierende-1050446"
+    },
+    {
+      "id": "hochschulen",
+      "publisher": "CHE Centrum für Hochschulentwicklung",
+      "title": "Hochschuldaten Hamburg (auf Basis Destatis)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://hochschuldaten.che.de/hamburg/hochschulen/"
+    },
+    {
+      "id": "exzellenz",
+      "publisher": "Behörde für Wissenschaft, Forschung und Gleichstellung Hamburg",
+      "title": "Hamburg setzt mit fünf Exzellenzclustern Erfolgskurs in der Spitzenforschung fort",
+      "stand": "Entscheidung vom 22.05.2025",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/aktuelles/pressemeldungen/hamburg-setzt-mit-fuenf-exzellenzclustern-erfolgskurs-in-der-spitzenforschung-fort-1063320"
+    },
+    {
+      "id": "uhh",
+      "publisher": "Universität Hamburg",
+      "title": "Universität Hamburg erneut Exzellenzuniversität",
+      "stand": "Pressemitteilung vom 11.03.2026",
+      "url": "https://www.uni-hamburg.de/newsroom/presse/2026/pm8.html"
+    },
+    {
+      "id": "vgr",
+      "publisher": "Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Länder",
+      "title": "VGR der Länder – Broschüre 2025, Tab. 3",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.statistikportal.de/sites/default/files/2025-12/vgrdl_broschure_2025_0.pdf"
+    },
+    {
+      "id": "startup",
+      "publisher": "Startup-Verband und Handelskammer Hamburg",
+      "title": "Hamburg Startup Monitor 2026 (nicht amtlich)",
+      "stand": "Gründungen 2025",
+      "url": "https://startupverband.de/presse/pressemitteilungen/dynamik-bei-neugruendungen,-zurueckhaltung-bei-finanzierung-%E2%80%93-hamburgs-startup-oekosystem-waechst,-muss-aber-jetzt-skalieren-26-03-2026/"
+    },
+    {
+      "id": "jb-bevoelkerung",
+      "publisher": "Statistikamt Nord",
+      "title": "Statistisches Jahrbuch Hamburg 2024, Kap. 1 Bevölkerung (Tab. 1.13 und 1.24)",
+      "stand": "Mikrozensus 2023, Heiratsalter 2024",
+      "url": "https://www.statistik-nord.de/fileadmin/Dokumente/JB2024HH_01.xlsx"
+    },
+    {
+      "id": "destatis-haushalte",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Pressemitteilung zu Einpersonenhaushalten in Deutschland",
+      "stand": "Mikrozensus 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N036_12.html"
+    },
+    {
+      "id": "destatis-heirat",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Eheschließungen und durchschnittliches Heiratsalter Lediger",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Eheschliessungen-Ehescheidungen-Lebenspartnerschaften/Tabellen/eheschliessungen-heiratsalter.html"
+    },
+    {
+      "id": "destatis-alter",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Durchschnittsalter der Bevölkerung nach Bundesländern",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N067_12.html"
+    },
+    {
+      "id": "elphi",
+      "publisher": "HamburgMusik gGmbH",
+      "title": "Geschäftsbericht Saison 2023/24 (Elbphilharmonie und Laeiszhalle)",
+      "stand": "Saison 2023/24",
+      "url": "https://www.hamburg.de/resource/blob/1085450/7bd8cf274501122b96becbce19902403/hhm-geschaeftsbericht-2024-data.pdf"
+    },
+    {
+      "id": "cluster",
+      "publisher": "Hamburg Invest",
+      "title": "So stärkt der Wirtschaftsstandort Hamburg seine Resilienz (Clusterpolitik)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://hamburg-business.com/de/news/so-staerkt-der-wirtschaftsstandort-hamburg-seine-resilienz"
+    },
+    {
+      "id": "forschung",
+      "publisher": "Behörde für Wissenschaft, Forschung und Gleichstellung Hamburg",
+      "title": "Forschungseinrichtungen in Hamburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bwfg/unsere-themen/forschung-und-wissenstransfer/forschungseinrichtungen"
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CitySearchFallback } from "@/components/city-search-fallback";
+import { CityDossierTemplate } from "@/components/city-dossier";
 import { ArticleCard, Breadcrumbs, CityTile, ImageCredits, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
 import {
   aidFor, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
   guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
+import { getCityProfile } from "@/lib/city-profile";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import styles from "./templates.module.css";
 import { staticAsset } from "@/lib/static-asset";
@@ -215,6 +217,8 @@ export function LocationHubTemplate({ page }: { page: PublicPage }) {
 }
 
 export function LocationTemplate({ page }: { page: PublicPage }) {
+  const profile = getCityProfile(page.path);
+  if (profile) return <CityDossierTemplate page={page} profile={profile} crumbs={crumbsFor(page)} />;
   const register = pageRegistrationUrl(page);
   const neighbours = moreCities(page);
   const crumbs = crumbsFor(page);
