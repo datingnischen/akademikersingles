@@ -1,7 +1,9 @@
-import hamburg from "@/data/city-profiles/hamburg.json";
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 
 // Stadtdossier: belegte Kennzahlen zu Bildung, Beruf und Single-Leben einer Stadt.
-// Jede Zahl verweist per `source` auf einen Eintrag in `sources` (Institution, Stand, URL).
+// Jede Zahl verweist per `source` auf einen Eintrag in `sources` (Institution, Stand, URL);
+// `compareSource` belegt den Deutschland-Vergleich bzw. eine zweite Quelle. Eine Datei je Stadt in data/city-profiles/.
 
 export type Comparison = { city: number; germany: number; unit: string; max?: number };
 
@@ -10,6 +12,7 @@ export type Metric = {
   label: string;
   note?: string;
   source: string;
+  compareSource?: string;
   compare?: Comparison;
 };
 
@@ -41,29 +44,42 @@ export type CityProfile = {
   kpis: Metric[];
   dossier: DossierChapter[];
   clusters: { name: string; text: string }[];
+  clusterSources?: string[];
   places: Place[];
   map: {
     bounds: { west: number; east: number; south: number; north: number };
-    rivers: { major?: boolean; points: [number, number][] }[];
-    lakes: { lat: number; lon: number; rx: number; ry: number }[];
+    rivers: { name?: string; major?: boolean; points: [number, number][] }[];
+    areas: { kind: "water" | "green"; name?: string; points: [number, number][] }[];
     labels: { text: string; lat: number; lon: number; district?: boolean }[];
+    boundary?: [number, number][][];
   };
   faq: { question: string; answer: string }[];
   sources: Source[];
 };
 
-const PROFILES = new Map<string, CityProfile>([[hamburg.path, hamburg as CityProfile]]);
+const PROFILE_DIR = join(process.cwd(), "data", "city-profiles");
+let cache: Map<string, CityProfile> | null = null;
 
-for (const profile of PROFILES.values()) {
-  const ids = new Set(profile.sources.map(source => source.id));
-  const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
-  for (const metric of metrics) {
-    if (!ids.has(metric.source)) throw new Error(`${profile.path}: Kennzahl „${metric.label}“ ohne Quelle ${metric.source}`);
+function loadProfiles(): Map<string, CityProfile> {
+  const profiles = new Map<string, CityProfile>(readdirSync(PROFILE_DIR).filter(file => file.endsWith(".json")).map(file => {
+    const profile = JSON.parse(readFileSync(join(PROFILE_DIR, file), "utf8")) as CityProfile;
+    return [profile.path, profile];
+  }));
+  for (const profile of profiles.values()) {
+    const ids = new Set(profile.sources.map(source => source.id));
+    const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
+    const used = [...metrics.flatMap(metric => [metric.source, metric.compareSource ?? metric.source]), ...(profile.clusterSources ?? [])];
+    for (const id of used) {
+      if (!ids.has(id)) throw new Error(`${profile.path}: Quelle ${id} fehlt in sources`);
+    }
   }
+  return profiles;
 }
 
+// Im Dev-Modus jedes Mal neu lesen, damit neue Profile ohne Neustart erscheinen.
 export function getCityProfile(path: string): CityProfile | null {
-  return PROFILES.get(path) ?? null;
+  const profiles = process.env.NODE_ENV === "production" ? (cache ??= loadProfiles()) : loadProfiles();
+  return profiles.get(path) ?? null;
 }
 
 export function sourceNumber(profile: CityProfile, id: string): number {

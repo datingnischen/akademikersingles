@@ -1,0 +1,2587 @@
+{
+  "path": "/partnersuche/stuttgart/",
+  "eyebrow": "Partnersuche für Akademiker · Landeshauptstadt am Neckar",
+  "lead": "Universität Stuttgart, Fraunhofer, Max-Planck, Mercedes-Benz, Porsche und Bosch: In Stuttgart haben 38 Prozent der Beschäftigten einen Hochschulabschluss – fast doppelt so viele wie im Bundesschnitt – und in knapp der Hälfte aller Haushalte lebt nur eine Person. Gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Schlossplatz mit Jubiläumssäule und Neuem Schloss in Stuttgart – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "38 %",
+      "label": "der Beschäftigten in Stuttgart haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "ba"
+    },
+    {
+      "value": "33,5 %",
+      "label": "der Stuttgarterinnen und Stuttgarter ab 15 Jahren haben studiert – bundesweit gut 20 %",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "48 %",
+      "label": "aller Stuttgarter Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "56.627",
+      "label": "Studierende im Wintersemester 2025/26",
+      "source": "studierende"
+    },
+    {
+      "value": "18",
+      "label": "Hochschulen – 7 staatliche und 11 private, von der Universität Stuttgart bis zur Merz Akademie",
+      "source": "hochschulen",
+      "note": "Gezählt nach dem Statistischen Bericht zum Wintersemester 2024/25; private Hochschulen einschließlich Studienzentren auswärtiger Träger"
+    },
+    {
+      "value": "5",
+      "label": "Fraunhofer-Institute im Institutszentrum Stuttgart – das zweitgrößte Forschungszentrum der Fraunhofer-Gesellschaft in Deutschland",
+      "source": "fraunhofer"
+    },
+    {
+      "value": "4,3 Mio.",
+      "label": "Museumsbesuche im Jahr 2025 – vom Mercedes-Benz Museum bis zur Staatsgalerie",
+      "source": "museen",
+      "note": "Berechnet: Summe der 4.292.333 Besuche aller ausgewiesenen Museen und museumsähnlichen Einrichtungen"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Zwei Universitäten, zwei Kunsthochschulen, zwei staatliche Hochschulen für angewandte Wissenschaften und die DHBW – dazu Fraunhofer, Max-Planck und DLR auf dem Campus Vaihingen.",
+      "metrics": [
+        {
+          "value": "33,5 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "Berechnet: 172.230 von 514.040 Personen mit Bachelor, Master, Diplom oder Promotion; Deutschland 20,2 %",
+          "compare": {
+            "city": 33.5,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 40
+          }
+        },
+        {
+          "value": "20.536",
+          "label": "Studierende allein an der Universität Stuttgart",
+          "source": "uni-zahlen",
+          "note": "Wintersemester 2025/26; dazu Universität Hohenheim, Hochschule der Medien, Hochschule für Technik, Akademie der Bildenden Künste, Musikhochschule, DHBW und private Hochschulen"
+        },
+        {
+          "value": "7 Jahre",
+          "label": "weitere Förderung für das Exzellenzcluster IntCDC der Universität Stuttgart",
+          "source": "exzellenz",
+          "note": "Integrative Computational Design and Construction for Transformative Architecture – mit dem Max-Planck-Institut für Intelligente Systeme und Bauhaus Erde; bekannt gegeben am 22.05.2025"
+        }
+      ],
+      "takeaway": "Ob Simulation, Architektur oder Agrarforschung: Hier treffen Sie Menschen, die neugierig und präzise denken – und genau das auch im Gespräch schätzen."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Automobil, Maschinenbau, IT und Finanzwirtschaft: Stuttgart verbindet Weltkonzerne mit Spitzenforschung und einem starken Mittelstand.",
+      "metrics": [
+        {
+          "value": "38 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "ba",
+          "note": "Berechnet: 167.130 von 437.968 Beschäftigten am Arbeitsort; bei Beschäftigten mit Wohnort Stuttgart 39,9 %; Stuttgart und Deutschland jeweils 31.03.2026",
+          "compare": {
+            "city": 38.2,
+            "germany": 20.9,
+            "unit": " %",
+            "max": 45
+          }
+        },
+        {
+          "value": "135.531 €",
+          "label": "Wirtschaftsleistung je Erwerbstätigen",
+          "source": "vgr",
+          "note": "Bruttoinlandsprodukt je Erwerbstätigen 2024, rund 44 % über dem Bundeswert (berechnet)",
+          "compare": {
+            "city": 135531,
+            "germany": 94135,
+            "unit": " €",
+            "max": 160000
+          }
+        },
+        {
+          "value": "118.000",
+          "label": "Menschen arbeiten in der Region Stuttgart unmittelbar im Automobil-Cluster",
+          "source": "automobil",
+          "note": "Region Stuttgart (Stadt und umliegende Landkreise); u. a. Mercedes-Benz, Porsche, Bosch, Mahle, Mann+Hummel und Vector Informatik"
+        }
+      ],
+      "takeaway": "Wer hier sucht, trifft auf Menschen mit Verantwortung im Beruf – und mit dem Wunsch nach jemandem, der genau das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Viele Stuttgarterinnen und Stuttgarter leben allein, und die Altersgruppe zwischen 25 und 39 ist deutlich stärker vertreten als im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "48 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "144.248 von 301.380 Haushalten (berechnet); Zensus 2022, Deutschland gleicher Stichtag",
+          "compare": {
+            "city": 47.9,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 56
+          }
+        },
+        {
+          "value": "25 %",
+          "label": "der Einwohnerinnen und Einwohner sind 25 bis 39 Jahre alt",
+          "source": "zensus-demografie",
+          "note": "Berechnet: 152.584 von 610.458 Personen; Zensus 2022, Deutschland gleicher Stichtag",
+          "compare": {
+            "city": 25.0,
+            "germany": 18.9,
+            "unit": " %",
+            "max": 30
+          }
+        },
+        {
+          "value": "50 %",
+          "label": "der Einwohnerinnen und Einwohner sind ledig",
+          "source": "zensus-demografie",
+          "note": "304.764 Personen, alle Altersgruppen einschließlich Kinder (berechnet); bundesweit 42 %"
+        }
+      ],
+      "takeaway": "In einer Stadt, in der so viele allein leben, ist die bewusste Suche nach dem passenden Menschen ganz selbstverständlich."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Automobil & Mobilität",
+      "text": "Mercedes-Benz, Porsche und Bosch prägen den Standort, dazu Zulieferer wie Mahle, Mann+Hummel und Vector Informatik sowie Forschung am FKFS und am Institut für Fahrzeugtechnik."
+    },
+    {
+      "name": "Maschinenbau & Produktion",
+      "text": "Weltbekannte Namen der Region wie Trumpf, Festo, Dürr, Kärcher und Stihl – mit dem Fraunhofer IPA in Vaihingen als Forschungspartner für die Fabrik der Zukunft."
+    },
+    {
+      "name": "IT, KI & Hochleistungsrechnen",
+      "text": "IBM, HP, T-Systems, GFT und TeamViewer, das Höchstleistungsrechenzentrum HLRS und das Max-Planck-Institut für Intelligente Systeme als Mitbegründer des KI-Netzwerks Cyber Valley."
+    },
+    {
+      "name": "Finanzplatz & Versicherungen",
+      "text": "Die Börse Stuttgart, die Landesbank Baden-Württemberg und der zweitgrößte Allianz-Standort in Stuttgart-West – dazu zahlreiche Banken und Versicherer."
+    },
+    {
+      "name": "Luft- und Raumfahrt",
+      "text": "Das DLR forscht in Stuttgart in mehreren Instituten, das Stuttgarter Unternehmen H2Fly entwickelt Wasserstoffflugzeuge, Tesat-Spacecom in der Region Satellitentechnik."
+    },
+    {
+      "name": "Kreativwirtschaft & Architektur",
+      "text": "Hochschule der Medien, Akademie der Bildenden Künste und international tätige Büros wie Atelier Brückner oder Schlaich Bergermann Partner – dazu Software- und Games-Firmen."
+    }
+  ],
+  "clusterSources": [
+    "automobil",
+    "maschinenbau",
+    "it",
+    "finanz",
+    "luftfahrt",
+    "kreativ"
+  ],
+  "places": [
+    {
+      "name": "Universität Stuttgart – Campus Stadtmitte",
+      "kind": "work",
+      "district": "Stuttgart-Mitte · Keplerstraße",
+      "text": "Der Innenstadt-Campus der größten Stuttgarter Hochschule liegt nur wenige Gehminuten von Hauptbahnhof und Liederhalle entfernt.",
+      "lat": 48.7816,
+      "lon": 9.1746
+    },
+    {
+      "name": "Forschungscampus Vaihingen",
+      "kind": "work",
+      "district": "Vaihingen · Pfaffenwaldring",
+      "text": "Hauptcampus der Universität Stuttgart, in direkter Nachbarschaft zu Fraunhofer-Instituten, dem Max-Planck-Institut für Intelligente Systeme und dem DLR.",
+      "lat": 48.7466,
+      "lon": 9.1078
+    },
+    {
+      "name": "Universität Hohenheim",
+      "kind": "work",
+      "district": "Plieningen · Schloss Hohenheim",
+      "text": "Universität für Agrar-, Natur- sowie Wirtschafts- und Sozialwissenschaften mit Schloss und Gärten als Campus.",
+      "lat": 48.7134,
+      "lon": 9.2121
+    },
+    {
+      "name": "Porsche Zuffenhausen",
+      "kind": "work",
+      "district": "Zuffenhausen · Porscheplatz",
+      "text": "Stammsitz des Sportwagenherstellers mit Werk und Porsche-Museum – Arbeitsort vieler Ingenieurinnen und Ingenieure.",
+      "lat": 48.8341,
+      "lon": 9.1516
+    },
+    {
+      "name": "Bosch Feuerbach",
+      "kind": "work",
+      "district": "Feuerbach",
+      "text": "Großer Bosch-Standort im Stuttgarter Norden – Arbeitsort vieler Ingenieurinnen, Ingenieure und IT-Fachleute.",
+      "lat": 48.8187,
+      "lon": 9.1667
+    },
+    {
+      "name": "Mercedes-Benz Untertürkheim",
+      "kind": "work",
+      "district": "Untertürkheim · Neckartal",
+      "text": "Traditionsreiches Mercedes-Benz-Werk am Neckar; das Mercedes-Benz Museum liegt nur wenige Minuten entfernt.",
+      "lat": 48.7853,
+      "lon": 9.2391
+    },
+    {
+      "name": "Staatstheater Stuttgart",
+      "kind": "date",
+      "district": "Stuttgart-Mitte · Oberer Schlossgarten",
+      "text": "Oper, Ballett und Schauspiel unter einem Dach – der Stadt-Guide empfiehlt den Theaterabend zu zweit. Staatsgalerie und Kammertheater liegen gleich nebenan.",
+      "lat": 48.7796,
+      "lon": 9.1846
+    },
+    {
+      "name": "Kunstmuseum am Schlossplatz",
+      "kind": "date",
+      "district": "Stuttgart-Mitte · Schlossplatz",
+      "text": "Moderne und zeitgenössische Kunst im Glaswürfel; davor lädt der Schlossplatz zum Verweilen ein.",
+      "lat": 48.7783,
+      "lon": 9.1776
+    },
+    {
+      "name": "Liederhalle",
+      "kind": "date",
+      "district": "Stuttgart-Mitte · Berliner Platz",
+      "text": "Klassik, Jazz und moderne Konzerte – ein guter Ort für ein erstes Date mit Gesprächsstoff.",
+      "lat": 48.7791,
+      "lon": 9.1693
+    },
+    {
+      "name": "Höhenpark Killesberg",
+      "kind": "date",
+      "district": "Stuttgart-Nord · Killesberg",
+      "text": "Weitläufiger Park mit Aussichtsturm und Blick über die Stadt – ideal für einen langen Spaziergang.",
+      "lat": 48.8052,
+      "lon": 9.1715
+    },
+    {
+      "name": "Rosensteinpark",
+      "kind": "date",
+      "district": "Bad Cannstatt · Schloss Rosenstein",
+      "text": "Großer englischer Landschaftspark mit Schloss Rosenstein und Naturkundemuseum, verbunden mit dem Schlossgarten.",
+      "lat": 48.8031,
+      "lon": 9.2001
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 9.034,
+      "east": 9.313,
+      "south": 48.695,
+      "north": 48.848
+    },
+    "rivers": [
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.76448,
+            9.26032
+          ],
+          [
+            48.77139,
+            9.25576
+          ],
+          [
+            48.77258,
+            9.25146
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.73149,
+            9.3141
+          ],
+          [
+            48.73357,
+            9.3098
+          ],
+          [
+            48.73121,
+            9.31347
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.80028,
+            9.21106
+          ],
+          [
+            48.80028,
+            9.21106
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.79926,
+            9.21253
+          ],
+          [
+            48.80185,
+            9.21007
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.78126,
+            9.23932
+          ],
+          [
+            48.79091,
+            9.22059
+          ],
+          [
+            48.79948,
+            9.21149
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.73357,
+            9.3098
+          ],
+          [
+            48.73604,
+            9.30543
+          ],
+          [
+            48.73772,
+            9.30072
+          ],
+          [
+            48.74064,
+            9.28712
+          ],
+          [
+            48.74143,
+            9.27766
+          ],
+          [
+            48.74218,
+            9.27524
+          ],
+          [
+            48.7475,
+            9.26785
+          ],
+          [
+            48.75436,
+            9.26367
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.73135,
+            9.31357
+          ],
+          [
+            48.73245,
+            9.31139
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.77851,
+            9.24326
+          ],
+          [
+            48.7741,
+            9.25036
+          ],
+          [
+            48.78126,
+            9.23932
+          ],
+          [
+            48.77863,
+            9.2441
+          ],
+          [
+            48.77473,
+            9.24986
+          ],
+          [
+            48.75114,
+            9.2659
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.80072,
+            9.20999
+          ],
+          [
+            48.80326,
+            9.2092
+          ],
+          [
+            48.7984,
+            9.21297
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.80326,
+            9.2092
+          ],
+          [
+            48.80842,
+            9.21499
+          ],
+          [
+            48.81088,
+            9.21908
+          ],
+          [
+            48.81472,
+            9.22244
+          ],
+          [
+            48.81677,
+            9.22651
+          ],
+          [
+            48.81894,
+            9.22827
+          ],
+          [
+            48.82188,
+            9.22695
+          ],
+          [
+            48.82501,
+            9.22204
+          ],
+          [
+            48.82645,
+            9.21763
+          ],
+          [
+            48.82638,
+            9.21086
+          ],
+          [
+            48.8272,
+            9.20897
+          ],
+          [
+            48.83216,
+            9.20798
+          ],
+          [
+            48.83417,
+            9.2089
+          ],
+          [
+            48.83589,
+            9.21104
+          ],
+          [
+            48.83808,
+            9.21768
+          ],
+          [
+            48.83813,
+            9.22607
+          ],
+          [
+            48.84487,
+            9.24202
+          ],
+          [
+            48.84988,
+            9.24758
+          ],
+          [
+            48.86301,
+            9.25587
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            48.74895,
+            9.26687
+          ],
+          [
+            48.75591,
+            9.26241
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Neckar",
+        "lat": 48.7997,
+        "lon": 9.211
+      },
+      {
+        "text": "Bad Cannstatt",
+        "lat": 48.8049,
+        "lon": 9.2147,
+        "district": true
+      },
+      {
+        "text": "Feuerbach",
+        "lat": 48.8087,
+        "lon": 9.1569,
+        "district": true
+      },
+      {
+        "text": "Zuffenhausen",
+        "lat": 48.8313,
+        "lon": 9.1674,
+        "district": true
+      },
+      {
+        "text": "Vaihingen",
+        "lat": 48.7314,
+        "lon": 9.1097,
+        "district": true
+      },
+      {
+        "text": "Degerloch",
+        "lat": 48.7496,
+        "lon": 9.1703,
+        "district": true
+      },
+      {
+        "text": "Möhringen",
+        "lat": 48.7278,
+        "lon": 9.1478,
+        "district": true
+      },
+      {
+        "text": "Untertürkheim",
+        "lat": 48.7802,
+        "lon": 9.2509,
+        "district": true
+      },
+      {
+        "text": "Plieningen",
+        "lat": 48.7012,
+        "lon": 9.2145,
+        "district": true
+      },
+      {
+        "text": "Stuttgart-West",
+        "lat": 48.7739,
+        "lon": 9.1633,
+        "district": true
+      },
+      {
+        "text": "Stuttgart-Ost",
+        "lat": 48.7821,
+        "lon": 9.2079,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Max-Eyth-See",
+        "points": [
+          [
+            48.83516,
+            9.21154
+          ],
+          [
+            48.83572,
+            9.21209
+          ],
+          [
+            48.83587,
+            9.21372
+          ],
+          [
+            48.83634,
+            9.21364
+          ],
+          [
+            48.83695,
+            9.21608
+          ],
+          [
+            48.83642,
+            9.21749
+          ],
+          [
+            48.835,
+            9.21822
+          ],
+          [
+            48.83184,
+            9.21446
+          ],
+          [
+            48.83129,
+            9.21232
+          ],
+          [
+            48.83204,
+            9.2119
+          ],
+          [
+            48.83333,
+            9.21222
+          ],
+          [
+            48.83504,
+            9.21511
+          ],
+          [
+            48.83519,
+            9.21454
+          ],
+          [
+            48.83472,
+            9.21384
+          ],
+          [
+            48.83454,
+            9.2123
+          ],
+          [
+            48.83516,
+            9.21154
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "name": "Bärensee",
+        "points": [
+          [
+            48.76108,
+            9.0889
+          ],
+          [
+            48.76178,
+            9.08717
+          ],
+          [
+            48.76354,
+            9.0862
+          ],
+          [
+            48.76366,
+            9.08673
+          ],
+          [
+            48.76273,
+            9.08729
+          ],
+          [
+            48.76193,
+            9.08848
+          ],
+          [
+            48.76159,
+            9.09081
+          ],
+          [
+            48.76101,
+            9.09009
+          ],
+          [
+            48.7603,
+            9.0902
+          ],
+          [
+            48.75983,
+            9.09114
+          ],
+          [
+            48.75925,
+            9.09059
+          ],
+          [
+            48.75981,
+            9.08947
+          ],
+          [
+            48.76108,
+            9.0889
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Rosensteinpark",
+        "points": [
+          [
+            48.80666,
+            9.19551
+          ],
+          [
+            48.80728,
+            9.18958
+          ],
+          [
+            48.80377,
+            9.18978
+          ],
+          [
+            48.80295,
+            9.19283
+          ],
+          [
+            48.80174,
+            9.19521
+          ],
+          [
+            48.80184,
+            9.1963
+          ],
+          [
+            48.80122,
+            9.19954
+          ],
+          [
+            48.79999,
+            9.20243
+          ],
+          [
+            48.79893,
+            9.20396
+          ],
+          [
+            48.80075,
+            9.2081
+          ],
+          [
+            48.80181,
+            9.20634
+          ],
+          [
+            48.80306,
+            9.20668
+          ],
+          [
+            48.80406,
+            9.20535
+          ],
+          [
+            48.80376,
+            9.20487
+          ],
+          [
+            48.80406,
+            9.20349
+          ],
+          [
+            48.8049,
+            9.20298
+          ],
+          [
+            48.80594,
+            9.19975
+          ],
+          [
+            48.80589,
+            9.1959
+          ],
+          [
+            48.80615,
+            9.19542
+          ],
+          [
+            48.80666,
+            9.19551
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Höhenpark Killesberg",
+        "points": [
+          [
+            48.802,
+            9.16992
+          ],
+          [
+            48.80276,
+            9.16947
+          ],
+          [
+            48.80402,
+            9.16972
+          ],
+          [
+            48.80483,
+            9.16901
+          ],
+          [
+            48.80605,
+            9.16638
+          ],
+          [
+            48.80678,
+            9.16655
+          ],
+          [
+            48.80639,
+            9.16727
+          ],
+          [
+            48.80708,
+            9.16886
+          ],
+          [
+            48.80688,
+            9.1706
+          ],
+          [
+            48.8087,
+            9.17078
+          ],
+          [
+            48.80857,
+            9.16907
+          ],
+          [
+            48.80927,
+            9.17022
+          ],
+          [
+            48.80905,
+            9.17044
+          ],
+          [
+            48.80943,
+            9.17129
+          ],
+          [
+            48.8092,
+            9.17177
+          ],
+          [
+            48.80904,
+            9.17113
+          ],
+          [
+            48.8088,
+            9.17216
+          ],
+          [
+            48.80882,
+            9.17669
+          ],
+          [
+            48.80754,
+            9.17701
+          ],
+          [
+            48.80631,
+            9.17549
+          ],
+          [
+            48.80161,
+            9.17306
+          ],
+          [
+            48.80126,
+            9.17142
+          ],
+          [
+            48.80213,
+            9.17103
+          ],
+          [
+            48.802,
+            9.16992
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Mittlerer Schlossgarten",
+        "points": [
+          [
+            48.78282,
+            9.18369
+          ],
+          [
+            48.78211,
+            9.18537
+          ],
+          [
+            48.78271,
+            9.18709
+          ],
+          [
+            48.78415,
+            9.18841
+          ],
+          [
+            48.7843,
+            9.18788
+          ],
+          [
+            48.78609,
+            9.18949
+          ],
+          [
+            48.78706,
+            9.18929
+          ],
+          [
+            48.78858,
+            9.19095
+          ],
+          [
+            48.78905,
+            9.18837
+          ],
+          [
+            48.78822,
+            9.18811
+          ],
+          [
+            48.78755,
+            9.18719
+          ],
+          [
+            48.78787,
+            9.18705
+          ],
+          [
+            48.78413,
+            9.18404
+          ],
+          [
+            48.78426,
+            9.18369
+          ],
+          [
+            48.78366,
+            9.18328
+          ],
+          [
+            48.78282,
+            9.18369
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Unterer Schlossgarten",
+        "points": [
+          [
+            48.79818,
+            9.20836
+          ],
+          [
+            48.79885,
+            9.20989
+          ],
+          [
+            48.79795,
+            9.20988
+          ],
+          [
+            48.7976,
+            9.21145
+          ],
+          [
+            48.79719,
+            9.21152
+          ],
+          [
+            48.79719,
+            9.21215
+          ],
+          [
+            48.79684,
+            9.2123
+          ],
+          [
+            48.79713,
+            9.21179
+          ],
+          [
+            48.79732,
+            9.20876
+          ],
+          [
+            48.79738,
+            9.21018
+          ],
+          [
+            48.79789,
+            9.20914
+          ],
+          [
+            48.79738,
+            9.20861
+          ],
+          [
+            48.79724,
+            9.20706
+          ],
+          [
+            48.79622,
+            9.20515
+          ],
+          [
+            48.79575,
+            9.20512
+          ],
+          [
+            48.79498,
+            9.20667
+          ],
+          [
+            48.79451,
+            9.20548
+          ],
+          [
+            48.79489,
+            9.20495
+          ],
+          [
+            48.79642,
+            9.20513
+          ],
+          [
+            48.79818,
+            9.20836
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Unterer Schlossgarten",
+        "points": [
+          [
+            48.79899,
+            9.20385
+          ],
+          [
+            48.80047,
+            9.20737
+          ],
+          [
+            48.80028,
+            9.20757
+          ],
+          [
+            48.80062,
+            9.20823
+          ],
+          [
+            48.80014,
+            9.20855
+          ],
+          [
+            48.79946,
+            9.20843
+          ],
+          [
+            48.79749,
+            9.20655
+          ],
+          [
+            48.79684,
+            9.20539
+          ],
+          [
+            48.79688,
+            9.2048
+          ],
+          [
+            48.79666,
+            9.20516
+          ],
+          [
+            48.79496,
+            9.20486
+          ],
+          [
+            48.79572,
+            9.20383
+          ],
+          [
+            48.79532,
+            9.20274
+          ],
+          [
+            48.79578,
+            9.20315
+          ],
+          [
+            48.7956,
+            9.20225
+          ],
+          [
+            48.79434,
+            9.1997
+          ],
+          [
+            48.78892,
+            9.19155
+          ],
+          [
+            48.78934,
+            9.18844
+          ],
+          [
+            48.7974,
+            9.2015
+          ],
+          [
+            48.79842,
+            9.20369
+          ],
+          [
+            48.79899,
+            9.20385
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          48.82176,
+          9.08381
+        ],
+        [
+          48.81905,
+          9.0834
+        ],
+        [
+          48.81838,
+          9.07991
+        ],
+        [
+          48.81525,
+          9.08017
+        ],
+        [
+          48.81457,
+          9.07669
+        ],
+        [
+          48.81296,
+          9.07834
+        ],
+        [
+          48.81309,
+          9.0804
+        ],
+        [
+          48.81133,
+          9.08179
+        ],
+        [
+          48.81159,
+          9.08343
+        ],
+        [
+          48.80943,
+          9.08413
+        ],
+        [
+          48.80977,
+          9.08737
+        ],
+        [
+          48.80635,
+          9.08567
+        ],
+        [
+          48.80402,
+          9.08606
+        ],
+        [
+          48.79811,
+          9.08463
+        ],
+        [
+          48.79689,
+          9.08413
+        ],
+        [
+          48.79702,
+          9.0822
+        ],
+        [
+          48.79637,
+          9.08124
+        ],
+        [
+          48.79426,
+          9.07977
+        ],
+        [
+          48.79555,
+          9.08016
+        ],
+        [
+          48.79465,
+          9.07818
+        ],
+        [
+          48.78954,
+          9.07539
+        ],
+        [
+          48.78716,
+          9.07526
+        ],
+        [
+          48.782,
+          9.08832
+        ],
+        [
+          48.78103,
+          9.08574
+        ],
+        [
+          48.77848,
+          9.0867
+        ],
+        [
+          48.77553,
+          9.08353
+        ],
+        [
+          48.77362,
+          9.08581
+        ],
+        [
+          48.77196,
+          9.08534
+        ],
+        [
+          48.76973,
+          9.08255
+        ],
+        [
+          48.76861,
+          9.08332
+        ],
+        [
+          48.76719,
+          9.07586
+        ],
+        [
+          48.7642,
+          9.07761
+        ],
+        [
+          48.75945,
+          9.07611
+        ],
+        [
+          48.756,
+          9.07739
+        ],
+        [
+          48.75474,
+          9.07513
+        ],
+        [
+          48.75556,
+          9.07348
+        ],
+        [
+          48.75606,
+          9.06738
+        ],
+        [
+          48.75636,
+          9.06904
+        ],
+        [
+          48.75666,
+          9.06768
+        ],
+        [
+          48.75539,
+          9.06524
+        ],
+        [
+          48.75261,
+          9.06289
+        ],
+        [
+          48.75012,
+          9.06229
+        ],
+        [
+          48.74796,
+          9.06358
+        ],
+        [
+          48.74856,
+          9.06889
+        ],
+        [
+          48.7473,
+          9.06734
+        ],
+        [
+          48.74776,
+          9.06562
+        ],
+        [
+          48.74687,
+          9.05847
+        ],
+        [
+          48.74814,
+          9.05269
+        ],
+        [
+          48.7475,
+          9.04655
+        ],
+        [
+          48.74346,
+          9.03983
+        ],
+        [
+          48.74132,
+          9.0386
+        ],
+        [
+          48.74059,
+          9.04161
+        ],
+        [
+          48.74126,
+          9.04571
+        ],
+        [
+          48.74047,
+          9.04835
+        ],
+        [
+          48.74052,
+          9.05163
+        ],
+        [
+          48.73814,
+          9.05479
+        ],
+        [
+          48.73743,
+          9.05402
+        ],
+        [
+          48.73312,
+          9.05653
+        ],
+        [
+          48.73415,
+          9.06662
+        ],
+        [
+          48.73236,
+          9.0676
+        ],
+        [
+          48.73057,
+          9.06726
+        ],
+        [
+          48.72899,
+          9.06353
+        ],
+        [
+          48.72738,
+          9.06281
+        ],
+        [
+          48.72528,
+          9.07126
+        ],
+        [
+          48.71523,
+          9.08693
+        ],
+        [
+          48.71167,
+          9.10033
+        ],
+        [
+          48.70826,
+          9.11879
+        ],
+        [
+          48.70808,
+          9.12359
+        ],
+        [
+          48.70945,
+          9.1397
+        ],
+        [
+          48.70537,
+          9.16951
+        ],
+        [
+          48.70349,
+          9.17513
+        ],
+        [
+          48.69471,
+          9.19383
+        ],
+        [
+          48.69265,
+          9.20158
+        ],
+        [
+          48.6922,
+          9.22245
+        ],
+        [
+          48.69455,
+          9.24497
+        ],
+        [
+          48.69771,
+          9.24386
+        ],
+        [
+          48.69707,
+          9.2394
+        ],
+        [
+          48.70405,
+          9.23825
+        ],
+        [
+          48.70637,
+          9.23873
+        ],
+        [
+          48.70925,
+          9.24108
+        ],
+        [
+          48.71151,
+          9.23977
+        ],
+        [
+          48.71143,
+          9.23443
+        ],
+        [
+          48.70971,
+          9.23025
+        ],
+        [
+          48.71163,
+          9.22921
+        ],
+        [
+          48.71133,
+          9.22818
+        ],
+        [
+          48.71261,
+          9.22801
+        ],
+        [
+          48.71453,
+          9.22488
+        ],
+        [
+          48.72378,
+          9.21656
+        ],
+        [
+          48.72654,
+          9.21148
+        ],
+        [
+          48.7264,
+          9.21259
+        ],
+        [
+          48.72894,
+          9.21275
+        ],
+        [
+          48.73138,
+          9.21433
+        ],
+        [
+          48.73235,
+          9.21677
+        ],
+        [
+          48.73254,
+          9.21981
+        ],
+        [
+          48.73221,
+          9.22211
+        ],
+        [
+          48.73144,
+          9.22251
+        ],
+        [
+          48.73147,
+          9.22611
+        ],
+        [
+          48.73505,
+          9.22591
+        ],
+        [
+          48.73481,
+          9.22919
+        ],
+        [
+          48.73547,
+          9.23193
+        ],
+        [
+          48.73802,
+          9.23323
+        ],
+        [
+          48.73632,
+          9.23749
+        ],
+        [
+          48.73712,
+          9.23926
+        ],
+        [
+          48.74164,
+          9.24271
+        ],
+        [
+          48.74322,
+          9.24289
+        ],
+        [
+          48.74407,
+          9.24442
+        ],
+        [
+          48.7442,
+          9.24515
+        ],
+        [
+          48.74206,
+          9.24678
+        ],
+        [
+          48.74014,
+          9.25125
+        ],
+        [
+          48.74027,
+          9.25286
+        ],
+        [
+          48.74194,
+          9.25258
+        ],
+        [
+          48.74254,
+          9.25558
+        ],
+        [
+          48.74147,
+          9.25654
+        ],
+        [
+          48.74277,
+          9.25787
+        ],
+        [
+          48.74365,
+          9.26041
+        ],
+        [
+          48.74341,
+          9.26158
+        ],
+        [
+          48.74545,
+          9.25905
+        ],
+        [
+          48.74573,
+          9.26085
+        ],
+        [
+          48.74878,
+          9.26516
+        ],
+        [
+          48.75037,
+          9.26423
+        ],
+        [
+          48.75101,
+          9.26643
+        ],
+        [
+          48.75359,
+          9.26621
+        ],
+        [
+          48.75346,
+          9.26816
+        ],
+        [
+          48.75671,
+          9.27078
+        ],
+        [
+          48.75676,
+          9.27167
+        ],
+        [
+          48.75573,
+          9.27234
+        ],
+        [
+          48.75648,
+          9.27573
+        ],
+        [
+          48.76041,
+          9.27529
+        ],
+        [
+          48.7626,
+          9.27233
+        ],
+        [
+          48.76472,
+          9.27463
+        ],
+        [
+          48.76577,
+          9.27263
+        ],
+        [
+          48.76626,
+          9.27398
+        ],
+        [
+          48.7676,
+          9.27281
+        ],
+        [
+          48.76805,
+          9.27534
+        ],
+        [
+          48.76994,
+          9.27606
+        ],
+        [
+          48.76819,
+          9.28039
+        ],
+        [
+          48.76886,
+          9.28179
+        ],
+        [
+          48.76842,
+          9.28384
+        ],
+        [
+          48.76883,
+          9.28846
+        ],
+        [
+          48.76994,
+          9.28933
+        ],
+        [
+          48.77048,
+          9.29269
+        ],
+        [
+          48.77236,
+          9.29663
+        ],
+        [
+          48.77289,
+          9.29724
+        ],
+        [
+          48.77365,
+          9.29651
+        ],
+        [
+          48.77591,
+          9.30232
+        ],
+        [
+          48.77269,
+          9.30828
+        ],
+        [
+          48.77391,
+          9.30841
+        ],
+        [
+          48.77454,
+          9.31442
+        ],
+        [
+          48.77822,
+          9.31602
+        ],
+        [
+          48.77894,
+          9.31549
+        ],
+        [
+          48.77829,
+          9.30754
+        ],
+        [
+          48.78089,
+          9.3071
+        ],
+        [
+          48.77879,
+          9.29958
+        ],
+        [
+          48.77924,
+          9.29864
+        ],
+        [
+          48.78034,
+          9.2993
+        ],
+        [
+          48.77985,
+          9.29795
+        ],
+        [
+          48.78229,
+          9.29364
+        ],
+        [
+          48.78447,
+          9.29603
+        ],
+        [
+          48.78558,
+          9.29929
+        ],
+        [
+          48.7887,
+          9.29534
+        ],
+        [
+          48.7867,
+          9.29119
+        ],
+        [
+          48.78775,
+          9.28875
+        ],
+        [
+          48.79075,
+          9.29139
+        ],
+        [
+          48.79167,
+          9.29007
+        ],
+        [
+          48.79042,
+          9.28854
+        ],
+        [
+          48.79057,
+          9.2862
+        ],
+        [
+          48.78983,
+          9.28445
+        ],
+        [
+          48.78987,
+          9.27728
+        ],
+        [
+          48.7905,
+          9.27581
+        ],
+        [
+          48.78936,
+          9.27333
+        ],
+        [
+          48.79131,
+          9.27469
+        ],
+        [
+          48.79422,
+          9.27329
+        ],
+        [
+          48.79262,
+          9.26936
+        ],
+        [
+          48.79243,
+          9.26549
+        ],
+        [
+          48.79137,
+          9.26536
+        ],
+        [
+          48.79249,
+          9.26301
+        ],
+        [
+          48.79373,
+          9.26433
+        ],
+        [
+          48.79433,
+          9.26227
+        ],
+        [
+          48.79522,
+          9.26255
+        ],
+        [
+          48.79554,
+          9.25899
+        ],
+        [
+          48.79467,
+          9.25446
+        ],
+        [
+          48.79278,
+          9.25138
+        ],
+        [
+          48.79375,
+          9.24888
+        ],
+        [
+          48.79506,
+          9.24802
+        ],
+        [
+          48.79509,
+          9.24659
+        ],
+        [
+          48.79603,
+          9.24714
+        ],
+        [
+          48.79624,
+          9.24998
+        ],
+        [
+          48.79664,
+          9.24925
+        ],
+        [
+          48.79783,
+          9.25092
+        ],
+        [
+          48.79906,
+          9.25031
+        ],
+        [
+          48.80045,
+          9.25524
+        ],
+        [
+          48.80179,
+          9.25447
+        ],
+        [
+          48.80204,
+          9.25533
+        ],
+        [
+          48.80398,
+          9.25534
+        ],
+        [
+          48.80388,
+          9.25418
+        ],
+        [
+          48.81005,
+          9.25321
+        ],
+        [
+          48.81077,
+          9.25681
+        ],
+        [
+          48.81208,
+          9.25675
+        ],
+        [
+          48.81314,
+          9.25628
+        ],
+        [
+          48.81295,
+          9.25525
+        ],
+        [
+          48.81524,
+          9.25452
+        ],
+        [
+          48.81543,
+          9.25562
+        ],
+        [
+          48.81689,
+          9.25506
+        ],
+        [
+          48.81657,
+          9.2541
+        ],
+        [
+          48.81941,
+          9.25315
+        ],
+        [
+          48.81863,
+          9.25029
+        ],
+        [
+          48.81955,
+          9.24978
+        ],
+        [
+          48.81934,
+          9.24879
+        ],
+        [
+          48.82156,
+          9.24778
+        ],
+        [
+          48.82132,
+          9.24627
+        ],
+        [
+          48.82311,
+          9.24545
+        ],
+        [
+          48.82291,
+          9.24335
+        ],
+        [
+          48.8259,
+          9.24342
+        ],
+        [
+          48.82625,
+          9.24136
+        ],
+        [
+          48.82993,
+          9.24036
+        ],
+        [
+          48.83122,
+          9.2421
+        ],
+        [
+          48.83392,
+          9.24328
+        ],
+        [
+          48.83417,
+          9.24609
+        ],
+        [
+          48.83606,
+          9.23936
+        ],
+        [
+          48.83721,
+          9.23965
+        ],
+        [
+          48.83734,
+          9.23848
+        ],
+        [
+          48.83875,
+          9.24016
+        ],
+        [
+          48.842,
+          9.23717
+        ],
+        [
+          48.8446,
+          9.24206
+        ],
+        [
+          48.84724,
+          9.24414
+        ],
+        [
+          48.84722,
+          9.24088
+        ],
+        [
+          48.84634,
+          9.23835
+        ],
+        [
+          48.84934,
+          9.2337
+        ],
+        [
+          48.85025,
+          9.23404
+        ],
+        [
+          48.85008,
+          9.2329
+        ],
+        [
+          48.8539,
+          9.23375
+        ],
+        [
+          48.85476,
+          9.22974
+        ],
+        [
+          48.85708,
+          9.2305
+        ],
+        [
+          48.85823,
+          9.22848
+        ],
+        [
+          48.86386,
+          9.23038
+        ],
+        [
+          48.8664,
+          9.21692
+        ],
+        [
+          48.86573,
+          9.21708
+        ],
+        [
+          48.86584,
+          9.21558
+        ],
+        [
+          48.86322,
+          9.21524
+        ],
+        [
+          48.86382,
+          9.21415
+        ],
+        [
+          48.86263,
+          9.2122
+        ],
+        [
+          48.86127,
+          9.20592
+        ],
+        [
+          48.85737,
+          9.20614
+        ],
+        [
+          48.85584,
+          9.20758
+        ],
+        [
+          48.85445,
+          9.20508
+        ],
+        [
+          48.85275,
+          9.20767
+        ],
+        [
+          48.85128,
+          9.20228
+        ],
+        [
+          48.85125,
+          9.19689
+        ],
+        [
+          48.85068,
+          9.19684
+        ],
+        [
+          48.85118,
+          9.1939
+        ],
+        [
+          48.84766,
+          9.19
+        ],
+        [
+          48.84932,
+          9.18683
+        ],
+        [
+          48.84873,
+          9.1861
+        ],
+        [
+          48.84968,
+          9.18331
+        ],
+        [
+          48.84878,
+          9.18267
+        ],
+        [
+          48.84946,
+          9.18045
+        ],
+        [
+          48.84871,
+          9.17987
+        ],
+        [
+          48.84958,
+          9.17676
+        ],
+        [
+          48.84752,
+          9.17622
+        ],
+        [
+          48.84799,
+          9.17439
+        ],
+        [
+          48.84898,
+          9.1714
+        ],
+        [
+          48.85222,
+          9.16984
+        ],
+        [
+          48.85087,
+          9.16577
+        ],
+        [
+          48.85311,
+          9.16014
+        ],
+        [
+          48.85404,
+          9.15939
+        ],
+        [
+          48.85599,
+          9.16133
+        ],
+        [
+          48.85704,
+          9.15843
+        ],
+        [
+          48.857,
+          9.15494
+        ],
+        [
+          48.86072,
+          9.15363
+        ],
+        [
+          48.85994,
+          9.14668
+        ],
+        [
+          48.86191,
+          9.14101
+        ],
+        [
+          48.85625,
+          9.14091
+        ],
+        [
+          48.85763,
+          9.13378
+        ],
+        [
+          48.85302,
+          9.13388
+        ],
+        [
+          48.85277,
+          9.13719
+        ],
+        [
+          48.85184,
+          9.139
+        ],
+        [
+          48.84964,
+          9.1396
+        ],
+        [
+          48.84481,
+          9.14316
+        ],
+        [
+          48.84371,
+          9.14042
+        ],
+        [
+          48.8437,
+          9.13562
+        ],
+        [
+          48.84464,
+          9.13394
+        ],
+        [
+          48.84392,
+          9.13364
+        ],
+        [
+          48.84024,
+          9.13652
+        ],
+        [
+          48.83824,
+          9.1401
+        ],
+        [
+          48.83538,
+          9.13803
+        ],
+        [
+          48.83187,
+          9.13882
+        ],
+        [
+          48.83104,
+          9.13709
+        ],
+        [
+          48.83148,
+          9.13871
+        ],
+        [
+          48.82804,
+          9.13816
+        ],
+        [
+          48.8235,
+          9.11398
+        ],
+        [
+          48.8248,
+          9.11357
+        ],
+        [
+          48.82521,
+          9.11235
+        ],
+        [
+          48.82482,
+          9.10875
+        ],
+        [
+          48.82934,
+          9.10831
+        ],
+        [
+          48.82803,
+          9.10273
+        ],
+        [
+          48.82931,
+          9.1015
+        ],
+        [
+          48.82919,
+          9.09946
+        ],
+        [
+          48.8342,
+          9.09704
+        ],
+        [
+          48.83414,
+          9.09515
+        ],
+        [
+          48.83552,
+          9.09356
+        ],
+        [
+          48.83092,
+          9.08573
+        ],
+        [
+          48.82605,
+          9.08672
+        ],
+        [
+          48.82614,
+          9.0851
+        ],
+        [
+          48.82399,
+          9.08529
+        ],
+        [
+          48.82412,
+          9.08426
+        ],
+        [
+          48.82176,
+          9.08381
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Neckar",
+        "major": true
+      }
+    ],
+    "lakes": [
+      "Max-Eyth-See",
+      "Eckensee",
+      "Bärensee"
+    ],
+    "parks": [
+      "Rosensteinpark",
+      "Höhenpark Killesberg",
+      "Mittlerer Schlossgarten",
+      "Unterer Schlossgarten"
+    ],
+    "boundary": "Stuttgart"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Stuttgart?",
+      "answer": "Laut Zensus 2022 haben rund 172.000 Stuttgarterinnen und Stuttgarter ab 15 Jahren einen Hochschulabschluss – ein Drittel (33,5 Prozent, bundesweit 20,2 Prozent). Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Stuttgart haben 38 Prozent studiert, bundesweit rund 21 Prozent; bei den Beschäftigten, die in Stuttgart wohnen, sind es 39,9 Prozent."
+    },
+    {
+      "question": "Gibt es in Stuttgart viele Singles?",
+      "answer": "In knapp der Hälfte aller Stuttgarter Haushalte lebt nur eine Person (47,9 Prozent laut Zensus 2022, bundesweit 43,4 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem ist jede vierte Person in Stuttgart zwischen 25 und 39 Jahre alt, also in dem Alter, in dem viele eine feste Partnerschaft suchen."
+    },
+    {
+      "question": "Wo lernen Akademiker in Stuttgart Singles kennen?",
+      "answer": "Die Kultur ist ein guter Anfang: Oper und Schauspiel im Staatstheater, Ausstellungen in Staatsgalerie und Kunstmuseum, Konzerte in der Liederhalle oder Jazz im BIX. Für Spaziergänge zu zweit eignen sich Schlossgarten, Rosensteinpark und Killesberg, und auf den Campus in Vaihingen und Hohenheim sind viele Vorträge öffentlich. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ba",
+      "publisher": "Bundesagentur für Arbeit",
+      "title": "Sozialversicherungspflichtig Beschäftigte nach ausgewählten Merkmalen – Deutschland, Länder und Kreise (Arbeits- und Wohnort)",
+      "stand": "Stand 31.03.2026",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202603/iiia6/beschaeftigung-sozbe-svb-kreise-merkmale/svb-kreise-merkmale-dlk-0-202603-xlsx.xlsx?__blob=publicationFile&v=1"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensus 2022 – Regionaltabelle Bildung und Erwerbstätigkeit (Höchster beruflicher Abschluss)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Bildung_Erwerbstaetigkeit.xlsx"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensus 2022 – Regionaltabelle Haushalte und Familien",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Haushalte.xlsx"
+    },
+    {
+      "id": "zensus-demografie",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensus 2022 – Regionaltabelle Demografie (Altersgruppen, Familienstand)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Demografie.xlsx"
+    },
+    {
+      "id": "studierende",
+      "publisher": "Landeshauptstadt Stuttgart, Statistisches Amt (Daten: Statistisches Landesamt Baden-Württemberg)",
+      "title": "Jahrbuchtabelle 8.1.2: Studierende an Universitäten und Hochschulen in Stuttgart seit 1950 (Tabelle Nr. 11447)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.domino1.stuttgart.de/web/komunis/komunissde.nsf/fc223e09e4cb691ac125723c003bfb31/ff3137b04719429dc12584d300481fde/$FILE/b5n02_.XLSX"
+    },
+    {
+      "id": "hochschulen",
+      "publisher": "Statistisches Landesamt Baden-Württemberg",
+      "title": "Statistischer Bericht B III 1 – j/25: Studierende an baden-württembergischen Hochschulen im Wintersemester 2024/25 (Tab. 2)",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://www.statistik-bw.de/fileadmin/user_upload/Service/Veroeff/Statistische_Berichte/323425001.pdf"
+    },
+    {
+      "id": "fraunhofer",
+      "publisher": "Fraunhofer-Institutszentrum Stuttgart",
+      "title": "Angewandte Forschung in Stuttgart – Profil des Institutszentrums",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.stuttgart.fraunhofer.de/de/profil.html"
+    },
+    {
+      "id": "museen",
+      "publisher": "Landeshauptstadt Stuttgart, Statistisches Amt",
+      "title": "Jahrbuchtabelle 10.5.4: Museen und museumsähnliche Einrichtungen in Stuttgart seit 1980 (Tabelle Nr. 955)",
+      "stand": "Berichtsjahr 2025",
+      "url": "https://www.domino1.stuttgart.de/web/komunis/komunissde.nsf/715a84c741dea0de412565f3003c484d/dcc7a3bc917ced93c12584d30047854b/$FILE/tr02_.XLSX"
+    },
+    {
+      "id": "uni-zahlen",
+      "publisher": "Universität Stuttgart",
+      "title": "Zahlen, Daten und Fakten",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.uni-stuttgart.de/universitaet/profil/zahlen/"
+    },
+    {
+      "id": "exzellenz",
+      "publisher": "Universität Stuttgart",
+      "title": "Stuttgarter Exzellenzcluster IntCDC für weitere sieben Jahre gefördert",
+      "stand": "Meldung vom 22.05.2025",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/Stuttgarter-Exzellenzcluster-IntCDC-fuer-weitere-sieben-Jahre-gefoerdert/"
+    },
+    {
+      "id": "vgr",
+      "publisher": "Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Länder",
+      "title": "Bruttoinlandsprodukt, Bruttowertschöpfung in den kreisfreien Städten und Landkreisen 1992 und 1994 bis 2024 (Reihe 2, Band 1), Tab. 4",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.statistikportal.de/sites/default/files/2026-09/vgrdl_r2b1_bs2025_4.xlsx"
+    },
+    {
+      "id": "automobil",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: Fahrzeugbau in der Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/fahrzeugbau/"
+    },
+    {
+      "id": "maschinenbau",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: Maschinenbau in der Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/maschinenbau/"
+    },
+    {
+      "id": "it",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: IT-Branche in der Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/it-branche/"
+    },
+    {
+      "id": "finanz",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: Finanzplatz Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/finanzbranche/"
+    },
+    {
+      "id": "luftfahrt",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: Luft- und Raumfahrt in der Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/luft-und-raumfahrt/"
+    },
+    {
+      "id": "kreativ",
+      "publisher": "Wirtschaftsförderung Region Stuttgart",
+      "title": "Branchen: Kreativwirtschaft in der Region Stuttgart",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.region-stuttgart.de/wirtschaftsstandort/branchen/kreativwirtschaft/"
+    }
+  ]
+}

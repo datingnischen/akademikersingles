@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { access, readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 
 const read = path => readFile(new URL(`../${path}`, import.meta.url), "utf8");
@@ -187,14 +187,28 @@ test("Seitensuche liegt unter /ueber-uns/suche/, ist noindex und nicht in der Si
   assert.match(await read("components/search-form.tsx"), /action=\{SEARCH_PATH\} method="get"/);
 });
 
-test("Stadtdossiers: jede Kennzahl hat eine Quelle mit Link, die Stadt nutzt die Dossier-Vorlage", async () => {
-  const profile = JSON.parse(await read("data/city-profiles/hamburg.json"));
-  assert.ok(paths.has(profile.path), `${profile.path} ist keine Stadtseite`);
-  const ids = new Set(profile.sources.map(source => source.id));
-  for (const source of profile.sources) assert.match(source.url, /^https:\/\//, source.id);
-  const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
-  for (const metric of metrics) assert.ok(ids.has(metric.source), `${metric.label} ohne Quelle`);
-  assert.ok(profile.heroAlt, "Hero-Bild ohne Alt-Text");
+test("Stadtdossiers: jede Stadtseite hat ein Profil, jede Kennzahl eine verlinkte Quelle", async () => {
+  const dir = new URL("../data/city-profiles/", import.meta.url);
+  const files = (await readdir(dir)).filter(file => file.endsWith(".json"));
+  const profiles = await Promise.all(files.map(async file => JSON.parse(await readFile(new URL(file, dir), "utf8"))));
+  const byPath = new Map(profiles.map(profile => [profile.path, profile]));
+  for (const city of pages.filter(page => page.family === "location")) assert.ok(byPath.has(city.path), `${city.path} ohne Stadtdossier`);
+  for (const profile of profiles) {
+    assert.ok(paths.has(profile.path), `${profile.path} ist keine Stadtseite`);
+    const ids = new Set(profile.sources.map(source => source.id));
+    for (const source of profile.sources) assert.match(source.url, /^https:\/\//, `${profile.path} ${source.id}`);
+    const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
+    const used = new Set([...metrics.flatMap(metric => [metric.source, metric.compareSource].filter(Boolean)), ...(profile.clusterSources ?? [])]);
+    for (const id of used) assert.ok(ids.has(id), `${profile.path}: Quelle ${id} fehlt`);
+    for (const id of ids) assert.ok(used.has(id), `${profile.path}: Quelle ${id} wird nicht verwendet`);
+    assert.equal(profile.briefing.length, 3, profile.path);
+    assert.equal(profile.kpis.length, 4, profile.path);
+    assert.deepEqual(profile.dossier.map(chapter => chapter.key), ["bildung", "beruf", "singles"], profile.path);
+    assert.ok(profile.heroAlt, `${profile.path} Hero-Bild ohne Alt-Text`);
+    const { west, east, south, north } = profile.map.bounds;
+    for (const place of profile.places) assert.ok(place.lat > south && place.lat < north && place.lon > west && place.lon < east, `${profile.path}: ${place.name} außerhalb der Karte`);
+    assert.ok(profile.map.rivers.length + profile.map.areas.length > 0, `${profile.path}: Karte ohne Geometrie (scripts/build_city_map.py)`);
+  }
   const templates = await read("components/templates.tsx");
   assert.match(templates, /if \(profile\) return <CityDossierTemplate/);
 });

@@ -1,0 +1,2830 @@
+{
+  "path": "/partnersuche/goettingen/",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt an der Leine",
+  "lead": "Georg-August-Universität, Universitätsmedizin, vier Max-Planck-Institute, DLR und das Measurement Valley: In Göttingen hat fast jede dritte erwerbstätige Person einen Hochschulabschluss, und mehr als jeder zweite Haushalt ist ein Einpersonenhaushalt. Eine kompakte, internationale Wissenschaftsstadt, in der Sie jemandem auf Augenhöhe begegnen.",
+  "heroAlt": "Backsteingotisches Rathaus und Kirche in der Abenddämmerung – Partnersuche für Akademiker in Göttingen",
+  "briefing": [
+    {
+      "value": "32 %",
+      "label": "der Erwerbstätigen mit Arbeitsort Göttingen haben einen Hochschulabschluss – bundesweit rund 26 %",
+      "source": "zensus-arbeitsort"
+    },
+    {
+      "value": "6,6 %",
+      "label": "der Göttingerinnen und Göttinger ab 15 Jahren sind promoviert – bundesweit 1,7 %",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "55 %",
+      "label": "aller Göttinger Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "34.163",
+      "label": "Studierende am Hochschulstandort Göttingen im Wintersemester 2024/25",
+      "source": "stadt-statistik",
+      "note": "Universität (inkl. Universitätsmedizin), HAWK-Fakultäten in Göttingen und PFH vor Ort"
+    },
+    {
+      "value": "3",
+      "label": "Hochschulen – Georg-August-Universität, HAWK und Private Hochschule Göttingen",
+      "source": "stadt-statistik"
+    },
+    {
+      "value": "4",
+      "label": "Max-Planck-Institute, dazu DLR, Deutsches Primatenzentrum und Akademie der Wissenschaften",
+      "source": "campus-members"
+    },
+    {
+      "value": "16.500",
+      "label": "Gäste bei den Internationalen Händel-Festspielen 2026 – ein Besucherrekord",
+      "source": "haendel",
+      "note": "Mehr als 16.500 Besucherinnen und Besucher bei 96 Veranstaltungen"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Göttingen hat anteilig deutlich mehr Hochschulabsolventinnen und -absolventen als der Bundesschnitt – und fast viermal so viele Promovierte.",
+      "metrics": [
+        {
+          "value": "32 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "34.050 von 105.390 Personen; Bachelor, Master, Diplom oder Promotion",
+          "compare": {
+            "city": 32.3,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 38
+          }
+        },
+        {
+          "value": "6,6 %",
+          "label": "sind promoviert – fast viermal so viele wie im Bundesschnitt",
+          "source": "zensus-bildung",
+          "note": "6.960 Personen ab 15 Jahren mit Promotion",
+          "compare": {
+            "city": 6.6,
+            "germany": 1.7,
+            "unit": " %",
+            "max": 7.8
+          }
+        },
+        {
+          "value": "27.229",
+          "label": "Studierende allein an der Georg-August-Universität",
+          "source": "uni",
+          "note": "Wintersemester 2025/26, einschließlich Universitätsmedizin; 18,6 % kommen aus dem Ausland"
+        }
+      ],
+      "takeaway": "Ob Doktorarbeit, Forschungsprojekt oder Lieblingsbuch: Hier finden Sie Gesprächspartner, die Ihre Begeisterung teilen."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Universität, Universitätsmedizin, Max-Planck-Institute und Messtechnik-Unternehmen machen Göttingen zum Arbeitsort für Hochqualifizierte aus der ganzen Region.",
+      "metrics": [
+        {
+          "value": "32 %",
+          "label": "der Erwerbstätigen mit Arbeitsort Göttingen haben einen Hochschulabschluss",
+          "source": "zensus-arbeitsort",
+          "note": "Berechnet: 27.420 von 85.480 Erwerbstätigen (Bachelor, Master, Diplom, Promotion); Deutschland 9.667.830 von 37.671.260; schließt Beamtinnen, Beamte und Selbstständige ein",
+          "compare": {
+            "city": 32.1,
+            "germany": 25.7,
+            "unit": " %",
+            "max": 38
+          }
+        },
+        {
+          "value": "5.900",
+          "label": "Forschende arbeiten auf dem Göttingen Campus",
+          "source": "campus",
+          "note": "Mehr als 5.900 Forschende an Universität, Universitätsmedizin und sieben außeruniversitären Einrichtungen"
+        },
+        {
+          "value": "75.126",
+          "label": "sozialversicherungspflichtig Beschäftigte arbeiten in der Stadt – 42.077 davon pendeln ein",
+          "source": "ba-gemeinden",
+          "note": "Arbeitsort Stadt Göttingen, Stand 30.06.2025"
+        }
+      ],
+      "takeaway": "Wer hier sucht, trifft auf Menschen, die in Wissenschaft, Medizin und Hightech Verantwortung tragen – und jemanden suchen, der diesen Alltag versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Göttingen ist jünger als der Bundesschnitt, viele leben allein und entscheiden sich später für die feste Bindung.",
+      "metrics": [
+        {
+          "value": "55 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "39.886 von 72.427 Haushalten",
+          "compare": {
+            "city": 55.1,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 65
+          }
+        },
+        {
+          "value": "49 %",
+          "label": "der 30- bis 49-Jährigen sind ledig",
+          "source": "zensus-familienstand",
+          "note": "15.403 von 31.295 Personen; ledig heißt nie verheiratet, nicht automatisch ohne Partnerschaft",
+          "compare": {
+            "city": 49.2,
+            "germany": 36.8,
+            "unit": " %",
+            "max": 58
+          }
+        },
+        {
+          "value": "41,9",
+          "label": "Jahre Durchschnittsalter",
+          "source": "zensus-alter",
+          "compare": {
+            "city": 41.9,
+            "germany": 44.3,
+            "unit": " J.",
+            "max": 52
+          }
+        }
+      ],
+      "takeaway": "Erst Studium, Promotion und Karriere, dann die passende Partnerschaft: In Göttingen sind Sie damit in bester Gesellschaft."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Mess- & Regeltechnik",
+      "text": "Im Measurement Valley arbeiten seit 1998 Unternehmen wie Sartorius, Mahr, Carl Zeiss CMP und LaVision mit Universität, HAWK und DLR zusammen."
+    },
+    {
+      "name": "Life Sciences & Biotechnologie",
+      "text": "Sartorius führt seinen Konzern vom Sartorius Campus in Grone, die Life Science Factory im Sartorius-Quartier und das Life Science ACC begleiten Gründungen."
+    },
+    {
+      "name": "Gesundheitswirtschaft",
+      "text": "Die Universitätsmedizin Göttingen, das Evangelische Krankenhaus Göttingen-Weende und das Agaplesion Krankenhaus Neu Bethlehem – vernetzt in der Gesundheitsregion Göttingen/Südniedersachsen."
+    },
+    {
+      "name": "Wissenschaft & Forschung",
+      "text": "Vier Max-Planck-Institute, das DLR mit seinen Windkanälen, das Deutsche Primatenzentrum und die Akademie der Wissenschaften bilden mit Universität und UMG den Göttingen Campus."
+    },
+    {
+      "name": "Laser, Photonik & Plasma",
+      "text": "Das Fraunhofer-Anwendungszentrum für Plasma und Photonik und die HAWK-Partnerschaft „Plasma for Life“ verbinden Oberflächentechnik, Materialbearbeitung und Plasmamedizin."
+    },
+    {
+      "name": "Informatik & IT",
+      "text": "Das Institut für Informatik der Universität und das IT InnovationsCluster Göttingen/Südniedersachsen bündeln Software, Daten und Digitalisierung."
+    }
+  ],
+  "clusterSources": [
+    "gwg",
+    "measurement-valley",
+    "sartorius",
+    "dlr",
+    "campus-members"
+  ],
+  "places": [
+    {
+      "name": "Zentralcampus der Universität",
+      "kind": "work",
+      "district": "Nordstadt · Platz der Göttinger Sieben",
+      "text": "Herz der Georg-August-Universität mit Hörsälen und Staats- und Universitätsbibliothek. Gleich nebenan liegt der Alte Botanische Garten.",
+      "lat": 51.5402,
+      "lon": 9.9355
+    },
+    {
+      "name": "Universitätsmedizin Göttingen",
+      "kind": "work",
+      "district": "Weende · Robert-Koch-Straße",
+      "text": "Klinikum, Forschung und Lehre unter einem Dach – Arbeitsort vieler Ärztinnen, Ärzte und Forschender.",
+      "lat": 51.5508,
+      "lon": 9.9428
+    },
+    {
+      "name": "Nordcampus",
+      "kind": "work",
+      "district": "Weende · Nordcampus",
+      "text": "Naturwissenschaftliche Fakultäten, das Max-Planck-Institut für Sonnensystemforschung und das Deutsche Primatenzentrum liegen hier dicht beieinander.",
+      "lat": 51.5592,
+      "lon": 9.9524
+    },
+    {
+      "name": "Max-Planck-Campus am Faßberg",
+      "kind": "work",
+      "district": "Nikolausberg · Am Faßberg",
+      "text": "Sitz des Max-Planck-Instituts für Multidisziplinäre Naturwissenschaften, wenige Schritte entfernt forscht das Max-Planck-Institut für Dynamik und Selbstorganisation.",
+      "lat": 51.5626,
+      "lon": 9.9706
+    },
+    {
+      "name": "DLR Göttingen",
+      "kind": "work",
+      "district": "Innenstadt · Bunsenstraße",
+      "text": "Traditionsreicher Standort des Deutschen Zentrums für Luft- und Raumfahrt für Aerodynamik, Strömungstechnik und optische Messtechnik.",
+      "lat": 51.5271,
+      "lon": 9.9296
+    },
+    {
+      "name": "Sartorius Campus",
+      "kind": "work",
+      "district": "Grone · Otto-Brenner-Straße",
+      "text": "Konzernsitz des Life-Science-Unternehmens Sartorius, seit 2017 im Industriegebiet Grone.",
+      "lat": 51.5521,
+      "lon": 9.8871
+    },
+    {
+      "name": "Marktplatz mit Gänseliesel",
+      "kind": "date",
+      "district": "Innenstadt · Altes Rathaus",
+      "text": "Das Wahrzeichen der Stadt vor dem Alten Rathaus – rundherum Cafés und Restaurants für das erste Treffen.",
+      "lat": 51.5327,
+      "lon": 9.9351
+    },
+    {
+      "name": "Forum Wissen",
+      "kind": "date",
+      "district": "Innenstadt · Berliner Straße",
+      "text": "Das Wissensmuseum der Universität zeigt ihre Sammlungen und lädt zu Vorträgen ein – der Stadt-Guide empfiehlt es ausdrücklich.",
+      "lat": 51.5344,
+      "lon": 9.9263
+    },
+    {
+      "name": "Deutsches Theater",
+      "kind": "date",
+      "district": "Innenstadt · Theaterplatz",
+      "text": "Schauspiel am Rand der Altstadt; im Mai zeigen die Internationalen Händel-Festspiele hier ihre Festspieloper.",
+      "lat": 51.5366,
+      "lon": 9.9401
+    },
+    {
+      "name": "Schillerwiese",
+      "kind": "date",
+      "district": "Ostviertel",
+      "text": "Weitläufiger Park im Ostviertel – ideal für einen Spaziergang zu zweit nach dem Kaffee in der Altstadt.",
+      "lat": 51.5346,
+      "lon": 9.9548
+    },
+    {
+      "name": "Kiessee",
+      "kind": "date",
+      "district": "Geismar · nahe der Leine",
+      "text": "See mit Rundweg im Süden der Stadt – unkompliziert für das zweite Date, wenn man länger reden möchte.",
+      "lat": 51.5174,
+      "lon": 9.9205
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 9.8759,
+      "east": 9.9818,
+      "south": 51.5125,
+      "north": 51.5675
+    },
+    "rivers": [
+      {
+        "name": "Leine",
+        "major": true,
+        "points": [
+          [
+            51.46932,
+            9.92336
+          ],
+          [
+            51.47048,
+            9.92329
+          ],
+          [
+            51.4704,
+            9.9224
+          ],
+          [
+            51.47064,
+            9.92217
+          ],
+          [
+            51.4733,
+            9.92273
+          ],
+          [
+            51.4741,
+            9.92274
+          ],
+          [
+            51.47458,
+            9.92237
+          ],
+          [
+            51.47582,
+            9.92301
+          ],
+          [
+            51.4772,
+            9.92048
+          ],
+          [
+            51.4779,
+            9.92014
+          ],
+          [
+            51.4821,
+            9.92097
+          ],
+          [
+            51.48308,
+            9.92089
+          ],
+          [
+            51.48526,
+            9.91959
+          ],
+          [
+            51.48652,
+            9.91842
+          ],
+          [
+            51.48772,
+            9.91839
+          ],
+          [
+            51.48775,
+            9.91791
+          ],
+          [
+            51.48855,
+            9.91798
+          ],
+          [
+            51.48927,
+            9.91758
+          ],
+          [
+            51.49055,
+            9.91539
+          ],
+          [
+            51.4917,
+            9.91404
+          ],
+          [
+            51.49359,
+            9.91368
+          ],
+          [
+            51.49802,
+            9.91439
+          ],
+          [
+            51.50517,
+            9.91979
+          ],
+          [
+            51.50628,
+            9.91979
+          ],
+          [
+            51.50778,
+            9.92027
+          ],
+          [
+            51.50925,
+            9.92238
+          ],
+          [
+            51.51034,
+            9.92271
+          ],
+          [
+            51.51101,
+            9.92341
+          ],
+          [
+            51.51226,
+            9.92403
+          ],
+          [
+            51.51339,
+            9.92611
+          ],
+          [
+            51.51469,
+            9.92709
+          ],
+          [
+            51.51618,
+            9.92931
+          ],
+          [
+            51.51767,
+            9.92952
+          ],
+          [
+            51.51841,
+            9.93078
+          ],
+          [
+            51.51935,
+            9.9302
+          ],
+          [
+            51.52056,
+            9.93087
+          ],
+          [
+            51.52085,
+            9.93059
+          ],
+          [
+            51.52036,
+            9.92797
+          ],
+          [
+            51.52096,
+            9.92534
+          ],
+          [
+            51.52201,
+            9.9245
+          ],
+          [
+            51.52422,
+            9.92363
+          ],
+          [
+            51.52541,
+            9.92338
+          ],
+          [
+            51.52631,
+            9.92366
+          ],
+          [
+            51.52702,
+            9.92339
+          ],
+          [
+            51.52738,
+            9.92314
+          ],
+          [
+            51.52828,
+            9.92122
+          ],
+          [
+            51.52922,
+            9.9204
+          ],
+          [
+            51.53136,
+            9.92076
+          ],
+          [
+            51.53201,
+            9.9205
+          ],
+          [
+            51.533,
+            9.91942
+          ],
+          [
+            51.53509,
+            9.91887
+          ],
+          [
+            51.5361,
+            9.91926
+          ],
+          [
+            51.537,
+            9.92049
+          ],
+          [
+            51.53751,
+            9.92067
+          ],
+          [
+            51.53929,
+            9.9198
+          ],
+          [
+            51.542,
+            9.91992
+          ],
+          [
+            51.54673,
+            9.9183
+          ],
+          [
+            51.55332,
+            9.91666
+          ],
+          [
+            51.55505,
+            9.91537
+          ],
+          [
+            51.55684,
+            9.91479
+          ],
+          [
+            51.55831,
+            9.9139
+          ],
+          [
+            51.5594,
+            9.9125
+          ],
+          [
+            51.56295,
+            9.90994
+          ],
+          [
+            51.56518,
+            9.90904
+          ],
+          [
+            51.56657,
+            9.91041
+          ],
+          [
+            51.56803,
+            9.91049
+          ],
+          [
+            51.56887,
+            9.91157
+          ],
+          [
+            51.57012,
+            9.91221
+          ],
+          [
+            51.57067,
+            9.91302
+          ],
+          [
+            51.57162,
+            9.91539
+          ],
+          [
+            51.5725,
+            9.91591
+          ],
+          [
+            51.57344,
+            9.91602
+          ],
+          [
+            51.57583,
+            9.91794
+          ],
+          [
+            51.57713,
+            9.91761
+          ],
+          [
+            51.57948,
+            9.91552
+          ],
+          [
+            51.58275,
+            9.91467
+          ],
+          [
+            51.58449,
+            9.91504
+          ],
+          [
+            51.586,
+            9.91403
+          ],
+          [
+            51.58721,
+            9.912
+          ],
+          [
+            51.58877,
+            9.91184
+          ],
+          [
+            51.59024,
+            9.91095
+          ],
+          [
+            51.59201,
+            9.91086
+          ],
+          [
+            51.59502,
+            9.90934
+          ],
+          [
+            51.59563,
+            9.90958
+          ],
+          [
+            51.5976,
+            9.91207
+          ],
+          [
+            51.60135,
+            9.91516
+          ],
+          [
+            51.60282,
+            9.91532
+          ],
+          [
+            51.60421,
+            9.91503
+          ],
+          [
+            51.60622,
+            9.91615
+          ],
+          [
+            51.60877,
+            9.9149
+          ],
+          [
+            51.61104,
+            9.91656
+          ],
+          [
+            51.61238,
+            9.91669
+          ],
+          [
+            51.61406,
+            9.91663
+          ],
+          [
+            51.61478,
+            9.91577
+          ],
+          [
+            51.61531,
+            9.91557
+          ],
+          [
+            51.61583,
+            9.91581
+          ],
+          [
+            51.61698,
+            9.91732
+          ]
+        ]
+      },
+      {
+        "name": "Leinekanal",
+        "major": false,
+        "points": [
+          [
+            51.52085,
+            9.93059
+          ],
+          [
+            51.52157,
+            9.92953
+          ],
+          [
+            51.52186,
+            9.92846
+          ],
+          [
+            51.52223,
+            9.92814
+          ],
+          [
+            51.52879,
+            9.93052
+          ],
+          [
+            51.53072,
+            9.93243
+          ],
+          [
+            51.53124,
+            9.9321
+          ],
+          [
+            51.53196,
+            9.93055
+          ],
+          [
+            51.53241,
+            9.93036
+          ],
+          [
+            51.5339,
+            9.93121
+          ],
+          [
+            51.5349,
+            9.93226
+          ],
+          [
+            51.53685,
+            9.93268
+          ],
+          [
+            51.53768,
+            9.93173
+          ],
+          [
+            51.53746,
+            9.93058
+          ],
+          [
+            51.53899,
+            9.92742
+          ],
+          [
+            51.542,
+            9.91992
+          ]
+        ]
+      },
+      {
+        "name": "Leinekanal",
+        "major": false,
+        "points": [
+          [
+            51.52996,
+            9.93179
+          ],
+          [
+            51.53009,
+            9.93192
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Leine",
+        "lat": 51.5328,
+        "lon": 9.918
+      },
+      {
+        "text": "Nordstadt",
+        "lat": 51.5448,
+        "lon": 9.9406,
+        "district": true
+      },
+      {
+        "text": "Weende",
+        "lat": 51.5623,
+        "lon": 9.9355,
+        "district": true
+      },
+      {
+        "text": "Grone",
+        "lat": 51.5345,
+        "lon": 9.8889,
+        "district": true
+      },
+      {
+        "text": "Weststadt",
+        "lat": 51.5438,
+        "lon": 9.911,
+        "district": true
+      },
+      {
+        "text": "Holtenser Berg",
+        "lat": 51.5612,
+        "lon": 9.9046,
+        "district": true
+      },
+      {
+        "text": "Südstadt",
+        "lat": 51.5255,
+        "lon": 9.9399,
+        "district": true
+      },
+      {
+        "text": "Nikolausberg",
+        "lat": 51.5634,
+        "lon": 9.9812,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Kiessee",
+        "points": [
+          [
+            51.51861,
+            9.91985
+          ],
+          [
+            51.51978,
+            9.92028
+          ],
+          [
+            51.52068,
+            9.92096
+          ],
+          [
+            51.52078,
+            9.92324
+          ],
+          [
+            51.52057,
+            9.92409
+          ],
+          [
+            51.51936,
+            9.92394
+          ],
+          [
+            51.51913,
+            9.92365
+          ],
+          [
+            51.51893,
+            9.92285
+          ],
+          [
+            51.51692,
+            9.92182
+          ],
+          [
+            51.5164,
+            9.92197
+          ],
+          [
+            51.51633,
+            9.92301
+          ],
+          [
+            51.51621,
+            9.92332
+          ],
+          [
+            51.51517,
+            9.9232
+          ],
+          [
+            51.51467,
+            9.92288
+          ],
+          [
+            51.51456,
+            9.92211
+          ],
+          [
+            51.51431,
+            9.92149
+          ],
+          [
+            51.514,
+            9.91856
+          ],
+          [
+            51.51414,
+            9.91832
+          ],
+          [
+            51.51499,
+            9.91857
+          ],
+          [
+            51.51549,
+            9.91987
+          ],
+          [
+            51.51622,
+            9.92036
+          ],
+          [
+            51.51659,
+            9.92041
+          ],
+          [
+            51.51685,
+            9.92024
+          ],
+          [
+            51.51699,
+            9.91902
+          ],
+          [
+            51.51717,
+            9.91888
+          ],
+          [
+            51.51835,
+            9.91931
+          ],
+          [
+            51.51861,
+            9.91985
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Schillerwiese",
+        "points": [
+          [
+            51.53563,
+            9.95826
+          ],
+          [
+            51.53581,
+            9.95626
+          ],
+          [
+            51.53539,
+            9.95451
+          ],
+          [
+            51.53544,
+            9.95324
+          ],
+          [
+            51.53526,
+            9.95234
+          ],
+          [
+            51.53515,
+            9.95213
+          ],
+          [
+            51.53501,
+            9.95226
+          ],
+          [
+            51.53468,
+            9.95172
+          ],
+          [
+            51.5337,
+            9.95265
+          ],
+          [
+            51.53363,
+            9.95388
+          ],
+          [
+            51.53331,
+            9.95509
+          ],
+          [
+            51.53333,
+            9.95662
+          ],
+          [
+            51.53465,
+            9.95783
+          ],
+          [
+            51.53563,
+            9.95826
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Cheltenhampark",
+        "points": [
+          [
+            51.53258,
+            9.9429
+          ],
+          [
+            51.53291,
+            9.94362
+          ],
+          [
+            51.53308,
+            9.94357
+          ],
+          [
+            51.53305,
+            9.94336
+          ],
+          [
+            51.53316,
+            9.9433
+          ],
+          [
+            51.53372,
+            9.94338
+          ],
+          [
+            51.53375,
+            9.94209
+          ],
+          [
+            51.53349,
+            9.94168
+          ],
+          [
+            51.53331,
+            9.9418
+          ],
+          [
+            51.53334,
+            9.94207
+          ],
+          [
+            51.5328,
+            9.9421
+          ],
+          [
+            51.5316,
+            9.94001
+          ],
+          [
+            51.53134,
+            9.94019
+          ],
+          [
+            51.5313,
+            9.93969
+          ],
+          [
+            51.53121,
+            9.93971
+          ],
+          [
+            51.53122,
+            9.94029
+          ],
+          [
+            51.53109,
+            9.94029
+          ],
+          [
+            51.5311,
+            9.94062
+          ],
+          [
+            51.53133,
+            9.94071
+          ],
+          [
+            51.53135,
+            9.94132
+          ],
+          [
+            51.5312,
+            9.94124
+          ],
+          [
+            51.53141,
+            9.94266
+          ],
+          [
+            51.53185,
+            9.94289
+          ],
+          [
+            51.53228,
+            9.94252
+          ],
+          [
+            51.53258,
+            9.9429
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Levinscher Park",
+        "points": [
+          [
+            51.54582,
+            9.91083
+          ],
+          [
+            51.54489,
+            9.91058
+          ],
+          [
+            51.54485,
+            9.91029
+          ],
+          [
+            51.54552,
+            9.90963
+          ],
+          [
+            51.5455,
+            9.90838
+          ],
+          [
+            51.54595,
+            9.90825
+          ],
+          [
+            51.54549,
+            9.9078
+          ],
+          [
+            51.54537,
+            9.90804
+          ],
+          [
+            51.54499,
+            9.90773
+          ],
+          [
+            51.54481,
+            9.90742
+          ],
+          [
+            51.54483,
+            9.90711
+          ],
+          [
+            51.5443,
+            9.90683
+          ],
+          [
+            51.54362,
+            9.90702
+          ],
+          [
+            51.54368,
+            9.90738
+          ],
+          [
+            51.54352,
+            9.90746
+          ],
+          [
+            51.54359,
+            9.90786
+          ],
+          [
+            51.5427,
+            9.90806
+          ],
+          [
+            51.543,
+            9.90922
+          ],
+          [
+            51.54361,
+            9.9091
+          ],
+          [
+            51.54387,
+            9.90933
+          ],
+          [
+            51.54414,
+            9.90927
+          ],
+          [
+            51.54431,
+            9.91033
+          ],
+          [
+            51.54411,
+            9.91038
+          ],
+          [
+            51.5442,
+            9.91087
+          ],
+          [
+            51.54574,
+            9.91152
+          ],
+          [
+            51.54582,
+            9.91083
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Alter Botanischer Garten",
+        "points": [
+          [
+            51.53836,
+            9.93938
+          ],
+          [
+            51.53867,
+            9.93939
+          ],
+          [
+            51.53908,
+            9.93916
+          ],
+          [
+            51.53911,
+            9.93899
+          ],
+          [
+            51.53893,
+            9.93812
+          ],
+          [
+            51.53883,
+            9.93823
+          ],
+          [
+            51.53866,
+            9.93789
+          ],
+          [
+            51.53876,
+            9.93777
+          ],
+          [
+            51.53832,
+            9.93565
+          ],
+          [
+            51.53839,
+            9.93511
+          ],
+          [
+            51.53811,
+            9.93524
+          ],
+          [
+            51.538,
+            9.93495
+          ],
+          [
+            51.53806,
+            9.93483
+          ],
+          [
+            51.53785,
+            9.93478
+          ],
+          [
+            51.53825,
+            9.93767
+          ],
+          [
+            51.53785,
+            9.9389
+          ],
+          [
+            51.53718,
+            9.93944
+          ],
+          [
+            51.53737,
+            9.94004
+          ],
+          [
+            51.53836,
+            9.93938
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Alter Botanischer Garten",
+        "points": [
+          [
+            51.53793,
+            9.93748
+          ],
+          [
+            51.53802,
+            9.9375
+          ],
+          [
+            51.53804,
+            9.93715
+          ],
+          [
+            51.53775,
+            9.93515
+          ],
+          [
+            51.53737,
+            9.93533
+          ],
+          [
+            51.53732,
+            9.93562
+          ],
+          [
+            51.5377,
+            9.93672
+          ],
+          [
+            51.53783,
+            9.93662
+          ],
+          [
+            51.53793,
+            9.93748
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          51.56044,
+          9.87033
+        ],
+        [
+          51.56094,
+          9.87024
+        ],
+        [
+          51.56102,
+          9.87094
+        ],
+        [
+          51.56226,
+          9.87106
+        ],
+        [
+          51.56226,
+          9.87016
+        ],
+        [
+          51.56404,
+          9.87031
+        ],
+        [
+          51.56479,
+          9.87358
+        ],
+        [
+          51.5648,
+          9.87834
+        ],
+        [
+          51.56896,
+          9.87983
+        ],
+        [
+          51.56884,
+          9.88241
+        ],
+        [
+          51.5694,
+          9.88228
+        ],
+        [
+          51.57096,
+          9.89194
+        ],
+        [
+          51.56934,
+          9.89177
+        ],
+        [
+          51.5703,
+          9.89814
+        ],
+        [
+          51.5717,
+          9.90182
+        ],
+        [
+          51.57303,
+          9.90401
+        ],
+        [
+          51.57306,
+          9.90534
+        ],
+        [
+          51.57618,
+          9.90968
+        ],
+        [
+          51.57591,
+          9.91309
+        ],
+        [
+          51.57493,
+          9.9125
+        ],
+        [
+          51.57274,
+          9.90967
+        ],
+        [
+          51.57233,
+          9.91471
+        ],
+        [
+          51.57128,
+          9.91859
+        ],
+        [
+          51.57425,
+          9.91916
+        ],
+        [
+          51.57447,
+          9.92304
+        ],
+        [
+          51.57607,
+          9.92333
+        ],
+        [
+          51.57657,
+          9.92663
+        ],
+        [
+          51.57652,
+          9.92787
+        ],
+        [
+          51.58134,
+          9.92716
+        ],
+        [
+          51.58073,
+          9.92941
+        ],
+        [
+          51.58045,
+          9.93313
+        ],
+        [
+          51.58013,
+          9.93288
+        ],
+        [
+          51.57947,
+          9.94088
+        ],
+        [
+          51.57738,
+          9.94055
+        ],
+        [
+          51.577,
+          9.94328
+        ],
+        [
+          51.5771,
+          9.94766
+        ],
+        [
+          51.57886,
+          9.9499
+        ],
+        [
+          51.57872,
+          9.95256
+        ],
+        [
+          51.57985,
+          9.95491
+        ],
+        [
+          51.58041,
+          9.95816
+        ],
+        [
+          51.58261,
+          9.95966
+        ],
+        [
+          51.58341,
+          9.95899
+        ],
+        [
+          51.58387,
+          9.95956
+        ],
+        [
+          51.58502,
+          9.95916
+        ],
+        [
+          51.58493,
+          9.96499
+        ],
+        [
+          51.58588,
+          9.96417
+        ],
+        [
+          51.58651,
+          9.96634
+        ],
+        [
+          51.58698,
+          9.9661
+        ],
+        [
+          51.58727,
+          9.96667
+        ],
+        [
+          51.5882,
+          9.96644
+        ],
+        [
+          51.58854,
+          9.96776
+        ],
+        [
+          51.58714,
+          9.96814
+        ],
+        [
+          51.58571,
+          9.96908
+        ],
+        [
+          51.58608,
+          9.97153
+        ],
+        [
+          51.59005,
+          9.98454
+        ],
+        [
+          51.5886,
+          9.98721
+        ],
+        [
+          51.58905,
+          9.99
+        ],
+        [
+          51.58894,
+          9.99068
+        ],
+        [
+          51.59008,
+          9.99386
+        ],
+        [
+          51.58957,
+          9.99499
+        ],
+        [
+          51.5893,
+          9.99628
+        ],
+        [
+          51.58943,
+          9.99714
+        ],
+        [
+          51.58903,
+          9.99872
+        ],
+        [
+          51.58926,
+          9.99935
+        ],
+        [
+          51.58968,
+          9.99957
+        ],
+        [
+          51.59009,
+          10.00175
+        ],
+        [
+          51.59077,
+          10.00303
+        ],
+        [
+          51.59054,
+          10.00883
+        ],
+        [
+          51.59,
+          10.01124
+        ],
+        [
+          51.58827,
+          10.01315
+        ],
+        [
+          51.58768,
+          10.01538
+        ],
+        [
+          51.58543,
+          10.01891
+        ],
+        [
+          51.58489,
+          10.01881
+        ],
+        [
+          51.58426,
+          10.02019
+        ],
+        [
+          51.58362,
+          10.02073
+        ],
+        [
+          51.58374,
+          10.02149
+        ],
+        [
+          51.58258,
+          10.02657
+        ],
+        [
+          51.58214,
+          10.02771
+        ],
+        [
+          51.58101,
+          10.02798
+        ],
+        [
+          51.58011,
+          10.03031
+        ],
+        [
+          51.57981,
+          10.0319
+        ],
+        [
+          51.57878,
+          10.0331
+        ],
+        [
+          51.57859,
+          10.03424
+        ],
+        [
+          51.57756,
+          10.03491
+        ],
+        [
+          51.5765,
+          10.03436
+        ],
+        [
+          51.57538,
+          10.03458
+        ],
+        [
+          51.57431,
+          10.03192
+        ],
+        [
+          51.57354,
+          10.0309
+        ],
+        [
+          51.57156,
+          10.03056
+        ],
+        [
+          51.56921,
+          10.02891
+        ],
+        [
+          51.56765,
+          10.02592
+        ],
+        [
+          51.56603,
+          10.02369
+        ],
+        [
+          51.56555,
+          10.02212
+        ],
+        [
+          51.56184,
+          10.02103
+        ],
+        [
+          51.56073,
+          10.02556
+        ],
+        [
+          51.56094,
+          10.02862
+        ],
+        [
+          51.56071,
+          10.03195
+        ],
+        [
+          51.5592,
+          10.03886
+        ],
+        [
+          51.5583,
+          10.04074
+        ],
+        [
+          51.55729,
+          10.04149
+        ],
+        [
+          51.55654,
+          10.04158
+        ],
+        [
+          51.55453,
+          10.04087
+        ],
+        [
+          51.5531,
+          10.04161
+        ],
+        [
+          51.55043,
+          10.04154
+        ],
+        [
+          51.54838,
+          10.04412
+        ],
+        [
+          51.54678,
+          10.04479
+        ],
+        [
+          51.54521,
+          10.04811
+        ],
+        [
+          51.54464,
+          10.04876
+        ],
+        [
+          51.54335,
+          10.04864
+        ],
+        [
+          51.53921,
+          10.05006
+        ],
+        [
+          51.53706,
+          10.05172
+        ],
+        [
+          51.53661,
+          10.05278
+        ],
+        [
+          51.53578,
+          10.05272
+        ],
+        [
+          51.53504,
+          10.05361
+        ],
+        [
+          51.5341,
+          10.05223
+        ],
+        [
+          51.53137,
+          10.05109
+        ],
+        [
+          51.5306,
+          10.05109
+        ],
+        [
+          51.53015,
+          10.04604
+        ],
+        [
+          51.53133,
+          10.03868
+        ],
+        [
+          51.52995,
+          10.03565
+        ],
+        [
+          51.53051,
+          10.02906
+        ],
+        [
+          51.53002,
+          10.02542
+        ],
+        [
+          51.53008,
+          10.02272
+        ],
+        [
+          51.52903,
+          10.02074
+        ],
+        [
+          51.52759,
+          10.01962
+        ],
+        [
+          51.52273,
+          10.01788
+        ],
+        [
+          51.52196,
+          10.01817
+        ],
+        [
+          51.52127,
+          10.02085
+        ],
+        [
+          51.52076,
+          10.01996
+        ],
+        [
+          51.52023,
+          10.01484
+        ],
+        [
+          51.52059,
+          10.01222
+        ],
+        [
+          51.51982,
+          10.0081
+        ],
+        [
+          51.52013,
+          10.00603
+        ],
+        [
+          51.52136,
+          10.0048
+        ],
+        [
+          51.52146,
+          10.00402
+        ],
+        [
+          51.52115,
+          10.00242
+        ],
+        [
+          51.51978,
+          10.00321
+        ],
+        [
+          51.51843,
+          10.00487
+        ],
+        [
+          51.51746,
+          10.00389
+        ],
+        [
+          51.5161,
+          10.00351
+        ],
+        [
+          51.51463,
+          10.00119
+        ],
+        [
+          51.51401,
+          10.00099
+        ],
+        [
+          51.51345,
+          10.00012
+        ],
+        [
+          51.51264,
+          9.99967
+        ],
+        [
+          51.51099,
+          9.99975
+        ],
+        [
+          51.51057,
+          9.99896
+        ],
+        [
+          51.51011,
+          9.99359
+        ],
+        [
+          51.50961,
+          9.9917
+        ],
+        [
+          51.51124,
+          9.99023
+        ],
+        [
+          51.51248,
+          9.99021
+        ],
+        [
+          51.51204,
+          9.98812
+        ],
+        [
+          51.50993,
+          9.98737
+        ],
+        [
+          51.50746,
+          9.98419
+        ],
+        [
+          51.5076,
+          9.98233
+        ],
+        [
+          51.50789,
+          9.98179
+        ],
+        [
+          51.50772,
+          9.98103
+        ],
+        [
+          51.5049,
+          9.97969
+        ],
+        [
+          51.50369,
+          9.97741
+        ],
+        [
+          51.50174,
+          9.9764
+        ],
+        [
+          51.50012,
+          9.97483
+        ],
+        [
+          51.49761,
+          9.97394
+        ],
+        [
+          51.4964,
+          9.97401
+        ],
+        [
+          51.49548,
+          9.97188
+        ],
+        [
+          51.49663,
+          9.97068
+        ],
+        [
+          51.4949,
+          9.96768
+        ],
+        [
+          51.49355,
+          9.9667
+        ],
+        [
+          51.49224,
+          9.9651
+        ],
+        [
+          51.4918,
+          9.96559
+        ],
+        [
+          51.49093,
+          9.96118
+        ],
+        [
+          51.4889,
+          9.95694
+        ],
+        [
+          51.48783,
+          9.95595
+        ],
+        [
+          51.48525,
+          9.9555
+        ],
+        [
+          51.48396,
+          9.95454
+        ],
+        [
+          51.48414,
+          9.9528
+        ],
+        [
+          51.48302,
+          9.94758
+        ],
+        [
+          51.48388,
+          9.94233
+        ],
+        [
+          51.48456,
+          9.94243
+        ],
+        [
+          51.4871,
+          9.94084
+        ],
+        [
+          51.48867,
+          9.93859
+        ],
+        [
+          51.48898,
+          9.93986
+        ],
+        [
+          51.4909,
+          9.94024
+        ],
+        [
+          51.49123,
+          9.93966
+        ],
+        [
+          51.49131,
+          9.93857
+        ],
+        [
+          51.49247,
+          9.93783
+        ],
+        [
+          51.49489,
+          9.93411
+        ],
+        [
+          51.49533,
+          9.93394
+        ],
+        [
+          51.49522,
+          9.93453
+        ],
+        [
+          51.49848,
+          9.93489
+        ],
+        [
+          51.49827,
+          9.93102
+        ],
+        [
+          51.49925,
+          9.93175
+        ],
+        [
+          51.49958,
+          9.92917
+        ],
+        [
+          51.50156,
+          9.92966
+        ],
+        [
+          51.50237,
+          9.92338
+        ],
+        [
+          51.50508,
+          9.92416
+        ],
+        [
+          51.50564,
+          9.92001
+        ],
+        [
+          51.50802,
+          9.92059
+        ],
+        [
+          51.50902,
+          9.92217
+        ],
+        [
+          51.5104,
+          9.92282
+        ],
+        [
+          51.5111,
+          9.92279
+        ],
+        [
+          51.51108,
+          9.92215
+        ],
+        [
+          51.51194,
+          9.9223
+        ],
+        [
+          51.51158,
+          9.91589
+        ],
+        [
+          51.51246,
+          9.91584
+        ],
+        [
+          51.51498,
+          9.91732
+        ],
+        [
+          51.51559,
+          9.91704
+        ],
+        [
+          51.51608,
+          9.91786
+        ],
+        [
+          51.51601,
+          9.91755
+        ],
+        [
+          51.51714,
+          9.91539
+        ],
+        [
+          51.51774,
+          9.91225
+        ],
+        [
+          51.5183,
+          9.91244
+        ],
+        [
+          51.51832,
+          9.90642
+        ],
+        [
+          51.52002,
+          9.90569
+        ],
+        [
+          51.52037,
+          9.90135
+        ],
+        [
+          51.51957,
+          9.89813
+        ],
+        [
+          51.51894,
+          9.89248
+        ],
+        [
+          51.51719,
+          9.88325
+        ],
+        [
+          51.51676,
+          9.88178
+        ],
+        [
+          51.51634,
+          9.88123
+        ],
+        [
+          51.51779,
+          9.8809
+        ],
+        [
+          51.51736,
+          9.87839
+        ],
+        [
+          51.5166,
+          9.87837
+        ],
+        [
+          51.51671,
+          9.87511
+        ],
+        [
+          51.51545,
+          9.87501
+        ],
+        [
+          51.51561,
+          9.8714
+        ],
+        [
+          51.51516,
+          9.86814
+        ],
+        [
+          51.51334,
+          9.86891
+        ],
+        [
+          51.51329,
+          9.86458
+        ],
+        [
+          51.51309,
+          9.86443
+        ],
+        [
+          51.512,
+          9.85849
+        ],
+        [
+          51.51222,
+          9.85841
+        ],
+        [
+          51.51093,
+          9.85601
+        ],
+        [
+          51.51038,
+          9.85321
+        ],
+        [
+          51.51112,
+          9.85322
+        ],
+        [
+          51.511,
+          9.85121
+        ],
+        [
+          51.51301,
+          9.84959
+        ],
+        [
+          51.51305,
+          9.84681
+        ],
+        [
+          51.5146,
+          9.84484
+        ],
+        [
+          51.51526,
+          9.84349
+        ],
+        [
+          51.51532,
+          9.84224
+        ],
+        [
+          51.51453,
+          9.84145
+        ],
+        [
+          51.51518,
+          9.83934
+        ],
+        [
+          51.51538,
+          9.83596
+        ],
+        [
+          51.51559,
+          9.83545
+        ],
+        [
+          51.51549,
+          9.83309
+        ],
+        [
+          51.51616,
+          9.82271
+        ],
+        [
+          51.5167,
+          9.82248
+        ],
+        [
+          51.51745,
+          9.81882
+        ],
+        [
+          51.51888,
+          9.81539
+        ],
+        [
+          51.5198,
+          9.81384
+        ],
+        [
+          51.52191,
+          9.8117
+        ],
+        [
+          51.52261,
+          9.80963
+        ],
+        [
+          51.52447,
+          9.80799
+        ],
+        [
+          51.52501,
+          9.80889
+        ],
+        [
+          51.52655,
+          9.80938
+        ],
+        [
+          51.52772,
+          9.8103
+        ],
+        [
+          51.52775,
+          9.8095
+        ],
+        [
+          51.52721,
+          9.80876
+        ],
+        [
+          51.5274,
+          9.80823
+        ],
+        [
+          51.52757,
+          9.80786
+        ],
+        [
+          51.52843,
+          9.80808
+        ],
+        [
+          51.52968,
+          9.80481
+        ],
+        [
+          51.53041,
+          9.80412
+        ],
+        [
+          51.53062,
+          9.80329
+        ],
+        [
+          51.53282,
+          9.80295
+        ],
+        [
+          51.53407,
+          9.80209
+        ],
+        [
+          51.5344,
+          9.80075
+        ],
+        [
+          51.53505,
+          9.80014
+        ],
+        [
+          51.53901,
+          9.80029
+        ],
+        [
+          51.54003,
+          9.8013
+        ],
+        [
+          51.54011,
+          9.8029
+        ],
+        [
+          51.54105,
+          9.80286
+        ],
+        [
+          51.54112,
+          9.80421
+        ],
+        [
+          51.54249,
+          9.80385
+        ],
+        [
+          51.54272,
+          9.80492
+        ],
+        [
+          51.54393,
+          9.80446
+        ],
+        [
+          51.54407,
+          9.80533
+        ],
+        [
+          51.54454,
+          9.80484
+        ],
+        [
+          51.5456,
+          9.80887
+        ],
+        [
+          51.54711,
+          9.80683
+        ],
+        [
+          51.54849,
+          9.80566
+        ],
+        [
+          51.54873,
+          9.80715
+        ],
+        [
+          51.5497,
+          9.80816
+        ],
+        [
+          51.55067,
+          9.8112
+        ],
+        [
+          51.55097,
+          9.81081
+        ],
+        [
+          51.55341,
+          9.81397
+        ],
+        [
+          51.55393,
+          9.81555
+        ],
+        [
+          51.55542,
+          9.81774
+        ],
+        [
+          51.55615,
+          9.81727
+        ],
+        [
+          51.55647,
+          9.81878
+        ],
+        [
+          51.55797,
+          9.81807
+        ],
+        [
+          51.55821,
+          9.81881
+        ],
+        [
+          51.55842,
+          9.81843
+        ],
+        [
+          51.55886,
+          9.81933
+        ],
+        [
+          51.56005,
+          9.81757
+        ],
+        [
+          51.56099,
+          9.81488
+        ],
+        [
+          51.56294,
+          9.81132
+        ],
+        [
+          51.56423,
+          9.81418
+        ],
+        [
+          51.56594,
+          9.8147
+        ],
+        [
+          51.56744,
+          9.8198
+        ],
+        [
+          51.5682,
+          9.82611
+        ],
+        [
+          51.56967,
+          9.82683
+        ],
+        [
+          51.57026,
+          9.82633
+        ],
+        [
+          51.57291,
+          9.82564
+        ],
+        [
+          51.57386,
+          9.82893
+        ],
+        [
+          51.5748,
+          9.83
+        ],
+        [
+          51.57571,
+          9.83174
+        ],
+        [
+          51.5711,
+          9.83316
+        ],
+        [
+          51.57144,
+          9.83624
+        ],
+        [
+          51.57215,
+          9.83914
+        ],
+        [
+          51.57442,
+          9.8379
+        ],
+        [
+          51.57486,
+          9.8429
+        ],
+        [
+          51.57556,
+          9.84313
+        ],
+        [
+          51.57549,
+          9.84383
+        ],
+        [
+          51.57597,
+          9.84397
+        ],
+        [
+          51.57562,
+          9.84703
+        ],
+        [
+          51.57536,
+          9.84754
+        ],
+        [
+          51.57509,
+          9.84738
+        ],
+        [
+          51.57327,
+          9.85104
+        ],
+        [
+          51.57246,
+          9.85027
+        ],
+        [
+          51.56889,
+          9.85586
+        ],
+        [
+          51.56647,
+          9.85871
+        ],
+        [
+          51.5665,
+          9.85919
+        ],
+        [
+          51.566,
+          9.85972
+        ],
+        [
+          51.56505,
+          9.85954
+        ],
+        [
+          51.56336,
+          9.86051
+        ],
+        [
+          51.56133,
+          9.86082
+        ],
+        [
+          51.56139,
+          9.86148
+        ],
+        [
+          51.56268,
+          9.86203
+        ],
+        [
+          51.56271,
+          9.86351
+        ],
+        [
+          51.56354,
+          9.8635
+        ],
+        [
+          51.56358,
+          9.86649
+        ],
+        [
+          51.56201,
+          9.86668
+        ],
+        [
+          51.56204,
+          9.86708
+        ],
+        [
+          51.56051,
+          9.86701
+        ],
+        [
+          51.56044,
+          9.87033
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Leine",
+        "major": true
+      },
+      {
+        "name": "Leinekanal"
+      }
+    ],
+    "lakes": [
+      "Kiessee"
+    ],
+    "parks": [
+      "Schillerwiese",
+      "Cheltenhampark",
+      "Levinscher Park",
+      "Alter Botanischer Garten"
+    ],
+    "boundary": "Göttingen"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Göttingen?",
+      "answer": "Laut Zensus 2022 haben rund 34.050 Göttingerinnen und Göttinger ab 15 Jahren einen Hochschulabschluss, das sind 32 Prozent (bundesweit 20 Prozent). 6,6 Prozent sind promoviert, fast viermal so viele wie im Bundesschnitt. Auch unter den Erwerbstätigen mit Arbeitsort Göttingen hat fast jede dritte Person studiert (32 Prozent, bundesweit rund 26 Prozent)."
+    },
+    {
+      "question": "Gibt es in Göttingen viele Singles?",
+      "answer": "In 55 Prozent aller Göttinger Haushalte lebt nur eine Person (Zensus 2022, bundesweit 43 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem ist knapp die Hälfte der 30- bis 49-Jährigen ledig (49 Prozent, bundesweit 37 Prozent), wobei auch ledig nur unverheiratet bedeutet."
+    },
+    {
+      "question": "Wo lernen Akademiker in Göttingen Singles kennen?",
+      "answer": "Rund um den Campus, bei öffentlichen Vorträgen der Universität und im Forum Wissen, bei der Pflanzenbörse im Botanischen Garten, im Deutschen Theater und bei den Internationalen Händel-Festspielen. Für den Spaziergang danach bieten sich die Altstadt rund ums Gänseliesel, die Schillerwiese oder der Kiessee an. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "zensus-arbeitsort",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-2123: Erwerbstätige nach Arbeitsort – höchster beruflicher Abschluss (ausführlich)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-2123"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-1004: Personen ab 15 Jahren nach höchstem beruflichem Abschluss (ausführlich)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-1004"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 5000H-1002: Haushalte nach Größe des privaten Haushalts",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/5000H/table/5000H-1002"
+    },
+    {
+      "id": "zensus-familienstand",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-2007: Personen nach Alter (5 Altersklassen) und Familienstand",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-2007"
+    },
+    {
+      "id": "zensus-alter",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-0002: Durchschnittliches Alter",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-0002"
+    },
+    {
+      "id": "stadt-statistik",
+      "publisher": "Stadt Göttingen, Referat Statistik und Wahlen",
+      "title": "Göttinger Statistik Journal 3/2025, Tabelle Bildung – Hochschulen",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://duva-stg-extern.kdgoe.de/Informationsportal/Dokumente/Journal2025-3.pdf"
+    },
+    {
+      "id": "uni",
+      "publisher": "Georg-August-Universität Göttingen",
+      "title": "Studium und Lehre – Studierendenentwicklung über 5 Jahre",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.uni-goettingen.de/de/626487.html"
+    },
+    {
+      "id": "campus-members",
+      "publisher": "Göttingen Campus",
+      "title": "Campus Members",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.goettingen-campus.de/campus-members"
+    },
+    {
+      "id": "campus",
+      "publisher": "Göttingen Campus",
+      "title": "Göttingen Campus – Startseite (Forschende und Partnereinrichtungen)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.goettingen-campus.de/"
+    },
+    {
+      "id": "ba-gemeinden",
+      "publisher": "Statistik der Bundesagentur für Arbeit",
+      "title": "Gemeindedaten der sozialversicherungspflichtig Beschäftigten nach Wohn- und Arbeitsort (Kreise und Gemeinden)",
+      "stand": "Stand 30.06.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202506/iiia6/beschaeftigung-sozbe-gemband/gemband-dlk-0-202506-xlsx.xlsx?__blob=publicationFile&v=1"
+    },
+    {
+      "id": "haendel",
+      "publisher": "Internationale Händel-Festspiele Göttingen gGmbH",
+      "title": "Festspiele verzeichnen Besucherrekord mit mehr als 16.500 Gästen",
+      "stand": "Festspiele 14.–25.05.2026",
+      "url": "https://www.haendel-festspiele.de/de/service/pressebereich/pressemitteilungen-2026/festspiele-verzeichnen-besucherrekord-mit-mehr-als-16.500-gaesten/"
+    },
+    {
+      "id": "gwg",
+      "publisher": "GWG Gesellschaft für Wirtschaftsförderung und Stadtentwicklung Göttingen",
+      "title": "Wirtschaftsprofil Göttingen – Branchen und Kompetenzfelder",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.gwg-online.de/standort-goettingen/wirtschaftsprofil/"
+    },
+    {
+      "id": "measurement-valley",
+      "publisher": "Measurement Valley e. V.",
+      "title": "Mitglieder",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.measurement-valley.de/mitglieder"
+    },
+    {
+      "id": "sartorius",
+      "publisher": "Sartorius AG",
+      "title": "Sartorius sets up Life Science Factory for startup entrepreneurs",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.sartorius.com/en/company/newsroom/corporate-news/35112-35112"
+    },
+    {
+      "id": "dlr",
+      "publisher": "Deutsches Zentrum für Luft- und Raumfahrt",
+      "title": "Standort Göttingen",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.dlr.de/de/das-dlr/standorte-und-bueros/goettingen"
+    }
+  ]
+}

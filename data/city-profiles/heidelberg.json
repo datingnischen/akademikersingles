@@ -1,0 +1,1907 @@
+{
+  "path": "/partnersuche/heidelberg/",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt am Neckar",
+  "lead": "Die älteste Universität im heutigen Deutschland, DKFZ, EMBL und vier Max-Planck-Institute: In Heidelberg hat mehr als jede dritte Arbeitskraft einen Hochschulabschluss – und in fast jedem zweiten Haushalt lebt nur eine Person. Wissenschaft, Kultur und Neckarufer liegen hier so nah beieinander, dass Begegnungen auf Augenhöhe fast von selbst entstehen.",
+  "heroAlt": "Schlossruine über den Dächern der Altstadt in Heidelberg – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "38 %",
+      "label": "der Beschäftigten in Heidelberg haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "rdb-besch"
+    },
+    {
+      "value": "7 %",
+      "label": "der Heidelbergerinnen und Heidelberger ab 15 Jahren sind promoviert – mehr als viermal so viele wie bundesweit",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "50 %",
+      "label": "aller Heidelberger Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "39.486",
+      "label": "Studierende im Wintersemester 2024/25",
+      "source": "jb-bildung"
+    },
+    {
+      "value": "11",
+      "label": "Hochschulen – von der Universität bis zur Hochschule für Jüdische Studien",
+      "source": "hochschulen"
+    },
+    {
+      "value": "3",
+      "label": "Exzellenzcluster mit Heidelberger Beteiligung – die Universität bleibt bis 2033 Exzellenzuniversität",
+      "source": "exzellenz"
+    },
+    {
+      "value": "222.158",
+      "label": "Besucherinnen und Besucher bei Theater und Orchester Heidelberg in der Spielzeit 2023/24",
+      "source": "jb-bildung"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Seit 1386 Universitätsstadt: Heidelberg gehört zu den Städten mit der höchsten Dichte an Hochschulabschlüssen in Deutschland.",
+      "metrics": [
+        {
+          "value": "39 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "Bachelor, Master, Diplom oder Promotion als höchster beruflicher Abschluss; berechnet: 50.460 von 130.080 Personen, Deutschland 14.026.420 von 69.439.520",
+          "compare": {
+            "city": 38.8,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 46
+          }
+        },
+        {
+          "value": "7,3 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren sind promoviert",
+          "source": "zensus-bildung",
+          "note": "Berechnet: 9.440 von 130.080 Personen; Deutschland 1.146.090 von 69.439.520",
+          "compare": {
+            "city": 7.3,
+            "germany": 1.7,
+            "unit": " %",
+            "max": 8.6
+          }
+        },
+        {
+          "value": "31.365",
+          "label": "Studierende allein an der Universität Heidelberg",
+          "source": "jb-bildung",
+          "note": "Wintersemester 2024/25; dazu Pädagogische Hochschule, SRH Hochschule, Hochschule für Jüdische Studien, Hochschule für Kirchenmusik u. a."
+        }
+      ],
+      "takeaway": "Wer hier jemanden kennenlernt, teilt oft mehr als den Wohnort: die Freude an Fragen, an Forschung und an guten Gesprächen."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Universität, Uniklinikum und internationale Forschungsinstitute prägen den Arbeitsmarkt – ergänzt durch Weltkonzerne und mittelständische Weltmarktführer.",
+      "metrics": [
+        {
+          "value": "38 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "rdb-besch",
+          "note": "Arbeitsort Heidelberg, berechnet: 38.224 von 101.850 Beschäftigten; Deutschland 7.164.183 von 34.885.488",
+          "compare": {
+            "city": 37.5,
+            "germany": 20.5,
+            "unit": " %",
+            "max": 44
+          }
+        },
+        {
+          "value": "42 %",
+          "label": "der erwerbstätigen Heidelbergerinnen und Heidelberger arbeiten in akademischen Berufen",
+          "source": "zensus-bildung",
+          "note": "Wohnort Heidelberg, ISCO-08 Hauptgruppe 2; berechnet: 33.370 von 78.620 Erwerbstätigen, Deutschland 9.039.670 von 41.043.450",
+          "compare": {
+            "city": 42.4,
+            "germany": 22.0,
+            "unit": " %",
+            "max": 50
+          }
+        },
+        {
+          "value": "17.500",
+          "label": "Beschäftigte bei Universität und Universitätsklinikum – dem größten Arbeitgeber der Stadt",
+          "source": "hd-zahlen",
+          "note": "Hauptberuflich Beschäftigte, gerundet; dazu DKFZ, EMBL, vier Max-Planck-Institute sowie Unternehmen wie Heidelberg Materials und SAS"
+        }
+      ],
+      "takeaway": "Hier begegnen Sie Menschen, die ihren Beruf mit Leidenschaft ausüben – und wissen, wie wertvoll gemeinsame Zeit ist."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Heidelberg ist jung, international und studentisch geprägt – viele leben allein und entscheiden sich bewusst, wann und mit wem sie sich binden.",
+      "metrics": [
+        {
+          "value": "50 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "Berechnet: 38.721 von 77.583 Haushalten; Deutschland 43,4 %",
+          "compare": {
+            "city": 49.9,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 59
+          }
+        },
+        {
+          "value": "50 %",
+          "label": "der Heidelbergerinnen und Heidelberger ab 16 Jahren sind ledig",
+          "source": "zensus-demografie",
+          "note": "Berechnet: 65.899 von 133.021 Personen, unter 16-Jährige als ledig abgezogen; Deutschland 22.479.545 von 70.433.526",
+          "compare": {
+            "city": 49.5,
+            "germany": 31.9,
+            "unit": " %",
+            "max": 58
+          }
+        },
+        {
+          "value": "26 %",
+          "label": "der Einwohnerinnen und Einwohner sind zwischen 25 und 39 Jahre alt",
+          "source": "zensus-demografie",
+          "note": "Berechnet: 40.712 von 153.809 Personen; Deutschland 18,9 %"
+        }
+      ],
+      "takeaway": "Viele Menschen in Ihrer Lebensphase, kurze Wege und ein lebendiges Kulturangebot: In Heidelberg ist die Chance groß, dass sich Wege kreuzen."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Life Sciences & Biotechnologie",
+      "text": "Der Technologiepark Heidelberg im Neuenheimer Feld, das Biotech-Cluster BioRN und die Health + Life Science Alliance Heidelberg Mannheim verbinden Grundlagenforschung und Unternehmen."
+    },
+    {
+      "name": "Medizin & Gesundheit",
+      "text": "Universitätsklinikum und Medizinische Fakultät sind zusammen mit der Universität der größte Arbeitgeber der Stadt; das Nationale Centrum für Tumorerkrankungen (NCT) ist ein onkologisches Spitzenzentrum."
+    },
+    {
+      "name": "Spitzenforschung",
+      "text": "Das Deutsche Krebsforschungszentrum, das Europäische Laboratorium für Molekularbiologie (EMBL) und vier Max-Planck-Institute ziehen Forschende aus aller Welt an."
+    },
+    {
+      "name": "IT, KI & Digitales",
+      "text": "Im Heidelberg Innovation Park auf dem früheren Gelände der Patton Barracks arbeiten Start-ups und etablierte Unternehmen an KI, Software und Bioinformatik; dazu hat der Analytics-Softwarekonzern SAS seine deutsche Zentrale in Heidelberg."
+    },
+    {
+      "name": "Industrie & Weltmarktführer",
+      "text": "Heidelberg Materials hat seine Konzernzentrale in der Stadt, dazu kommen mittelständische Weltmarktführer wie Lamy, ProMinent und Tinti."
+    },
+    {
+      "name": "Kultur- & Kreativwirtschaft",
+      "text": "Musikwirtschaft, Buchmarkt, Kunstmarkt und darstellende Künste: Die Stadt fördert Neugründungen in der Kultur- und Kreativwirtschaft gezielt."
+    }
+  ],
+  "clusterSources": [
+    "wf-standort",
+    "wf-technologiepark",
+    "themendienst"
+  ],
+  "places": [
+    {
+      "name": "Universitätsklinikum Heidelberg",
+      "kind": "work",
+      "district": "Neuenheim · Im Neuenheimer Feld",
+      "text": "Kliniken, Medizinische Fakultät und Nationales Centrum für Tumorerkrankungen – Arbeitsort vieler Ärztinnen, Ärzte und Pflegefachleute.",
+      "lat": 49.4172,
+      "lon": 8.6647
+    },
+    {
+      "name": "Campus Im Neuenheimer Feld",
+      "kind": "work",
+      "district": "Neuenheim · Im Neuenheimer Feld",
+      "text": "Naturwissenschaften und Medizin der Universität auf einem Campus nördlich des Neckars, dazu der Technologiepark mit Biotech-Unternehmen.",
+      "lat": 49.4168,
+      "lon": 8.6691
+    },
+    {
+      "name": "Deutsches Krebsforschungszentrum",
+      "kind": "work",
+      "district": "Neuenheim · Im Neuenheimer Feld",
+      "text": "Die größte biomedizinische Forschungseinrichtung Deutschlands und Mitglied der Helmholtz-Gemeinschaft, eng verbunden mit dem Uniklinikum.",
+      "lat": 49.4147,
+      "lon": 8.6732
+    },
+    {
+      "name": "Heidelberg Materials",
+      "kind": "work",
+      "district": "Neuenheim · Berliner Straße",
+      "text": "Konzernzentrale des international tätigen Baustoffkonzerns – einer der Weltkonzerne, die die Wirtschaftsförderung für Heidelberg nennt.",
+      "lat": 49.4135,
+      "lon": 8.6776
+    },
+    {
+      "name": "EMBL",
+      "kind": "work",
+      "district": "Rohrbach · Meyerhofstraße",
+      "text": "Hauptsitz des Europäischen Laboratoriums für Molekularbiologie am Hang des Königstuhls – mit Forschenden aus vielen Ländern.",
+      "lat": 49.3851,
+      "lon": 8.7101
+    },
+    {
+      "name": "Heidelberg Innovation Park",
+      "kind": "work",
+      "district": "Kirchheim · Patton Barracks",
+      "text": "Wirtschaftsquartier für IT, KI und Lebenswissenschaften mit Business Development Center, Coworking und Laboren des Technologieparks.",
+      "lat": 49.3953,
+      "lon": 8.6731
+    },
+    {
+      "name": "Theater und Orchester Heidelberg",
+      "kind": "date",
+      "district": "Altstadt · Theaterstraße",
+      "text": "Fünf-Sparten-Haus mit Schauspiel, Musiktheater, Tanz und Konzerten; das Kurpfälzische Museum liegt nur wenige Schritte entfernt an der Hauptstraße.",
+      "lat": 49.4105,
+      "lon": 8.7034
+    },
+    {
+      "name": "Heidelberger Schloss",
+      "kind": "date",
+      "district": "Altstadt · Schlossberg",
+      "text": "Die Schlossruine über der Altstadt mit Blick auf Neckar und Alte Brücke – im Sommer Kulisse der Heidelberger Schlossfestspiele.",
+      "lat": 49.4105,
+      "lon": 8.7152
+    },
+    {
+      "name": "Neckarwiese",
+      "kind": "date",
+      "district": "Neuenheim · Uferstraße",
+      "text": "Die große Liegewiese am Nordufer des Neckars ist im Sommer Treffpunkt für Studierende, Picknick und lange Gespräche.",
+      "lat": 49.4132,
+      "lon": 8.6941
+    },
+    {
+      "name": "Philosophenweg",
+      "kind": "date",
+      "district": "Neuenheim · Philosophengärtchen",
+      "text": "Spazierweg am Hang gegenüber der Altstadt mit dem bekanntesten Blick auf Schloss und Stadt – ideal für das zweite Date.",
+      "lat": 49.4151,
+      "lon": 8.7006
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 8.6499,
+      "east": 8.7301,
+      "south": 49.377,
+      "north": 49.4205
+    },
+    "rivers": [
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            49.41568,
+            8.72047
+          ],
+          [
+            49.4147,
+            8.71705
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            49.40984,
+            8.77583
+          ],
+          [
+            49.41101,
+            8.77503
+          ],
+          [
+            49.41322,
+            8.774
+          ],
+          [
+            49.41424,
+            8.77267
+          ],
+          [
+            49.41501,
+            8.77043
+          ],
+          [
+            49.41533,
+            8.7651
+          ],
+          [
+            49.41643,
+            8.76072
+          ],
+          [
+            49.41687,
+            8.75824
+          ],
+          [
+            49.41695,
+            8.75594
+          ],
+          [
+            49.41606,
+            8.75037
+          ],
+          [
+            49.41596,
+            8.74789
+          ],
+          [
+            49.4161,
+            8.74524
+          ],
+          [
+            49.41663,
+            8.74181
+          ],
+          [
+            49.41724,
+            8.73919
+          ],
+          [
+            49.41891,
+            8.73397
+          ],
+          [
+            49.41939,
+            8.73162
+          ],
+          [
+            49.41946,
+            8.7294
+          ],
+          [
+            49.41928,
+            8.72759
+          ],
+          [
+            49.41881,
+            8.72609
+          ],
+          [
+            49.41621,
+            8.72207
+          ],
+          [
+            49.41451,
+            8.71641
+          ],
+          [
+            49.41416,
+            8.7138
+          ],
+          [
+            49.41391,
+            8.70957
+          ],
+          [
+            49.41408,
+            8.70572
+          ],
+          [
+            49.41254,
+            8.69549
+          ],
+          [
+            49.41237,
+            8.69256
+          ],
+          [
+            49.41202,
+            8.69059
+          ],
+          [
+            49.41052,
+            8.67782
+          ],
+          [
+            49.41044,
+            8.67511
+          ],
+          [
+            49.41079,
+            8.66766
+          ],
+          [
+            49.4113,
+            8.66704
+          ],
+          [
+            49.41149,
+            8.6648
+          ],
+          [
+            49.41216,
+            8.66123
+          ],
+          [
+            49.41376,
+            8.65759
+          ],
+          [
+            49.4167,
+            8.65539
+          ],
+          [
+            49.41916,
+            8.65423
+          ],
+          [
+            49.42876,
+            8.65221
+          ],
+          [
+            49.43066,
+            8.65138
+          ],
+          [
+            49.43375,
+            8.64942
+          ],
+          [
+            49.43511,
+            8.64829
+          ],
+          [
+            49.43688,
+            8.64638
+          ],
+          [
+            49.43902,
+            8.64369
+          ],
+          [
+            49.44062,
+            8.64024
+          ],
+          [
+            49.44135,
+            8.63811
+          ],
+          [
+            49.44206,
+            8.63555
+          ],
+          [
+            49.44253,
+            8.63311
+          ],
+          [
+            49.4433,
+            8.62714
+          ]
+        ]
+      },
+      {
+        "name": "Neckar",
+        "major": true,
+        "points": [
+          [
+            49.417,
+            8.72344
+          ],
+          [
+            49.41642,
+            8.72005
+          ],
+          [
+            49.41557,
+            8.71719
+          ],
+          [
+            49.41489,
+            8.71371
+          ],
+          [
+            49.41412,
+            8.712
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Neckar",
+        "lat": 49.4155,
+        "lon": 8.7197
+      },
+      {
+        "text": "Neuenheim",
+        "lat": 49.418,
+        "lon": 8.686,
+        "district": true
+      },
+      {
+        "text": "Bergheim",
+        "lat": 49.407,
+        "lon": 8.6769,
+        "district": true
+      },
+      {
+        "text": "Bahnstadt",
+        "lat": 49.4028,
+        "lon": 8.6662,
+        "district": true
+      },
+      {
+        "text": "Weststadt",
+        "lat": 49.4018,
+        "lon": 8.6849,
+        "district": true
+      },
+      {
+        "text": "Südstadt",
+        "lat": 49.3892,
+        "lon": 8.6898,
+        "district": true
+      },
+      {
+        "text": "Rohrbach",
+        "lat": 49.3802,
+        "lon": 8.6874,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Schlossgarten",
+        "points": [
+          [
+            49.41088,
+            8.71674
+          ],
+          [
+            49.41114,
+            8.71792
+          ],
+          [
+            49.41139,
+            8.71809
+          ],
+          [
+            49.4128,
+            8.71783
+          ],
+          [
+            49.41285,
+            8.71845
+          ],
+          [
+            49.41229,
+            8.71877
+          ],
+          [
+            49.41213,
+            8.71873
+          ],
+          [
+            49.41194,
+            8.71841
+          ],
+          [
+            49.41117,
+            8.71856
+          ],
+          [
+            49.41121,
+            8.71902
+          ],
+          [
+            49.41102,
+            8.71935
+          ],
+          [
+            49.41052,
+            8.7197
+          ],
+          [
+            49.41005,
+            8.7197
+          ],
+          [
+            49.40978,
+            8.7194
+          ],
+          [
+            49.40939,
+            8.71556
+          ],
+          [
+            49.40956,
+            8.71552
+          ],
+          [
+            49.40965,
+            8.71663
+          ],
+          [
+            49.41002,
+            8.71651
+          ],
+          [
+            49.41015,
+            8.71679
+          ],
+          [
+            49.41088,
+            8.71674
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Botanischer Garten",
+        "points": [
+          [
+            49.41472,
+            8.66642
+          ],
+          [
+            49.41483,
+            8.66625
+          ],
+          [
+            49.41544,
+            8.66688
+          ],
+          [
+            49.41545,
+            8.66763
+          ],
+          [
+            49.41558,
+            8.66791
+          ],
+          [
+            49.41557,
+            8.66959
+          ],
+          [
+            49.41498,
+            8.66993
+          ],
+          [
+            49.41497,
+            8.67049
+          ],
+          [
+            49.41439,
+            8.6705
+          ],
+          [
+            49.41412,
+            8.66922
+          ],
+          [
+            49.4142,
+            8.66892
+          ],
+          [
+            49.41453,
+            8.6688
+          ],
+          [
+            49.41461,
+            8.66846
+          ],
+          [
+            49.41452,
+            8.66834
+          ],
+          [
+            49.41441,
+            8.66873
+          ],
+          [
+            49.41417,
+            8.66876
+          ],
+          [
+            49.41472,
+            8.66642
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          49.37928,
+          8.61793
+        ],
+        [
+          49.38067,
+          8.62438
+        ],
+        [
+          49.38167,
+          8.62379
+        ],
+        [
+          49.38199,
+          8.62424
+        ],
+        [
+          49.38471,
+          8.62885
+        ],
+        [
+          49.3852,
+          8.6302
+        ],
+        [
+          49.3859,
+          8.6334
+        ],
+        [
+          49.38716,
+          8.63361
+        ],
+        [
+          49.3873,
+          8.6348
+        ],
+        [
+          49.38641,
+          8.63866
+        ],
+        [
+          49.38643,
+          8.63967
+        ],
+        [
+          49.38854,
+          8.6475
+        ],
+        [
+          49.39338,
+          8.64343
+        ],
+        [
+          49.39272,
+          8.6383
+        ],
+        [
+          49.40557,
+          8.63659
+        ],
+        [
+          49.41493,
+          8.63302
+        ],
+        [
+          49.41503,
+          8.63275
+        ],
+        [
+          49.41249,
+          8.62907
+        ],
+        [
+          49.409,
+          8.62285
+        ],
+        [
+          49.4062,
+          8.61244
+        ],
+        [
+          49.40547,
+          8.61146
+        ],
+        [
+          49.40704,
+          8.60879
+        ],
+        [
+          49.4091,
+          8.60354
+        ],
+        [
+          49.40995,
+          8.59711
+        ],
+        [
+          49.41104,
+          8.58489
+        ],
+        [
+          49.41041,
+          8.58426
+        ],
+        [
+          49.41266,
+          8.57491
+        ],
+        [
+          49.41576,
+          8.57343
+        ],
+        [
+          49.4169,
+          8.57322
+        ],
+        [
+          49.4191,
+          8.57325
+        ],
+        [
+          49.42077,
+          8.57363
+        ],
+        [
+          49.4236,
+          8.57318
+        ],
+        [
+          49.4262,
+          8.57983
+        ],
+        [
+          49.42737,
+          8.59045
+        ],
+        [
+          49.43013,
+          8.59296
+        ],
+        [
+          49.42804,
+          8.59849
+        ],
+        [
+          49.42851,
+          8.59838
+        ],
+        [
+          49.42424,
+          8.60973
+        ],
+        [
+          49.4283,
+          8.61597
+        ],
+        [
+          49.43514,
+          8.6222
+        ],
+        [
+          49.43636,
+          8.62304
+        ],
+        [
+          49.44,
+          8.62674
+        ],
+        [
+          49.44157,
+          8.62801
+        ],
+        [
+          49.44312,
+          8.6287
+        ],
+        [
+          49.44213,
+          8.63498
+        ],
+        [
+          49.44098,
+          8.6393
+        ],
+        [
+          49.43931,
+          8.64315
+        ],
+        [
+          49.43663,
+          8.64655
+        ],
+        [
+          49.43725,
+          8.6482
+        ],
+        [
+          49.43787,
+          8.64905
+        ],
+        [
+          49.43994,
+          8.65531
+        ],
+        [
+          49.43861,
+          8.65631
+        ],
+        [
+          49.43969,
+          8.66244
+        ],
+        [
+          49.43963,
+          8.66305
+        ],
+        [
+          49.43995,
+          8.66324
+        ],
+        [
+          49.44028,
+          8.6654
+        ],
+        [
+          49.44077,
+          8.66626
+        ],
+        [
+          49.44147,
+          8.66991
+        ],
+        [
+          49.44134,
+          8.67076
+        ],
+        [
+          49.44083,
+          8.67157
+        ],
+        [
+          49.44197,
+          8.67478
+        ],
+        [
+          49.4427,
+          8.67919
+        ],
+        [
+          49.44302,
+          8.67911
+        ],
+        [
+          49.44397,
+          8.68268
+        ],
+        [
+          49.44305,
+          8.6868
+        ],
+        [
+          49.44324,
+          8.6905
+        ],
+        [
+          49.44402,
+          8.69217
+        ],
+        [
+          49.44455,
+          8.69597
+        ],
+        [
+          49.44487,
+          8.69686
+        ],
+        [
+          49.44582,
+          8.70223
+        ],
+        [
+          49.44602,
+          8.70449
+        ],
+        [
+          49.44589,
+          8.70753
+        ],
+        [
+          49.4462,
+          8.70933
+        ],
+        [
+          49.44772,
+          8.70952
+        ],
+        [
+          49.44901,
+          8.7107
+        ],
+        [
+          49.45064,
+          8.71262
+        ],
+        [
+          49.45141,
+          8.71308
+        ],
+        [
+          49.45242,
+          8.71517
+        ],
+        [
+          49.45204,
+          8.71783
+        ],
+        [
+          49.45024,
+          8.72102
+        ],
+        [
+          49.44919,
+          8.72208
+        ],
+        [
+          49.44858,
+          8.72364
+        ],
+        [
+          49.44821,
+          8.72544
+        ],
+        [
+          49.44857,
+          8.73275
+        ],
+        [
+          49.44924,
+          8.73685
+        ],
+        [
+          49.44802,
+          8.73843
+        ],
+        [
+          49.44694,
+          8.73921
+        ],
+        [
+          49.44639,
+          8.73921
+        ],
+        [
+          49.44689,
+          8.7457
+        ],
+        [
+          49.44867,
+          8.74575
+        ],
+        [
+          49.44976,
+          8.74478
+        ],
+        [
+          49.45043,
+          8.74456
+        ],
+        [
+          49.45323,
+          8.74624
+        ],
+        [
+          49.45469,
+          8.74591
+        ],
+        [
+          49.45564,
+          8.74605
+        ],
+        [
+          49.45608,
+          8.7451
+        ],
+        [
+          49.45648,
+          8.74184
+        ],
+        [
+          49.45762,
+          8.74162
+        ],
+        [
+          49.45953,
+          8.74535
+        ],
+        [
+          49.45883,
+          8.75063
+        ],
+        [
+          49.45955,
+          8.7531
+        ],
+        [
+          49.45964,
+          8.7547
+        ],
+        [
+          49.45793,
+          8.75662
+        ],
+        [
+          49.4567,
+          8.75755
+        ],
+        [
+          49.45647,
+          8.76329
+        ],
+        [
+          49.45555,
+          8.76533
+        ],
+        [
+          49.4541,
+          8.76771
+        ],
+        [
+          49.45282,
+          8.76606
+        ],
+        [
+          49.45076,
+          8.76172
+        ],
+        [
+          49.44821,
+          8.76176
+        ],
+        [
+          49.44604,
+          8.76488
+        ],
+        [
+          49.44345,
+          8.76646
+        ],
+        [
+          49.43734,
+          8.76623
+        ],
+        [
+          49.43579,
+          8.77008
+        ],
+        [
+          49.43535,
+          8.77349
+        ],
+        [
+          49.43403,
+          8.77625
+        ],
+        [
+          49.43318,
+          8.77698
+        ],
+        [
+          49.43296,
+          8.77777
+        ],
+        [
+          49.43262,
+          8.78675
+        ],
+        [
+          49.43134,
+          8.78828
+        ],
+        [
+          49.43027,
+          8.78912
+        ],
+        [
+          49.42552,
+          8.79022
+        ],
+        [
+          49.42321,
+          8.79132
+        ],
+        [
+          49.42011,
+          8.78965
+        ],
+        [
+          49.41901,
+          8.78933
+        ],
+        [
+          49.4173,
+          8.78946
+        ],
+        [
+          49.41481,
+          8.79024
+        ],
+        [
+          49.41179,
+          8.79276
+        ],
+        [
+          49.4072,
+          8.79399
+        ],
+        [
+          49.40514,
+          8.79346
+        ],
+        [
+          49.40289,
+          8.79054
+        ],
+        [
+          49.40229,
+          8.78926
+        ],
+        [
+          49.4013,
+          8.78486
+        ],
+        [
+          49.40156,
+          8.78163
+        ],
+        [
+          49.40214,
+          8.77846
+        ],
+        [
+          49.39653,
+          8.77526
+        ],
+        [
+          49.39516,
+          8.77529
+        ],
+        [
+          49.39416,
+          8.77649
+        ],
+        [
+          49.39352,
+          8.77599
+        ],
+        [
+          49.39317,
+          8.77532
+        ],
+        [
+          49.39258,
+          8.7759
+        ],
+        [
+          49.39143,
+          8.7749
+        ],
+        [
+          49.39081,
+          8.77391
+        ],
+        [
+          49.3899,
+          8.77342
+        ],
+        [
+          49.38938,
+          8.7738
+        ],
+        [
+          49.3892,
+          8.77309
+        ],
+        [
+          49.38726,
+          8.76994
+        ],
+        [
+          49.38685,
+          8.76822
+        ],
+        [
+          49.388,
+          8.76321
+        ],
+        [
+          49.38603,
+          8.76276
+        ],
+        [
+          49.38531,
+          8.76315
+        ],
+        [
+          49.38278,
+          8.76594
+        ],
+        [
+          49.38158,
+          8.76662
+        ],
+        [
+          49.3791,
+          8.76901
+        ],
+        [
+          49.37854,
+          8.76626
+        ],
+        [
+          49.3785,
+          8.763
+        ],
+        [
+          49.37786,
+          8.75895
+        ],
+        [
+          49.37771,
+          8.75472
+        ],
+        [
+          49.37544,
+          8.75049
+        ],
+        [
+          49.37387,
+          8.74951
+        ],
+        [
+          49.37315,
+          8.74688
+        ],
+        [
+          49.3728,
+          8.74414
+        ],
+        [
+          49.37311,
+          8.74296
+        ],
+        [
+          49.37444,
+          8.74073
+        ],
+        [
+          49.37449,
+          8.73842
+        ],
+        [
+          49.37296,
+          8.73572
+        ],
+        [
+          49.37222,
+          8.73233
+        ],
+        [
+          49.37331,
+          8.73051
+        ],
+        [
+          49.37318,
+          8.73015
+        ],
+        [
+          49.37555,
+          8.7274
+        ],
+        [
+          49.37375,
+          8.72448
+        ],
+        [
+          49.37121,
+          8.72501
+        ],
+        [
+          49.37022,
+          8.72558
+        ],
+        [
+          49.37007,
+          8.72536
+        ],
+        [
+          49.36946,
+          8.72626
+        ],
+        [
+          49.36868,
+          8.72836
+        ],
+        [
+          49.36882,
+          8.72854
+        ],
+        [
+          49.36793,
+          8.7304
+        ],
+        [
+          49.3667,
+          8.72867
+        ],
+        [
+          49.36551,
+          8.72772
+        ],
+        [
+          49.36199,
+          8.72711
+        ],
+        [
+          49.36093,
+          8.72636
+        ],
+        [
+          49.35887,
+          8.7255
+        ],
+        [
+          49.35785,
+          8.72468
+        ],
+        [
+          49.35751,
+          8.72405
+        ],
+        [
+          49.3573,
+          8.72265
+        ],
+        [
+          49.35732,
+          8.71973
+        ],
+        [
+          49.35643,
+          8.71909
+        ],
+        [
+          49.35639,
+          8.71629
+        ],
+        [
+          49.35583,
+          8.71437
+        ],
+        [
+          49.35562,
+          8.71179
+        ],
+        [
+          49.35508,
+          8.71086
+        ],
+        [
+          49.35658,
+          8.70962
+        ],
+        [
+          49.35561,
+          8.704
+        ],
+        [
+          49.35574,
+          8.70252
+        ],
+        [
+          49.35639,
+          8.70012
+        ],
+        [
+          49.3565,
+          8.70025
+        ],
+        [
+          49.35793,
+          8.69706
+        ],
+        [
+          49.35769,
+          8.69653
+        ],
+        [
+          49.35819,
+          8.69438
+        ],
+        [
+          49.35854,
+          8.6946
+        ],
+        [
+          49.35861,
+          8.69428
+        ],
+        [
+          49.35834,
+          8.69413
+        ],
+        [
+          49.35851,
+          8.69291
+        ],
+        [
+          49.35838,
+          8.69287
+        ],
+        [
+          49.35846,
+          8.6914
+        ],
+        [
+          49.35878,
+          8.69154
+        ],
+        [
+          49.35895,
+          8.69016
+        ],
+        [
+          49.35886,
+          8.68724
+        ],
+        [
+          49.35983,
+          8.68706
+        ],
+        [
+          49.3599,
+          8.68206
+        ],
+        [
+          49.36034,
+          8.68213
+        ],
+        [
+          49.36046,
+          8.67986
+        ],
+        [
+          49.3602,
+          8.67587
+        ],
+        [
+          49.36077,
+          8.67572
+        ],
+        [
+          49.36159,
+          8.67235
+        ],
+        [
+          49.35783,
+          8.67167
+        ],
+        [
+          49.35814,
+          8.66878
+        ],
+        [
+          49.35747,
+          8.66421
+        ],
+        [
+          49.35376,
+          8.66502
+        ],
+        [
+          49.35359,
+          8.66357
+        ],
+        [
+          49.35441,
+          8.66319
+        ],
+        [
+          49.35387,
+          8.66059
+        ],
+        [
+          49.35483,
+          8.66066
+        ],
+        [
+          49.35519,
+          8.65724
+        ],
+        [
+          49.35356,
+          8.65586
+        ],
+        [
+          49.35368,
+          8.65541
+        ],
+        [
+          49.35328,
+          8.6551
+        ],
+        [
+          49.35353,
+          8.65313
+        ],
+        [
+          49.35345,
+          8.65141
+        ],
+        [
+          49.35626,
+          8.65336
+        ],
+        [
+          49.35616,
+          8.65452
+        ],
+        [
+          49.36011,
+          8.65693
+        ],
+        [
+          49.36007,
+          8.65555
+        ],
+        [
+          49.36232,
+          8.65673
+        ],
+        [
+          49.36621,
+          8.64991
+        ],
+        [
+          49.36765,
+          8.65066
+        ],
+        [
+          49.36921,
+          8.64805
+        ],
+        [
+          49.37105,
+          8.64558
+        ],
+        [
+          49.369,
+          8.64223
+        ],
+        [
+          49.36998,
+          8.64021
+        ],
+        [
+          49.36319,
+          8.63744
+        ],
+        [
+          49.36036,
+          8.63666
+        ],
+        [
+          49.35769,
+          8.6345
+        ],
+        [
+          49.35549,
+          8.63337
+        ],
+        [
+          49.35284,
+          8.63323
+        ],
+        [
+          49.35273,
+          8.63079
+        ],
+        [
+          49.35207,
+          8.63076
+        ],
+        [
+          49.352,
+          8.62563
+        ],
+        [
+          49.35407,
+          8.62021
+        ],
+        [
+          49.35906,
+          8.62447
+        ],
+        [
+          49.35959,
+          8.62209
+        ],
+        [
+          49.36206,
+          8.61635
+        ],
+        [
+          49.36418,
+          8.6106
+        ],
+        [
+          49.36493,
+          8.60779
+        ],
+        [
+          49.36542,
+          8.60431
+        ],
+        [
+          49.36558,
+          8.60439
+        ],
+        [
+          49.3662,
+          8.601
+        ],
+        [
+          49.37027,
+          8.60517
+        ],
+        [
+          49.3701,
+          8.6058
+        ],
+        [
+          49.37429,
+          8.60748
+        ],
+        [
+          49.37616,
+          8.60681
+        ],
+        [
+          49.37675,
+          8.60688
+        ],
+        [
+          49.37785,
+          8.60976
+        ],
+        [
+          49.3782,
+          8.61258
+        ],
+        [
+          49.37916,
+          8.61615
+        ],
+        [
+          49.37928,
+          8.61793
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Neckar",
+        "major": true
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Schlossgarten",
+      "Neckarwiese",
+      "Botanischer Garten"
+    ],
+    "boundary": "Heidelberg"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Heidelberg?",
+      "answer": "Laut Zensus 2022 haben rund 50.460 Heidelbergerinnen und Heidelberger ab 15 Jahren einen Hochschulabschluss, das sind 39 Prozent (bundesweit 20 Prozent); 9.440 von ihnen sind promoviert. 42 Prozent der in Heidelberg lebenden Erwerbstätigen arbeiten in akademischen Berufen. Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Heidelberg hat mehr als jede dritte Person einen akademischen Abschluss (38 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Heidelberg viele Singles?",
+      "answer": "In fast jedem zweiten Heidelberger Haushalt lebt nur eine Person (50 Prozent laut Zensus 2022, bundesweit 43,4 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem ist rund die Hälfte der Heidelbergerinnen und Heidelberger ab 16 Jahren ledig, bundesweit knapp ein Drittel."
+    },
+    {
+      "question": "Wo lernen Akademiker in Heidelberg Singles kennen?",
+      "answer": "Kulturell bieten sich Theater und Orchester Heidelberg, das Kurpfälzische Museum, der Heidelberger Frühling und die Heidelberger Theatertage an; an der Universität das Heidelberger Symposium, die Akademische Philharmonie oder das Collegium Academicum. Für den Spaziergang zu zweit gibt es die Neckarwiese, den Philosophenweg und das Schloss. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "rdb-besch",
+      "publisher": "Statistische Ämter des Bundes und der Länder / Bundesagentur für Arbeit",
+      "title": "Regionaldatenbank, Tabelle 13111-11-04-4: Sozialversicherungspflichtig Beschäftigte am Arbeitsort nach Art des beruflichen Ausbildungsabschlusses",
+      "stand": "Stand 30.06.2025",
+      "url": "https://www.regionalstatistik.de/genesis/online?operation=table&code=13111-11-04-4&bypass=true&levelindex=0&levelid=1"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022, Regionaltabelle Bildung und Erwerbstätigkeit (höchster beruflicher Abschluss; Erwerbstätige nach ISCO-08)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Bildung_Erwerbstaetigkeit.xlsx"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022, Regionaltabelle Haushalte und Familien",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Haushalte.xlsx"
+    },
+    {
+      "id": "zensus-demografie",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022, Regionaltabelle Demografie (Altersgruppen, Familienstand)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/static/DE/zensus/gitterdaten/Regionaltabelle_Demografie.xlsx"
+    },
+    {
+      "id": "jb-bildung",
+      "publisher": "Stadt Heidelberg, Amt für Stadtentwicklung und Stadtplanung",
+      "title": "Statistisches Jahrbuch Heidelberg, Kapitel Bildung (Tab. 1116, 1119 und 1125)",
+      "stand": "Wintersemester 2024/25, Spielzeit 2023/24",
+      "url": "https://www.heidelberg.de/site/Heidelberg2021/get/documents_E-1370623346/heidelberg/Objektdatenbank/61/12/Excel/Statistik/12_xlsx_Bildung.xlsx"
+    },
+    {
+      "id": "hochschulen",
+      "publisher": "Stadt Heidelberg, Amt für Wirtschaftsförderung und Wissenschaft",
+      "title": "Liste aller Hochschulen in Heidelberg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.heidelberg.de/HD/Lernen+und+Forschen/Liste+aller+Hochschulen.html"
+    },
+    {
+      "id": "exzellenz",
+      "publisher": "Universität Heidelberg",
+      "title": "Exzellenzstrategie: Exzellenzuniversität und Exzellenzcluster",
+      "stand": "Entscheidung vom 11.03.2026",
+      "url": "https://www.uni-heidelberg.de/de/forschung/forschungsprofil/exzellenzstrategie"
+    },
+    {
+      "id": "wf-standort",
+      "publisher": "Stadt Heidelberg, Amt für Wirtschaftsförderung und Wissenschaft",
+      "title": "Standort Heidelberg – Stadt der Wissenschaft, der Wirtschaft und der Kreativen",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.heidelberg.de/HD/Arbeiten+in+Heidelberg/Standort+Heidelberg.html"
+    },
+    {
+      "id": "wf-technologiepark",
+      "publisher": "Stadt Heidelberg, Amt für Wirtschaftsförderung und Wissenschaft",
+      "title": "Technologiepark Heidelberg – Neuenheimer Feld und Heidelberg Innovation Park",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.heidelberg.de/HD/Arbeiten+in+Heidelberg/technologiepark.html"
+    },
+    {
+      "id": "themendienst",
+      "publisher": "Stadt Heidelberg, Amt für Öffentlichkeitsarbeit",
+      "title": "Themendienst: Heidelberg – Internationaler Topstandort für Wissenschaft und Wirtschaft",
+      "stand": "November 2021",
+      "url": "https://www.heidelberg.de/site/Heidelberg2021/get/documents_E-1845386295/heidelberg/Objektdatenbank/13/PDF/Themendienste%20Presse/13_pdf_Themendienst_Wirtschaft%20und%20Wissenschaft.pdf"
+    },
+    {
+      "id": "hd-zahlen",
+      "publisher": "Stadt Heidelberg, Amt für Stadtentwicklung und Stadtplanung",
+      "title": "Heidelberg in Zahlen – Wichtiges in Kürze",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.heidelberg.de/hd/HD/Rathaus/Heidelberg+in+Zahlen.html"
+    }
+  ]
+}

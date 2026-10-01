@@ -1,0 +1,3327 @@
+{
+  "path": "/partnersuche/berlin/",
+  "eyebrow": "Partnersuche für Akademiker · Hauptstadt an der Spree",
+  "lead": "Berlin University Alliance, Charité, Startups, Museumsinsel und Berlinale: In Berlin hat jede dritte Arbeitskraft einen Hochschulabschluss – und in jedem zweiten Haushalt lebt nur eine Person. Gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Blick über den Tiergarten auf das Brandenburger Tor, den Berliner Dom und das Rote Rathaus in Berlin – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "33,7 %",
+      "label": "der Beschäftigten in Berlin haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "ba-berlin"
+    },
+    {
+      "value": "49,5 %",
+      "label": "der 25- bis 44-Jährigen haben studiert",
+      "source": "mikrozensus"
+    },
+    {
+      "value": "50 %",
+      "label": "aller Berliner Haushalte sind Einpersonenhaushalte",
+      "source": "mikrozensus"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "206.458",
+      "label": "Studierende im Wintersemester 2025/26",
+      "source": "studierende"
+    },
+    {
+      "value": "47",
+      "label": "Hochschulen – von der Freien Universität bis zur Hertie School",
+      "source": "hochschulen"
+    },
+    {
+      "value": "5",
+      "label": "Exzellenzcluster ab 2026 im Exzellenzverbund Berlin University Alliance",
+      "source": "exzellenz",
+      "compareSource": "bua-verbund"
+    },
+    {
+      "value": "3,6 Mio.",
+      "label": "Besuche 2025 in den Museen der Stiftung Preußischer Kulturbesitz",
+      "source": "spk"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Berlin hat den höchsten Anteil an Tertiärabschlüssen aller Bundesländer – und mit FU, HU, TU und Charité einen Exzellenzverbund, der im März 2026 erneut bestätigt wurde.",
+      "metrics": [
+        {
+          "value": "46 %",
+          "label": "der 25- bis 64-Jährigen haben einen Tertiärabschluss",
+          "source": "isced",
+          "note": "ISCED 5–8, schließt Meister- und Technikerabschlüsse ein; bei den 25- bis 34-Jährigen 54 %",
+          "compare": {
+            "city": 46.1,
+            "germany": 34.3,
+            "unit": " %",
+            "max": 54
+          }
+        },
+        {
+          "value": "1,1 Mio.",
+          "label": "Berlinerinnen und Berliner ab 15 Jahren mit akademischem Abschluss",
+          "source": "mikrozensus",
+          "note": "35 % der Bevölkerung ab 15 Jahren (berechnet: 1.100.000 von 3.146.000), darunter rund 90.000 mit Promotion"
+        },
+        {
+          "value": "38.307",
+          "label": "Studierende allein an der Freien Universität",
+          "source": "studierende",
+          "note": "Dazu Humboldt-Universität, TU Berlin, Charité, UdK, HTW, BHT, HWR, ESMT, Hertie School u. a.; vorläufige Angaben inkl. Nebenhörer"
+        }
+      ],
+      "takeaway": "Ob Forschung, Politik oder Kunst: In Berlin findet ein Gespräch schnell Tiefe – und oft ein gemeinsames Thema."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Digitalwirtschaft, Gesundheit, Medien, Verwaltung und Wissenschaft: Berlins Arbeitsmarkt ist so akademisch geprägt wie kaum ein anderer.",
+      "metrics": [
+        {
+          "value": "33,7 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "ba-berlin",
+          "compareSource": "ba-de",
+          "note": "568.061 von 1.686.280 Beschäftigten am Arbeitsort (berechnet); Deutschland 7.259.771 von 34.985.555, beide 31.12.2025",
+          "compare": {
+            "city": 33.7,
+            "germany": 20.8,
+            "unit": " %",
+            "max": 40
+          }
+        },
+        {
+          "value": "16,8",
+          "label": "Startup-Gründungen je 100.000 Einwohner – Platz 1 der Bundesländer",
+          "source": "startup",
+          "note": "619 Neugründungen im Jahr 2025, ein Plus von 24 % gegenüber dem Vorjahr",
+          "compare": {
+            "city": 16.8,
+            "germany": 4.3,
+            "unit": "",
+            "max": 20
+          }
+        },
+        {
+          "value": "14,9 %",
+          "label": "der Berliner Wirtschaftsleistung erbringt die Gesundheitswirtschaft",
+          "source": "gesundheit",
+          "note": "Bruttowertschöpfung von 21,9 Mrd. € im Jahr 2021 – mit Charité, Max-Delbrück-Centrum, Robert Koch-Institut, Bayer, Pfizer und B. Braun"
+        }
+      ],
+      "takeaway": "Wer hier sucht, trifft auf Menschen, die gestalten wollen – und jemanden suchen, der diesen Antrieb teilt."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Berlin ist nach Hamburg das jüngste Bundesland, viele leben allein und lassen sich mit der Ehe Zeit.",
+      "metrics": [
+        {
+          "value": "50 %",
+          "label": "Einpersonenhaushalte",
+          "source": "mikrozensus",
+          "compareSource": "destatis-haushalte",
+          "note": "977.000 von 1,95 Mio. Haushalten; Mikrozensus 2025 (Erstergebnisse), Berlin und Deutschland",
+          "compare": {
+            "city": 50.0,
+            "germany": 42.1,
+            "unit": " %",
+            "max": 59
+          }
+        },
+        {
+          "value": "68,5 %",
+          "label": "der 25- bis 44-Jährigen sind ledig",
+          "source": "bevoelkerung",
+          "note": "Berechnet: 802.478 von 1.171.278 Personen (25 bis unter 45 Jahre), Stand 31.12.2025; ledig heißt nie verheiratet, eine feste Partnerschaft ist damit nicht ausgeschlossen"
+        },
+        {
+          "value": "42,8",
+          "label": "Jahre Durchschnittsalter – nach Hamburg das jüngste Bundesland",
+          "source": "destatis-alter",
+          "note": "Stand 31.12.2025",
+          "compare": {
+            "city": 42.8,
+            "germany": 45.0,
+            "unit": " J.",
+            "max": 53
+          }
+        }
+      ],
+      "takeaway": "Freiheit und Offenheit prägen das Berliner Lebensgefühl – umso wertvoller, wenn daraus eine verbindliche Partnerschaft wird."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Gesundheitswirtschaft & Life Sciences",
+      "text": "Charité, Max-Delbrück-Centrum, Berliner Institut für Gesundheitsforschung und Robert Koch-Institut, dazu Bayer, Pfizer, B. Braun und Berlin-Chemie – Medizin und Forschung eng verzahnt."
+    },
+    {
+      "name": "Digitalwirtschaft & Startups",
+      "text": "Telekom, Cisco, SAP, IBM, Microsoft und Siemens betreiben Standorte und Entwicklungszentren in Berlin – umgeben von einer der aktivsten Gründerszenen Deutschlands."
+    },
+    {
+      "name": "Medien & Kreativwirtschaft",
+      "text": "Axel Springer, Universal Music, Netflix und Paramount, dazu Film, Games, Verlage und Design – und mit der Berlinale eines der großen internationalen Filmfestivals."
+    },
+    {
+      "name": "Verkehr, Mobilität & Logistik",
+      "text": "Deutsche Bahn, Siemens Mobility, Alstom, Stadler und Knorr-Bremse in der Bahntechnik, dazu Standorte von BMW, Mercedes-Benz und Volkswagen."
+    },
+    {
+      "name": "Energie- & Umwelttechnik",
+      "text": "TU Berlin, Helmholtz-Zentrum Berlin und mehrere Fraunhofer-Institute forschen an Netzen, Speichern, Wasserstoff und Kreislaufwirtschaft."
+    },
+    {
+      "name": "Photonik, Mikroelektronik & Quantentechnologie",
+      "text": "Fraunhofer HHI, Ferdinand-Braun-Institut und der Technologiepark Adlershof, vernetzt über OpTecBB und die Initiative BERLIN QUANTUM."
+    }
+  ],
+  "clusterSources": [
+    "gesundheit",
+    "blc-digitech",
+    "blc-medien",
+    "blc-mobilitaet",
+    "blc-energie",
+    "blc-photonik"
+  ],
+  "places": [
+    {
+      "name": "Freie Universität Berlin",
+      "kind": "work",
+      "district": "Dahlem · Henry-Ford-Bau",
+      "text": "Die größte Universität der Stadt und Teil der Berlin University Alliance. Der Campus liegt zwischen Villen, Instituten und viel Grün.",
+      "lat": 52.4478,
+      "lon": 13.2784
+    },
+    {
+      "name": "Humboldt-Universität",
+      "kind": "work",
+      "district": "Mitte · Unter den Linden",
+      "text": "Das Hauptgebäude am Boulevard Unter den Linden – nur wenige Schritte von Museumsinsel, Staatsoper und Gendarmenmarkt.",
+      "lat": 52.5183,
+      "lon": 13.3929
+    },
+    {
+      "name": "Technische Universität Berlin",
+      "kind": "work",
+      "district": "Charlottenburg · Straße des 17. Juni",
+      "text": "Ingenieurwesen, Informatik und Energieforschung zwischen Ernst-Reuter-Platz und Tiergarten – mitten in der City West.",
+      "lat": 52.511,
+      "lon": 13.327
+    },
+    {
+      "name": "Charité – Campus Mitte",
+      "kind": "work",
+      "district": "Mitte · Charitéviertel",
+      "text": "Arbeitsort vieler Ärztinnen, Ärzte und Forschender der Universitätsmedizin, zwischen Hauptbahnhof und Museum für Naturkunde.",
+      "lat": 52.5258,
+      "lon": 13.379
+    },
+    {
+      "name": "Potsdamer Platz",
+      "kind": "work",
+      "district": "Tiergarten · Business-Viertel",
+      "text": "Büros, Unternehmenszentralen und Berlinale-Spielstätten; das Kulturforum mit Philharmonie liegt gleich nebenan.",
+      "lat": 52.5098,
+      "lon": 13.3756
+    },
+    {
+      "name": "Wissenschaftsstadt Adlershof",
+      "kind": "work",
+      "district": "Adlershof · Rudower Chaussee",
+      "text": "Technologiepark mit den naturwissenschaftlichen Instituten der Humboldt-Universität, Forschungseinrichtungen und Hightech-Unternehmen.",
+      "lat": 52.4293,
+      "lon": 13.53
+    },
+    {
+      "name": "Museumsinsel",
+      "kind": "date",
+      "district": "Mitte · Lustgarten",
+      "text": "UNESCO-Welterbe an der Spree – der Stadt-Guide empfiehlt den Spaziergang am Ufer, abends ist die Insel stimmungsvoll beleuchtet.",
+      "lat": 52.5195,
+      "lon": 13.3988
+    },
+    {
+      "name": "Großer Tiergarten",
+      "kind": "date",
+      "district": "Tiergarten",
+      "text": "Berlins grüne Mitte zwischen Brandenburger Tor und Charlottenburg – mit dem Café am Neuen See als unkompliziertem ersten Treffpunkt.",
+      "lat": 52.5163,
+      "lon": 13.3618
+    },
+    {
+      "name": "East Side Gallery",
+      "kind": "date",
+      "district": "Friedrichshain · Mühlenstraße",
+      "text": "Bemalte Mauerreste entlang der Spree – Geschichte und Street-Art für einen Spaziergang mit Gesprächsstoff.",
+      "lat": 52.5045,
+      "lon": 13.4408
+    },
+    {
+      "name": "Botanischer Garten",
+      "kind": "date",
+      "district": "Dahlem · Lichterfelde",
+      "text": "Gewächshäuser und weitläufige Gartenlandschaften, die der Stadt-Guide ausdrücklich empfiehlt – ideal für ein ruhiges Date im Grünen.",
+      "lat": 52.4529,
+      "lon": 13.3059
+    },
+    {
+      "name": "Landwehrkanal",
+      "kind": "date",
+      "district": "Kreuzberg · Paul-Lincke-Ufer",
+      "text": "Cafés, Bars und Ufer zum Sitzen im künstlerischen Kreuzberg – für den Abend, wenn man länger reden möchte.",
+      "lat": 52.4946,
+      "lon": 13.4267
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 13.25,
+      "east": 13.56,
+      "south": 52.4,
+      "north": 52.555
+    },
+    "rivers": [
+      {
+        "name": "Spree",
+        "major": true,
+        "points": [
+          [
+            52.49037,
+            13.47746
+          ],
+          [
+            52.49337,
+            13.46859
+          ],
+          [
+            52.49771,
+            13.45849
+          ],
+          [
+            52.50198,
+            13.44505
+          ],
+          [
+            52.51259,
+            13.42265
+          ],
+          [
+            52.51466,
+            13.41605
+          ],
+          [
+            52.51513,
+            13.40704
+          ],
+          [
+            52.52093,
+            13.39996
+          ],
+          [
+            52.52217,
+            13.39565
+          ],
+          [
+            52.52221,
+            13.38833
+          ],
+          [
+            52.52018,
+            13.38446
+          ],
+          [
+            52.51918,
+            13.37957
+          ],
+          [
+            52.52001,
+            13.37678
+          ],
+          [
+            52.52178,
+            13.37593
+          ],
+          [
+            52.52259,
+            13.37451
+          ],
+          [
+            52.523,
+            13.37123
+          ],
+          [
+            52.52049,
+            13.3669
+          ],
+          [
+            52.51726,
+            13.35708
+          ],
+          [
+            52.5177,
+            13.35444
+          ],
+          [
+            52.52243,
+            13.34653
+          ],
+          [
+            52.52285,
+            13.34262
+          ],
+          [
+            52.52203,
+            13.3397
+          ],
+          [
+            52.52013,
+            13.33871
+          ],
+          [
+            52.51747,
+            13.33543
+          ],
+          [
+            52.51692,
+            13.33269
+          ],
+          [
+            52.51837,
+            13.32978
+          ],
+          [
+            52.52239,
+            13.3293
+          ],
+          [
+            52.52415,
+            13.32668
+          ],
+          [
+            52.52486,
+            13.32429
+          ],
+          [
+            52.52421,
+            13.31974
+          ],
+          [
+            52.52115,
+            13.31789
+          ],
+          [
+            52.52013,
+            13.31615
+          ],
+          [
+            52.52073,
+            13.31236
+          ],
+          [
+            52.52063,
+            13.30664
+          ],
+          [
+            52.5223,
+            13.29814
+          ],
+          [
+            52.52859,
+            13.29579
+          ],
+          [
+            52.53008,
+            13.29476
+          ],
+          [
+            52.5307,
+            13.2933
+          ],
+          [
+            52.52924,
+            13.28501
+          ],
+          [
+            52.53018,
+            13.28105
+          ],
+          [
+            52.52912,
+            13.27459
+          ],
+          [
+            52.52888,
+            13.26453
+          ],
+          [
+            52.52755,
+            13.2583
+          ],
+          [
+            52.52746,
+            13.25161
+          ],
+          [
+            52.52831,
+            13.24784
+          ],
+          [
+            52.53307,
+            13.23739
+          ],
+          [
+            52.5343,
+            13.23165
+          ],
+          [
+            52.53648,
+            13.21379
+          ],
+          [
+            52.53616,
+            13.20863
+          ],
+          [
+            52.5356,
+            13.20726
+          ]
+        ]
+      },
+      {
+        "name": "Spree",
+        "major": true,
+        "points": [
+          [
+            52.51459,
+            13.41283
+          ],
+          [
+            52.51501,
+            13.40781
+          ]
+        ]
+      },
+      {
+        "name": "Spree",
+        "major": true,
+        "points": [
+          [
+            52.51465,
+            13.414
+          ],
+          [
+            52.51422,
+            13.41273
+          ],
+          [
+            52.51471,
+            13.40714
+          ],
+          [
+            52.51617,
+            13.40511
+          ]
+        ]
+      },
+      {
+        "name": "Landwehrkanal",
+        "major": false,
+        "points": [
+          [
+            52.49967,
+            13.45161
+          ],
+          [
+            52.49063,
+            13.43909
+          ],
+          [
+            52.496,
+            13.42043
+          ],
+          [
+            52.49525,
+            13.41286
+          ],
+          [
+            52.4978,
+            13.39643
+          ],
+          [
+            52.49759,
+            13.39051
+          ],
+          [
+            52.49886,
+            13.38436
+          ],
+          [
+            52.49894,
+            13.38065
+          ],
+          [
+            52.4996,
+            13.37838
+          ],
+          [
+            52.50176,
+            13.3765
+          ],
+          [
+            52.50569,
+            13.36987
+          ],
+          [
+            52.50607,
+            13.36681
+          ],
+          [
+            52.50571,
+            13.36208
+          ],
+          [
+            52.50666,
+            13.35741
+          ],
+          [
+            52.50576,
+            13.35213
+          ],
+          [
+            52.51119,
+            13.33718
+          ],
+          [
+            52.51241,
+            13.33185
+          ],
+          [
+            52.51648,
+            13.32631
+          ],
+          [
+            52.52062,
+            13.31731
+          ]
+        ]
+      },
+      {
+        "name": "Landwehrkanal",
+        "major": false,
+        "points": [
+          [
+            52.51093,
+            13.33786
+          ],
+          [
+            52.51261,
+            13.33533
+          ],
+          [
+            52.51241,
+            13.33185
+          ]
+        ]
+      },
+      {
+        "name": "Landwehrkanal",
+        "major": false,
+        "points": [
+          [
+            52.49782,
+            13.44914
+          ],
+          [
+            52.49699,
+            13.44806
+          ]
+        ]
+      },
+      {
+        "name": "Teltowkanal",
+        "major": false,
+        "points": [
+          [
+            52.42842,
+            13.57574
+          ],
+          [
+            52.42498,
+            13.54589
+          ],
+          [
+            52.42691,
+            13.51371
+          ],
+          [
+            52.42962,
+            13.50504
+          ],
+          [
+            52.44929,
+            13.46473
+          ],
+          [
+            52.45107,
+            13.46249
+          ],
+          [
+            52.45922,
+            13.45592
+          ],
+          [
+            52.45961,
+            13.44944
+          ],
+          [
+            52.45795,
+            13.43399
+          ],
+          [
+            52.45624,
+            13.42505
+          ],
+          [
+            52.45825,
+            13.41213
+          ],
+          [
+            52.45848,
+            13.4066
+          ],
+          [
+            52.45781,
+            13.40115
+          ],
+          [
+            52.45186,
+            13.3768
+          ],
+          [
+            52.44274,
+            13.35873
+          ],
+          [
+            52.44259,
+            13.35568
+          ],
+          [
+            52.44463,
+            13.34584
+          ],
+          [
+            52.44533,
+            13.33605
+          ],
+          [
+            52.44524,
+            13.33247
+          ],
+          [
+            52.44436,
+            13.32847
+          ],
+          [
+            52.44236,
+            13.32463
+          ],
+          [
+            52.43605,
+            13.31867
+          ],
+          [
+            52.43003,
+            13.31052
+          ],
+          [
+            52.41819,
+            13.30103
+          ],
+          [
+            52.40713,
+            13.2799
+          ],
+          [
+            52.40515,
+            13.27579
+          ],
+          [
+            52.40423,
+            13.27146
+          ],
+          [
+            52.40431,
+            13.26647
+          ],
+          [
+            52.40624,
+            13.25966
+          ],
+          [
+            52.40639,
+            13.25705
+          ],
+          [
+            52.40581,
+            13.25242
+          ],
+          [
+            52.40431,
+            13.24803
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Spree",
+        "lat": 52.5037,
+        "lon": 13.4508
+      },
+      {
+        "text": "Landwehrkanal",
+        "lat": 52.4989,
+        "lon": 13.3827
+      },
+      {
+        "text": "Mitte",
+        "lat": 52.5179,
+        "lon": 13.4041,
+        "district": true
+      },
+      {
+        "text": "Prenzlauer Berg",
+        "lat": 52.5398,
+        "lon": 13.4286,
+        "district": true
+      },
+      {
+        "text": "Friedrichshain",
+        "lat": 52.5122,
+        "lon": 13.4503,
+        "district": true
+      },
+      {
+        "text": "Kreuzberg",
+        "lat": 52.4976,
+        "lon": 13.4119,
+        "district": true
+      },
+      {
+        "text": "Neukölln",
+        "lat": 52.4811,
+        "lon": 13.4354,
+        "district": true
+      },
+      {
+        "text": "Schöneberg",
+        "lat": 52.4822,
+        "lon": 13.3552,
+        "district": true
+      },
+      {
+        "text": "Charlottenburg",
+        "lat": 52.5157,
+        "lon": 13.3097,
+        "district": true
+      },
+      {
+        "text": "Moabit",
+        "lat": 52.5301,
+        "lon": 13.3425,
+        "district": true
+      },
+      {
+        "text": "Dahlem",
+        "lat": 52.4574,
+        "lon": 13.2811,
+        "district": true
+      },
+      {
+        "text": "Adlershof",
+        "lat": 52.4379,
+        "lon": 13.5475,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Neuer See",
+        "points": [
+          [
+            52.51087,
+            13.34135
+          ],
+          [
+            52.51043,
+            13.33981
+          ],
+          [
+            52.51089,
+            13.34054
+          ],
+          [
+            52.51111,
+            13.3388
+          ],
+          [
+            52.51195,
+            13.33834
+          ],
+          [
+            52.51207,
+            13.33764
+          ],
+          [
+            52.51315,
+            13.33742
+          ],
+          [
+            52.51213,
+            13.33851
+          ],
+          [
+            52.51244,
+            13.34183
+          ],
+          [
+            52.511,
+            13.34567
+          ],
+          [
+            52.51138,
+            13.34396
+          ],
+          [
+            52.51122,
+            13.34307
+          ],
+          [
+            52.51061,
+            13.34414
+          ],
+          [
+            52.51032,
+            13.34301
+          ],
+          [
+            52.51117,
+            13.34183
+          ],
+          [
+            52.51087,
+            13.34135
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "name": "Lietzensee",
+        "points": [
+          [
+            52.50765,
+            13.289
+          ],
+          [
+            52.50597,
+            13.28801
+          ],
+          [
+            52.50408,
+            13.28979
+          ],
+          [
+            52.50367,
+            13.28958
+          ],
+          [
+            52.50357,
+            13.28881
+          ],
+          [
+            52.50479,
+            13.2881
+          ],
+          [
+            52.50561,
+            13.28684
+          ],
+          [
+            52.5062,
+            13.28676
+          ],
+          [
+            52.5063,
+            13.28786
+          ],
+          [
+            52.50672,
+            13.28812
+          ],
+          [
+            52.50694,
+            13.28671
+          ],
+          [
+            52.50761,
+            13.28686
+          ],
+          [
+            52.50803,
+            13.28893
+          ],
+          [
+            52.50909,
+            13.29123
+          ],
+          [
+            52.50919,
+            13.29231
+          ],
+          [
+            52.50856,
+            13.29262
+          ],
+          [
+            52.5079,
+            13.29121
+          ],
+          [
+            52.50765,
+            13.289
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.50981,
+            13.35167
+          ],
+          [
+            52.50988,
+            13.36303
+          ],
+          [
+            52.51114,
+            13.37065
+          ],
+          [
+            52.51222,
+            13.37051
+          ],
+          [
+            52.51142,
+            13.37193
+          ],
+          [
+            52.51169,
+            13.37389
+          ],
+          [
+            52.51263,
+            13.3765
+          ],
+          [
+            52.51543,
+            13.3771
+          ],
+          [
+            52.51599,
+            13.37612
+          ],
+          [
+            52.51445,
+            13.35195
+          ],
+          [
+            52.51361,
+            13.3507
+          ],
+          [
+            52.50981,
+            13.35167
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.51635,
+            13.37606
+          ],
+          [
+            52.51704,
+            13.37698
+          ],
+          [
+            52.51765,
+            13.37669
+          ],
+          [
+            52.51769,
+            13.37092
+          ],
+          [
+            52.51605,
+            13.37001
+          ],
+          [
+            52.5161,
+            13.37141
+          ],
+          [
+            52.51691,
+            13.37129
+          ],
+          [
+            52.51718,
+            13.37176
+          ],
+          [
+            52.51699,
+            13.37247
+          ],
+          [
+            52.51618,
+            13.3726
+          ],
+          [
+            52.51635,
+            13.37606
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.51769,
+            13.37056
+          ],
+          [
+            52.51726,
+            13.36925
+          ],
+          [
+            52.51762,
+            13.36173
+          ],
+          [
+            52.51692,
+            13.35783
+          ],
+          [
+            52.517,
+            13.35483
+          ],
+          [
+            52.5151,
+            13.35123
+          ],
+          [
+            52.5148,
+            13.35188
+          ],
+          [
+            52.51594,
+            13.36967
+          ],
+          [
+            52.51769,
+            13.37056
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.51386,
+            13.33811
+          ],
+          [
+            52.51456,
+            13.34825
+          ],
+          [
+            52.51485,
+            13.34871
+          ],
+          [
+            52.5162,
+            13.34562
+          ],
+          [
+            52.51555,
+            13.343
+          ],
+          [
+            52.51511,
+            13.34313
+          ],
+          [
+            52.51505,
+            13.34224
+          ],
+          [
+            52.5155,
+            13.34221
+          ],
+          [
+            52.51549,
+            13.33884
+          ],
+          [
+            52.5151,
+            13.3383
+          ],
+          [
+            52.51516,
+            13.33926
+          ],
+          [
+            52.51457,
+            13.33937
+          ],
+          [
+            52.51467,
+            13.33801
+          ],
+          [
+            52.51386,
+            13.33811
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.51351,
+            13.3382
+          ],
+          [
+            52.51281,
+            13.33165
+          ],
+          [
+            52.51278,
+            13.33542
+          ],
+          [
+            52.51078,
+            13.33848
+          ],
+          [
+            52.50957,
+            13.34153
+          ],
+          [
+            52.50923,
+            13.3434
+          ],
+          [
+            52.51095,
+            13.34542
+          ],
+          [
+            52.50993,
+            13.34642
+          ],
+          [
+            52.50938,
+            13.34982
+          ],
+          [
+            52.50974,
+            13.35106
+          ],
+          [
+            52.51361,
+            13.35
+          ],
+          [
+            52.51421,
+            13.34832
+          ],
+          [
+            52.51351,
+            13.3382
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Tiergarten",
+        "points": [
+          [
+            52.51536,
+            13.35064
+          ],
+          [
+            52.51576,
+            13.35146
+          ],
+          [
+            52.51635,
+            13.35
+          ],
+          [
+            52.51711,
+            13.35046
+          ],
+          [
+            52.51769,
+            13.34787
+          ],
+          [
+            52.5194,
+            13.34875
+          ],
+          [
+            52.51904,
+            13.35122
+          ],
+          [
+            52.51967,
+            13.35006
+          ],
+          [
+            52.51971,
+            13.34829
+          ],
+          [
+            52.51909,
+            13.34753
+          ],
+          [
+            52.51947,
+            13.34685
+          ],
+          [
+            52.51907,
+            13.34732
+          ],
+          [
+            52.51781,
+            13.34722
+          ],
+          [
+            52.5177,
+            13.34572
+          ],
+          [
+            52.51828,
+            13.34583
+          ],
+          [
+            52.51816,
+            13.34452
+          ],
+          [
+            52.51848,
+            13.34437
+          ],
+          [
+            52.5173,
+            13.34465
+          ],
+          [
+            52.51726,
+            13.34414
+          ],
+          [
+            52.51516,
+            13.34906
+          ],
+          [
+            52.51536,
+            13.35064
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Treptower Park",
+        "points": [
+          [
+            52.48983,
+            13.46987
+          ],
+          [
+            52.48958,
+            13.46968
+          ],
+          [
+            52.48977,
+            13.46834
+          ],
+          [
+            52.49221,
+            13.46083
+          ],
+          [
+            52.49017,
+            13.46028
+          ],
+          [
+            52.48155,
+            13.47299
+          ],
+          [
+            52.48596,
+            13.48183
+          ],
+          [
+            52.48606,
+            13.48053
+          ],
+          [
+            52.48677,
+            13.47887
+          ],
+          [
+            52.48878,
+            13.47771
+          ],
+          [
+            52.49028,
+            13.47557
+          ],
+          [
+            52.49112,
+            13.4736
+          ],
+          [
+            52.49271,
+            13.46702
+          ],
+          [
+            52.49422,
+            13.4632
+          ],
+          [
+            52.49516,
+            13.46383
+          ],
+          [
+            52.49251,
+            13.46103
+          ],
+          [
+            52.48983,
+            13.46987
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          52.55212,
+          13.14422
+        ],
+        [
+          52.55271,
+          13.13633
+        ],
+        [
+          52.55597,
+          13.13047
+        ],
+        [
+          52.54379,
+          13.12496
+        ],
+        [
+          52.53905,
+          13.12418
+        ],
+        [
+          52.53034,
+          13.1195
+        ],
+        [
+          52.51706,
+          13.11738
+        ],
+        [
+          52.51755,
+          13.12699
+        ],
+        [
+          52.5197,
+          13.14318
+        ],
+        [
+          52.51746,
+          13.14563
+        ],
+        [
+          52.50923,
+          13.16882
+        ],
+        [
+          52.49631,
+          13.14959
+        ],
+        [
+          52.47982,
+          13.12833
+        ],
+        [
+          52.47866,
+          13.12628
+        ],
+        [
+          52.47732,
+          13.11769
+        ],
+        [
+          52.47328,
+          13.11723
+        ],
+        [
+          52.46566,
+          13.11056
+        ],
+        [
+          52.46373,
+          13.11143
+        ],
+        [
+          52.46,
+          13.1105
+        ],
+        [
+          52.45899,
+          13.11241
+        ],
+        [
+          52.45769,
+          13.11267
+        ],
+        [
+          52.45438,
+          13.11201
+        ],
+        [
+          52.45063,
+          13.10929
+        ],
+        [
+          52.44565,
+          13.11536
+        ],
+        [
+          52.44401,
+          13.11901
+        ],
+        [
+          52.44171,
+          13.11977
+        ],
+        [
+          52.43962,
+          13.12312
+        ],
+        [
+          52.43871,
+          13.12315
+        ],
+        [
+          52.43616,
+          13.11722
+        ],
+        [
+          52.43297,
+          13.11393
+        ],
+        [
+          52.43231,
+          13.11207
+        ],
+        [
+          52.4292,
+          13.11278
+        ],
+        [
+          52.42528,
+          13.10541
+        ],
+        [
+          52.42398,
+          13.10457
+        ],
+        [
+          52.42534,
+          13.09931
+        ],
+        [
+          52.42198,
+          13.09584
+        ],
+        [
+          52.41963,
+          13.08835
+        ],
+        [
+          52.41156,
+          13.09076
+        ],
+        [
+          52.40942,
+          13.09739
+        ],
+        [
+          52.41096,
+          13.09898
+        ],
+        [
+          52.41309,
+          13.09645
+        ],
+        [
+          52.41376,
+          13.10086
+        ],
+        [
+          52.41054,
+          13.101
+        ],
+        [
+          52.40956,
+          13.10619
+        ],
+        [
+          52.40999,
+          13.10714
+        ],
+        [
+          52.41318,
+          13.10711
+        ],
+        [
+          52.41294,
+          13.10962
+        ],
+        [
+          52.41129,
+          13.11014
+        ],
+        [
+          52.41141,
+          13.11151
+        ],
+        [
+          52.41048,
+          13.1118
+        ],
+        [
+          52.41035,
+          13.11042
+        ],
+        [
+          52.40944,
+          13.11063
+        ],
+        [
+          52.40949,
+          13.10693
+        ],
+        [
+          52.40869,
+          13.10638
+        ],
+        [
+          52.40818,
+          13.10927
+        ],
+        [
+          52.40726,
+          13.10833
+        ],
+        [
+          52.40399,
+          13.11182
+        ],
+        [
+          52.40212,
+          13.11775
+        ],
+        [
+          52.39687,
+          13.12478
+        ],
+        [
+          52.39664,
+          13.12742
+        ],
+        [
+          52.39937,
+          13.13351
+        ],
+        [
+          52.39786,
+          13.1381
+        ],
+        [
+          52.39737,
+          13.13513
+        ],
+        [
+          52.39618,
+          13.13571
+        ],
+        [
+          52.39599,
+          13.13895
+        ],
+        [
+          52.3905,
+          13.13017
+        ],
+        [
+          52.39184,
+          13.1312
+        ],
+        [
+          52.39161,
+          13.12729
+        ],
+        [
+          52.38958,
+          13.12673
+        ],
+        [
+          52.38725,
+          13.13108
+        ],
+        [
+          52.3873,
+          13.13318
+        ],
+        [
+          52.38874,
+          13.13398
+        ],
+        [
+          52.39037,
+          13.13037
+        ],
+        [
+          52.39356,
+          13.13471
+        ],
+        [
+          52.3971,
+          13.14182
+        ],
+        [
+          52.39725,
+          13.1432
+        ],
+        [
+          52.3955,
+          13.14577
+        ],
+        [
+          52.39394,
+          13.15887
+        ],
+        [
+          52.3944,
+          13.16877
+        ],
+        [
+          52.39564,
+          13.17176
+        ],
+        [
+          52.39782,
+          13.17116
+        ],
+        [
+          52.39636,
+          13.1578
+        ],
+        [
+          52.39991,
+          13.15939
+        ],
+        [
+          52.40286,
+          13.15935
+        ],
+        [
+          52.41554,
+          13.19724
+        ],
+        [
+          52.41606,
+          13.20583
+        ],
+        [
+          52.42108,
+          13.22506
+        ],
+        [
+          52.42034,
+          13.23314
+        ],
+        [
+          52.42117,
+          13.24595
+        ],
+        [
+          52.41176,
+          13.24903
+        ],
+        [
+          52.40498,
+          13.24978
+        ],
+        [
+          52.40639,
+          13.25807
+        ],
+        [
+          52.40428,
+          13.26697
+        ],
+        [
+          52.40479,
+          13.27421
+        ],
+        [
+          52.41625,
+          13.29675
+        ],
+        [
+          52.41505,
+          13.29696
+        ],
+        [
+          52.4145,
+          13.29593
+        ],
+        [
+          52.39911,
+          13.31206
+        ],
+        [
+          52.4024,
+          13.3185
+        ],
+        [
+          52.41172,
+          13.34335
+        ],
+        [
+          52.40769,
+          13.34306
+        ],
+        [
+          52.39847,
+          13.35937
+        ],
+        [
+          52.3938,
+          13.37195
+        ],
+        [
+          52.38843,
+          13.37035
+        ],
+        [
+          52.38857,
+          13.3873
+        ],
+        [
+          52.37786,
+          13.38843
+        ],
+        [
+          52.37614,
+          13.42081
+        ],
+        [
+          52.38617,
+          13.42745
+        ],
+        [
+          52.40708,
+          13.41842
+        ],
+        [
+          52.40998,
+          13.41875
+        ],
+        [
+          52.41252,
+          13.43194
+        ],
+        [
+          52.41943,
+          13.45458
+        ],
+        [
+          52.42108,
+          13.46355
+        ],
+        [
+          52.42003,
+          13.46802
+        ],
+        [
+          52.40343,
+          13.47761
+        ],
+        [
+          52.39595,
+          13.47976
+        ],
+        [
+          52.40179,
+          13.516
+        ],
+        [
+          52.40057,
+          13.5218
+        ],
+        [
+          52.3973,
+          13.5297
+        ],
+        [
+          52.40063,
+          13.53843
+        ],
+        [
+          52.39782,
+          13.53631
+        ],
+        [
+          52.39352,
+          13.53515
+        ],
+        [
+          52.38899,
+          13.53549
+        ],
+        [
+          52.38814,
+          13.56416
+        ],
+        [
+          52.39381,
+          13.59269
+        ],
+        [
+          52.39244,
+          13.59414
+        ],
+        [
+          52.38996,
+          13.59368
+        ],
+        [
+          52.38874,
+          13.5952
+        ],
+        [
+          52.38679,
+          13.59534
+        ],
+        [
+          52.38598,
+          13.59612
+        ],
+        [
+          52.38541,
+          13.59938
+        ],
+        [
+          52.37912,
+          13.6064
+        ],
+        [
+          52.37797,
+          13.60547
+        ],
+        [
+          52.37603,
+          13.6068
+        ],
+        [
+          52.37362,
+          13.60582
+        ],
+        [
+          52.38136,
+          13.62851
+        ],
+        [
+          52.37625,
+          13.63322
+        ],
+        [
+          52.37751,
+          13.64268
+        ],
+        [
+          52.37081,
+          13.6421
+        ],
+        [
+          52.37016,
+          13.64683
+        ],
+        [
+          52.36703,
+          13.64719
+        ],
+        [
+          52.36528,
+          13.6461
+        ],
+        [
+          52.3631,
+          13.64114
+        ],
+        [
+          52.36098,
+          13.63908
+        ],
+        [
+          52.34821,
+          13.6378
+        ],
+        [
+          52.34815,
+          13.63671
+        ],
+        [
+          52.34682,
+          13.63632
+        ],
+        [
+          52.34473,
+          13.63717
+        ],
+        [
+          52.33994,
+          13.64282
+        ],
+        [
+          52.33827,
+          13.64842
+        ],
+        [
+          52.33947,
+          13.6517
+        ],
+        [
+          52.3426,
+          13.65115
+        ],
+        [
+          52.34782,
+          13.65612
+        ],
+        [
+          52.35162,
+          13.65709
+        ],
+        [
+          52.35421,
+          13.66202
+        ],
+        [
+          52.35762,
+          13.66393
+        ],
+        [
+          52.35809,
+          13.66621
+        ],
+        [
+          52.36236,
+          13.66667
+        ],
+        [
+          52.36649,
+          13.67119
+        ],
+        [
+          52.36944,
+          13.67921
+        ],
+        [
+          52.36964,
+          13.68215
+        ],
+        [
+          52.3673,
+          13.68722
+        ],
+        [
+          52.36785,
+          13.68999
+        ],
+        [
+          52.36721,
+          13.6922
+        ],
+        [
+          52.36778,
+          13.69128
+        ],
+        [
+          52.36798,
+          13.69308
+        ],
+        [
+          52.36917,
+          13.69285
+        ],
+        [
+          52.37559,
+          13.69996
+        ],
+        [
+          52.37751,
+          13.7004
+        ],
+        [
+          52.37744,
+          13.69721
+        ],
+        [
+          52.3815,
+          13.69884
+        ],
+        [
+          52.38096,
+          13.69517
+        ],
+        [
+          52.38326,
+          13.68972
+        ],
+        [
+          52.38296,
+          13.68792
+        ],
+        [
+          52.38386,
+          13.68618
+        ],
+        [
+          52.3853,
+          13.68683
+        ],
+        [
+          52.38607,
+          13.68803
+        ],
+        [
+          52.38503,
+          13.68887
+        ],
+        [
+          52.3855,
+          13.69061
+        ],
+        [
+          52.38992,
+          13.69735
+        ],
+        [
+          52.39177,
+          13.69827
+        ],
+        [
+          52.39191,
+          13.69901
+        ],
+        [
+          52.39059,
+          13.6987
+        ],
+        [
+          52.39114,
+          13.70015
+        ],
+        [
+          52.39333,
+          13.70235
+        ],
+        [
+          52.39538,
+          13.70869
+        ],
+        [
+          52.39969,
+          13.71587
+        ],
+        [
+          52.39826,
+          13.72279
+        ],
+        [
+          52.40023,
+          13.72745
+        ],
+        [
+          52.40001,
+          13.73114
+        ],
+        [
+          52.40214,
+          13.73427
+        ],
+        [
+          52.40598,
+          13.73536
+        ],
+        [
+          52.40734,
+          13.73903
+        ],
+        [
+          52.40965,
+          13.73716
+        ],
+        [
+          52.41057,
+          13.73462
+        ],
+        [
+          52.41635,
+          13.72981
+        ],
+        [
+          52.42051,
+          13.73107
+        ],
+        [
+          52.42669,
+          13.73766
+        ],
+        [
+          52.42676,
+          13.74128
+        ],
+        [
+          52.4282,
+          13.74173
+        ],
+        [
+          52.42885,
+          13.73894
+        ],
+        [
+          52.43247,
+          13.7401
+        ],
+        [
+          52.43398,
+          13.72973
+        ],
+        [
+          52.43714,
+          13.72281
+        ],
+        [
+          52.4338,
+          13.73143
+        ],
+        [
+          52.43294,
+          13.74289
+        ],
+        [
+          52.43807,
+          13.74408
+        ],
+        [
+          52.44148,
+          13.75051
+        ],
+        [
+          52.44161,
+          13.7563
+        ],
+        [
+          52.43668,
+          13.75445
+        ],
+        [
+          52.43617,
+          13.75999
+        ],
+        [
+          52.43771,
+          13.76116
+        ],
+        [
+          52.43842,
+          13.75532
+        ],
+        [
+          52.44296,
+          13.75708
+        ],
+        [
+          52.44328,
+          13.75438
+        ],
+        [
+          52.44618,
+          13.75645
+        ],
+        [
+          52.446,
+          13.7554
+        ],
+        [
+          52.44759,
+          13.75348
+        ],
+        [
+          52.44867,
+          13.74925
+        ],
+        [
+          52.44964,
+          13.73776
+        ],
+        [
+          52.45074,
+          13.73435
+        ],
+        [
+          52.45078,
+          13.72908
+        ],
+        [
+          52.45675,
+          13.72058
+        ],
+        [
+          52.46292,
+          13.71596
+        ],
+        [
+          52.46329,
+          13.71152
+        ],
+        [
+          52.46822,
+          13.70126
+        ],
+        [
+          52.46828,
+          13.69908
+        ],
+        [
+          52.46437,
+          13.7021
+        ],
+        [
+          52.46004,
+          13.70335
+        ],
+        [
+          52.45987,
+          13.70526
+        ],
+        [
+          52.45476,
+          13.70461
+        ],
+        [
+          52.45526,
+          13.69835
+        ],
+        [
+          52.46049,
+          13.69753
+        ],
+        [
+          52.46419,
+          13.69543
+        ],
+        [
+          52.46607,
+          13.68278
+        ],
+        [
+          52.46924,
+          13.67864
+        ],
+        [
+          52.47429,
+          13.66724
+        ],
+        [
+          52.47376,
+          13.66265
+        ],
+        [
+          52.47873,
+          13.64831
+        ],
+        [
+          52.47922,
+          13.64322
+        ],
+        [
+          52.47355,
+          13.62818
+        ],
+        [
+          52.4737,
+          13.62534
+        ],
+        [
+          52.46875,
+          13.62521
+        ],
+        [
+          52.46878,
+          13.6229
+        ],
+        [
+          52.46645,
+          13.62276
+        ],
+        [
+          52.46664,
+          13.62138
+        ],
+        [
+          52.47046,
+          13.62117
+        ],
+        [
+          52.47121,
+          13.61712
+        ],
+        [
+          52.46972,
+          13.61507
+        ],
+        [
+          52.47065,
+          13.61137
+        ],
+        [
+          52.47483,
+          13.61649
+        ],
+        [
+          52.47562,
+          13.61355
+        ],
+        [
+          52.48076,
+          13.61489
+        ],
+        [
+          52.49304,
+          13.62971
+        ],
+        [
+          52.4942,
+          13.62401
+        ],
+        [
+          52.50556,
+          13.6289
+        ],
+        [
+          52.51088,
+          13.63248
+        ],
+        [
+          52.51422,
+          13.63578
+        ],
+        [
+          52.51855,
+          13.64246
+        ],
+        [
+          52.52595,
+          13.6585
+        ],
+        [
+          52.52984,
+          13.65691
+        ],
+        [
+          52.52968,
+          13.64625
+        ],
+        [
+          52.53057,
+          13.63156
+        ],
+        [
+          52.53018,
+          13.62569
+        ],
+        [
+          52.5381,
+          13.62483
+        ],
+        [
+          52.53748,
+          13.62754
+        ],
+        [
+          52.53798,
+          13.62886
+        ],
+        [
+          52.53765,
+          13.63395
+        ],
+        [
+          52.54092,
+          13.63765
+        ],
+        [
+          52.54226,
+          13.63738
+        ],
+        [
+          52.54422,
+          13.61872
+        ],
+        [
+          52.54978,
+          13.58638
+        ],
+        [
+          52.55563,
+          13.5876
+        ],
+        [
+          52.55985,
+          13.58443
+        ],
+        [
+          52.56775,
+          13.58335
+        ],
+        [
+          52.57111,
+          13.58154
+        ],
+        [
+          52.57113,
+          13.57789
+        ],
+        [
+          52.5729,
+          13.57697
+        ],
+        [
+          52.57383,
+          13.57497
+        ],
+        [
+          52.5731,
+          13.56857
+        ],
+        [
+          52.58039,
+          13.56186
+        ],
+        [
+          52.58785,
+          13.54713
+        ],
+        [
+          52.59224,
+          13.52769
+        ],
+        [
+          52.59275,
+          13.52288
+        ],
+        [
+          52.59214,
+          13.50812
+        ],
+        [
+          52.60516,
+          13.49897
+        ],
+        [
+          52.60503,
+          13.49666
+        ],
+        [
+          52.60667,
+          13.49712
+        ],
+        [
+          52.61733,
+          13.50226
+        ],
+        [
+          52.619,
+          13.50332
+        ],
+        [
+          52.61997,
+          13.50546
+        ],
+        [
+          52.62575,
+          13.50586
+        ],
+        [
+          52.62957,
+          13.51782
+        ],
+        [
+          52.64049,
+          13.52235
+        ],
+        [
+          52.64504,
+          13.52302
+        ],
+        [
+          52.64488,
+          13.52039
+        ],
+        [
+          52.64695,
+          13.51927
+        ],
+        [
+          52.6454,
+          13.51283
+        ],
+        [
+          52.64956,
+          13.50472
+        ],
+        [
+          52.6548,
+          13.49076
+        ],
+        [
+          52.65943,
+          13.48536
+        ],
+        [
+          52.67079,
+          13.48843
+        ],
+        [
+          52.66655,
+          13.47583
+        ],
+        [
+          52.66807,
+          13.47459
+        ],
+        [
+          52.67486,
+          13.48008
+        ],
+        [
+          52.67551,
+          13.47949
+        ],
+        [
+          52.6739,
+          13.47727
+        ],
+        [
+          52.67501,
+          13.47549
+        ],
+        [
+          52.66712,
+          13.46593
+        ],
+        [
+          52.66898,
+          13.45955
+        ],
+        [
+          52.66267,
+          13.45078
+        ],
+        [
+          52.66185,
+          13.45394
+        ],
+        [
+          52.65754,
+          13.46238
+        ],
+        [
+          52.65653,
+          13.47351
+        ],
+        [
+          52.65412,
+          13.4739
+        ],
+        [
+          52.65186,
+          13.46996
+        ],
+        [
+          52.65117,
+          13.46572
+        ],
+        [
+          52.64808,
+          13.45973
+        ],
+        [
+          52.6487,
+          13.45209
+        ],
+        [
+          52.64967,
+          13.4521
+        ],
+        [
+          52.65,
+          13.44878
+        ],
+        [
+          52.64927,
+          13.44082
+        ],
+        [
+          52.64527,
+          13.43979
+        ],
+        [
+          52.64428,
+          13.43401
+        ],
+        [
+          52.64147,
+          13.43339
+        ],
+        [
+          52.63795,
+          13.43426
+        ],
+        [
+          52.63738,
+          13.43272
+        ],
+        [
+          52.63751,
+          13.42763
+        ],
+        [
+          52.63547,
+          13.42435
+        ],
+        [
+          52.63943,
+          13.41656
+        ],
+        [
+          52.64124,
+          13.41426
+        ],
+        [
+          52.64239,
+          13.41473
+        ],
+        [
+          52.64348,
+          13.41229
+        ],
+        [
+          52.64268,
+          13.40789
+        ],
+        [
+          52.64829,
+          13.39794
+        ],
+        [
+          52.64743,
+          13.39639
+        ],
+        [
+          52.64756,
+          13.39456
+        ],
+        [
+          52.64475,
+          13.39191
+        ],
+        [
+          52.64325,
+          13.39223
+        ],
+        [
+          52.64355,
+          13.3913
+        ],
+        [
+          52.64244,
+          13.39014
+        ],
+        [
+          52.63991,
+          13.39061
+        ],
+        [
+          52.63763,
+          13.3892
+        ],
+        [
+          52.63626,
+          13.38508
+        ],
+        [
+          52.6364,
+          13.38181
+        ],
+        [
+          52.63522,
+          13.38286
+        ],
+        [
+          52.63387,
+          13.3794
+        ],
+        [
+          52.63435,
+          13.37871
+        ],
+        [
+          52.63161,
+          13.37582
+        ],
+        [
+          52.62982,
+          13.37702
+        ],
+        [
+          52.6289,
+          13.37668
+        ],
+        [
+          52.62904,
+          13.37583
+        ],
+        [
+          52.62838,
+          13.37638
+        ],
+        [
+          52.62868,
+          13.37545
+        ],
+        [
+          52.62777,
+          13.37457
+        ],
+        [
+          52.62737,
+          13.37079
+        ],
+        [
+          52.62568,
+          13.36888
+        ],
+        [
+          52.62601,
+          13.36766
+        ],
+        [
+          52.62466,
+          13.36407
+        ],
+        [
+          52.62509,
+          13.36368
+        ],
+        [
+          52.62298,
+          13.35765
+        ],
+        [
+          52.62362,
+          13.35468
+        ],
+        [
+          52.62273,
+          13.35148
+        ],
+        [
+          52.62386,
+          13.35107
+        ],
+        [
+          52.62335,
+          13.33872
+        ],
+        [
+          52.62265,
+          13.33668
+        ],
+        [
+          52.62544,
+          13.32869
+        ],
+        [
+          52.62819,
+          13.31299
+        ],
+        [
+          52.62719,
+          13.30261
+        ],
+        [
+          52.63001,
+          13.31028
+        ],
+        [
+          52.63735,
+          13.30578
+        ],
+        [
+          52.63755,
+          13.30706
+        ],
+        [
+          52.63961,
+          13.30627
+        ],
+        [
+          52.64024,
+          13.30823
+        ],
+        [
+          52.64273,
+          13.30941
+        ],
+        [
+          52.65351,
+          13.30043
+        ],
+        [
+          52.6574,
+          13.3101
+        ],
+        [
+          52.65962,
+          13.30712
+        ],
+        [
+          52.65935,
+          13.29448
+        ],
+        [
+          52.66074,
+          13.28277
+        ],
+        [
+          52.65275,
+          13.2819
+        ],
+        [
+          52.65263,
+          13.28513
+        ],
+        [
+          52.64112,
+          13.28383
+        ],
+        [
+          52.63971,
+          13.2696
+        ],
+        [
+          52.64069,
+          13.26215
+        ],
+        [
+          52.63454,
+          13.2652
+        ],
+        [
+          52.62686,
+          13.26423
+        ],
+        [
+          52.62774,
+          13.2603
+        ],
+        [
+          52.62729,
+          13.24607
+        ],
+        [
+          52.6283,
+          13.24243
+        ],
+        [
+          52.62739,
+          13.23039
+        ],
+        [
+          52.62841,
+          13.22512
+        ],
+        [
+          52.62832,
+          13.22054
+        ],
+        [
+          52.62444,
+          13.21976
+        ],
+        [
+          52.62016,
+          13.21676
+        ],
+        [
+          52.61926,
+          13.21482
+        ],
+        [
+          52.60914,
+          13.20688
+        ],
+        [
+          52.60655,
+          13.20162
+        ],
+        [
+          52.60425,
+          13.20232
+        ],
+        [
+          52.59899,
+          13.2082
+        ],
+        [
+          52.59237,
+          13.21886
+        ],
+        [
+          52.58748,
+          13.2174
+        ],
+        [
+          52.58838,
+          13.20734
+        ],
+        [
+          52.5866,
+          13.20671
+        ],
+        [
+          52.58685,
+          13.20537
+        ],
+        [
+          52.58877,
+          13.20035
+        ],
+        [
+          52.59019,
+          13.19173
+        ],
+        [
+          52.59369,
+          13.18342
+        ],
+        [
+          52.59701,
+          13.1679
+        ],
+        [
+          52.5988,
+          13.16453
+        ],
+        [
+          52.59763,
+          13.15706
+        ],
+        [
+          52.59187,
+          13.14928
+        ],
+        [
+          52.58971,
+          13.1435
+        ],
+        [
+          52.58887,
+          13.13845
+        ],
+        [
+          52.58737,
+          13.13548
+        ],
+        [
+          52.5873,
+          13.12896
+        ],
+        [
+          52.58313,
+          13.12796
+        ],
+        [
+          52.58304,
+          13.13026
+        ],
+        [
+          52.57961,
+          13.13247
+        ],
+        [
+          52.58039,
+          13.13916
+        ],
+        [
+          52.58336,
+          13.14961
+        ],
+        [
+          52.57895,
+          13.15316
+        ],
+        [
+          52.57326,
+          13.15354
+        ],
+        [
+          52.5644,
+          13.14751
+        ],
+        [
+          52.56145,
+          13.14714
+        ],
+        [
+          52.56061,
+          13.1458
+        ],
+        [
+          52.55494,
+          13.14722
+        ],
+        [
+          52.55212,
+          13.14422
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Spree",
+        "major": true
+      },
+      {
+        "name": "Landwehrkanal"
+      },
+      {
+        "name": "Teltowkanal"
+      }
+    ],
+    "lakes": [
+      "Neuer See",
+      "Lietzensee"
+    ],
+    "parks": [
+      "Großer Tiergarten",
+      "Tempelhofer Feld",
+      "Treptower Park"
+    ],
+    "boundary": "Berlin"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Berlin?",
+      "answer": "Laut Mikrozensus 2025 haben rund 1,1 Millionen Berlinerinnen und Berliner ab 15 Jahren einen akademischen Abschluss, das sind etwa 35 Prozent. Bei den 25- bis 44-Jährigen hat fast jede zweite Person studiert (49,5 Prozent). Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Berlin hat jede dritte Person einen Hochschulabschluss (33,7 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Berlin viele Singles?",
+      "answer": "In jedem zweiten Berliner Haushalt lebt nur eine Person (50 Prozent laut Mikrozensus 2025, bundesweit 42,1 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem sind gut zwei Drittel der 25- bis 44-Jährigen ledig (68,5 Prozent), also nie verheiratet gewesen."
+    },
+    {
+      "question": "Wo lernen Akademiker in Berlin Singles kennen?",
+      "answer": "Neben der Kultur – Museumsinsel, Museum für Naturkunde, East Side Gallery, die Berlinale und die Lange Nacht der Museen – eignen sich Vorträge, Lesungen und Ausstellungen an den Universitäten, ein Spaziergang durch den Botanischen Garten oder ein Abend am Landwehrkanal in Kreuzberg. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ba-berlin",
+      "publisher": "Statistik der Bundesagentur für Arbeit",
+      "title": "Beschäftigte nach Berufen (KldB 2010), Land Berlin, Tabelle 2 (Berufsabschluss)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202512/iiia6/beschaeftigung-sozbe-bo-heft/bo-heft-11-0-202512-xlsx.xlsx?__blob=publicationFile"
+    },
+    {
+      "id": "ba-de",
+      "publisher": "Statistik der Bundesagentur für Arbeit",
+      "title": "Beschäftigte nach Berufen (KldB 2010), Deutschland, Tabelle 2 (Berufsabschluss)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202512/iiia6/beschaeftigung-sozbe-bo-heft/bo-heft-d-0-202512-xlsx.xlsx?__blob=publicationFile"
+    },
+    {
+      "id": "mikrozensus",
+      "publisher": "Amt für Statistik Berlin-Brandenburg",
+      "title": "Statistischer Bericht A I 10 / A I 11 / A VI 2 – j/25: Ergebnisse des Mikrozensus in Berlin 2025 (Tab. 1.6 und 4.1)",
+      "stand": "Mikrozensus 2025 (Erstergebnisse)",
+      "url": "https://download.statistik-berlin-brandenburg.de/d8300a3da8796e5a/140bf1d27d02/SB_A01-10-00_2025j01_BE.xlsx"
+    },
+    {
+      "id": "isced",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Internationale Bildungsindikatoren im Ländervergleich 2025, Indikator A1.5a",
+      "stand": "Mikrozensus 2024",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsstand/Publikationen/Downloads-Bildungsstand/bildungsindikatoren-1023017257004.pdf?__blob=publicationFile&v=2"
+    },
+    {
+      "id": "studierende",
+      "publisher": "Amt für Statistik Berlin-Brandenburg",
+      "title": "Statistischer Bericht B III 8 – j/25: Studierende an Hochschulen in Berlin (vorläufige Angaben, Tab. 1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://download.statistik-berlin-brandenburg.de/a04d457d6a428522/e98bf6ba62c9/SB_B03-08-00_2025j01_BE.xlsx"
+    },
+    {
+      "id": "hochschulen",
+      "publisher": "CHE Centrum für Hochschulentwicklung",
+      "title": "Hochschuldaten Berlin (auf Basis Destatis, nicht amtlich)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://hochschuldaten.che.de/berlin/hochschulen/"
+    },
+    {
+      "id": "exzellenz",
+      "publisher": "Berlin University Alliance",
+      "title": "Exzellenzstrategie: Mit fünf Exzellenzclustern setzt die Berlin University Alliance wichtigen Impuls",
+      "stand": "Entscheidung vom 22.05.2025",
+      "url": "https://www.berlin-university-alliance.de/items/2025/250522-exzellenzcluster.html"
+    },
+    {
+      "id": "bua-verbund",
+      "publisher": "Charité – Universitätsmedizin Berlin",
+      "title": "Berlin University Alliance wird weiter gefördert und schreibt damit Geschichte",
+      "stand": "Entscheidung vom 11.03.2026",
+      "url": "https://www.charite.de/en/research/themes_research/berlin_university_alliance_wird_weiter_gefoerdert_und_schreibt_damit_geschichte"
+    },
+    {
+      "id": "spk",
+      "publisher": "Stiftung Preußischer Kulturbesitz",
+      "title": "Jahresbilanz 2025: Rund 3,6 Millionen Besuche in den Museen der Stiftung Preußischer Kulturbesitz",
+      "stand": "Berichtsjahr 2025",
+      "url": "https://www.preussischer-kulturbesitz.de/news-detail/artikel/2026/01/29/jahresbilanz-2025-rund-36-millionen-besuche-in-den-museen-der-stiftung-preussischer-kulturbesitz.html"
+    },
+    {
+      "id": "startup",
+      "publisher": "Startup-Verband und startupdetector",
+      "title": "Next Generation – Startup-Neugründungen in Deutschland 2025 (nicht amtlich)",
+      "stand": "Gründungen 2025",
+      "url": "https://startupverband.de/fileadmin/startupverband/mediaarchiv/research/Next_Generation_Report/Next_Generation_Startup-Neugruendungen_in_Deutschland_Jan_25_-_Dez_25.pdf"
+    },
+    {
+      "id": "gesundheit",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "Gesundheitswirtschaft und Life Sciences in Berlin (Business Location Center)",
+      "stand": "Bruttowertschöpfung 2021, abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/gesundheitswirtschaft"
+    },
+    {
+      "id": "blc-digitech",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "DigiTech in Berlin (Business Location Center)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/digitech"
+    },
+    {
+      "id": "blc-medien",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "Medien und Kreativwirtschaft in Berlin (Business Location Center)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/branchen/medien-und-kreativwirtschaft"
+    },
+    {
+      "id": "blc-mobilitaet",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "Verkehr, Mobilität und Logistik in Berlin (Business Location Center)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/mobilitaet"
+    },
+    {
+      "id": "blc-energie",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "Energie- und Umwelttechnik in Berlin (Business Location Center)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/energietechnik"
+    },
+    {
+      "id": "blc-photonik",
+      "publisher": "Berlin Partner für Wirtschaft und Technologie",
+      "title": "Photonik und Mikroelektronik in Berlin (Business Location Center)",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.businesslocationcenter.de/photonik"
+    },
+    {
+      "id": "destatis-haushalte",
+      "publisher": "Statistisches Bundesamt",
+      "title": "17,3 Millionen Menschen in Deutschland leben allein (Pressemitteilung Nr. N041)",
+      "stand": "Mikrozensus 2025 (Erstergebnisse)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_N041_12.html"
+    },
+    {
+      "id": "bevoelkerung",
+      "publisher": "Amt für Statistik Berlin-Brandenburg",
+      "title": "Statistischer Bericht A I 3 – j/25: Bevölkerung im Land Berlin 2025 (Tab. 7, Familienstand)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://download.statistik-berlin-brandenburg.de/e1fb344a54ccb9e4/afb34454d816/SB_A01-03_00_2025j01_BE.xlsx"
+    },
+    {
+      "id": "destatis-alter",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Durchschnittsalter der Bevölkerung nach Bundesländern",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N067_12.html"
+    }
+  ]
+}

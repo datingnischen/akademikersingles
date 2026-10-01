@@ -1,0 +1,2635 @@
+{
+  "path": "/partnersuche/dresden/",
+  "eyebrow": "Partnersuche für Akademiker · Wissenschaftsstadt an der Elbe",
+  "lead": "Exzellenzuniversität, Max-Planck, Fraunhofer, Helmholtz, Halbleiterwerke und Barock an der Elbe: In Dresden hat fast jede dritte Arbeitskraft einen Hochschulabschluss – und in gut der Hälfte aller Haushalte lebt nur eine Person. Gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Altstadtpanorama mit Hofkirche, Augustusbrücke und Semperoper an der Elbe in Dresden – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "32 %",
+      "label": "der Beschäftigten in Dresden haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "ba-dd"
+    },
+    {
+      "value": "31 %",
+      "label": "der Dresdnerinnen und Dresdner ab 15 Jahren haben studiert – bundesweit 20 %",
+      "source": "zensus-dd"
+    },
+    {
+      "value": "51 %",
+      "label": "aller Dresdner Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-dd"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "36.685",
+      "label": "Studierende im Wintersemester 2025/26",
+      "source": "stla-studierende",
+      "note": "Berechnet als Summe der elf Hochschulen in Dresden, ohne Duale Hochschule Sachsen"
+    },
+    {
+      "value": "11",
+      "label": "Hochschulen – von der TU Dresden bis zur Palucca Hochschule für Tanz",
+      "source": "stla-studierende"
+    },
+    {
+      "value": "5",
+      "label": "Exzellenzcluster, die TU Dresden ist 2026 erneut als Exzellenzuniversität bestätigt worden",
+      "source": "lhd-exzellenz"
+    },
+    {
+      "value": "1,8 Mio.",
+      "label": "Besuche bei den Staatlichen Kunstsammlungen Dresden im Jahr 2025",
+      "source": "skd",
+      "note": "17 Museen, die meisten in Dresden, dazu Häuser in Leipzig und Herrnhut"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Fast jede dritte erwachsene Person in Dresden hat studiert – getragen von der TU Dresden und einer Forschungslandschaft von besonders hoher Dichte.",
+      "metrics": [
+        {
+          "value": "31,1 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-dd",
+          "note": "Bachelor, Master, Diplom oder Promotion; berechnet: 135.240 von 434.230 Personen, darunter 15.640 mit Promotion. Deutschland 20 % (gerundet)",
+          "compare": {
+            "city": 31.1,
+            "germany": 20,
+            "unit": " %",
+            "max": 37
+          },
+          "compareSource": "zensus-akad-de"
+        },
+        {
+          "value": "27.531",
+          "label": "Studierende allein an der TU Dresden",
+          "source": "stla-studierende",
+          "note": "Wintersemester 2025/26; dazu HTW Dresden, Evangelische Hochschule, Hochschule für Bildende Künste, Hochschule für Musik, Palucca Hochschule für Tanz u. a."
+        },
+        {
+          "value": "über 10.000",
+          "label": "Wissenschaftlerinnen und Wissenschaftler in mehr als 40 Forschungs- und Entwicklungseinrichtungen",
+          "source": "lhd-wissenschaft",
+          "note": "Darunter 11 Fraunhofer-Institute und -Einrichtungen, drei Max-Planck-Institute, Leibniz-Institute und das Helmholtz-Zentrum Dresden-Rossendorf"
+        }
+      ],
+      "takeaway": "Ob Quantenphysik, Chipdesign oder Alte Meister: Hier finden Sie schnell ein Gegenüber, das mitdenkt und nachfragt."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Halbleiter, Software, Life Sciences und Spitzenforschung: Dresdens Wirtschaft lebt von Hochqualifizierten.",
+      "metrics": [
+        {
+          "value": "31,6 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "ba-dd",
+          "note": "Berechnet: 88.780 von 281.076 Beschäftigten am Arbeitsort; Dresden 30.06.2025, Deutschland 31.12.2025. Am Wohnort Dresden sind es 34,9 % (84.761 von 242.620)",
+          "compare": {
+            "city": 31.6,
+            "germany": 20.8,
+            "unit": " %",
+            "max": 37
+          },
+          "compareSource": "destatis-besch"
+        },
+        {
+          "value": "4.182 €",
+          "label": "mittleres Bruttomonatsentgelt in Vollzeit – der höchste Wert in Sachsen",
+          "source": "ba-entgelt",
+          "note": "Median der sozialversicherungspflichtig Vollzeitbeschäftigten, Stand 31.12.2025; Sachsen 3.588 €",
+          "compare": {
+            "city": 4182,
+            "germany": 4217,
+            "unit": " €",
+            "max": 5000
+          }
+        },
+        {
+          "value": "1 von 3",
+          "label": "in Europa gefertigten Mikrochips kommt laut städtischer Wirtschaftsförderung aus Dresden",
+          "source": "lhd-mikro",
+          "note": "TSMC, GlobalFoundries, Infineon, Bosch und X-FAB investieren in den Standort, dazu das Netzwerk Silicon Saxony"
+        }
+      ],
+      "takeaway": "Hier begegnen Sie Menschen, die an der Zukunft arbeiten – und jemanden suchen, der diesen Anspruch teilt."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Viele Dresdnerinnen und Dresdner leben allein, und die Stadt ist im Schnitt jünger als Sachsen und Deutschland.",
+      "metrics": [
+        {
+          "value": "50,6 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-dd",
+          "note": "151.549 von 299.631 Haushalten; Zensus 2022, Deutschland 43 %",
+          "compare": {
+            "city": 50.6,
+            "germany": 43,
+            "unit": " %",
+            "max": 60
+          },
+          "compareSource": "zensus-hh-de"
+        },
+        {
+          "value": "43,7 %",
+          "label": "der Erwachsenen sind ledig",
+          "source": "lhd-bevoelkerung",
+          "note": "209.093 von 477.982 Einwohnerinnen und Einwohnern ab 18 Jahren, Melderegister 31.12.2024; ledig heißt nicht automatisch partnerlos"
+        },
+        {
+          "value": "43,8",
+          "label": "Jahre Durchschnittsalter – deutlich jünger als Sachsen mit 47,2 Jahren",
+          "source": "stla-alter",
+          "note": "Stand 31.12.2025",
+          "compare": {
+            "city": 43.8,
+            "germany": 45.0,
+            "unit": " J.",
+            "max": 53
+          },
+          "compareSource": "destatis-alter"
+        }
+      ],
+      "takeaway": "Sich Zeit für die richtige Partnerschaft zu nehmen, ist in Dresden selbstverständlich – Sie sind damit in bester Gesellschaft."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Mikroelektronik & Halbleiter",
+      "text": "Silicon Saxony und die Werke von Infineon, GlobalFoundries, Bosch und X-FAB, dazu die Investition von TSMC – Ingenieurinnen und Ingenieure aus aller Welt."
+    },
+    {
+      "name": "Software, IT & Künstliche Intelligenz",
+      "text": "Die IT- und Softwarebranche schafft laut Wirtschaftsförderung die meisten neuen Arbeitsplätze der Stadt – mit 5G Lab, dem Forschungsprojekt 6G-life und einer wachsenden Software- und Games-Szene."
+    },
+    {
+      "name": "Life Sciences & Medizin",
+      "text": "Universitätsklinikum Carl Gustav Carus, Max-Planck-Institut für molekulare Zellbiologie und Genetik, das neue Herzzentrum und das Radiopharmazie-Cluster in Rossendorf mit ROTOP Pharmaka und Eckert & Ziegler."
+    },
+    {
+      "name": "Materialforschung & Wasserstoff",
+      "text": "Die Leibniz-Institute IFW und IPF, zahlreiche Fraunhofer-Institute und die Initiative HyDresden für grüne Wasserstofftechnologien."
+    },
+    {
+      "name": "Wissenschaft & Forschung",
+      "text": "TU Dresden, drei Max-Planck-Institute, elf Fraunhofer-Institute und -Einrichtungen, Leibniz-Institute und das Helmholtz-Zentrum Dresden-Rossendorf – Forschende aus aller Welt."
+    },
+    {
+      "name": "Kultur- & Kreativwirtschaft",
+      "text": "Rund 23.000 Erwerbstätige von Software und Games über Architektur bis Design – im Umfeld von Semperoper und Staatlichen Kunstsammlungen."
+    }
+  ],
+  "clusterSources": [
+    "lhd-mikro",
+    "lhd-smartcity",
+    "lhd-lifesciences",
+    "lhd-wissenschaft",
+    "lhd-kreativ"
+  ],
+  "places": [
+    {
+      "name": "TU Dresden",
+      "kind": "work",
+      "district": "Südvorstadt · Campus Bergstraße",
+      "text": "Exzellenzuniversität mit fünf Exzellenzclustern und gut 27.000 Studierenden. Rund um den Campus liegen Mensen, Cafés und Institute.",
+      "lat": 51.0288,
+      "lon": 13.73
+    },
+    {
+      "name": "Uniklinikum & Max-Planck-Institut CBG",
+      "kind": "work",
+      "district": "Johannstadt · Fetscherstraße",
+      "text": "Arbeitsort vieler Ärztinnen, Ärzte und Forschender – direkt daneben das Max-Planck-Institut für molekulare Zellbiologie und Genetik.",
+      "lat": 51.0565,
+      "lon": 13.7826
+    },
+    {
+      "name": "Fraunhofer-Institutszentrum",
+      "kind": "work",
+      "district": "Gruna · Winterbergstraße",
+      "text": "Fraunhofer-Standort in Gruna – mit elf Instituten und Einrichtungen gilt Dresden als Fraunhofer-Hauptstadt Deutschlands.",
+      "lat": 51.0287,
+      "lon": 13.7806
+    },
+    {
+      "name": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "kind": "work",
+      "district": "Rossendorf · Bautzner Landstraße",
+      "text": "Internationales Forschungszentrum am östlichen Stadtrand und Kern des Radiopharmazie-Clusters in Rossendorf.",
+      "lat": 51.0577,
+      "lon": 13.9532
+    },
+    {
+      "name": "Infineon-Werk",
+      "kind": "work",
+      "district": "Klotzsche · Königsbrücker Straße",
+      "text": "Einer der großen Halbleiterstandorte im Dresdner Norden – hier fand auch der Spatenstich für das zweite Infineon-Werk statt.",
+      "lat": 51.104,
+      "lon": 13.7756
+    },
+    {
+      "name": "GlobalFoundries",
+      "kind": "work",
+      "district": "Wilschdorf · Fab 1",
+      "text": "Chipfabrik Fab 1 im Industriegebiet Wilschdorf, einer der Ankerpunkte von Silicon Saxony.",
+      "lat": 51.1258,
+      "lon": 13.7172
+    },
+    {
+      "name": "Frauenkirche & Neumarkt",
+      "kind": "date",
+      "district": "Innere Altstadt · Neumarkt",
+      "text": "Konzerte und Veranstaltungen rund um die Frauenkirche empfiehlt der Stadt-Guide ausdrücklich – im Advent lockt der Striezelmarkt.",
+      "lat": 51.052,
+      "lon": 13.7416
+    },
+    {
+      "name": "Semperoper & Zwinger",
+      "kind": "date",
+      "district": "Innere Altstadt · Theaterplatz",
+      "text": "Oper, Ballett und die Gemäldegalerie Alte Meister – der klassische Abend zu zweit an der Elbe.",
+      "lat": 51.0545,
+      "lon": 13.7352
+    },
+    {
+      "name": "Äußere Neustadt",
+      "kind": "date",
+      "district": "Neustadt · Alaun- und Louisenstraße",
+      "text": "Gründerzeitviertel mit Kneipen, Bars, kleinen Läden und urbaner Kunst – der Stadt-Guide nennt es Dresdens Kiez.",
+      "lat": 51.0674,
+      "lon": 13.7521
+    },
+    {
+      "name": "Großer Garten",
+      "kind": "date",
+      "district": "Altstadt · Hauptallee",
+      "text": "Der große Park zwischen Altstadt und Striesen – für den Spaziergang, bei dem man länger reden möchte.",
+      "lat": 51.037,
+      "lon": 13.7674
+    },
+    {
+      "name": "Blaues Wunder & Loschwitz",
+      "kind": "date",
+      "district": "Loschwitz · Elbufer",
+      "text": "Historische Elbbrücke und Elbwiesen in Loschwitz – ein entspannter Ort für das zweite Date.",
+      "lat": 51.0534,
+      "lon": 13.8101
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 13.69,
+      "east": 13.98,
+      "south": 51.0,
+      "north": 51.15
+    },
+    "rivers": [
+      {
+        "name": "Elbe",
+        "major": true,
+        "points": [
+          [
+            50.9985,
+            13.8758
+          ],
+          [
+            51.00392,
+            13.87397
+          ],
+          [
+            51.00632,
+            13.8719
+          ],
+          [
+            51.00956,
+            13.86517
+          ],
+          [
+            51.0134,
+            13.85499
+          ],
+          [
+            51.01725,
+            13.84851
+          ],
+          [
+            51.02241,
+            13.84276
+          ],
+          [
+            51.0308,
+            13.83971
+          ],
+          [
+            51.03282,
+            13.83804
+          ],
+          [
+            51.03498,
+            13.83457
+          ],
+          [
+            51.03848,
+            13.82414
+          ],
+          [
+            51.04111,
+            13.81998
+          ],
+          [
+            51.05844,
+            13.80649
+          ],
+          [
+            51.0613,
+            13.8012
+          ],
+          [
+            51.0627,
+            13.79631
+          ],
+          [
+            51.06413,
+            13.78465
+          ],
+          [
+            51.06356,
+            13.77207
+          ],
+          [
+            51.06239,
+            13.76588
+          ],
+          [
+            51.06113,
+            13.76252
+          ],
+          [
+            51.0547,
+            13.74844
+          ],
+          [
+            51.0542,
+            13.74171
+          ],
+          [
+            51.05632,
+            13.73591
+          ],
+          [
+            51.05872,
+            13.7334
+          ],
+          [
+            51.06695,
+            13.72798
+          ],
+          [
+            51.07123,
+            13.72201
+          ],
+          [
+            51.07579,
+            13.71783
+          ],
+          [
+            51.07685,
+            13.71395
+          ],
+          [
+            51.0763,
+            13.70857
+          ],
+          [
+            51.07364,
+            13.70246
+          ],
+          [
+            51.07245,
+            13.70136
+          ],
+          [
+            51.0677,
+            13.70006
+          ],
+          [
+            51.06561,
+            13.69802
+          ],
+          [
+            51.06494,
+            13.69607
+          ],
+          [
+            51.06382,
+            13.68613
+          ]
+        ]
+      },
+      {
+        "name": "Vereinigte Weißeritz",
+        "major": false,
+        "points": [
+          [
+            51.02224,
+            13.6892
+          ],
+          [
+            51.02179,
+            13.6898
+          ],
+          [
+            51.02184,
+            13.69699
+          ],
+          [
+            51.02281,
+            13.7028
+          ],
+          [
+            51.02395,
+            13.70255
+          ],
+          [
+            51.02557,
+            13.70034
+          ],
+          [
+            51.02883,
+            13.70071
+          ],
+          [
+            51.03269,
+            13.70451
+          ],
+          [
+            51.03454,
+            13.70459
+          ],
+          [
+            51.03765,
+            13.70681
+          ],
+          [
+            51.04199,
+            13.70428
+          ],
+          [
+            51.04506,
+            13.70631
+          ],
+          [
+            51.05095,
+            13.70389
+          ],
+          [
+            51.05175,
+            13.70246
+          ],
+          [
+            51.05374,
+            13.69177
+          ],
+          [
+            51.05874,
+            13.68822
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Elbe",
+        "lat": 51.0635,
+        "lon": 13.7769
+      },
+      {
+        "text": "Pieschen",
+        "lat": 51.0831,
+        "lon": 13.7226,
+        "district": true
+      },
+      {
+        "text": "Klotzsche",
+        "lat": 51.1186,
+        "lon": 13.7782,
+        "district": true
+      },
+      {
+        "text": "Johannstadt",
+        "lat": 51.0507,
+        "lon": 13.7674,
+        "district": true
+      },
+      {
+        "text": "Striesen",
+        "lat": 51.0435,
+        "lon": 13.7861,
+        "district": true
+      },
+      {
+        "text": "Blasewitz",
+        "lat": 51.0522,
+        "lon": 13.799,
+        "district": true
+      },
+      {
+        "text": "Südvorstadt",
+        "lat": 51.0355,
+        "lon": 13.7305,
+        "district": true
+      },
+      {
+        "text": "Plauen",
+        "lat": 51.0269,
+        "lon": 13.7081,
+        "district": true
+      },
+      {
+        "text": "Rossendorf",
+        "lat": 51.057,
+        "lon": 13.9391,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Carolasee",
+        "points": [
+          [
+            51.03248,
+            13.76472
+          ],
+          [
+            51.03434,
+            13.75981
+          ],
+          [
+            51.03418,
+            13.76133
+          ],
+          [
+            51.03324,
+            13.7638
+          ],
+          [
+            51.03376,
+            13.7641
+          ],
+          [
+            51.03368,
+            13.76607
+          ],
+          [
+            51.0326,
+            13.76537
+          ],
+          [
+            51.03248,
+            13.76472
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Großer Garten",
+        "points": [
+          [
+            51.03879,
+            13.75115
+          ],
+          [
+            51.03912,
+            13.74806
+          ],
+          [
+            51.04384,
+            13.75289
+          ],
+          [
+            51.04153,
+            13.75858
+          ],
+          [
+            51.04366,
+            13.76072
+          ],
+          [
+            51.03683,
+            13.77789
+          ],
+          [
+            51.03002,
+            13.77106
+          ],
+          [
+            51.03456,
+            13.75859
+          ],
+          [
+            51.03482,
+            13.75905
+          ],
+          [
+            51.03711,
+            13.75722
+          ],
+          [
+            51.03928,
+            13.7535
+          ],
+          [
+            51.03944,
+            13.75231
+          ],
+          [
+            51.03879,
+            13.75115
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Alaunplatz",
+        "points": [
+          [
+            51.07286,
+            13.75593
+          ],
+          [
+            51.07243,
+            13.75554
+          ],
+          [
+            51.07277,
+            13.75438
+          ],
+          [
+            51.0715,
+            13.75334
+          ],
+          [
+            51.07122,
+            13.75421
+          ],
+          [
+            51.07071,
+            13.75383
+          ],
+          [
+            51.07076,
+            13.75306
+          ],
+          [
+            51.06897,
+            13.75902
+          ],
+          [
+            51.07024,
+            13.75985
+          ],
+          [
+            51.07012,
+            13.75843
+          ],
+          [
+            51.07179,
+            13.75839
+          ],
+          [
+            51.07286,
+            13.75593
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          51.1749,
+          13.76551
+        ],
+        [
+          51.17389,
+          13.7629
+        ],
+        [
+          51.17408,
+          13.75956
+        ],
+        [
+          51.17733,
+          13.75383
+        ],
+        [
+          51.17768,
+          13.74627
+        ],
+        [
+          51.17712,
+          13.74464
+        ],
+        [
+          51.17554,
+          13.74468
+        ],
+        [
+          51.17302,
+          13.74751
+        ],
+        [
+          51.17177,
+          13.7473
+        ],
+        [
+          51.1677,
+          13.75047
+        ],
+        [
+          51.16447,
+          13.74934
+        ],
+        [
+          51.16169,
+          13.75205
+        ],
+        [
+          51.15904,
+          13.75248
+        ],
+        [
+          51.15879,
+          13.75156
+        ],
+        [
+          51.15714,
+          13.75568
+        ],
+        [
+          51.15664,
+          13.76112
+        ],
+        [
+          51.15603,
+          13.76143
+        ],
+        [
+          51.14945,
+          13.7623
+        ],
+        [
+          51.14823,
+          13.76102
+        ],
+        [
+          51.14832,
+          13.75957
+        ],
+        [
+          51.14726,
+          13.75936
+        ],
+        [
+          51.1456,
+          13.76727
+        ],
+        [
+          51.13817,
+          13.75702
+        ],
+        [
+          51.13877,
+          13.75602
+        ],
+        [
+          51.13809,
+          13.75493
+        ],
+        [
+          51.13746,
+          13.75599
+        ],
+        [
+          51.13589,
+          13.75536
+        ],
+        [
+          51.13475,
+          13.75627
+        ],
+        [
+          51.13477,
+          13.75454
+        ],
+        [
+          51.13599,
+          13.75403
+        ],
+        [
+          51.13569,
+          13.75241
+        ],
+        [
+          51.1377,
+          13.74826
+        ],
+        [
+          51.13333,
+          13.74207
+        ],
+        [
+          51.13472,
+          13.73655
+        ],
+        [
+          51.13647,
+          13.736
+        ],
+        [
+          51.13995,
+          13.7207
+        ],
+        [
+          51.13573,
+          13.71755
+        ],
+        [
+          51.13397,
+          13.71278
+        ],
+        [
+          51.13082,
+          13.71359
+        ],
+        [
+          51.12915,
+          13.71174
+        ],
+        [
+          51.12893,
+          13.71275
+        ],
+        [
+          51.12575,
+          13.71158
+        ],
+        [
+          51.12558,
+          13.71037
+        ],
+        [
+          51.12318,
+          13.7088
+        ],
+        [
+          51.12281,
+          13.71039
+        ],
+        [
+          51.1165,
+          13.70698
+        ],
+        [
+          51.11362,
+          13.70691
+        ],
+        [
+          51.11195,
+          13.70798
+        ],
+        [
+          51.11005,
+          13.70275
+        ],
+        [
+          51.10848,
+          13.70507
+        ],
+        [
+          51.11107,
+          13.70152
+        ],
+        [
+          51.11444,
+          13.70061
+        ],
+        [
+          51.11305,
+          13.69851
+        ],
+        [
+          51.1136,
+          13.6967
+        ],
+        [
+          51.11171,
+          13.69454
+        ],
+        [
+          51.11101,
+          13.69191
+        ],
+        [
+          51.10829,
+          13.69228
+        ],
+        [
+          51.10839,
+          13.69411
+        ],
+        [
+          51.10483,
+          13.69558
+        ],
+        [
+          51.10338,
+          13.69476
+        ],
+        [
+          51.10327,
+          13.69329
+        ],
+        [
+          51.10206,
+          13.6933
+        ],
+        [
+          51.10183,
+          13.69183
+        ],
+        [
+          51.10008,
+          13.69113
+        ],
+        [
+          51.09953,
+          13.68822
+        ],
+        [
+          51.09778,
+          13.6918
+        ],
+        [
+          51.09857,
+          13.6928
+        ],
+        [
+          51.09771,
+          13.69457
+        ],
+        [
+          51.09447,
+          13.69893
+        ],
+        [
+          51.09388,
+          13.69786
+        ],
+        [
+          51.09128,
+          13.70111
+        ],
+        [
+          51.09066,
+          13.70012
+        ],
+        [
+          51.09118,
+          13.69803
+        ],
+        [
+          51.09379,
+          13.69118
+        ],
+        [
+          51.09207,
+          13.69098
+        ],
+        [
+          51.09234,
+          13.68974
+        ],
+        [
+          51.09128,
+          13.68906
+        ],
+        [
+          51.09086,
+          13.69007
+        ],
+        [
+          51.08851,
+          13.68915
+        ],
+        [
+          51.09019,
+          13.6864
+        ],
+        [
+          51.08933,
+          13.68506
+        ],
+        [
+          51.09557,
+          13.67374
+        ],
+        [
+          51.09564,
+          13.67172
+        ],
+        [
+          51.0951,
+          13.66833
+        ],
+        [
+          51.09414,
+          13.6668
+        ],
+        [
+          51.09369,
+          13.66776
+        ],
+        [
+          51.09373,
+          13.66219
+        ],
+        [
+          51.09279,
+          13.65863
+        ],
+        [
+          51.08942,
+          13.66387
+        ],
+        [
+          51.09054,
+          13.66205
+        ],
+        [
+          51.09014,
+          13.66119
+        ],
+        [
+          51.09261,
+          13.65382
+        ],
+        [
+          51.09649,
+          13.64512
+        ],
+        [
+          51.09787,
+          13.63687
+        ],
+        [
+          51.10265,
+          13.62368
+        ],
+        [
+          51.10259,
+          13.61902
+        ],
+        [
+          51.10164,
+          13.61462
+        ],
+        [
+          51.09652,
+          13.60545
+        ],
+        [
+          51.09677,
+          13.60186
+        ],
+        [
+          51.09842,
+          13.59869
+        ],
+        [
+          51.09717,
+          13.59672
+        ],
+        [
+          51.09511,
+          13.59597
+        ],
+        [
+          51.09413,
+          13.59197
+        ],
+        [
+          51.09142,
+          13.59503
+        ],
+        [
+          51.09138,
+          13.59838
+        ],
+        [
+          51.08919,
+          13.59759
+        ],
+        [
+          51.08823,
+          13.59943
+        ],
+        [
+          51.08604,
+          13.5982
+        ],
+        [
+          51.0854,
+          13.59911
+        ],
+        [
+          51.08298,
+          13.59512
+        ],
+        [
+          51.0818,
+          13.59515
+        ],
+        [
+          51.08027,
+          13.59299
+        ],
+        [
+          51.07945,
+          13.59329
+        ],
+        [
+          51.07884,
+          13.59199
+        ],
+        [
+          51.07946,
+          13.58963
+        ],
+        [
+          51.07827,
+          13.58974
+        ],
+        [
+          51.07689,
+          13.58783
+        ],
+        [
+          51.07403,
+          13.58909
+        ],
+        [
+          51.07359,
+          13.59047
+        ],
+        [
+          51.0717,
+          13.59034
+        ],
+        [
+          51.06806,
+          13.58764
+        ],
+        [
+          51.06743,
+          13.58825
+        ],
+        [
+          51.06635,
+          13.58621
+        ],
+        [
+          51.06685,
+          13.58255
+        ],
+        [
+          51.06544,
+          13.58117
+        ],
+        [
+          51.0652,
+          13.57955
+        ],
+        [
+          51.06347,
+          13.58099
+        ],
+        [
+          51.06192,
+          13.58033
+        ],
+        [
+          51.05669,
+          13.585
+        ],
+        [
+          51.05058,
+          13.57932
+        ],
+        [
+          51.04881,
+          13.5863
+        ],
+        [
+          51.04411,
+          13.58495
+        ],
+        [
+          51.04324,
+          13.59181
+        ],
+        [
+          51.044,
+          13.59167
+        ],
+        [
+          51.04221,
+          13.59493
+        ],
+        [
+          51.04288,
+          13.60523
+        ],
+        [
+          51.04072,
+          13.60413
+        ],
+        [
+          51.0378,
+          13.5996
+        ],
+        [
+          51.03484,
+          13.60354
+        ],
+        [
+          51.03229,
+          13.60383
+        ],
+        [
+          51.03279,
+          13.60998
+        ],
+        [
+          51.03463,
+          13.61541
+        ],
+        [
+          51.03339,
+          13.62152
+        ],
+        [
+          51.03129,
+          13.62586
+        ],
+        [
+          51.03339,
+          13.62655
+        ],
+        [
+          51.03401,
+          13.62813
+        ],
+        [
+          51.03212,
+          13.63155
+        ],
+        [
+          51.03294,
+          13.63227
+        ],
+        [
+          51.03275,
+          13.63403
+        ],
+        [
+          51.02906,
+          13.64291
+        ],
+        [
+          51.02962,
+          13.64925
+        ],
+        [
+          51.0309,
+          13.65116
+        ],
+        [
+          51.03233,
+          13.65065
+        ],
+        [
+          51.03328,
+          13.65388
+        ],
+        [
+          51.03483,
+          13.65435
+        ],
+        [
+          51.03509,
+          13.66501
+        ],
+        [
+          51.0358,
+          13.66548
+        ],
+        [
+          51.03509,
+          13.66921
+        ],
+        [
+          51.03203,
+          13.66552
+        ],
+        [
+          51.03059,
+          13.6623
+        ],
+        [
+          51.02945,
+          13.66374
+        ],
+        [
+          51.02067,
+          13.66457
+        ],
+        [
+          51.02064,
+          13.66566
+        ],
+        [
+          51.01861,
+          13.66628
+        ],
+        [
+          51.01663,
+          13.66528
+        ],
+        [
+          51.01662,
+          13.66831
+        ],
+        [
+          51.01488,
+          13.67081
+        ],
+        [
+          51.01767,
+          13.67595
+        ],
+        [
+          51.01585,
+          13.6775
+        ],
+        [
+          51.01525,
+          13.68105
+        ],
+        [
+          51.01054,
+          13.68339
+        ],
+        [
+          51.00622,
+          13.68747
+        ],
+        [
+          51.00352,
+          13.68605
+        ],
+        [
+          51.00234,
+          13.68691
+        ],
+        [
+          51.00288,
+          13.68748
+        ],
+        [
+          51.00254,
+          13.69488
+        ],
+        [
+          51.00467,
+          13.69758
+        ],
+        [
+          51.0053,
+          13.70001
+        ],
+        [
+          51.00471,
+          13.70707
+        ],
+        [
+          51.00684,
+          13.7129
+        ],
+        [
+          51.00808,
+          13.71375
+        ],
+        [
+          51.00711,
+          13.71653
+        ],
+        [
+          51.00756,
+          13.7173
+        ],
+        [
+          51.00707,
+          13.72074
+        ],
+        [
+          51.00981,
+          13.72588
+        ],
+        [
+          51.01015,
+          13.73092
+        ],
+        [
+          51.00972,
+          13.73247
+        ],
+        [
+          51.00865,
+          13.73219
+        ],
+        [
+          51.00806,
+          13.73833
+        ],
+        [
+          51.00673,
+          13.74006
+        ],
+        [
+          51.00619,
+          13.73894
+        ],
+        [
+          51.00534,
+          13.74
+        ],
+        [
+          51.00573,
+          13.74124
+        ],
+        [
+          51.00407,
+          13.74178
+        ],
+        [
+          51.00413,
+          13.74381
+        ],
+        [
+          51.0031,
+          13.74393
+        ],
+        [
+          51.00288,
+          13.74819
+        ],
+        [
+          50.99963,
+          13.75114
+        ],
+        [
+          51.00044,
+          13.75188
+        ],
+        [
+          50.99967,
+          13.7542
+        ],
+        [
+          51.00059,
+          13.75492
+        ],
+        [
+          51.00029,
+          13.75614
+        ],
+        [
+          51.00091,
+          13.757
+        ],
+        [
+          51.00093,
+          13.75816
+        ],
+        [
+          51.00017,
+          13.75819
+        ],
+        [
+          51.00005,
+          13.76351
+        ],
+        [
+          51.00083,
+          13.76367
+        ],
+        [
+          51.00089,
+          13.76551
+        ],
+        [
+          50.99683,
+          13.76483
+        ],
+        [
+          50.99644,
+          13.76684
+        ],
+        [
+          50.99493,
+          13.76551
+        ],
+        [
+          50.99068,
+          13.76965
+        ],
+        [
+          50.98776,
+          13.77096
+        ],
+        [
+          50.98812,
+          13.77557
+        ],
+        [
+          50.98602,
+          13.78021
+        ],
+        [
+          50.98808,
+          13.77965
+        ],
+        [
+          50.98861,
+          13.78092
+        ],
+        [
+          50.98579,
+          13.78663
+        ],
+        [
+          50.9867,
+          13.78789
+        ],
+        [
+          50.9865,
+          13.78881
+        ],
+        [
+          50.98814,
+          13.78995
+        ],
+        [
+          50.98509,
+          13.78995
+        ],
+        [
+          50.98395,
+          13.78899
+        ],
+        [
+          50.98296,
+          13.79124
+        ],
+        [
+          50.98199,
+          13.79044
+        ],
+        [
+          50.97732,
+          13.79182
+        ],
+        [
+          50.9774,
+          13.79431
+        ],
+        [
+          50.97818,
+          13.79534
+        ],
+        [
+          50.97643,
+          13.79685
+        ],
+        [
+          50.97654,
+          13.7992
+        ],
+        [
+          50.97821,
+          13.79899
+        ],
+        [
+          50.97925,
+          13.80138
+        ],
+        [
+          50.97891,
+          13.80445
+        ],
+        [
+          50.98011,
+          13.80501
+        ],
+        [
+          50.97959,
+          13.80773
+        ],
+        [
+          50.97696,
+          13.80759
+        ],
+        [
+          50.97652,
+          13.81295
+        ],
+        [
+          50.97535,
+          13.81299
+        ],
+        [
+          50.97583,
+          13.81474
+        ],
+        [
+          50.97511,
+          13.81551
+        ],
+        [
+          50.97512,
+          13.82077
+        ],
+        [
+          50.97749,
+          13.821
+        ],
+        [
+          50.97946,
+          13.82525
+        ],
+        [
+          50.9784,
+          13.83125
+        ],
+        [
+          50.97944,
+          13.83092
+        ],
+        [
+          50.98016,
+          13.83245
+        ],
+        [
+          50.97979,
+          13.83379
+        ],
+        [
+          50.98448,
+          13.83898
+        ],
+        [
+          50.9875,
+          13.83976
+        ],
+        [
+          50.98816,
+          13.84274
+        ],
+        [
+          50.98955,
+          13.84473
+        ],
+        [
+          50.98622,
+          13.85231
+        ],
+        [
+          50.99294,
+          13.85864
+        ],
+        [
+          50.98356,
+          13.87219
+        ],
+        [
+          50.98389,
+          13.87905
+        ],
+        [
+          50.98526,
+          13.87852
+        ],
+        [
+          50.98552,
+          13.87971
+        ],
+        [
+          50.98232,
+          13.88079
+        ],
+        [
+          50.98224,
+          13.88457
+        ],
+        [
+          50.9869,
+          13.88294
+        ],
+        [
+          50.98731,
+          13.88631
+        ],
+        [
+          50.98818,
+          13.88776
+        ],
+        [
+          50.98893,
+          13.8866
+        ],
+        [
+          50.98943,
+          13.88747
+        ],
+        [
+          50.98859,
+          13.88881
+        ],
+        [
+          50.99039,
+          13.89492
+        ],
+        [
+          50.99286,
+          13.89411
+        ],
+        [
+          50.99336,
+          13.8968
+        ],
+        [
+          50.99446,
+          13.89658
+        ],
+        [
+          50.99433,
+          13.89501
+        ],
+        [
+          50.99504,
+          13.89499
+        ],
+        [
+          50.99618,
+          13.90312
+        ],
+        [
+          50.99794,
+          13.90637
+        ],
+        [
+          50.9994,
+          13.90608
+        ],
+        [
+          50.99959,
+          13.91007
+        ],
+        [
+          51.00035,
+          13.91078
+        ],
+        [
+          51.002,
+          13.91106
+        ],
+        [
+          51.00233,
+          13.90827
+        ],
+        [
+          51.00484,
+          13.90942
+        ],
+        [
+          51.00971,
+          13.90657
+        ],
+        [
+          51.01164,
+          13.90819
+        ],
+        [
+          51.01286,
+          13.90777
+        ],
+        [
+          51.01307,
+          13.91121
+        ],
+        [
+          51.01395,
+          13.91031
+        ],
+        [
+          51.01682,
+          13.91212
+        ],
+        [
+          51.0159,
+          13.91667
+        ],
+        [
+          51.01317,
+          13.91901
+        ],
+        [
+          51.01313,
+          13.92017
+        ],
+        [
+          51.01431,
+          13.92161
+        ],
+        [
+          51.01322,
+          13.92265
+        ],
+        [
+          51.01402,
+          13.92663
+        ],
+        [
+          51.01781,
+          13.93136
+        ],
+        [
+          51.01713,
+          13.93178
+        ],
+        [
+          51.01738,
+          13.93538
+        ],
+        [
+          51.01519,
+          13.93794
+        ],
+        [
+          51.01642,
+          13.93937
+        ],
+        [
+          51.01989,
+          13.93882
+        ],
+        [
+          51.02255,
+          13.94069
+        ],
+        [
+          51.02501,
+          13.94417
+        ],
+        [
+          51.02632,
+          13.9484
+        ],
+        [
+          51.02639,
+          13.95607
+        ],
+        [
+          51.02708,
+          13.95767
+        ],
+        [
+          51.02954,
+          13.9577
+        ],
+        [
+          51.03091,
+          13.95941
+        ],
+        [
+          51.03133,
+          13.96273
+        ],
+        [
+          51.04115,
+          13.96168
+        ],
+        [
+          51.04415,
+          13.96223
+        ],
+        [
+          51.04739,
+          13.96533
+        ],
+        [
+          51.04963,
+          13.96041
+        ],
+        [
+          51.05204,
+          13.95997
+        ],
+        [
+          51.05272,
+          13.96023
+        ],
+        [
+          51.05229,
+          13.96159
+        ],
+        [
+          51.05482,
+          13.96606
+        ],
+        [
+          51.06099,
+          13.96136
+        ],
+        [
+          51.06159,
+          13.96572
+        ],
+        [
+          51.06427,
+          13.96205
+        ],
+        [
+          51.06438,
+          13.95832
+        ],
+        [
+          51.06448,
+          13.95912
+        ],
+        [
+          51.06647,
+          13.95634
+        ],
+        [
+          51.06675,
+          13.95687
+        ],
+        [
+          51.06445,
+          13.96023
+        ],
+        [
+          51.0644,
+          13.96188
+        ],
+        [
+          51.06958,
+          13.95445
+        ],
+        [
+          51.06903,
+          13.95322
+        ],
+        [
+          51.07223,
+          13.95242
+        ],
+        [
+          51.07154,
+          13.95385
+        ],
+        [
+          51.07389,
+          13.95345
+        ],
+        [
+          51.07392,
+          13.95075
+        ],
+        [
+          51.07218,
+          13.94366
+        ],
+        [
+          51.07302,
+          13.94154
+        ],
+        [
+          51.06747,
+          13.93647
+        ],
+        [
+          51.06672,
+          13.93869
+        ],
+        [
+          51.06593,
+          13.93775
+        ],
+        [
+          51.06539,
+          13.93879
+        ],
+        [
+          51.06651,
+          13.94
+        ],
+        [
+          51.06487,
+          13.94353
+        ],
+        [
+          51.06385,
+          13.94236
+        ],
+        [
+          51.06339,
+          13.9338
+        ],
+        [
+          51.06207,
+          13.93392
+        ],
+        [
+          51.06205,
+          13.92611
+        ],
+        [
+          51.06098,
+          13.92234
+        ],
+        [
+          51.06148,
+          13.92203
+        ],
+        [
+          51.06259,
+          13.92421
+        ],
+        [
+          51.06298,
+          13.92356
+        ],
+        [
+          51.06162,
+          13.92021
+        ],
+        [
+          51.06287,
+          13.91968
+        ],
+        [
+          51.06336,
+          13.91798
+        ],
+        [
+          51.06462,
+          13.91984
+        ],
+        [
+          51.06698,
+          13.91262
+        ],
+        [
+          51.06855,
+          13.91157
+        ],
+        [
+          51.0686,
+          13.90546
+        ],
+        [
+          51.0702,
+          13.89935
+        ],
+        [
+          51.06998,
+          13.89311
+        ],
+        [
+          51.07129,
+          13.8858
+        ],
+        [
+          51.07263,
+          13.88344
+        ],
+        [
+          51.07361,
+          13.88367
+        ],
+        [
+          51.07381,
+          13.88632
+        ],
+        [
+          51.07773,
+          13.89043
+        ],
+        [
+          51.07944,
+          13.896
+        ],
+        [
+          51.08072,
+          13.89557
+        ],
+        [
+          51.08199,
+          13.89679
+        ],
+        [
+          51.08289,
+          13.89523
+        ],
+        [
+          51.08247,
+          13.89136
+        ],
+        [
+          51.08295,
+          13.8911
+        ],
+        [
+          51.08564,
+          13.89619
+        ],
+        [
+          51.0866,
+          13.89528
+        ],
+        [
+          51.08678,
+          13.89643
+        ],
+        [
+          51.08752,
+          13.89599
+        ],
+        [
+          51.08829,
+          13.90123
+        ],
+        [
+          51.08627,
+          13.90055
+        ],
+        [
+          51.08613,
+          13.89676
+        ],
+        [
+          51.08512,
+          13.89736
+        ],
+        [
+          51.08282,
+          13.90216
+        ],
+        [
+          51.0848,
+          13.9064
+        ],
+        [
+          51.0858,
+          13.90436
+        ],
+        [
+          51.08773,
+          13.9047
+        ],
+        [
+          51.08957,
+          13.9063
+        ],
+        [
+          51.08987,
+          13.90958
+        ],
+        [
+          51.09417,
+          13.91105
+        ],
+        [
+          51.09631,
+          13.90878
+        ],
+        [
+          51.09698,
+          13.91013
+        ],
+        [
+          51.09872,
+          13.9069
+        ],
+        [
+          51.09853,
+          13.9031
+        ],
+        [
+          51.10246,
+          13.89964
+        ],
+        [
+          51.1038,
+          13.89537
+        ],
+        [
+          51.10833,
+          13.89895
+        ],
+        [
+          51.10948,
+          13.89514
+        ],
+        [
+          51.11126,
+          13.89374
+        ],
+        [
+          51.11131,
+          13.89248
+        ],
+        [
+          51.11322,
+          13.8929
+        ],
+        [
+          51.11321,
+          13.88737
+        ],
+        [
+          51.12349,
+          13.88024
+        ],
+        [
+          51.12743,
+          13.87258
+        ],
+        [
+          51.13582,
+          13.86944
+        ],
+        [
+          51.13794,
+          13.87477
+        ],
+        [
+          51.13789,
+          13.87693
+        ],
+        [
+          51.1404,
+          13.88793
+        ],
+        [
+          51.1429,
+          13.88927
+        ],
+        [
+          51.14413,
+          13.88721
+        ],
+        [
+          51.14602,
+          13.88783
+        ],
+        [
+          51.14645,
+          13.88374
+        ],
+        [
+          51.14904,
+          13.88464
+        ],
+        [
+          51.15018,
+          13.88347
+        ],
+        [
+          51.15013,
+          13.88056
+        ],
+        [
+          51.15207,
+          13.88032
+        ],
+        [
+          51.15241,
+          13.87826
+        ],
+        [
+          51.15428,
+          13.87965
+        ],
+        [
+          51.1549,
+          13.87555
+        ],
+        [
+          51.15711,
+          13.87356
+        ],
+        [
+          51.1564,
+          13.86988
+        ],
+        [
+          51.15523,
+          13.86795
+        ],
+        [
+          51.15544,
+          13.86527
+        ],
+        [
+          51.15733,
+          13.86265
+        ],
+        [
+          51.15719,
+          13.86083
+        ],
+        [
+          51.15811,
+          13.86003
+        ],
+        [
+          51.15609,
+          13.8573
+        ],
+        [
+          51.15318,
+          13.85019
+        ],
+        [
+          51.15156,
+          13.84404
+        ],
+        [
+          51.15218,
+          13.84294
+        ],
+        [
+          51.14865,
+          13.83932
+        ],
+        [
+          51.14635,
+          13.83885
+        ],
+        [
+          51.14726,
+          13.83552
+        ],
+        [
+          51.14534,
+          13.83118
+        ],
+        [
+          51.14867,
+          13.82862
+        ],
+        [
+          51.15392,
+          13.81873
+        ],
+        [
+          51.15528,
+          13.81423
+        ],
+        [
+          51.15516,
+          13.81002
+        ],
+        [
+          51.15948,
+          13.80795
+        ],
+        [
+          51.15946,
+          13.80586
+        ],
+        [
+          51.16429,
+          13.80486
+        ],
+        [
+          51.16839,
+          13.80198
+        ],
+        [
+          51.16975,
+          13.79852
+        ],
+        [
+          51.16866,
+          13.7985
+        ],
+        [
+          51.1658,
+          13.78799
+        ],
+        [
+          51.16597,
+          13.77973
+        ],
+        [
+          51.16735,
+          13.78063
+        ],
+        [
+          51.16999,
+          13.77628
+        ],
+        [
+          51.17421,
+          13.77167
+        ],
+        [
+          51.17484,
+          13.76997
+        ],
+        [
+          51.1749,
+          13.76551
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Elbe",
+        "major": true
+      },
+      {
+        "name": "Vereinigte Weißeritz"
+      }
+    ],
+    "lakes": [
+      "Carolasee"
+    ],
+    "parks": [
+      "Großer Garten",
+      "Alaunplatz"
+    ],
+    "boundary": "Dresden"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Dresden?",
+      "answer": "Laut Zensus 2022 haben rund 135.000 Dresdnerinnen und Dresdner ab 15 Jahren einen Hochschulabschluss, das sind 31 Prozent – bundesweit 20 Prozent. Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Dresden hat fast jede dritte Person studiert (31,6 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Dresden viele Singles?",
+      "answer": "In gut der Hälfte aller Dresdner Haushalte lebt nur eine Person (50,6 Prozent laut Zensus 2022, bundesweit 43 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem sind 43,7 Prozent der Erwachsenen ledig, und mit einem Durchschnittsalter von 43,8 Jahren ist Dresden jünger als der Bundesdurchschnitt."
+    },
+    {
+      "question": "Wo lernen Akademiker in Dresden Singles kennen?",
+      "answer": "Neben der Kultur – Frauenkirche, Semperoper, Zwinger und Festivals wie den Dresdner Musikfestspielen, dem Dixieland-Festival oder dem Filmfest – eignen sich der Striezelmarkt, die Bars der Äußeren Neustadt, Spaziergänge im Großen Garten und an der Elbe in Loschwitz sowie öffentliche Vorträge der Hochschulen und Forschungsinstitute. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ba-dd",
+      "publisher": "Kommunale Statistikstelle Dresden / Bundesagentur für Arbeit",
+      "title": "Sozialversicherungspflichtig Beschäftigte am Wohn- und Arbeitsort nach Personengruppen 2021 bis 2025",
+      "stand": "Stand 30.06.2025",
+      "url": "https://www.dresden.de/media/pdf/statistik/Statistik_4202_Beschaeftigte_Personengruppen.pdf"
+    },
+    {
+      "id": "destatis-besch",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Strukturdaten sozialversicherungspflichtig Beschäftigter",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/strukturdaten.html"
+    },
+    {
+      "id": "zensus-dd",
+      "publisher": "Statistisches Landesamt des Freistaates Sachsen",
+      "title": "Datenblatt Zensus 2022 Kreisfreie Stadt Dresden (Tab. 2.1 und 3.1)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://zensus.sachsen.de/05_01_Datenblatt_SN-Kreise/statistik-sachsen_zensus_bev-hh_kreis_dresden.pdf"
+    },
+    {
+      "id": "zensus-akad-de",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022: In München lebten anteilig die meisten Akademikerinnen und Akademiker",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zensus2022-Pressemitteilungen/PM_zensus2022_50.html"
+    },
+    {
+      "id": "zensus-hh-de",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022: Singlehaushalte zahlen um 6,2 % höhere Mieten pro Quadratmeter",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/04/PD25_N016_12.html"
+    },
+    {
+      "id": "stla-studierende",
+      "publisher": "Statistisches Landesamt des Freistaates Sachsen",
+      "title": "Statistischer Bericht B III 1 – j/25: Studierende an den Hochschulen im Freistaat Sachsen, Tab. 2",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.statistik.sachsen.de/download/statistische-berichte/statistik-sachsen_bIII1_studierende-hochschulen.xlsx"
+    },
+    {
+      "id": "lhd-exzellenz",
+      "publisher": "Landeshauptstadt Dresden",
+      "title": "Technische Universität Dresden weiterhin exzellent",
+      "stand": "Pressemitteilung vom 11.03.2026",
+      "url": "https://www.dresden.de/de/rathaus/aktuelles/pressemitteilungen/2026/03/pm_034.php"
+    },
+    {
+      "id": "lhd-wissenschaft",
+      "publisher": "Landeshauptstadt Dresden, Amt für Wirtschaftsförderung",
+      "title": "Wissenschaft und Forschung in Dresden",
+      "stand": "Stand 26.03.2026",
+      "url": "https://www.dresden.de/de/wirtschaft/tomorrowshome/Wissenschaft-in-Dresden.php"
+    },
+    {
+      "id": "ba-entgelt",
+      "publisher": "Bundesagentur für Arbeit, Regionaldirektion Sachsen",
+      "title": "Löhne in Sachsen – Sächsischer Medianlohn wieder gestiegen (Presseinfo Nr. 18)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.arbeitsagentur.de/vor-ort/rd-sachsen/presse/2026-18-lohne-in-sachsen-sachsischer-medianlohn-wieder-gestiegen"
+    },
+    {
+      "id": "lhd-mikro",
+      "publisher": "Landeshauptstadt Dresden, Amt für Wirtschaftsförderung",
+      "title": "Mikroelektronik: Europas Halbleiter-Herz schlägt in Dresden",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.dresden.de/de/wirtschaft/tomorrowshome/mikroelektronik.php"
+    },
+    {
+      "id": "lhd-bevoelkerung",
+      "publisher": "Kommunale Statistikstelle Dresden",
+      "title": "Statistische Mitteilungen Bevölkerung und Haushalte 2024 (Tab. 2.2.2)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.dresden.de/media/pdf/onlineshop/statistikstelle/Bevoelkerung-und-Haushalte-2024.pdf"
+    },
+    {
+      "id": "stla-alter",
+      "publisher": "Statistisches Landesamt des Freistaates Sachsen",
+      "title": "Durchschnittsalter der Bevölkerung nach Kreisfreien Städten und Landkreisen",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.statistik.sachsen.de/download/bevoelkerung/statistik-sachsen_aI_zr_bevoelkerung-landkreise-alter.xlsx"
+    },
+    {
+      "id": "destatis-alter",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Durchschnittsalter in Landgemeinden seit 2011 um 2,5 Jahre gestiegen, in Großstädten um 0,3 Jahre",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N067_12.html"
+    },
+    {
+      "id": "skd",
+      "publisher": "Staatliche Kunstsammlungen Dresden",
+      "title": "Staatliche Kunstsammlungen Dresden stellen Zukunftsagenda und Programm 2026 vor",
+      "stand": "Jahresbilanz 2025 (Pressemitteilung vom 26.02.2026)",
+      "url": "https://www.skd.museum/besucherservice/presse/2026/staatliche-kunstsammlungen-dresden-stellen-zukunftsagenda-und-programm-2026-vor/"
+    },
+    {
+      "id": "lhd-lifesciences",
+      "publisher": "Landeshauptstadt Dresden, Amt für Wirtschaftsförderung",
+      "title": "Life Sciences in Dresden",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.dresden.de/de/wirtschaft/tomorrowshome/life-sciences-dresden.php"
+    },
+    {
+      "id": "lhd-kreativ",
+      "publisher": "Landeshauptstadt Dresden, Amt für Wirtschaftsförderung",
+      "title": "Kultur- und Kreativwirtschaft in Dresden",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.dresden.de/de/wirtschaft/tomorrowshome/kultur-und-kreativwirtschaft.php"
+    },
+    {
+      "id": "lhd-smartcity",
+      "publisher": "Landeshauptstadt Dresden, Amt für Wirtschaftsförderung",
+      "title": "Smart City Dresden",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.dresden.de/de/wirtschaft/tomorrowshome/smart-city-dresden.php"
+    }
+  ]
+}

@@ -1,0 +1,2701 @@
+{
+  "path": "/partnersuche/frankfurt-am-main/",
+  "eyebrow": "Partnersuche für Akademiker · Finanzmetropole am Main",
+  "lead": "EZB, Bundesbank, Goethe-Universität und Frankfurt School: In Frankfurt hat mehr als jede dritte Arbeitskraft einen Hochschulabschluss – und in gut der Hälfte aller Haushalte lebt nur eine Person. Wer hier sucht, trifft auf Menschen, die international denken und beruflich viel bewegen.",
+  "heroAlt": "Römer, Paulskirche und Bankenskyline in Frankfurt am Main – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "37 %",
+      "label": "der Beschäftigten in Frankfurt haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "ba"
+    },
+    {
+      "value": "35,5 %",
+      "label": "der Frankfurterinnen und Frankfurter ab 15 Jahren haben einen Hochschulabschluss",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "53 %",
+      "label": "aller Frankfurter Haushalte sind Einpersonenhaushalte",
+      "source": "fsa-zensus"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "68.794",
+      "label": "Studierende im Wintersemester 2025/26",
+      "source": "studierende",
+      "note": "Berechnet: Summe der 15 Hochschulen bzw. Hochschulstandorte in Frankfurt laut Tabelle 21311-12"
+    },
+    {
+      "value": "15",
+      "label": "Hochschulen und Hochschulstandorte – von der Goethe-Universität bis zur Städelschule",
+      "source": "studierende"
+    },
+    {
+      "value": "2",
+      "label": "Exzellenzcluster der Goethe-Universität ab 2026: SCALE und CPI",
+      "source": "exzellenz"
+    },
+    {
+      "value": "756.021",
+      "label": "Einwohnerinnen und Einwohner, Stand Ende 2024",
+      "source": "ihk"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Frankfurt gehört zu den Städten mit dem höchsten Anteil an Hochschulabschlüssen in Deutschland – mit der größten Universität Hessens im Zentrum.",
+      "metrics": [
+        {
+          "value": "35,5 %",
+          "label": "der Bevölkerung ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "222.100 Personen; Bachelor, Master, Diplom oder Promotion, Zensus 2022",
+          "compare": {
+            "city": 35.5,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 42
+          }
+        },
+        {
+          "value": "40.749",
+          "label": "Studierende allein an der Goethe-Universität",
+          "source": "studierende",
+          "note": "Größte Hochschule Hessens; dazu Frankfurt University of Applied Sciences (15.061), HfMDK, Städelschule und mehrere private Hochschulen"
+        },
+        {
+          "value": "4.335",
+          "label": "Studierende an der Frankfurt School of Finance & Management",
+          "source": "studierende",
+          "note": "Private Wirtschaftsuniversität mitten am Finanzplatz"
+        }
+      ],
+      "takeaway": "Ob Forschung, Kunst oder Kapitalmarkt: Gespräche auf Augenhöhe gehören in Frankfurt zum Alltag."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Zwei Zentralbanken, internationale Banken, Beratungen, Digitalwirtschaft und Flughafen: Frankfurts Wirtschaft lebt von Hochqualifizierten aus aller Welt.",
+      "metrics": [
+        {
+          "value": "37 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "ba",
+          "note": "239.684 von 648.536 Beschäftigten am Arbeitsort, berechnet; Deutschland 7.259.771 von 34.985.555",
+          "compare": {
+            "city": 37.0,
+            "germany": 20.8,
+            "unit": " %",
+            "max": 44
+          }
+        },
+        {
+          "value": "123.779 €",
+          "label": "Wirtschaftsleistung je Erwerbstätigen",
+          "source": "vgr",
+          "note": "Bruttoinlandsprodukt je erwerbstätige Person 2024, kreisfreie Stadt Frankfurt am Main",
+          "compare": {
+            "city": 123779,
+            "germany": 94135,
+            "unit": " €",
+            "max": 145000
+          }
+        },
+        {
+          "value": "424.678",
+          "label": "Einpendlerinnen und Einpendler – fast zwei von drei Arbeitsplätzen",
+          "source": "ihk",
+          "note": "Berechnet: 424.678 von 651.125 Beschäftigten am Arbeitsort (65 %), Stand 30.06.2025"
+        }
+      ],
+      "takeaway": "Wer in Frankfurt sucht, trifft auf Menschen mit Verantwortung und vollem Kalender – und auf ein Gegenüber, das genau das zu schätzen weiß."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Frankfurt ist jung und international – mit deutlich mehr Einpersonenhaushalten und mehr Ledigen als im Bundesdurchschnitt.",
+      "metrics": [
+        {
+          "value": "53 %",
+          "label": "Einpersonenhaushalte",
+          "source": "fsa-zensus",
+          "compareSource": "destatis-haushalte",
+          "note": "205.090 Einpersonenhaushalte, Zensus 2022 (15.05.2022); Deutschland laut Zensus 2022",
+          "compare": {
+            "city": 53.1,
+            "germany": 43,
+            "unit": " %",
+            "max": 62
+          }
+        },
+        {
+          "value": "40,9 %",
+          "label": "der Erwachsenen ab 18 Jahren sind ledig",
+          "source": "zensus-familienstand",
+          "note": "Berechnet: 252.035 von 616.417 Personen ab 18 Jahren; Deutschland 30,5 %; Zensus 2022",
+          "compare": {
+            "city": 40.9,
+            "germany": 30.5,
+            "unit": " %",
+            "max": 48
+          }
+        },
+        {
+          "value": "41,1",
+          "label": "Jahre Durchschnittsalter – deutlich jünger als der Bundesschnitt",
+          "source": "gemeindelexikon",
+          "compareSource": "destatis-alter",
+          "note": "Stand 31.12.2024; Hessen 44,3 Jahre",
+          "compare": {
+            "city": 41.1,
+            "germany": 44.9,
+            "unit": " J.",
+            "max": 53
+          }
+        }
+      ],
+      "takeaway": "Viele haben sich bewusst Zeit gelassen – in Frankfurt suchen Sie unter Menschen, die jetzt bereit sind für eine Partnerschaft mit Substanz."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Finanzwirtschaft & Aufsicht",
+      "text": "EZB und Deutsche Bundesbank, die EU-Versicherungsaufsicht EIOPA, künftig die Anti-Geldwäschebehörde AMLA, die Deutsche Börse und zahlreiche Auslandsbanken."
+    },
+    {
+      "name": "Digitale Infrastruktur & IT",
+      "text": "Mit dem Internetknoten DE-CIX und der zweithöchsten Rechenzentrumsdichte Europas ist Frankfurt das digitale Drehkreuz Deutschlands – samt FinTech-Szene rund um das TechQuartier."
+    },
+    {
+      "name": "Logistik & Mobilität",
+      "text": "Der Flughafen Frankfurt ist eines der größten Luftverkehrsdrehkreuze der Welt; das House of Logistics & Mobility (HOLM) bündelt Forschung und Unternehmen der Branche."
+    },
+    {
+      "name": "Industrie & Produktion",
+      "text": "Produzierendes Gewerbe und industrienahe Dienstleistungen von Forschung bis Vertrieb – gestützt durch den Masterplan Industrie der Stadt."
+    },
+    {
+      "name": "Kreativwirtschaft",
+      "text": "Werbung, Software und Games, Design und Architektur machen Frankfurt zum kreativwirtschaftlichen Zentrum Hessens."
+    },
+    {
+      "name": "Wissenschaft & Life Sciences",
+      "text": "Goethe-Universität mit den Exzellenzclustern SCALE und CPI, Max-Planck-Institute für Biophysik und Hirnforschung sowie das Frankfurt Institute for Advanced Studies."
+    }
+  ],
+  "clusterSources": [
+    "wf-finanz",
+    "wf-it",
+    "wf-logistik",
+    "wf-industrie",
+    "wf-kreativ",
+    "exzellenz"
+  ],
+  "places": [
+    {
+      "name": "Goethe-Universität, Campus Westend",
+      "kind": "work",
+      "district": "Westend · IG-Farben-Haus",
+      "text": "Hauptcampus der größten Hochschule Hessens mit Geistes-, Rechts- und Wirtschaftswissenschaften – zwischen Grüneburgpark und Palmengarten.",
+      "lat": 50.1266,
+      "lon": 8.6691
+    },
+    {
+      "name": "Campus Riedberg",
+      "kind": "work",
+      "district": "Riedberg · Naturwissenschaften",
+      "text": "Naturwissenschaftlicher Campus der Goethe-Universität; in direkter Nachbarschaft forschen Max-Planck-Institute und das FIAS.",
+      "lat": 50.1755,
+      "lon": 8.6287
+    },
+    {
+      "name": "Universitätsklinikum Frankfurt",
+      "kind": "work",
+      "district": "Sachsenhausen · Niederrad",
+      "text": "Arbeitsort vieler Ärztinnen, Ärzte und Forschender, eng verbunden mit dem Exzellenzcluster CPI für Herz- und Lungenforschung.",
+      "lat": 50.0952,
+      "lon": 8.6611
+    },
+    {
+      "name": "Europäische Zentralbank",
+      "kind": "work",
+      "district": "Ostend · Großmarkthalle",
+      "text": "Sitz der EZB und der europäischen Bankenaufsicht. Das Ostend am Main hat sich zum gefragten Büro- und Wohnviertel entwickelt.",
+      "lat": 50.1096,
+      "lon": 8.7029
+    },
+    {
+      "name": "Bankenviertel",
+      "kind": "work",
+      "district": "Innenstadt · Taunusanlage",
+      "text": "Hochhäuser der großen Banken, Kanzleien und Beratungen – nach Feierabend sind Alte Oper und Freßgass nur wenige Schritte entfernt.",
+      "lat": 50.1136,
+      "lon": 8.669
+    },
+    {
+      "name": "Frankfurt School of Finance & Management",
+      "kind": "work",
+      "district": "Nordend · Adickesallee",
+      "text": "Private Wirtschaftshochschule mit Fokus auf Finance, Management und Recht – eng vernetzt mit dem Finanzplatz.",
+      "lat": 50.1327,
+      "lon": 8.6802
+    },
+    {
+      "name": "Städel Museum & Museumsufer",
+      "kind": "date",
+      "district": "Sachsenhausen · Schaumainkai",
+      "text": "Kunst von Alten Meistern bis zur Gegenwart, danach ein Spaziergang am Mainufer – ideal für ein erstes Treffen mit Gesprächsstoff.",
+      "lat": 50.1033,
+      "lon": 8.6739
+    },
+    {
+      "name": "Römerberg & Altstadt",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Historischer Platz mit Paulskirche und neuer Altstadt – zentraler Treffpunkt, von dem aus man über den Eisernen Steg ans andere Mainufer schlendert.",
+      "lat": 50.1102,
+      "lon": 8.6822
+    },
+    {
+      "name": "Alt-Sachsenhausen",
+      "kind": "date",
+      "district": "Sachsenhausen",
+      "text": "Apfelweinlokale, Bars und Weinbars – der Stadt-Guide nennt die Weinbar in Sachsenhausen als Ort für Singlepartys.",
+      "lat": 50.1057,
+      "lon": 8.691
+    },
+    {
+      "name": "Friedberger Platz",
+      "kind": "date",
+      "district": "Nordend",
+      "text": "Ziel des Frankfurter Nightwalks aus dem Stadt-Guide: Nach der Arbeitswoche trifft man sich hier auf einen Drink.",
+      "lat": 50.1233,
+      "lon": 8.6922
+    },
+    {
+      "name": "Palmengarten",
+      "kind": "date",
+      "district": "Westend",
+      "text": "Botanischer Garten mit Tropenhäusern und Rosengarten für den ruhigen Spaziergang zu zweit – gleich neben dem Campus Westend.",
+      "lat": 50.1237,
+      "lon": 8.656
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 8.575,
+      "east": 8.757,
+      "south": 50.087,
+      "north": 50.184
+    },
+    "rivers": [
+      {
+        "name": "Main",
+        "major": true,
+        "points": [
+          [
+            50.1242,
+            8.77197
+          ],
+          [
+            50.12048,
+            8.77565
+          ],
+          [
+            50.11695,
+            8.78004
+          ],
+          [
+            50.11383,
+            8.78106
+          ],
+          [
+            50.11223,
+            8.78081
+          ],
+          [
+            50.11066,
+            8.77927
+          ],
+          [
+            50.10956,
+            8.77743
+          ],
+          [
+            50.10832,
+            8.77404
+          ],
+          [
+            50.10806,
+            8.77048
+          ],
+          [
+            50.10871,
+            8.76621
+          ],
+          [
+            50.10974,
+            8.7631
+          ],
+          [
+            50.11401,
+            8.75637
+          ],
+          [
+            50.1151,
+            8.75357
+          ],
+          [
+            50.11566,
+            8.75017
+          ],
+          [
+            50.11512,
+            8.74458
+          ],
+          [
+            50.11063,
+            8.73449
+          ],
+          [
+            50.10655,
+            8.7188
+          ],
+          [
+            50.10634,
+            8.71499
+          ],
+          [
+            50.10668,
+            8.70461
+          ],
+          [
+            50.10861,
+            8.68867
+          ],
+          [
+            50.10854,
+            8.68443
+          ],
+          [
+            50.10792,
+            8.68114
+          ],
+          [
+            50.10589,
+            8.67602
+          ],
+          [
+            50.09882,
+            8.66333
+          ],
+          [
+            50.09757,
+            8.66037
+          ],
+          [
+            50.09607,
+            8.65508
+          ],
+          [
+            50.09411,
+            8.64529
+          ],
+          [
+            50.09306,
+            8.64176
+          ],
+          [
+            50.0905,
+            8.63556
+          ],
+          [
+            50.08921,
+            8.63119
+          ],
+          [
+            50.08878,
+            8.62831
+          ],
+          [
+            50.08868,
+            8.62414
+          ],
+          [
+            50.08927,
+            8.61876
+          ],
+          [
+            50.08915,
+            8.61169
+          ],
+          [
+            50.08971,
+            8.60368
+          ],
+          [
+            50.08976,
+            8.59565
+          ],
+          [
+            50.08889,
+            8.58849
+          ],
+          [
+            50.08894,
+            8.58323
+          ],
+          [
+            50.08983,
+            8.57897
+          ],
+          [
+            50.09793,
+            8.56242
+          ],
+          [
+            50.09927,
+            8.55655
+          ],
+          [
+            50.09907,
+            8.55273
+          ],
+          [
+            50.09841,
+            8.55058
+          ],
+          [
+            50.09555,
+            8.54586
+          ]
+        ]
+      },
+      {
+        "name": "Nidda",
+        "major": false,
+        "points": [
+          [
+            50.11427,
+            8.59394
+          ],
+          [
+            50.11302,
+            8.58797
+          ],
+          [
+            50.11208,
+            8.59289
+          ],
+          [
+            50.11258,
+            8.59376
+          ],
+          [
+            50.11427,
+            8.59394
+          ],
+          [
+            50.11532,
+            8.59809
+          ],
+          [
+            50.11979,
+            8.6098
+          ],
+          [
+            50.12331,
+            8.61169
+          ],
+          [
+            50.12378,
+            8.61272
+          ],
+          [
+            50.1239,
+            8.61441
+          ],
+          [
+            50.12529,
+            8.6165
+          ],
+          [
+            50.12569,
+            8.61668
+          ],
+          [
+            50.12548,
+            8.61548
+          ],
+          [
+            50.12441,
+            8.61507
+          ]
+        ]
+      },
+      {
+        "name": "Nidda",
+        "major": false,
+        "points": [
+          [
+            50.196,
+            8.77515
+          ],
+          [
+            50.19518,
+            8.77374
+          ],
+          [
+            50.19454,
+            8.77121
+          ],
+          [
+            50.19531,
+            8.76853
+          ],
+          [
+            50.19451,
+            8.76689
+          ],
+          [
+            50.1947,
+            8.76619
+          ],
+          [
+            50.19494,
+            8.76579
+          ],
+          [
+            50.19658,
+            8.76603
+          ],
+          [
+            50.1974,
+            8.76421
+          ],
+          [
+            50.19719,
+            8.7629
+          ],
+          [
+            50.19749,
+            8.76246
+          ],
+          [
+            50.20022,
+            8.75928
+          ],
+          [
+            50.20397,
+            8.7567
+          ],
+          [
+            50.20536,
+            8.75392
+          ],
+          [
+            50.20533,
+            8.75144
+          ],
+          [
+            50.20253,
+            8.74867
+          ],
+          [
+            50.20164,
+            8.74698
+          ],
+          [
+            50.19908,
+            8.74544
+          ],
+          [
+            50.19703,
+            8.7465
+          ],
+          [
+            50.19554,
+            8.74893
+          ],
+          [
+            50.19353,
+            8.75094
+          ],
+          [
+            50.1923,
+            8.75078
+          ],
+          [
+            50.18986,
+            8.74845
+          ],
+          [
+            50.18666,
+            8.74908
+          ],
+          [
+            50.18447,
+            8.74519
+          ],
+          [
+            50.18364,
+            8.74271
+          ],
+          [
+            50.18096,
+            8.73937
+          ],
+          [
+            50.18111,
+            8.7356
+          ],
+          [
+            50.17949,
+            8.73212
+          ],
+          [
+            50.17917,
+            8.72987
+          ],
+          [
+            50.17948,
+            8.72729
+          ],
+          [
+            50.17882,
+            8.72581
+          ],
+          [
+            50.17885,
+            8.72373
+          ],
+          [
+            50.17837,
+            8.72193
+          ],
+          [
+            50.17898,
+            8.71912
+          ],
+          [
+            50.17882,
+            8.71155
+          ],
+          [
+            50.17932,
+            8.70589
+          ],
+          [
+            50.18116,
+            8.69889
+          ],
+          [
+            50.17956,
+            8.69702
+          ],
+          [
+            50.17904,
+            8.69514
+          ],
+          [
+            50.1784,
+            8.69428
+          ],
+          [
+            50.17639,
+            8.69483
+          ],
+          [
+            50.17574,
+            8.69228
+          ],
+          [
+            50.17273,
+            8.69047
+          ],
+          [
+            50.17095,
+            8.68766
+          ],
+          [
+            50.17113,
+            8.68645
+          ],
+          [
+            50.17382,
+            8.68373
+          ],
+          [
+            50.17463,
+            8.68208
+          ],
+          [
+            50.17506,
+            8.67792
+          ],
+          [
+            50.1771,
+            8.67405
+          ],
+          [
+            50.17782,
+            8.67154
+          ],
+          [
+            50.17792,
+            8.66899
+          ],
+          [
+            50.17668,
+            8.66514
+          ],
+          [
+            50.17668,
+            8.66142
+          ],
+          [
+            50.17558,
+            8.6591
+          ],
+          [
+            50.17475,
+            8.65579
+          ],
+          [
+            50.17127,
+            8.65235
+          ],
+          [
+            50.16879,
+            8.65118
+          ],
+          [
+            50.16765,
+            8.65008
+          ],
+          [
+            50.1653,
+            8.65035
+          ],
+          [
+            50.16101,
+            8.65342
+          ],
+          [
+            50.15959,
+            8.65313
+          ],
+          [
+            50.15618,
+            8.65034
+          ],
+          [
+            50.15455,
+            8.64811
+          ],
+          [
+            50.15298,
+            8.64431
+          ],
+          [
+            50.15027,
+            8.64167
+          ],
+          [
+            50.14954,
+            8.64036
+          ],
+          [
+            50.14919,
+            8.63883
+          ],
+          [
+            50.14903,
+            8.62582
+          ],
+          [
+            50.14881,
+            8.62471
+          ],
+          [
+            50.14796,
+            8.62337
+          ],
+          [
+            50.14523,
+            8.62196
+          ],
+          [
+            50.14089,
+            8.61795
+          ],
+          [
+            50.13948,
+            8.61728
+          ],
+          [
+            50.13705,
+            8.61762
+          ],
+          [
+            50.13194,
+            8.62145
+          ],
+          [
+            50.13009,
+            8.61985
+          ],
+          [
+            50.12735,
+            8.61884
+          ],
+          [
+            50.12569,
+            8.61668
+          ]
+        ]
+      },
+      {
+        "name": "Nidda",
+        "major": false,
+        "points": [
+          [
+            50.11302,
+            8.58797
+          ],
+          [
+            50.11183,
+            8.57894
+          ],
+          [
+            50.10867,
+            8.57185
+          ],
+          [
+            50.10904,
+            8.5683
+          ],
+          [
+            50.10884,
+            8.56702
+          ],
+          [
+            50.10702,
+            8.56542
+          ],
+          [
+            50.10301,
+            8.56568
+          ],
+          [
+            50.1011,
+            8.56451
+          ],
+          [
+            50.10062,
+            8.56348
+          ],
+          [
+            50.10007,
+            8.56006
+          ],
+          [
+            50.10089,
+            8.55827
+          ],
+          [
+            50.10088,
+            8.55522
+          ],
+          [
+            50.09951,
+            8.55157
+          ],
+          [
+            50.09841,
+            8.55058
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Main",
+        "lat": 50.1052,
+        "lon": 8.6665
+      },
+      {
+        "text": "Nidda",
+        "lat": 50.1255,
+        "lon": 8.6155
+      },
+      {
+        "text": "Westend",
+        "lat": 50.1152,
+        "lon": 8.6623,
+        "district": true
+      },
+      {
+        "text": "Nordend",
+        "lat": 50.1249,
+        "lon": 8.6779,
+        "district": true
+      },
+      {
+        "text": "Bornheim",
+        "lat": 50.1297,
+        "lon": 8.7106,
+        "district": true
+      },
+      {
+        "text": "Sachsenhausen",
+        "lat": 50.1003,
+        "lon": 8.6836,
+        "district": true
+      },
+      {
+        "text": "Bockenheim",
+        "lat": 50.1233,
+        "lon": 8.6461,
+        "district": true
+      },
+      {
+        "text": "Niederrad",
+        "lat": 50.0883,
+        "lon": 8.6427,
+        "district": true
+      },
+      {
+        "text": "Gallus",
+        "lat": 50.1038,
+        "lon": 8.6431,
+        "district": true
+      },
+      {
+        "text": "Ginnheim",
+        "lat": 50.1431,
+        "lon": 8.6499,
+        "district": true
+      },
+      {
+        "text": "Heddernheim",
+        "lat": 50.1596,
+        "lon": 8.6466,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Palmengarten",
+        "points": [
+          [
+            50.12201,
+            8.65394
+          ],
+          [
+            50.1212,
+            8.65413
+          ],
+          [
+            50.12132,
+            8.65575
+          ],
+          [
+            50.12081,
+            8.656
+          ],
+          [
+            50.12076,
+            8.65715
+          ],
+          [
+            50.12103,
+            8.65909
+          ],
+          [
+            50.12598,
+            8.65717
+          ],
+          [
+            50.12599,
+            8.65644
+          ],
+          [
+            50.12659,
+            8.65583
+          ],
+          [
+            50.12567,
+            8.65344
+          ],
+          [
+            50.12488,
+            8.65249
+          ],
+          [
+            50.12364,
+            8.65322
+          ],
+          [
+            50.12377,
+            8.65378
+          ],
+          [
+            50.12359,
+            8.65391
+          ],
+          [
+            50.12338,
+            8.65339
+          ],
+          [
+            50.12201,
+            8.65394
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Grüneburgpark",
+        "points": [
+          [
+            50.12439,
+            8.65883
+          ],
+          [
+            50.12369,
+            8.6589
+          ],
+          [
+            50.12357,
+            8.65836
+          ],
+          [
+            50.12322,
+            8.65858
+          ],
+          [
+            50.1232,
+            8.66008
+          ],
+          [
+            50.12351,
+            8.66009
+          ],
+          [
+            50.12349,
+            8.6617
+          ],
+          [
+            50.12382,
+            8.66392
+          ],
+          [
+            50.1258,
+            8.6631
+          ],
+          [
+            50.1259,
+            8.66362
+          ],
+          [
+            50.12617,
+            8.66356
+          ],
+          [
+            50.12625,
+            8.66422
+          ],
+          [
+            50.12594,
+            8.66451
+          ],
+          [
+            50.12732,
+            8.66443
+          ],
+          [
+            50.12921,
+            8.66352
+          ],
+          [
+            50.12904,
+            8.66172
+          ],
+          [
+            50.13118,
+            8.66174
+          ],
+          [
+            50.13117,
+            8.66019
+          ],
+          [
+            50.13077,
+            8.659
+          ],
+          [
+            50.12981,
+            8.65755
+          ],
+          [
+            50.12933,
+            8.65724
+          ],
+          [
+            50.12848,
+            8.65833
+          ],
+          [
+            50.12813,
+            8.65923
+          ],
+          [
+            50.12708,
+            8.66006
+          ],
+          [
+            50.12622,
+            8.66008
+          ],
+          [
+            50.12439,
+            8.65883
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Günthersburgpark",
+        "points": [
+          [
+            50.13278,
+            8.7022
+          ],
+          [
+            50.13305,
+            8.70219
+          ],
+          [
+            50.13305,
+            8.70154
+          ],
+          [
+            50.13112,
+            8.70167
+          ],
+          [
+            50.12927,
+            8.701
+          ],
+          [
+            50.12884,
+            8.70113
+          ],
+          [
+            50.12869,
+            8.70204
+          ],
+          [
+            50.12774,
+            8.70369
+          ],
+          [
+            50.12792,
+            8.70408
+          ],
+          [
+            50.1298,
+            8.70495
+          ],
+          [
+            50.13023,
+            8.70464
+          ],
+          [
+            50.13019,
+            8.70521
+          ],
+          [
+            50.1312,
+            8.70543
+          ],
+          [
+            50.13123,
+            8.70449
+          ],
+          [
+            50.13158,
+            8.70427
+          ],
+          [
+            50.13188,
+            8.70427
+          ],
+          [
+            50.13189,
+            8.70496
+          ],
+          [
+            50.133,
+            8.70494
+          ],
+          [
+            50.13295,
+            8.70452
+          ],
+          [
+            50.13277,
+            8.70453
+          ],
+          [
+            50.13278,
+            8.7022
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Ostpark",
+        "points": [
+          [
+            50.12239,
+            8.72719
+          ],
+          [
+            50.12072,
+            8.72896
+          ],
+          [
+            50.11666,
+            8.7173
+          ],
+          [
+            50.11783,
+            8.71709
+          ],
+          [
+            50.11982,
+            8.71804
+          ],
+          [
+            50.12084,
+            8.7189
+          ],
+          [
+            50.1217,
+            8.71893
+          ],
+          [
+            50.123,
+            8.71973
+          ],
+          [
+            50.12285,
+            8.7259
+          ],
+          [
+            50.12269,
+            8.72681
+          ],
+          [
+            50.12239,
+            8.72719
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          50.09845,
+          8.4735
+        ],
+        [
+          50.09919,
+          8.47412
+        ],
+        [
+          50.09982,
+          8.47276
+        ],
+        [
+          50.10134,
+          8.47436
+        ],
+        [
+          50.10115,
+          8.47556
+        ],
+        [
+          50.10528,
+          8.48096
+        ],
+        [
+          50.10871,
+          8.47587
+        ],
+        [
+          50.11031,
+          8.47781
+        ],
+        [
+          50.11001,
+          8.47862
+        ],
+        [
+          50.11074,
+          8.47962
+        ],
+        [
+          50.10923,
+          8.48208
+        ],
+        [
+          50.10954,
+          8.4824
+        ],
+        [
+          50.10732,
+          8.48807
+        ],
+        [
+          50.10668,
+          8.49138
+        ],
+        [
+          50.10809,
+          8.49194
+        ],
+        [
+          50.10662,
+          8.49411
+        ],
+        [
+          50.10601,
+          8.4961
+        ],
+        [
+          50.10764,
+          8.49782
+        ],
+        [
+          50.10672,
+          8.49966
+        ],
+        [
+          50.10775,
+          8.50229
+        ],
+        [
+          50.10913,
+          8.49964
+        ],
+        [
+          50.11481,
+          8.50655
+        ],
+        [
+          50.11657,
+          8.50787
+        ],
+        [
+          50.11735,
+          8.51023
+        ],
+        [
+          50.11751,
+          8.51239
+        ],
+        [
+          50.11925,
+          8.51288
+        ],
+        [
+          50.11938,
+          8.51174
+        ],
+        [
+          50.12192,
+          8.51354
+        ],
+        [
+          50.12104,
+          8.51809
+        ],
+        [
+          50.12138,
+          8.5186
+        ],
+        [
+          50.12014,
+          8.52061
+        ],
+        [
+          50.12096,
+          8.52201
+        ],
+        [
+          50.1178,
+          8.52584
+        ],
+        [
+          50.11803,
+          8.52644
+        ],
+        [
+          50.11567,
+          8.5294
+        ],
+        [
+          50.11627,
+          8.53073
+        ],
+        [
+          50.11582,
+          8.53259
+        ],
+        [
+          50.1153,
+          8.53296
+        ],
+        [
+          50.12195,
+          8.5509
+        ],
+        [
+          50.13978,
+          8.59333
+        ],
+        [
+          50.15699,
+          8.60273
+        ],
+        [
+          50.15787,
+          8.59775
+        ],
+        [
+          50.16023,
+          8.59092
+        ],
+        [
+          50.15921,
+          8.58977
+        ],
+        [
+          50.1682,
+          8.58794
+        ],
+        [
+          50.16845,
+          8.58829
+        ],
+        [
+          50.16732,
+          8.59206
+        ],
+        [
+          50.17324,
+          8.59687
+        ],
+        [
+          50.17159,
+          8.60235
+        ],
+        [
+          50.17378,
+          8.60468
+        ],
+        [
+          50.17625,
+          8.61003
+        ],
+        [
+          50.17923,
+          8.6062
+        ],
+        [
+          50.1807,
+          8.60527
+        ],
+        [
+          50.18096,
+          8.60563
+        ],
+        [
+          50.18231,
+          8.61
+        ],
+        [
+          50.18295,
+          8.61428
+        ],
+        [
+          50.18464,
+          8.61862
+        ],
+        [
+          50.18855,
+          8.62312
+        ],
+        [
+          50.19454,
+          8.63368
+        ],
+        [
+          50.19518,
+          8.63313
+        ],
+        [
+          50.19743,
+          8.63585
+        ],
+        [
+          50.20174,
+          8.63874
+        ],
+        [
+          50.20034,
+          8.64449
+        ],
+        [
+          50.20093,
+          8.64559
+        ],
+        [
+          50.20236,
+          8.64336
+        ],
+        [
+          50.20318,
+          8.64572
+        ],
+        [
+          50.2069,
+          8.65075
+        ],
+        [
+          50.20651,
+          8.65421
+        ],
+        [
+          50.20956,
+          8.65827
+        ],
+        [
+          50.2083,
+          8.65959
+        ],
+        [
+          50.21212,
+          8.66465
+        ],
+        [
+          50.21695,
+          8.66913
+        ],
+        [
+          50.21615,
+          8.67119
+        ],
+        [
+          50.21716,
+          8.6725
+        ],
+        [
+          50.21244,
+          8.68192
+        ],
+        [
+          50.21517,
+          8.68547
+        ],
+        [
+          50.21387,
+          8.68693
+        ],
+        [
+          50.2155,
+          8.69053
+        ],
+        [
+          50.21662,
+          8.69151
+        ],
+        [
+          50.21581,
+          8.69293
+        ],
+        [
+          50.21675,
+          8.6941
+        ],
+        [
+          50.2162,
+          8.69517
+        ],
+        [
+          50.21689,
+          8.69861
+        ],
+        [
+          50.21796,
+          8.7006
+        ],
+        [
+          50.21709,
+          8.70175
+        ],
+        [
+          50.22222,
+          8.71115
+        ],
+        [
+          50.2228,
+          8.71031
+        ],
+        [
+          50.22714,
+          8.70928
+        ],
+        [
+          50.22711,
+          8.71236
+        ],
+        [
+          50.22507,
+          8.71277
+        ],
+        [
+          50.22582,
+          8.71548
+        ],
+        [
+          50.2243,
+          8.71636
+        ],
+        [
+          50.22516,
+          8.71923
+        ],
+        [
+          50.22248,
+          8.72073
+        ],
+        [
+          50.22134,
+          8.72212
+        ],
+        [
+          50.22123,
+          8.72358
+        ],
+        [
+          50.21975,
+          8.72434
+        ],
+        [
+          50.21764,
+          8.73133
+        ],
+        [
+          50.21585,
+          8.73214
+        ],
+        [
+          50.21556,
+          8.73495
+        ],
+        [
+          50.21405,
+          8.73401
+        ],
+        [
+          50.21127,
+          8.73498
+        ],
+        [
+          50.2108,
+          8.73071
+        ],
+        [
+          50.20632,
+          8.73174
+        ],
+        [
+          50.20526,
+          8.73043
+        ],
+        [
+          50.20358,
+          8.73069
+        ],
+        [
+          50.20301,
+          8.72926
+        ],
+        [
+          50.20259,
+          8.72962
+        ],
+        [
+          50.19898,
+          8.71992
+        ],
+        [
+          50.19618,
+          8.71853
+        ],
+        [
+          50.19442,
+          8.71408
+        ],
+        [
+          50.19488,
+          8.7128
+        ],
+        [
+          50.19176,
+          8.70545
+        ],
+        [
+          50.1885,
+          8.71103
+        ],
+        [
+          50.1838,
+          8.70759
+        ],
+        [
+          50.18472,
+          8.70449
+        ],
+        [
+          50.18048,
+          8.70199
+        ],
+        [
+          50.17922,
+          8.70611
+        ],
+        [
+          50.17892,
+          8.70897
+        ],
+        [
+          50.17607,
+          8.70914
+        ],
+        [
+          50.1726,
+          8.71189
+        ],
+        [
+          50.17164,
+          8.71373
+        ],
+        [
+          50.17023,
+          8.71459
+        ],
+        [
+          50.16928,
+          8.71786
+        ],
+        [
+          50.16348,
+          8.72301
+        ],
+        [
+          50.1622,
+          8.73299
+        ],
+        [
+          50.16305,
+          8.73642
+        ],
+        [
+          50.16244,
+          8.73699
+        ],
+        [
+          50.16259,
+          8.73807
+        ],
+        [
+          50.16409,
+          8.74256
+        ],
+        [
+          50.16734,
+          8.74882
+        ],
+        [
+          50.16841,
+          8.74961
+        ],
+        [
+          50.17052,
+          8.75426
+        ],
+        [
+          50.17263,
+          8.76008
+        ],
+        [
+          50.1728,
+          8.76297
+        ],
+        [
+          50.17898,
+          8.76269
+        ],
+        [
+          50.17979,
+          8.76879
+        ],
+        [
+          50.18038,
+          8.77869
+        ],
+        [
+          50.17827,
+          8.77764
+        ],
+        [
+          50.17821,
+          8.7791
+        ],
+        [
+          50.17711,
+          8.77913
+        ],
+        [
+          50.1771,
+          8.78261
+        ],
+        [
+          50.17671,
+          8.78329
+        ],
+        [
+          50.17618,
+          8.78997
+        ],
+        [
+          50.17257,
+          8.79398
+        ],
+        [
+          50.17451,
+          8.79632
+        ],
+        [
+          50.17311,
+          8.79965
+        ],
+        [
+          50.17279,
+          8.79927
+        ],
+        [
+          50.17124,
+          8.8004
+        ],
+        [
+          50.16936,
+          8.80014
+        ],
+        [
+          50.16945,
+          8.79818
+        ],
+        [
+          50.16741,
+          8.79782
+        ],
+        [
+          50.16684,
+          8.7944
+        ],
+        [
+          50.16386,
+          8.79498
+        ],
+        [
+          50.16306,
+          8.79399
+        ],
+        [
+          50.16347,
+          8.79047
+        ],
+        [
+          50.16144,
+          8.78953
+        ],
+        [
+          50.16112,
+          8.79096
+        ],
+        [
+          50.15895,
+          8.79068
+        ],
+        [
+          50.15943,
+          8.78717
+        ],
+        [
+          50.15885,
+          8.78608
+        ],
+        [
+          50.15846,
+          8.78343
+        ],
+        [
+          50.15585,
+          8.78408
+        ],
+        [
+          50.15554,
+          8.78224
+        ],
+        [
+          50.15292,
+          8.78273
+        ],
+        [
+          50.14467,
+          8.78225
+        ],
+        [
+          50.14251,
+          8.78246
+        ],
+        [
+          50.13937,
+          8.78491
+        ],
+        [
+          50.13833,
+          8.77995
+        ],
+        [
+          50.13729,
+          8.77977
+        ],
+        [
+          50.13575,
+          8.77364
+        ],
+        [
+          50.13377,
+          8.77065
+        ],
+        [
+          50.13164,
+          8.76918
+        ],
+        [
+          50.12894,
+          8.76901
+        ],
+        [
+          50.12675,
+          8.77001
+        ],
+        [
+          50.12289,
+          8.77326
+        ],
+        [
+          50.11719,
+          8.77977
+        ],
+        [
+          50.11314,
+          8.78095
+        ],
+        [
+          50.11106,
+          8.77981
+        ],
+        [
+          50.10928,
+          8.77673
+        ],
+        [
+          50.10812,
+          8.77342
+        ],
+        [
+          50.10793,
+          8.76889
+        ],
+        [
+          50.10984,
+          8.76212
+        ],
+        [
+          50.11498,
+          8.75433
+        ],
+        [
+          50.11565,
+          8.74846
+        ],
+        [
+          50.11519,
+          8.7441
+        ],
+        [
+          50.11431,
+          8.74129
+        ],
+        [
+          50.11156,
+          8.73615
+        ],
+        [
+          50.10849,
+          8.72552
+        ],
+        [
+          50.10664,
+          8.72748
+        ],
+        [
+          50.1054,
+          8.7303
+        ],
+        [
+          50.10533,
+          8.73799
+        ],
+        [
+          50.10469,
+          8.73806
+        ],
+        [
+          50.10429,
+          8.74172
+        ],
+        [
+          50.10299,
+          8.74236
+        ],
+        [
+          50.10193,
+          8.74452
+        ],
+        [
+          50.10037,
+          8.74555
+        ],
+        [
+          50.09913,
+          8.74815
+        ],
+        [
+          50.09649,
+          8.75021
+        ],
+        [
+          50.0942,
+          8.74881
+        ],
+        [
+          50.0941,
+          8.74686
+        ],
+        [
+          50.09223,
+          8.74202
+        ],
+        [
+          50.08871,
+          8.73885
+        ],
+        [
+          50.0862,
+          8.73554
+        ],
+        [
+          50.08222,
+          8.73219
+        ],
+        [
+          50.08065,
+          8.73156
+        ],
+        [
+          50.07974,
+          8.73333
+        ],
+        [
+          50.07802,
+          8.73438
+        ],
+        [
+          50.07589,
+          8.73433
+        ],
+        [
+          50.07303,
+          8.72614
+        ],
+        [
+          50.07214,
+          8.72601
+        ],
+        [
+          50.0705,
+          8.73049
+        ],
+        [
+          50.06863,
+          8.72822
+        ],
+        [
+          50.06665,
+          8.72722
+        ],
+        [
+          50.0652,
+          8.7243
+        ],
+        [
+          50.06505,
+          8.72245
+        ],
+        [
+          50.06429,
+          8.72249
+        ],
+        [
+          50.06324,
+          8.72462
+        ],
+        [
+          50.06173,
+          8.72496
+        ],
+        [
+          50.06112,
+          8.72231
+        ],
+        [
+          50.06021,
+          8.70496
+        ],
+        [
+          50.05832,
+          8.69944
+        ],
+        [
+          50.05809,
+          8.68237
+        ],
+        [
+          50.05608,
+          8.67416
+        ],
+        [
+          50.05537,
+          8.66518
+        ],
+        [
+          50.05587,
+          8.64406
+        ],
+        [
+          50.05509,
+          8.62462
+        ],
+        [
+          50.05201,
+          8.6217
+        ],
+        [
+          50.04891,
+          8.61596
+        ],
+        [
+          50.04509,
+          8.61072
+        ],
+        [
+          50.04347,
+          8.60898
+        ],
+        [
+          50.03911,
+          8.60639
+        ],
+        [
+          50.04225,
+          8.59848
+        ],
+        [
+          50.02789,
+          8.59173
+        ],
+        [
+          50.02436,
+          8.59137
+        ],
+        [
+          50.01869,
+          8.59251
+        ],
+        [
+          50.0177,
+          8.59201
+        ],
+        [
+          50.01754,
+          8.58114
+        ],
+        [
+          50.01535,
+          8.57615
+        ],
+        [
+          50.01878,
+          8.57461
+        ],
+        [
+          50.02539,
+          8.57009
+        ],
+        [
+          50.02663,
+          8.56301
+        ],
+        [
+          50.02583,
+          8.55904
+        ],
+        [
+          50.0253,
+          8.54878
+        ],
+        [
+          50.02433,
+          8.54303
+        ],
+        [
+          50.02134,
+          8.53149
+        ],
+        [
+          50.02078,
+          8.51999
+        ],
+        [
+          50.02711,
+          8.51633
+        ],
+        [
+          50.02787,
+          8.51951
+        ],
+        [
+          50.03282,
+          8.51665
+        ],
+        [
+          50.03403,
+          8.5216
+        ],
+        [
+          50.03685,
+          8.5198
+        ],
+        [
+          50.04664,
+          8.54444
+        ],
+        [
+          50.04893,
+          8.55328
+        ],
+        [
+          50.04927,
+          8.5525
+        ],
+        [
+          50.04959,
+          8.55349
+        ],
+        [
+          50.05184,
+          8.55151
+        ],
+        [
+          50.05507,
+          8.54987
+        ],
+        [
+          50.05523,
+          8.55059
+        ],
+        [
+          50.05742,
+          8.55102
+        ],
+        [
+          50.05958,
+          8.54958
+        ],
+        [
+          50.06097,
+          8.55103
+        ],
+        [
+          50.06197,
+          8.54998
+        ],
+        [
+          50.06449,
+          8.55044
+        ],
+        [
+          50.06685,
+          8.54976
+        ],
+        [
+          50.06871,
+          8.54817
+        ],
+        [
+          50.07141,
+          8.54456
+        ],
+        [
+          50.0712,
+          8.5436
+        ],
+        [
+          50.07529,
+          8.54284
+        ],
+        [
+          50.07636,
+          8.54099
+        ],
+        [
+          50.07673,
+          8.53768
+        ],
+        [
+          50.07847,
+          8.53487
+        ],
+        [
+          50.07877,
+          8.53241
+        ],
+        [
+          50.08065,
+          8.52996
+        ],
+        [
+          50.08151,
+          8.53086
+        ],
+        [
+          50.08386,
+          8.52568
+        ],
+        [
+          50.0799,
+          8.52252
+        ],
+        [
+          50.07769,
+          8.52212
+        ],
+        [
+          50.07302,
+          8.52382
+        ],
+        [
+          50.06946,
+          8.52668
+        ],
+        [
+          50.06625,
+          8.527
+        ],
+        [
+          50.06445,
+          8.52567
+        ],
+        [
+          50.06177,
+          8.52039
+        ],
+        [
+          50.06423,
+          8.51717
+        ],
+        [
+          50.06494,
+          8.5178
+        ],
+        [
+          50.06783,
+          8.51093
+        ],
+        [
+          50.07052,
+          8.5086
+        ],
+        [
+          50.07195,
+          8.50579
+        ],
+        [
+          50.073,
+          8.50708
+        ],
+        [
+          50.07542,
+          8.50137
+        ],
+        [
+          50.07631,
+          8.50136
+        ],
+        [
+          50.07655,
+          8.50075
+        ],
+        [
+          50.08134,
+          8.50189
+        ],
+        [
+          50.08205,
+          8.49875
+        ],
+        [
+          50.0844,
+          8.49476
+        ],
+        [
+          50.08592,
+          8.49508
+        ],
+        [
+          50.08489,
+          8.48909
+        ],
+        [
+          50.08442,
+          8.4889
+        ],
+        [
+          50.08492,
+          8.48753
+        ],
+        [
+          50.08591,
+          8.48786
+        ],
+        [
+          50.08621,
+          8.48695
+        ],
+        [
+          50.0883,
+          8.48792
+        ],
+        [
+          50.09196,
+          8.48151
+        ],
+        [
+          50.09234,
+          8.48186
+        ],
+        [
+          50.09357,
+          8.47974
+        ],
+        [
+          50.09516,
+          8.47848
+        ],
+        [
+          50.09575,
+          8.47988
+        ],
+        [
+          50.09845,
+          8.4735
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Main",
+        "major": true
+      },
+      {
+        "name": "Nidda"
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Palmengarten",
+      "Grüneburgpark",
+      "Günthersburgpark",
+      "Ostpark"
+    ],
+    "boundary": "Frankfurt am Main"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Frankfurt am Main?",
+      "answer": "Laut Zensus 2022 haben rund 222.100 Frankfurterinnen und Frankfurter ab 15 Jahren einen Hochschulabschluss, das sind 35,5 Prozent – bundesweit sind es 20,2 Prozent. Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Frankfurt hat mehr als jede dritte Person einen akademischen Abschluss (37 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Frankfurt am Main viele Singles?",
+      "answer": "In gut der Hälfte aller Frankfurter Haushalte lebt nur eine Person (53 Prozent laut Zensus 2022, bundesweit 43 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem sind 40,9 Prozent der Erwachsenen ledig, deutlich mehr als im Bundesdurchschnitt."
+    },
+    {
+      "question": "Wo lernen Akademiker in Frankfurt am Main Singles kennen?",
+      "answer": "Neben der Kultur – Städel und Museumsufer, Römerberg und Altstadt – eignen sich die Weinbars und Apfelweinlokale in Alt-Sachsenhausen, ein Spaziergang im Palmengarten oder der Frankfurter Nightwalk, der am Friedberger Platz im Nordend endet. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ba",
+      "publisher": "Statistik der Bundesagentur für Arbeit",
+      "title": "Sozialversicherungspflichtig Beschäftigte nach ausgewählten Merkmalen – Länder und Kreise (Arbeitsort)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202512/iiia6/beschaeftigung-sozbe-svb-kreise-merkmale/svb-kreise-merkmale-dlk-0-202512-xlsx.xlsx?__blob=publicationFile&v=2"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-1003: Personen ab 15 Jahren nach höchstem beruflichem Abschluss",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-1003"
+    },
+    {
+      "id": "fsa-zensus",
+      "publisher": "Stadt Frankfurt am Main, Bürgeramt, Statistik und Wahlen",
+      "title": "Frankfurt Statistik aktuell 10/2024: Ergebnisse des Zensus 2022",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://statistikportal.frankfurt.de/statistik_aktuell/2024/FSA_2024_10_Zensus_2022.html"
+    },
+    {
+      "id": "destatis-haushalte",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022: Singlehaushalte zahlen um 6,2 % höhere Mieten pro Quadratmeter",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/04/PD25_N016_12.html"
+    },
+    {
+      "id": "zensus-familienstand",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-2007: Personen nach Alter (5 Altersklassen) und Familienstand",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-2007"
+    },
+    {
+      "id": "studierende",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Statistischer Bericht Statistik der Studierenden, Tabelle 21311-12 (Studierende nach Hochschulen und Hochschulstandorten)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Hochschulen/Publikationen/Downloads-Hochschulen/statistischer-bericht-studierende-hochschulen-endg-2110410267005.xlsx?__blob=publicationFile&v=3"
+    },
+    {
+      "id": "exzellenz",
+      "publisher": "Universitätsmedizin Frankfurt / Goethe-Universität",
+      "title": "Goethe-Universität Frankfurt freut sich über künftig zwei Exzellenzcluster",
+      "stand": "Förderung ab 01.01.2026",
+      "url": "https://www.unimedizin-ffm.de/ueber-uns/vorstand-des-universitaetsklinikums/aerztliche-direktion/stabsstelle-kommunikation/publikationen/wissen-wird-digital/ausgabe-02/2025/magazin/news/goethe-universitaet-frankfurt-freut-sich-ueber-kuenftig-zwei-exzellenzcluster"
+    },
+    {
+      "id": "vgr",
+      "publisher": "Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Länder",
+      "title": "Bruttoinlandsprodukt, Bruttowertschöpfung in den kreisfreien Städten und Landkreisen, Reihe 2 Band 1, Tab. 4",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.statistikportal.de/sites/default/files/2026-09/vgrdl_r2b1_bs2025_4.xlsx"
+    },
+    {
+      "id": "ihk",
+      "publisher": "IHK Frankfurt am Main (Daten: Hessisches Statistisches Landesamt, Bundesagentur für Arbeit)",
+      "title": "IHK-Bezirk Frankfurt in Zahlen 2025|2026 (Fläche und Bevölkerung, Pendelnde)",
+      "stand": "Einwohner 31.12.2024, Pendelnde 30.06.2025",
+      "url": "https://www.frankfurt-main.ihk.de/blueprint/servlet/resource/blob/7103494/bf843bb5d6f62f870158516c475b7418/ihk-bezirk-frankfurt-in-zahlen-2025-2026-data.pdf"
+    },
+    {
+      "id": "gemeindelexikon",
+      "publisher": "Hessen Agentur / Hessisches Statistisches Landesamt",
+      "title": "Hessisches Gemeindelexikon, Datenblatt Frankfurt am Main, St. (412)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.hessen-gemeindelexikon.de/gemeindelexikon_PDF/412000.pdf"
+    },
+    {
+      "id": "destatis-alter",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zahl der Woche Nr. 39/2025: Durchschnittsalter in Deutschland und den Bundesländern",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2025/PD25_39_p002.html"
+    },
+    {
+      "id": "wf-finanz",
+      "publisher": "Wirtschaftsförderung Frankfurt GmbH",
+      "title": "Branchenfokus Finanzwirtschaft",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.frankfurt-business.net/standort-frankfurt/branchenfokus/finanzwirtschaft/"
+    },
+    {
+      "id": "wf-it",
+      "publisher": "Wirtschaftsförderung Frankfurt GmbH",
+      "title": "Branchenfokus IT und Telekommunikation",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.frankfurt-business.net/standort-frankfurt/branchenfokus/it-und-telekommunikation/"
+    },
+    {
+      "id": "wf-logistik",
+      "publisher": "Wirtschaftsförderung Frankfurt GmbH",
+      "title": "Branchenfokus Logistik und Mobilität",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.frankfurt-business.net/standort-frankfurt/branchenfokus/logistik-und-mobilitaet/"
+    },
+    {
+      "id": "wf-industrie",
+      "publisher": "Wirtschaftsförderung Frankfurt GmbH",
+      "title": "Branchenfokus Industrie",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.frankfurt-business.net/standort-frankfurt/branchenfokus/industrie/"
+    },
+    {
+      "id": "wf-kreativ",
+      "publisher": "Wirtschaftsförderung Frankfurt GmbH",
+      "title": "Branchenfokus Kreativwirtschaft",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.frankfurt-business.net/standort-frankfurt/branchenfokus/kreativwirtschaft/"
+    }
+  ]
+}

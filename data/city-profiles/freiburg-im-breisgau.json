@@ -1,0 +1,3271 @@
+{
+  "path": "/partnersuche/freiburg-im-breisgau/",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt an der Dreisam",
+  "lead": "Albert-Ludwigs-Universität, Uniklinik, fünf Fraunhofer-Institute und Solarforschung: In Freiburg hat jede dritte Arbeitskraft einen Hochschulabschluss – und in fast jedem zweiten Haushalt lebt nur eine Person. Zwischen Altstadt, Weinbergen und Schwarzwald sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Blick über die Dächer mit doppeltürmiger Kirche und Schwarzwaldhöhen in Freiburg im Breisgau – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "34 %",
+      "label": "der Beschäftigten in Freiburg haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "stala-svb"
+    },
+    {
+      "value": "49 %",
+      "label": "der 30- bis 49-Jährigen haben studiert",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "48,5 %",
+      "label": "aller Freiburger Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "33.141",
+      "label": "Studierende an den Freiburger Hochschulen im Wintersemester 2025/26",
+      "source": "destatis-stud",
+      "note": "Berechnet als Summe der Hochschulstandorte in Freiburg: Universität 24.212, PH 5.170, Katholische Hochschule (Campus Freiburg) 1.806, Evangelische Hochschule 878, Hochschule für Musik 668, IU Freiburg 290, Macromedia Campus Freiburg 117"
+    },
+    {
+      "value": "7",
+      "label": "Hochschulen und Hochschulstandorte – von der Albert-Ludwigs-Universität bis zur Hochschule für Musik",
+      "source": "destatis-stud",
+      "note": "Universität, Pädagogische Hochschule, Hochschule für Musik, Evangelische und Katholische Hochschule sowie zwei private Hochschulstandorte"
+    },
+    {
+      "value": "2",
+      "label": "Exzellenzcluster seit 2026: CIBSS und Future Forests",
+      "source": "uni-exzellenz",
+      "note": "Über den Status als Exzellenzuniversität entscheidet die Exzellenzkommission am 2. Oktober 2026"
+    },
+    {
+      "value": "238.299",
+      "label": "Einwohnerinnen und Einwohner im Stadtkreis Freiburg",
+      "source": "gemeindeverzeichnis",
+      "note": "Amtlicher Bevölkerungsstand laut Gemeindeverzeichnis, Gebietsstand 30.09.2026"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Seit 1457 Universitätsstadt: In Freiburg ist der Anteil der Menschen mit Hochschulabschluss fast doppelt so hoch wie im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "36,4 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "Zensus 2022: rund 70.550 Personen, darunter 4,9 % mit Promotion (bundesweit 1,7 %)",
+          "compare": {
+            "city": 36.4,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 43
+          }
+        },
+        {
+          "value": "24.212",
+          "label": "Studierende allein an der Albert-Ludwigs-Universität",
+          "source": "destatis-stud",
+          "note": "Wintersemester 2025/26; dazu Pädagogische Hochschule, Hochschule für Musik, Evangelische und Katholische Hochschule u. a."
+        },
+        {
+          "value": "5",
+          "label": "Fraunhofer-Institute mit rund 2.700 Beschäftigten – laut Fraunhofer der größte Standort der Gesellschaft",
+          "source": "fraunhofer",
+          "note": "EMI, IAF, IPM, ISE und IWM; gemeinsam mit der Universität im Leistungszentrum Nachhaltigkeit"
+        }
+      ],
+      "takeaway": "Ob Promotion, Forschung oder Lehre: Hier treffen Sie Menschen, für die neugieriges Fragen zum Alltag gehört."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Medizin, Solar- und Umweltforschung, Life Sciences und Wissenschaft prägen den Arbeitsmarkt der Green City.",
+      "metrics": [
+        {
+          "value": "33,7 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "stala-svb",
+          "compareSource": "destatis-besch",
+          "note": "47.775 von 141.677 Beschäftigten am Arbeitsort (berechnet); Freiburg 30.06.2025, Deutschland 31.12.2025",
+          "compare": {
+            "city": 33.7,
+            "germany": 20.8,
+            "unit": " %",
+            "max": 40
+          }
+        },
+        {
+          "value": "4.650 €",
+          "label": "mittleres Bruttomonatsentgelt in Vollzeit (Median)",
+          "source": "ba-entgelt",
+          "note": "Vollzeitbeschäftigte der Kerngruppe am Arbeitsort, Stichtag 31.12.2025; mit akademischem Abschluss 5.876 €",
+          "compare": {
+            "city": 4650,
+            "germany": 4217,
+            "unit": " €",
+            "max": 5500
+          }
+        },
+        {
+          "value": "15.702",
+          "label": "Mitarbeiterinnen und Mitarbeiter am Universitätsklinikum Freiburg",
+          "source": "uniklinik",
+          "note": "2024, darunter 2.001 Ärztinnen und Ärzte"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, ihr Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Freiburg ist jung, viele leben allein, und fast jeder zweite Erwachsene ist ledig.",
+      "metrics": [
+        {
+          "value": "48,5 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "55.183 von 113.884 Haushalten; Zensus 2022",
+          "compare": {
+            "city": 48.5,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 57
+          }
+        },
+        {
+          "value": "46,3 %",
+          "label": "der Erwachsenen ab 18 Jahren sind ledig",
+          "source": "zensus-familienstand",
+          "note": "Berechnet: 90.381 von 195.109 Personen; Deutschland 20.999.681 von 68.906.594; Zensus 2022",
+          "compare": {
+            "city": 46.3,
+            "germany": 30.5,
+            "unit": " %",
+            "max": 54
+          }
+        },
+        {
+          "value": "40,3",
+          "label": "Jahre Durchschnittsalter – vier Jahre jünger als der Bundesschnitt",
+          "source": "zensus-alter",
+          "note": "Zensus 2022 (15.05.2022)",
+          "compare": {
+            "city": 40.3,
+            "germany": 44.3,
+            "unit": " J.",
+            "max": 52
+          }
+        }
+      ],
+      "takeaway": "Viele hier nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Gesundheitswirtschaft & Life Sciences",
+      "text": "Rund jeder vierte Arbeitsplatz der Stadt: vom Universitätsklinikum über Medizintechnik und Biotechnologie im BioTechPark Freiburg bis zum Netzwerk BioValley."
+    },
+    {
+      "name": "Green City: Solar- & Umweltwirtschaft",
+      "text": "Mehr als 12.000 Beschäftigte in Umwelt- und Solarwirtschaft, rund 150 Unternehmen und Institutionen im Cluster Green City – dazu das Fraunhofer-Institut für Solare Energiesysteme ISE."
+    },
+    {
+      "name": "Angewandte Forschung",
+      "text": "Fünf Fraunhofer-Institute – EMI, IAF, IPM, ISE und IWM – arbeiten mit der Universität im Leistungszentrum Nachhaltigkeit an Energie, Materialien und Sicherheit."
+    },
+    {
+      "name": "Wissenschaft & Grundlagenforschung",
+      "text": "Die Albert-Ludwigs-Universität mit den Exzellenzclustern CIBSS und Future Forests, dazu die Max-Planck-Institute für Immunbiologie und Epigenetik sowie zur Erforschung von Kriminalität, Sicherheit und Recht."
+    },
+    {
+      "name": "Kultur- & Kreativwirtschaft",
+      "text": "Rund 11.000 Beschäftigte, Freiberufler und Selbstständige – von Verlagen und Agenturen bis zur Software- und Games-Branche, mit dem Kreativpark Lokhalle als Treffpunkt."
+    },
+    {
+      "name": "Start-ups, KI & Digitales",
+      "text": "Die Gründungsinitiative Startinsland und die Beteiligung an der KI-Allianz Baden-Württemberg verbinden Forschung, IT-Unternehmen und junge Gründerteams."
+    }
+  ],
+  "clusterSources": [
+    "fwtm",
+    "fraunhofer",
+    "fraunhofer-lz",
+    "uni-exzellenz",
+    "mpi-ie",
+    "mpi-csl"
+  ],
+  "places": [
+    {
+      "name": "Albert-Ludwigs-Universität",
+      "kind": "work",
+      "district": "Altstadt · Kollegiengebäude am Platz der Universität",
+      "text": "Gegründet 1457 und bis heute mitten in der Innenstadt zu Hause. Rund um die Kollegiengebäude liegen Theater, Cafés und die Altstadtgassen.",
+      "lat": 47.994,
+      "lon": 7.8466
+    },
+    {
+      "name": "Universitätsklinikum Freiburg",
+      "kind": "work",
+      "district": "Stühlinger · Hugstetter Straße",
+      "text": "Arbeitsort tausender Ärztinnen, Ärzte, Pflegender und Forschender – eng verbunden mit der Medizinischen Fakultät.",
+      "lat": 48.0044,
+      "lon": 7.8326
+    },
+    {
+      "name": "Campus Flugplatz mit Fraunhofer ISE",
+      "kind": "work",
+      "district": "Brühl · Georges-Köhler-Allee",
+      "text": "Technische Fakultät der Universität, Fraunhofer ISE und Fraunhofer IPM auf einem Campus – Ingenieurwissenschaften, Informatik und Solarforschung Tür an Tür.",
+      "lat": 48.0121,
+      "lon": 7.8354
+    },
+    {
+      "name": "Fraunhofer IAF",
+      "kind": "work",
+      "district": "Brühl",
+      "text": "Institut für Angewandte Festkörperphysik: Halbleiter- und Quantentechnologien, eines der fünf Freiburger Fraunhofer-Institute.",
+      "lat": 48.0275,
+      "lon": 7.8448
+    },
+    {
+      "name": "Max-Planck-Institut & BioTechPark",
+      "kind": "work",
+      "district": "Brühl · Freiburger Norden",
+      "text": "Das Max-Planck-Institut für Immunbiologie und Epigenetik und der benachbarte BioTechPark bilden das Life-Sciences-Quartier im Freiburger Norden.",
+      "lat": 48.025,
+      "lon": 7.8518
+    },
+    {
+      "name": "Pädagogische Hochschule",
+      "kind": "work",
+      "district": "Littenweiler",
+      "text": "Mehr als 5.000 Studierende in Lehramt und Bildungswissenschaften, am Fuß des Schwarzwalds im Osten der Stadt.",
+      "lat": 47.9815,
+      "lon": 7.8937
+    },
+    {
+      "name": "Münster & Münsterplatz",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Wahrzeichen der Stadt mit Wochenmarkt, Festen und dem Historischen Kaufhaus – der Stadt-Guide nennt den Platz als Mittelpunkt des gesellschaftlichen Lebens.",
+      "lat": 47.9955,
+      "lon": 7.8529
+    },
+    {
+      "name": "Schlossberg",
+      "kind": "date",
+      "district": "Neuburg · Schlossbergturm",
+      "text": "Mit der Schlossbergbahn hinauf und vom Aussichtsturm über Altstadt und Schwarzwald blicken – ein Klassiker für das erste Treffen.",
+      "lat": 47.995,
+      "lon": 7.862
+    },
+    {
+      "name": "Konzerthaus Freiburg",
+      "kind": "date",
+      "district": "Altstadt-Ring · Konrad-Adenauer-Platz",
+      "text": "Konzerte, Festivals und Gastspiele nahe dem Hauptbahnhof – danach sind es nur wenige Schritte bis in die Weinstuben der Altstadt.",
+      "lat": 47.9957,
+      "lon": 7.8425
+    },
+    {
+      "name": "Seepark & Flückigersee",
+      "kind": "date",
+      "district": "Betzenhausen",
+      "text": "Spaziergang um den Flückigersee und viel Grün – ideal, wenn man länger reden möchte.",
+      "lat": 48.0106,
+      "lon": 7.8186
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 7.8068,
+      "east": 7.9055,
+      "south": 47.9765,
+      "north": 48.0325
+    },
+    "rivers": [
+      {
+        "name": "Dreisam",
+        "major": true,
+        "points": [
+          [
+            47.97429,
+            7.96042
+          ],
+          [
+            47.9742,
+            7.95848
+          ],
+          [
+            47.975,
+            7.95554
+          ],
+          [
+            47.97545,
+            7.95476
+          ],
+          [
+            47.97663,
+            7.9541
+          ],
+          [
+            47.97685,
+            7.95365
+          ],
+          [
+            47.97711,
+            7.95004
+          ],
+          [
+            47.97597,
+            7.94825
+          ],
+          [
+            47.97598,
+            7.94657
+          ],
+          [
+            47.97783,
+            7.93806
+          ],
+          [
+            47.97912,
+            7.92992
+          ],
+          [
+            47.97992,
+            7.92753
+          ],
+          [
+            47.98083,
+            7.92604
+          ],
+          [
+            47.98107,
+            7.92487
+          ],
+          [
+            47.9796,
+            7.91466
+          ],
+          [
+            47.97971,
+            7.91266
+          ],
+          [
+            47.98258,
+            7.90479
+          ],
+          [
+            47.98538,
+            7.9006
+          ],
+          [
+            47.98784,
+            7.89866
+          ],
+          [
+            47.98956,
+            7.89565
+          ],
+          [
+            47.99044,
+            7.89246
+          ],
+          [
+            47.99115,
+            7.88865
+          ],
+          [
+            47.99154,
+            7.88776
+          ],
+          [
+            47.99186,
+            7.88024
+          ],
+          [
+            47.99078,
+            7.87697
+          ],
+          [
+            47.99116,
+            7.86728
+          ],
+          [
+            47.9906,
+            7.86022
+          ],
+          [
+            47.99096,
+            7.85485
+          ],
+          [
+            47.99017,
+            7.85132
+          ],
+          [
+            47.99022,
+            7.84558
+          ],
+          [
+            47.99145,
+            7.84123
+          ],
+          [
+            47.99209,
+            7.83754
+          ],
+          [
+            47.99275,
+            7.83519
+          ],
+          [
+            48.00315,
+            7.80827
+          ],
+          [
+            48.00431,
+            7.80677
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Dreisam",
+        "lat": 47.9913,
+        "lon": 7.8771
+      },
+      {
+        "text": "Wiehre",
+        "lat": 47.9853,
+        "lon": 7.8488,
+        "district": true
+      },
+      {
+        "text": "Herdern",
+        "lat": 48.0078,
+        "lon": 7.8627,
+        "district": true
+      },
+      {
+        "text": "Stühlinger",
+        "lat": 47.9989,
+        "lon": 7.8377,
+        "district": true
+      },
+      {
+        "text": "Mooswald",
+        "lat": 48.0184,
+        "lon": 7.8203,
+        "district": true
+      },
+      {
+        "text": "Brühl",
+        "lat": 48.0168,
+        "lon": 7.843,
+        "district": true
+      },
+      {
+        "text": "Zähringen",
+        "lat": 48.0231,
+        "lon": 7.8601,
+        "district": true
+      },
+      {
+        "text": "Waldsee",
+        "lat": 47.9881,
+        "lon": 7.8844,
+        "district": true
+      },
+      {
+        "text": "Haslach",
+        "lat": 47.9906,
+        "lon": 7.8169,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Flückigersee",
+        "points": [
+          [
+            48.00873,
+            7.81888
+          ],
+          [
+            48.00932,
+            7.81775
+          ],
+          [
+            48.01034,
+            7.81701
+          ],
+          [
+            48.0107,
+            7.81655
+          ],
+          [
+            48.01135,
+            7.81472
+          ],
+          [
+            48.0116,
+            7.81482
+          ],
+          [
+            48.01187,
+            7.81433
+          ],
+          [
+            48.01215,
+            7.81449
+          ],
+          [
+            48.01214,
+            7.81502
+          ],
+          [
+            48.01251,
+            7.81567
+          ],
+          [
+            48.0122,
+            7.81696
+          ],
+          [
+            48.01077,
+            7.81983
+          ],
+          [
+            48.0106,
+            7.82005
+          ],
+          [
+            48.01032,
+            7.81994
+          ],
+          [
+            48.01013,
+            7.82008
+          ],
+          [
+            48.01025,
+            7.82102
+          ],
+          [
+            48.01009,
+            7.82139
+          ],
+          [
+            48.00976,
+            7.82162
+          ],
+          [
+            48.00947,
+            7.82143
+          ],
+          [
+            48.00919,
+            7.82086
+          ],
+          [
+            48.00925,
+            7.82036
+          ],
+          [
+            48.00917,
+            7.82021
+          ],
+          [
+            48.00898,
+            7.82024
+          ],
+          [
+            48.00891,
+            7.82043
+          ],
+          [
+            48.00903,
+            7.82069
+          ],
+          [
+            48.00896,
+            7.82093
+          ],
+          [
+            48.0086,
+            7.82101
+          ],
+          [
+            48.00835,
+            7.8208
+          ],
+          [
+            48.00822,
+            7.82027
+          ],
+          [
+            48.00867,
+            7.81948
+          ],
+          [
+            48.00873,
+            7.81888
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Seepark",
+        "points": [
+          [
+            48.01181,
+            7.82122
+          ],
+          [
+            48.01148,
+            7.8207
+          ],
+          [
+            48.01065,
+            7.82147
+          ],
+          [
+            48.01049,
+            7.82129
+          ],
+          [
+            48.00996,
+            7.82191
+          ],
+          [
+            48.00964,
+            7.82207
+          ],
+          [
+            48.00974,
+            7.8226
+          ],
+          [
+            48.0094,
+            7.82324
+          ],
+          [
+            48.00848,
+            7.82239
+          ],
+          [
+            48.00825,
+            7.82248
+          ],
+          [
+            48.00718,
+            7.82486
+          ],
+          [
+            48.00726,
+            7.82537
+          ],
+          [
+            48.00705,
+            7.82521
+          ],
+          [
+            48.0071,
+            7.82496
+          ],
+          [
+            48.00687,
+            7.82476
+          ],
+          [
+            48.00679,
+            7.82444
+          ],
+          [
+            48.0065,
+            7.82431
+          ],
+          [
+            48.00628,
+            7.82475
+          ],
+          [
+            48.0064,
+            7.82427
+          ],
+          [
+            48.00628,
+            7.82421
+          ],
+          [
+            48.00632,
+            7.82402
+          ],
+          [
+            48.00669,
+            7.82414
+          ],
+          [
+            48.00703,
+            7.82379
+          ],
+          [
+            48.00701,
+            7.8232
+          ],
+          [
+            48.00682,
+            7.82291
+          ],
+          [
+            48.00698,
+            7.82228
+          ],
+          [
+            48.00731,
+            7.82217
+          ],
+          [
+            48.0073,
+            7.8219
+          ],
+          [
+            48.00753,
+            7.82188
+          ],
+          [
+            48.00748,
+            7.82055
+          ],
+          [
+            48.00809,
+            7.8198
+          ],
+          [
+            48.00832,
+            7.81923
+          ],
+          [
+            48.00837,
+            7.81872
+          ],
+          [
+            48.00971,
+            7.81643
+          ],
+          [
+            48.00975,
+            7.81597
+          ],
+          [
+            48.00923,
+            7.81523
+          ],
+          [
+            48.00868,
+            7.81524
+          ],
+          [
+            48.00872,
+            7.81513
+          ],
+          [
+            48.00921,
+            7.81437
+          ],
+          [
+            48.00924,
+            7.81509
+          ],
+          [
+            48.01033,
+            7.81648
+          ],
+          [
+            48.01136,
+            7.81421
+          ],
+          [
+            48.01181,
+            7.81385
+          ],
+          [
+            48.01217,
+            7.81327
+          ],
+          [
+            48.01213,
+            7.81291
+          ],
+          [
+            48.0112,
+            7.81186
+          ],
+          [
+            48.01125,
+            7.81176
+          ],
+          [
+            48.01246,
+            7.81304
+          ],
+          [
+            48.01263,
+            7.81304
+          ],
+          [
+            48.01281,
+            7.81276
+          ],
+          [
+            48.01285,
+            7.81294
+          ],
+          [
+            48.01259,
+            7.81329
+          ],
+          [
+            48.01279,
+            7.81354
+          ],
+          [
+            48.01299,
+            7.81349
+          ],
+          [
+            48.01305,
+            7.81373
+          ],
+          [
+            48.01336,
+            7.81381
+          ],
+          [
+            48.01347,
+            7.81361
+          ],
+          [
+            48.01355,
+            7.81372
+          ],
+          [
+            48.01407,
+            7.81264
+          ],
+          [
+            48.01434,
+            7.813
+          ],
+          [
+            48.01382,
+            7.81416
+          ],
+          [
+            48.01401,
+            7.81437
+          ],
+          [
+            48.01373,
+            7.81484
+          ],
+          [
+            48.01483,
+            7.81631
+          ],
+          [
+            48.01376,
+            7.81756
+          ],
+          [
+            48.01394,
+            7.8177
+          ],
+          [
+            48.01331,
+            7.81858
+          ],
+          [
+            48.01328,
+            7.81986
+          ],
+          [
+            48.0132,
+            7.82031
+          ],
+          [
+            48.01267,
+            7.8214
+          ],
+          [
+            48.01291,
+            7.82172
+          ],
+          [
+            48.0127,
+            7.82211
+          ],
+          [
+            48.01235,
+            7.82175
+          ],
+          [
+            48.01218,
+            7.82206
+          ],
+          [
+            48.0123,
+            7.82263
+          ],
+          [
+            48.01186,
+            7.82237
+          ],
+          [
+            48.01209,
+            7.82205
+          ],
+          [
+            48.01165,
+            7.82146
+          ],
+          [
+            48.01181,
+            7.82122
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Stadtgarten",
+        "points": [
+          [
+            47.99887,
+            7.8578
+          ],
+          [
+            47.99855,
+            7.85906
+          ],
+          [
+            47.99693,
+            7.85802
+          ],
+          [
+            47.9969,
+            7.85785
+          ],
+          [
+            47.9973,
+            7.85651
+          ],
+          [
+            47.99757,
+            7.85634
+          ],
+          [
+            47.99877,
+            7.85695
+          ],
+          [
+            47.99887,
+            7.8578
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Colombipark",
+        "points": [
+          [
+            47.99702,
+            7.84558
+          ],
+          [
+            47.99683,
+            7.84665
+          ],
+          [
+            47.99771,
+            7.84763
+          ],
+          [
+            47.99808,
+            7.84569
+          ],
+          [
+            47.99702,
+            7.84558
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Eschholzpark",
+        "points": [
+          [
+            47.99847,
+            7.82868
+          ],
+          [
+            47.99781,
+            7.82817
+          ],
+          [
+            47.99777,
+            7.82832
+          ],
+          [
+            47.99791,
+            7.82844
+          ],
+          [
+            47.99756,
+            7.82951
+          ],
+          [
+            47.99833,
+            7.83012
+          ],
+          [
+            47.99808,
+            7.8309
+          ],
+          [
+            47.9983,
+            7.83106
+          ],
+          [
+            47.99851,
+            7.83034
+          ],
+          [
+            47.99878,
+            7.83053
+          ],
+          [
+            47.99883,
+            7.83039
+          ],
+          [
+            47.99999,
+            7.83128
+          ],
+          [
+            47.99992,
+            7.83154
+          ],
+          [
+            48.0,
+            7.83161
+          ],
+          [
+            48.00082,
+            7.82958
+          ],
+          [
+            48.00031,
+            7.82969
+          ],
+          [
+            47.99996,
+            7.82954
+          ],
+          [
+            47.99972,
+            7.82967
+          ],
+          [
+            47.99895,
+            7.82877
+          ],
+          [
+            47.99901,
+            7.82855
+          ],
+          [
+            47.99866,
+            7.8283
+          ],
+          [
+            47.99847,
+            7.82868
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          47.91194,
+          7.89846
+        ],
+        [
+          47.91134,
+          7.89799
+        ],
+        [
+          47.91078,
+          7.89693
+        ],
+        [
+          47.90993,
+          7.8928
+        ],
+        [
+          47.9078,
+          7.8924
+        ],
+        [
+          47.90626,
+          7.89081
+        ],
+        [
+          47.90487,
+          7.88749
+        ],
+        [
+          47.90396,
+          7.88446
+        ],
+        [
+          47.90429,
+          7.88216
+        ],
+        [
+          47.90358,
+          7.87498
+        ],
+        [
+          47.90451,
+          7.8715
+        ],
+        [
+          47.90759,
+          7.86974
+        ],
+        [
+          47.90879,
+          7.86833
+        ],
+        [
+          47.91144,
+          7.8668
+        ],
+        [
+          47.91309,
+          7.8643
+        ],
+        [
+          47.91325,
+          7.86304
+        ],
+        [
+          47.91565,
+          7.86236
+        ],
+        [
+          47.91667,
+          7.86482
+        ],
+        [
+          47.91782,
+          7.86341
+        ],
+        [
+          47.91887,
+          7.86346
+        ],
+        [
+          47.9208,
+          7.86248
+        ],
+        [
+          47.92249,
+          7.86299
+        ],
+        [
+          47.92373,
+          7.86246
+        ],
+        [
+          47.92392,
+          7.86299
+        ],
+        [
+          47.92376,
+          7.86442
+        ],
+        [
+          47.92456,
+          7.86473
+        ],
+        [
+          47.92349,
+          7.86752
+        ],
+        [
+          47.92388,
+          7.86808
+        ],
+        [
+          47.92431,
+          7.86795
+        ],
+        [
+          47.92552,
+          7.8663
+        ],
+        [
+          47.92829,
+          7.86578
+        ],
+        [
+          47.9288,
+          7.86648
+        ],
+        [
+          47.92851,
+          7.86743
+        ],
+        [
+          47.92932,
+          7.86771
+        ],
+        [
+          47.92962,
+          7.86846
+        ],
+        [
+          47.93027,
+          7.86817
+        ],
+        [
+          47.93086,
+          7.86871
+        ],
+        [
+          47.93105,
+          7.86791
+        ],
+        [
+          47.93219,
+          7.86772
+        ],
+        [
+          47.93374,
+          7.86862
+        ],
+        [
+          47.93389,
+          7.86888
+        ],
+        [
+          47.93353,
+          7.87015
+        ],
+        [
+          47.93289,
+          7.8702
+        ],
+        [
+          47.93207,
+          7.87176
+        ],
+        [
+          47.93229,
+          7.87251
+        ],
+        [
+          47.93118,
+          7.8738
+        ],
+        [
+          47.93124,
+          7.87486
+        ],
+        [
+          47.93201,
+          7.87556
+        ],
+        [
+          47.93348,
+          7.87595
+        ],
+        [
+          47.9353,
+          7.87719
+        ],
+        [
+          47.93728,
+          7.87759
+        ],
+        [
+          47.93827,
+          7.87721
+        ],
+        [
+          47.94006,
+          7.87798
+        ],
+        [
+          47.94021,
+          7.8764
+        ],
+        [
+          47.94219,
+          7.8775
+        ],
+        [
+          47.94338,
+          7.87892
+        ],
+        [
+          47.94564,
+          7.87818
+        ],
+        [
+          47.9476,
+          7.87934
+        ],
+        [
+          47.94855,
+          7.87878
+        ],
+        [
+          47.94895,
+          7.87757
+        ],
+        [
+          47.94907,
+          7.8756
+        ],
+        [
+          47.95129,
+          7.87116
+        ],
+        [
+          47.95102,
+          7.86866
+        ],
+        [
+          47.95028,
+          7.86947
+        ],
+        [
+          47.94982,
+          7.86935
+        ],
+        [
+          47.94979,
+          7.86671
+        ],
+        [
+          47.95019,
+          7.86654
+        ],
+        [
+          47.95012,
+          7.8636
+        ],
+        [
+          47.94892,
+          7.85832
+        ],
+        [
+          47.95009,
+          7.85568
+        ],
+        [
+          47.95255,
+          7.85399
+        ],
+        [
+          47.95477,
+          7.85414
+        ],
+        [
+          47.95583,
+          7.85224
+        ],
+        [
+          47.95683,
+          7.8493
+        ],
+        [
+          47.95847,
+          7.84854
+        ],
+        [
+          47.96044,
+          7.84894
+        ],
+        [
+          47.96164,
+          7.84861
+        ],
+        [
+          47.9641,
+          7.84297
+        ],
+        [
+          47.96387,
+          7.8394
+        ],
+        [
+          47.96567,
+          7.83743
+        ],
+        [
+          47.9666,
+          7.83463
+        ],
+        [
+          47.96942,
+          7.83666
+        ],
+        [
+          47.97116,
+          7.83743
+        ],
+        [
+          47.97256,
+          7.83651
+        ],
+        [
+          47.97258,
+          7.83188
+        ],
+        [
+          47.97321,
+          7.82748
+        ],
+        [
+          47.97216,
+          7.82661
+        ],
+        [
+          47.9728,
+          7.82546
+        ],
+        [
+          47.97222,
+          7.82536
+        ],
+        [
+          47.97275,
+          7.82313
+        ],
+        [
+          47.97048,
+          7.82007
+        ],
+        [
+          47.97018,
+          7.81869
+        ],
+        [
+          47.9686,
+          7.81794
+        ],
+        [
+          47.96766,
+          7.81658
+        ],
+        [
+          47.96771,
+          7.81314
+        ],
+        [
+          47.96608,
+          7.80957
+        ],
+        [
+          47.9657,
+          7.80763
+        ],
+        [
+          47.96463,
+          7.80613
+        ],
+        [
+          47.96408,
+          7.80214
+        ],
+        [
+          47.96455,
+          7.80044
+        ],
+        [
+          47.96527,
+          7.7993
+        ],
+        [
+          47.96627,
+          7.79563
+        ],
+        [
+          47.96836,
+          7.79217
+        ],
+        [
+          47.96885,
+          7.79055
+        ],
+        [
+          47.96882,
+          7.78875
+        ],
+        [
+          47.96935,
+          7.78693
+        ],
+        [
+          47.96919,
+          7.78645
+        ],
+        [
+          47.96953,
+          7.78592
+        ],
+        [
+          47.96934,
+          7.78566
+        ],
+        [
+          47.96967,
+          7.78514
+        ],
+        [
+          47.96947,
+          7.78496
+        ],
+        [
+          47.96997,
+          7.78426
+        ],
+        [
+          47.96974,
+          7.78392
+        ],
+        [
+          47.97046,
+          7.78209
+        ],
+        [
+          47.97037,
+          7.78111
+        ],
+        [
+          47.97066,
+          7.78039
+        ],
+        [
+          47.97215,
+          7.77806
+        ],
+        [
+          47.97271,
+          7.77582
+        ],
+        [
+          47.97387,
+          7.77627
+        ],
+        [
+          47.9749,
+          7.77228
+        ],
+        [
+          47.97544,
+          7.77265
+        ],
+        [
+          47.97566,
+          7.77203
+        ],
+        [
+          47.97762,
+          7.76991
+        ],
+        [
+          47.97847,
+          7.76795
+        ],
+        [
+          47.97702,
+          7.76572
+        ],
+        [
+          47.97681,
+          7.76337
+        ],
+        [
+          47.97872,
+          7.75639
+        ],
+        [
+          47.9788,
+          7.75512
+        ],
+        [
+          47.98052,
+          7.75678
+        ],
+        [
+          47.9789,
+          7.74822
+        ],
+        [
+          47.97869,
+          7.74566
+        ],
+        [
+          47.97988,
+          7.74084
+        ],
+        [
+          47.98012,
+          7.73678
+        ],
+        [
+          47.98008,
+          7.7363
+        ],
+        [
+          47.97933,
+          7.73532
+        ],
+        [
+          47.97892,
+          7.73306
+        ],
+        [
+          47.97777,
+          7.73133
+        ],
+        [
+          47.97814,
+          7.73078
+        ],
+        [
+          47.97706,
+          7.72919
+        ],
+        [
+          47.97812,
+          7.72763
+        ],
+        [
+          47.97558,
+          7.72441
+        ],
+        [
+          47.97571,
+          7.72356
+        ],
+        [
+          47.97462,
+          7.72513
+        ],
+        [
+          47.97263,
+          7.72181
+        ],
+        [
+          47.97198,
+          7.72237
+        ],
+        [
+          47.97029,
+          7.71981
+        ],
+        [
+          47.96878,
+          7.71869
+        ],
+        [
+          47.96905,
+          7.71727
+        ],
+        [
+          47.9637,
+          7.70754
+        ],
+        [
+          47.95969,
+          7.69865
+        ],
+        [
+          47.96197,
+          7.69546
+        ],
+        [
+          47.96354,
+          7.68942
+        ],
+        [
+          47.96109,
+          7.6878
+        ],
+        [
+          47.96227,
+          7.68342
+        ],
+        [
+          47.96088,
+          7.67951
+        ],
+        [
+          47.95924,
+          7.67756
+        ],
+        [
+          47.96425,
+          7.67138
+        ],
+        [
+          47.9643,
+          7.67008
+        ],
+        [
+          47.96246,
+          7.66807
+        ],
+        [
+          47.96508,
+          7.66475
+        ],
+        [
+          47.96565,
+          7.66201
+        ],
+        [
+          47.96656,
+          7.66301
+        ],
+        [
+          47.96663,
+          7.66279
+        ],
+        [
+          47.96747,
+          7.66327
+        ],
+        [
+          47.9674,
+          7.66371
+        ],
+        [
+          47.97006,
+          7.66472
+        ],
+        [
+          47.96997,
+          7.66531
+        ],
+        [
+          47.97128,
+          7.66609
+        ],
+        [
+          47.97122,
+          7.66654
+        ],
+        [
+          47.9723,
+          7.66669
+        ],
+        [
+          47.97363,
+          7.66757
+        ],
+        [
+          47.97318,
+          7.66936
+        ],
+        [
+          47.97355,
+          7.66909
+        ],
+        [
+          47.97396,
+          7.67009
+        ],
+        [
+          47.97377,
+          7.67028
+        ],
+        [
+          47.97433,
+          7.67365
+        ],
+        [
+          47.97424,
+          7.67531
+        ],
+        [
+          47.97488,
+          7.67691
+        ],
+        [
+          47.97474,
+          7.67717
+        ],
+        [
+          47.97506,
+          7.67848
+        ],
+        [
+          47.97567,
+          7.67763
+        ],
+        [
+          47.97591,
+          7.67853
+        ],
+        [
+          47.97671,
+          7.67828
+        ],
+        [
+          47.97682,
+          7.67881
+        ],
+        [
+          47.97781,
+          7.67909
+        ],
+        [
+          47.97835,
+          7.67812
+        ],
+        [
+          47.97863,
+          7.67816
+        ],
+        [
+          47.9797,
+          7.67859
+        ],
+        [
+          47.9807,
+          7.67956
+        ],
+        [
+          47.98211,
+          7.68017
+        ],
+        [
+          47.98321,
+          7.68022
+        ],
+        [
+          47.98356,
+          7.68089
+        ],
+        [
+          47.98326,
+          7.68181
+        ],
+        [
+          47.98342,
+          7.68251
+        ],
+        [
+          47.98466,
+          7.68334
+        ],
+        [
+          47.98478,
+          7.68282
+        ],
+        [
+          47.98705,
+          7.68368
+        ],
+        [
+          47.98807,
+          7.68488
+        ],
+        [
+          47.98851,
+          7.68372
+        ],
+        [
+          47.98886,
+          7.68401
+        ],
+        [
+          47.98912,
+          7.68343
+        ],
+        [
+          47.98933,
+          7.68363
+        ],
+        [
+          47.98964,
+          7.68274
+        ],
+        [
+          47.98918,
+          7.68213
+        ],
+        [
+          47.98994,
+          7.6809
+        ],
+        [
+          47.99046,
+          7.68144
+        ],
+        [
+          47.99147,
+          7.67972
+        ],
+        [
+          47.99166,
+          7.67879
+        ],
+        [
+          47.99301,
+          7.67969
+        ],
+        [
+          47.99404,
+          7.67852
+        ],
+        [
+          47.99474,
+          7.67829
+        ],
+        [
+          47.99659,
+          7.67962
+        ],
+        [
+          47.99835,
+          7.68177
+        ],
+        [
+          48.00012,
+          7.68612
+        ],
+        [
+          48.00209,
+          7.68899
+        ],
+        [
+          48.00386,
+          7.69372
+        ],
+        [
+          48.00435,
+          7.69397
+        ],
+        [
+          48.00445,
+          7.69321
+        ],
+        [
+          48.00469,
+          7.69327
+        ],
+        [
+          48.00463,
+          7.69389
+        ],
+        [
+          48.00548,
+          7.69431
+        ],
+        [
+          48.0056,
+          7.69485
+        ],
+        [
+          48.00654,
+          7.69581
+        ],
+        [
+          48.00847,
+          7.69919
+        ],
+        [
+          48.00805,
+          7.6997
+        ],
+        [
+          48.01103,
+          7.70841
+        ],
+        [
+          48.01183,
+          7.7047
+        ],
+        [
+          48.01404,
+          7.70575
+        ],
+        [
+          48.01431,
+          7.70533
+        ],
+        [
+          48.01519,
+          7.70566
+        ],
+        [
+          48.01544,
+          7.70512
+        ],
+        [
+          48.01626,
+          7.70602
+        ],
+        [
+          48.01669,
+          7.70422
+        ],
+        [
+          48.01756,
+          7.70499
+        ],
+        [
+          48.01784,
+          7.704
+        ],
+        [
+          48.01854,
+          7.70456
+        ],
+        [
+          48.01865,
+          7.7036
+        ],
+        [
+          48.01909,
+          7.70362
+        ],
+        [
+          48.02038,
+          7.70458
+        ],
+        [
+          48.0205,
+          7.70375
+        ],
+        [
+          48.02143,
+          7.704
+        ],
+        [
+          48.02146,
+          7.70294
+        ],
+        [
+          48.02312,
+          7.70401
+        ],
+        [
+          48.02333,
+          7.70329
+        ],
+        [
+          48.0239,
+          7.70369
+        ],
+        [
+          48.02513,
+          7.70377
+        ],
+        [
+          48.02596,
+          7.70344
+        ],
+        [
+          48.02616,
+          7.70196
+        ],
+        [
+          48.02655,
+          7.70163
+        ],
+        [
+          48.0269,
+          7.70183
+        ],
+        [
+          48.02703,
+          7.70295
+        ],
+        [
+          48.02753,
+          7.70273
+        ],
+        [
+          48.02753,
+          7.70226
+        ],
+        [
+          48.02777,
+          7.70217
+        ],
+        [
+          48.02881,
+          7.70354
+        ],
+        [
+          48.02891,
+          7.70418
+        ],
+        [
+          48.03067,
+          7.70524
+        ],
+        [
+          48.03081,
+          7.70478
+        ],
+        [
+          48.03309,
+          7.70692
+        ],
+        [
+          48.03319,
+          7.70672
+        ],
+        [
+          48.03422,
+          7.70755
+        ],
+        [
+          48.03439,
+          7.70722
+        ],
+        [
+          48.0353,
+          7.70841
+        ],
+        [
+          48.03381,
+          7.71265
+        ],
+        [
+          48.03381,
+          7.71388
+        ],
+        [
+          48.03303,
+          7.71369
+        ],
+        [
+          48.03344,
+          7.71664
+        ],
+        [
+          48.03447,
+          7.71674
+        ],
+        [
+          48.03431,
+          7.71854
+        ],
+        [
+          48.03476,
+          7.71862
+        ],
+        [
+          48.03463,
+          7.71964
+        ],
+        [
+          48.03435,
+          7.71956
+        ],
+        [
+          48.03431,
+          7.72056
+        ],
+        [
+          48.0338,
+          7.72163
+        ],
+        [
+          48.03425,
+          7.72281
+        ],
+        [
+          48.03419,
+          7.72334
+        ],
+        [
+          48.03515,
+          7.72404
+        ],
+        [
+          48.03503,
+          7.72529
+        ],
+        [
+          48.03574,
+          7.7259
+        ],
+        [
+          48.03576,
+          7.72726
+        ],
+        [
+          48.03682,
+          7.72789
+        ],
+        [
+          48.03825,
+          7.73035
+        ],
+        [
+          48.03786,
+          7.7315
+        ],
+        [
+          48.03842,
+          7.73182
+        ],
+        [
+          48.03836,
+          7.73272
+        ],
+        [
+          48.03877,
+          7.73359
+        ],
+        [
+          48.03744,
+          7.73327
+        ],
+        [
+          48.03644,
+          7.7345
+        ],
+        [
+          48.03282,
+          7.73381
+        ],
+        [
+          48.03081,
+          7.737
+        ],
+        [
+          48.03087,
+          7.73781
+        ],
+        [
+          48.02978,
+          7.73943
+        ],
+        [
+          48.02991,
+          7.74009
+        ],
+        [
+          48.02897,
+          7.74036
+        ],
+        [
+          48.02807,
+          7.74174
+        ],
+        [
+          48.02767,
+          7.74184
+        ],
+        [
+          48.02734,
+          7.74305
+        ],
+        [
+          48.02704,
+          7.74325
+        ],
+        [
+          48.02693,
+          7.7439
+        ],
+        [
+          48.02666,
+          7.74393
+        ],
+        [
+          48.02636,
+          7.74629
+        ],
+        [
+          48.02572,
+          7.74623
+        ],
+        [
+          48.02557,
+          7.74711
+        ],
+        [
+          48.02294,
+          7.75153
+        ],
+        [
+          48.02142,
+          7.7514
+        ],
+        [
+          48.0203,
+          7.75403
+        ],
+        [
+          48.01884,
+          7.75819
+        ],
+        [
+          48.02026,
+          7.75893
+        ],
+        [
+          48.02222,
+          7.75898
+        ],
+        [
+          48.02148,
+          7.76054
+        ],
+        [
+          48.02095,
+          7.76263
+        ],
+        [
+          48.02055,
+          7.76247
+        ],
+        [
+          48.01995,
+          7.76343
+        ],
+        [
+          48.01911,
+          7.76659
+        ],
+        [
+          48.01791,
+          7.76783
+        ],
+        [
+          48.01708,
+          7.76957
+        ],
+        [
+          48.01511,
+          7.76977
+        ],
+        [
+          48.01434,
+          7.76936
+        ],
+        [
+          48.0182,
+          7.77442
+        ],
+        [
+          48.02253,
+          7.78094
+        ],
+        [
+          48.0242,
+          7.78124
+        ],
+        [
+          48.02465,
+          7.78114
+        ],
+        [
+          48.02545,
+          7.7802
+        ],
+        [
+          48.02571,
+          7.78058
+        ],
+        [
+          48.02589,
+          7.78098
+        ],
+        [
+          48.02533,
+          7.78223
+        ],
+        [
+          48.02527,
+          7.78587
+        ],
+        [
+          48.02578,
+          7.78747
+        ],
+        [
+          48.02736,
+          7.79034
+        ],
+        [
+          48.03207,
+          7.78693
+        ],
+        [
+          48.03278,
+          7.78738
+        ],
+        [
+          48.03276,
+          7.78812
+        ],
+        [
+          48.03321,
+          7.78791
+        ],
+        [
+          48.03663,
+          7.79043
+        ],
+        [
+          48.04243,
+          7.79197
+        ],
+        [
+          48.04291,
+          7.79126
+        ],
+        [
+          48.04377,
+          7.79339
+        ],
+        [
+          48.04475,
+          7.79405
+        ],
+        [
+          48.04503,
+          7.79313
+        ],
+        [
+          48.047,
+          7.7942
+        ],
+        [
+          48.05218,
+          7.79517
+        ],
+        [
+          48.05248,
+          7.79597
+        ],
+        [
+          48.05347,
+          7.79628
+        ],
+        [
+          48.05363,
+          7.79288
+        ],
+        [
+          48.05531,
+          7.79545
+        ],
+        [
+          48.05543,
+          7.79525
+        ],
+        [
+          48.05898,
+          7.79697
+        ],
+        [
+          48.05903,
+          7.79549
+        ],
+        [
+          48.06096,
+          7.79634
+        ],
+        [
+          48.06103,
+          7.8035
+        ],
+        [
+          48.0619,
+          7.80589
+        ],
+        [
+          48.06237,
+          7.80609
+        ],
+        [
+          48.06375,
+          7.8052
+        ],
+        [
+          48.07106,
+          7.81495
+        ],
+        [
+          48.06957,
+          7.81754
+        ],
+        [
+          48.07036,
+          7.82009
+        ],
+        [
+          48.06993,
+          7.82226
+        ],
+        [
+          48.0689,
+          7.82476
+        ],
+        [
+          48.0656,
+          7.82742
+        ],
+        [
+          48.06186,
+          7.83248
+        ],
+        [
+          48.05863,
+          7.83478
+        ],
+        [
+          48.05572,
+          7.83925
+        ],
+        [
+          48.05447,
+          7.84316
+        ],
+        [
+          48.05243,
+          7.84602
+        ],
+        [
+          48.05136,
+          7.85037
+        ],
+        [
+          48.05029,
+          7.85128
+        ],
+        [
+          48.04392,
+          7.85412
+        ],
+        [
+          48.03665,
+          7.85442
+        ],
+        [
+          48.03688,
+          7.85545
+        ],
+        [
+          48.03646,
+          7.85714
+        ],
+        [
+          48.03546,
+          7.85871
+        ],
+        [
+          48.03499,
+          7.86038
+        ],
+        [
+          48.03521,
+          7.86166
+        ],
+        [
+          48.03513,
+          7.86351
+        ],
+        [
+          48.03432,
+          7.86638
+        ],
+        [
+          48.03213,
+          7.87031
+        ],
+        [
+          48.03112,
+          7.8709
+        ],
+        [
+          48.03106,
+          7.87063
+        ],
+        [
+          48.02988,
+          7.87103
+        ],
+        [
+          48.02981,
+          7.87257
+        ],
+        [
+          48.02956,
+          7.87304
+        ],
+        [
+          48.0302,
+          7.87344
+        ],
+        [
+          48.03133,
+          7.8755
+        ],
+        [
+          48.02844,
+          7.87779
+        ],
+        [
+          48.02686,
+          7.87852
+        ],
+        [
+          48.02495,
+          7.88074
+        ],
+        [
+          48.0225,
+          7.88225
+        ],
+        [
+          48.02219,
+          7.88367
+        ],
+        [
+          48.02292,
+          7.88499
+        ],
+        [
+          48.02266,
+          7.88599
+        ],
+        [
+          48.02165,
+          7.88666
+        ],
+        [
+          48.02031,
+          7.88879
+        ],
+        [
+          48.02013,
+          7.88964
+        ],
+        [
+          48.01929,
+          7.89092
+        ],
+        [
+          48.01928,
+          7.89341
+        ],
+        [
+          48.01755,
+          7.89636
+        ],
+        [
+          48.01554,
+          7.898
+        ],
+        [
+          48.01537,
+          7.89757
+        ],
+        [
+          48.01549,
+          7.89645
+        ],
+        [
+          48.01645,
+          7.89468
+        ],
+        [
+          48.01688,
+          7.89211
+        ],
+        [
+          48.0165,
+          7.8894
+        ],
+        [
+          48.01685,
+          7.88851
+        ],
+        [
+          48.01723,
+          7.88846
+        ],
+        [
+          48.01857,
+          7.88638
+        ],
+        [
+          48.01959,
+          7.88632
+        ],
+        [
+          48.02139,
+          7.88437
+        ],
+        [
+          48.01954,
+          7.88049
+        ],
+        [
+          48.01894,
+          7.87987
+        ],
+        [
+          48.02057,
+          7.8774
+        ],
+        [
+          48.02109,
+          7.87565
+        ],
+        [
+          48.01962,
+          7.87285
+        ],
+        [
+          48.01718,
+          7.87236
+        ],
+        [
+          48.01592,
+          7.87303
+        ],
+        [
+          48.01411,
+          7.87612
+        ],
+        [
+          48.01295,
+          7.87935
+        ],
+        [
+          48.01171,
+          7.88435
+        ],
+        [
+          48.01129,
+          7.88482
+        ],
+        [
+          48.01024,
+          7.88769
+        ],
+        [
+          48.01002,
+          7.90172
+        ],
+        [
+          48.01153,
+          7.90351
+        ],
+        [
+          48.01237,
+          7.90402
+        ],
+        [
+          48.01281,
+          7.90495
+        ],
+        [
+          48.01325,
+          7.90722
+        ],
+        [
+          48.0129,
+          7.90947
+        ],
+        [
+          48.01302,
+          7.91073
+        ],
+        [
+          48.01187,
+          7.91294
+        ],
+        [
+          48.01207,
+          7.91426
+        ],
+        [
+          48.01369,
+          7.9166
+        ],
+        [
+          48.01563,
+          7.92188
+        ],
+        [
+          48.01406,
+          7.92455
+        ],
+        [
+          48.01381,
+          7.92627
+        ],
+        [
+          48.01085,
+          7.9282
+        ],
+        [
+          48.00855,
+          7.92863
+        ],
+        [
+          48.00598,
+          7.92785
+        ],
+        [
+          48.0026,
+          7.92815
+        ],
+        [
+          48.0011,
+          7.92717
+        ],
+        [
+          47.99941,
+          7.92802
+        ],
+        [
+          47.99865,
+          7.928
+        ],
+        [
+          47.99754,
+          7.92933
+        ],
+        [
+          47.99671,
+          7.92906
+        ],
+        [
+          47.99539,
+          7.9302
+        ],
+        [
+          47.99364,
+          7.92996
+        ],
+        [
+          47.99227,
+          7.93067
+        ],
+        [
+          47.99099,
+          7.9308
+        ],
+        [
+          47.98862,
+          7.92928
+        ],
+        [
+          47.98923,
+          7.92766
+        ],
+        [
+          47.98774,
+          7.92687
+        ],
+        [
+          47.98725,
+          7.92668
+        ],
+        [
+          47.98583,
+          7.92831
+        ],
+        [
+          47.98553,
+          7.92519
+        ],
+        [
+          47.98302,
+          7.92532
+        ],
+        [
+          47.98087,
+          7.92489
+        ],
+        [
+          47.97941,
+          7.91398
+        ],
+        [
+          47.97686,
+          7.91633
+        ],
+        [
+          47.97602,
+          7.91775
+        ],
+        [
+          47.97515,
+          7.91738
+        ],
+        [
+          47.97473,
+          7.91761
+        ],
+        [
+          47.97446,
+          7.92066
+        ],
+        [
+          47.97346,
+          7.92167
+        ],
+        [
+          47.97258,
+          7.92111
+        ],
+        [
+          47.97163,
+          7.92332
+        ],
+        [
+          47.97074,
+          7.92452
+        ],
+        [
+          47.96987,
+          7.92371
+        ],
+        [
+          47.96967,
+          7.92263
+        ],
+        [
+          47.96744,
+          7.92179
+        ],
+        [
+          47.96734,
+          7.9197
+        ],
+        [
+          47.96762,
+          7.91798
+        ],
+        [
+          47.96547,
+          7.91549
+        ],
+        [
+          47.96341,
+          7.91512
+        ],
+        [
+          47.96294,
+          7.91473
+        ],
+        [
+          47.96169,
+          7.91568
+        ],
+        [
+          47.96023,
+          7.91608
+        ],
+        [
+          47.95899,
+          7.91722
+        ],
+        [
+          47.95805,
+          7.91716
+        ],
+        [
+          47.95728,
+          7.9191
+        ],
+        [
+          47.9567,
+          7.91874
+        ],
+        [
+          47.95572,
+          7.91894
+        ],
+        [
+          47.95421,
+          7.9198
+        ],
+        [
+          47.95136,
+          7.92373
+        ],
+        [
+          47.95104,
+          7.92474
+        ],
+        [
+          47.95019,
+          7.92414
+        ],
+        [
+          47.94723,
+          7.92426
+        ],
+        [
+          47.94457,
+          7.92492
+        ],
+        [
+          47.94148,
+          7.92418
+        ],
+        [
+          47.94009,
+          7.92487
+        ],
+        [
+          47.93684,
+          7.92199
+        ],
+        [
+          47.93567,
+          7.92002
+        ],
+        [
+          47.93508,
+          7.91726
+        ],
+        [
+          47.93355,
+          7.9158
+        ],
+        [
+          47.93128,
+          7.91464
+        ],
+        [
+          47.92976,
+          7.9126
+        ],
+        [
+          47.92908,
+          7.9091
+        ],
+        [
+          47.92847,
+          7.90829
+        ],
+        [
+          47.92434,
+          7.90664
+        ],
+        [
+          47.91823,
+          7.91005
+        ],
+        [
+          47.91544,
+          7.90953
+        ],
+        [
+          47.91432,
+          7.90841
+        ],
+        [
+          47.91344,
+          7.90487
+        ],
+        [
+          47.91308,
+          7.90461
+        ],
+        [
+          47.91233,
+          7.9028
+        ],
+        [
+          47.91192,
+          7.90009
+        ],
+        [
+          47.91194,
+          7.89846
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Dreisam",
+        "major": true
+      }
+    ],
+    "lakes": [
+      "Flückigersee"
+    ],
+    "parks": [
+      "Seepark",
+      "Stadtgarten",
+      "Colombipark",
+      "Eschholzpark"
+    ],
+    "boundary": "Freiburg im Breisgau"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Freiburg im Breisgau?",
+      "answer": "Laut Zensus 2022 haben rund 70.550 Freiburgerinnen und Freiburger ab 15 Jahren einen Hochschulabschluss, das sind 36,4 Prozent – bundesweit sind es 20,2 Prozent. Bei den 30- bis 49-Jährigen hat fast jede zweite Person studiert. Unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Freiburg hat jede dritte einen akademischen Abschluss (33,7 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Freiburg im Breisgau viele Singles?",
+      "answer": "In 48,5 Prozent aller Freiburger Haushalte lebt nur eine Person (Zensus 2022, bundesweit 43,4 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem sind 46,3 Prozent der Erwachsenen ledig, bundesweit 30,5 Prozent; auch das sagt nichts über eine Partnerschaft ohne Trauschein aus."
+    },
+    {
+      "question": "Wo lernen Akademiker in Freiburg im Breisgau Singles kennen?",
+      "answer": "Auf dem Münsterplatz mit Wochenmarkt und Festen, beim Blick vom Schlossberg, bei Konzerten im Konzerthaus oder beim Spaziergang im Seepark. Auch die Weinstuben der Altstadt, Festivals und öffentliche Vorträge der Universität bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "stala-svb",
+      "publisher": "Statistisches Landesamt Baden-Württemberg",
+      "title": "Statistischer Bericht A VI 5-j/25: Sozialversicherungspflichtig beschäftigte Arbeitnehmerinnen und Arbeitnehmer am 30. Juni 2025, Tab. 5 (Arbeitsort, Stadt- und Landkreise)",
+      "stand": "Stand 30.06.2025",
+      "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/BWHeft_derivate_00034965/3151_25001.pdf"
+    },
+    {
+      "id": "destatis-besch",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Strukturdaten über sozialversicherungspflichtig Beschäftigte am Arbeitsort",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/strukturdaten.html"
+    },
+    {
+      "id": "ba-entgelt",
+      "publisher": "Statistik der Bundesagentur für Arbeit",
+      "title": "Sozialversicherungspflichtige Bruttoarbeitsentgelte, Tab. 8.1 (Deutschland, Länder und Kreise)",
+      "stand": "Stichtag 31.12.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202512/iiia6/beschaeftigung-entgelt-entgelt/entgelt-dwolk-0-202512-xlsx.xlsx?__blob=publicationFile&v=2"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-2032: Personen ab 15 Jahren nach Alter und höchstem beruflichem Abschluss (Kreisebene)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-2032"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 5000H-1002: Haushalte nach Größe des privaten Haushalts (Gemeindeebene)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/5000H/table/5000H-1002"
+    },
+    {
+      "id": "zensus-familienstand",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-2007: Personen nach Alter (5 Altersklassen) und Familienstand (Gemeindeebene)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-2007"
+    },
+    {
+      "id": "zensus-alter",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Zensus 2022: Durchschnittsalter der Bevölkerung je Gemeinde (Sonderauswertung)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Zensus2022/Publikationen/Downloads-Publikationen/Sonderauswertungen/durchschnittsalter_bevoelkerung_gemeinde.xlsx?__blob=publicationFile&v=3"
+    },
+    {
+      "id": "destatis-stud",
+      "publisher": "Statistisches Bundesamt",
+      "title": "Statistischer Bericht Statistik der Studierenden, Tabelle 21311-12 (Hochschulen und Hochschulstandorte)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Hochschulen/Publikationen/Downloads-Hochschulen/statistischer-bericht-studierende-hochschulen-endg-2110410267005.xlsx?__blob=publicationFile&v=3"
+    },
+    {
+      "id": "uni-exzellenz",
+      "publisher": "Albert-Ludwigs-Universität Freiburg",
+      "title": "Exzellenzstrategie: Exzellenzcluster CIBSS und Future Forests, Entscheidung zur Exzellenzuniversität",
+      "stand": "abgerufen 10/2026",
+      "url": "https://uni-freiburg.de/themen-im-fokus/exzellenzstrategie/"
+    },
+    {
+      "id": "fraunhofer",
+      "publisher": "Fraunhofer-Gesellschaft",
+      "title": "Fraunhofer-Institute in Freiburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.freiburg.fraunhofer.de/en.html"
+    },
+    {
+      "id": "uniklinik",
+      "publisher": "Universitätsklinikum Freiburg",
+      "title": "Jahresbericht 2024 – Kennzahlen",
+      "stand": "Berichtsjahr 2024",
+      "url": "https://www.uniklinik-freiburg.de/jahresbericht-2024.html"
+    },
+    {
+      "id": "gemeindeverzeichnis",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Gemeindeverzeichnis: Freiburg im Breisgau, Stadt (08311000)",
+      "stand": "Gebietsstand 30.09.2026",
+      "url": "https://www.statistikportal.de/de/gemeindeverzeichnis/08311000"
+    },
+    {
+      "id": "fwtm",
+      "publisher": "FWTM Freiburg Wirtschaft Touristik und Messe (Wirtschaftsförderung)",
+      "title": "Cluster & Netzwerke in Freiburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://fwtm.freiburg.de/wirtschaftsfoerderung/cluster-netzwerke"
+    },
+    {
+      "id": "fraunhofer-lz",
+      "publisher": "Fraunhofer-Gesellschaft",
+      "title": "Leistungszentrum Nachhaltigkeit Freiburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.fraunhofer.de/en/institutes/cooperation/high-performance-centers/high-performance-center-for-sustainability-freiburg.html"
+    },
+    {
+      "id": "mpi-ie",
+      "publisher": "Max-Planck-Gesellschaft",
+      "title": "Max-Planck-Institut für Immunbiologie und Epigenetik, Freiburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.ie-freiburg.mpg.de/"
+    },
+    {
+      "id": "mpi-csl",
+      "publisher": "Max-Planck-Gesellschaft",
+      "title": "Max-Planck-Institut zur Erforschung von Kriminalität, Sicherheit und Recht, Freiburg",
+      "stand": "abgerufen 10/2026",
+      "url": "https://csl.mpg.de/de"
+    }
+  ]
+}

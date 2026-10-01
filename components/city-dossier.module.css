@@ -80,7 +80,9 @@
 .map { display: block; width: 100%; height: auto; }
 .river { fill: none; stroke: #2b4d86; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }
 .riverThin { fill: none; stroke: #2b4d86; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
-.lake { fill: #2b4d86; }
+.lake { fill: #2b4d86; stroke: #2b4d86; stroke-width: 1.5; stroke-linejoin: round; }
+.boundary { fill: rgba(247, 242, 233, .035); stroke: rgba(216, 192, 149, .4); stroke-width: 1.2; stroke-dasharray: 5 4; stroke-linejoin: round; }
+.green { fill: rgba(120, 160, 120, .16); stroke: rgba(150, 190, 150, .22); stroke-width: 1; }
 .mapWater { fill: #7f9cc9; font-family: var(--font-display), Georgia, serif; font-size: 22px; font-style: italic; }
 .mapDistrict { fill: rgba(247, 242, 233, .42); font-family: var(--font-sans), system-ui, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
 .pinWork circle, .pinDate circle { stroke: var(--navy-950); stroke-width: 3; transition: transform .25s ease; }
@@ -89,8 +91,11 @@
 .pinWork text, .pinDate text { font-family: var(--font-sans), system-ui, sans-serif; font-size: 13px; font-weight: 800; pointer-events: none; }
 .pinWork text { fill: var(--navy-950); }
 .pinDate text { fill: #fff; }
+.pinLeader { stroke: rgba(247, 242, 233, .55); stroke-width: 1.2; }
+.pinWork .pinDot, .pinDate .pinDot { fill: var(--ivory); stroke: none; }
 .pinWork:hover circle, .pinDate:hover circle { stroke: var(--ivory); }
-.mapNote { margin: 10px 0 0; color: rgba(247, 242, 233, .5); font-size: 11px; letter-spacing: .1em; text-align: right; text-transform: uppercase; }
+.mapNote { margin: 10px 0 0; color: rgba(247, 242, 233, .5); font-size: 11px; letter-spacing: .06em; text-align: right; }
+.mapNote a { color: inherit; }
 
 /* Branchen */
 .clusters { padding-top: clamp(80px, 9vw, 120px); }

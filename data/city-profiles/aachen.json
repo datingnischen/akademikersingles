@@ -1,0 +1,2885 @@
+{
+  "path": "/partnersuche/aachen/",
+  "eyebrow": "Partnersuche für Akademiker · Technologiestadt im Dreiländereck",
+  "lead": "Exzellenzuniversität RWTH, FH Aachen, Uniklinik und der RWTH Aachen Campus: In Aachen hat fast jede dritte Arbeitskraft einen Hochschulabschluss – und in mehr als der Hälfte aller Haushalte lebt nur eine Person. Gute Voraussetzungen, um im Dreiländereck jemanden auf Augenhöhe zu treffen.",
+  "heroAlt": "Beleuchteter Springbrunnen in einer Parkanlage am Abend in Aachen – Partnersuche für Akademiker",
+  "briefing": [
+    {
+      "value": "32 %",
+      "label": "der Beschäftigten in Aachen haben einen Hochschulabschluss – bundesweit rund 21 %",
+      "source": "rdb-besch"
+    },
+    {
+      "value": "45 %",
+      "label": "der 30- bis 49-Jährigen haben studiert – bundesweit 29 %",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "53 %",
+      "label": "aller Aachener Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "57.272",
+      "label": "Studierende an RWTH und FH Aachen im Wintersemester 2025/26",
+      "source": "itnrw-studierende",
+      "note": "Vorläufige Zahl; FH Aachen einschließlich Campus Jülich"
+    },
+    {
+      "value": "4",
+      "label": "Hochschulen – dazu das Universitätsklinikum und zahlreiche Institute",
+      "source": "aachen-innovation"
+    },
+    {
+      "value": "3",
+      "label": "Exzellenzcluster ab 2026, die RWTH ist Exzellenzuniversität",
+      "source": "rwth-exzellenz",
+      "compareSource": "mkw-exzellenz"
+    },
+    {
+      "value": "262.670",
+      "label": "Einwohnerinnen und Einwohner",
+      "source": "itnrw-kommunalprofil",
+      "note": "Stand 31.12.2024"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Aachen tickt im Rhythmus seiner Hochschulen: Technik, Naturwissenschaften und Medizin prägen die Stadt bis in den Alltag.",
+      "metrics": [
+        {
+          "value": "32 %",
+          "label": "der Menschen ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "Bachelor, Master, Diplom oder Promotion; berechnet: 71.520 von 225.930 Personen (Zensus-Stichprobe, hochgerechnet), bundesweit 14.026.410 von 69.439.520",
+          "compare": {
+            "city": 31.7,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 37
+          }
+        },
+        {
+          "value": "44.382",
+          "label": "Studierende allein an der RWTH Aachen",
+          "source": "rwth-studierende",
+          "note": "Wintersemester 2025/26; 55 % in den Ingenieurwissenschaften, 15.881 internationale Studierende"
+        },
+        {
+          "value": "611 Mio. €",
+          "label": "Projektmittel für Forschung und Lehre an der RWTH im Jahr 2025",
+          "source": "rwth-zahlen",
+          "note": "Gesamtfinanzvolumen 1,264 Mrd. €; 10.137 Beschäftigte (Vollzeitäquivalente), 570 Professorinnen und Professoren"
+        }
+      ],
+      "takeaway": "Ob Maschinenbau, Medizin oder Informatik – hier treffen Sie Menschen, die über ihr Fach ebenso gern sprechen wie über das Leben daneben."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Produktionstechnik, Informatik, Medizintechnik und Forschung: Aachens Wirtschaft lebt von dem Wissen, das an den Hochschulen entsteht.",
+      "metrics": [
+        {
+          "value": "32 %",
+          "label": "der sozialversicherungspflichtig Beschäftigten haben einen akademischen Abschluss",
+          "source": "rdb-besch",
+          "note": "Berechnet: 44.624 von 140.526 Beschäftigten am Arbeitsort Aachen; Stadt und Deutschland jeweils 30.06.2025",
+          "compare": {
+            "city": 31.8,
+            "germany": 20.5,
+            "unit": " %",
+            "max": 37
+          }
+        },
+        {
+          "value": "+39.515",
+          "label": "Pendlersaldo – deutlich mehr Menschen pendeln zur Arbeit nach Aachen als hinaus",
+          "source": "itnrw-kommunalprofil",
+          "note": "72.645 Einpendelnde und 33.130 Auspendelnde; 139.348 Beschäftigte am Arbeitsort, Stand 30.06.2024"
+        },
+        {
+          "value": "455",
+          "label": "Unternehmen engagieren sich laut IHK bereits auf dem RWTH Aachen Campus",
+          "source": "ihk-wissenschaft",
+          "note": "„Mehr als 455“; sechs realisierte Forschungscluster, u. a. Produktionstechnik, Photonik und Biomedizintechnik"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen, die an Ideen von morgen arbeiten – und jemanden schätzen, der diese Leidenschaft teilt."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Aachen ist jung, international und studentisch geprägt – viele leben allein, und ein großer Teil der Erwachsenen ist ledig.",
+      "metrics": [
+        {
+          "value": "53 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "74.770 von 140.079 Haushalten; Stadt und Deutschland jeweils Zensus 2022",
+          "compare": {
+            "city": 53.4,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 63
+          }
+        },
+        {
+          "value": "46 %",
+          "label": "der Erwachsenen ab 18 Jahren sind ledig",
+          "source": "zensus-familienstand",
+          "note": "Berechnet: 103.452 von 224.952 Personen, bundesweit rund 30 %; bei den 30- bis 49-Jährigen 45,5 % (bundesweit 36,8 %)"
+        },
+        {
+          "value": "40,9",
+          "label": "Jahre Durchschnittsalter – deutlich jünger als der Bundesschnitt",
+          "source": "zensus-alter",
+          "note": "Zensus 2022 (15.05.2022)",
+          "compare": {
+            "city": 40.9,
+            "germany": 44.3,
+            "unit": " J.",
+            "max": 52
+          }
+        }
+      ],
+      "takeaway": "Bewusst wählen statt früh festlegen: In Aachen sind Sie mit dem Wunsch nach einer Partnerschaft auf Augenhöhe in guter Gesellschaft."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Produktionstechnik & Maschinenbau",
+      "text": "Das Cluster Produktionstechnik auf dem RWTH Aachen Campus, das Fraunhofer-Institut für Produktionstechnologie und der Entwicklungsdienstleister FEV – der Maschinenbau stellt die meisten Industriearbeitsplätze der StädteRegion."
+    },
+    {
+      "name": "Mobilität & Antriebe",
+      "text": "Vom Ford Forschungszentrum über FEV bis zum Cluster Schwerlastantriebe: In Aachen werden Fahrzeuge und Antriebe von morgen entwickelt."
+    },
+    {
+      "name": "Medizin & Life Sciences",
+      "text": "Die Uniklinik RWTH Aachen, das Pharmaunternehmen Grünenthal, das Cluster Biomedizintechnik und das Zentrum für Bio-Medizintechnik bündeln Medizin, Forschung und Gründungen."
+    },
+    {
+      "name": "Informatik & Digitales",
+      "text": "Forschungslabore von Ericsson, Amazon und DENSO, die Informatik der RWTH und der digitalHub Aachen in der DIGITAL CHURCH – ein Treffpunkt für Gründerinnen, Gründer und Mittelstand."
+    },
+    {
+      "name": "Photonik, Energie & Werkstoffe",
+      "text": "Die Campus-Cluster Photonik und Nachhaltige Energie, die Exzellenzcluster zu Brennstoffen und klimaneutralem Bauen sowie das Forschungszentrum Jülich in der Region."
+    },
+    {
+      "name": "Ernährungswirtschaft",
+      "text": "Printen, Schokolade und Konfitüre: Lambertz, Lindt und Zentis stehen für Aachens süße Seite und für viele Arbeitsplätze in der Lebensmittelindustrie."
+    }
+  ],
+  "clusterSources": [
+    "ihk-wissenschaft",
+    "aachen-innovation",
+    "agit",
+    "itnrw-kommunalprofil",
+    "rwth-exzellenz"
+  ],
+  "places": [
+    {
+      "name": "RWTH Aachen – Hauptgebäude",
+      "kind": "work",
+      "district": "Aachen-Mitte · Templergraben",
+      "text": "Herz der Exzellenzuniversität mit Hauptgebäude und SuperC; gleich nebenan beginnt das Pontviertel mit Cafés und Kneipen.",
+      "lat": 50.7778,
+      "lon": 6.0775
+    },
+    {
+      "name": "RWTH Aachen Campus Melaten",
+      "kind": "work",
+      "district": "Laurensberg · Campus Melaten",
+      "text": "Forschungscluster, in denen Hochschulinstitute und Unternehmen gemeinsam arbeiten – darunter das Fraunhofer-Institut für Produktionstechnologie.",
+      "lat": 50.7847,
+      "lon": 6.0472
+    },
+    {
+      "name": "Uniklinik RWTH Aachen",
+      "kind": "work",
+      "district": "Laurensberg · Pauwelsstraße",
+      "text": "Universitätsklinikum und Medizinische Fakultät – Arbeitsort vieler Ärztinnen, Ärzte und Forschender.",
+      "lat": 50.7769,
+      "lon": 6.0446
+    },
+    {
+      "name": "FH Aachen",
+      "kind": "work",
+      "district": "Burtscheid · Bayernallee",
+      "text": "Fachhochschule mit Schwerpunkten in Technik, Naturwissenschaften und Medizintechnik; ein weiterer Campus liegt in Jülich.",
+      "lat": 50.7556,
+      "lon": 6.096
+    },
+    {
+      "name": "digitalHub Aachen",
+      "kind": "work",
+      "district": "Aachen-Mitte · DIGITAL CHURCH",
+      "text": "In einer umgebauten Kirche entwickeln Start-ups und Mittelständler gemeinsam digitale Geschäftsmodelle.",
+      "lat": 50.7796,
+      "lon": 6.1006
+    },
+    {
+      "name": "Aachener Dom & Markt",
+      "kind": "date",
+      "district": "Altstadt · Domhof und Rathaus",
+      "text": "Rund um Dom, Markt und Rathaus starten Stadtführungen und Krimi-Touren – Cafés und Restaurants liegen gleich nebenan.",
+      "lat": 50.7748,
+      "lon": 6.084
+    },
+    {
+      "name": "Waldpark Lousberg",
+      "kind": "date",
+      "district": "Lousberg · nördlich der Innenstadt",
+      "text": "Aachens Hausberg mit Blick über die Stadt – ideal für einen Spaziergang zu zweit nach Vorlesung oder Büro.",
+      "lat": 50.7876,
+      "lon": 6.0785
+    },
+    {
+      "name": "Suermondt-Ludwig-Museum",
+      "kind": "date",
+      "district": "Aachen-Mitte · Wilhelmstraße",
+      "text": "Malerei und Skulptur vom Mittelalter bis zur Moderne – ein Date mit viel Gesprächsstoff.",
+      "lat": 50.7735,
+      "lon": 6.0953
+    },
+    {
+      "name": "Carolus Thermen & Stadtgarten",
+      "kind": "date",
+      "district": "Aachen-Mitte · Stadtgarten",
+      "text": "Thermalbad am Rand des Stadtgartens: Entspannung in der alten Bäderstadt, danach ein Spaziergang im Grünen.",
+      "lat": 50.783,
+      "lon": 6.0971
+    },
+    {
+      "name": "Westpark",
+      "kind": "date",
+      "district": "Aachen-Mitte · Westviertel",
+      "text": "Grüne Oase nahe Innenstadt und Hochschulen – unkompliziert für ein erstes Treffen.",
+      "lat": 50.7717,
+      "lon": 6.0686
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 6.028,
+      "east": 6.123,
+      "south": 50.751,
+      "north": 50.801
+    },
+    "rivers": [],
+    "labels": [
+      {
+        "text": "Burtscheid",
+        "lat": 50.7637,
+        "lon": 6.0934,
+        "district": true
+      },
+      {
+        "text": "Frankenberger Viertel",
+        "lat": 50.7683,
+        "lon": 6.1051,
+        "district": true
+      },
+      {
+        "text": "Hörn",
+        "lat": 50.7808,
+        "lon": 6.0567,
+        "district": true
+      },
+      {
+        "text": "Steppenberg",
+        "lat": 50.7675,
+        "lon": 6.0406,
+        "district": true
+      },
+      {
+        "text": "Soers",
+        "lat": 50.7975,
+        "lon": 6.0878,
+        "district": true
+      },
+      {
+        "text": "Beverau",
+        "lat": 50.7615,
+        "lon": 6.1106,
+        "district": true
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Hangeweiher",
+        "points": [
+          [
+            50.75867,
+            6.07387
+          ],
+          [
+            50.75824,
+            6.07347
+          ],
+          [
+            50.75817,
+            6.07316
+          ],
+          [
+            50.75829,
+            6.07286
+          ],
+          [
+            50.75852,
+            6.07272
+          ],
+          [
+            50.7591,
+            6.07275
+          ],
+          [
+            50.75953,
+            6.07242
+          ],
+          [
+            50.75974,
+            6.07245
+          ],
+          [
+            50.75987,
+            6.07283
+          ],
+          [
+            50.75962,
+            6.07401
+          ],
+          [
+            50.75928,
+            6.0741
+          ],
+          [
+            50.75867,
+            6.07387
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Waldpark Lousberg",
+        "points": [
+          [
+            50.78933,
+            6.07762
+          ],
+          [
+            50.78912,
+            6.07739
+          ],
+          [
+            50.79041,
+            6.07452
+          ],
+          [
+            50.79121,
+            6.07232
+          ],
+          [
+            50.79055,
+            6.07132
+          ],
+          [
+            50.79003,
+            6.07087
+          ],
+          [
+            50.79044,
+            6.07135
+          ],
+          [
+            50.79034,
+            6.07162
+          ],
+          [
+            50.79,
+            6.07135
+          ],
+          [
+            50.78947,
+            6.07149
+          ],
+          [
+            50.78937,
+            6.07107
+          ],
+          [
+            50.78868,
+            6.07154
+          ],
+          [
+            50.78891,
+            6.07188
+          ],
+          [
+            50.78895,
+            6.07266
+          ],
+          [
+            50.78695,
+            6.07621
+          ],
+          [
+            50.78675,
+            6.07623
+          ],
+          [
+            50.78638,
+            6.07572
+          ],
+          [
+            50.78617,
+            6.07609
+          ],
+          [
+            50.78654,
+            6.0766
+          ],
+          [
+            50.78655,
+            6.07691
+          ],
+          [
+            50.78558,
+            6.07863
+          ],
+          [
+            50.78457,
+            6.08134
+          ],
+          [
+            50.78406,
+            6.08102
+          ],
+          [
+            50.78389,
+            6.08146
+          ],
+          [
+            50.78423,
+            6.08181
+          ],
+          [
+            50.78423,
+            6.08202
+          ],
+          [
+            50.78436,
+            6.08216
+          ],
+          [
+            50.78428,
+            6.08289
+          ],
+          [
+            50.78403,
+            6.08264
+          ],
+          [
+            50.78399,
+            6.08275
+          ],
+          [
+            50.78414,
+            6.08291
+          ],
+          [
+            50.78379,
+            6.08442
+          ],
+          [
+            50.78373,
+            6.08615
+          ],
+          [
+            50.78476,
+            6.08879
+          ],
+          [
+            50.7851,
+            6.08837
+          ],
+          [
+            50.78562,
+            6.08668
+          ],
+          [
+            50.78597,
+            6.08814
+          ],
+          [
+            50.78617,
+            6.088
+          ],
+          [
+            50.7859,
+            6.08726
+          ],
+          [
+            50.78592,
+            6.08549
+          ],
+          [
+            50.78688,
+            6.08574
+          ],
+          [
+            50.7869,
+            6.08535
+          ],
+          [
+            50.78648,
+            6.08509
+          ],
+          [
+            50.78643,
+            6.08536
+          ],
+          [
+            50.78619,
+            6.08532
+          ],
+          [
+            50.78618,
+            6.08501
+          ],
+          [
+            50.78598,
+            6.08477
+          ],
+          [
+            50.78879,
+            6.08002
+          ],
+          [
+            50.78893,
+            6.07972
+          ],
+          [
+            50.78881,
+            6.07844
+          ],
+          [
+            50.78933,
+            6.07762
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Stadtgarten",
+        "points": [
+          [
+            50.78336,
+            6.09575
+          ],
+          [
+            50.78308,
+            6.09602
+          ],
+          [
+            50.78254,
+            6.09707
+          ],
+          [
+            50.78238,
+            6.09793
+          ],
+          [
+            50.7815,
+            6.09796
+          ],
+          [
+            50.7807,
+            6.09678
+          ],
+          [
+            50.78008,
+            6.09432
+          ],
+          [
+            50.77949,
+            6.09349
+          ],
+          [
+            50.78028,
+            6.09214
+          ],
+          [
+            50.78062,
+            6.09249
+          ],
+          [
+            50.78046,
+            6.09278
+          ],
+          [
+            50.78053,
+            6.09289
+          ],
+          [
+            50.78073,
+            6.09264
+          ],
+          [
+            50.78105,
+            6.09318
+          ],
+          [
+            50.78133,
+            6.09323
+          ],
+          [
+            50.78117,
+            6.09356
+          ],
+          [
+            50.78153,
+            6.09409
+          ],
+          [
+            50.78201,
+            6.09351
+          ],
+          [
+            50.7822,
+            6.0928
+          ],
+          [
+            50.78274,
+            6.09185
+          ],
+          [
+            50.78225,
+            6.09116
+          ],
+          [
+            50.78232,
+            6.09105
+          ],
+          [
+            50.78217,
+            6.09084
+          ],
+          [
+            50.78233,
+            6.09055
+          ],
+          [
+            50.78217,
+            6.09021
+          ],
+          [
+            50.78206,
+            6.09007
+          ],
+          [
+            50.78196,
+            6.09019
+          ],
+          [
+            50.78164,
+            6.08975
+          ],
+          [
+            50.78184,
+            6.08938
+          ],
+          [
+            50.7831,
+            6.09092
+          ],
+          [
+            50.78294,
+            6.09275
+          ],
+          [
+            50.78384,
+            6.09279
+          ],
+          [
+            50.78386,
+            6.09323
+          ],
+          [
+            50.78401,
+            6.09321
+          ],
+          [
+            50.78402,
+            6.09348
+          ],
+          [
+            50.78468,
+            6.09342
+          ],
+          [
+            50.78696,
+            6.09581
+          ],
+          [
+            50.78606,
+            6.09665
+          ],
+          [
+            50.78493,
+            6.09673
+          ],
+          [
+            50.78438,
+            6.0957
+          ],
+          [
+            50.78408,
+            6.09613
+          ],
+          [
+            50.78359,
+            6.09538
+          ],
+          [
+            50.78336,
+            6.09575
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Westpark",
+        "points": [
+          [
+            50.77283,
+            6.06762
+          ],
+          [
+            50.77282,
+            6.06622
+          ],
+          [
+            50.77259,
+            6.06599
+          ],
+          [
+            50.77205,
+            6.06587
+          ],
+          [
+            50.77208,
+            6.06513
+          ],
+          [
+            50.77228,
+            6.06464
+          ],
+          [
+            50.77202,
+            6.06436
+          ],
+          [
+            50.77188,
+            6.06627
+          ],
+          [
+            50.77112,
+            6.06604
+          ],
+          [
+            50.77112,
+            6.06696
+          ],
+          [
+            50.77064,
+            6.06698
+          ],
+          [
+            50.77064,
+            6.06727
+          ],
+          [
+            50.77102,
+            6.06733
+          ],
+          [
+            50.77103,
+            6.06922
+          ],
+          [
+            50.77112,
+            6.06935
+          ],
+          [
+            50.77103,
+            6.07042
+          ],
+          [
+            50.77113,
+            6.07086
+          ],
+          [
+            50.77218,
+            6.07087
+          ],
+          [
+            50.77272,
+            6.07066
+          ],
+          [
+            50.77278,
+            6.07025
+          ],
+          [
+            50.77259,
+            6.06937
+          ],
+          [
+            50.77256,
+            6.06813
+          ],
+          [
+            50.77283,
+            6.06762
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Kurpark Burtscheid",
+        "points": [
+          [
+            50.76586,
+            6.09623
+          ],
+          [
+            50.76603,
+            6.09676
+          ],
+          [
+            50.76623,
+            6.0969
+          ],
+          [
+            50.76594,
+            6.09773
+          ],
+          [
+            50.76568,
+            6.09695
+          ],
+          [
+            50.76404,
+            6.0946
+          ],
+          [
+            50.76375,
+            6.09402
+          ],
+          [
+            50.76359,
+            6.09384
+          ],
+          [
+            50.76361,
+            6.09424
+          ],
+          [
+            50.76305,
+            6.09302
+          ],
+          [
+            50.7632,
+            6.09318
+          ],
+          [
+            50.76329,
+            6.0931
+          ],
+          [
+            50.76317,
+            6.09285
+          ],
+          [
+            50.76324,
+            6.09273
+          ],
+          [
+            50.76338,
+            6.09316
+          ],
+          [
+            50.76354,
+            6.09309
+          ],
+          [
+            50.76418,
+            6.09398
+          ],
+          [
+            50.7649,
+            6.0947
+          ],
+          [
+            50.76619,
+            6.09493
+          ],
+          [
+            50.76586,
+            6.09623
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      [
+        [
+          50.85104,
+          6.05751
+        ],
+        [
+          50.8488,
+          6.05772
+        ],
+        [
+          50.84771,
+          6.05868
+        ],
+        [
+          50.84685,
+          6.05809
+        ],
+        [
+          50.84434,
+          6.05874
+        ],
+        [
+          50.84307,
+          6.05786
+        ],
+        [
+          50.84135,
+          6.05862
+        ],
+        [
+          50.84056,
+          6.05949
+        ],
+        [
+          50.83984,
+          6.0611
+        ],
+        [
+          50.83937,
+          6.06244
+        ],
+        [
+          50.83938,
+          6.06411
+        ],
+        [
+          50.83846,
+          6.06642
+        ],
+        [
+          50.83733,
+          6.06681
+        ],
+        [
+          50.83698,
+          6.06726
+        ],
+        [
+          50.83688,
+          6.06696
+        ],
+        [
+          50.83564,
+          6.06713
+        ],
+        [
+          50.83539,
+          6.06687
+        ],
+        [
+          50.83473,
+          6.06807
+        ],
+        [
+          50.83306,
+          6.06754
+        ],
+        [
+          50.83275,
+          6.06716
+        ],
+        [
+          50.83293,
+          6.06693
+        ],
+        [
+          50.83172,
+          6.06563
+        ],
+        [
+          50.82933,
+          6.06412
+        ],
+        [
+          50.8292,
+          6.06437
+        ],
+        [
+          50.8284,
+          6.06321
+        ],
+        [
+          50.82784,
+          6.06403
+        ],
+        [
+          50.82786,
+          6.06445
+        ],
+        [
+          50.82662,
+          6.06292
+        ],
+        [
+          50.82438,
+          6.06648
+        ],
+        [
+          50.82487,
+          6.06712
+        ],
+        [
+          50.8238,
+          6.06894
+        ],
+        [
+          50.82522,
+          6.07021
+        ],
+        [
+          50.82203,
+          6.07528
+        ],
+        [
+          50.81973,
+          6.0718
+        ],
+        [
+          50.81899,
+          6.07254
+        ],
+        [
+          50.81812,
+          6.07214
+        ],
+        [
+          50.81749,
+          6.0713
+        ],
+        [
+          50.81663,
+          6.07292
+        ],
+        [
+          50.81488,
+          6.07481
+        ],
+        [
+          50.81351,
+          6.07705
+        ],
+        [
+          50.81209,
+          6.07251
+        ],
+        [
+          50.80772,
+          6.07568
+        ],
+        [
+          50.80939,
+          6.08421
+        ],
+        [
+          50.81038,
+          6.08603
+        ],
+        [
+          50.81055,
+          6.08697
+        ],
+        [
+          50.81061,
+          6.09449
+        ],
+        [
+          50.81097,
+          6.09693
+        ],
+        [
+          50.81273,
+          6.10311
+        ],
+        [
+          50.8126,
+          6.104
+        ],
+        [
+          50.81288,
+          6.10399
+        ],
+        [
+          50.81286,
+          6.10469
+        ],
+        [
+          50.81321,
+          6.10481
+        ],
+        [
+          50.8102,
+          6.10591
+        ],
+        [
+          50.80995,
+          6.1053
+        ],
+        [
+          50.80964,
+          6.10548
+        ],
+        [
+          50.80895,
+          6.10494
+        ],
+        [
+          50.80814,
+          6.10535
+        ],
+        [
+          50.80744,
+          6.10451
+        ],
+        [
+          50.80714,
+          6.10334
+        ],
+        [
+          50.80593,
+          6.10158
+        ],
+        [
+          50.80538,
+          6.0996
+        ],
+        [
+          50.80476,
+          6.09894
+        ],
+        [
+          50.80444,
+          6.09913
+        ],
+        [
+          50.8049,
+          6.107
+        ],
+        [
+          50.80569,
+          6.10868
+        ],
+        [
+          50.80575,
+          6.10947
+        ],
+        [
+          50.80546,
+          6.11093
+        ],
+        [
+          50.8059,
+          6.11148
+        ],
+        [
+          50.80455,
+          6.11053
+        ],
+        [
+          50.80472,
+          6.1119
+        ],
+        [
+          50.80328,
+          6.12404
+        ],
+        [
+          50.8029,
+          6.13097
+        ],
+        [
+          50.80319,
+          6.13484
+        ],
+        [
+          50.80413,
+          6.13761
+        ],
+        [
+          50.80433,
+          6.14217
+        ],
+        [
+          50.80407,
+          6.14829
+        ],
+        [
+          50.80427,
+          6.14821
+        ],
+        [
+          50.80388,
+          6.15414
+        ],
+        [
+          50.80407,
+          6.15746
+        ],
+        [
+          50.80481,
+          6.16269
+        ],
+        [
+          50.80499,
+          6.16717
+        ],
+        [
+          50.80531,
+          6.16809
+        ],
+        [
+          50.8068,
+          6.17005
+        ],
+        [
+          50.80851,
+          6.17064
+        ],
+        [
+          50.80846,
+          6.1721
+        ],
+        [
+          50.80706,
+          6.17193
+        ],
+        [
+          50.80629,
+          6.17228
+        ],
+        [
+          50.80557,
+          6.17316
+        ],
+        [
+          50.80491,
+          6.17484
+        ],
+        [
+          50.80714,
+          6.19049
+        ],
+        [
+          50.79994,
+          6.19072
+        ],
+        [
+          50.79629,
+          6.19118
+        ],
+        [
+          50.79611,
+          6.19085
+        ],
+        [
+          50.79625,
+          6.18894
+        ],
+        [
+          50.79586,
+          6.18706
+        ],
+        [
+          50.79488,
+          6.18544
+        ],
+        [
+          50.79507,
+          6.18331
+        ],
+        [
+          50.79469,
+          6.18214
+        ],
+        [
+          50.79319,
+          6.18026
+        ],
+        [
+          50.79252,
+          6.1788
+        ],
+        [
+          50.79034,
+          6.17659
+        ],
+        [
+          50.78882,
+          6.17823
+        ],
+        [
+          50.78823,
+          6.1793
+        ],
+        [
+          50.78789,
+          6.17934
+        ],
+        [
+          50.78633,
+          6.17453
+        ],
+        [
+          50.78348,
+          6.17689
+        ],
+        [
+          50.78066,
+          6.17796
+        ],
+        [
+          50.77839,
+          6.1818
+        ],
+        [
+          50.77856,
+          6.18251
+        ],
+        [
+          50.77821,
+          6.18259
+        ],
+        [
+          50.77788,
+          6.18206
+        ],
+        [
+          50.77697,
+          6.18503
+        ],
+        [
+          50.77679,
+          6.18748
+        ],
+        [
+          50.77644,
+          6.18714
+        ],
+        [
+          50.7761,
+          6.18776
+        ],
+        [
+          50.77575,
+          6.18696
+        ],
+        [
+          50.77508,
+          6.18857
+        ],
+        [
+          50.77444,
+          6.18754
+        ],
+        [
+          50.77359,
+          6.18787
+        ],
+        [
+          50.77245,
+          6.1895
+        ],
+        [
+          50.77218,
+          6.19095
+        ],
+        [
+          50.77191,
+          6.19088
+        ],
+        [
+          50.77113,
+          6.19163
+        ],
+        [
+          50.77198,
+          6.1946
+        ],
+        [
+          50.77223,
+          6.19648
+        ],
+        [
+          50.76861,
+          6.19561
+        ],
+        [
+          50.76453,
+          6.19904
+        ],
+        [
+          50.76412,
+          6.19988
+        ],
+        [
+          50.75968,
+          6.20395
+        ],
+        [
+          50.75963,
+          6.20436
+        ],
+        [
+          50.75574,
+          6.20036
+        ],
+        [
+          50.75593,
+          6.20002
+        ],
+        [
+          50.75511,
+          6.19882
+        ],
+        [
+          50.75486,
+          6.19887
+        ],
+        [
+          50.75353,
+          6.1957
+        ],
+        [
+          50.75309,
+          6.19621
+        ],
+        [
+          50.75244,
+          6.19459
+        ],
+        [
+          50.75152,
+          6.19553
+        ],
+        [
+          50.75019,
+          6.19226
+        ],
+        [
+          50.74939,
+          6.19252
+        ],
+        [
+          50.74903,
+          6.1934
+        ],
+        [
+          50.74779,
+          6.19479
+        ],
+        [
+          50.74761,
+          6.19446
+        ],
+        [
+          50.74679,
+          6.19473
+        ],
+        [
+          50.74569,
+          6.19426
+        ],
+        [
+          50.74426,
+          6.19272
+        ],
+        [
+          50.74297,
+          6.19486
+        ],
+        [
+          50.74095,
+          6.19189
+        ],
+        [
+          50.74012,
+          6.19333
+        ],
+        [
+          50.73731,
+          6.19006
+        ],
+        [
+          50.73595,
+          6.19303
+        ],
+        [
+          50.73517,
+          6.19084
+        ],
+        [
+          50.73152,
+          6.19804
+        ],
+        [
+          50.72973,
+          6.19727
+        ],
+        [
+          50.72638,
+          6.20005
+        ],
+        [
+          50.72583,
+          6.198
+        ],
+        [
+          50.72396,
+          6.19935
+        ],
+        [
+          50.72444,
+          6.2004
+        ],
+        [
+          50.72413,
+          6.20079
+        ],
+        [
+          50.72392,
+          6.20038
+        ],
+        [
+          50.72349,
+          6.2009
+        ],
+        [
+          50.72338,
+          6.20053
+        ],
+        [
+          50.72296,
+          6.20115
+        ],
+        [
+          50.72258,
+          6.20111
+        ],
+        [
+          50.72267,
+          6.2026
+        ],
+        [
+          50.72236,
+          6.20286
+        ],
+        [
+          50.72256,
+          6.2038
+        ],
+        [
+          50.72125,
+          6.20452
+        ],
+        [
+          50.72025,
+          6.20435
+        ],
+        [
+          50.72005,
+          6.20499
+        ],
+        [
+          50.71897,
+          6.20354
+        ],
+        [
+          50.71882,
+          6.20439
+        ],
+        [
+          50.71801,
+          6.20245
+        ],
+        [
+          50.71678,
+          6.20351
+        ],
+        [
+          50.71609,
+          6.20353
+        ],
+        [
+          50.71614,
+          6.20466
+        ],
+        [
+          50.71462,
+          6.20323
+        ],
+        [
+          50.71414,
+          6.20316
+        ],
+        [
+          50.71333,
+          6.20491
+        ],
+        [
+          50.71281,
+          6.20415
+        ],
+        [
+          50.71193,
+          6.20557
+        ],
+        [
+          50.71175,
+          6.2053
+        ],
+        [
+          50.711,
+          6.20607
+        ],
+        [
+          50.71056,
+          6.20475
+        ],
+        [
+          50.71007,
+          6.20517
+        ],
+        [
+          50.70924,
+          6.20677
+        ],
+        [
+          50.70789,
+          6.20775
+        ],
+        [
+          50.70556,
+          6.21093
+        ],
+        [
+          50.70497,
+          6.21136
+        ],
+        [
+          50.70431,
+          6.21096
+        ],
+        [
+          50.70388,
+          6.2114
+        ],
+        [
+          50.70364,
+          6.21223
+        ],
+        [
+          50.69816,
+          6.21811
+        ],
+        [
+          50.69652,
+          6.21478
+        ],
+        [
+          50.69799,
+          6.21264
+        ],
+        [
+          50.69618,
+          6.20952
+        ],
+        [
+          50.69208,
+          6.20823
+        ],
+        [
+          50.6854,
+          6.2002
+        ],
+        [
+          50.68443,
+          6.19864
+        ],
+        [
+          50.6823,
+          6.19678
+        ],
+        [
+          50.68032,
+          6.19564
+        ],
+        [
+          50.68064,
+          6.19308
+        ],
+        [
+          50.67975,
+          6.19282
+        ],
+        [
+          50.67991,
+          6.1941
+        ],
+        [
+          50.68038,
+          6.19423
+        ],
+        [
+          50.68022,
+          6.19556
+        ],
+        [
+          50.67975,
+          6.19589
+        ],
+        [
+          50.67899,
+          6.19571
+        ],
+        [
+          50.67786,
+          6.19452
+        ],
+        [
+          50.67601,
+          6.19411
+        ],
+        [
+          50.67386,
+          6.19428
+        ],
+        [
+          50.67207,
+          6.19371
+        ],
+        [
+          50.67014,
+          6.19255
+        ],
+        [
+          50.66994,
+          6.19134
+        ],
+        [
+          50.66363,
+          6.19402
+        ],
+        [
+          50.66427,
+          6.19242
+        ],
+        [
+          50.66464,
+          6.18829
+        ],
+        [
+          50.66449,
+          6.1881
+        ],
+        [
+          50.66467,
+          6.18802
+        ],
+        [
+          50.66437,
+          6.18597
+        ],
+        [
+          50.66338,
+          6.18221
+        ],
+        [
+          50.66265,
+          6.17524
+        ],
+        [
+          50.66268,
+          6.17139
+        ],
+        [
+          50.66214,
+          6.16583
+        ],
+        [
+          50.66312,
+          6.1649
+        ],
+        [
+          50.6697,
+          6.16152
+        ],
+        [
+          50.66993,
+          6.16249
+        ],
+        [
+          50.67026,
+          6.16245
+        ],
+        [
+          50.67038,
+          6.16291
+        ],
+        [
+          50.67118,
+          6.16294
+        ],
+        [
+          50.67138,
+          6.16213
+        ],
+        [
+          50.67181,
+          6.16175
+        ],
+        [
+          50.67172,
+          6.16058
+        ],
+        [
+          50.67205,
+          6.16036
+        ],
+        [
+          50.67225,
+          6.15932
+        ],
+        [
+          50.67208,
+          6.15903
+        ],
+        [
+          50.67247,
+          6.15889
+        ],
+        [
+          50.67256,
+          6.15801
+        ],
+        [
+          50.67277,
+          6.15816
+        ],
+        [
+          50.67273,
+          6.15779
+        ],
+        [
+          50.67355,
+          6.15679
+        ],
+        [
+          50.67373,
+          6.15702
+        ],
+        [
+          50.67415,
+          6.15674
+        ],
+        [
+          50.6742,
+          6.15631
+        ],
+        [
+          50.67479,
+          6.15676
+        ],
+        [
+          50.67774,
+          6.14886
+        ],
+        [
+          50.67821,
+          6.14839
+        ],
+        [
+          50.67942,
+          6.1482
+        ],
+        [
+          50.67993,
+          6.14769
+        ],
+        [
+          50.68013,
+          6.14683
+        ],
+        [
+          50.68141,
+          6.14557
+        ],
+        [
+          50.68158,
+          6.14411
+        ],
+        [
+          50.68279,
+          6.14446
+        ],
+        [
+          50.68693,
+          6.14222
+        ],
+        [
+          50.68877,
+          6.14365
+        ],
+        [
+          50.69033,
+          6.14205
+        ],
+        [
+          50.6904,
+          6.14106
+        ],
+        [
+          50.69223,
+          6.13919
+        ],
+        [
+          50.69356,
+          6.13944
+        ],
+        [
+          50.69493,
+          6.13524
+        ],
+        [
+          50.69624,
+          6.13339
+        ],
+        [
+          50.69895,
+          6.13306
+        ],
+        [
+          50.70697,
+          6.12344
+        ],
+        [
+          50.70735,
+          6.12328
+        ],
+        [
+          50.70955,
+          6.12496
+        ],
+        [
+          50.71094,
+          6.12487
+        ],
+        [
+          50.71433,
+          6.12184
+        ],
+        [
+          50.71492,
+          6.1216
+        ],
+        [
+          50.71533,
+          6.1219
+        ],
+        [
+          50.71746,
+          6.12086
+        ],
+        [
+          50.71753,
+          6.12141
+        ],
+        [
+          50.71959,
+          6.11932
+        ],
+        [
+          50.71983,
+          6.11892
+        ],
+        [
+          50.71966,
+          6.11873
+        ],
+        [
+          50.72019,
+          6.11824
+        ],
+        [
+          50.72093,
+          6.11656
+        ],
+        [
+          50.72228,
+          6.1147
+        ],
+        [
+          50.72351,
+          6.11073
+        ],
+        [
+          50.72289,
+          6.11067
+        ],
+        [
+          50.72336,
+          6.1
+        ],
+        [
+          50.72314,
+          6.09792
+        ],
+        [
+          50.72026,
+          6.09485
+        ],
+        [
+          50.72287,
+          6.09165
+        ],
+        [
+          50.72143,
+          6.08812
+        ],
+        [
+          50.72147,
+          6.08427
+        ],
+        [
+          50.72094,
+          6.07331
+        ],
+        [
+          50.726,
+          6.04982
+        ],
+        [
+          50.72777,
+          6.04671
+        ],
+        [
+          50.72843,
+          6.04446
+        ],
+        [
+          50.71853,
+          6.0414
+        ],
+        [
+          50.71828,
+          6.0397
+        ],
+        [
+          50.71955,
+          6.03738
+        ],
+        [
+          50.72,
+          6.03675
+        ],
+        [
+          50.72179,
+          6.0368
+        ],
+        [
+          50.72402,
+          6.03719
+        ],
+        [
+          50.7248,
+          6.03778
+        ],
+        [
+          50.72451,
+          6.03606
+        ],
+        [
+          50.72534,
+          6.03419
+        ],
+        [
+          50.72596,
+          6.03454
+        ],
+        [
+          50.72642,
+          6.03388
+        ],
+        [
+          50.72623,
+          6.03331
+        ],
+        [
+          50.72698,
+          6.03324
+        ],
+        [
+          50.72807,
+          6.03428
+        ],
+        [
+          50.72945,
+          6.03438
+        ],
+        [
+          50.73016,
+          6.03345
+        ],
+        [
+          50.73096,
+          6.03315
+        ],
+        [
+          50.73189,
+          6.03492
+        ],
+        [
+          50.73241,
+          6.035
+        ],
+        [
+          50.73345,
+          6.03419
+        ],
+        [
+          50.73597,
+          6.03723
+        ],
+        [
+          50.73747,
+          6.03967
+        ],
+        [
+          50.74041,
+          6.04072
+        ],
+        [
+          50.74237,
+          6.03942
+        ],
+        [
+          50.7455,
+          6.04044
+        ],
+        [
+          50.74979,
+          6.02982
+        ],
+        [
+          50.74778,
+          6.02818
+        ],
+        [
+          50.74801,
+          6.02755
+        ],
+        [
+          50.74968,
+          6.02849
+        ],
+        [
+          50.75013,
+          6.0291
+        ],
+        [
+          50.75351,
+          6.02133
+        ],
+        [
+          50.76336,
+          6.01836
+        ],
+        [
+          50.76453,
+          6.01919
+        ],
+        [
+          50.76623,
+          6.02141
+        ],
+        [
+          50.76849,
+          6.02274
+        ],
+        [
+          50.76861,
+          6.02313
+        ],
+        [
+          50.77259,
+          6.02643
+        ],
+        [
+          50.7735,
+          6.02793
+        ],
+        [
+          50.77416,
+          6.02766
+        ],
+        [
+          50.77424,
+          6.02699
+        ],
+        [
+          50.77486,
+          6.0269
+        ],
+        [
+          50.77553,
+          6.02612
+        ],
+        [
+          50.77562,
+          6.02479
+        ],
+        [
+          50.77604,
+          6.02408
+        ],
+        [
+          50.77601,
+          6.02221
+        ],
+        [
+          50.77636,
+          6.0215
+        ],
+        [
+          50.77625,
+          6.02115
+        ],
+        [
+          50.77649,
+          6.02033
+        ],
+        [
+          50.77685,
+          6.02053
+        ],
+        [
+          50.77709,
+          6.02024
+        ],
+        [
+          50.778,
+          6.01765
+        ],
+        [
+          50.77859,
+          6.01738
+        ],
+        [
+          50.77882,
+          6.01555
+        ],
+        [
+          50.77957,
+          6.01443
+        ],
+        [
+          50.77947,
+          6.01344
+        ],
+        [
+          50.77985,
+          6.01329
+        ],
+        [
+          50.78022,
+          6.01208
+        ],
+        [
+          50.78027,
+          6.0105
+        ],
+        [
+          50.78096,
+          6.00957
+        ],
+        [
+          50.7819,
+          6.00656
+        ],
+        [
+          50.7823,
+          6.00661
+        ],
+        [
+          50.78337,
+          6.00551
+        ],
+        [
+          50.78393,
+          6.00401
+        ],
+        [
+          50.78419,
+          6.00213
+        ],
+        [
+          50.78465,
+          6.00183
+        ],
+        [
+          50.78557,
+          5.99979
+        ],
+        [
+          50.78675,
+          5.99897
+        ],
+        [
+          50.78698,
+          5.99851
+        ],
+        [
+          50.78656,
+          5.99746
+        ],
+        [
+          50.78703,
+          5.99695
+        ],
+        [
+          50.78741,
+          5.99584
+        ],
+        [
+          50.79005,
+          5.99588
+        ],
+        [
+          50.79044,
+          5.99472
+        ],
+        [
+          50.79405,
+          5.98827
+        ],
+        [
+          50.79383,
+          5.98586
+        ],
+        [
+          50.79422,
+          5.98574
+        ],
+        [
+          50.79442,
+          5.9854
+        ],
+        [
+          50.79425,
+          5.98521
+        ],
+        [
+          50.79486,
+          5.98494
+        ],
+        [
+          50.79499,
+          5.9843
+        ],
+        [
+          50.79476,
+          5.98401
+        ],
+        [
+          50.79523,
+          5.98266
+        ],
+        [
+          50.79503,
+          5.98187
+        ],
+        [
+          50.79519,
+          5.98163
+        ],
+        [
+          50.79501,
+          5.98149
+        ],
+        [
+          50.79511,
+          5.98016
+        ],
+        [
+          50.79601,
+          5.97908
+        ],
+        [
+          50.7963,
+          5.97915
+        ],
+        [
+          50.79648,
+          5.97829
+        ],
+        [
+          50.7969,
+          5.97779
+        ],
+        [
+          50.79669,
+          5.97719
+        ],
+        [
+          50.79736,
+          5.97644
+        ],
+        [
+          50.79806,
+          5.97482
+        ],
+        [
+          50.8024,
+          5.97577
+        ],
+        [
+          50.80506,
+          5.9779
+        ],
+        [
+          50.80467,
+          5.9787
+        ],
+        [
+          50.80579,
+          5.9802
+        ],
+        [
+          50.80728,
+          5.98026
+        ],
+        [
+          50.80865,
+          5.98132
+        ],
+        [
+          50.81043,
+          5.98487
+        ],
+        [
+          50.81062,
+          5.98553
+        ],
+        [
+          50.80814,
+          5.99128
+        ],
+        [
+          50.80589,
+          5.99508
+        ],
+        [
+          50.80426,
+          5.99884
+        ],
+        [
+          50.80143,
+          6.00363
+        ],
+        [
+          50.80276,
+          6.00764
+        ],
+        [
+          50.80398,
+          6.01007
+        ],
+        [
+          50.80854,
+          6.01477
+        ],
+        [
+          50.80976,
+          6.01652
+        ],
+        [
+          50.81403,
+          6.02496
+        ],
+        [
+          50.81465,
+          6.02353
+        ],
+        [
+          50.81592,
+          6.02449
+        ],
+        [
+          50.81681,
+          6.0221
+        ],
+        [
+          50.8184,
+          6.02372
+        ],
+        [
+          50.81918,
+          6.02564
+        ],
+        [
+          50.81995,
+          6.02631
+        ],
+        [
+          50.82088,
+          6.02574
+        ],
+        [
+          50.8216,
+          6.0247
+        ],
+        [
+          50.82511,
+          6.02399
+        ],
+        [
+          50.82662,
+          6.02271
+        ],
+        [
+          50.82775,
+          6.02526
+        ],
+        [
+          50.82966,
+          6.01877
+        ],
+        [
+          50.83389,
+          6.01631
+        ],
+        [
+          50.83733,
+          6.01843
+        ],
+        [
+          50.8388,
+          6.01594
+        ],
+        [
+          50.84627,
+          6.01892
+        ],
+        [
+          50.84642,
+          6.02223
+        ],
+        [
+          50.84775,
+          6.02561
+        ],
+        [
+          50.8472,
+          6.02606
+        ],
+        [
+          50.84757,
+          6.02771
+        ],
+        [
+          50.84931,
+          6.03173
+        ],
+        [
+          50.85038,
+          6.03357
+        ],
+        [
+          50.8505,
+          6.0361
+        ],
+        [
+          50.851,
+          6.03763
+        ],
+        [
+          50.85086,
+          6.03947
+        ],
+        [
+          50.85112,
+          6.04009
+        ],
+        [
+          50.85122,
+          6.0421
+        ],
+        [
+          50.85181,
+          6.04286
+        ],
+        [
+          50.85198,
+          6.04388
+        ],
+        [
+          50.85254,
+          6.04396
+        ],
+        [
+          50.85271,
+          6.0445
+        ],
+        [
+          50.85238,
+          6.04507
+        ],
+        [
+          50.85275,
+          6.04538
+        ],
+        [
+          50.85286,
+          6.04653
+        ],
+        [
+          50.85357,
+          6.04758
+        ],
+        [
+          50.85422,
+          6.05008
+        ],
+        [
+          50.85501,
+          6.05025
+        ],
+        [
+          50.85542,
+          6.05077
+        ],
+        [
+          50.85553,
+          6.05224
+        ],
+        [
+          50.85689,
+          6.05394
+        ],
+        [
+          50.85723,
+          6.05505
+        ],
+        [
+          50.85717,
+          6.05641
+        ],
+        [
+          50.85673,
+          6.05681
+        ],
+        [
+          50.85551,
+          6.05715
+        ],
+        [
+          50.85437,
+          6.05657
+        ],
+        [
+          50.85431,
+          6.05708
+        ],
+        [
+          50.85298,
+          6.05691
+        ],
+        [
+          50.85202,
+          6.05722
+        ],
+        [
+          50.85188,
+          6.05679
+        ],
+        [
+          50.85159,
+          6.05695
+        ],
+        [
+          50.85136,
+          6.05651
+        ],
+        [
+          50.85108,
+          6.05671
+        ],
+        [
+          50.85104,
+          6.05751
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [],
+    "lakes": [
+      "Hangeweiher"
+    ],
+    "parks": [
+      "Waldpark Lousberg",
+      "Stadtgarten",
+      "Westpark",
+      "Kurpark Burtscheid"
+    ],
+    "boundary": "Aachen"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Aachen?",
+      "answer": "Laut Zensus 2022 haben 71.520 Aachenerinnen und Aachener ab 15 Jahren einen Hochschulabschluss (hochgerechnet), das sind etwa 32 Prozent – bundesweit rund 20 Prozent. Bei den 30- bis 49-Jährigen sind es rund 45 Prozent. Auch unter den sozialversicherungspflichtig Beschäftigten mit Arbeitsort Aachen hat fast jede dritte Person studiert (32 Prozent, bundesweit rund 21 Prozent)."
+    },
+    {
+      "question": "Gibt es in Aachen viele Singles?",
+      "answer": "In 53 Prozent aller Aachener Haushalte lebt nur eine Person (Zensus 2022, bundesweit 43 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Zudem sind 46 Prozent der Erwachsenen ledig, bundesweit rund 30 Prozent."
+    },
+    {
+      "question": "Wo lernen Akademiker in Aachen Singles kennen?",
+      "answer": "Rund um Dom und Markt, im Pontviertel, beim Spaziergang über den Lousberg oder im Suermondt-Ludwig-Museum. Der Stadt-Guide empfiehlt außerdem Krimi-Touren, Outdoor-Escape-Games und Tagesausflüge nach Maastricht und Lüttich. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "rdb-besch",
+      "publisher": "Statistische Ämter des Bundes und der Länder (Daten: Bundesagentur für Arbeit)",
+      "title": "Regionaldatenbank, Tabelle 13111-11-04-4: Sozialversicherungspflichtig Beschäftigte am Arbeitsort nach Art des beruflichen Ausbildungsabschlusses",
+      "stand": "Stand 30.06.2025",
+      "url": "https://www.regionalstatistik.de/genesis/online?operation=table&code=13111-11-04-4"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-2032: Personen ab 15 Jahren nach Alter und höchstem beruflichem Abschluss",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-2032"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 5000H-1002: Haushalte nach Größe des privaten Haushalts",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/5000H/table/5000H-1002"
+    },
+    {
+      "id": "zensus-familienstand",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-2007: Personen nach Alter und Familienstand",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-2007"
+    },
+    {
+      "id": "zensus-alter",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 1000A-0002: Durchschnittliches Alter",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/1000A/table/1000A-0002"
+    },
+    {
+      "id": "itnrw-studierende",
+      "publisher": "IT.NRW – Statistisches Landesamt",
+      "title": "Studierende und Studienanfänger/-innen nach Hochschulen, WS 2024/25 und 2025/26 (Tabelle 347/25)",
+      "stand": "Wintersemester 2025/26 (vorläufig)",
+      "url": "https://www.it.nrw/system/files/media/document/file/347_25.xls"
+    },
+    {
+      "id": "aachen-innovation",
+      "publisher": "Stadt Aachen",
+      "title": "Wo Innovation leuchtet",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.aachen.de/aachen-entdecken/typisch-aachen/wo-innovation-leuchtet/"
+    },
+    {
+      "id": "rwth-exzellenz",
+      "publisher": "RWTH Aachen University",
+      "title": "Exzellenzstrategie: Exzellenzcluster der RWTH",
+      "stand": "Förderung ab Januar 2026",
+      "url": "https://www.rwth-aachen.de/cms/root/wir/~emq/exzellenzinitiative/"
+    },
+    {
+      "id": "rwth-studierende",
+      "publisher": "RWTH Aachen University",
+      "title": "Studierendenzahlen Kompakt Wintersemester 2025/26",
+      "stand": "Stichtag 01.12.2025",
+      "url": "https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaakdmewh&download=1"
+    },
+    {
+      "id": "rwth-zahlen",
+      "publisher": "RWTH Aachen University",
+      "title": "The Big Picture in Figures",
+      "stand": "Juni 2026 (Daten 2025)",
+      "url": "https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaopuqcj"
+    },
+    {
+      "id": "itnrw-kommunalprofil",
+      "publisher": "IT.NRW – Statistisches Landesamt",
+      "title": "Kommunalprofil Aachen, krfr. Stadt",
+      "stand": "Stand 15.01.2026 (Bevölkerung 31.12.2024, Pendler 30.06.2024)",
+      "url": "https://statistik.nrw/sites/default/files/municipalprofiles/l05334002.pdf"
+    },
+    {
+      "id": "agit",
+      "publisher": "AGIT – Aachener Gesellschaft für Innovation und Technologietransfer",
+      "title": "Die Wirtschaftsförderung für die Technologieregion Aachen",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.agit.de/agit/ueber-uns"
+    },
+    {
+      "id": "ihk-wissenschaft",
+      "publisher": "IHK Aachen",
+      "title": "Standort Region Aachen: Wissenschaft und Technologie",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.ihk.de/aachen/standortpolitik/standort-region-aachen/kurzprofil-der-region/standort-region-aachen-wissenschaft-und-technologie-607146"
+    },
+    {
+      "id": "mkw-exzellenz",
+      "publisher": "Ministerium für Kultur und Wissenschaft NRW",
+      "title": "Universität Bonn und RWTH Aachen verteidigen ihren Status als Exzellenzuniversitäten",
+      "stand": "Pressemitteilung vom 11.03.2026",
+      "url": "https://www.mkw.nrw/universitaet-bonn-und-rwth-aachen-verteidigen-ihren-status-als-exzellenzuniversitaeten"
+    }
+  ]
+}
