@@ -1,0 +1,514 @@
+{
+  "source": "https://akademikersingles.de/magazin/wp-json/wp/v2",
+  "fetchedAt": "2026-10-02T21:03:29Z",
+  "posts": [
+    {
+      "id": 12,
+      "date": "2026-01-04T19:15:27",
+      "modified": "2026-06-16T13:03:40",
+      "slug": "warum-erfolg-anziehend-wirkt",
+      "link": "https://akademikersingles.de/magazin/warum-erfolg-anziehend-wirkt/",
+      "author": 1,
+      "featured_media": 14,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 17,
+      "date": "2026-01-06T20:32:58",
+      "modified": "2026-06-15T11:26:01",
+      "slug": "ist-status-sexy",
+      "link": "https://akademikersingles.de/magazin/ist-status-sexy/",
+      "author": 1,
+      "featured_media": 19,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 22,
+      "date": "2026-01-08T21:24:40",
+      "modified": "2026-06-16T13:31:17",
+      "slug": "intelligenz-vs-einkommen",
+      "link": "https://akademikersingles.de/magazin/intelligenz-vs-einkommen/",
+      "author": 1,
+      "featured_media": 26,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 30,
+      "date": "2026-01-10T21:45:50",
+      "modified": "2026-06-14T00:01:47",
+      "slug": "falschen-partner",
+      "link": "https://akademikersingles.de/magazin/falschen-partner/",
+      "author": 1,
+      "featured_media": 32,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 39,
+      "date": "2026-01-11T20:23:16",
+      "modified": "2026-06-18T00:02:38",
+      "slug": "neue-partner-kennenlernen",
+      "link": "https://akademikersingles.de/magazin/neue-partner-kennenlernen/",
+      "author": 1,
+      "featured_media": 41,
+      "categories": [
+        3
+      ],
+      "tags": []
+    },
+    {
+      "id": 46,
+      "date": "2026-01-13T22:05:42",
+      "modified": "2026-06-17T23:57:57",
+      "slug": "dating-apps",
+      "link": "https://akademikersingles.de/magazin/dating-apps/",
+      "author": 1,
+      "featured_media": 48,
+      "categories": [
+        3
+      ],
+      "tags": []
+    },
+    {
+      "id": 52,
+      "date": "2026-01-15T22:31:39",
+      "modified": "2026-06-17T23:38:19",
+      "slug": "beziehung-mit-unternehmern",
+      "link": "https://akademikersingles.de/magazin/beziehung-mit-unternehmern/",
+      "author": 1,
+      "featured_media": 55,
+      "categories": [
+        3
+      ],
+      "tags": []
+    },
+    {
+      "id": 60,
+      "date": "2026-01-16T23:05:52",
+      "modified": "2026-06-17T23:51:13",
+      "slug": "selten-zeit-haben-aber-lieben",
+      "link": "https://akademikersingles.de/magazin/selten-zeit-haben-aber-lieben/",
+      "author": 1,
+      "featured_media": 62,
+      "categories": [
+        3
+      ],
+      "tags": []
+    },
+    {
+      "id": 70,
+      "date": "2026-01-17T17:05:24",
+      "modified": "2026-06-17T23:21:26",
+      "slug": "erotisch-intelligenz",
+      "link": "https://akademikersingles.de/magazin/erotisch-intelligenz/",
+      "author": 1,
+      "featured_media": 71,
+      "categories": [
+        4
+      ],
+      "tags": []
+    },
+    {
+      "id": 73,
+      "date": "2026-01-18T17:16:15",
+      "modified": "2026-06-17T23:16:07",
+      "slug": "mentale-kompatibilitaet",
+      "link": "https://akademikersingles.de/magazin/mentale-kompatibilitaet/",
+      "author": 1,
+      "featured_media": 77,
+      "categories": [
+        4
+      ],
+      "tags": []
+    },
+    {
+      "id": 83,
+      "date": "2026-01-19T17:29:32",
+      "modified": "2026-06-17T18:58:08",
+      "slug": "smalltalk",
+      "link": "https://akademikersingles.de/magazin/smalltalk/",
+      "author": 1,
+      "featured_media": 84,
+      "categories": [
+        4
+      ],
+      "tags": []
+    },
+    {
+      "id": 92,
+      "date": "2026-01-20T17:42:28",
+      "modified": "2026-06-17T18:53:45",
+      "slug": "sapiosexualitaet",
+      "link": "https://akademikersingles.de/magazin/sapiosexualitaet/",
+      "author": 1,
+      "featured_media": 94,
+      "categories": [
+        4
+      ],
+      "tags": []
+    },
+    {
+      "id": 100,
+      "date": "2026-01-21T21:04:43",
+      "modified": "2026-06-17T18:48:03",
+      "slug": "erfolgreiche-partner-suchen",
+      "link": "https://akademikersingles.de/magazin/erfolgreiche-partner-suchen/",
+      "author": 1,
+      "featured_media": 103,
+      "categories": [
+        6
+      ],
+      "tags": []
+    },
+    {
+      "id": 113,
+      "date": "2026-01-22T21:38:10",
+      "modified": "2026-06-17T18:36:49",
+      "slug": "oberflaechlich",
+      "link": "https://akademikersingles.de/magazin/oberflaechlich/",
+      "author": 1,
+      "featured_media": 288,
+      "categories": [
+        6
+      ],
+      "tags": []
+    },
+    {
+      "id": 119,
+      "date": "2026-01-23T10:16:50",
+      "modified": "2026-06-17T18:18:25",
+      "slug": "luxus",
+      "link": "https://akademikersingles.de/magazin/luxus/",
+      "author": 1,
+      "featured_media": 122,
+      "categories": [
+        6
+      ],
+      "tags": []
+    },
+    {
+      "id": 128,
+      "date": "2026-01-24T10:48:42",
+      "modified": "2026-06-18T13:18:45",
+      "slug": "gold-digger",
+      "link": "https://akademikersingles.de/magazin/gold-digger/",
+      "author": 1,
+      "featured_media": 287,
+      "categories": [
+        6
+      ],
+      "tags": []
+    },
+    {
+      "id": 136,
+      "date": "2025-12-24T10:51:14",
+      "modified": "2026-06-17T17:13:38",
+      "slug": "gleichwertigkeit",
+      "link": "https://akademikersingles.de/magazin/gleichwertigkeit/",
+      "author": 1,
+      "featured_media": 137,
+      "categories": [
+        7
+      ],
+      "tags": []
+    },
+    {
+      "id": 141,
+      "date": "2025-12-25T11:16:22",
+      "modified": "2026-06-17T17:02:29",
+      "slug": "nicht-akademiker",
+      "link": "https://akademikersingles.de/magazin/nicht-akademiker/",
+      "author": 1,
+      "featured_media": 143,
+      "categories": [
+        7
+      ],
+      "tags": []
+    },
+    {
+      "id": 146,
+      "date": "2025-12-26T11:34:57",
+      "modified": "2026-06-17T16:52:29",
+      "slug": "machtgefaelle",
+      "link": "https://akademikersingles.de/magazin/machtgefaelle/",
+      "author": 1,
+      "featured_media": 149,
+      "categories": [
+        7
+      ],
+      "tags": []
+    },
+    {
+      "id": 151,
+      "date": "2025-12-28T11:51:45",
+      "modified": "2026-06-17T16:47:13",
+      "slug": "beide-stark",
+      "link": "https://akademikersingles.de/magazin/beide-stark/",
+      "author": 1,
+      "featured_media": 154,
+      "categories": [
+        7
+      ],
+      "tags": []
+    },
+    {
+      "id": 173,
+      "date": "2026-01-25T14:09:56",
+      "modified": "2026-06-17T16:16:53",
+      "slug": "leistungsorientierte-menschen",
+      "link": "https://akademikersingles.de/magazin/leistungsorientierte-menschen/",
+      "author": 1,
+      "featured_media": 175,
+      "categories": [
+        9
+      ],
+      "tags": []
+    },
+    {
+      "id": 181,
+      "date": "2026-01-26T20:26:42",
+      "modified": "2026-06-16T16:39:15",
+      "slug": "perfektionismus",
+      "link": "https://akademikersingles.de/magazin/perfektionismus/",
+      "author": 1,
+      "featured_media": 184,
+      "categories": [
+        9
+      ],
+      "tags": []
+    },
+    {
+      "id": 182,
+      "date": "2026-01-27T20:29:17",
+      "modified": "2026-06-17T15:21:26",
+      "slug": "kontrollbeduerfnis",
+      "link": "https://akademikersingles.de/magazin/kontrollbeduerfnis/",
+      "author": 1,
+      "featured_media": 188,
+      "categories": [
+        9
+      ],
+      "tags": []
+    },
+    {
+      "id": 195,
+      "date": "2026-01-28T12:30:34",
+      "modified": "2026-05-23T12:19:16",
+      "slug": "emotional-vorsichtig",
+      "link": "https://akademikersingles.de/magazin/emotional-vorsichtig/",
+      "author": 1,
+      "featured_media": 197,
+      "categories": [
+        9
+      ],
+      "tags": []
+    },
+    {
+      "id": 205,
+      "date": "2025-11-29T12:49:12",
+      "modified": "2026-06-13T06:02:33",
+      "slug": "akademiker-daten",
+      "link": "https://akademikersingles.de/magazin/akademiker-daten/",
+      "author": 1,
+      "featured_media": 211,
+      "categories": [
+        11
+      ],
+      "tags": []
+    },
+    {
+      "id": 206,
+      "date": "2025-11-28T12:45:57",
+      "modified": "2026-06-16T08:02:47",
+      "slug": "was-wirklich-zaehlt",
+      "link": "https://akademikersingles.de/magazin/was-wirklich-zaehlt/",
+      "author": 1,
+      "featured_media": 217,
+      "categories": [
+        11
+      ],
+      "tags": []
+    },
+    {
+      "id": 207,
+      "date": "2025-11-26T12:46:00",
+      "modified": "2026-06-13T18:02:14",
+      "slug": "erfolgsattraktivitaet",
+      "link": "https://akademikersingles.de/magazin/erfolgsattraktivitaet/",
+      "author": 1,
+      "featured_media": 221,
+      "categories": [
+        11
+      ],
+      "tags": []
+    },
+    {
+      "id": 208,
+      "date": "2025-11-20T12:46:02",
+      "modified": "2026-06-13T08:02:27",
+      "slug": "anspruch",
+      "link": "https://akademikersingles.de/magazin/anspruch/",
+      "author": 1,
+      "featured_media": 229,
+      "categories": [
+        11
+      ],
+      "tags": []
+    },
+    {
+      "id": 235,
+      "date": "2025-10-28T14:21:40",
+      "modified": "2026-06-16T13:48:08",
+      "slug": "timing",
+      "link": "https://akademikersingles.de/magazin/timing/",
+      "author": 1,
+      "featured_media": 244,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 236,
+      "date": "2025-10-26T14:21:42",
+      "modified": "2026-06-16T16:33:03",
+      "slug": "single-bleiben",
+      "link": "https://akademikersingles.de/magazin/single-bleiben/",
+      "author": 1,
+      "featured_media": 460,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 237,
+      "date": "2025-10-21T14:21:44",
+      "modified": "2026-06-16T14:14:15",
+      "slug": "liebe-als-projekt",
+      "link": "https://akademikersingles.de/magazin/liebe-als-projekt/",
+      "author": 1,
+      "featured_media": 252,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 238,
+      "date": "2025-10-29T14:21:45",
+      "modified": "2026-06-16T00:02:17",
+      "slug": "spaete-partnersuche",
+      "link": "https://akademikersingles.de/magazin/spaete-partnersuche/",
+      "author": 1,
+      "featured_media": 240,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 359,
+      "date": "2026-05-12T10:13:27",
+      "modified": "2026-06-05T20:02:35",
+      "slug": "exklusive-dating-apps",
+      "link": "https://akademikersingles.de/magazin/exklusive-dating-apps/",
+      "author": 1,
+      "featured_media": 361,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 370,
+      "date": "2026-05-22T07:05:52",
+      "modified": "2026-06-14T18:02:20",
+      "slug": "finanzielle-unabhaengigkeit-dating",
+      "link": "https://akademikersingles.de/magazin/finanzielle-unabhaengigkeit-dating/",
+      "author": 1,
+      "featured_media": 374,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 382,
+      "date": "2026-06-02T07:06:33",
+      "modified": "2026-06-14T20:02:08",
+      "slug": "gemeinsame-interessen-online-dating",
+      "link": "https://akademikersingles.de/magazin/gemeinsame-interessen-online-dating/",
+      "author": 1,
+      "featured_media": 386,
+      "categories": [
+        4
+      ],
+      "tags": []
+    },
+    {
+      "id": 524,
+      "date": "2026-07-07T12:57:23",
+      "modified": "2026-07-07T13:11:20",
+      "slug": "high-value-dating-akademiker",
+      "link": "https://akademikersingles.de/magazin/high-value-dating-akademiker/",
+      "author": 1,
+      "featured_media": 526,
+      "categories": [
+        2
+      ],
+      "tags": []
+    },
+    {
+      "id": 528,
+      "date": "2026-07-10T07:05:18",
+      "modified": "2026-07-11T02:04:09",
+      "slug": "ki-partner-chatbot-naehe",
+      "link": "https://akademikersingles.de/magazin/ki-partner-chatbot-naehe/",
+      "author": 1,
+      "featured_media": 530,
+      "categories": [
+        9
+      ],
+      "tags": []
+    },
+    {
+      "id": 537,
+      "date": "2026-09-05T07:02:07",
+      "modified": "2026-09-06T00:03:55",
+      "slug": "ki-begleiter-partnersuche",
+      "link": "https://akademikersingles.de/magazin/ki-begleiter-partnersuche/",
+      "author": 1,
+      "featured_media": 539,
+      "categories": [
+        12
+      ],
+      "tags": []
+    },
+    {
+      "id": 545,
+      "date": "2026-09-09T07:02:05",
+      "modified": "2026-09-10T00:04:05",
+      "slug": "depression-dating-loslassen",
+      "link": "https://akademikersingles.de/magazin/depression-dating-loslassen/",
+      "author": 1,
+      "featured_media": 547,
+      "categories": [
+        9
+      ],
+      "tags": []
+    }
+  ],
+  "tags": []
+}

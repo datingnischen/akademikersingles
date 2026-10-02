@@ -1,6 +1,7 @@
 import pagesSnapshot from "../data/public-pages.json" with { type: "json" };
 import categorySnapshot from "../data/magazine-categories.json" with { type: "json" };
 import mediaSnapshot from "../data/wp-media.json" with { type: "json" };
+import wpSnapshot from "../data/wp-posts.json" with { type: "json" };
 import { ORIGIN } from "./site.ts";
 import { assetHost, staticAsset } from "./static-asset.ts";
 
@@ -14,9 +15,10 @@ import { assetHost, staticAsset } from "./static-asset.ts";
  * Bewusst NICHT vorhanden: /wp/v2/users (Autoren-Enumeration) und /wp/v2/pages. `author` ist nur die ID,
  * `_embedded.author` gibt es nicht. Alles außer Beiträgen, Kategorien, Schlagwörtern und Beitragsbildern antwortet 404.
  *
- * IDs: Die Importdaten kennen keine WordPress-IDs. Beitrags-ID = 100000 + FNV-1a(Slug) mod 900000 (stabil,
- * unabhängig von Reihenfolge und neuen Artikeln), Beitragsbild-ID = 1000000 + Beitrags-ID, Kategorie-IDs stammen
- * aus data/magazine-categories.json. Die Zuordnung ist per Test fixiert (tests/wp-rest-compat.test.mjs).
+ * IDs und Zeitstempel: Der Seitenimport kennt keine WordPress-IDs. Darum liegt in data/wp-posts.json ein Abzug der
+ * echten Werte (ID, Datum, Autor, Kategorien, Beitragsbild-ID) aus dem WordPress-REST, solange dieser noch erreichbar
+ * war (scripts/fetch_wp_post_meta.py). Neue Artikel ohne Abzug bekommen eine stabile abgeleitete ID:
+ * 100000 + FNV-1a(Slug) mod 900000 (Beitragsbild: 1000000 + Beitrags-ID). Beides ist per Test fixiert.
  */
 
 export const PUBLIC_ORIGIN = ORIGIN;
@@ -59,6 +61,8 @@ type SourcePage = {
 };
 
 type SourceCategory = { id: number; slug: string; name: string; description: string; path: string; count: number };
+
+type WpPost = { id: number; slug: string; date: string; modified: string; author: number; featured_media: number; categories: number[]; tags: number[] };
 
 type SourceMedia = {
   id: number;
@@ -171,17 +175,19 @@ export function buildMagazineSource(): MagazineSource {
   const categoryRows = categorySnapshot.categories as unknown as Array<Omit<SourceCategory, "count">>;
   const mediaInfo = mediaSnapshot as unknown as Record<string, { width: number; height: number; mime: string; bytes: number }>;
 
+  const snapshot = new Map((wpSnapshot.posts as unknown as WpPost[]).map((post) => [post.slug, post]));
   const authorNames = [...new Set(pages.map((page) => page.author?.name ?? "Redaktion"))].sort();
   const posts: SourceEntry[] = pages.map((page) => {
     const slug = page.path.split("/")[2];
-    const id = postIdForSlug(slug);
+    const wp = snapshot.get(slug);
+    const id = wp?.id ?? postIdForSlug(slug);
     const info = page.heroImage ? mediaInfo[page.heroImage] : undefined;
-    const date = page.published as string;
-    const modified = page.modified || date;
+    const date = wp?.date ?? (page.published as string);
+    const modified = wp?.modified ?? (page.modified || date);
     const media: SourceMedia | null =
       page.heroImage && info
         ? {
-            id: mediaIdForPostId(id),
+            id: wp?.featured_media || mediaIdForPostId(id),
             slug: page.heroImage.split("/").pop()!.replace(/\.[^.]+$/, ""),
             title: page.title,
             altText: (page.heroImageAlt || page.title).trim() || page.title,
@@ -207,11 +213,11 @@ export function buildMagazineSource(): MagazineSource {
       dateGmt: berlinToGmt(date),
       modified,
       modifiedGmt: berlinToGmt(modified),
-      author: authorNames.indexOf(page.author?.name ?? "Redaktion") + 1,
+      author: wp?.author ?? authorNames.indexOf(page.author?.name ?? "Redaktion") + 1,
       categories: page.categories
         .map((categorySlug) => categoryRows.find((row) => row.slug === categorySlug)?.id)
         .filter((value): value is number => typeof value === "number"),
-      tags: [],
+      tags: wp?.tags ?? [],
       media,
     };
   });
@@ -220,7 +226,11 @@ export function buildMagazineSource(): MagazineSource {
     .map((row) => ({ ...row, description: row.description ?? "", count: posts.filter((post) => post.categories.includes(row.id)).length }))
     .sort((a, b) => a.id - b.id);
 
-  return { posts, categories, tags: [], media: posts.flatMap((post) => (post.media ? [post.media] : [])) };
+  const tags: SourceCategory[] = (wpSnapshot.tags as unknown as Array<{ id: number; name: string; slug: string; description?: string }>)
+    .map((row) => ({ id: row.id, name: row.name, slug: row.slug, description: row.description ?? "", path: "/magazin/", count: posts.filter((post) => post.tags.includes(row.id)).length }))
+    .sort((a, b) => a.id - b.id);
+
+  return { posts, categories, tags, media: posts.flatMap((post) => (post.media ? [post.media] : [])) };
 }
 
 let cached: MagazineSource | null = null;
@@ -314,6 +324,23 @@ function categoryObject(category: SourceCategory): Json {
   };
 }
 
+function tagObject(tag: SourceCategory): Json {
+  return {
+    id: tag.id,
+    count: tag.count,
+    description: tag.description,
+    link: `${PUBLIC_ORIGIN}/magazin/`,
+    name: tag.name,
+    slug: tag.slug,
+    taxonomy: "post_tag",
+    meta: [],
+    _links: {
+      self: [{ href: `${restBase}/tags/${tag.id}` }],
+      collection: [{ href: `${restBase}/tags` }],
+    },
+  };
+}
+
 function entryObject(entry: SourceEntry, source: MagazineSource, embed: Set<string> | null): Json {
   const media = entry.media;
   const object: Json = {
@@ -363,7 +390,10 @@ function entryObject(entry: SourceEntry, source: MagazineSource, embed: Set<stri
           .map((id) => source.categories.find((category) => category.id === id))
           .filter((category): category is SourceCategory => Boolean(category))
           .map((category) => termObject(category, "category")),
-        [],
+        entry.tags
+          .map((id) => source.tags.find((tag) => tag.id === id))
+          .filter((tag): tag is SourceCategory => Boolean(tag))
+          .map((tag) => termObject(tag, "post_tag")),
       ];
     }
     if (Object.keys(embedded).length) object._embedded = embedded;
@@ -518,8 +548,8 @@ function postCollection(params: URLSearchParams, source: MagazineSource): WpRest
   };
 }
 
-function categoryCollection(params: URLSearchParams, source: MagazineSource): WpRestResponse {
-  let rows = source.categories.filter((row) => row.count > 0 || params.get("hide_empty") === "false");
+function termCollection(kind: "categories" | "tags", params: URLSearchParams, source: MagazineSource): WpRestResponse {
+  let rows = (kind === "categories" ? source.categories : source.tags).filter((row) => row.count > 0 || params.get("hide_empty") === "false");
   const include = idList(params, "include");
   if (include) rows = rows.filter((row) => include.includes(row.id));
   const slugs = params.getAll("slug").flatMap((value) => value.split(",")).map((value) => value.trim()).filter(Boolean);
@@ -527,7 +557,7 @@ function categoryCollection(params: URLSearchParams, source: MagazineSource): Wp
   const post = idList(params, "post");
   if (post) {
     const entries = source.posts.filter((entry) => post.includes(entry.id));
-    rows = rows.filter((row) => entries.some((entry) => entry.categories.includes(row.id)));
+    rows = rows.filter((row) => entries.some((entry) => (kind === "categories" ? entry.categories : entry.tags).includes(row.id)));
   }
   const orderby = params.get("orderby") || "name";
   const direction = (params.get("order") || "asc").toLowerCase() === "desc" ? -1 : 1;
@@ -542,8 +572,8 @@ function categoryCollection(params: URLSearchParams, source: MagazineSource): Wp
   const fields = fieldPaths(params);
   return {
     status: 200,
-    body: rows.slice((page - 1) * perPage, page * perPage).map((row) => applyFields(categoryObject(row), fields)),
-    headers: collectionHeaders("categories", params, total, totalPages),
+    body: rows.slice((page - 1) * perPage, page * perPage).map((row) => applyFields((kind === "categories" ? categoryObject : tagObject)(row), fields)),
+    headers: collectionHeaders(kind, params, total, totalPages),
   };
 }
 
@@ -588,17 +618,12 @@ export function handleWpRest(route: string, params: URLSearchParams, source: Mag
     return { status: 200, body: applyFields(entryObject(entry, source, embedSet(params)), fieldPaths(params)), headers: {} };
   }
 
-  if (resource === "categories") {
-    if (!idPart) return categoryCollection(params, source);
-    const row = /^\d+$/.test(idPart) ? source.categories.find((item) => item.id === Number(idPart)) : undefined;
+  if (resource === "categories" || resource === "tags") {
+    if (!idPart) return termCollection(resource, params, source);
+    const rows = resource === "categories" ? source.categories : source.tags;
+    const row = /^\d+$/.test(idPart) ? rows.find((item) => item.id === Number(idPart)) : undefined;
     if (!row) return error(404, "rest_term_invalid", "Begriff existiert nicht.");
-    return { status: 200, body: applyFields(categoryObject(row), fieldPaths(params)), headers: {} };
-  }
-
-  // Das Magazin hat keine Schlagwörter: Liste leer, Einzelabruf 404.
-  if (resource === "tags") {
-    if (idPart) return error(404, "rest_term_invalid", "Begriff existiert nicht.");
-    return { status: 200, body: [], headers: collectionHeaders("tags", params, 0, 0) };
+    return { status: 200, body: applyFields((resource === "categories" ? categoryObject : tagObject)(row), fieldPaths(params)), headers: {} };
   }
 
   // Nur Beitragsbilder (die einzigen Medien); keine Liste der Mediathek.

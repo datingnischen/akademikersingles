@@ -10,7 +10,19 @@ const get = (route, query = "") => handleWpRest(route, new URLSearchParams(query
 const { pages } = JSON.parse(source("data/public-pages.json"));
 const articles = pages.filter((page) => page.family === "magazine");
 
-test("IDs: Beitrags-ID aus dem Slug ist stabil, eindeutig und fixiert", () => {
+test("IDs: echte WordPress-IDs aus dem Abzug, für neue Artikel stabile Ableitung aus dem Slug (fixiert)", () => {
+  const live = get("/wp/v2/posts", "slug=depression-dating-loslassen").body[0];
+  assert.equal(live.id, 545, "echte WordPress-ID");
+  assert.equal(live.featured_media, 547);
+  assert.equal(live.date, "2026-09-09T07:02:05");
+  assert.equal(live.modified, "2026-09-10T00:04:05");
+  assert.deepEqual(live.categories, [9]);
+  assert.equal(live.author, 1);
+  assert.equal(get("/wp/v2/posts/545").body.slug, "depression-dating-loslassen");
+  const snapshot = JSON.parse(source("data/wp-posts.json")).posts;
+  assert.equal(snapshot.length, articles.length, "jeder Artikel hat einen Abzug");
+  assert.equal(new Set(snapshot.map((post) => post.id)).size, snapshot.length);
+
   assert.equal(postIdForSlug("akademiker-daten"), 205102);
   assert.equal(postIdForSlug("depression-dating-loslassen"), 344566);
   assert.equal(postIdForSlug("timing"), 556599);
@@ -18,6 +30,7 @@ test("IDs: Beitrags-ID aus dem Slug ist stabil, eindeutig und fixiert", () => {
   const ids = articles.map((page) => postIdForSlug(page.path.split("/")[2]));
   assert.equal(new Set(ids).size, ids.length, "keine ID-Kollision");
   assert.ok(ids.every((id) => id >= 100000 && id < 1000000));
+  assert.ok(!ids.some((id) => snapshot.some((post) => post.id === id)), "abgeleitete IDs kollidieren nicht mit echten");
 });
 
 test("Zeitzone: Ortszeit Europe/Berlin wird korrekt nach GMT umgerechnet (Winter- und Sommerzeit)", () => {
@@ -42,7 +55,7 @@ test("posts: Teaser-Abruf wie bei ICONY liefert drei Beiträge im WordPress-Form
     }
     assert.equal(post.status, "publish");
     assert.equal(post.type, "post");
-    assert.equal(post.id, postIdForSlug(post.slug));
+    assert.ok(post.id > 0 && post.id < 100000, "echte WordPress-ID");
     assert.match(post.excerpt.rendered, /^<p>.+<\/p>\n$/s);
     assert.equal(typeof post.author, "number", "author nur als ID");
     assert.ok(post.categories.length > 0);
@@ -74,8 +87,7 @@ test("alle Magazin-Artikel (und nur diese) sind Beiträge; Beitragsbilder liegen
   for (const slug of ["author", "category", "partnersuche"]) assert.ok(!slugs.includes(slug));
   for (const post of all) {
     const page = articles.find((item) => item.path === `/magazin/${post.slug}/`);
-    assert.equal(post.date, page.published);
-    assert.equal(post.modified, page.modified);
+    assert.equal(post.date, page.published, "Datum stimmt mit dem Seitenimport überein");
     assert.ok(existsSync(new URL(`public${page.heroImage}`, root)), page.heroImage);
     assert.ok(post._embedded["wp:featuredmedia"][0].alt_text.trim());
   }
@@ -98,7 +110,7 @@ test("posts: _fields, slug, categories, order und Paginierung verhalten sich wie
   assert.equal(inCategory.body.length, category.count);
   assert.ok(inCategory.body.every((post) => post.categories.includes(category.id)));
 
-  const included = get("/wp/v2/posts", `include=${postIdForSlug("timing")},${postIdForSlug("luxus")}`);
+  const included = get("/wp/v2/posts", "include=235,119");
   assert.equal(included.body.length, 2);
 
   assert.equal(get("/wp/v2/posts", "search=sapiosexual").body.length > 0, true);
@@ -117,6 +129,7 @@ test("posts: _fields, slug, categories, order und Paginierung verhalten sich wie
 
 test("einzelne Beiträge, Kategorien, Beitragsbilder; Schlagwörter leer; Seiten und Unbekanntes antworten 404", () => {
   const post = get("/wp/v2/posts", "slug=timing").body[0];
+  assert.equal(post.id, 235);
   const single = get(`/wp/v2/posts/${post.id}`);
   assert.equal(single.status, 200);
   assert.equal(single.body.slug, "timing");
