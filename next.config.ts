@@ -25,6 +25,9 @@ export default function nextConfig(phase: string): NextConfig {
   return {
     poweredByHeader: false,
     trailingSlash: true,
+    // Die eingebaute Slash-Umleitung ist aus, damit /magazin/wp-json/... (REST-Endpunkt für ICONY, Aufruf ohne Slash am
+    // Ende) 200 JSON liefert statt 308. Seiten ohne Slash bedient proxy.ts unter der Slash-Adresse (Canonical zeigt auf diese).
+    skipTrailingSlashRedirect: true,
     assetPrefix: isDev ? undefined : `${assetHost}${assetPathPrefix}`,
     images: {
       formats: ["image/avif", "image/webp"],
@@ -34,7 +37,15 @@ export default function nextConfig(phase: string): NextConfig {
       remotePatterns: [{ protocol: "https", hostname: assetHostname, pathname: `${assetPathPrefix}/**` }],
     },
     async rewrites() {
-      return [{ source: `${assetPathPrefix}/:path*`, destination: "/:path*" }];
+      return {
+        // /magazin/?rest_route=/wp/v2/posts (WordPress ohne schöne Permalinks) geht an den REST-Endpunkt.
+        beforeFiles: [
+          { source: "/magazin", has: [{ type: "query", key: "rest_route" }], destination: "/magazin/index.php" },
+          { source: "/magazin/", has: [{ type: "query", key: "rest_route" }], destination: "/magazin/index.php" },
+        ],
+        afterFiles: [{ source: `${assetPathPrefix}/:path*`, destination: "/:path*" }],
+        fallback: [],
+      };
     },
     async redirects() {
       // Die WordPress-Paginierung entfällt: Hub und Kategorien zeigen alle Artikel auf einer Seite.
@@ -44,6 +55,11 @@ export default function nextConfig(phase: string): NextConfig {
         { source: "/social-media/", destination: "/ueber-uns/social-media/", permanent: true },
         { source: "/magazin/category/:slug/page/:n/", destination: "/magazin/category/:slug/", permanent: true },
         { source: "/magazin/author/:slug/page/:n/", destination: "/magazin/author/:slug/", permanent: true },
+        // Ohne Slash am Ende (skipTrailingSlashRedirect): dieselben Umleitungen noch einmal.
+        { source: "/magazin/page/:n", destination: "/magazin/", permanent: true },
+        { source: "/social-media", destination: "/ueber-uns/social-media/", permanent: true },
+        { source: "/magazin/category/:slug/page/:n", destination: "/magazin/category/:slug/", permanent: true },
+        { source: "/magazin/author/:slug/page/:n", destination: "/magazin/author/:slug/", permanent: true },
       ];
     },
     async headers() {
