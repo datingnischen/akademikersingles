@@ -1,0 +1,2064 @@
+{
+  "path": "/partnersuche/innsbruck/",
+  "name": "Innsbruck",
+  "country": "Österreich",
+  "region": "Tirol",
+  "seoTitle": "Partnersuche für Akademiker in Innsbruck – AkademikerSingles",
+  "seoDescription": "Akademiker in Innsbruck kennenlernen: Kennzahlen zu Bildung, Beruf und Single-Leben, Orte für das erste Treffen und Antworten zur Partnersuche.",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt am Inn",
+  "lead": "Universität Innsbruck seit 1669, Medizinische Universität, MCI und zwei weitere Hochschulen: In Innsbruck studierten im Studienjahr 2024/25 insgesamt 37.318 Menschen, und 29,7 % der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss. In 48,2 % der Haushalte lebt nur eine Person – zwischen Nordkette, Inn und Altstadt sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "29,7 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss – österreichweit 17,6 %",
+      "source": "aest-gemeinde"
+    },
+    {
+      "value": "37.318",
+      "label": "Studierende an den fünf Innsbrucker Hochschulen im Studienjahr 2024/25",
+      "source": "ibk-zahlen"
+    },
+    {
+      "value": "48,2 %",
+      "label": "aller Haushalte in Innsbruck sind Einpersonenhaushalte",
+      "source": "aest-indikatoren"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "132.820",
+      "label": "Einwohnerinnen und Einwohner in Innsbruck (Hauptwohnsitz)",
+      "source": "einwohner",
+      "note": "Wohnbevölkerung am 01.01.2026"
+    },
+    {
+      "value": "5",
+      "label": "Hochschulen: Universität, Medizinische Universität, MCI, Fachhochschule Gesundheit und Pädagogische Hochschule Tirol",
+      "source": "ibk-zahlen",
+      "note": "Studierende 2024/25: Universität Innsbruck 26.824, Medizinische Universität 3.683, MCI 3.880, FH Gesundheit 1.620, PH Tirol 1.311"
+    },
+    {
+      "value": "110.030",
+      "label": "Beschäftigte in Arbeitsstätten in Innsbruck",
+      "source": "aest-gemeinde",
+      "note": "Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+    },
+    {
+      "value": "12.345",
+      "label": "Unternehmen mit Sitz in Innsbruck",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Seit 1669 Universitätsstadt: Fast jede dritte Person ab 15 Jahren hat einen Hochschul- oder Akademieabschluss, deutlich mehr als im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "29,7 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; berechnet rund 35.000 Personen (Anteil mal Bevölkerung ab 15 Jahren, auf Tausend gerundet); Österreich 17,6 %",
+          "compare": {
+            "city": 29.7,
+            "germany": 17.6,
+            "unit": " %",
+            "max": 36
+          }
+        },
+        {
+          "value": "39,2 %",
+          "label": "der Frauen ab 25 Jahren haben einen tertiären Abschluss (Männer: 40,6 %)",
+          "source": "aest-indikatoren",
+          "note": "Tertiärquote nach ISCED 2011, Abgestimmte Erwerbsstatistik 2024; Österreich: Frauen 28,9 %, Männer 31,8 %",
+          "compare": {
+            "city": 39.2,
+            "germany": 28.9,
+            "unit": " %",
+            "max": 46
+          }
+        },
+        {
+          "value": "31.677",
+          "label": "Studierende an der Universität Innsbruck und der Medizinischen Universität Innsbruck, Wintersemester 2025/26",
+          "source": "uni-stud",
+          "note": "Berechnet: Summe der Studierenden (Universität Innsbruck 27.793, Medizinische Universität Innsbruck 3.884), Wintersemester 2025/26; Mehrfachzählung bei Studium an mehreren Universitäten möglich; ohne Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten"
+        }
+      ],
+      "takeaway": "Ob Medizin, Technik oder Management: Hier treffen Sie Menschen, die gern über den Tellerrand blicken – nicht nur auf die Berge."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Als Landeshauptstadt bündelt Innsbruck Arbeitsplätze für ganz Tirol: Hochschulen, Klinik und Dienstleister prägen den Arbeitsmarkt.",
+      "metrics": [
+        {
+          "value": "89,3 %",
+          "label": "der Beschäftigten arbeiten am Arbeitsort Innsbruck im Dienstleistungssektor",
+          "source": "aest-gemeinde",
+          "note": "Beschäftigte in Arbeitsstätten nach Wirtschaftssektoren, Abgestimmte Erwerbsstatistik 2024; Österreich 75,4 %",
+          "compare": {
+            "city": 89.3,
+            "germany": 75.4,
+            "unit": " %",
+            "max": 100
+          }
+        },
+        {
+          "value": "110.030",
+          "label": "Beschäftigte in Arbeitsstätten in Innsbruck",
+          "source": "aest-gemeinde",
+          "note": "14.661 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+        },
+        {
+          "value": "109.381",
+          "label": "Tiroler Arbeitsplätze befinden sich in Innsbruck – ein gutes Viertel aller Jobs im Bundesland",
+          "source": "ibk-zahlen",
+          "note": "Angabe der Stadt Innsbruck („Zahlen und Fakten 2025“)"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, ihr Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Innsbruck ist etwas jünger als der Bundesschnitt, und in fast jedem zweiten Haushalt lebt nur eine Person.",
+      "metrics": [
+        {
+          "value": "48,2 %",
+          "label": "Einpersonenhaushalte",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Österreich 38,9 %",
+          "compare": {
+            "city": 48.2,
+            "germany": 38.9,
+            "unit": " %",
+            "max": 55
+          }
+        },
+        {
+          "value": "42,8",
+          "label": "Jahre Durchschnittsalter – 0,8 Jahre jünger als der österreichische Schnitt",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)",
+          "compare": {
+            "city": 42.8,
+            "germany": 43.6,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "65.658",
+          "label": "Privathaushalte, im Schnitt 1,93 Personen (Österreich 2,18)",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Hochschulen & Wissenschaft",
+      "text": "Fünf Hochschulen mit zusammen 37.318 Studierenden (2024/25). Die Universität Innsbruck wurde 1669 von Kaiser Leopold I. gegründet und zählt 27.793 Studierende (Wintersemester 2025/26)."
+    },
+    {
+      "name": "Medizin & Forschung",
+      "text": "Die Medizinische Universität Innsbruck zählt 3.884 Studierende (Wintersemester 2025/26); die Universitätsklinik Innsbruck liegt am Innrain."
+    },
+    {
+      "name": "Wirtschaftsdrehscheibe Tirol",
+      "text": "109.381 Tiroler Arbeitsplätze befinden sich in Innsbruck; 12.345 Unternehmen haben ihren Sitz in der Stadt."
+    },
+    {
+      "name": "Management & Dienstleistungen",
+      "text": "89,3 % der Beschäftigten arbeiten im Dienstleistungssektor; das MCI Innsbruck zählt 3.880 Studierende (2024/25)."
+    },
+    {
+      "name": "Tourismus",
+      "text": "2023/24 verzeichnete die Stadt 1.028.303 Ankünfte und 1,87 Mio. Nächtigungen."
+    }
+  ],
+  "clusterSources": [
+    "ibk-zahlen",
+    "uibk-geschichte",
+    "uni-stud",
+    "aest-gemeinde"
+  ],
+  "places": [
+    {
+      "name": "Universität Innsbruck",
+      "kind": "work",
+      "district": "Innenstadt · Innrain",
+      "text": "Hauptstandort der 1669 gegründeten Universität; sie zählt 27.793 Studierende (Wintersemester 2025/26).",
+      "lat": 47.2626,
+      "lon": 11.3842
+    },
+    {
+      "name": "Medizinische Universität & Universitätsklinik",
+      "kind": "work",
+      "district": "Wilten · Schöpfstraße",
+      "text": "Medizinische Universität Innsbruck (3.884 Studierende, Wintersemester 2025/26) und Universitätsklinik in unmittelbarer Nachbarschaft.",
+      "lat": 47.261,
+      "lon": 11.3868
+    },
+    {
+      "name": "MCI Management Center Innsbruck",
+      "kind": "work",
+      "district": "Innenstadt · Universitätsstraße",
+      "text": "Hochschule mit 3.880 Studierenden (2024/25), im Zentrum der Stadt.",
+      "lat": 47.2692,
+      "lon": 11.3981
+    },
+    {
+      "name": "Campus Technik",
+      "kind": "work",
+      "district": "Hötting · Technikerstraße",
+      "text": "Der Campus Technikerstraße der Universität Innsbruck liegt im Westen der Stadt.",
+      "lat": 47.264,
+      "lon": 11.345
+    },
+    {
+      "name": "Hofgarten",
+      "kind": "date",
+      "district": "Innenstadt",
+      "text": "Park neben Hofburg und Landestheater – ein ruhiger Ort mitten in der Stadt.",
+      "lat": 47.2714,
+      "lon": 11.3971
+    },
+    {
+      "name": "Goldenes Dachl",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Wahrzeichen der Altstadt in der Herzog-Friedrich-Straße – von hier aus sind Cafés und Gassen zu Fuß erreichbar.",
+      "lat": 47.2686,
+      "lon": 11.3933
+    },
+    {
+      "name": "Tiroler Landestheater",
+      "kind": "date",
+      "district": "Innenstadt · Rennweg",
+      "text": "Theater am Rennweg – für einen Abend mit Schauspiel, Oper oder Konzert.",
+      "lat": 47.2697,
+      "lon": 11.3967
+    },
+    {
+      "name": "Markthalle",
+      "kind": "date",
+      "district": "Innenstadt · Herzog-Siegmund-Ufer",
+      "text": "Markthalle am Innufer, gut von der Altstadt aus zu erreichen.",
+      "lat": 47.2672,
+      "lon": 11.3896
+    },
+    {
+      "name": "Alpenzoo",
+      "kind": "date",
+      "district": "Hötting · Weiherburggasse",
+      "text": "Zoo am Hang oberhalb der Altstadt – für einen Spaziergang im Grünen.",
+      "lat": 47.2817,
+      "lon": 11.3976
+    },
+    {
+      "name": "Schloss Ambras",
+      "kind": "date",
+      "district": "Amras",
+      "text": "Schloss mit Park im Osten der Stadt – für einen längeren Nachmittag.",
+      "lat": 47.2566,
+      "lon": 11.4352
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 11.33,
+      "east": 11.44,
+      "south": 47.24,
+      "north": 47.285
+    },
+    "rivers": [
+      {
+        "name": "Inn",
+        "major": true,
+        "points": [
+          [
+            47.26608,
+            11.26742
+          ],
+          [
+            47.26562,
+            11.26947
+          ],
+          [
+            47.26555,
+            11.2717
+          ],
+          [
+            47.26636,
+            11.27893
+          ],
+          [
+            47.26612,
+            11.28153
+          ],
+          [
+            47.26585,
+            11.28347
+          ],
+          [
+            47.26402,
+            11.28803
+          ],
+          [
+            47.26363,
+            11.29123
+          ],
+          [
+            47.26362,
+            11.29448
+          ],
+          [
+            47.26444,
+            11.3064
+          ],
+          [
+            47.26565,
+            11.31738
+          ],
+          [
+            47.26548,
+            11.31837
+          ],
+          [
+            47.26487,
+            11.3214
+          ],
+          [
+            47.26378,
+            11.3239
+          ],
+          [
+            47.2603,
+            11.32674
+          ],
+          [
+            47.25901,
+            11.32735
+          ],
+          [
+            47.25718,
+            11.32991
+          ],
+          [
+            47.2568,
+            11.3312
+          ],
+          [
+            47.25507,
+            11.33393
+          ],
+          [
+            47.25367,
+            11.33673
+          ],
+          [
+            47.25265,
+            11.3404
+          ],
+          [
+            47.25251,
+            11.34209
+          ],
+          [
+            47.25273,
+            11.34484
+          ],
+          [
+            47.25483,
+            11.35273
+          ],
+          [
+            47.25512,
+            11.35694
+          ],
+          [
+            47.25462,
+            11.36071
+          ],
+          [
+            47.25303,
+            11.36802
+          ],
+          [
+            47.25316,
+            11.37078
+          ],
+          [
+            47.25349,
+            11.37192
+          ],
+          [
+            47.25396,
+            11.37299
+          ],
+          [
+            47.25883,
+            11.37848
+          ],
+          [
+            47.26445,
+            11.38353
+          ],
+          [
+            47.26887,
+            11.39154
+          ],
+          [
+            47.27757,
+            11.39857
+          ],
+          [
+            47.27931,
+            11.40165
+          ],
+          [
+            47.27994,
+            11.40335
+          ],
+          [
+            47.28028,
+            11.40539
+          ],
+          [
+            47.28025,
+            11.40854
+          ],
+          [
+            47.27741,
+            11.42183
+          ],
+          [
+            47.27034,
+            11.44011
+          ],
+          [
+            47.26791,
+            11.44739
+          ]
+        ]
+      },
+      {
+        "name": "Sill",
+        "major": false,
+        "points": [
+          [
+            47.23789,
+            11.38967
+          ],
+          [
+            47.2383,
+            11.39229
+          ],
+          [
+            47.23786,
+            11.39381
+          ],
+          [
+            47.23813,
+            11.39492
+          ],
+          [
+            47.23907,
+            11.39494
+          ],
+          [
+            47.24126,
+            11.39219
+          ],
+          [
+            47.24274,
+            11.39298
+          ],
+          [
+            47.24327,
+            11.39395
+          ],
+          [
+            47.24321,
+            11.39508
+          ],
+          [
+            47.2434,
+            11.39544
+          ],
+          [
+            47.24405,
+            11.39586
+          ],
+          [
+            47.24491,
+            11.39565
+          ],
+          [
+            47.24532,
+            11.39642
+          ],
+          [
+            47.24536,
+            11.39712
+          ],
+          [
+            47.24465,
+            11.39875
+          ],
+          [
+            47.24542,
+            11.40173
+          ],
+          [
+            47.24663,
+            11.4034
+          ],
+          [
+            47.24743,
+            11.40374
+          ],
+          [
+            47.24825,
+            11.40465
+          ],
+          [
+            47.24911,
+            11.4046
+          ],
+          [
+            47.24969,
+            11.40292
+          ],
+          [
+            47.25082,
+            11.40259
+          ],
+          [
+            47.25439,
+            11.40457
+          ],
+          [
+            47.25733,
+            11.40362
+          ],
+          [
+            47.26708,
+            11.40535
+          ],
+          [
+            47.26816,
+            11.40607
+          ],
+          [
+            47.26998,
+            11.40818
+          ],
+          [
+            47.27189,
+            11.40867
+          ],
+          [
+            47.27331,
+            11.41219
+          ],
+          [
+            47.27505,
+            11.41334
+          ],
+          [
+            47.27778,
+            11.41675
+          ],
+          [
+            47.27826,
+            11.41817
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Hofgarten",
+        "points": [
+          [
+            47.27285,
+            11.39896
+          ],
+          [
+            47.27019,
+            11.3984
+          ],
+          [
+            47.2702,
+            11.3972
+          ],
+          [
+            47.27008,
+            11.39719
+          ],
+          [
+            47.2701,
+            11.39688
+          ],
+          [
+            47.26993,
+            11.39686
+          ],
+          [
+            47.27,
+            11.39543
+          ],
+          [
+            47.27273,
+            11.39587
+          ],
+          [
+            47.27302,
+            11.39616
+          ],
+          [
+            47.27285,
+            11.39896
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Inn",
+        "lat": 47.2788,
+        "lon": 11.4157
+      },
+      {
+        "text": "Innenstadt",
+        "lat": 47.2672,
+        "lon": 11.3952,
+        "district": true
+      },
+      {
+        "text": "Wilten",
+        "lat": 47.259,
+        "lon": 11.3953,
+        "district": true
+      },
+      {
+        "text": "Pradl",
+        "lat": 47.267,
+        "lon": 11.4142,
+        "district": true
+      },
+      {
+        "text": "Hötting",
+        "lat": 47.2703,
+        "lon": 11.3831,
+        "district": true
+      },
+      {
+        "text": "Saggen",
+        "lat": 47.2752,
+        "lon": 11.404,
+        "district": true
+      },
+      {
+        "text": "Amras",
+        "lat": 47.2592,
+        "lon": 11.4255,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          47.24284,
+          11.3455
+        ],
+        [
+          47.2415,
+          11.34653
+        ],
+        [
+          47.24149,
+          11.34893
+        ],
+        [
+          47.24182,
+          11.34996
+        ],
+        [
+          47.24162,
+          11.35143
+        ],
+        [
+          47.24205,
+          11.35206
+        ],
+        [
+          47.24242,
+          11.35452
+        ],
+        [
+          47.24281,
+          11.35375
+        ],
+        [
+          47.24338,
+          11.35438
+        ],
+        [
+          47.2438,
+          11.35396
+        ],
+        [
+          47.24463,
+          11.35606
+        ],
+        [
+          47.24442,
+          11.35761
+        ],
+        [
+          47.24377,
+          11.35727
+        ],
+        [
+          47.24339,
+          11.35772
+        ],
+        [
+          47.24355,
+          11.35966
+        ],
+        [
+          47.24429,
+          11.36067
+        ],
+        [
+          47.24415,
+          11.36133
+        ],
+        [
+          47.24383,
+          11.3611
+        ],
+        [
+          47.24282,
+          11.36177
+        ],
+        [
+          47.24375,
+          11.36651
+        ],
+        [
+          47.24365,
+          11.36726
+        ],
+        [
+          47.24424,
+          11.36769
+        ],
+        [
+          47.24466,
+          11.36981
+        ],
+        [
+          47.24513,
+          11.37022
+        ],
+        [
+          47.24573,
+          11.37204
+        ],
+        [
+          47.24643,
+          11.37705
+        ],
+        [
+          47.24631,
+          11.37858
+        ],
+        [
+          47.24683,
+          11.3812
+        ],
+        [
+          47.24664,
+          11.38166
+        ],
+        [
+          47.24679,
+          11.38304
+        ],
+        [
+          47.24582,
+          11.3869
+        ],
+        [
+          47.2443,
+          11.38922
+        ],
+        [
+          47.24277,
+          11.39324
+        ],
+        [
+          47.24133,
+          11.39217
+        ],
+        [
+          47.2396,
+          11.39434
+        ],
+        [
+          47.23817,
+          11.39491
+        ],
+        [
+          47.23788,
+          11.39362
+        ],
+        [
+          47.23816,
+          11.39295
+        ],
+        [
+          47.23824,
+          11.39128
+        ],
+        [
+          47.23789,
+          11.38967
+        ],
+        [
+          47.23673,
+          11.38861
+        ],
+        [
+          47.23405,
+          11.38913
+        ],
+        [
+          47.23188,
+          11.39032
+        ],
+        [
+          47.22971,
+          11.38877
+        ],
+        [
+          47.22833,
+          11.38874
+        ],
+        [
+          47.2277,
+          11.38815
+        ],
+        [
+          47.22763,
+          11.38746
+        ],
+        [
+          47.22718,
+          11.38732
+        ],
+        [
+          47.2263,
+          11.38799
+        ],
+        [
+          47.225,
+          11.38803
+        ],
+        [
+          47.22403,
+          11.38886
+        ],
+        [
+          47.22166,
+          11.38908
+        ],
+        [
+          47.22042,
+          11.39073
+        ],
+        [
+          47.21952,
+          11.39061
+        ],
+        [
+          47.218,
+          11.389
+        ],
+        [
+          47.21636,
+          11.38951
+        ],
+        [
+          47.21579,
+          11.38878
+        ],
+        [
+          47.21478,
+          11.39011
+        ],
+        [
+          47.21345,
+          11.39019
+        ],
+        [
+          47.21208,
+          11.39289
+        ],
+        [
+          47.21227,
+          11.39352
+        ],
+        [
+          47.21282,
+          11.39378
+        ],
+        [
+          47.21236,
+          11.39456
+        ],
+        [
+          47.21289,
+          11.39535
+        ],
+        [
+          47.2124,
+          11.39621
+        ],
+        [
+          47.21237,
+          11.39743
+        ],
+        [
+          47.21271,
+          11.39837
+        ],
+        [
+          47.21493,
+          11.39827
+        ],
+        [
+          47.21598,
+          11.3975
+        ],
+        [
+          47.21624,
+          11.39799
+        ],
+        [
+          47.21541,
+          11.39975
+        ],
+        [
+          47.2153,
+          11.40087
+        ],
+        [
+          47.21647,
+          11.40374
+        ],
+        [
+          47.21925,
+          11.4064
+        ],
+        [
+          47.21955,
+          11.4065
+        ],
+        [
+          47.22001,
+          11.40588
+        ],
+        [
+          47.22084,
+          11.40599
+        ],
+        [
+          47.22136,
+          11.40661
+        ],
+        [
+          47.22125,
+          11.40808
+        ],
+        [
+          47.22009,
+          11.41007
+        ],
+        [
+          47.21918,
+          11.41337
+        ],
+        [
+          47.21909,
+          11.41493
+        ],
+        [
+          47.21847,
+          11.41599
+        ],
+        [
+          47.21706,
+          11.4172
+        ],
+        [
+          47.21608,
+          11.41787
+        ],
+        [
+          47.21507,
+          11.41786
+        ],
+        [
+          47.21486,
+          11.41841
+        ],
+        [
+          47.21522,
+          11.41995
+        ],
+        [
+          47.21958,
+          11.42298
+        ],
+        [
+          47.21871,
+          11.4255
+        ],
+        [
+          47.21764,
+          11.42587
+        ],
+        [
+          47.21674,
+          11.42778
+        ],
+        [
+          47.21565,
+          11.42778
+        ],
+        [
+          47.21317,
+          11.43079
+        ],
+        [
+          47.21395,
+          11.43176
+        ],
+        [
+          47.21386,
+          11.43263
+        ],
+        [
+          47.21443,
+          11.43427
+        ],
+        [
+          47.21421,
+          11.43487
+        ],
+        [
+          47.21448,
+          11.43615
+        ],
+        [
+          47.21165,
+          11.44341
+        ],
+        [
+          47.21077,
+          11.44736
+        ],
+        [
+          47.2127,
+          11.45062
+        ],
+        [
+          47.21302,
+          11.45397
+        ],
+        [
+          47.21482,
+          11.45256
+        ],
+        [
+          47.21628,
+          11.44992
+        ],
+        [
+          47.22158,
+          11.44262
+        ],
+        [
+          47.22156,
+          11.44217
+        ],
+        [
+          47.22308,
+          11.4397
+        ],
+        [
+          47.22406,
+          11.43552
+        ],
+        [
+          47.22457,
+          11.43473
+        ],
+        [
+          47.2256,
+          11.43477
+        ],
+        [
+          47.22649,
+          11.43261
+        ],
+        [
+          47.22651,
+          11.43183
+        ],
+        [
+          47.22604,
+          11.43082
+        ],
+        [
+          47.2267,
+          11.42874
+        ],
+        [
+          47.22767,
+          11.4281
+        ],
+        [
+          47.22799,
+          11.42724
+        ],
+        [
+          47.23175,
+          11.4254
+        ],
+        [
+          47.23414,
+          11.42491
+        ],
+        [
+          47.23482,
+          11.42427
+        ],
+        [
+          47.2352,
+          11.42368
+        ],
+        [
+          47.23546,
+          11.42201
+        ],
+        [
+          47.23509,
+          11.41946
+        ],
+        [
+          47.23702,
+          11.4181
+        ],
+        [
+          47.23731,
+          11.4191
+        ],
+        [
+          47.23919,
+          11.41794
+        ],
+        [
+          47.23918,
+          11.41872
+        ],
+        [
+          47.23936,
+          11.41866
+        ],
+        [
+          47.23929,
+          11.41634
+        ],
+        [
+          47.23971,
+          11.41495
+        ],
+        [
+          47.23866,
+          11.41324
+        ],
+        [
+          47.23873,
+          11.41139
+        ],
+        [
+          47.24242,
+          11.41081
+        ],
+        [
+          47.24317,
+          11.4103
+        ],
+        [
+          47.24405,
+          11.41048
+        ],
+        [
+          47.24679,
+          11.40956
+        ],
+        [
+          47.24732,
+          11.41073
+        ],
+        [
+          47.24804,
+          11.41399
+        ],
+        [
+          47.24851,
+          11.41459
+        ],
+        [
+          47.24806,
+          11.41812
+        ],
+        [
+          47.24757,
+          11.41893
+        ],
+        [
+          47.24743,
+          11.4205
+        ],
+        [
+          47.24683,
+          11.43139
+        ],
+        [
+          47.24703,
+          11.43189
+        ],
+        [
+          47.24892,
+          11.43222
+        ],
+        [
+          47.24915,
+          11.43162
+        ],
+        [
+          47.25035,
+          11.4307
+        ],
+        [
+          47.2512,
+          11.43089
+        ],
+        [
+          47.25234,
+          11.42914
+        ],
+        [
+          47.25283,
+          11.43192
+        ],
+        [
+          47.25224,
+          11.43237
+        ],
+        [
+          47.25338,
+          11.43412
+        ],
+        [
+          47.25274,
+          11.43663
+        ],
+        [
+          47.25328,
+          11.43793
+        ],
+        [
+          47.25409,
+          11.43758
+        ],
+        [
+          47.25429,
+          11.43788
+        ],
+        [
+          47.25569,
+          11.44142
+        ],
+        [
+          47.25642,
+          11.441
+        ],
+        [
+          47.25697,
+          11.44115
+        ],
+        [
+          47.25771,
+          11.4427
+        ],
+        [
+          47.25836,
+          11.44627
+        ],
+        [
+          47.25835,
+          11.44823
+        ],
+        [
+          47.25874,
+          11.45082
+        ],
+        [
+          47.25997,
+          11.45367
+        ],
+        [
+          47.25984,
+          11.45429
+        ],
+        [
+          47.26012,
+          11.45489
+        ],
+        [
+          47.26313,
+          11.45596
+        ],
+        [
+          47.26359,
+          11.4555
+        ],
+        [
+          47.26249,
+          11.45402
+        ],
+        [
+          47.26345,
+          11.4527
+        ],
+        [
+          47.26736,
+          11.45301
+        ],
+        [
+          47.26713,
+          11.4513
+        ],
+        [
+          47.26791,
+          11.44739
+        ],
+        [
+          47.26899,
+          11.44795
+        ],
+        [
+          47.278,
+          11.44393
+        ],
+        [
+          47.27884,
+          11.44414
+        ],
+        [
+          47.27888,
+          11.44568
+        ],
+        [
+          47.27962,
+          11.44865
+        ],
+        [
+          47.2823,
+          11.44768
+        ],
+        [
+          47.28261,
+          11.44948
+        ],
+        [
+          47.2832,
+          11.4492
+        ],
+        [
+          47.28335,
+          11.44961
+        ],
+        [
+          47.28432,
+          11.44902
+        ],
+        [
+          47.28449,
+          11.44936
+        ],
+        [
+          47.28634,
+          11.44792
+        ],
+        [
+          47.28592,
+          11.44675
+        ],
+        [
+          47.28745,
+          11.44604
+        ],
+        [
+          47.28692,
+          11.44374
+        ],
+        [
+          47.28775,
+          11.44311
+        ],
+        [
+          47.28778,
+          11.44202
+        ],
+        [
+          47.28886,
+          11.44063
+        ],
+        [
+          47.29065,
+          11.43941
+        ],
+        [
+          47.29072,
+          11.43717
+        ],
+        [
+          47.29231,
+          11.43552
+        ],
+        [
+          47.2933,
+          11.43218
+        ],
+        [
+          47.29406,
+          11.43492
+        ],
+        [
+          47.29452,
+          11.43499
+        ],
+        [
+          47.29551,
+          11.43387
+        ],
+        [
+          47.2952,
+          11.42837
+        ],
+        [
+          47.29536,
+          11.42478
+        ],
+        [
+          47.29589,
+          11.42401
+        ],
+        [
+          47.29601,
+          11.4219
+        ],
+        [
+          47.29572,
+          11.41969
+        ],
+        [
+          47.2948,
+          11.41949
+        ],
+        [
+          47.29456,
+          11.41859
+        ],
+        [
+          47.29458,
+          11.41624
+        ],
+        [
+          47.29551,
+          11.41606
+        ],
+        [
+          47.29714,
+          11.41472
+        ],
+        [
+          47.3031,
+          11.41367
+        ],
+        [
+          47.30403,
+          11.41184
+        ],
+        [
+          47.31524,
+          11.39969
+        ],
+        [
+          47.31574,
+          11.40085
+        ],
+        [
+          47.31574,
+          11.40336
+        ],
+        [
+          47.31661,
+          11.40516
+        ],
+        [
+          47.3187,
+          11.40715
+        ],
+        [
+          47.31878,
+          11.41701
+        ],
+        [
+          47.3198,
+          11.42405
+        ],
+        [
+          47.32056,
+          11.42607
+        ],
+        [
+          47.34307,
+          11.42716
+        ],
+        [
+          47.34476,
+          11.42759
+        ],
+        [
+          47.34635,
+          11.42742
+        ],
+        [
+          47.3471,
+          11.42636
+        ],
+        [
+          47.34824,
+          11.42027
+        ],
+        [
+          47.34791,
+          11.41831
+        ],
+        [
+          47.35088,
+          11.41386
+        ],
+        [
+          47.35109,
+          11.41155
+        ],
+        [
+          47.35207,
+          11.40791
+        ],
+        [
+          47.35187,
+          11.40625
+        ],
+        [
+          47.35158,
+          11.40593
+        ],
+        [
+          47.35156,
+          11.40358
+        ],
+        [
+          47.35109,
+          11.40292
+        ],
+        [
+          47.35087,
+          11.40172
+        ],
+        [
+          47.3511,
+          11.40013
+        ],
+        [
+          47.35093,
+          11.39747
+        ],
+        [
+          47.35118,
+          11.39634
+        ],
+        [
+          47.35101,
+          11.3943
+        ],
+        [
+          47.35123,
+          11.39376
+        ],
+        [
+          47.35097,
+          11.3929
+        ],
+        [
+          47.35105,
+          11.39152
+        ],
+        [
+          47.35155,
+          11.39018
+        ],
+        [
+          47.35315,
+          11.38849
+        ],
+        [
+          47.35406,
+          11.38665
+        ],
+        [
+          47.35469,
+          11.38615
+        ],
+        [
+          47.35633,
+          11.38293
+        ],
+        [
+          47.35549,
+          11.37995
+        ],
+        [
+          47.35542,
+          11.37831
+        ],
+        [
+          47.3552,
+          11.37816
+        ],
+        [
+          47.35546,
+          11.37696
+        ],
+        [
+          47.35499,
+          11.37567
+        ],
+        [
+          47.35547,
+          11.37483
+        ],
+        [
+          47.35583,
+          11.3724
+        ],
+        [
+          47.35683,
+          11.37068
+        ],
+        [
+          47.35646,
+          11.37017
+        ],
+        [
+          47.35676,
+          11.36948
+        ],
+        [
+          47.35678,
+          11.36774
+        ],
+        [
+          47.35722,
+          11.36694
+        ],
+        [
+          47.35703,
+          11.36639
+        ],
+        [
+          47.35769,
+          11.36439
+        ],
+        [
+          47.35846,
+          11.36368
+        ],
+        [
+          47.35945,
+          11.36181
+        ],
+        [
+          47.35951,
+          11.3596
+        ],
+        [
+          47.36013,
+          11.35776
+        ],
+        [
+          47.35908,
+          11.35652
+        ],
+        [
+          47.35765,
+          11.35614
+        ],
+        [
+          47.35693,
+          11.35553
+        ],
+        [
+          47.35572,
+          11.35333
+        ],
+        [
+          47.35421,
+          11.34886
+        ],
+        [
+          47.35256,
+          11.34645
+        ],
+        [
+          47.34794,
+          11.34255
+        ],
+        [
+          47.34184,
+          11.33933
+        ],
+        [
+          47.33963,
+          11.33879
+        ],
+        [
+          47.33938,
+          11.33734
+        ],
+        [
+          47.33976,
+          11.33702
+        ],
+        [
+          47.33995,
+          11.33622
+        ],
+        [
+          47.34045,
+          11.33602
+        ],
+        [
+          47.34078,
+          11.33504
+        ],
+        [
+          47.34125,
+          11.33508
+        ],
+        [
+          47.34196,
+          11.33417
+        ],
+        [
+          47.34242,
+          11.3332
+        ],
+        [
+          47.34271,
+          11.33125
+        ],
+        [
+          47.3409,
+          11.33355
+        ],
+        [
+          47.33503,
+          11.33486
+        ],
+        [
+          47.32944,
+          11.33679
+        ],
+        [
+          47.32694,
+          11.33674
+        ],
+        [
+          47.32313,
+          11.33863
+        ],
+        [
+          47.32245,
+          11.33858
+        ],
+        [
+          47.32202,
+          11.33906
+        ],
+        [
+          47.32164,
+          11.338
+        ],
+        [
+          47.32052,
+          11.33751
+        ],
+        [
+          47.31968,
+          11.3366
+        ],
+        [
+          47.31756,
+          11.33244
+        ],
+        [
+          47.31644,
+          11.33231
+        ],
+        [
+          47.31533,
+          11.33275
+        ],
+        [
+          47.31358,
+          11.33596
+        ],
+        [
+          47.3097,
+          11.33049
+        ],
+        [
+          47.30259,
+          11.32368
+        ],
+        [
+          47.29617,
+          11.31076
+        ],
+        [
+          47.29373,
+          11.30751
+        ],
+        [
+          47.29194,
+          11.30612
+        ],
+        [
+          47.28707,
+          11.30553
+        ],
+        [
+          47.28276,
+          11.30358
+        ],
+        [
+          47.28141,
+          11.30231
+        ],
+        [
+          47.2797,
+          11.30412
+        ],
+        [
+          47.27835,
+          11.30418
+        ],
+        [
+          47.27044,
+          11.30164
+        ],
+        [
+          47.26697,
+          11.3051
+        ],
+        [
+          47.26443,
+          11.30518
+        ],
+        [
+          47.26517,
+          11.31312
+        ],
+        [
+          47.26521,
+          11.31955
+        ],
+        [
+          47.26457,
+          11.32283
+        ],
+        [
+          47.2636,
+          11.32425
+        ],
+        [
+          47.26016,
+          11.32704
+        ],
+        [
+          47.25721,
+          11.33083
+        ],
+        [
+          47.25512,
+          11.33392
+        ],
+        [
+          47.25253,
+          11.33872
+        ],
+        [
+          47.25206,
+          11.34218
+        ],
+        [
+          47.25215,
+          11.34357
+        ],
+        [
+          47.25067,
+          11.34305
+        ],
+        [
+          47.25037,
+          11.34385
+        ],
+        [
+          47.24973,
+          11.34812
+        ],
+        [
+          47.25001,
+          11.35209
+        ],
+        [
+          47.24893,
+          11.35158
+        ],
+        [
+          47.24721,
+          11.34771
+        ],
+        [
+          47.24646,
+          11.34781
+        ],
+        [
+          47.24579,
+          11.34679
+        ],
+        [
+          47.24284,
+          11.3455
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Inn",
+        "major": true
+      },
+      {
+        "name": "Sill"
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Hofgarten"
+    ],
+    "boundary": "Innsbruck"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Innsbruck?",
+      "answer": "Laut Abgestimmter Erwerbsstatistik 2024 haben in Innsbruck 29,7 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss – das sind rund 35.000 Personen (berechnet); österreichweit sind es 17,6 Prozent. Die Tertiärquote der Frauen ab 25 Jahren liegt bei 39,2 Prozent, die der Männer bei 40,6 Prozent (Österreich: 28,9 bzw. 31,8 Prozent). Die öffentlichen Universitäten in Innsbruck zählen im Wintersemester 2025/26 zusammen 31.677 Studierende. Laut Stadt Innsbruck waren 2024/25 an den fünf Hochschulen der Stadt insgesamt 37.318 Studierende eingeschrieben."
+    },
+    {
+      "question": "Gibt es in Innsbruck viele Singles?",
+      "answer": "In 48,2 Prozent aller Haushalte in Innsbruck lebt nur eine Person (Abgestimmte Erwerbsstatistik 2024, österreichweit 38,9 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Das Durchschnittsalter liegt bei 42,8 Jahren (Österreich 43,6)."
+    },
+    {
+      "question": "Wo lernen Akademiker in Innsbruck Singles kennen?",
+      "answer": "Im Hofgarten, in der Altstadt rund um das Goldene Dachl, im Tiroler Landestheater oder in der Markthalle am Inn. Auch Veranstaltungen der Hochschulen und Ausflüge zum Alpenzoo oder nach Schloss Ambras bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "aest-gemeinde",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "aest-indikatoren",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Indikatoren für die Bundesländer und Landeshauptstädte (Blatt „Indikatoren 2024“): Durchschnittsalter, Einpersonenhaushalte, Tertiärquote ab 25 Jahren",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "uni-stud",
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "id": "einwohner",
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerung am 01.01.2026 nach Zählsprengel (Wohnbevölkerung, Hauptwohnsitzkonzept)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/405/Bev_Zaehlsprengel_2026.ods"
+    },
+    {
+      "id": "ibk-zahlen",
+      "publisher": "Landeshauptstadt Innsbruck",
+      "title": "Innsbruck – Zahlen und Fakten 2025 (Hochschulen und Studierende 2024/25, Arbeitsplätze, Tourismus 2023/24)",
+      "stand": "Ausgabe 2025",
+      "url": "https://www.innsbruck.gv.at/_asset/b89b827f-4c76-46d1-bd7a-9e22f688a451"
+    },
+    {
+      "id": "uibk-geschichte",
+      "publisher": "Universität Innsbruck",
+      "title": "Geschichte der Universität Innsbruck",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.uibk.ac.at/en/about-us/profile/history/"
+    }
+  ]
+}

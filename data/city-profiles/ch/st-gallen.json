@@ -1,0 +1,2366 @@
+{
+  "path": "/partnersuche/st-gallen/",
+  "name": "St. Gallen",
+  "country": "Schweiz",
+  "region": "St. Gallen",
+  "seoTitle": "Partnersuche für Akademiker St. Gallen – AkademikerSingles",
+  "seoDescription": "St. Gallen in Zahlen: rund 46 % mit Tertiärabschluss, Universität St.Gallen, 86.259 Beschäftigte, 46 % Einpersonenhaushalte. Partnersuche für Akademiker.",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt in der Ostschweiz",
+  "lead": "Universität St.Gallen, Kantonsspital und mehr Arbeitsplätze als Einwohner: In St. Gallen kommen auf 100 Einwohnerinnen und Einwohner rund 111 Beschäftigte, und rund 46 Prozent der 25- bis 64-Jährigen haben einen Tertiärabschluss. Zwischen Stiftsbezirk, Drei Weieren und Rosenberg sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "46 %",
+      "label": "der 25- bis 64-Jährigen haben einen Tertiärabschluss (Hochschule oder höhere Berufsbildung)",
+      "source": "sg-stadtstat",
+      "note": "Vom Bericht gerundet angegeben (BFS, Eurostat City Statistics, Strukturerhebung)"
+    },
+    {
+      "value": "111",
+      "label": "Beschäftigte je 100 Einwohnerinnen und Einwohner – mehr Arbeitsplätze als Einwohner",
+      "source": "sg-stadtstat"
+    },
+    {
+      "value": "46 %",
+      "label": "aller Haushalte in der Stadt St. Gallen sind Einpersonenhaushalte",
+      "source": "sg-stadtstat"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "9.517",
+      "label": "Studierende an der Universität St.Gallen im Wintersemester 2024/25",
+      "source": "bfs-stud",
+      "note": "Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung; dazu kommen unter anderem Studierende der Ostschweizer Fachhochschule und der Pädagogischen Hochschule St.Gallen"
+    },
+    {
+      "value": "86.259",
+      "label": "Beschäftigte in Arbeitsstätten der Stadt St. Gallen",
+      "source": "sg-statent",
+      "note": "STATENT, Dezember 2024 (Beschäftigungsverhältnisse)"
+    },
+    {
+      "value": "86,5 %",
+      "label": "der Beschäftigten arbeiten im Dienstleistungssektor",
+      "source": "sg-statent",
+      "note": "Berechnet: 74.601 von 86.259 Beschäftigten im tertiären Sektor, STATENT 2024"
+    },
+    {
+      "value": "78.863",
+      "label": "Einwohnerinnen und Einwohner der Stadt St. Gallen",
+      "source": "einwohner",
+      "note": "Ständige Wohnbevölkerung am 31.12.2024"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Universität St.Gallen am Rosenberg, Fachhochschule und Pädagogische Hochschule: Rund jede zweite Person im mittleren Erwachsenenalter hat eine tertiäre Ausbildung abgeschlossen.",
+      "metrics": [
+        {
+          "value": "46 %",
+          "label": "der 25- bis 64-Jährigen haben einen Tertiärabschluss",
+          "source": "sg-stadtstat",
+          "note": "Rund 46 Prozent laut Bericht (BFS, Eurostat City Statistics, Strukturerhebung; Schätzung, Berichtsjahr 2022). Die Tertiärstufe umfasst höhere Berufsbildung und Hochschulen"
+        },
+        {
+          "value": "9.517",
+          "label": "Studierende allein an der Universität St.Gallen",
+          "source": "bfs-stud",
+          "note": "Wintersemester 2024/25 (Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung); dazu die Ostschweizer Fachhochschule und die Pädagogische Hochschule St.Gallen"
+        },
+        {
+          "value": "25,1 %",
+          "label": "der 25- bis 64-Jährigen im Wahlkreis St. Gallen haben einen Hochschulabschluss (Kanton: 18,8 %)",
+          "source": "sg-bildung",
+          "note": "Strukturerhebung 2021–2023 (gepoolt), Vertrauensintervall ±1,1 Prozentpunkte. Der Wahlkreis St. Gallen umfasst die Stadt und einige Nachbargemeinden"
+        }
+      ],
+      "takeaway": "Ob Wirtschaft, Recht oder Medizin: In St. Gallen treffen Sie Menschen, die Studium und Beruf mit Ehrgeiz und Bodenhaftung verbinden."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Gesundheit, Finanzdienstleistungen, unternehmensnahe Dienstleistungen und Bildung prägen den Arbeitsmarkt der Stadt.",
+      "metrics": [
+        {
+          "value": "86.259",
+          "label": "Beschäftigte in St. Galler Arbeitsstätten",
+          "source": "sg-statent",
+          "note": "STATENT, Dezember 2024; in der Stadt gibt es mehr Arbeitsplätze als Einwohner, viele Beschäftigte pendeln ein"
+        },
+        {
+          "value": "17.277",
+          "label": "Beschäftigte im Gesundheits- und Sozialwesen",
+          "source": "sg-statent",
+          "note": "STATENT, Dezember 2024"
+        },
+        {
+          "value": "7.334",
+          "label": "Beschäftigte bei Banken, Versicherungen und weiteren Finanzdienstleistern",
+          "source": "sg-statent",
+          "note": "STATENT, Dezember 2024; dazu 3.872 in Informatik und Kommunikation"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, das Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Viele Erwachsene leben allein, rund vier von zehn sind ledig, und die Bevölkerung ist etwas jünger als im Landesschnitt.",
+      "metrics": [
+        {
+          "value": "40,7 %",
+          "label": "der Einwohnerinnen und Einwohner ab 20 Jahren sind ledig",
+          "source": "bfs-zivil",
+          "note": "Berechnet aus der Altersklassenstatistik (ständige Wohnbevölkerung, 31.12.2024); ledig heisst nicht automatisch Single, auch unverheiratete Paare zählen dazu",
+          "compare": {
+            "city": 40.7,
+            "germany": 33.1,
+            "unit": " %",
+            "max": 57
+          }
+        },
+        {
+          "value": "41,1",
+          "label": "Jahre Durchschnittsalter – gut ein Jahr jünger als der Schweizer Schnitt",
+          "source": "bfs-alter",
+          "note": "Berechnet aus den Einzelaltersjahren (vollendete Jahre) der ständigen Wohnbevölkerung, 31.12.2024; gleiche Rechenweise für Stadt und Schweiz",
+          "compare": {
+            "city": 41.1,
+            "germany": 42.5,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "46 %",
+          "label": "Einpersonenhaushalte",
+          "source": "sg-stadtstat",
+          "compareSource": "bfs-hh-ch",
+          "note": "Rund 46 Prozent laut Bericht (Berichtsjahr 2022, BFS und Eurostat City Statistics). Schweiz insgesamt: 37,5 % (BFS STATPOP 2025); die Zählweisen sind nicht identisch, daher ohne Balkenvergleich"
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Gesundheit & Soziales",
+      "text": "17.277 Beschäftigte im Gesundheits- und Sozialwesen, der grösste Wirtschaftsabschnitt der Stadt (STATENT 2024); das Kantonsspital St.Gallen liegt im Osten der Innenstadt."
+    },
+    {
+      "name": "Finanz- & Versicherungswirtschaft",
+      "text": "7.334 Beschäftigte bei Banken, Versicherungen und weiteren Finanzdienstleistern (STATENT 2024)."
+    },
+    {
+      "name": "Beratung & unternehmensnahe Dienstleistungen",
+      "text": "6.573 Beschäftigte in freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie 6.263 in sonstigen wirtschaftlichen Dienstleistungen (STATENT 2024)."
+    },
+    {
+      "name": "Bildung & Hochschulen",
+      "text": "7.905 Beschäftigte in Erziehung und Unterricht; Universität St.Gallen mit 9.517 Studierenden, dazu Ostschweizer Fachhochschule und Pädagogische Hochschule St.Gallen."
+    },
+    {
+      "name": "Informatik & Kommunikation",
+      "text": "3.872 Beschäftigte; laut Stadtstatistik hat der ICT-Bereich in St. Gallen eine hohe Bedeutung – nur in fünf von 23 Vergleichsstädten ist sie noch grösser."
+    }
+  ],
+  "clusterSources": [
+    "sg-statent",
+    "sg-stadtstat",
+    "bfs-stud"
+  ],
+  "places": [
+    {
+      "name": "Universität St.Gallen (HSG)",
+      "kind": "work",
+      "district": "St. Jakob · Dufourstrasse",
+      "text": "Campus der Universität St.Gallen am Rosenberg mit 9.517 Studierenden im Wintersemester 2024/25.",
+      "lat": 47.43,
+      "lon": 9.3722
+    },
+    {
+      "name": "Kantonsspital St.Gallen",
+      "kind": "work",
+      "district": "Linsebühl-Dreilinden · Rorschacher Strasse",
+      "text": "Kantonsspital im Osten der Innenstadt; im Gesundheits- und Sozialwesen der Stadt arbeiten insgesamt 17.277 Menschen.",
+      "lat": 47.4307,
+      "lon": 9.3873
+    },
+    {
+      "name": "Olma Messen St. Gallen",
+      "kind": "work",
+      "district": "St. Jakob",
+      "text": "Messe- und Veranstaltungszentrum im Osten der Stadt.",
+      "lat": 47.4325,
+      "lon": 9.3845
+    },
+    {
+      "name": "Stiftsbezirk & Stiftsbibliothek",
+      "kind": "date",
+      "district": "Altstadt · Klosterhof",
+      "text": "Der Stiftsbezirk mit der Stiftsbibliothek zählt zum UNESCO-Welterbe und liegt mitten in der Altstadt.",
+      "lat": 47.4232,
+      "lon": 9.3775
+    },
+    {
+      "name": "Drei Weieren",
+      "kind": "date",
+      "district": "Linsebühl-Dreilinden",
+      "text": "Weiher oberhalb der Altstadt, im Sommer auch zum Baden – ein Ziel für den Spaziergang nach der Arbeit.",
+      "lat": 47.4214,
+      "lon": 9.3873
+    },
+    {
+      "name": "Stadtpark & Kunstmuseum",
+      "kind": "date",
+      "district": "St. Jakob · Museumstrasse",
+      "text": "Kunstmuseum und Stadtpark liegen nebeneinander, die Tonhalle ist nur wenige Schritte entfernt.",
+      "lat": 47.4278,
+      "lon": 9.3816
+    },
+    {
+      "name": "Theater St. Gallen",
+      "kind": "date",
+      "district": "St. Jakob · Rorschacher Strasse",
+      "text": "Stadttheater am Rand des Stadtparks – Oper, Schauspiel und Tanz im selben Haus.",
+      "lat": 47.4264,
+      "lon": 9.3801
+    },
+    {
+      "name": "Textilmuseum",
+      "kind": "date",
+      "district": "Rosenberg · Kornhausstrasse",
+      "text": "Museum zur Textilgeschichte der Stadt, nahe dem Bahnhof.",
+      "lat": 47.4234,
+      "lon": 9.3736
+    },
+    {
+      "name": "Botanischer Garten",
+      "kind": "date",
+      "district": "Neudorf · Rorschacher Strasse",
+      "text": "Botanischer Garten im Osten der Stadt, neben dem Naturmuseum.",
+      "lat": 47.4406,
+      "lon": 9.4072
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 9.33,
+      "east": 9.43,
+      "south": 47.405,
+      "north": 47.448
+    },
+    "rivers": [
+      {
+        "name": "Sitter",
+        "major": true,
+        "points": [
+          [
+            47.40051,
+            9.32497
+          ],
+          [
+            47.40393,
+            9.32179
+          ],
+          [
+            47.40537,
+            9.32159
+          ],
+          [
+            47.40723,
+            9.32232
+          ],
+          [
+            47.40862,
+            9.32093
+          ],
+          [
+            47.40985,
+            9.32034
+          ],
+          [
+            47.41027,
+            9.32047
+          ],
+          [
+            47.41109,
+            9.32162
+          ],
+          [
+            47.41143,
+            9.32322
+          ],
+          [
+            47.41096,
+            9.32521
+          ],
+          [
+            47.40945,
+            9.32576
+          ],
+          [
+            47.4092,
+            9.32612
+          ],
+          [
+            47.40916,
+            9.32655
+          ],
+          [
+            47.40951,
+            9.32725
+          ],
+          [
+            47.41044,
+            9.32813
+          ],
+          [
+            47.41139,
+            9.32848
+          ],
+          [
+            47.41321,
+            9.32846
+          ],
+          [
+            47.41546,
+            9.32768
+          ],
+          [
+            47.41623,
+            9.32823
+          ],
+          [
+            47.4166,
+            9.32942
+          ],
+          [
+            47.41675,
+            9.3309
+          ],
+          [
+            47.41597,
+            9.33445
+          ],
+          [
+            47.41648,
+            9.3349
+          ],
+          [
+            47.41806,
+            9.33418
+          ],
+          [
+            47.41909,
+            9.33499
+          ],
+          [
+            47.41938,
+            9.3361
+          ],
+          [
+            47.41934,
+            9.33673
+          ],
+          [
+            47.41789,
+            9.33892
+          ],
+          [
+            47.41768,
+            9.33981
+          ],
+          [
+            47.41783,
+            9.3405
+          ],
+          [
+            47.4192,
+            9.34199
+          ],
+          [
+            47.42013,
+            9.34241
+          ],
+          [
+            47.42136,
+            9.34236
+          ],
+          [
+            47.42203,
+            9.34176
+          ],
+          [
+            47.42371,
+            9.33887
+          ],
+          [
+            47.42436,
+            9.33863
+          ],
+          [
+            47.42518,
+            9.33884
+          ],
+          [
+            47.42522,
+            9.33986
+          ],
+          [
+            47.42438,
+            9.34184
+          ],
+          [
+            47.42437,
+            9.34274
+          ],
+          [
+            47.42549,
+            9.34369
+          ],
+          [
+            47.42604,
+            9.34454
+          ],
+          [
+            47.42687,
+            9.34893
+          ],
+          [
+            47.42795,
+            9.35
+          ],
+          [
+            47.42889,
+            9.35374
+          ],
+          [
+            47.43058,
+            9.35597
+          ],
+          [
+            47.43264,
+            9.35692
+          ],
+          [
+            47.43345,
+            9.35829
+          ],
+          [
+            47.43364,
+            9.35905
+          ],
+          [
+            47.4334,
+            9.3603
+          ],
+          [
+            47.43369,
+            9.36095
+          ],
+          [
+            47.43504,
+            9.36132
+          ],
+          [
+            47.43674,
+            9.36062
+          ],
+          [
+            47.4392,
+            9.35802
+          ],
+          [
+            47.43992,
+            9.35797
+          ],
+          [
+            47.442,
+            9.35906
+          ],
+          [
+            47.44315,
+            9.3586
+          ],
+          [
+            47.44358,
+            9.35884
+          ],
+          [
+            47.44372,
+            9.35947
+          ],
+          [
+            47.44333,
+            9.3612
+          ],
+          [
+            47.4435,
+            9.36178
+          ],
+          [
+            47.44405,
+            9.36229
+          ],
+          [
+            47.44475,
+            9.3623
+          ],
+          [
+            47.44656,
+            9.36099
+          ],
+          [
+            47.44891,
+            9.36087
+          ],
+          [
+            47.45015,
+            9.36163
+          ],
+          [
+            47.45181,
+            9.3638
+          ],
+          [
+            47.45236,
+            9.36417
+          ],
+          [
+            47.45262,
+            9.36398
+          ],
+          [
+            47.45265,
+            9.36343
+          ],
+          [
+            47.4516,
+            9.36168
+          ],
+          [
+            47.45153,
+            9.36079
+          ],
+          [
+            47.45176,
+            9.36024
+          ],
+          [
+            47.45421,
+            9.35857
+          ],
+          [
+            47.45634,
+            9.35845
+          ],
+          [
+            47.457,
+            9.35921
+          ],
+          [
+            47.45742,
+            9.36103
+          ],
+          [
+            47.45713,
+            9.36306
+          ],
+          [
+            47.45713,
+            9.36685
+          ],
+          [
+            47.45731,
+            9.36777
+          ],
+          [
+            47.4583,
+            9.36899
+          ],
+          [
+            47.45874,
+            9.36897
+          ],
+          [
+            47.45948,
+            9.36837
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.44633,
+            9.3996
+          ],
+          [
+            47.44749,
+            9.40033
+          ],
+          [
+            47.44784,
+            9.39997
+          ],
+          [
+            47.44826,
+            9.40021
+          ],
+          [
+            47.44919,
+            9.39998
+          ],
+          [
+            47.45023,
+            9.40096
+          ],
+          [
+            47.4508,
+            9.40077
+          ],
+          [
+            47.45122,
+            9.40133
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.43663,
+            9.39663
+          ],
+          [
+            47.43663,
+            9.39841
+          ],
+          [
+            47.43724,
+            9.3988
+          ],
+          [
+            47.4377,
+            9.39955
+          ],
+          [
+            47.43937,
+            9.39962
+          ],
+          [
+            47.43966,
+            9.39924
+          ],
+          [
+            47.44062,
+            9.3992
+          ],
+          [
+            47.44134,
+            9.39852
+          ],
+          [
+            47.4419,
+            9.39894
+          ],
+          [
+            47.44232,
+            9.39867
+          ],
+          [
+            47.44239,
+            9.39779
+          ],
+          [
+            47.44315,
+            9.39716
+          ],
+          [
+            47.44363,
+            9.39762
+          ],
+          [
+            47.44454,
+            9.39748
+          ],
+          [
+            47.44539,
+            9.39833
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41951,
+            9.38016
+          ],
+          [
+            47.41947,
+            9.37869
+          ],
+          [
+            47.42064,
+            9.37788
+          ],
+          [
+            47.42119,
+            9.37828
+          ],
+          [
+            47.42204,
+            9.37758
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41596,
+            9.38382
+          ],
+          [
+            47.41582,
+            9.38307
+          ],
+          [
+            47.41703,
+            9.38247
+          ],
+          [
+            47.41737,
+            9.38186
+          ],
+          [
+            47.41804,
+            9.38177
+          ],
+          [
+            47.41895,
+            9.38108
+          ],
+          [
+            47.41945,
+            9.38025
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41474,
+            9.39689
+          ],
+          [
+            47.41492,
+            9.39624
+          ],
+          [
+            47.4147,
+            9.39549
+          ],
+          [
+            47.41476,
+            9.39466
+          ],
+          [
+            47.41403,
+            9.39165
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41691,
+            9.41216
+          ],
+          [
+            47.41669,
+            9.4117
+          ],
+          [
+            47.41697,
+            9.41016
+          ],
+          [
+            47.41693,
+            9.40927
+          ],
+          [
+            47.41626,
+            9.40623
+          ],
+          [
+            47.41613,
+            9.4038
+          ],
+          [
+            47.41473,
+            9.40001
+          ],
+          [
+            47.41488,
+            9.39859
+          ],
+          [
+            47.41467,
+            9.39809
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41427,
+            9.42632
+          ],
+          [
+            47.41662,
+            9.42454
+          ],
+          [
+            47.41743,
+            9.42351
+          ],
+          [
+            47.41821,
+            9.42373
+          ],
+          [
+            47.41929,
+            9.422
+          ],
+          [
+            47.41932,
+            9.4163
+          ]
+        ]
+      },
+      {
+        "name": "Steinach",
+        "major": false,
+        "points": [
+          [
+            47.41456,
+            9.39038
+          ],
+          [
+            47.41476,
+            9.38985
+          ],
+          [
+            47.41481,
+            9.38837
+          ],
+          [
+            47.41563,
+            9.38592
+          ],
+          [
+            47.41556,
+            9.38508
+          ],
+          [
+            47.41595,
+            9.38412
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Stadtpark",
+        "points": [
+          [
+            47.42747,
+            9.38046
+          ],
+          [
+            47.42658,
+            9.3812
+          ],
+          [
+            47.42668,
+            9.38233
+          ],
+          [
+            47.42718,
+            9.38289
+          ],
+          [
+            47.42753,
+            9.38375
+          ],
+          [
+            47.42865,
+            9.38396
+          ],
+          [
+            47.4291,
+            9.38339
+          ],
+          [
+            47.42747,
+            9.38046
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Botanischer Garten",
+        "points": [
+          [
+            47.44113,
+            9.40715
+          ],
+          [
+            47.44055,
+            9.4062
+          ],
+          [
+            47.43982,
+            9.40596
+          ],
+          [
+            47.43976,
+            9.40715
+          ],
+          [
+            47.43954,
+            9.40735
+          ],
+          [
+            47.44013,
+            9.40859
+          ],
+          [
+            47.44067,
+            9.40811
+          ],
+          [
+            47.44095,
+            9.4086
+          ],
+          [
+            47.44156,
+            9.40784
+          ],
+          [
+            47.44113,
+            9.40715
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Sitter",
+        "lat": 47.4259,
+        "lon": 9.3443
+      },
+      {
+        "text": "Altstadt",
+        "lat": 47.424,
+        "lon": 9.3745,
+        "district": true
+      },
+      {
+        "text": "St. Jakob",
+        "lat": 47.4278,
+        "lon": 9.3855,
+        "district": true
+      },
+      {
+        "text": "Rotmonten",
+        "lat": 47.4397,
+        "lon": 9.3776,
+        "district": true
+      },
+      {
+        "text": "St. Georgen",
+        "lat": 47.4157,
+        "lon": 9.3818,
+        "district": true
+      },
+      {
+        "text": "Lachen",
+        "lat": 47.4193,
+        "lon": 9.352,
+        "district": true
+      },
+      {
+        "text": "Neudorf",
+        "lat": 47.4384,
+        "lon": 9.4115,
+        "district": true
+      },
+      {
+        "text": "Bruggen",
+        "lat": 47.4103,
+        "lon": 9.3346,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          47.3996,
+          9.33968
+        ],
+        [
+          47.40007,
+          9.34046
+        ],
+        [
+          47.40001,
+          9.34249
+        ],
+        [
+          47.40086,
+          9.3467
+        ],
+        [
+          47.40129,
+          9.34754
+        ],
+        [
+          47.40134,
+          9.34854
+        ],
+        [
+          47.4024,
+          9.35203
+        ],
+        [
+          47.40342,
+          9.35434
+        ],
+        [
+          47.4034,
+          9.35477
+        ],
+        [
+          47.40232,
+          9.35631
+        ],
+        [
+          47.40204,
+          9.35857
+        ],
+        [
+          47.40268,
+          9.35957
+        ],
+        [
+          47.4034,
+          9.35983
+        ],
+        [
+          47.40457,
+          9.36352
+        ],
+        [
+          47.40439,
+          9.36409
+        ],
+        [
+          47.40468,
+          9.3646
+        ],
+        [
+          47.4047,
+          9.36627
+        ],
+        [
+          47.40591,
+          9.3679
+        ],
+        [
+          47.40619,
+          9.36875
+        ],
+        [
+          47.4068,
+          9.36911
+        ],
+        [
+          47.40771,
+          9.37168
+        ],
+        [
+          47.40711,
+          9.3727
+        ],
+        [
+          47.40769,
+          9.37508
+        ],
+        [
+          47.40726,
+          9.37598
+        ],
+        [
+          47.40752,
+          9.37722
+        ],
+        [
+          47.40727,
+          9.37848
+        ],
+        [
+          47.40666,
+          9.37915
+        ],
+        [
+          47.4068,
+          9.37982
+        ],
+        [
+          47.40622,
+          9.38153
+        ],
+        [
+          47.40632,
+          9.38315
+        ],
+        [
+          47.40567,
+          9.38509
+        ],
+        [
+          47.4056,
+          9.38693
+        ],
+        [
+          47.40445,
+          9.38933
+        ],
+        [
+          47.40454,
+          9.38969
+        ],
+        [
+          47.4024,
+          9.39046
+        ],
+        [
+          47.40127,
+          9.39193
+        ],
+        [
+          47.40101,
+          9.39277
+        ],
+        [
+          47.40124,
+          9.39506
+        ],
+        [
+          47.40058,
+          9.39745
+        ],
+        [
+          47.40068,
+          9.39797
+        ],
+        [
+          47.40143,
+          9.39785
+        ],
+        [
+          47.4014,
+          9.39904
+        ],
+        [
+          47.40077,
+          9.3998
+        ],
+        [
+          47.40097,
+          9.40062
+        ],
+        [
+          47.40084,
+          9.40187
+        ],
+        [
+          47.40126,
+          9.404
+        ],
+        [
+          47.40222,
+          9.40536
+        ],
+        [
+          47.40215,
+          9.40714
+        ],
+        [
+          47.40255,
+          9.40924
+        ],
+        [
+          47.4032,
+          9.40923
+        ],
+        [
+          47.40313,
+          9.41066
+        ],
+        [
+          47.40409,
+          9.41116
+        ],
+        [
+          47.40459,
+          9.41293
+        ],
+        [
+          47.40544,
+          9.41282
+        ],
+        [
+          47.40555,
+          9.4132
+        ],
+        [
+          47.40494,
+          9.41411
+        ],
+        [
+          47.40507,
+          9.41664
+        ],
+        [
+          47.40595,
+          9.41972
+        ],
+        [
+          47.40612,
+          9.42217
+        ],
+        [
+          47.40752,
+          9.42649
+        ],
+        [
+          47.40892,
+          9.42794
+        ],
+        [
+          47.40961,
+          9.42989
+        ],
+        [
+          47.4104,
+          9.42995
+        ],
+        [
+          47.40994,
+          9.42859
+        ],
+        [
+          47.41049,
+          9.42837
+        ],
+        [
+          47.41045,
+          9.42788
+        ],
+        [
+          47.41148,
+          9.42792
+        ],
+        [
+          47.41214,
+          9.42918
+        ],
+        [
+          47.41271,
+          9.42864
+        ],
+        [
+          47.41149,
+          9.43054
+        ],
+        [
+          47.41257,
+          9.43202
+        ],
+        [
+          47.41397,
+          9.43297
+        ],
+        [
+          47.41422,
+          9.43202
+        ],
+        [
+          47.41522,
+          9.43198
+        ],
+        [
+          47.41523,
+          9.43137
+        ],
+        [
+          47.4156,
+          9.43155
+        ],
+        [
+          47.41698,
+          9.43094
+        ],
+        [
+          47.4171,
+          9.43037
+        ],
+        [
+          47.41783,
+          9.42998
+        ],
+        [
+          47.41819,
+          9.43026
+        ],
+        [
+          47.41871,
+          9.4333
+        ],
+        [
+          47.4194,
+          9.43286
+        ],
+        [
+          47.42004,
+          9.43394
+        ],
+        [
+          47.42069,
+          9.43378
+        ],
+        [
+          47.42083,
+          9.43504
+        ],
+        [
+          47.42246,
+          9.43445
+        ],
+        [
+          47.42358,
+          9.43486
+        ],
+        [
+          47.42409,
+          9.43463
+        ],
+        [
+          47.42473,
+          9.43515
+        ],
+        [
+          47.42598,
+          9.43482
+        ],
+        [
+          47.42621,
+          9.43445
+        ],
+        [
+          47.42642,
+          9.43472
+        ],
+        [
+          47.4289,
+          9.43285
+        ],
+        [
+          47.42925,
+          9.43308
+        ],
+        [
+          47.42951,
+          9.43252
+        ],
+        [
+          47.43038,
+          9.43278
+        ],
+        [
+          47.4318,
+          9.43398
+        ],
+        [
+          47.43207,
+          9.43475
+        ],
+        [
+          47.4336,
+          9.43524
+        ],
+        [
+          47.4337,
+          9.43476
+        ],
+        [
+          47.43429,
+          9.43501
+        ],
+        [
+          47.43555,
+          9.43399
+        ],
+        [
+          47.43626,
+          9.43099
+        ],
+        [
+          47.43666,
+          9.4312
+        ],
+        [
+          47.43762,
+          9.43037
+        ],
+        [
+          47.43847,
+          9.43079
+        ],
+        [
+          47.43944,
+          9.42991
+        ],
+        [
+          47.44064,
+          9.42967
+        ],
+        [
+          47.44167,
+          9.42848
+        ],
+        [
+          47.44238,
+          9.42951
+        ],
+        [
+          47.44368,
+          9.43012
+        ],
+        [
+          47.44458,
+          9.43149
+        ],
+        [
+          47.44721,
+          9.42958
+        ],
+        [
+          47.45043,
+          9.42955
+        ],
+        [
+          47.4515,
+          9.42793
+        ],
+        [
+          47.45195,
+          9.42552
+        ],
+        [
+          47.45286,
+          9.42502
+        ],
+        [
+          47.45217,
+          9.42357
+        ],
+        [
+          47.45216,
+          9.42172
+        ],
+        [
+          47.45108,
+          9.42092
+        ],
+        [
+          47.4524,
+          9.41956
+        ],
+        [
+          47.45127,
+          9.41843
+        ],
+        [
+          47.45001,
+          9.41794
+        ],
+        [
+          47.44941,
+          9.41688
+        ],
+        [
+          47.45097,
+          9.41449
+        ],
+        [
+          47.45128,
+          9.41498
+        ],
+        [
+          47.45163,
+          9.41437
+        ],
+        [
+          47.45092,
+          9.41369
+        ],
+        [
+          47.45128,
+          9.41369
+        ],
+        [
+          47.45142,
+          9.41313
+        ],
+        [
+          47.45193,
+          9.41349
+        ],
+        [
+          47.452,
+          9.41313
+        ],
+        [
+          47.45165,
+          9.40958
+        ],
+        [
+          47.45193,
+          9.40865
+        ],
+        [
+          47.45131,
+          9.40791
+        ],
+        [
+          47.45283,
+          9.40563
+        ],
+        [
+          47.45235,
+          9.40576
+        ],
+        [
+          47.45222,
+          9.40537
+        ],
+        [
+          47.45269,
+          9.40458
+        ],
+        [
+          47.45216,
+          9.40417
+        ],
+        [
+          47.45229,
+          9.40198
+        ],
+        [
+          47.45121,
+          9.40134
+        ],
+        [
+          47.45163,
+          9.39751
+        ],
+        [
+          47.44945,
+          9.3965
+        ],
+        [
+          47.44771,
+          9.39613
+        ],
+        [
+          47.44782,
+          9.39523
+        ],
+        [
+          47.44628,
+          9.39433
+        ],
+        [
+          47.44602,
+          9.39514
+        ],
+        [
+          47.44473,
+          9.39441
+        ],
+        [
+          47.44465,
+          9.39481
+        ],
+        [
+          47.4439,
+          9.39446
+        ],
+        [
+          47.44384,
+          9.39473
+        ],
+        [
+          47.44225,
+          9.39406
+        ],
+        [
+          47.44309,
+          9.39097
+        ],
+        [
+          47.44439,
+          9.38913
+        ],
+        [
+          47.44501,
+          9.38878
+        ],
+        [
+          47.446,
+          9.39107
+        ],
+        [
+          47.44951,
+          9.39027
+        ],
+        [
+          47.45048,
+          9.38896
+        ],
+        [
+          47.44937,
+          9.38426
+        ],
+        [
+          47.44838,
+          9.38128
+        ],
+        [
+          47.44889,
+          9.38095
+        ],
+        [
+          47.45083,
+          9.38184
+        ],
+        [
+          47.45299,
+          9.38095
+        ],
+        [
+          47.4526,
+          9.37812
+        ],
+        [
+          47.45158,
+          9.37725
+        ],
+        [
+          47.45191,
+          9.37658
+        ],
+        [
+          47.45123,
+          9.37589
+        ],
+        [
+          47.452,
+          9.37431
+        ],
+        [
+          47.45134,
+          9.37452
+        ],
+        [
+          47.45068,
+          9.3742
+        ],
+        [
+          47.44967,
+          9.37499
+        ],
+        [
+          47.44908,
+          9.37657
+        ],
+        [
+          47.44789,
+          9.37693
+        ],
+        [
+          47.44726,
+          9.37612
+        ],
+        [
+          47.44775,
+          9.37494
+        ],
+        [
+          47.44811,
+          9.37516
+        ],
+        [
+          47.44845,
+          9.37313
+        ],
+        [
+          47.44928,
+          9.37269
+        ],
+        [
+          47.44927,
+          9.37094
+        ],
+        [
+          47.44867,
+          9.37097
+        ],
+        [
+          47.44856,
+          9.36996
+        ],
+        [
+          47.44807,
+          9.36931
+        ],
+        [
+          47.44792,
+          9.36889
+        ],
+        [
+          47.44816,
+          9.36768
+        ],
+        [
+          47.44774,
+          9.36709
+        ],
+        [
+          47.4473,
+          9.36537
+        ],
+        [
+          47.44657,
+          9.36649
+        ],
+        [
+          47.44577,
+          9.36692
+        ],
+        [
+          47.44531,
+          9.36779
+        ],
+        [
+          47.44405,
+          9.36766
+        ],
+        [
+          47.44454,
+          9.36423
+        ],
+        [
+          47.4452,
+          9.36255
+        ],
+        [
+          47.44511,
+          9.362
+        ],
+        [
+          47.44442,
+          9.36242
+        ],
+        [
+          47.44353,
+          9.36183
+        ],
+        [
+          47.44326,
+          9.36098
+        ],
+        [
+          47.44374,
+          9.35968
+        ],
+        [
+          47.44348,
+          9.35874
+        ],
+        [
+          47.44273,
+          9.35862
+        ],
+        [
+          47.44192,
+          9.35909
+        ],
+        [
+          47.44059,
+          9.35811
+        ],
+        [
+          47.43948,
+          9.35781
+        ],
+        [
+          47.4366,
+          9.36078
+        ],
+        [
+          47.43547,
+          9.36129
+        ],
+        [
+          47.43424,
+          9.36126
+        ],
+        [
+          47.43341,
+          9.3604
+        ],
+        [
+          47.43362,
+          9.35865
+        ],
+        [
+          47.43276,
+          9.35701
+        ],
+        [
+          47.43074,
+          9.35606
+        ],
+        [
+          47.42954,
+          9.35471
+        ],
+        [
+          47.4289,
+          9.35378
+        ],
+        [
+          47.42789,
+          9.34987
+        ],
+        [
+          47.42686,
+          9.34896
+        ],
+        [
+          47.42604,
+          9.34453
+        ],
+        [
+          47.42433,
+          9.34245
+        ],
+        [
+          47.42533,
+          9.33942
+        ],
+        [
+          47.42523,
+          9.33885
+        ],
+        [
+          47.42444,
+          9.33855
+        ],
+        [
+          47.42384,
+          9.33879
+        ],
+        [
+          47.42382,
+          9.33672
+        ],
+        [
+          47.42312,
+          9.33443
+        ],
+        [
+          47.42289,
+          9.3345
+        ],
+        [
+          47.42217,
+          9.33297
+        ],
+        [
+          47.42028,
+          9.33116
+        ],
+        [
+          47.41943,
+          9.32912
+        ],
+        [
+          47.4195,
+          9.3278
+        ],
+        [
+          47.41869,
+          9.32726
+        ],
+        [
+          47.41866,
+          9.3264
+        ],
+        [
+          47.418,
+          9.32557
+        ],
+        [
+          47.41818,
+          9.3252
+        ],
+        [
+          47.41807,
+          9.3239
+        ],
+        [
+          47.41772,
+          9.32363
+        ],
+        [
+          47.41642,
+          9.3174
+        ],
+        [
+          47.41665,
+          9.31515
+        ],
+        [
+          47.41542,
+          9.31257
+        ],
+        [
+          47.41464,
+          9.30959
+        ],
+        [
+          47.41395,
+          9.30872
+        ],
+        [
+          47.41485,
+          9.3075
+        ],
+        [
+          47.41448,
+          9.30631
+        ],
+        [
+          47.41586,
+          9.30443
+        ],
+        [
+          47.4157,
+          9.30382
+        ],
+        [
+          47.41617,
+          9.30349
+        ],
+        [
+          47.41685,
+          9.30413
+        ],
+        [
+          47.41817,
+          9.30639
+        ],
+        [
+          47.42109,
+          9.30826
+        ],
+        [
+          47.42132,
+          9.30663
+        ],
+        [
+          47.42219,
+          9.30503
+        ],
+        [
+          47.42224,
+          9.3031
+        ],
+        [
+          47.4216,
+          9.30231
+        ],
+        [
+          47.42185,
+          9.30177
+        ],
+        [
+          47.42061,
+          9.30091
+        ],
+        [
+          47.4208,
+          9.3002
+        ],
+        [
+          47.41945,
+          9.29733
+        ],
+        [
+          47.41887,
+          9.29682
+        ],
+        [
+          47.41858,
+          9.29606
+        ],
+        [
+          47.41278,
+          9.29727
+        ],
+        [
+          47.4082,
+          9.29767
+        ],
+        [
+          47.40857,
+          9.29451
+        ],
+        [
+          47.40767,
+          9.29399
+        ],
+        [
+          47.40755,
+          9.29336
+        ],
+        [
+          47.40599,
+          9.29218
+        ],
+        [
+          47.40577,
+          9.29256
+        ],
+        [
+          47.40446,
+          9.29202
+        ],
+        [
+          47.40452,
+          9.29171
+        ],
+        [
+          47.40405,
+          9.29152
+        ],
+        [
+          47.40252,
+          9.29221
+        ],
+        [
+          47.40086,
+          9.29532
+        ],
+        [
+          47.40011,
+          9.29559
+        ],
+        [
+          47.39936,
+          9.2968
+        ],
+        [
+          47.39895,
+          9.29678
+        ],
+        [
+          47.39755,
+          9.29544
+        ],
+        [
+          47.39764,
+          9.29504
+        ],
+        [
+          47.39698,
+          9.29421
+        ],
+        [
+          47.39636,
+          9.29423
+        ],
+        [
+          47.39669,
+          9.29498
+        ],
+        [
+          47.39623,
+          9.29476
+        ],
+        [
+          47.39643,
+          9.29629
+        ],
+        [
+          47.39619,
+          9.29842
+        ],
+        [
+          47.3953,
+          9.30065
+        ],
+        [
+          47.39515,
+          9.30199
+        ],
+        [
+          47.39549,
+          9.30216
+        ],
+        [
+          47.39522,
+          9.30295
+        ],
+        [
+          47.39584,
+          9.30532
+        ],
+        [
+          47.39566,
+          9.30532
+        ],
+        [
+          47.39585,
+          9.30665
+        ],
+        [
+          47.39609,
+          9.3068
+        ],
+        [
+          47.39658,
+          9.30862
+        ],
+        [
+          47.39651,
+          9.3103
+        ],
+        [
+          47.39682,
+          9.31051
+        ],
+        [
+          47.39699,
+          9.31239
+        ],
+        [
+          47.39764,
+          9.31484
+        ],
+        [
+          47.39775,
+          9.31767
+        ],
+        [
+          47.39729,
+          9.31813
+        ],
+        [
+          47.39792,
+          9.31836
+        ],
+        [
+          47.39819,
+          9.32028
+        ],
+        [
+          47.39899,
+          9.32119
+        ],
+        [
+          47.39956,
+          9.32297
+        ],
+        [
+          47.40065,
+          9.32473
+        ],
+        [
+          47.40041,
+          9.32535
+        ],
+        [
+          47.40074,
+          9.32574
+        ],
+        [
+          47.40126,
+          9.32776
+        ],
+        [
+          47.4013,
+          9.32934
+        ],
+        [
+          47.40081,
+          9.33035
+        ],
+        [
+          47.4006,
+          9.33195
+        ],
+        [
+          47.39949,
+          9.33264
+        ],
+        [
+          47.39993,
+          9.33431
+        ],
+        [
+          47.39918,
+          9.33536
+        ],
+        [
+          47.39913,
+          9.33605
+        ],
+        [
+          47.40021,
+          9.33812
+        ],
+        [
+          47.3996,
+          9.33968
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Sitter",
+        "major": true
+      },
+      {
+        "name": "Steinach"
+      }
+    ],
+    "lakes": [
+      "Drei Weieren"
+    ],
+    "parks": [
+      "Stadtpark",
+      "Botanischer Garten"
+    ],
+    "boundary": "St. Gallen"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in St. Gallen?",
+      "answer": "Laut dem Städtevergleich der Fachstelle für Statistik haben rund 46 Prozent der 25- bis 64-Jährigen in der Stadt St. Gallen einen Tertiärabschluss, also einen Abschluss an einer Hochschule oder in der höheren Berufsbildung (Berichtsjahr 2022). Im Wahlkreis St. Gallen, der die Stadt und einige Nachbargemeinden umfasst, haben 25,1 Prozent der 25- bis 64-Jährigen einen Hochschulabschluss, im ganzen Kanton 18,8 Prozent (Strukturerhebung 2021–2023). Die Werte sind Schätzungen aus einer Stichprobe."
+    },
+    {
+      "question": "Gibt es in St. Gallen viele Singles?",
+      "answer": "Rund 46 Prozent der Haushalte in der Stadt St. Gallen sind Einpersonenhaushalte (Berichtsjahr 2022). Zudem sind 40,7 Prozent der Einwohnerinnen und Einwohner ab 20 Jahren ledig, in der ganzen Schweiz 33,1 Prozent (BFS, 31.12.2024). Alleinlebend oder ledig heisst nicht automatisch Single – die Zahlen zeigen aber, wie verbreitet das Leben ohne Trauschein oder gemeinsamen Haushalt ist."
+    },
+    {
+      "question": "Wo lernen Akademiker in St. Gallen Singles kennen?",
+      "answer": "Im Stiftsbezirk und rund um die Stiftsbibliothek, bei einem Spaziergang zu den Drei Weieren, im Stadtpark mit Kunstmuseum und Tonhalle oder im Theater. Auch Vorträge und Veranstaltungen der Universität St.Gallen bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "einwohner",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP: Ständige und nichtständige Wohnbevölkerung nach Gemeinde, Alter (PxWeb px-x-0102010000_101), ständige Wohnbevölkerung",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-alter",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_101: Wohnbevölkerung nach Gemeinde und Einzelaltersjahren (Durchschnittsalter eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-zivil",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_103: Wohnbevölkerung nach Gemeinde, Zivilstand und Altersklasse (Anteil Lediger ab 20 Jahren eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+    },
+    {
+      "id": "bfs-stud",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Studierende an den universitären Hochschulen nach Jahr, Fachrichtung, Studienstufe und Hochschule (PxWeb px-x-1502040100_105)",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_105/px-x-1502040100_105.px"
+    },
+    {
+      "id": "sg-stadtstat",
+      "publisher": "Fachstelle für Statistik Kanton St.Gallen (im Auftrag der Stadt St.Gallen)",
+      "title": "Stadtstatistik aktuell 21: Wohnen, arbeiten, wirtschaften – Die Stadt St.Gallen im europäischen Städtevergleich 2022 (Quelle: BFS, Eurostat City Statistics)",
+      "stand": "September 2025",
+      "url": "https://www.stadt.sg.ch/content/dam/dokument_library/statistik/stadtstatistik-aktuell/stadtstatakt-21-2025.pdf"
+    },
+    {
+      "id": "sg-statent",
+      "publisher": "Amt für Daten und Statistik des Kantons St.Gallen (nach BFS-STATENT)",
+      "title": "Arbeitsstätten, Beschäftigte und Vollzeitäquivalente 2024 nach Wirtschaftszweig, Kanton St.Gallen, Wahlkreise und Gemeinden (B06 STATENT 001)",
+      "stand": "STATENT Dezember 2024, publiziert 20.08.2026",
+      "url": "https://www.sg.ch/content/dam/sgch/kanton-stgallen/statistik/b06/B06_STATENT_001_Arbeitsstätten-Beschäftigung_Gemeinden-Wahlkreise.pdf"
+    },
+    {
+      "id": "sg-bildung",
+      "publisher": "Fachstelle für Statistik Kanton St.Gallen (nach BFS-Strukturerhebung)",
+      "title": "Höchste abgeschlossene Ausbildung der 25–64-jährigen ständigen Wohnbevölkerung nach Wahlkreisen (B15)",
+      "stand": "Strukturerhebung 2021–2023, publiziert 26.03.2025",
+      "url": "https://www.sg.ch/content/dam/sgch/kanton-stgallen/statistik/b15/B15_Bildungsstand_01_Bevölkerung_Kanton_SG_und_Wahlkreise.pdf"
+    },
+    {
+      "id": "bfs-hh-ch",
+      "publisher": "Bundesamt für Statistik (BFS), publiziert durch die Finanzverwaltung des Kantons Bern",
+      "title": "STATPOP: Privathaushalte nach Haushaltsgrösse, Kantone 2012–2025 (Schweiz: 1.537.386 von 4.105.458 Haushalten)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.fin.be.ch/content/dam/fin/dokumente/de/finanzverwaltung/statistik/bev%C3%B6lkerungsstatistik/haushalte/Privathaushalte%20nach%20Haushaltsgr%C3%B6sse_Kantone_2012_2025_d.xlsx"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { categoryLabel, getCategories, getCities, getGuides, guideLabel } from "@/lib/content";
 import { FEATURE_LINKS, LEGAL_LINKS, LOGIN_URL, REVIEW, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./site-shell.module.css";

@@ -15,6 +15,17 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "/partnersuche/muenster/": [51.9607, 7.6261],
   "/partnersuche/stuttgart/": [48.7758, 9.1829],
   "/partnersuche/tuebingen/": [48.5216, 9.0576],
+  // Österreich und Schweiz (Dossiers in data/city-profiles/at|ch/)
+  "/partnersuche/wien/": [48.2082, 16.3738],
+  "/partnersuche/graz/": [47.0707, 15.4395],
+  "/partnersuche/salzburg/": [47.8095, 13.0550],
+  "/partnersuche/innsbruck/": [47.2692, 11.4041],
+  "/partnersuche/linz/": [48.3069, 14.2858],
+  "/partnersuche/zuerich/": [47.3769, 8.5417],
+  "/partnersuche/bern/": [46.9480, 7.4474],
+  "/partnersuche/basel/": [47.5596, 7.5886],
+  "/partnersuche/lausanne/": [46.5197, 6.6323],
+  "/partnersuche/st-gallen/": [47.4245, 9.3767],
 };
 
 export function distanceKm(a: [number, number], b: [number, number]): number {

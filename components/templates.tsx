@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { CitySearchFallback } from "@/components/city-search-fallback";
 import { CityDossierTemplate } from "@/components/city-dossier";
 import { ArticleCard, Breadcrumbs, CityTile, ImageCredits, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
@@ -8,6 +8,8 @@ import {
   guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
 import { getCityProfile } from "@/lib/city-profile";
+import { requestMarket } from "@/lib/market-context";
+import { getMarket, marketOrigin } from "@/lib/markets";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import styles from "./templates.module.css";
 import { staticAsset } from "@/lib/static-asset";
@@ -186,25 +188,29 @@ const HUB_COLLAGE = ["/partnersuche/berlin/", "/partnersuche/muenchen/", "/partn
 
 export function LocationHubTemplate({ page }: { page: PublicPage }) {
   const cities = getCities();
+  const market = getMarket(requestMarket());
   const collage = HUB_COLLAGE.map(path => cities.find(city => city.path === path)).filter((city): city is PublicPage => Boolean(city?.heroImage));
+  const lead = market.code === "de"
+    ? "Begegnen Sie gebildeten Singles in Deutschlands Universitäts- und Wirtschaftsmetropolen – von Berlin bis Tübingen."
+    : `Stadtdossiers für ${cities.map(city => city.locationName).join(", ")}: Bildung, Beruf und Single-Leben, belegt mit amtlichen Zahlen.`;
   const crumbs = crumbsFor(page);
   return <main>
-    <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumbJsonLd(crumbs, ORIGIN), { "@type": "CollectionPage", name: page.heroTitle, url: page.canonical, description: page.description, inLanguage: "de-DE", hasPart: cities.map(city => ({ "@type": "WebPage", name: city.heroTitle, url: city.canonical })) }] }} />
+    <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumbJsonLd(crumbs, marketOrigin(market.code)), { "@type": "CollectionPage", name: page.heroTitle, url: page.canonical, description: page.description, inLanguage: market.locale, hasPart: cities.map(city => ({ "@type": "WebPage", name: city.heroTitle, url: city.canonical })) }] }} />
     <section className={styles.hero}>
       <div className={`container ${styles.heroInner}`}>
         <div className={styles.heroCopy}>
           <Breadcrumbs items={crumbs} tone="dark" />
-          <p className="eyebrow">{cities.length} Städte · Deutschland</p>
+          <p className="eyebrow">{cities.length} Städte · {market.countryName}</p>
           <h1 className="display">{page.heroTitle}</h1>
-          <p className={styles.heroLead}>Begegnen Sie gebildeten Singles in Deutschlands Universitäts- und Wirtschaftsmetropolen – von Berlin bis Tübingen.</p>
+          <p className={styles.heroLead}>{lead}</p>
           <a className="btn btn-gold" href={pageRegistrationUrl(page)}>Singles in Ihrer Nähe finden</a>
         </div>
-        <div className={styles.collage}>
+        {collage.length ? <div className={styles.collage}>
           {collage.map((city, index) => <Link key={city.path} href={city.path} className={styles.collageTile}>
             <Image src={city.heroImage!} alt={`Akademiker Singles in ${city.locationName}`} fill sizes="(max-width: 900px) 50vw, 22vw" priority={index < 2} />
             <span>{city.locationName}</span>
           </Link>)}
-        </div>
+        </div> : null}
       </div>
     </section>
     <section className={`container ${styles.citySection}`}>

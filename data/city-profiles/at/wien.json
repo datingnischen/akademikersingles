@@ -1,0 +1,2511 @@
+{
+  "path": "/partnersuche/wien/",
+  "name": "Wien",
+  "country": "Österreich",
+  "region": "Wien",
+  "seoTitle": "Partnersuche für Akademiker in Wien – AkademikerSingles",
+  "seoDescription": "Akademiker in Wien kennenlernen: Kennzahlen zu Bildung, Beruf und Single-Leben, Orte für das erste Treffen und Antworten zur Partnersuche.",
+  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt an der Donau",
+  "lead": "Universität Wien seit 1365, TU Wien, Wirtschaftsuniversität und Medizinische Universität: In Wien gibt es 26 Hochschulen, und 26,4 % der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss. In 45,3 % der Haushalte lebt nur eine Person – zwischen Ringstraße, Donauufer und Wienerwald sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "26,4 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss – österreichweit 17,6 %",
+      "source": "aest-gemeinde"
+    },
+    {
+      "value": "166.413",
+      "label": "Studierende an den öffentlichen Universitäten in Wien im Wintersemester 2025/26",
+      "source": "uni-stud"
+    },
+    {
+      "value": "45,3 %",
+      "label": "aller Haushalte in Wien sind Einpersonenhaushalte",
+      "source": "aest-indikatoren"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "2.040.914",
+      "label": "Einwohnerinnen und Einwohner in Wien (Hauptwohnsitz)",
+      "source": "einwohner",
+      "note": "Wohnbevölkerung am 01.01.2026; Summe der 23 Gemeindebezirke"
+    },
+    {
+      "value": "26",
+      "label": "Hochschulen in der Stadt",
+      "source": "wien-wirtschaft",
+      "note": "Angabe im Vorwort von „Wien in Zahlen – Wirtschaftsstandort 2024“ (Stadt Wien, MA 23)"
+    },
+    {
+      "value": "1.192.163",
+      "label": "Beschäftigte in Arbeitsstätten in Wien",
+      "source": "aest-gemeinde",
+      "note": "Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+    },
+    {
+      "value": "158.182",
+      "label": "Unternehmen mit Sitz in Wien",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Seit 1365 Universitätsstadt: In Wien hat mehr als jede vierte Person ab 15 Jahren einen Hochschul- oder Akademieabschluss, deutlich mehr als im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "26,4 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; berechnet rund 457.000 Personen (Anteil mal Bevölkerung ab 15 Jahren, auf Tausend gerundet); Österreich 17,6 %",
+          "compare": {
+            "city": 26.4,
+            "germany": 17.6,
+            "unit": " %",
+            "max": 32
+          }
+        },
+        {
+          "value": "37,9 %",
+          "label": "der Frauen ab 25 Jahren haben einen tertiären Abschluss (Männer: 37,6 %)",
+          "source": "aest-indikatoren",
+          "note": "Tertiärquote nach ISCED 2011, Abgestimmte Erwerbsstatistik 2024; Österreich: Frauen 28,9 %, Männer 31,8 %",
+          "compare": {
+            "city": 37.9,
+            "germany": 28.9,
+            "unit": " %",
+            "max": 46
+          }
+        },
+        {
+          "value": "166.413",
+          "label": "Studierende an den öffentlichen Universitäten in Wien, Wintersemester 2025/26",
+          "source": "uni-stud",
+          "note": "Berechnet: Summe der Studierenden (Universität Wien 87.161, Technische Universität Wien 27.264, Wirtschaftsuniversität Wien 23.003, Universität für Bodenkultur Wien 10.413, Medizinische Universität Wien 9.040, Veterinärmedizinische Universität Wien 2.589, Universität für Musik und darstellende Kunst Wien 3.096, Universität für angewandte Kunst Wien 2.131, Akademie der bildenden Künste Wien 1.716), Wintersemester 2025/26; Mehrfachzählung bei Studium an mehreren Universitäten möglich; ohne Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten"
+        }
+      ],
+      "takeaway": "Ob Studium, Forschung oder Lehre: Hier treffen Sie Menschen, für die neugieriges Fragen zum Alltag gehört."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Fast neun von zehn Beschäftigten arbeiten in Wien im Dienstleistungssektor – ein Arbeitsmarkt, der auch von Hochschulen und Forschung geprägt ist.",
+      "metrics": [
+        {
+          "value": "88,8 %",
+          "label": "der Beschäftigten arbeiten am Arbeitsort Wien im Dienstleistungssektor",
+          "source": "aest-gemeinde",
+          "note": "Beschäftigte in Arbeitsstätten nach Wirtschaftssektoren, Abgestimmte Erwerbsstatistik 2024; Österreich 75,4 %",
+          "compare": {
+            "city": 88.8,
+            "germany": 75.4,
+            "unit": " %",
+            "max": 100
+          }
+        },
+        {
+          "value": "1.192.163",
+          "label": "Beschäftigte in Arbeitsstätten in Wien",
+          "source": "aest-gemeinde",
+          "note": "176.228 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+        },
+        {
+          "value": "4,04 %",
+          "label": "Forschungsquote: F&E-Ausgaben in Prozent des Bruttoregionalprodukts",
+          "source": "wien-wirtschaft",
+          "note": "2021; rund 4,1 Mrd. € F&E-Ausgaben in Wien, nach Angabe der Stadt Wien fast ein Drittel aller österreichischen F&E-Ausgaben und Platz 2 unter den Bundesländern"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, ihr Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Wien ist jünger als der Bundesschnitt, und in mehr als vier von zehn Haushalten lebt nur eine Person.",
+      "metrics": [
+        {
+          "value": "45,3 %",
+          "label": "Einpersonenhaushalte",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Österreich 38,9 %",
+          "compare": {
+            "city": 45.3,
+            "germany": 38.9,
+            "unit": " %",
+            "max": 55
+          }
+        },
+        {
+          "value": "41,1",
+          "label": "Jahre Durchschnittsalter – 2,5 Jahre jünger als der österreichische Schnitt",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)",
+          "compare": {
+            "city": 41.1,
+            "germany": 43.6,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "965.902",
+          "label": "Privathaushalte, im Schnitt 2,04 Personen (Österreich 2,18)",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+        }
+      ],
+      "takeaway": "Die Stadt bietet viele Gelegenheiten, Menschen mit ähnlichem Hintergrund zu begegnen – ob an der Universität, im Museum oder im Park."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Hochschulen & Wissenschaft",
+      "text": "26 Hochschulen in der Stadt; allein die öffentlichen Universitäten zählen im Wintersemester 2025/26 zusammen 166.413 Studierende. Die Universität Wien wurde 1365 gegründet."
+    },
+    {
+      "name": "Forschung & Entwicklung",
+      "text": "Mit einer Forschungsquote von 4,04 % (2021) steht Wien unter den Bundesländern an zweiter Stelle; rund 4,1 Mrd. € wurden 2021 für F&E ausgegeben."
+    },
+    {
+      "name": "Medizin & Life Sciences",
+      "text": "Die Medizinische Universität Wien zählt 9.040 Studierende, die Veterinärmedizinische Universität 2.589 und die Universität für Bodenkultur 10.413 (Wintersemester 2025/26)."
+    },
+    {
+      "name": "Dienstleistungswirtschaft",
+      "text": "88,8 % der Beschäftigten arbeiten im Dienstleistungssektor; in Wien haben 158.182 Unternehmen ihren Sitz."
+    },
+    {
+      "name": "Gründungen",
+      "text": "2023 wurden in Wien 9.483 Unternehmen neu gegründet – nach Angabe der Stadt alle 55 Minuten eines."
+    }
+  ],
+  "clusterSources": [
+    "wien-wirtschaft",
+    "uni-stud",
+    "univie-geschichte",
+    "aest-gemeinde"
+  ],
+  "places": [
+    {
+      "name": "Universität Wien",
+      "kind": "work",
+      "district": "Innere Stadt · Universitätsring",
+      "text": "Gegründet 1365 und mit dem Hauptgebäude am Ring bis heute mitten in der Stadt. Im Wintersemester 2025/26 zählt die Universität 87.161 Studierende.",
+      "lat": 48.2131,
+      "lon": 16.3607
+    },
+    {
+      "name": "Technische Universität Wien",
+      "kind": "work",
+      "district": "Wieden · Karlsplatz",
+      "text": "Das Hauptgebäude am Karlsplatz; die Universität zählt 27.264 Studierende (Wintersemester 2025/26). Die Karlskirche liegt gleich nebenan.",
+      "lat": 48.1985,
+      "lon": 16.3699
+    },
+    {
+      "name": "Wirtschaftsuniversität Wien",
+      "kind": "work",
+      "district": "Leopoldstadt · Welthandelsplatz",
+      "text": "Der Campus der Wirtschaftsuniversität (23.003 Studierende) liegt unweit des Praters.",
+      "lat": 48.2136,
+      "lon": 16.4082
+    },
+    {
+      "name": "AKH Wien & Medizinische Universität",
+      "kind": "work",
+      "district": "Alsergrund · Währinger Gürtel",
+      "text": "Universitätsklinikum und Medizinische Universität (9.040 Studierende) – Arbeitsort für Ärztinnen und Ärzte, Pflegende und Forschende.",
+      "lat": 48.22,
+      "lon": 16.3479
+    },
+    {
+      "name": "Universität für Bodenkultur",
+      "kind": "work",
+      "district": "Währing · Türkenschanze",
+      "text": "Die BOKU zählt 10.413 Studierende (Wintersemester 2025/26); der Türkenschanzpark liegt in der Nähe.",
+      "lat": 48.2367,
+      "lon": 16.3376
+    },
+    {
+      "name": "Burggarten",
+      "kind": "date",
+      "district": "Innere Stadt · Ring",
+      "text": "Parkanlage zwischen Hofburg und Ring – Albertina und Staatsoper sind wenige Schritte entfernt.",
+      "lat": 48.2044,
+      "lon": 16.3659
+    },
+    {
+      "name": "MuseumsQuartier",
+      "kind": "date",
+      "district": "Neubau · Museumsplatz",
+      "text": "Museen, Cafés und Höfe an einem Ort; das Leopold Museum liegt am selben Platz.",
+      "lat": 48.2032,
+      "lon": 16.359
+    },
+    {
+      "name": "Naschmarkt",
+      "kind": "date",
+      "district": "Mariahilf · Wienzeile",
+      "text": "Markt mit Ständen, Lokalen und Cafés – zum Schlendern und Reden.",
+      "lat": 48.1982,
+      "lon": 16.3626
+    },
+    {
+      "name": "Stadtpark",
+      "kind": "date",
+      "district": "Innere Stadt · Landstraße",
+      "text": "Park am Ring, wenige Gehminuten vom Wiener Konzerthaus entfernt.",
+      "lat": 48.2029,
+      "lon": 16.3797
+    },
+    {
+      "name": "Prater Hauptallee",
+      "kind": "date",
+      "district": "Leopoldstadt · Prater",
+      "text": "Lange Allee durch den Prater – gut für einen Spaziergang beim ersten Treffen.",
+      "lat": 48.2088,
+      "lon": 16.4058
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 16.29,
+      "east": 16.455,
+      "south": 48.16,
+      "north": 48.262
+    },
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true,
+        "points": [
+          [
+            48.29048,
+            16.34812
+          ],
+          [
+            48.27374,
+            16.36124
+          ],
+          [
+            48.25089,
+            16.38055
+          ],
+          [
+            48.23625,
+            16.39567
+          ],
+          [
+            48.22288,
+            16.41292
+          ],
+          [
+            48.20642,
+            16.43602
+          ],
+          [
+            48.18265,
+            16.47083
+          ],
+          [
+            48.17882,
+            16.47448
+          ],
+          [
+            48.17754,
+            16.47673
+          ]
+        ]
+      },
+      {
+        "name": "Neue Donau",
+        "major": true,
+        "points": [
+          [
+            48.2827,
+            16.36045
+          ],
+          [
+            48.26943,
+            16.37226
+          ],
+          [
+            48.26005,
+            16.37979
+          ],
+          [
+            48.2456,
+            16.39349
+          ],
+          [
+            48.2385,
+            16.39894
+          ],
+          [
+            48.22194,
+            16.42085
+          ],
+          [
+            48.21603,
+            16.42999
+          ],
+          [
+            48.21408,
+            16.4338
+          ],
+          [
+            48.20327,
+            16.44896
+          ],
+          [
+            48.16749,
+            16.50381
+          ],
+          [
+            48.15576,
+            16.52847
+          ],
+          [
+            48.15328,
+            16.5304
+          ],
+          [
+            48.15109,
+            16.53074
+          ]
+        ]
+      },
+      {
+        "name": "Donaukanal",
+        "major": true,
+        "points": [
+          [
+            48.26383,
+            16.36948
+          ],
+          [
+            48.26201,
+            16.36862
+          ],
+          [
+            48.25684,
+            16.36953
+          ],
+          [
+            48.2523,
+            16.3721
+          ],
+          [
+            48.25029,
+            16.37212
+          ],
+          [
+            48.24818,
+            16.37083
+          ],
+          [
+            48.24191,
+            16.36528
+          ],
+          [
+            48.23921,
+            16.36347
+          ],
+          [
+            48.23642,
+            16.36208
+          ],
+          [
+            48.23356,
+            16.36155
+          ],
+          [
+            48.2317,
+            16.36206
+          ],
+          [
+            48.22907,
+            16.36359
+          ],
+          [
+            48.22517,
+            16.3678
+          ],
+          [
+            48.21994,
+            16.3688
+          ],
+          [
+            48.21725,
+            16.37268
+          ],
+          [
+            48.21314,
+            16.37605
+          ],
+          [
+            48.21226,
+            16.37816
+          ],
+          [
+            48.21191,
+            16.38153
+          ],
+          [
+            48.21202,
+            16.38395
+          ],
+          [
+            48.2134,
+            16.38889
+          ],
+          [
+            48.21277,
+            16.39286
+          ],
+          [
+            48.21201,
+            16.39431
+          ],
+          [
+            48.21057,
+            16.39554
+          ],
+          [
+            48.20828,
+            16.39676
+          ],
+          [
+            48.20519,
+            16.39733
+          ],
+          [
+            48.20333,
+            16.39895
+          ],
+          [
+            48.20275,
+            16.40021
+          ],
+          [
+            48.20126,
+            16.40653
+          ],
+          [
+            48.20002,
+            16.40815
+          ],
+          [
+            48.19649,
+            16.41085
+          ],
+          [
+            48.18975,
+            16.4217
+          ],
+          [
+            48.18801,
+            16.426
+          ],
+          [
+            48.17608,
+            16.4669
+          ],
+          [
+            48.16493,
+            16.49662
+          ],
+          [
+            48.16442,
+            16.50042
+          ]
+        ]
+      },
+      {
+        "name": "Wien",
+        "major": false,
+        "points": [
+          [
+            48.19281,
+            16.27136
+          ],
+          [
+            48.19091,
+            16.28826
+          ],
+          [
+            48.18779,
+            16.30448
+          ],
+          [
+            48.18751,
+            16.31297
+          ],
+          [
+            48.18678,
+            16.31697
+          ],
+          [
+            48.18394,
+            16.32718
+          ],
+          [
+            48.184,
+            16.33216
+          ],
+          [
+            48.18484,
+            16.33447
+          ],
+          [
+            48.18742,
+            16.33718
+          ],
+          [
+            48.18832,
+            16.33879
+          ],
+          [
+            48.18882,
+            16.34532
+          ],
+          [
+            48.19014,
+            16.35202
+          ],
+          [
+            48.19227,
+            16.35406
+          ],
+          [
+            48.19482,
+            16.35421
+          ],
+          [
+            48.19581,
+            16.355
+          ],
+          [
+            48.19647,
+            16.35639
+          ],
+          [
+            48.19758,
+            16.36146
+          ],
+          [
+            48.20061,
+            16.36711
+          ],
+          [
+            48.20078,
+            16.36891
+          ],
+          [
+            48.19984,
+            16.37352
+          ],
+          [
+            48.20054,
+            16.37635
+          ],
+          [
+            48.20504,
+            16.38129
+          ],
+          [
+            48.20898,
+            16.38413
+          ],
+          [
+            48.2122,
+            16.38478
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Stadtpark",
+        "points": [
+          [
+            48.20319,
+            16.37708
+          ],
+          [
+            48.20258,
+            16.37869
+          ],
+          [
+            48.2044,
+            16.38059
+          ],
+          [
+            48.2066,
+            16.3822
+          ],
+          [
+            48.20694,
+            16.38071
+          ],
+          [
+            48.20319,
+            16.37708
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Burggarten",
+        "points": [
+          [
+            48.20415,
+            16.36396
+          ],
+          [
+            48.20531,
+            16.36615
+          ],
+          [
+            48.20432,
+            16.36763
+          ],
+          [
+            48.20347,
+            16.36585
+          ],
+          [
+            48.20376,
+            16.36453
+          ],
+          [
+            48.20415,
+            16.36396
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Volksgarten",
+        "points": [
+          [
+            48.20931,
+            16.3607
+          ],
+          [
+            48.20924,
+            16.36124
+          ],
+          [
+            48.20965,
+            16.362
+          ],
+          [
+            48.20791,
+            16.36339
+          ],
+          [
+            48.20645,
+            16.3609
+          ],
+          [
+            48.20712,
+            16.36006
+          ],
+          [
+            48.20931,
+            16.3607
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Augarten",
+        "points": [
+          [
+            48.22609,
+            16.3714
+          ],
+          [
+            48.22645,
+            16.3707
+          ],
+          [
+            48.22783,
+            16.37216
+          ],
+          [
+            48.2293,
+            16.3767
+          ],
+          [
+            48.22759,
+            16.38052
+          ],
+          [
+            48.22507,
+            16.3825
+          ],
+          [
+            48.22419,
+            16.38143
+          ],
+          [
+            48.22071,
+            16.38008
+          ],
+          [
+            48.2197,
+            16.38007
+          ],
+          [
+            48.2228,
+            16.37616
+          ],
+          [
+            48.22269,
+            16.37597
+          ],
+          [
+            48.22526,
+            16.37251
+          ],
+          [
+            48.22582,
+            16.37113
+          ],
+          [
+            48.22609,
+            16.3714
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Türkenschanzpark",
+        "points": [
+          [
+            48.23442,
+            16.32914
+          ],
+          [
+            48.23459,
+            16.32879
+          ],
+          [
+            48.23577,
+            16.33041
+          ],
+          [
+            48.23658,
+            16.33202
+          ],
+          [
+            48.23699,
+            16.33336
+          ],
+          [
+            48.237,
+            16.33449
+          ],
+          [
+            48.23597,
+            16.33449
+          ],
+          [
+            48.23595,
+            16.33768
+          ],
+          [
+            48.23395,
+            16.33766
+          ],
+          [
+            48.23396,
+            16.33105
+          ],
+          [
+            48.23442,
+            16.32914
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Donau",
+        "lat": 48.2362,
+        "lon": 16.3957
+      },
+      {
+        "text": "Donaukanal",
+        "lat": 48.2137,
+        "lon": 16.3754
+      },
+      {
+        "text": "Innere Stadt",
+        "lat": 48.209,
+        "lon": 16.3697,
+        "district": true
+      },
+      {
+        "text": "Leopoldstadt",
+        "lat": 48.216,
+        "lon": 16.414,
+        "district": true
+      },
+      {
+        "text": "Landstraße",
+        "lat": 48.1942,
+        "lon": 16.3956,
+        "district": true
+      },
+      {
+        "text": "Alsergrund",
+        "lat": 48.2218,
+        "lon": 16.3593,
+        "district": true
+      },
+      {
+        "text": "Mariahilf",
+        "lat": 48.1955,
+        "lon": 16.347,
+        "district": true
+      },
+      {
+        "text": "Favoriten",
+        "lat": 48.1734,
+        "lon": 16.3779,
+        "district": true
+      },
+      {
+        "text": "Währing",
+        "lat": 48.2262,
+        "lon": 16.3443,
+        "district": true
+      },
+      {
+        "text": "Wieden",
+        "lat": 48.192,
+        "lon": 16.3714,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          48.25832,
+          16.28556
+        ],
+        [
+          48.26029,
+          16.28711
+        ],
+        [
+          48.26174,
+          16.28947
+        ],
+        [
+          48.26223,
+          16.2921
+        ],
+        [
+          48.264,
+          16.29409
+        ],
+        [
+          48.26453,
+          16.29409
+        ],
+        [
+          48.26669,
+          16.29132
+        ],
+        [
+          48.26634,
+          16.28869
+        ],
+        [
+          48.2667,
+          16.28617
+        ],
+        [
+          48.26762,
+          16.28599
+        ],
+        [
+          48.26854,
+          16.28771
+        ],
+        [
+          48.27033,
+          16.28868
+        ],
+        [
+          48.27217,
+          16.29449
+        ],
+        [
+          48.272,
+          16.29732
+        ],
+        [
+          48.27331,
+          16.30035
+        ],
+        [
+          48.27313,
+          16.30166
+        ],
+        [
+          48.27268,
+          16.30121
+        ],
+        [
+          48.27174,
+          16.30587
+        ],
+        [
+          48.27392,
+          16.3116
+        ],
+        [
+          48.27399,
+          16.3146
+        ],
+        [
+          48.27713,
+          16.31797
+        ],
+        [
+          48.27819,
+          16.32072
+        ],
+        [
+          48.27719,
+          16.32898
+        ],
+        [
+          48.27778,
+          16.3302
+        ],
+        [
+          48.27898,
+          16.33054
+        ],
+        [
+          48.2809,
+          16.33223
+        ],
+        [
+          48.28182,
+          16.33667
+        ],
+        [
+          48.28559,
+          16.34518
+        ],
+        [
+          48.28897,
+          16.3412
+        ],
+        [
+          48.29048,
+          16.34813
+        ],
+        [
+          48.2837,
+          16.35351
+        ],
+        [
+          48.2823,
+          16.36318
+        ],
+        [
+          48.28104,
+          16.36689
+        ],
+        [
+          48.2817,
+          16.37059
+        ],
+        [
+          48.28206,
+          16.36923
+        ],
+        [
+          48.28322,
+          16.36783
+        ],
+        [
+          48.28544,
+          16.36679
+        ],
+        [
+          48.28685,
+          16.36714
+        ],
+        [
+          48.28774,
+          16.36989
+        ],
+        [
+          48.28832,
+          16.37787
+        ],
+        [
+          48.28984,
+          16.37895
+        ],
+        [
+          48.29204,
+          16.37889
+        ],
+        [
+          48.29593,
+          16.37556
+        ],
+        [
+          48.30201,
+          16.37982
+        ],
+        [
+          48.30128,
+          16.38478
+        ],
+        [
+          48.30174,
+          16.38623
+        ],
+        [
+          48.30272,
+          16.3839
+        ],
+        [
+          48.30392,
+          16.38484
+        ],
+        [
+          48.3053,
+          16.38307
+        ],
+        [
+          48.30721,
+          16.38385
+        ],
+        [
+          48.31044,
+          16.38245
+        ],
+        [
+          48.3115,
+          16.38265
+        ],
+        [
+          48.31163,
+          16.3814
+        ],
+        [
+          48.31287,
+          16.38058
+        ],
+        [
+          48.31507,
+          16.38043
+        ],
+        [
+          48.31711,
+          16.3817
+        ],
+        [
+          48.31945,
+          16.3852
+        ],
+        [
+          48.31965,
+          16.38624
+        ],
+        [
+          48.31905,
+          16.38938
+        ],
+        [
+          48.32032,
+          16.3901
+        ],
+        [
+          48.32036,
+          16.38881
+        ],
+        [
+          48.32103,
+          16.38881
+        ],
+        [
+          48.32092,
+          16.39133
+        ],
+        [
+          48.32236,
+          16.391
+        ],
+        [
+          48.32257,
+          16.39518
+        ],
+        [
+          48.32027,
+          16.3953
+        ],
+        [
+          48.31926,
+          16.39412
+        ],
+        [
+          48.31676,
+          16.40287
+        ],
+        [
+          48.31932,
+          16.40422
+        ],
+        [
+          48.32168,
+          16.4129
+        ],
+        [
+          48.32267,
+          16.41863
+        ],
+        [
+          48.32182,
+          16.42481
+        ],
+        [
+          48.31681,
+          16.43775
+        ],
+        [
+          48.31452,
+          16.4383
+        ],
+        [
+          48.30938,
+          16.43809
+        ],
+        [
+          48.30355,
+          16.44027
+        ],
+        [
+          48.29192,
+          16.44041
+        ],
+        [
+          48.28246,
+          16.46063
+        ],
+        [
+          48.27639,
+          16.47228
+        ],
+        [
+          48.27399,
+          16.47812
+        ],
+        [
+          48.27343,
+          16.48123
+        ],
+        [
+          48.27523,
+          16.48132
+        ],
+        [
+          48.2794,
+          16.48347
+        ],
+        [
+          48.28174,
+          16.48266
+        ],
+        [
+          48.28431,
+          16.4828
+        ],
+        [
+          48.28446,
+          16.48224
+        ],
+        [
+          48.28956,
+          16.48103
+        ],
+        [
+          48.29353,
+          16.48121
+        ],
+        [
+          48.29249,
+          16.49645
+        ],
+        [
+          48.29189,
+          16.49615
+        ],
+        [
+          48.28718,
+          16.51321
+        ],
+        [
+          48.28635,
+          16.51288
+        ],
+        [
+          48.28554,
+          16.51491
+        ],
+        [
+          48.28407,
+          16.51426
+        ],
+        [
+          48.28128,
+          16.51282
+        ],
+        [
+          48.2807,
+          16.51156
+        ],
+        [
+          48.27953,
+          16.51058
+        ],
+        [
+          48.27361,
+          16.50667
+        ],
+        [
+          48.27311,
+          16.5093
+        ],
+        [
+          48.27102,
+          16.51412
+        ],
+        [
+          48.26784,
+          16.51285
+        ],
+        [
+          48.26699,
+          16.51917
+        ],
+        [
+          48.26459,
+          16.52082
+        ],
+        [
+          48.26242,
+          16.53026
+        ],
+        [
+          48.2621,
+          16.53263
+        ],
+        [
+          48.2629,
+          16.53304
+        ],
+        [
+          48.26424,
+          16.53861
+        ],
+        [
+          48.263,
+          16.54697
+        ],
+        [
+          48.25395,
+          16.54247
+        ],
+        [
+          48.24284,
+          16.53941
+        ],
+        [
+          48.24269,
+          16.5482
+        ],
+        [
+          48.24028,
+          16.54786
+        ],
+        [
+          48.239,
+          16.55274
+        ],
+        [
+          48.23268,
+          16.54994
+        ],
+        [
+          48.22336,
+          16.5469
+        ],
+        [
+          48.2162,
+          16.54599
+        ],
+        [
+          48.21143,
+          16.54343
+        ],
+        [
+          48.20469,
+          16.53803
+        ],
+        [
+          48.20044,
+          16.53627
+        ],
+        [
+          48.19715,
+          16.5388
+        ],
+        [
+          48.19144,
+          16.54177
+        ],
+        [
+          48.1867,
+          16.53864
+        ],
+        [
+          48.18338,
+          16.53799
+        ],
+        [
+          48.18265,
+          16.54118
+        ],
+        [
+          48.18208,
+          16.54183
+        ],
+        [
+          48.1808,
+          16.54116
+        ],
+        [
+          48.18252,
+          16.53769
+        ],
+        [
+          48.17755,
+          16.53631
+        ],
+        [
+          48.17707,
+          16.5363
+        ],
+        [
+          48.17376,
+          16.54082
+        ],
+        [
+          48.17461,
+          16.53639
+        ],
+        [
+          48.17345,
+          16.53669
+        ],
+        [
+          48.17282,
+          16.53898
+        ],
+        [
+          48.17284,
+          16.54008
+        ],
+        [
+          48.17353,
+          16.54133
+        ],
+        [
+          48.17286,
+          16.54475
+        ],
+        [
+          48.17503,
+          16.5438
+        ],
+        [
+          48.17543,
+          16.54167
+        ],
+        [
+          48.17657,
+          16.54103
+        ],
+        [
+          48.17695,
+          16.54167
+        ],
+        [
+          48.17691,
+          16.54462
+        ],
+        [
+          48.17789,
+          16.54575
+        ],
+        [
+          48.17782,
+          16.54786
+        ],
+        [
+          48.17706,
+          16.54946
+        ],
+        [
+          48.17306,
+          16.55096
+        ],
+        [
+          48.17173,
+          16.55065
+        ],
+        [
+          48.17133,
+          16.54758
+        ],
+        [
+          48.17162,
+          16.54665
+        ],
+        [
+          48.17073,
+          16.54686
+        ],
+        [
+          48.16707,
+          16.54835
+        ],
+        [
+          48.16604,
+          16.55022
+        ],
+        [
+          48.16446,
+          16.54989
+        ],
+        [
+          48.16204,
+          16.55306
+        ],
+        [
+          48.16171,
+          16.55629
+        ],
+        [
+          48.16367,
+          16.554
+        ],
+        [
+          48.16417,
+          16.55422
+        ],
+        [
+          48.16446,
+          16.55567
+        ],
+        [
+          48.16411,
+          16.55786
+        ],
+        [
+          48.16037,
+          16.56161
+        ],
+        [
+          48.16201,
+          16.5637
+        ],
+        [
+          48.16361,
+          16.56815
+        ],
+        [
+          48.16373,
+          16.57107
+        ],
+        [
+          48.16319,
+          16.57306
+        ],
+        [
+          48.16173,
+          16.57523
+        ],
+        [
+          48.15893,
+          16.57638
+        ],
+        [
+          48.15517,
+          16.57331
+        ],
+        [
+          48.15323,
+          16.57599
+        ],
+        [
+          48.15132,
+          16.57745
+        ],
+        [
+          48.13522,
+          16.57603
+        ],
+        [
+          48.13962,
+          16.55939
+        ],
+        [
+          48.14333,
+          16.54301
+        ],
+        [
+          48.14462,
+          16.54024
+        ],
+        [
+          48.15446,
+          16.52567
+        ],
+        [
+          48.15845,
+          16.51654
+        ],
+        [
+          48.15893,
+          16.51379
+        ],
+        [
+          48.15621,
+          16.49843
+        ],
+        [
+          48.15881,
+          16.49344
+        ],
+        [
+          48.15518,
+          16.48814
+        ],
+        [
+          48.15655,
+          16.48006
+        ],
+        [
+          48.15612,
+          16.48018
+        ],
+        [
+          48.15681,
+          16.47795
+        ],
+        [
+          48.15744,
+          16.47763
+        ],
+        [
+          48.15613,
+          16.47815
+        ],
+        [
+          48.15415,
+          16.47712
+        ],
+        [
+          48.14672,
+          16.46627
+        ],
+        [
+          48.14626,
+          16.4667
+        ],
+        [
+          48.1429,
+          16.46192
+        ],
+        [
+          48.14279,
+          16.46102
+        ],
+        [
+          48.1392,
+          16.45449
+        ],
+        [
+          48.13868,
+          16.45102
+        ],
+        [
+          48.13788,
+          16.43313
+        ],
+        [
+          48.13171,
+          16.43278
+        ],
+        [
+          48.13156,
+          16.43344
+        ],
+        [
+          48.13098,
+          16.43332
+        ],
+        [
+          48.13098,
+          16.43392
+        ],
+        [
+          48.12472,
+          16.43428
+        ],
+        [
+          48.11993,
+          16.43702
+        ],
+        [
+          48.12148,
+          16.42823
+        ],
+        [
+          48.12306,
+          16.42291
+        ],
+        [
+          48.12064,
+          16.4205
+        ],
+        [
+          48.12036,
+          16.4117
+        ],
+        [
+          48.11824,
+          16.41282
+        ],
+        [
+          48.11791,
+          16.4083
+        ],
+        [
+          48.12021,
+          16.40714
+        ],
+        [
+          48.12093,
+          16.40484
+        ],
+        [
+          48.12198,
+          16.40511
+        ],
+        [
+          48.1245,
+          16.39102
+        ],
+        [
+          48.1249,
+          16.39065
+        ],
+        [
+          48.12619,
+          16.38448
+        ],
+        [
+          48.12729,
+          16.37157
+        ],
+        [
+          48.12796,
+          16.36751
+        ],
+        [
+          48.12864,
+          16.36599
+        ],
+        [
+          48.1294,
+          16.35804
+        ],
+        [
+          48.13259,
+          16.35089
+        ],
+        [
+          48.13779,
+          16.3246
+        ],
+        [
+          48.13598,
+          16.32489
+        ],
+        [
+          48.12456,
+          16.3185
+        ],
+        [
+          48.12559,
+          16.31393
+        ],
+        [
+          48.11963,
+          16.31259
+        ],
+        [
+          48.11945,
+          16.31181
+        ],
+        [
+          48.12016,
+          16.30812
+        ],
+        [
+          48.12244,
+          16.30359
+        ],
+        [
+          48.1246,
+          16.30067
+        ],
+        [
+          48.12532,
+          16.29855
+        ],
+        [
+          48.12687,
+          16.29904
+        ],
+        [
+          48.12722,
+          16.2984
+        ],
+        [
+          48.12949,
+          16.29785
+        ],
+        [
+          48.13086,
+          16.28746
+        ],
+        [
+          48.13016,
+          16.28388
+        ],
+        [
+          48.13198,
+          16.28076
+        ],
+        [
+          48.13385,
+          16.2711
+        ],
+        [
+          48.13358,
+          16.26719
+        ],
+        [
+          48.13233,
+          16.26388
+        ],
+        [
+          48.13085,
+          16.26177
+        ],
+        [
+          48.12964,
+          16.25739
+        ],
+        [
+          48.13005,
+          16.25422
+        ],
+        [
+          48.12982,
+          16.25351
+        ],
+        [
+          48.13102,
+          16.25017
+        ],
+        [
+          48.13143,
+          16.24713
+        ],
+        [
+          48.13001,
+          16.23607
+        ],
+        [
+          48.12764,
+          16.2311
+        ],
+        [
+          48.12664,
+          16.22755
+        ],
+        [
+          48.12534,
+          16.22531
+        ],
+        [
+          48.12463,
+          16.22085
+        ],
+        [
+          48.12376,
+          16.21891
+        ],
+        [
+          48.12518,
+          16.21608
+        ],
+        [
+          48.12535,
+          16.21487
+        ],
+        [
+          48.12611,
+          16.21493
+        ],
+        [
+          48.12719,
+          16.21772
+        ],
+        [
+          48.12807,
+          16.2181
+        ],
+        [
+          48.13205,
+          16.23862
+        ],
+        [
+          48.13397,
+          16.2387
+        ],
+        [
+          48.13483,
+          16.23617
+        ],
+        [
+          48.13566,
+          16.23768
+        ],
+        [
+          48.13716,
+          16.23843
+        ],
+        [
+          48.13556,
+          16.22079
+        ],
+        [
+          48.13601,
+          16.22073
+        ],
+        [
+          48.13623,
+          16.22166
+        ],
+        [
+          48.13966,
+          16.21971
+        ],
+        [
+          48.14053,
+          16.21874
+        ],
+        [
+          48.14097,
+          16.2164
+        ],
+        [
+          48.14666,
+          16.21235
+        ],
+        [
+          48.14762,
+          16.20986
+        ],
+        [
+          48.14927,
+          16.21047
+        ],
+        [
+          48.15098,
+          16.21328
+        ],
+        [
+          48.15162,
+          16.2183
+        ],
+        [
+          48.15334,
+          16.21947
+        ],
+        [
+          48.15203,
+          16.22335
+        ],
+        [
+          48.15319,
+          16.22321
+        ],
+        [
+          48.15551,
+          16.20346
+        ],
+        [
+          48.15414,
+          16.19824
+        ],
+        [
+          48.15657,
+          16.1967
+        ],
+        [
+          48.16091,
+          16.19744
+        ],
+        [
+          48.16396,
+          16.19619
+        ],
+        [
+          48.16635,
+          16.19373
+        ],
+        [
+          48.16893,
+          16.18461
+        ],
+        [
+          48.16975,
+          16.18293
+        ],
+        [
+          48.17112,
+          16.18183
+        ],
+        [
+          48.17387,
+          16.18756
+        ],
+        [
+          48.17711,
+          16.1878
+        ],
+        [
+          48.18062,
+          16.19324
+        ],
+        [
+          48.18381,
+          16.19592
+        ],
+        [
+          48.18616,
+          16.19981
+        ],
+        [
+          48.19094,
+          16.20306
+        ],
+        [
+          48.19389,
+          16.20394
+        ],
+        [
+          48.19638,
+          16.20397
+        ],
+        [
+          48.19774,
+          16.20528
+        ],
+        [
+          48.20234,
+          16.20739
+        ],
+        [
+          48.20243,
+          16.20575
+        ],
+        [
+          48.20313,
+          16.20395
+        ],
+        [
+          48.20407,
+          16.20227
+        ],
+        [
+          48.2048,
+          16.20193
+        ],
+        [
+          48.20501,
+          16.20335
+        ],
+        [
+          48.20604,
+          16.20265
+        ],
+        [
+          48.20649,
+          16.20549
+        ],
+        [
+          48.20854,
+          16.20754
+        ],
+        [
+          48.20963,
+          16.20962
+        ],
+        [
+          48.21099,
+          16.20844
+        ],
+        [
+          48.21143,
+          16.2057
+        ],
+        [
+          48.21211,
+          16.20508
+        ],
+        [
+          48.21255,
+          16.20139
+        ],
+        [
+          48.21428,
+          16.19778
+        ],
+        [
+          48.21956,
+          16.19504
+        ],
+        [
+          48.2218,
+          16.19823
+        ],
+        [
+          48.22288,
+          16.19778
+        ],
+        [
+          48.22337,
+          16.1961
+        ],
+        [
+          48.2235,
+          16.19245
+        ],
+        [
+          48.22308,
+          16.18998
+        ],
+        [
+          48.2232,
+          16.18517
+        ],
+        [
+          48.22457,
+          16.18641
+        ],
+        [
+          48.22543,
+          16.19041
+        ],
+        [
+          48.22633,
+          16.19207
+        ],
+        [
+          48.22863,
+          16.19449
+        ],
+        [
+          48.22988,
+          16.19672
+        ],
+        [
+          48.22975,
+          16.19778
+        ],
+        [
+          48.22859,
+          16.1991
+        ],
+        [
+          48.23039,
+          16.19827
+        ],
+        [
+          48.23086,
+          16.19955
+        ],
+        [
+          48.2334,
+          16.1936
+        ],
+        [
+          48.23444,
+          16.19367
+        ],
+        [
+          48.23473,
+          16.19299
+        ],
+        [
+          48.23598,
+          16.19364
+        ],
+        [
+          48.23671,
+          16.1925
+        ],
+        [
+          48.2369,
+          16.19347
+        ],
+        [
+          48.23787,
+          16.19417
+        ],
+        [
+          48.24066,
+          16.19447
+        ],
+        [
+          48.24092,
+          16.19384
+        ],
+        [
+          48.24186,
+          16.19448
+        ],
+        [
+          48.24208,
+          16.19388
+        ],
+        [
+          48.24325,
+          16.19352
+        ],
+        [
+          48.24765,
+          16.19628
+        ],
+        [
+          48.24943,
+          16.19601
+        ],
+        [
+          48.25346,
+          16.1999
+        ],
+        [
+          48.2547,
+          16.20283
+        ],
+        [
+          48.25617,
+          16.20481
+        ],
+        [
+          48.25627,
+          16.20568
+        ],
+        [
+          48.25877,
+          16.2047
+        ],
+        [
+          48.26009,
+          16.20566
+        ],
+        [
+          48.26203,
+          16.20515
+        ],
+        [
+          48.26352,
+          16.20669
+        ],
+        [
+          48.26418,
+          16.20896
+        ],
+        [
+          48.26081,
+          16.21454
+        ],
+        [
+          48.25982,
+          16.21455
+        ],
+        [
+          48.25993,
+          16.2155
+        ],
+        [
+          48.25819,
+          16.22134
+        ],
+        [
+          48.25626,
+          16.22364
+        ],
+        [
+          48.25503,
+          16.22647
+        ],
+        [
+          48.25458,
+          16.22617
+        ],
+        [
+          48.25305,
+          16.22995
+        ],
+        [
+          48.25027,
+          16.23383
+        ],
+        [
+          48.24922,
+          16.23934
+        ],
+        [
+          48.24837,
+          16.24105
+        ],
+        [
+          48.24403,
+          16.2387
+        ],
+        [
+          48.24277,
+          16.2373
+        ],
+        [
+          48.24049,
+          16.23803
+        ],
+        [
+          48.23972,
+          16.23996
+        ],
+        [
+          48.2393,
+          16.23992
+        ],
+        [
+          48.23832,
+          16.24155
+        ],
+        [
+          48.23878,
+          16.24238
+        ],
+        [
+          48.23907,
+          16.24666
+        ],
+        [
+          48.24029,
+          16.25012
+        ],
+        [
+          48.23988,
+          16.25662
+        ],
+        [
+          48.24298,
+          16.25681
+        ],
+        [
+          48.24397,
+          16.25817
+        ],
+        [
+          48.24607,
+          16.25871
+        ],
+        [
+          48.24549,
+          16.26101
+        ],
+        [
+          48.24706,
+          16.263
+        ],
+        [
+          48.24686,
+          16.26381
+        ],
+        [
+          48.2483,
+          16.26534
+        ],
+        [
+          48.2493,
+          16.26472
+        ],
+        [
+          48.25194,
+          16.27042
+        ],
+        [
+          48.25282,
+          16.27062
+        ],
+        [
+          48.25392,
+          16.26953
+        ],
+        [
+          48.25454,
+          16.2642
+        ],
+        [
+          48.25492,
+          16.26406
+        ],
+        [
+          48.25488,
+          16.26872
+        ],
+        [
+          48.25702,
+          16.27551
+        ],
+        [
+          48.25665,
+          16.27943
+        ],
+        [
+          48.25832,
+          16.28556
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true
+      },
+      {
+        "name": "Neue Donau",
+        "major": true
+      },
+      {
+        "name": "Donaukanal",
+        "major": true
+      },
+      {
+        "name": "Wien"
+      }
+    ],
+    "lakes": [
+      "Alte Donau"
+    ],
+    "parks": [
+      "Stadtpark",
+      "Burggarten",
+      "Volksgarten",
+      "Augarten",
+      "Türkenschanzpark"
+    ],
+    "boundary": "Wien"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Wien?",
+      "answer": "Laut Abgestimmter Erwerbsstatistik 2024 haben in Wien 26,4 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss – das sind rund 457.000 Personen (berechnet); österreichweit sind es 17,6 Prozent. Die Tertiärquote der Frauen ab 25 Jahren liegt bei 37,9 Prozent, die der Männer bei 37,6 Prozent (Österreich: 28,9 bzw. 31,8 Prozent). Die öffentlichen Universitäten in Wien zählen im Wintersemester 2025/26 zusammen 166.413 Studierende."
+    },
+    {
+      "question": "Gibt es in Wien viele Singles?",
+      "answer": "In 45,3 Prozent aller Haushalte in Wien lebt nur eine Person (Abgestimmte Erwerbsstatistik 2024, österreichweit 38,9 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Das Durchschnittsalter liegt bei 41,1 Jahren (Österreich 43,6)."
+    },
+    {
+      "question": "Wo lernen Akademiker in Wien Singles kennen?",
+      "answer": "Im Burggarten oder im Stadtpark, im MuseumsQuartier, auf dem Naschmarkt oder bei einem Spaziergang über die Prater Hauptallee. Auch Vorträge und Veranstaltungen der Universitäten sowie Konzerte und Museen bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "aest-gemeinde",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "aest-indikatoren",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Indikatoren für die Bundesländer und Landeshauptstädte (Blatt „Indikatoren 2024“): Durchschnittsalter, Einpersonenhaushalte, Tertiärquote ab 25 Jahren",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "uni-stud",
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "id": "einwohner",
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerung am 01.01.2026 nach Zählsprengel (Wohnbevölkerung, Hauptwohnsitzkonzept)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/405/Bev_Zaehlsprengel_2026.ods"
+    },
+    {
+      "id": "wien-wirtschaft",
+      "publisher": "Stadt Wien, Magistratsabteilung 23 (Wirtschaft, Arbeit und Statistik)",
+      "title": "Wien in Zahlen – Wirtschaftsstandort 2024 (Vorwort; Kap. 3 Bildung und Forschung: Forschungsquote, F&E-Ausgaben; Kennzahl Neugründungen 2023)",
+      "stand": "Publikation 09/2024; Daten 2021 bis 2023",
+      "url": "https://www.wien.gv.at/statistik/pdf/wirtschaftsstandort-2024.pdf"
+    },
+    {
+      "id": "univie-geschichte",
+      "publisher": "Universität Wien",
+      "title": "Anfänge der Alma Mater Rudolphina: Die Gründung der Universität Wien 1365–1384",
+      "stand": "abgerufen 10/2026",
+      "url": "https://geschichte.univie.ac.at/de/themen/anfaenge-der-alma-mater-rudolphina"
+    }
+  ]
+}

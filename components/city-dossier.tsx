@@ -1,10 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { Breadcrumbs, ImageCredits, JsonLd, breadcrumbJsonLd } from "@/components/ui";
 import { getCities, getPage, imageCredits, pageRegistrationUrl, renderedContentHtml, type PublicPage } from "@/lib/content";
 import { nearestCities } from "@/lib/city-geo";
 import { sourceNumber, splitGuide, type CityProfile, type Metric, type Place } from "@/lib/city-profile";
-import { ORIGIN, TRUST_LINKS } from "@/lib/site";
+import { requestMarket } from "@/lib/market-context";
+import { getMarket, marketOrigin } from "@/lib/markets";
+import { TRUST_LINKS } from "@/lib/site";
 import styles from "./city-dossier.module.css";
 
 type Crumb = { name: string; href: string };
@@ -29,9 +31,10 @@ function CompareBars({ metric, city, profile }: { metric: Metric; city: string; 
   if (!c) return null;
   const max = c.max ?? Math.max(c.city, c.germany) * 1.15;
   const fmt = (v: number) => `${v.toLocaleString("de-DE")}${c.unit}`;
-  return <div className={styles.bars} role="img" aria-label={`${city} ${fmt(c.city)}, Deutschland ${fmt(c.germany)}`}>
+  const country = profile.country ?? "Deutschland";
+  return <div className={styles.bars} role="img" aria-label={`${city} ${fmt(c.city)}, ${country} ${fmt(c.germany)}`}>
     <div><span>{city}</span><i style={{ width: `${(c.city / max) * 100}%` }} /><b>{fmt(c.city)}</b></div>
-    <div className={styles.barDe}><span>Deutschland{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><b>{fmt(c.germany)}</b></div>
+    <div className={styles.barDe}><span>{country}{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><b>{fmt(c.germany)}</b></div>
   </div>;
 }
 
@@ -142,22 +145,27 @@ function PlaceItem({ place, index }: { place: Place; index: number }) {
 
 export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPage; profile: CityProfile; crumbs: Crumb[] }) {
   const city = page.locationName ?? page.heroTitle;
+  const market = getMarket(requestMarket());
+  const origin = marketOrigin(market.code);
   const register = pageRegistrationUrl(page);
   const guide = splitGuide(renderedContentHtml(page));
   const allCities = getCities();
   const nearest = nearestCities(page.path, allCities.map(item => item.path));
   const farthest = Math.max(...nearest.map(item => item.km), 1);
-  const related = guide.related.filter(link => link.href !== "/partnersuche/");
+  // DE: Linkliste aus dem ICONY-Text; AT/CH haben keinen Quelltext und zeigen die nächstgelegenen Städte.
+  const related = guide.related.length
+    ? guide.related.filter(link => link.href !== "/partnersuche/")
+    : nearest.flatMap(item => { const target = getPage(item.path); return target ? [{ href: item.path, label: target.locationName ?? target.heroTitle }] : []; });
   const work = profile.places.filter(place => place.kind === "work").length;
   return <main className={styles.page}>
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
-      breadcrumbJsonLd(crumbs, ORIGIN),
-      { "@type": "WebPage", name: page.heroTitle, url: page.canonical, description: page.description, inLanguage: "de-DE", about: { "@type": "City", name: city } },
+      breadcrumbJsonLd(crumbs, origin),
+      { "@type": "WebPage", name: page.heroTitle, url: page.canonical, description: page.description, inLanguage: market.locale, about: { "@type": "City", name: city } },
       { "@type": "FAQPage", mainEntity: profile.faq.map(item => ({ "@type": "Question", name: item.question, acceptedAnswer: { "@type": "Answer", text: item.answer } })) },
     ] }} />
 
     <section className={styles.hero}>
-      {page.heroImage ? <Image className={styles.heroImage} src={page.heroImage} alt={profile.heroAlt} fill priority sizes="100vw" /> : null}
+      {page.heroImage ? <Image className={styles.heroImage} src={page.heroImage} alt={profile.heroAlt ?? `Stadtansicht ${city} – Partnersuche für Akademiker`} fill priority sizes="100vw" /> : null}
       <div className={`container ${styles.heroInner}`}>
         <div className={styles.heroCopy}>
           <Breadcrumbs items={crumbs} tone="dark" />
@@ -247,7 +255,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
       </div>
     </section> : null}
 
-    <section id="guide" className={`container ${styles.guide}`}>
+    {guide.sections.length || guide.intro ? <section id="guide" className={`container ${styles.guide}`}>
       <aside className={styles.toc}>
         <p className={styles.tocHead}>Stadt-Guide {city}</p>
         <ol>{guide.sections.map((section, index) => <li key={section.id}><a href={`#${section.id}`}><span>{String(index + 1).padStart(2, "0")}</span>{section.title}</a></li>)}</ol>
@@ -263,7 +271,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         </article>)}
         <ImageCredits credits={imageCredits(page)} />
       </div>
-    </section>
+    </section> : null}
 
     <section className={`container ${styles.faq}`}>
       <header className={styles.sectionHead}>

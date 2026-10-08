@@ -1,0 +1,2228 @@
+{
+  "path": "/partnersuche/linz/",
+  "name": "Linz",
+  "country": "Österreich",
+  "region": "Oberösterreich",
+  "seoTitle": "Partnersuche für Akademiker in Linz – AkademikerSingles",
+  "seoDescription": "Akademiker in Linz kennenlernen: Kennzahlen zu Bildung, Beruf und Single-Leben, Orte für das erste Treffen und Antworten zur Partnersuche.",
+  "eyebrow": "Partnersuche für Akademiker · Universitäts- und Industriestadt an der Donau",
+  "lead": "Fünf Universitäten, zwei Pädagogische Hochschulen und zwei Fachhochschulen: In Linz hat jede fünfte Person ab 15 Jahren einen Hochschul- oder Akademieabschluss (20,4 %), und in 48,5 % der Haushalte lebt nur eine Person. Zwischen Hauptplatz, Donauufer und Pöstlingberg sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "20,4 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss – österreichweit 17,6 %",
+      "source": "aest-gemeinde"
+    },
+    {
+      "value": "28.680",
+      "label": "Studierende an den öffentlichen Universitäten in Linz im Wintersemester 2025/26",
+      "source": "uni-stud"
+    },
+    {
+      "value": "48,5 %",
+      "label": "aller Haushalte in Linz sind Einpersonenhaushalte",
+      "source": "aest-indikatoren"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "214.272",
+      "label": "Einwohnerinnen und Einwohner in Linz (Hauptwohnsitz)",
+      "source": "einwohner",
+      "note": "Wohnbevölkerung am 01.01.2026"
+    },
+    {
+      "value": "9",
+      "label": "Hochschulen: 5 Universitäten, 2 Pädagogische Hochschulen und 2 Fachhochschulen",
+      "source": "linz-hochschulen",
+      "note": "Angabe der Stadt Linz („Zahlen – Universitäten / Hochschulen“)"
+    },
+    {
+      "value": "198.306",
+      "label": "Beschäftigte in Arbeitsstätten in Linz",
+      "source": "aest-gemeinde",
+      "note": "Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024; die Stadt schätzt rund 208.000 Arbeitsplätze (Datenstand 2025)"
+    },
+    {
+      "value": "14.840",
+      "label": "Unternehmen mit Sitz in Linz",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Seit 1966 Universität in der Stadt: In Linz hat jede fünfte Person ab 15 Jahren einen Hochschul- oder Akademieabschluss, mehr als im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "20,4 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; berechnet rund 38.000 Personen (Anteil mal Bevölkerung ab 15 Jahren, auf Tausend gerundet); Österreich 17,6 %",
+          "compare": {
+            "city": 20.4,
+            "germany": 17.6,
+            "unit": " %",
+            "max": 26
+          }
+        },
+        {
+          "value": "29,3 %",
+          "label": "der Frauen ab 25 Jahren haben einen tertiären Abschluss (Männer: 32,7 %)",
+          "source": "aest-indikatoren",
+          "note": "Tertiärquote nach ISCED 2011, Abgestimmte Erwerbsstatistik 2024; Österreich: Frauen 28,9 %, Männer 31,8 %",
+          "compare": {
+            "city": 29.3,
+            "germany": 28.9,
+            "unit": " %",
+            "max": 36
+          }
+        },
+        {
+          "value": "28.680",
+          "label": "Studierende an den öffentlichen Universitäten in Linz, Wintersemester 2025/26",
+          "source": "uni-stud",
+          "note": "Berechnet: Summe der Studierenden (Universität Linz 26.917, Universität für künstlerische und industrielle Gestaltung Linz 1.763), Wintersemester 2025/26; Mehrfachzählung bei Studium an mehreren Universitäten möglich; ohne Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten"
+        }
+      ],
+      "takeaway": "Von Technik über Recht bis Kunst: Hier treffen Sie Menschen, die gern Neues lernen und Ideen weiterdenken."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Gesundheit, Warenherstellung, Dienstleistungen und Bildung prägen den Arbeitsmarkt der Stadt.",
+      "metrics": [
+        {
+          "value": "79,6 %",
+          "label": "der Beschäftigten arbeiten am Arbeitsort Linz im Dienstleistungssektor",
+          "source": "aest-gemeinde",
+          "note": "Beschäftigte in Arbeitsstätten nach Wirtschaftssektoren, Abgestimmte Erwerbsstatistik 2024; Österreich 75,4 %",
+          "compare": {
+            "city": 79.6,
+            "germany": 75.4,
+            "unit": " %",
+            "max": 100
+          }
+        },
+        {
+          "value": "198.306",
+          "label": "Beschäftigte in Arbeitsstätten in Linz",
+          "source": "aest-gemeinde",
+          "note": "17.769 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+        },
+        {
+          "value": "16,5 %",
+          "label": "der Beschäftigungsverhältnisse entfallen auf das Gesundheits- und Sozialwesen – den größten Bereich",
+          "source": "linz-wirtschaft",
+          "note": "32.766 Beschäftigungsverhältnisse; danach folgt die Herstellung von Waren mit 29.991 (15,1 %); Arbeitsstättenzählung 2024, Stichtag 31.10.2024"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, ihr Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Linz ist etwas jünger als der Bundesschnitt, und in fast jedem zweiten Haushalt lebt nur eine Person.",
+      "metrics": [
+        {
+          "value": "48,5 %",
+          "label": "Einpersonenhaushalte",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Österreich 38,9 %",
+          "compare": {
+            "city": 48.5,
+            "germany": 38.9,
+            "unit": " %",
+            "max": 55
+          }
+        },
+        {
+          "value": "42,3",
+          "label": "Jahre Durchschnittsalter – 1,3 Jahre jünger als der österreichische Schnitt",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)",
+          "compare": {
+            "city": 42.3,
+            "germany": 43.6,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "107.150",
+          "label": "Privathaushalte, im Schnitt 1,94 Personen (Österreich 2,18)",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Hochschulen & Wissenschaft",
+      "text": "Fünf Universitäten, zwei Pädagogische Hochschulen und zwei Fachhochschulen. Die Johannes Kepler Universität wurde 1966 eröffnet und zählt 26.917 Studierende (Wintersemester 2025/26)."
+    },
+    {
+      "name": "Gesundheits- & Sozialwesen",
+      "text": "Mit 32.766 Beschäftigungsverhältnissen (16,5 %) der größte Wirtschaftsbereich der Stadt."
+    },
+    {
+      "name": "Industrie & Warenherstellung",
+      "text": "29.991 Beschäftigungsverhältnisse (15,1 %); 110 der 332 oberösterreichischen Arbeitsstätten mit mindestens 250 unselbständig Beschäftigten befinden sich in Linz."
+    },
+    {
+      "name": "Dienstleistungen & Handel",
+      "text": "19.478 Beschäftigungsverhältnisse in den sonstigen wirtschaftlichen Dienstleistungen und 17.946 im Handel."
+    },
+    {
+      "name": "Erziehung & Unterricht",
+      "text": "15.838 Beschäftigungsverhältnisse – ein weiterer beschäftigungsstarker Bereich der Stadt."
+    }
+  ],
+  "clusterSources": [
+    "linz-hochschulen",
+    "linz-wirtschaft",
+    "jku-geschichte",
+    "uni-stud"
+  ],
+  "places": [
+    {
+      "name": "Johannes Kepler Universität",
+      "kind": "work",
+      "district": "Dornach-Auhof · Altenberger Straße",
+      "text": "Campus mit technisch-naturwissenschaftlicher, rechtswissenschaftlicher, sozial- und wirtschaftswissenschaftlicher und medizinischer Fakultät sowie der School of Education; 1966 eröffnet.",
+      "lat": 48.3361,
+      "lon": 14.3206
+    },
+    {
+      "name": "Kepler Universitätsklinikum",
+      "kind": "work",
+      "district": "Katzenau · Med Campus III",
+      "text": "Universitätsklinikum mit mehreren Standorten in Linz, hier der Med Campus III.",
+      "lat": 48.3038,
+      "lon": 14.3045
+    },
+    {
+      "name": "Kunstuniversität Linz",
+      "kind": "work",
+      "district": "Innere Stadt · Hauptplatz",
+      "text": "Universität für künstlerische und industrielle Gestaltung mit 1.763 Studierenden (Wintersemester 2025/26).",
+      "lat": 48.3067,
+      "lon": 14.2856
+    },
+    {
+      "name": "voestalpine Stahlwelt",
+      "kind": "work",
+      "district": "Industriegebiet-Hafen · voestalpine-Straße",
+      "text": "Besucherzentrum am Linzer Standort des Stahlkonzerns voestalpine.",
+      "lat": 48.2769,
+      "lon": 14.32
+    },
+    {
+      "name": "Hauptplatz",
+      "kind": "date",
+      "district": "Innere Stadt",
+      "text": "Zentraler Platz der Altstadt, von dem aus Cafés, Gassen und das Donauufer zu Fuß erreichbar sind.",
+      "lat": 48.305,
+      "lon": 14.2863
+    },
+    {
+      "name": "Lentos Kunstmuseum",
+      "kind": "date",
+      "district": "Innere Stadt · Ernst-Koref-Promenade",
+      "text": "Kunstmuseum direkt an der Donau – danach ein Spaziergang am Ufer.",
+      "lat": 48.3086,
+      "lon": 14.2889
+    },
+    {
+      "name": "Brucknerhaus & Donaulände",
+      "kind": "date",
+      "district": "Innere Stadt · Untere Donaulände",
+      "text": "Konzerthaus am Donauufer, umgeben von einer Uferpromenade.",
+      "lat": 48.3106,
+      "lon": 14.2928
+    },
+    {
+      "name": "Ars Electronica Center",
+      "kind": "date",
+      "district": "Urfahr · Hauptstraße",
+      "text": "Museum am nördlichen Donauufer in Urfahr, gegenüber der Altstadt.",
+      "lat": 48.3099,
+      "lon": 14.2846
+    },
+    {
+      "name": "Pöstlingberg",
+      "kind": "date",
+      "district": "Pöstlingberg",
+      "text": "Ausflugsberg im Norden der Stadt mit Blick auf Linz und die Donau.",
+      "lat": 48.3242,
+      "lon": 14.258
+    },
+    {
+      "name": "Botanischer Garten",
+      "kind": "date",
+      "district": "Froschberg · Römerberg",
+      "text": "Botanischer Garten in Linz – ruhig für ein Gespräch im Grünen.",
+      "lat": 48.2962,
+      "lon": 14.2765
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 14.24,
+      "east": 14.345,
+      "south": 48.265,
+      "north": 48.345
+    },
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true,
+        "points": [
+          [
+            48.32711,
+            14.17055
+          ],
+          [
+            48.33056,
+            14.17976
+          ],
+          [
+            48.33124,
+            14.18388
+          ],
+          [
+            48.3312,
+            14.18749
+          ],
+          [
+            48.33098,
+            14.18901
+          ],
+          [
+            48.33023,
+            14.19127
+          ],
+          [
+            48.32901,
+            14.19338
+          ],
+          [
+            48.32538,
+            14.19651
+          ],
+          [
+            48.32409,
+            14.19838
+          ],
+          [
+            48.31933,
+            14.20686
+          ],
+          [
+            48.31654,
+            14.20937
+          ],
+          [
+            48.31524,
+            14.21124
+          ],
+          [
+            48.31161,
+            14.21729
+          ],
+          [
+            48.31042,
+            14.22026
+          ],
+          [
+            48.30849,
+            14.22715
+          ],
+          [
+            48.30768,
+            14.23203
+          ],
+          [
+            48.30768,
+            14.23332
+          ],
+          [
+            48.30838,
+            14.23921
+          ],
+          [
+            48.30947,
+            14.24652
+          ],
+          [
+            48.30973,
+            14.25061
+          ],
+          [
+            48.30944,
+            14.2552
+          ],
+          [
+            48.30702,
+            14.26498
+          ],
+          [
+            48.30539,
+            14.26967
+          ],
+          [
+            48.30511,
+            14.27155
+          ],
+          [
+            48.30516,
+            14.27416
+          ],
+          [
+            48.30591,
+            14.27699
+          ],
+          [
+            48.30687,
+            14.27947
+          ],
+          [
+            48.30768,
+            14.28311
+          ],
+          [
+            48.30876,
+            14.28604
+          ],
+          [
+            48.31011,
+            14.28833
+          ],
+          [
+            48.31206,
+            14.29074
+          ],
+          [
+            48.31827,
+            14.29757
+          ],
+          [
+            48.31943,
+            14.29917
+          ],
+          [
+            48.32091,
+            14.30206
+          ],
+          [
+            48.32162,
+            14.30496
+          ],
+          [
+            48.32209,
+            14.30805
+          ],
+          [
+            48.32215,
+            14.31114
+          ],
+          [
+            48.32175,
+            14.31468
+          ],
+          [
+            48.32117,
+            14.31649
+          ],
+          [
+            48.31696,
+            14.32279
+          ],
+          [
+            48.30962,
+            14.33191
+          ],
+          [
+            48.30719,
+            14.3338
+          ],
+          [
+            48.30488,
+            14.33496
+          ],
+          [
+            48.28582,
+            14.34369
+          ],
+          [
+            48.28239,
+            14.34604
+          ],
+          [
+            48.27913,
+            14.34942
+          ],
+          [
+            48.27542,
+            14.3558
+          ],
+          [
+            48.27193,
+            14.36527
+          ],
+          [
+            48.26968,
+            14.37677
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Volksgarten",
+        "points": [
+          [
+            48.29366,
+            14.29203
+          ],
+          [
+            48.29561,
+            14.29026
+          ],
+          [
+            48.29601,
+            14.29193
+          ],
+          [
+            48.29515,
+            14.29282
+          ],
+          [
+            48.29479,
+            14.29289
+          ],
+          [
+            48.2943,
+            14.29265
+          ],
+          [
+            48.29431,
+            14.29296
+          ],
+          [
+            48.29366,
+            14.29203
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Schillerpark",
+        "points": [
+          [
+            48.29743,
+            14.2914
+          ],
+          [
+            48.29727,
+            14.29154
+          ],
+          [
+            48.29725,
+            14.29122
+          ],
+          [
+            48.29747,
+            14.29116
+          ],
+          [
+            48.29751,
+            14.29053
+          ],
+          [
+            48.29807,
+            14.29078
+          ],
+          [
+            48.29831,
+            14.2913
+          ],
+          [
+            48.29743,
+            14.2914
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Botanischer Garten",
+        "points": [
+          [
+            48.29546,
+            14.27597
+          ],
+          [
+            48.29634,
+            14.27816
+          ],
+          [
+            48.29742,
+            14.2779
+          ],
+          [
+            48.29738,
+            14.27666
+          ],
+          [
+            48.29722,
+            14.27624
+          ],
+          [
+            48.29727,
+            14.27588
+          ],
+          [
+            48.29705,
+            14.27538
+          ],
+          [
+            48.295,
+            14.27493
+          ],
+          [
+            48.29496,
+            14.27515
+          ],
+          [
+            48.29546,
+            14.27597
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Donau",
+        "lat": 48.3101,
+        "lon": 14.2883
+      },
+      {
+        "text": "Innere Stadt",
+        "lat": 48.301,
+        "lon": 14.2905,
+        "district": true
+      },
+      {
+        "text": "Urfahr",
+        "lat": 48.319,
+        "lon": 14.278,
+        "district": true
+      },
+      {
+        "text": "Lustenau",
+        "lat": 48.3182,
+        "lon": 14.3071,
+        "district": true
+      },
+      {
+        "text": "Kleinmünchen",
+        "lat": 48.2549,
+        "lon": 14.311,
+        "district": true
+      },
+      {
+        "text": "Dornach-Auhof",
+        "lat": 48.3378,
+        "lon": 14.3271,
+        "district": true
+      },
+      {
+        "text": "Froschberg",
+        "lat": 48.2894,
+        "lon": 14.278,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          48.32642,
+          14.25693
+        ],
+        [
+          48.32808,
+          14.2575
+        ],
+        [
+          48.33131,
+          14.25499
+        ],
+        [
+          48.33323,
+          14.25487
+        ],
+        [
+          48.33331,
+          14.25699
+        ],
+        [
+          48.33228,
+          14.2591
+        ],
+        [
+          48.33146,
+          14.25962
+        ],
+        [
+          48.33176,
+          14.26084
+        ],
+        [
+          48.33414,
+          14.25808
+        ],
+        [
+          48.33676,
+          14.25648
+        ],
+        [
+          48.33743,
+          14.25627
+        ],
+        [
+          48.33797,
+          14.25743
+        ],
+        [
+          48.33899,
+          14.25591
+        ],
+        [
+          48.34052,
+          14.25643
+        ],
+        [
+          48.34157,
+          14.25546
+        ],
+        [
+          48.34069,
+          14.25672
+        ],
+        [
+          48.34112,
+          14.26015
+        ],
+        [
+          48.34093,
+          14.26224
+        ],
+        [
+          48.34127,
+          14.26374
+        ],
+        [
+          48.34109,
+          14.26473
+        ],
+        [
+          48.34181,
+          14.26532
+        ],
+        [
+          48.34217,
+          14.26523
+        ],
+        [
+          48.34349,
+          14.26655
+        ],
+        [
+          48.34417,
+          14.2661
+        ],
+        [
+          48.34325,
+          14.26801
+        ],
+        [
+          48.34355,
+          14.27016
+        ],
+        [
+          48.34343,
+          14.27189
+        ],
+        [
+          48.34482,
+          14.27086
+        ],
+        [
+          48.34648,
+          14.27175
+        ],
+        [
+          48.3469,
+          14.27278
+        ],
+        [
+          48.34816,
+          14.27436
+        ],
+        [
+          48.34728,
+          14.27677
+        ],
+        [
+          48.34825,
+          14.27683
+        ],
+        [
+          48.35047,
+          14.27868
+        ],
+        [
+          48.35098,
+          14.27979
+        ],
+        [
+          48.3533,
+          14.28179
+        ],
+        [
+          48.35461,
+          14.28177
+        ],
+        [
+          48.35598,
+          14.28276
+        ],
+        [
+          48.35683,
+          14.28254
+        ],
+        [
+          48.35698,
+          14.28301
+        ],
+        [
+          48.35742,
+          14.28305
+        ],
+        [
+          48.35747,
+          14.28366
+        ],
+        [
+          48.35812,
+          14.2844
+        ],
+        [
+          48.35918,
+          14.28315
+        ],
+        [
+          48.35976,
+          14.28155
+        ],
+        [
+          48.36008,
+          14.28177
+        ],
+        [
+          48.36043,
+          14.28446
+        ],
+        [
+          48.36202,
+          14.28761
+        ],
+        [
+          48.36188,
+          14.29008
+        ],
+        [
+          48.36624,
+          14.29154
+        ],
+        [
+          48.3678,
+          14.29149
+        ],
+        [
+          48.3706,
+          14.28986
+        ],
+        [
+          48.37194,
+          14.29115
+        ],
+        [
+          48.37285,
+          14.29099
+        ],
+        [
+          48.37346,
+          14.29018
+        ],
+        [
+          48.375,
+          14.29086
+        ],
+        [
+          48.37623,
+          14.29062
+        ],
+        [
+          48.37718,
+          14.29139
+        ],
+        [
+          48.37773,
+          14.29139
+        ],
+        [
+          48.37863,
+          14.29376
+        ],
+        [
+          48.37869,
+          14.2954
+        ],
+        [
+          48.37846,
+          14.29565
+        ],
+        [
+          48.37593,
+          14.2946
+        ],
+        [
+          48.37331,
+          14.29412
+        ],
+        [
+          48.3724,
+          14.29435
+        ],
+        [
+          48.37147,
+          14.29623
+        ],
+        [
+          48.37096,
+          14.29445
+        ],
+        [
+          48.37065,
+          14.29515
+        ],
+        [
+          48.36922,
+          14.29507
+        ],
+        [
+          48.36913,
+          14.29195
+        ],
+        [
+          48.36828,
+          14.2922
+        ],
+        [
+          48.36594,
+          14.29189
+        ],
+        [
+          48.36544,
+          14.29244
+        ],
+        [
+          48.36572,
+          14.29442
+        ],
+        [
+          48.36624,
+          14.29515
+        ],
+        [
+          48.36642,
+          14.29619
+        ],
+        [
+          48.36411,
+          14.29493
+        ],
+        [
+          48.36325,
+          14.29349
+        ],
+        [
+          48.36241,
+          14.293
+        ],
+        [
+          48.36149,
+          14.29313
+        ],
+        [
+          48.36048,
+          14.29389
+        ],
+        [
+          48.35984,
+          14.29346
+        ],
+        [
+          48.35831,
+          14.29411
+        ],
+        [
+          48.3559,
+          14.29432
+        ],
+        [
+          48.35505,
+          14.29544
+        ],
+        [
+          48.35461,
+          14.29544
+        ],
+        [
+          48.35528,
+          14.29667
+        ],
+        [
+          48.35669,
+          14.29749
+        ],
+        [
+          48.35817,
+          14.30385
+        ],
+        [
+          48.35523,
+          14.30402
+        ],
+        [
+          48.35494,
+          14.30664
+        ],
+        [
+          48.35462,
+          14.30748
+        ],
+        [
+          48.35566,
+          14.30984
+        ],
+        [
+          48.3554,
+          14.31033
+        ],
+        [
+          48.35684,
+          14.31195
+        ],
+        [
+          48.35585,
+          14.31491
+        ],
+        [
+          48.35616,
+          14.3155
+        ],
+        [
+          48.35519,
+          14.31646
+        ],
+        [
+          48.35499,
+          14.31736
+        ],
+        [
+          48.35394,
+          14.31736
+        ],
+        [
+          48.35384,
+          14.31663
+        ],
+        [
+          48.35295,
+          14.31737
+        ],
+        [
+          48.35218,
+          14.31994
+        ],
+        [
+          48.35203,
+          14.32226
+        ],
+        [
+          48.35246,
+          14.32366
+        ],
+        [
+          48.35363,
+          14.3252
+        ],
+        [
+          48.35285,
+          14.32854
+        ],
+        [
+          48.35161,
+          14.32973
+        ],
+        [
+          48.35119,
+          14.33082
+        ],
+        [
+          48.35134,
+          14.33138
+        ],
+        [
+          48.34866,
+          14.33199
+        ],
+        [
+          48.34853,
+          14.3324
+        ],
+        [
+          48.34674,
+          14.33323
+        ],
+        [
+          48.34652,
+          14.33473
+        ],
+        [
+          48.34557,
+          14.33511
+        ],
+        [
+          48.34485,
+          14.33437
+        ],
+        [
+          48.34456,
+          14.33461
+        ],
+        [
+          48.34485,
+          14.33583
+        ],
+        [
+          48.34436,
+          14.33699
+        ],
+        [
+          48.34506,
+          14.33913
+        ],
+        [
+          48.34462,
+          14.34167
+        ],
+        [
+          48.34493,
+          14.34187
+        ],
+        [
+          48.34405,
+          14.34407
+        ],
+        [
+          48.34422,
+          14.34482
+        ],
+        [
+          48.34492,
+          14.34537
+        ],
+        [
+          48.34301,
+          14.34871
+        ],
+        [
+          48.34031,
+          14.34858
+        ],
+        [
+          48.33972,
+          14.34507
+        ],
+        [
+          48.33918,
+          14.34427
+        ],
+        [
+          48.33907,
+          14.34337
+        ],
+        [
+          48.33729,
+          14.34171
+        ],
+        [
+          48.33691,
+          14.34027
+        ],
+        [
+          48.33713,
+          14.33963
+        ],
+        [
+          48.33702,
+          14.33735
+        ],
+        [
+          48.3364,
+          14.33702
+        ],
+        [
+          48.33632,
+          14.33631
+        ],
+        [
+          48.3359,
+          14.33576
+        ],
+        [
+          48.3357,
+          14.33662
+        ],
+        [
+          48.33471,
+          14.3381
+        ],
+        [
+          48.33395,
+          14.33857
+        ],
+        [
+          48.33324,
+          14.34055
+        ],
+        [
+          48.33174,
+          14.33954
+        ],
+        [
+          48.3313,
+          14.34021
+        ],
+        [
+          48.33136,
+          14.33954
+        ],
+        [
+          48.33106,
+          14.33953
+        ],
+        [
+          48.3309,
+          14.33993
+        ],
+        [
+          48.33112,
+          14.34074
+        ],
+        [
+          48.33066,
+          14.34064
+        ],
+        [
+          48.3307,
+          14.3438
+        ],
+        [
+          48.32961,
+          14.34325
+        ],
+        [
+          48.32851,
+          14.34372
+        ],
+        [
+          48.3289,
+          14.34504
+        ],
+        [
+          48.32781,
+          14.34792
+        ],
+        [
+          48.32789,
+          14.34923
+        ],
+        [
+          48.32766,
+          14.3504
+        ],
+        [
+          48.32778,
+          14.35223
+        ],
+        [
+          48.3285,
+          14.35505
+        ],
+        [
+          48.32859,
+          14.35719
+        ],
+        [
+          48.3256,
+          14.36018
+        ],
+        [
+          48.32472,
+          14.36068
+        ],
+        [
+          48.32423,
+          14.3575
+        ],
+        [
+          48.32436,
+          14.35571
+        ],
+        [
+          48.3239,
+          14.35489
+        ],
+        [
+          48.32433,
+          14.35316
+        ],
+        [
+          48.3242,
+          14.35227
+        ],
+        [
+          48.3248,
+          14.35086
+        ],
+        [
+          48.32494,
+          14.34871
+        ],
+        [
+          48.3246,
+          14.34746
+        ],
+        [
+          48.3247,
+          14.34677
+        ],
+        [
+          48.32337,
+          14.34718
+        ],
+        [
+          48.32543,
+          14.34122
+        ],
+        [
+          48.3251,
+          14.34124
+        ],
+        [
+          48.32496,
+          14.34006
+        ],
+        [
+          48.32472,
+          14.34016
+        ],
+        [
+          48.3243,
+          14.33869
+        ],
+        [
+          48.32462,
+          14.33819
+        ],
+        [
+          48.32338,
+          14.33557
+        ],
+        [
+          48.32213,
+          14.33704
+        ],
+        [
+          48.32206,
+          14.33645
+        ],
+        [
+          48.32212,
+          14.33489
+        ],
+        [
+          48.3228,
+          14.33358
+        ],
+        [
+          48.32372,
+          14.32937
+        ],
+        [
+          48.32358,
+          14.32844
+        ],
+        [
+          48.32315,
+          14.32828
+        ],
+        [
+          48.32342,
+          14.32551
+        ],
+        [
+          48.32311,
+          14.3236
+        ],
+        [
+          48.32322,
+          14.3213
+        ],
+        [
+          48.32458,
+          14.31596
+        ],
+        [
+          48.32172,
+          14.31474
+        ],
+        [
+          48.32086,
+          14.31683
+        ],
+        [
+          48.31696,
+          14.32246
+        ],
+        [
+          48.31436,
+          14.3256
+        ],
+        [
+          48.30883,
+          14.33381
+        ],
+        [
+          48.3015,
+          14.33665
+        ],
+        [
+          48.2965,
+          14.33988
+        ],
+        [
+          48.28632,
+          14.343
+        ],
+        [
+          48.28362,
+          14.34448
+        ],
+        [
+          48.27895,
+          14.34955
+        ],
+        [
+          48.27602,
+          14.35455
+        ],
+        [
+          48.27295,
+          14.36216
+        ],
+        [
+          48.27142,
+          14.36761
+        ],
+        [
+          48.27026,
+          14.37662
+        ],
+        [
+          48.26816,
+          14.38319
+        ],
+        [
+          48.2658,
+          14.387
+        ],
+        [
+          48.2636,
+          14.38959
+        ],
+        [
+          48.26012,
+          14.3953
+        ],
+        [
+          48.25707,
+          14.40368
+        ],
+        [
+          48.25294,
+          14.39849
+        ],
+        [
+          48.25231,
+          14.40377
+        ],
+        [
+          48.24887,
+          14.40922
+        ],
+        [
+          48.2484,
+          14.40887
+        ],
+        [
+          48.24612,
+          14.40127
+        ],
+        [
+          48.24472,
+          14.39927
+        ],
+        [
+          48.24348,
+          14.39836
+        ],
+        [
+          48.24306,
+          14.39668
+        ],
+        [
+          48.24305,
+          14.39298
+        ],
+        [
+          48.24248,
+          14.39294
+        ],
+        [
+          48.24221,
+          14.3944
+        ],
+        [
+          48.2416,
+          14.39529
+        ],
+        [
+          48.23945,
+          14.39077
+        ],
+        [
+          48.23907,
+          14.39057
+        ],
+        [
+          48.23854,
+          14.39203
+        ],
+        [
+          48.23765,
+          14.39221
+        ],
+        [
+          48.23565,
+          14.39018
+        ],
+        [
+          48.23417,
+          14.3898
+        ],
+        [
+          48.23336,
+          14.38903
+        ],
+        [
+          48.23341,
+          14.38853
+        ],
+        [
+          48.2322,
+          14.38778
+        ],
+        [
+          48.23167,
+          14.38796
+        ],
+        [
+          48.23062,
+          14.38688
+        ],
+        [
+          48.23086,
+          14.38616
+        ],
+        [
+          48.23068,
+          14.3857
+        ],
+        [
+          48.23145,
+          14.38359
+        ],
+        [
+          48.2333,
+          14.38065
+        ],
+        [
+          48.23504,
+          14.37406
+        ],
+        [
+          48.23596,
+          14.3721
+        ],
+        [
+          48.23541,
+          14.36892
+        ],
+        [
+          48.23568,
+          14.36771
+        ],
+        [
+          48.2346,
+          14.36611
+        ],
+        [
+          48.23417,
+          14.36633
+        ],
+        [
+          48.23334,
+          14.36524
+        ],
+        [
+          48.23252,
+          14.36479
+        ],
+        [
+          48.23202,
+          14.36196
+        ],
+        [
+          48.23151,
+          14.36176
+        ],
+        [
+          48.23088,
+          14.36209
+        ],
+        [
+          48.23062,
+          14.35988
+        ],
+        [
+          48.22961,
+          14.36027
+        ],
+        [
+          48.22839,
+          14.35555
+        ],
+        [
+          48.2277,
+          14.35593
+        ],
+        [
+          48.22703,
+          14.34931
+        ],
+        [
+          48.22705,
+          14.3459
+        ],
+        [
+          48.22849,
+          14.34572
+        ],
+        [
+          48.22852,
+          14.34221
+        ],
+        [
+          48.22696,
+          14.34192
+        ],
+        [
+          48.22597,
+          14.33983
+        ],
+        [
+          48.22462,
+          14.33947
+        ],
+        [
+          48.2243,
+          14.33744
+        ],
+        [
+          48.22317,
+          14.3383
+        ],
+        [
+          48.22102,
+          14.34079
+        ],
+        [
+          48.21987,
+          14.3392
+        ],
+        [
+          48.2188,
+          14.34037
+        ],
+        [
+          48.21891,
+          14.33835
+        ],
+        [
+          48.2181,
+          14.33805
+        ],
+        [
+          48.21733,
+          14.33702
+        ],
+        [
+          48.21754,
+          14.33568
+        ],
+        [
+          48.2149,
+          14.332
+        ],
+        [
+          48.21433,
+          14.33162
+        ],
+        [
+          48.2133,
+          14.32827
+        ],
+        [
+          48.21294,
+          14.32814
+        ],
+        [
+          48.21367,
+          14.32571
+        ],
+        [
+          48.21183,
+          14.3253
+        ],
+        [
+          48.21137,
+          14.32465
+        ],
+        [
+          48.21401,
+          14.31851
+        ],
+        [
+          48.21544,
+          14.31959
+        ],
+        [
+          48.21883,
+          14.31194
+        ],
+        [
+          48.22108,
+          14.31482
+        ],
+        [
+          48.22175,
+          14.31407
+        ],
+        [
+          48.22183,
+          14.31444
+        ],
+        [
+          48.22354,
+          14.31249
+        ],
+        [
+          48.22938,
+          14.30743
+        ],
+        [
+          48.23184,
+          14.30432
+        ],
+        [
+          48.23149,
+          14.30356
+        ],
+        [
+          48.23144,
+          14.30137
+        ],
+        [
+          48.23068,
+          14.29997
+        ],
+        [
+          48.23198,
+          14.29827
+        ],
+        [
+          48.23157,
+          14.29526
+        ],
+        [
+          48.23096,
+          14.29338
+        ],
+        [
+          48.2309,
+          14.292
+        ],
+        [
+          48.23441,
+          14.2895
+        ],
+        [
+          48.23408,
+          14.28549
+        ],
+        [
+          48.23508,
+          14.28471
+        ],
+        [
+          48.23419,
+          14.28165
+        ],
+        [
+          48.23737,
+          14.27989
+        ],
+        [
+          48.23765,
+          14.28003
+        ],
+        [
+          48.2385,
+          14.27906
+        ],
+        [
+          48.23982,
+          14.27719
+        ],
+        [
+          48.24361,
+          14.2704
+        ],
+        [
+          48.24581,
+          14.26837
+        ],
+        [
+          48.24564,
+          14.26763
+        ],
+        [
+          48.2465,
+          14.26697
+        ],
+        [
+          48.24611,
+          14.26621
+        ],
+        [
+          48.24673,
+          14.26271
+        ],
+        [
+          48.24941,
+          14.26892
+        ],
+        [
+          48.25295,
+          14.27935
+        ],
+        [
+          48.25438,
+          14.2785
+        ],
+        [
+          48.25917,
+          14.2711
+        ],
+        [
+          48.25944,
+          14.27448
+        ],
+        [
+          48.26,
+          14.27343
+        ],
+        [
+          48.26104,
+          14.27689
+        ],
+        [
+          48.2655,
+          14.27648
+        ],
+        [
+          48.26556,
+          14.27705
+        ],
+        [
+          48.26558,
+          14.27647
+        ],
+        [
+          48.2661,
+          14.27636
+        ],
+        [
+          48.27604,
+          14.27513
+        ],
+        [
+          48.27721,
+          14.27614
+        ],
+        [
+          48.28038,
+          14.28137
+        ],
+        [
+          48.28141,
+          14.27918
+        ],
+        [
+          48.28149,
+          14.27772
+        ],
+        [
+          48.28402,
+          14.27405
+        ],
+        [
+          48.28418,
+          14.27006
+        ],
+        [
+          48.28482,
+          14.26826
+        ],
+        [
+          48.28602,
+          14.2667
+        ],
+        [
+          48.28528,
+          14.26535
+        ],
+        [
+          48.28799,
+          14.26171
+        ],
+        [
+          48.28864,
+          14.26169
+        ],
+        [
+          48.28911,
+          14.2624
+        ],
+        [
+          48.28903,
+          14.26372
+        ],
+        [
+          48.29027,
+          14.26637
+        ],
+        [
+          48.29078,
+          14.26825
+        ],
+        [
+          48.29246,
+          14.26532
+        ],
+        [
+          48.29395,
+          14.26362
+        ],
+        [
+          48.29536,
+          14.26262
+        ],
+        [
+          48.29727,
+          14.26215
+        ],
+        [
+          48.29752,
+          14.26267
+        ],
+        [
+          48.29973,
+          14.26169
+        ],
+        [
+          48.30132,
+          14.26008
+        ],
+        [
+          48.30263,
+          14.25987
+        ],
+        [
+          48.30335,
+          14.25884
+        ],
+        [
+          48.3048,
+          14.25871
+        ],
+        [
+          48.30483,
+          14.25782
+        ],
+        [
+          48.3056,
+          14.25576
+        ],
+        [
+          48.30615,
+          14.25156
+        ],
+        [
+          48.30681,
+          14.24912
+        ],
+        [
+          48.30675,
+          14.24762
+        ],
+        [
+          48.30726,
+          14.24572
+        ],
+        [
+          48.30787,
+          14.24588
+        ],
+        [
+          48.30982,
+          14.24822
+        ],
+        [
+          48.30933,
+          14.25455
+        ],
+        [
+          48.311,
+          14.25488
+        ],
+        [
+          48.31132,
+          14.25387
+        ],
+        [
+          48.31165,
+          14.25394
+        ],
+        [
+          48.31014,
+          14.25884
+        ],
+        [
+          48.31114,
+          14.25914
+        ],
+        [
+          48.31166,
+          14.25971
+        ],
+        [
+          48.31282,
+          14.25819
+        ],
+        [
+          48.31339,
+          14.25896
+        ],
+        [
+          48.31402,
+          14.25896
+        ],
+        [
+          48.31526,
+          14.25626
+        ],
+        [
+          48.31626,
+          14.25694
+        ],
+        [
+          48.31693,
+          14.25551
+        ],
+        [
+          48.31783,
+          14.25608
+        ],
+        [
+          48.31811,
+          14.25446
+        ],
+        [
+          48.31877,
+          14.25394
+        ],
+        [
+          48.31933,
+          14.25426
+        ],
+        [
+          48.32007,
+          14.25408
+        ],
+        [
+          48.32066,
+          14.25489
+        ],
+        [
+          48.32113,
+          14.25471
+        ],
+        [
+          48.32138,
+          14.25552
+        ],
+        [
+          48.32195,
+          14.25594
+        ],
+        [
+          48.32356,
+          14.25552
+        ],
+        [
+          48.32439,
+          14.25487
+        ],
+        [
+          48.32642,
+          14.25693
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Volksgarten",
+      "Schillerpark",
+      "Botanischer Garten"
+    ],
+    "boundary": "Linz"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Linz?",
+      "answer": "Laut Abgestimmter Erwerbsstatistik 2024 haben in Linz 20,4 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss – das sind rund 38.000 Personen (berechnet); österreichweit sind es 17,6 Prozent. Die Tertiärquote der Frauen ab 25 Jahren liegt bei 29,3 Prozent, die der Männer bei 32,7 Prozent (Österreich: 28,9 bzw. 31,8 Prozent). Die öffentlichen Universitäten in Linz zählen im Wintersemester 2025/26 zusammen 28.680 Studierende."
+    },
+    {
+      "question": "Gibt es in Linz viele Singles?",
+      "answer": "In 48,5 Prozent aller Haushalte in Linz lebt nur eine Person (Abgestimmte Erwerbsstatistik 2024, österreichweit 38,9 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Das Durchschnittsalter liegt bei 42,3 Jahren (Österreich 43,6)."
+    },
+    {
+      "question": "Wo lernen Akademiker in Linz Singles kennen?",
+      "answer": "Am Hauptplatz und in der Altstadt, an der Donau beim Lentos und beim Brucknerhaus, auf dem Pöstlingberg oder im Botanischen Garten. Auch Veranstaltungen der Universitäten und Kulturhäuser bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "aest-gemeinde",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "aest-indikatoren",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Indikatoren für die Bundesländer und Landeshauptstädte (Blatt „Indikatoren 2024“): Durchschnittsalter, Einpersonenhaushalte, Tertiärquote ab 25 Jahren",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "uni-stud",
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "id": "einwohner",
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerung am 01.01.2026 nach Zählsprengel (Wohnbevölkerung, Hauptwohnsitzkonzept)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/405/Bev_Zaehlsprengel_2026.ods"
+    },
+    {
+      "id": "linz-hochschulen",
+      "publisher": "Stadt Linz, Stadtforschung",
+      "title": "Linz Zahlen – Universitäten / Hochschulen",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.linz.at/zahlen/070_Bildung/030_UniversitaetenHochschulen/"
+    },
+    {
+      "id": "linz-wirtschaft",
+      "publisher": "Stadt Linz, Medienservice",
+      "title": "208.000 Arbeitsplätze: Linz bleibt zentraler Jobmotor für Oberösterreich (Arbeitsstättenzählung 2024 von Statistik Austria)",
+      "stand": "Meldung vom 13.08.2026; Stichtag 31.10.2024",
+      "url": "https://www.linz.at/medienservice/2026/202608_136689.php"
+    },
+    {
+      "id": "jku-geschichte",
+      "publisher": "Johannes Kepler Universität Linz",
+      "title": "History of the JKU",
+      "stand": "abgerufen 10/2026",
+      "url": "https://www.jku.at/en/the-jku/about-us/history/"
+    }
+  ]
+}

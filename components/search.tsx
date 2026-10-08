@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { AboutNav } from "@/components/company";
 import { SearchForm } from "@/components/search-form";
 import { Breadcrumbs, type Crumb } from "@/components/ui";

@@ -1,6 +1,9 @@
 import snapshot from "@/data/public-pages.json";
 import categorySnapshot from "@/data/magazine-categories.json";
 import { AUTHORED_PAGES } from "@/lib/authored";
+import { requestMarket } from "@/lib/market-context";
+import { marketCities, marketHub } from "@/lib/market-cities";
+import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/markets";
 import { registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
 
@@ -82,8 +85,25 @@ export function normalizeContentPath(slug?: string[]): string {
   return !slug?.length ? "/" : `/${slug.map(part => decodeURIComponent(part)).join("/")}/`;
 }
 
+export function getMarketPage(market: MarketCode, path: string): PublicPage | null {
+  if (market === "de") return pageIndex.get(path) ?? null;
+  // AT/CH: Städteübersicht und Stadtseiten kommen aus den Dossiers, DE-Städte und Ratgeber gibt es dort nicht.
+  const own = path === "/partnersuche/" ? marketHub(market) : marketCities(market).find(city => city.path === path);
+  if (own) return own;
+  const page = pageIndex.get(path);
+  return page && !MARKET_HIDDEN.has(page.family) ? page : null;
+}
+
 export function getPage(path: string): PublicPage | null {
-  return pageIndex.get(path) ?? null;
+  return getMarketPage(requestMarket(), path);
+}
+
+// Auf den Marktseiten (AT/CH) entfallen DE-Städte und DE-Ratgeber; Magazin, Über uns, FAQ und Startseite sind dieselben Seiten.
+const MARKET_HIDDEN = new Set<Family>(["location", "location-hub", "guide"]);
+
+/** Seiten, die unter /at/ bzw. /ch/ erreichbar sind (für Suche und generateStaticParams). */
+export function getMarketPages(market: RegionalMarket): PublicPage[] {
+  return [...pages.filter(page => !MARKET_HIDDEN.has(page.family)), marketHub(market), ...marketCities(market)];
 }
 
 export function getPages(): PublicPage[] {
@@ -95,10 +115,13 @@ export function getArticles(): PublicPage[] {
 }
 
 export function getCities(): PublicPage[] {
+  const market = requestMarket();
+  if (market !== "de") return marketCities(market);
   return pages.filter(page => page.family === "location").sort((a, b) => (a.locationName ?? "").localeCompare(b.locationName ?? "", "de"));
 }
 
 export function getGuides(): PublicPage[] {
+  if (requestMarket() !== "de") return [];
   return pages.filter(page => page.family === "guide");
 }
 
@@ -229,10 +252,12 @@ function withoutImage(html: string, src: string): string {
  */
 export function renderedContentHtml(page: PublicPage): string {
   const registration = pageRegistrationUrl(page).replace(/&/g, "&amp;");
+  const market: MarketCode = requestMarket();
   // Stadt- und Ratgeberseiten zeigen ihr erstes Inhaltsbild bereits im Seitenkopf.
   const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.contentHtml;
   const body = withoutHero.replace(CREDIT_PARAGRAPH, "").replace(/href="(\/[^"]*)"/g, (match, href: string) => LINK_MOVES[href] ? `href="${LINK_MOVES[href]}"` : match);
   return body
+    .replace(/href="(\/[^"]*)"/g, (match, href: string) => localizePath(href, market) === href ? match : `href="${localizePath(href, market)}"`)
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>
       `<img${before}src="${optimizedImage(src, 1200)}" srcset="${optimizedImage(src, 640)} 640w, ${optimizedImage(src, 1080)} 1080w, ${optimizedImage(src, 1920)} 1920w" sizes="(max-width: 760px) 100vw, 720px" decoding="async"${after}>`)

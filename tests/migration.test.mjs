@@ -184,7 +184,7 @@ test("Seitensuche liegt unter /ueber-uns/suche/, ist noindex und nicht in der Si
   const shell = await read("components/site-shell.tsx");
   assert.match(shell, /href="\/ueber-uns\/suche\/"/);
   assert.match(await read("components/company.tsx"), /<SearchForm id="suchbegriff-ueber-uns" \/>/);
-  assert.match(await read("components/search-form.tsx"), /action=\{SEARCH_PATH\} method="get"/);
+  assert.match(await read("components/search-form.tsx"), /action=\{localizePath\(SEARCH_PATH, requestMarket\(\)\)\} method="get"/);
 });
 
 test("Stadtdossiers: jede Stadtseite hat ein Profil, jede Kennzahl eine verlinkte Quelle", async () => {

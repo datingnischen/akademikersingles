@@ -17,6 +17,25 @@ Die WordPress-Paginierung (`/magazin/page/<n>/`, auch in Kategorien) leitet per 
 
 **ICONY/Legacy (immer absolut auf `https://akademikersingles.de`):** Registrierung, Login, Fragenflirt, Fotoflirt, Videodate, Mitgliedschaften, Redaktionelle Kontrolle, Sicherheit & Datenschutz, Erfolgsgeschichten, Hilfe, Kontakt, Kündigen, Widerruf, Impressum, Datenschutz, AGB und Barrierefreiheit. Mitgliederprofile und -bilder werden nicht importiert.
 
+## Länderlogik (DE, AT, CH)
+
+Wie bei alleinerziehende-singles: DE ist der unpräfixierte Standard (Live `akademikersingles.de` über nginx, Canonicals unverändert). Auf Vercel antworten zusätzlich `/de/…`, `/at/…` und `/ch/…`. Für `akademikersingles.at` und `.ch` gibt es noch keine Domains; die Markt-Erkennung per Host (auch `X-Forwarded-Host`) ist vorbereitet und schreibt dann intern auf `/at/…` bzw. `/ch/…` um.
+
+| Pfad | DE | AT / CH |
+| --- | --- | --- |
+| `/de/…` | rewrite auf den unpräfixierten DE-Pfad | – |
+| `/at/`, `/ch/` | – | Startseite (dieselbe wie DE, Canonical auf DE, Städteliste des Landes) |
+| `/partnersuche/` | Hub, 15 Städte | eigener Hub, Canonical auf die Landesdomain, hreflang erst bei `MARKET_DOMAINS_LIVE = true` (`lib/markets.ts`) |
+| `/partnersuche/<stadt>/` | ICONY-Text + Stadtdossier | Stadtdossier aus `data/city-profiles/<land>/<stadt>.json`, Canonical auf die Landesdomain |
+| `/magazin/…`, `/ueber-uns/…`, `/faq/` | Originalseiten | dieselben Seiten, Canonical auf die DE-Seite (keine Dublette) |
+| `/ueber-uns/suche/` | Seitensuche | Seitensuche des Marktes (`noindex`) |
+| `/magazin/wp-json/…` | REST für ICONY | alle Präfixe landen auf demselben Endpunkt; unpräfixiert bleibt er unverändert (kein Slash-Redirect) |
+| `/robots.txt`, `/sitemap.xml` | `app/robots.ts`, `app/sitemap.ts` | `app/at|ch/robots.txt`, `…/sitemap.xml` (nur Hub + Städte) |
+
+Bausteine: `lib/markets.ts` (Marktkonfiguration, `resolveRequest` für `proxy.ts`, `localizePath`), `lib/market-context.ts` (Markt der Anfrage per `React.cache`, die Marktrouten setzen ihn), `components/market-link.tsx` (Link mit Präfix), `components/market-route.tsx` (Routen `app/at`, `app/ch`), `components/page-view.tsx` (gemeinsame Darstellung), `lib/market-cities.ts` (Hub + Städte aus den Dossiers), `lib/market-seo.ts` (robots/sitemap je Markt). DE-Städte und DE-Ratgeber (`/universitaeten/` usw.) gibt es unter `/at/` und `/ch/` nicht. ICONY-Plattformseiten bleiben absolut auf `https://akademikersingles.de/…`.
+
+**Dossiers AT/CH:** Es gibt keine ICONY-Quelltexte und keine Titelbilder; die Seiten bestehen nur aus dem Dossier. Format wie bei DE (siehe `lib/city-profile.ts`), zusätzlich `name`, `country`, `region`, `seoTitle`, `seoDescription`; `compare.germany` enthält dort den Vergleichswert des Landes. Alle Kennzahlen mit Quelle und Stand, nicht belegbare fehlen. Karten wie bei DE: `python scripts/build_city_map.py at/wien ch/zuerich`.
+
 ## Magazin-Leitthemen
 
 Erfolg & Anziehung · Unternehmer Dating · Intellektuelle Anziehung · Lifestyle, Status & Luxus · Beziehung auf Augenhöhe. Reihenfolge und Kurzname stehen in `LEAD_CATEGORIES` (`lib/content.ts`), die Kachelmotive in `TOPIC_COVERS`.

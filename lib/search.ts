@@ -1,5 +1,7 @@
 import { FAQ_GROUPS, faqPlainAnswer } from "@/lib/authored";
-import { excerpt, getPages, guideLabel, type PublicPage } from "@/lib/content";
+import { excerpt, getMarketPages, getPages, guideLabel, type PublicPage } from "@/lib/content";
+import { requestMarket } from "@/lib/market-context";
+import type { MarketCode } from "@/lib/markets";
 
 // Seitensuche unter „Über uns“: nginx reicht /ueber-uns/ an Next.js durch, /suche/ gehört der ICONY-Plattform.
 export const SEARCH_PATH = "/ueber-uns/suche/";
@@ -48,11 +50,12 @@ function pageTitle(page: PublicPage): string {
   return page.heroTitle;
 }
 
-let index: Entry[] | null = null;
+const indexes = new Map<MarketCode, Entry[]>();
 
-function buildIndex(): Entry[] {
+// DE durchsucht alle Seiten; AT/CH Magazin, Über uns, FAQ und die eigenen Städte (keine DE-Städte oder -Ratgeber).
+function buildIndex(market: MarketCode): Entry[] {
   const entries: Entry[] = [];
-  for (const page of getPages()) {
+  for (const page of market === "de" ? getPages() : getMarketPages(market)) {
     const section = SECTIONS[page.family];
     if (!section) continue;
     const text = excerpt(plainText(page.excerpt || page.description || page.contentHtml), 180);
@@ -70,7 +73,9 @@ export function search(query: string): SearchHit[] {
   const phrase = normalizeSearch(query);
   if (!phrase) return [];
   const terms = [...new Set(phrase.split(" "))];
-  index ??= buildIndex();
+  const market = requestMarket();
+  let index = indexes.get(market);
+  if (!index) indexes.set(market, index = buildIndex(market));
   const scored: { hit: SearchHit; score: number }[] = [];
   for (const item of index) {
     let score = 0;

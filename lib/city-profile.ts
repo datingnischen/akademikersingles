@@ -1,5 +1,7 @@
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { requestMarket } from "@/lib/market-context";
+import type { MarketCode } from "@/lib/markets";
 
 // Stadtdossier: belegte Kennzahlen zu Bildung, Beruf und Single-Leben einer Stadt.
 // Jede Zahl verweist per `source` auf einen Eintrag in `sources` (Institution, Stand, URL);
@@ -37,9 +39,16 @@ export type Source = { id: string; publisher: string; title: string; stand: stri
 
 export type CityProfile = {
   path: string;
+  // Nur AT/CH-Dossiers (data/city-profiles/<land>/): Anzeigename, Land (Beschriftung der Vergleichsbalken), Region und SEO-Texte.
+  // `compare.germany` enthält dort den Vergleichswert des Landes (Österreich bzw. Schweiz).
+  name?: string;
+  country?: string;
+  region?: string;
+  seoTitle?: string;
+  seoDescription?: string;
   eyebrow: string;
   lead: string;
-  heroAlt: string;
+  heroAlt?: string;
   briefing: Metric[];
   kpis: Metric[];
   dossier: DossierChapter[];
@@ -58,11 +67,14 @@ export type CityProfile = {
 };
 
 const PROFILE_DIR = join(process.cwd(), "data", "city-profiles");
-let cache: Map<string, CityProfile> | null = null;
+const cache = new Map<MarketCode, Map<string, CityProfile>>();
 
-function loadProfiles(): Map<string, CityProfile> {
-  const profiles = new Map<string, CityProfile>(readdirSync(PROFILE_DIR).filter(file => file.endsWith(".json")).map(file => {
-    const profile = JSON.parse(readFileSync(join(PROFILE_DIR, file), "utf8")) as CityProfile;
+function loadProfiles(market: MarketCode): Map<string, CityProfile> {
+  // DE liegt direkt in data/city-profiles/, AT und CH in den Unterordnern at/ und ch/.
+  const dir = market === "de" ? PROFILE_DIR : join(PROFILE_DIR, market);
+  const files = existsSync(dir) ? readdirSync(dir).filter(file => file.endsWith(".json")) : [];
+  const profiles = new Map<string, CityProfile>(files.map(file => {
+    const profile = JSON.parse(readFileSync(join(dir, file), "utf8")) as CityProfile;
     return [profile.path, profile];
   }));
   for (const profile of profiles.values()) {
@@ -76,10 +88,20 @@ function loadProfiles(): Map<string, CityProfile> {
   return profiles;
 }
 
-// Im Dev-Modus jedes Mal neu lesen, damit neue Profile ohne Neustart erscheinen.
-export function getCityProfile(path: string): CityProfile | null {
-  const profiles = process.env.NODE_ENV === "production" ? (cache ??= loadProfiles()) : loadProfiles();
-  return profiles.get(path) ?? null;
+function profilesFor(market: MarketCode): Map<string, CityProfile> {
+  // Im Dev-Modus jedes Mal neu lesen, damit neue Profile ohne Neustart erscheinen.
+  if (process.env.NODE_ENV !== "production") return loadProfiles(market);
+  let profiles = cache.get(market);
+  if (!profiles) cache.set(market, profiles = loadProfiles(market));
+  return profiles;
+}
+
+export function getCityProfile(path: string, market: MarketCode = requestMarket()): CityProfile | null {
+  return profilesFor(market).get(path) ?? null;
+}
+
+export function getMarketProfiles(market: MarketCode): CityProfile[] {
+  return [...profilesFor(market).values()].sort((a, b) => (a.name ?? a.path).localeCompare(b.name ?? b.path, "de"));
 }
 
 export function sourceNumber(profile: CityProfile, id: string): number {

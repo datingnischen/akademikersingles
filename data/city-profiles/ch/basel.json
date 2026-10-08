@@ -1,0 +1,1428 @@
+{
+  "path": "/partnersuche/basel/",
+  "name": "Basel",
+  "country": "Schweiz",
+  "region": "Basel-Stadt",
+  "seoTitle": "Partnersuche für Akademiker in Basel – AkademikerSingles",
+  "seoDescription": "Basel in Zahlen: 36,6 % Hochschulabschluss im Kanton, Universität Basel, Pharma-Standort, 49 % Einpersonenhaushalte. Partnersuche für Akademiker.",
+  "eyebrow": "Partnersuche für Akademiker · Universitäts- und Pharmastadt am Rhein",
+  "lead": "Universität Basel, Universitätsspital und ein Life-Sciences-Standort mit rund 17.800 Beschäftigten allein in der pharmazeutischen Industrie: Im Kanton Basel-Stadt hat mehr als ein Drittel der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschulabschluss. Zwischen Rheinufer, Münsterhügel und Kleinbasel sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "48,8 %",
+      "label": "der Einwohnerinnen und Einwohner des Kantons Basel-Stadt ab 15 Jahren haben einen Tertiärabschluss (Hochschule oder höhere Berufsbildung)",
+      "source": "bs-bildung"
+    },
+    {
+      "value": "36,6 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+      "source": "bs-bildung",
+      "note": "Berechnet: 60.430 von 165.064 Personen"
+    },
+    {
+      "value": "48,8 %",
+      "label": "aller Haushalte in der Stadt Basel sind Einpersonenhaushalte",
+      "source": "bs-hh"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "13.231",
+      "label": "Studierende an der Universität Basel im Wintersemester 2024/25",
+      "source": "bfs-stud",
+      "note": "Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung; dazu kommen Studierende der Fachhochschule Nordwestschweiz am Standort Basel"
+    },
+    {
+      "value": "199.737",
+      "label": "Beschäftigte im Kanton Basel-Stadt",
+      "source": "bs-statent",
+      "note": "STATENT 2022, Kanton Basel-Stadt (Stadt Basel, Riehen und Bettingen)"
+    },
+    {
+      "value": "17.833",
+      "label": "Beschäftigte in der pharmazeutischen Industrie",
+      "source": "bs-statent",
+      "note": "STATENT 2022, Kanton Basel-Stadt; dazu 3.678 in Forschung und Entwicklung"
+    },
+    {
+      "value": "177.571",
+      "label": "Einwohnerinnen und Einwohner der Stadt Basel",
+      "source": "einwohner",
+      "note": "Ständige Wohnbevölkerung am 31.12.2024"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Universität, Universitätsspital und Forschungsinstitute: Fast die Hälfte der Erwachsenen im Kanton hat eine Ausbildung auf Tertiärstufe abgeschlossen.",
+      "metrics": [
+        {
+          "value": "48,8 %",
+          "label": "der Einwohnerinnen und Einwohner des Kantons Basel-Stadt ab 15 Jahren haben einen Tertiärabschluss",
+          "source": "bs-bildung",
+          "note": "Strukturerhebung 2022 (Stichprobe): Hochschule 60.430 und höhere Berufsbildung 20.072 von 165.064 Personen in Privathaushalten (berechnet). Kanton Basel-Stadt umfasst Basel, Riehen und Bettingen"
+        },
+        {
+          "value": "36,6 %",
+          "label": "haben einen Hochschulabschluss (Universität, ETH, Fachhochschule, Pädagogische Hochschule)",
+          "source": "bs-bildung",
+          "note": "Berechnet: 60.430 von 165.064; Vertrauensintervall der Schätzung ±3,8 % (relativ), Strukturerhebung 2022"
+        },
+        {
+          "value": "13.231",
+          "label": "Studierende an der Universität Basel",
+          "source": "bfs-stud",
+          "note": "Wintersemester 2024/25 (Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung)"
+        }
+      ],
+      "takeaway": "Ob Biowissenschaften, Medizin oder Geisteswissenschaften: In Basel treffen Sie Menschen, die gerne forschen, fragen und diskutieren."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Pharmazeutische Industrie, Gesundheitswesen, Finanzdienstleistungen und Forschung prägen den Arbeitsmarkt am Rheinknie.",
+      "metrics": [
+        {
+          "value": "199.737",
+          "label": "Beschäftigte im Kanton Basel-Stadt",
+          "source": "bs-statent",
+          "note": "STATENT 2022 (Beschäftigungsverhältnisse)"
+        },
+        {
+          "value": "17.833",
+          "label": "Beschäftigte in der pharmazeutischen Industrie",
+          "source": "bs-statent",
+          "note": "STATENT 2022; dazu 608 in Raffinerie und chemischer Industrie und 3.678 in Forschung und Entwicklung"
+        },
+        {
+          "value": "23.075",
+          "label": "Beschäftigte im Gesundheitswesen",
+          "source": "bs-statent",
+          "note": "STATENT 2022; dazu 6.133 in Heimen und 5.695 im Sozialwesen ohne Heime"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, das Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Fast jeder zweite Haushalt besteht aus einer Person, und mehr als vier von zehn Erwachsenen sind ledig.",
+      "metrics": [
+        {
+          "value": "42,2 %",
+          "label": "der Einwohnerinnen und Einwohner ab 20 Jahren sind ledig",
+          "source": "bfs-zivil",
+          "note": "Berechnet aus der Altersklassenstatistik (ständige Wohnbevölkerung, 31.12.2024); ledig heisst nicht automatisch Single, auch unverheiratete Paare zählen dazu",
+          "compare": {
+            "city": 42.2,
+            "germany": 33.1,
+            "unit": " %",
+            "max": 57
+          }
+        },
+        {
+          "value": "48,8 %",
+          "label": "Einpersonenhaushalte in der Stadt Basel",
+          "source": "bs-hh",
+          "compareSource": "bfs-hh-ch",
+          "note": "44.740 von 91.603 Privathaushalten, 31.12.2023 (kantonale Bevölkerungsstatistik). Schweiz insgesamt: 37,5 % (BFS STATPOP 2025); die Zählweisen sind nicht identisch, daher ohne Balkenvergleich"
+        },
+        {
+          "value": "42,5",
+          "label": "Jahre Durchschnittsalter – so alt wie im Schweizer Schnitt",
+          "source": "bfs-alter",
+          "note": "Berechnet aus den Einzelaltersjahren (vollendete Jahre) der ständigen Wohnbevölkerung, 31.12.2024; gleiche Rechenweise für Stadt und Schweiz",
+          "compare": {
+            "city": 42.5,
+            "germany": 42.5,
+            "unit": " J.",
+            "max": 52
+          }
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Pharma & Life Sciences",
+      "text": "17.833 Beschäftigte in der pharmazeutischen Industrie, dazu 3.678 in Forschung und Entwicklung (STATENT 2022, Kanton Basel-Stadt); die Universität Basel ist mit dem Biozentrum und der Medizinischen Fakultät eng eingebunden."
+    },
+    {
+      "name": "Gesundheitswesen & Soziales",
+      "text": "23.075 Beschäftigte im Gesundheitswesen, 6.133 in Heimen und 5.695 im Sozialwesen ohne Heime (STATENT 2022)."
+    },
+    {
+      "name": "Finanz- & Versicherungswirtschaft",
+      "text": "Berechnet: 9.106 Beschäftigte, davon 4.483 in Finanzdienstleistungen und 4.623 bei Versicherungen und Pensionskassen (STATENT 2022)."
+    },
+    {
+      "name": "Bildung & Forschung",
+      "text": "14.516 Beschäftigte in Erziehung und Unterricht; die Universität Basel zählt 13.231 Studierende."
+    },
+    {
+      "name": "Beratung, Unternehmensführung & Technik",
+      "text": "7.445 Beschäftigte in Unternehmensführung und -beratung sowie 6.915 in Architektur- und Ingenieurbüros (STATENT 2022)."
+    }
+  ],
+  "clusterSources": [
+    "bs-statent",
+    "bfs-stud"
+  ],
+  "places": [
+    {
+      "name": "Universität Basel Kollegienhaus",
+      "kind": "work",
+      "district": "Vorstädte · Petersplatz",
+      "text": "Das Kollegienhaus am Petersplatz gehört zur Universität Basel, die im Wintersemester 2024/25 13.231 Studierende zählte.",
+      "lat": 47.5582,
+      "lon": 7.5829
+    },
+    {
+      "name": "Universitätsspital Basel",
+      "kind": "work",
+      "district": "Vorstädte · Spitalstrasse",
+      "text": "Universitätsspital in Gehdistanz zum Kollegienhaus; im Gesundheitswesen des Kantons arbeiten 23.075 Menschen.",
+      "lat": 47.5617,
+      "lon": 7.5831
+    },
+    {
+      "name": "Biozentrum der Universität Basel",
+      "kind": "work",
+      "district": "Am Ring · Spitalstrasse",
+      "text": "Institut der Universität Basel für molekulare Biowissenschaften an der Spitalstrasse.",
+      "lat": 47.5643,
+      "lon": 7.5807
+    },
+    {
+      "name": "Novartis Campus",
+      "kind": "work",
+      "district": "St. Johann",
+      "text": "Campus eines Pharmaunternehmens im Quartier St. Johann; im Kanton arbeiten 17.833 Menschen in der pharmazeutischen Industrie.",
+      "lat": 47.5738,
+      "lon": 7.5793
+    },
+    {
+      "name": "Basler Münster",
+      "kind": "date",
+      "district": "Altstadt Grossbasel · Münsterplatz",
+      "text": "Das Münster steht hoch über dem Rhein; von der Pfalz daneben blicken Sie auf den Fluss und nach Kleinbasel.",
+      "lat": 47.5564,
+      "lon": 7.5922
+    },
+    {
+      "name": "Kunstmuseum Basel",
+      "kind": "date",
+      "district": "Altstadt Grossbasel · St. Alban-Graben",
+      "text": "Kunstmuseum mit dem Hauptbau am St. Alban-Graben, einige Minuten vom Münsterplatz.",
+      "lat": 47.5539,
+      "lon": 7.5945
+    },
+    {
+      "name": "Mittlere Brücke & Rheinufer",
+      "kind": "date",
+      "district": "Grossbasel/Kleinbasel · Rhein",
+      "text": "Zwischen Mittlerer Brücke und Wettsteinbrücke verläuft das Rheinufer, im Sommer ein beliebter Ort für Spaziergänge und zum Baden im Fluss.",
+      "lat": 47.5601,
+      "lon": 7.5897
+    },
+    {
+      "name": "Tinguely Museum",
+      "kind": "date",
+      "district": "Wettstein · Grenzacherstrasse",
+      "text": "Museum für die Werke von Jean Tinguely am Rheinufer in Kleinbasel.",
+      "lat": 47.5598,
+      "lon": 7.6118
+    },
+    {
+      "name": "Schützenmattpark",
+      "kind": "date",
+      "district": "Bachletten",
+      "text": "Grünfläche im Westen der Stadt – für einen entspannten Spaziergang nach der Arbeit.",
+      "lat": 47.5521,
+      "lon": 7.5744
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 7.55,
+      "east": 7.63,
+      "south": 47.535,
+      "north": 47.585
+    },
+    "rivers": [
+      {
+        "name": "Rhein",
+        "major": true,
+        "points": [
+          [
+            47.55909,
+            7.63075
+          ],
+          [
+            47.55873,
+            7.62633
+          ]
+        ]
+      },
+      {
+        "name": "Rhein",
+        "major": true,
+        "points": [
+          [
+            47.55754,
+            7.64067
+          ],
+          [
+            47.56017,
+            7.63692
+          ],
+          [
+            47.56057,
+            7.63594
+          ],
+          [
+            47.56151,
+            7.63233
+          ],
+          [
+            47.56156,
+            7.6277
+          ],
+          [
+            47.56113,
+            7.6256
+          ],
+          [
+            47.55883,
+            7.61723
+          ],
+          [
+            47.55862,
+            7.62169
+          ],
+          [
+            47.55868,
+            7.62714
+          ],
+          [
+            47.55891,
+            7.63093
+          ]
+        ]
+      },
+      {
+        "name": "Rhein",
+        "major": true,
+        "points": [
+          [
+            47.55883,
+            7.61723
+          ],
+          [
+            47.55763,
+            7.61266
+          ],
+          [
+            47.55658,
+            7.60758
+          ],
+          [
+            47.55616,
+            7.60317
+          ],
+          [
+            47.55599,
+            7.59909
+          ],
+          [
+            47.55634,
+            7.59661
+          ],
+          [
+            47.55714,
+            7.59406
+          ],
+          [
+            47.55887,
+            7.59116
+          ],
+          [
+            47.56336,
+            7.58647
+          ],
+          [
+            47.5652,
+            7.58528
+          ],
+          [
+            47.56767,
+            7.58468
+          ],
+          [
+            47.56985,
+            7.58485
+          ],
+          [
+            47.57553,
+            7.58465
+          ]
+        ]
+      },
+      {
+        "name": "Wiese",
+        "major": false,
+        "points": [
+          [
+            47.67138,
+            7.83838
+          ],
+          [
+            47.6704,
+            7.83709
+          ],
+          [
+            47.6682,
+            7.83498
+          ],
+          [
+            47.66269,
+            7.83176
+          ],
+          [
+            47.6613,
+            7.82963
+          ],
+          [
+            47.66064,
+            7.82913
+          ],
+          [
+            47.65791,
+            7.82818
+          ],
+          [
+            47.6563,
+            7.82807
+          ],
+          [
+            47.65527,
+            7.82774
+          ],
+          [
+            47.65418,
+            7.827
+          ],
+          [
+            47.65373,
+            7.82588
+          ],
+          [
+            47.65255,
+            7.82078
+          ],
+          [
+            47.65241,
+            7.81727
+          ],
+          [
+            47.65041,
+            7.81032
+          ],
+          [
+            47.65025,
+            7.80706
+          ],
+          [
+            47.65041,
+            7.80567
+          ],
+          [
+            47.65134,
+            7.80167
+          ],
+          [
+            47.65139,
+            7.80079
+          ],
+          [
+            47.6511,
+            7.7992
+          ],
+          [
+            47.65004,
+            7.79598
+          ],
+          [
+            47.64998,
+            7.79511
+          ],
+          [
+            47.65083,
+            7.79067
+          ],
+          [
+            47.65084,
+            7.78983
+          ],
+          [
+            47.65075,
+            7.78884
+          ],
+          [
+            47.64943,
+            7.784
+          ],
+          [
+            47.64918,
+            7.77583
+          ],
+          [
+            47.64802,
+            7.77322
+          ],
+          [
+            47.64795,
+            7.772
+          ],
+          [
+            47.6478,
+            7.77171
+          ],
+          [
+            47.64734,
+            7.77177
+          ],
+          [
+            47.64676,
+            7.77077
+          ],
+          [
+            47.64622,
+            7.76827
+          ],
+          [
+            47.64596,
+            7.76473
+          ],
+          [
+            47.6453,
+            7.76101
+          ],
+          [
+            47.64534,
+            7.75963
+          ],
+          [
+            47.64576,
+            7.75711
+          ],
+          [
+            47.6457,
+            7.7565
+          ],
+          [
+            47.64522,
+            7.75515
+          ],
+          [
+            47.64366,
+            7.75252
+          ],
+          [
+            47.64322,
+            7.7513
+          ],
+          [
+            47.64124,
+            7.7436
+          ],
+          [
+            47.63863,
+            7.73233
+          ],
+          [
+            47.63718,
+            7.72822
+          ],
+          [
+            47.63726,
+            7.72731
+          ],
+          [
+            47.63784,
+            7.72504
+          ],
+          [
+            47.63764,
+            7.72171
+          ],
+          [
+            47.63785,
+            7.71579
+          ],
+          [
+            47.63704,
+            7.71217
+          ],
+          [
+            47.63717,
+            7.70991
+          ],
+          [
+            47.63734,
+            7.70927
+          ],
+          [
+            47.63953,
+            7.70601
+          ],
+          [
+            47.64001,
+            7.70406
+          ],
+          [
+            47.63955,
+            7.69545
+          ],
+          [
+            47.6393,
+            7.69418
+          ],
+          [
+            47.63883,
+            7.69311
+          ],
+          [
+            47.63697,
+            7.68912
+          ],
+          [
+            47.63613,
+            7.6877
+          ],
+          [
+            47.63441,
+            7.68255
+          ],
+          [
+            47.63351,
+            7.67871
+          ],
+          [
+            47.63224,
+            7.67058
+          ],
+          [
+            47.63164,
+            7.66832
+          ],
+          [
+            47.6303,
+            7.66544
+          ],
+          [
+            47.62625,
+            7.65896
+          ],
+          [
+            47.62393,
+            7.65622
+          ],
+          [
+            47.62059,
+            7.65286
+          ],
+          [
+            47.61962,
+            7.65267
+          ],
+          [
+            47.61702,
+            7.65315
+          ],
+          [
+            47.61368,
+            7.6525
+          ],
+          [
+            47.61276,
+            7.65262
+          ],
+          [
+            47.60973,
+            7.65386
+          ],
+          [
+            47.60729,
+            7.65395
+          ],
+          [
+            47.60459,
+            7.65228
+          ],
+          [
+            47.60011,
+            7.65012
+          ],
+          [
+            47.59805,
+            7.65009
+          ],
+          [
+            47.5962,
+            7.64943
+          ],
+          [
+            47.59459,
+            7.64827
+          ],
+          [
+            47.59347,
+            7.64717
+          ],
+          [
+            47.59087,
+            7.64426
+          ],
+          [
+            47.58927,
+            7.64217
+          ],
+          [
+            47.58628,
+            7.63675
+          ],
+          [
+            47.57795,
+            7.62314
+          ],
+          [
+            47.57713,
+            7.62146
+          ],
+          [
+            47.57646,
+            7.61883
+          ],
+          [
+            47.5752,
+            7.60558
+          ],
+          [
+            47.57494,
+            7.6041
+          ],
+          [
+            47.57469,
+            7.59781
+          ],
+          [
+            47.5752,
+            7.59667
+          ],
+          [
+            47.57943,
+            7.59449
+          ],
+          [
+            47.58025,
+            7.5939
+          ],
+          [
+            47.58133,
+            7.59255
+          ],
+          [
+            47.58177,
+            7.59137
+          ],
+          [
+            47.58279,
+            7.58687
+          ],
+          [
+            47.58087,
+            7.58466
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Schützenmattpark",
+        "points": [
+          [
+            47.5514,
+            7.57468
+          ],
+          [
+            47.55262,
+            7.57217
+          ],
+          [
+            47.55295,
+            7.57206
+          ],
+          [
+            47.5531,
+            7.57228
+          ],
+          [
+            47.55332,
+            7.57418
+          ],
+          [
+            47.55373,
+            7.57654
+          ],
+          [
+            47.55324,
+            7.57693
+          ],
+          [
+            47.55315,
+            7.57675
+          ],
+          [
+            47.55306,
+            7.57683
+          ],
+          [
+            47.55165,
+            7.57516
+          ],
+          [
+            47.5514,
+            7.57468
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Kannenfeldpark",
+        "points": [
+          [
+            47.56511,
+            7.56758
+          ],
+          [
+            47.56748,
+            7.57097
+          ],
+          [
+            47.56641,
+            7.5725
+          ],
+          [
+            47.5652,
+            7.57282
+          ],
+          [
+            47.56472,
+            7.57212
+          ],
+          [
+            47.56484,
+            7.57193
+          ],
+          [
+            47.5646,
+            7.57149
+          ],
+          [
+            47.56379,
+            7.57049
+          ],
+          [
+            47.56511,
+            7.56758
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Margarethenpark",
+        "points": [
+          [
+            47.54191,
+            7.58708
+          ],
+          [
+            47.54167,
+            7.58707
+          ],
+          [
+            47.53929,
+            7.58583
+          ],
+          [
+            47.54015,
+            7.58556
+          ],
+          [
+            47.54056,
+            7.58431
+          ],
+          [
+            47.54145,
+            7.58427
+          ],
+          [
+            47.54187,
+            7.58323
+          ],
+          [
+            47.54255,
+            7.58082
+          ],
+          [
+            47.54341,
+            7.581
+          ],
+          [
+            47.54357,
+            7.58112
+          ],
+          [
+            47.54282,
+            7.58327
+          ],
+          [
+            47.54316,
+            7.58351
+          ],
+          [
+            47.54191,
+            7.58708
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Rhein",
+        "lat": 47.5632,
+        "lon": 7.5855
+      },
+      {
+        "text": "Altstadt",
+        "lat": 47.5565,
+        "lon": 7.588,
+        "district": true
+      },
+      {
+        "text": "Kleinbasel",
+        "lat": 47.5645,
+        "lon": 7.5945,
+        "district": true
+      },
+      {
+        "text": "St. Johann",
+        "lat": 47.5701,
+        "lon": 7.5721,
+        "district": true
+      },
+      {
+        "text": "Gundeldingen",
+        "lat": 47.5432,
+        "lon": 7.5915,
+        "district": true
+      },
+      {
+        "text": "Matthäus",
+        "lat": 47.5674,
+        "lon": 7.5915,
+        "district": true
+      },
+      {
+        "text": "Bruderholz",
+        "lat": 47.5308,
+        "lon": 7.5916,
+        "district": true
+      },
+      {
+        "text": "Bachletten",
+        "lat": 47.5521,
+        "lon": 7.5744,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          47.5193,
+          7.59479
+        ],
+        [
+          47.51979,
+          7.59025
+        ],
+        [
+          47.52296,
+          7.58932
+        ],
+        [
+          47.52574,
+          7.58996
+        ],
+        [
+          47.52792,
+          7.58948
+        ],
+        [
+          47.52828,
+          7.58849
+        ],
+        [
+          47.52906,
+          7.58847
+        ],
+        [
+          47.52928,
+          7.58587
+        ],
+        [
+          47.53132,
+          7.58568
+        ],
+        [
+          47.53092,
+          7.58386
+        ],
+        [
+          47.53198,
+          7.58279
+        ],
+        [
+          47.53247,
+          7.5827
+        ],
+        [
+          47.53741,
+          7.58593
+        ],
+        [
+          47.53859,
+          7.58549
+        ],
+        [
+          47.54191,
+          7.58727
+        ],
+        [
+          47.54383,
+          7.58148
+        ],
+        [
+          47.54373,
+          7.57848
+        ],
+        [
+          47.54396,
+          7.5757
+        ],
+        [
+          47.54569,
+          7.56479
+        ],
+        [
+          47.5444,
+          7.55755
+        ],
+        [
+          47.54434,
+          7.55589
+        ],
+        [
+          47.55236,
+          7.55876
+        ],
+        [
+          47.55173,
+          7.56125
+        ],
+        [
+          47.55704,
+          7.56458
+        ],
+        [
+          47.56054,
+          7.55988
+        ],
+        [
+          47.56263,
+          7.55793
+        ],
+        [
+          47.56437,
+          7.55466
+        ],
+        [
+          47.56503,
+          7.5573
+        ],
+        [
+          47.56939,
+          7.55934
+        ],
+        [
+          47.57139,
+          7.55646
+        ],
+        [
+          47.57247,
+          7.55689
+        ],
+        [
+          47.57622,
+          7.56544
+        ],
+        [
+          47.57767,
+          7.56649
+        ],
+        [
+          47.57711,
+          7.57161
+        ],
+        [
+          47.57615,
+          7.57525
+        ],
+        [
+          47.57646,
+          7.5764
+        ],
+        [
+          47.57667,
+          7.57886
+        ],
+        [
+          47.57553,
+          7.58465
+        ],
+        [
+          47.57858,
+          7.58439
+        ],
+        [
+          47.58087,
+          7.58466
+        ],
+        [
+          47.58409,
+          7.58572
+        ],
+        [
+          47.5899,
+          7.58904
+        ],
+        [
+          47.58764,
+          7.59846
+        ],
+        [
+          47.58493,
+          7.60482
+        ],
+        [
+          47.58281,
+          7.60458
+        ],
+        [
+          47.58133,
+          7.60405
+        ],
+        [
+          47.58118,
+          7.60471
+        ],
+        [
+          47.5804,
+          7.60476
+        ],
+        [
+          47.57988,
+          7.60533
+        ],
+        [
+          47.57787,
+          7.60488
+        ],
+        [
+          47.57818,
+          7.60941
+        ],
+        [
+          47.57816,
+          7.6132
+        ],
+        [
+          47.57768,
+          7.61671
+        ],
+        [
+          47.57687,
+          7.61913
+        ],
+        [
+          47.57942,
+          7.62455
+        ],
+        [
+          47.57735,
+          7.62702
+        ],
+        [
+          47.57537,
+          7.62339
+        ],
+        [
+          47.57341,
+          7.6208
+        ],
+        [
+          47.56963,
+          7.62269
+        ],
+        [
+          47.56896,
+          7.6234
+        ],
+        [
+          47.56889,
+          7.62377
+        ],
+        [
+          47.56993,
+          7.62497
+        ],
+        [
+          47.5692,
+          7.62573
+        ],
+        [
+          47.56909,
+          7.6255
+        ],
+        [
+          47.56643,
+          7.62825
+        ],
+        [
+          47.56795,
+          7.63135
+        ],
+        [
+          47.56555,
+          7.63415
+        ],
+        [
+          47.56151,
+          7.6326
+        ],
+        [
+          47.56171,
+          7.63021
+        ],
+        [
+          47.56152,
+          7.62736
+        ],
+        [
+          47.55865,
+          7.61762
+        ],
+        [
+          47.55437,
+          7.61774
+        ],
+        [
+          47.55357,
+          7.61851
+        ],
+        [
+          47.55181,
+          7.62163
+        ],
+        [
+          47.55004,
+          7.62285
+        ],
+        [
+          47.53978,
+          7.62231
+        ],
+        [
+          47.5408,
+          7.61815
+        ],
+        [
+          47.54012,
+          7.617
+        ],
+        [
+          47.53942,
+          7.6142
+        ],
+        [
+          47.53902,
+          7.61343
+        ],
+        [
+          47.53845,
+          7.61301
+        ],
+        [
+          47.53702,
+          7.61271
+        ],
+        [
+          47.53596,
+          7.61103
+        ],
+        [
+          47.53545,
+          7.61138
+        ],
+        [
+          47.53521,
+          7.61048
+        ],
+        [
+          47.53563,
+          7.61022
+        ],
+        [
+          47.53502,
+          7.60918
+        ],
+        [
+          47.53078,
+          7.60603
+        ],
+        [
+          47.53074,
+          7.60564
+        ],
+        [
+          47.52978,
+          7.60554
+        ],
+        [
+          47.5298,
+          7.60462
+        ],
+        [
+          47.52929,
+          7.6047
+        ],
+        [
+          47.52535,
+          7.60177
+        ],
+        [
+          47.5193,
+          7.59479
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Rhein",
+        "major": true
+      },
+      {
+        "name": "Wiese"
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Schützenmattpark",
+      "Kannenfeldpark",
+      "Margarethenpark"
+    ],
+    "boundary": "Basel"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Basel?",
+      "answer": "Laut der Strukturerhebung 2022 haben im Kanton Basel-Stadt, zu dem neben der Stadt Basel auch Riehen und Bettingen gehören, 36,6 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschulabschluss; rechnet man die höhere Berufsbildung hinzu, sind es 48,8 Prozent mit Tertiärabschluss. Die Werte beruhen auf einer Stichprobe von rund 5.000 Personen und sind deshalb Schätzungen."
+    },
+    {
+      "question": "Gibt es in Basel viele Singles?",
+      "answer": "In 48,8 Prozent der Haushalte der Stadt Basel lebt nur eine Person (31.12.2023, kantonale Bevölkerungsstatistik; schweizweit 37,5 Prozent laut BFS STATPOP 2025, die Zählweisen unterscheiden sich). Zudem sind 42,2 Prozent der Einwohnerinnen und Einwohner ab 20 Jahren ledig, in der ganzen Schweiz 33,1 Prozent (BFS, 31.12.2024). Alleinlebend oder ledig heisst nicht automatisch Single – die Zahlen zeigen aber, wie verbreitet das Leben ohne Trauschein oder gemeinsamen Haushalt ist."
+    },
+    {
+      "question": "Wo lernen Akademiker in Basel Singles kennen?",
+      "answer": "Am Rheinufer zwischen Mittlerer Brücke und Wettsteinbrücke, auf dem Münsterplatz und der Pfalz, im Kunstmuseum oder bei einem Spaziergang im Schützenmattpark. Auch Vorträge und Veranstaltungen der Universität Basel bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "einwohner",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP: Ständige und nichtständige Wohnbevölkerung nach Gemeinde, Alter (PxWeb px-x-0102010000_101), ständige Wohnbevölkerung",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-alter",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_101: Wohnbevölkerung nach Gemeinde und Einzelaltersjahren (Durchschnittsalter eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-zivil",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_103: Wohnbevölkerung nach Gemeinde, Zivilstand und Altersklasse (Anteil Lediger ab 20 Jahren eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+    },
+    {
+      "id": "bfs-stud",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Studierende an den universitären Hochschulen nach Jahr, Fachrichtung, Studienstufe und Hochschule (PxWeb px-x-1502040100_105)",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_105/px-x-1502040100_105.px"
+    },
+    {
+      "id": "bs-bildung",
+      "publisher": "Statistisches Amt des Kantons Basel-Stadt (nach BFS-Strukturerhebung)",
+      "title": "Statistisches Jahrbuch 2024, Tabelle «Wohnbevölkerung nach Heimat, Geschlecht und Bildungsniveau seit 1970» (S. 230), Kanton Basel-Stadt",
+      "stand": "Strukturerhebung 2022",
+      "url": "https://statistik.bs.ch/files/berichte-analysen/Stat-JB-BS-2024.pdf"
+    },
+    {
+      "id": "bs-statent",
+      "publisher": "Statistisches Amt des Kantons Basel-Stadt (nach BFS-STATENT)",
+      "title": "Statistisches Jahrbuch 2024, Tabelle «Beschäftigte nach Branche seit 2015» (S. 76), Kanton Basel-Stadt",
+      "stand": "STATENT 2022",
+      "url": "https://statistik.bs.ch/files/berichte-analysen/Stat-JB-BS-2024.pdf"
+    },
+    {
+      "id": "bs-hh",
+      "publisher": "Statistisches Amt des Kantons Basel-Stadt",
+      "title": "Statistisches Jahrbuch 2024, Tabelle «Privathaushalte nach Haushaltsgrösse und Wohnviertel 2023» (S. 30), Stadt Basel",
+      "stand": "Stand 31.12.2023",
+      "url": "https://statistik.bs.ch/files/berichte-analysen/Stat-JB-BS-2024.pdf"
+    },
+    {
+      "id": "bfs-hh-ch",
+      "publisher": "Bundesamt für Statistik (BFS), publiziert durch die Finanzverwaltung des Kantons Bern",
+      "title": "STATPOP: Privathaushalte nach Haushaltsgrösse, Kantone 2012–2025 (Schweiz: 1.537.386 von 4.105.458 Haushalten)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.fin.be.ch/content/dam/fin/dokumente/de/finanzverwaltung/statistik/bev%C3%B6lkerungsstatistik/haushalte/Privathaushalte%20nach%20Haushaltsgr%C3%B6sse_Kantone_2012_2025_d.xlsx"
+    }
+  ]
+}

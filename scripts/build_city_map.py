@@ -1,6 +1,7 @@
 """Kartengeometrie für ein Stadtdossier aus OpenStreetMap (Overpass) erzeugen.
 
 python scripts/build_city_map.py hamburg [weitere Städte …]
+(AT/CH mit Länderordner: python scripts/build_city_map.py at/wien ch/zuerich)
 
 Liest `mapSpec` aus data/city-profiles/<stadt>.json:
   {"rivers": [{"name": "Elbe", "major": true}], "lakes": ["Außenalster"], "parks": ["Planten un Blomen"]}

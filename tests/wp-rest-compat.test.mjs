@@ -201,7 +201,9 @@ test("Routen: wp-json und ?rest_route= sind verdrahtet, kein 308-Loop, Catch-all
   assert.match(config, /key: "rest_route"[\s\S]*destination: "\/magazin\/index\.php"/);
 
   const proxy = source("proxy.ts");
-  assert.match(proxy, /startsWith\("\/magazin\/wp-json"\)/);
+  // Die Pfadlogik (REST ohne Slash-Umleitung, auch mit Marktpräfix) liegt in lib/markets.ts und ist in tests/markets.test.mjs geprüft.
+  assert.ok(source("lib/markets.ts").includes("WP_REST_PATH = /^\\/magazin\\/wp-json"));
+  assert.match(proxy, /resolveRequest\(/);
   assert.match(proxy, /NextResponse\.rewrite/);
 
   assert.doesNotMatch(source("lib/wp-rest-compat.ts"), /"\/wp\/v2\/users"|resource === "users"|resource === "pages"/);

@@ -1,0 +1,1961 @@
+{
+  "path": "/partnersuche/salzburg/",
+  "name": "Salzburg",
+  "country": "Österreich",
+  "region": "Salzburg",
+  "seoTitle": "Partnersuche für Akademiker in Salzburg – AkademikerSingles",
+  "seoDescription": "Akademiker in Salzburg kennenlernen: Kennzahlen zu Bildung, Beruf und Single-Leben, Orte für das erste Treffen und Antworten zur Partnersuche.",
+  "eyebrow": "Partnersuche für Akademiker · Universitäts- und Festspielstadt an der Salzach",
+  "lead": "Paris Lodron Universität, Universität Mozarteum, Paracelsus Medizinische Privatuniversität und Pädagogische Hochschule: An Salzburgs vier Hochschulen waren im Wintersemester 2024/25 insgesamt 23.428 Studierende eingeschrieben. Knapp jede vierte Person ab 15 Jahren hat einen Hochschul- oder Akademieabschluss (24,4 %), und in 46,9 % der Haushalte lebt nur eine Person. Zwischen Altstadt, Mönchsberg und Salzach sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "24,4 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul- oder Akademieabschluss – österreichweit 17,6 %",
+      "source": "aest-gemeinde"
+    },
+    {
+      "value": "23.428",
+      "label": "Studierende an den vier Salzburger Hochschulen im Wintersemester 2024/25",
+      "source": "sbg-zahlen"
+    },
+    {
+      "value": "46,9 %",
+      "label": "aller Haushalte in Salzburg sind Einpersonenhaushalte",
+      "source": "aest-indikatoren"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "157.834",
+      "label": "Einwohnerinnen und Einwohner in Salzburg (Hauptwohnsitz)",
+      "source": "einwohner",
+      "note": "Wohnbevölkerung am 01.01.2026"
+    },
+    {
+      "value": "4",
+      "label": "Universitäten und Hochschulen: Paris Lodron Universität, Mozarteum, Paracelsus-Universität, Pädagogische Hochschule",
+      "source": "sbg-zahlen",
+      "note": "Wintersemester 2024/25; Paris Lodron Universität 74,2 %, Mozarteum 9,5 %, Paracelsus Medizinische Privatuniversität 9,0 %, Pädagogische Hochschule 7,2 % der Studierenden"
+    },
+    {
+      "value": "122.730",
+      "label": "Beschäftigte in Arbeitsstätten in Salzburg",
+      "source": "aest-gemeinde",
+      "note": "Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+    },
+    {
+      "value": "14.558",
+      "label": "Unternehmen mit Sitz in Salzburg",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Universitätsstadt mit musikalischem Profil: Knapp jede vierte Person ab 15 Jahren hat einen Hochschul- oder Akademieabschluss, deutlich mehr als im Bundesschnitt.",
+      "metrics": [
+        {
+          "value": "24,4 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; berechnet rund 34.000 Personen (Anteil mal Bevölkerung ab 15 Jahren, auf Tausend gerundet); Österreich 17,6 %",
+          "compare": {
+            "city": 24.4,
+            "germany": 17.6,
+            "unit": " %",
+            "max": 30
+          }
+        },
+        {
+          "value": "34,9 %",
+          "label": "der Frauen ab 25 Jahren haben einen tertiären Abschluss (Männer: 35,8 %)",
+          "source": "aest-indikatoren",
+          "note": "Tertiärquote nach ISCED 2011, Abgestimmte Erwerbsstatistik 2024; Österreich: Frauen 28,9 %, Männer 31,8 %",
+          "compare": {
+            "city": 34.9,
+            "germany": 28.9,
+            "unit": " %",
+            "max": 42
+          }
+        },
+        {
+          "value": "19.959",
+          "label": "Studierende an der Universität Salzburg und der Universität Mozarteum, Wintersemester 2025/26",
+          "source": "uni-stud",
+          "note": "Berechnet: Summe der Studierenden (Universität Salzburg 17.691, Universität Mozarteum Salzburg 2.268), Wintersemester 2025/26; Mehrfachzählung bei Studium an mehreren Universitäten möglich; ohne Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten"
+        }
+      ],
+      "takeaway": "Ob Wissenschaft, Medizin oder Musik: Hier treffen Sie Menschen, die ihren Weg mit Neugier und Ausdauer gehen."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Dienstleistungen, Gesundheit, Kultur und Tourismus prägen den Arbeitsmarkt der Stadt.",
+      "metrics": [
+        {
+          "value": "90,6 %",
+          "label": "der Beschäftigten arbeiten am Arbeitsort Salzburg im Dienstleistungssektor",
+          "source": "aest-gemeinde",
+          "note": "Beschäftigte in Arbeitsstätten nach Wirtschaftssektoren, Abgestimmte Erwerbsstatistik 2024; Österreich 75,4 %",
+          "compare": {
+            "city": 90.6,
+            "germany": 75.4,
+            "unit": " %",
+            "max": 100
+          }
+        },
+        {
+          "value": "122.730",
+          "label": "Beschäftigte in Arbeitsstätten in Salzburg",
+          "source": "aest-gemeinde",
+          "note": "17.267 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024"
+        },
+        {
+          "value": "54.110",
+          "label": "Erwerbstätige pendeln in die Stadt Salzburg ein",
+          "source": "sbg-zahlen",
+          "note": "Abgestimmte Erwerbsstatistik, Stichtag 31.10.2023, laut „Salzburg in Zahlen 2025“ (Stadt Salzburg)"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, ihr Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "In fast jedem zweiten Haushalt lebt nur eine Person; das Durchschnittsalter entspricht in etwa dem österreichischen.",
+      "metrics": [
+        {
+          "value": "46,9 %",
+          "label": "Einpersonenhaushalte",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Österreich 38,9 %",
+          "compare": {
+            "city": 46.9,
+            "germany": 38.9,
+            "unit": " %",
+            "max": 55
+          }
+        },
+        {
+          "value": "43,9",
+          "label": "Jahre Durchschnittsalter – 0,3 Jahre älter als der österreichische Schnitt",
+          "source": "aest-indikatoren",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)",
+          "compare": {
+            "city": 43.9,
+            "germany": 43.6,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "77.120",
+          "label": "Privathaushalte, im Schnitt 1,99 Personen (Österreich 2,18)",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)"
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Hochschulen & Wissenschaft",
+      "text": "Vier Universitäten und Hochschulen mit zusammen 23.428 Studierenden (Wintersemester 2024/25); die Paris Lodron Universität zählt 17.691 Studierende, die Universität Mozarteum 2.268 (Wintersemester 2025/26)."
+    },
+    {
+      "name": "Gesundheit & Medizin",
+      "text": "In der Stadt gibt es 7 Krankenanstalten mit insgesamt 1.947 Betten; die Paracelsus Medizinische Privatuniversität stellt 9,0 % der Studierenden der vier Hochschulen."
+    },
+    {
+      "name": "Dienstleistungen",
+      "text": "90,6 % der Beschäftigten arbeiten im Dienstleistungssektor; 54.110 Erwerbstätige pendeln in die Stadt ein (2023)."
+    },
+    {
+      "name": "Kultur & Festspiele",
+      "text": "2024 gab es 4.482 entgeltliche Veranstaltungen mit 994.933 Besucherinnen und Besuchern; fast jede(r) Fünfte besuchte eine der 193 Aufführungen der Salzburger Festspiele."
+    },
+    {
+      "name": "Messen, Kongresse & Tourismus",
+      "text": "601.295 Besuche im Messezentrum und in der Salzburgarena sowie 80.115 im Kongresshaus (2024); 118 Hotels mit 14.256 Betten."
+    }
+  ],
+  "clusterSources": [
+    "sbg-zahlen",
+    "uni-stud",
+    "aest-gemeinde"
+  ],
+  "places": [
+    {
+      "name": "Paris Lodron Universität Salzburg",
+      "kind": "work",
+      "district": "Altstadt · Kapitelgasse",
+      "text": "Historischer Standort der Universität in der Altstadt. Die Universität zählt 17.691 Studierende (Wintersemester 2025/26).",
+      "lat": 47.7971,
+      "lon": 13.0483
+    },
+    {
+      "name": "Naturwissenschaftliche Fakultät",
+      "kind": "work",
+      "district": "Salzburg-Süd · Hellbrunner Straße",
+      "text": "Standort der Naturwissenschaftlichen Fakultät der Universität im Süden der Stadt.",
+      "lat": 47.7885,
+      "lon": 13.0604
+    },
+    {
+      "name": "Universität Mozarteum",
+      "kind": "work",
+      "district": "Altstadt · Mirabellplatz",
+      "text": "Die Universität Mozarteum zählt 2.268 Studierende (Wintersemester 2025/26); der Mirabellgarten liegt direkt nebenan.",
+      "lat": 47.8038,
+      "lon": 13.0436
+    },
+    {
+      "name": "Paracelsus Medizinische Privatuniversität",
+      "kind": "work",
+      "district": "Lehen · Wallnergasse",
+      "text": "Medizinische Privatuniversität; laut Stadt Salzburg 9,0 % der Studierenden der vier Hochschulen (Wintersemester 2024/25).",
+      "lat": 47.8088,
+      "lon": 13.0311
+    },
+    {
+      "name": "Universitätsklinikum Salzburg",
+      "kind": "work",
+      "district": "Mülln · Müllner Hauptstraße",
+      "text": "Landeskrankenhaus und Universitätsklinikum der Paracelsus-Universität; in der Stadt gibt es 7 Krankenanstalten mit 1.947 Betten.",
+      "lat": 47.8062,
+      "lon": 13.0304
+    },
+    {
+      "name": "Großes Festspielhaus",
+      "kind": "date",
+      "district": "Altstadt · Hofstallgasse",
+      "text": "Spielstätte der Salzburger Festspiele; 2024 besuchte fast jede(r) Fünfte der Veranstaltungsgäste eine der 193 Festspielaufführungen.",
+      "lat": 47.7987,
+      "lon": 13.041
+    },
+    {
+      "name": "Mirabellgarten",
+      "kind": "date",
+      "district": "Altstadt · Mirabellplatz",
+      "text": "Gartenanlage mitten in der Stadt – für einen Spaziergang vor oder nach einem Konzert.",
+      "lat": 47.8047,
+      "lon": 13.0416
+    },
+    {
+      "name": "Mönchsberg",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Der Stadtberg über der Altstadt mit Spazierwegen und Aussichtspunkten.",
+      "lat": 47.799,
+      "lon": 13.0369
+    },
+    {
+      "name": "Residenzplatz",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Platz in der Altstadt neben dem Salzburg Museum – gut für ein Treffen zwischen Café und Spaziergang.",
+      "lat": 47.7985,
+      "lon": 13.0462
+    },
+    {
+      "name": "Schloss Hellbrunn",
+      "kind": "date",
+      "district": "Hellbrunn",
+      "text": "Schloss mit Wasserspielen im Süden der Stadt – ein Ziel für einen längeren Nachmittag.",
+      "lat": 47.7621,
+      "lon": 13.0603
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 13.01,
+      "east": 13.075,
+      "south": 47.755,
+      "north": 47.815
+    },
+    "rivers": [
+      {
+        "name": "Salzach",
+        "major": true,
+        "points": [
+          [
+            47.75511,
+            13.07909
+          ],
+          [
+            47.75614,
+            13.07886
+          ],
+          [
+            47.76204,
+            13.0763
+          ],
+          [
+            47.76768,
+            13.07476
+          ],
+          [
+            47.7686,
+            13.07471
+          ],
+          [
+            47.7742,
+            13.07526
+          ],
+          [
+            47.78189,
+            13.07621
+          ],
+          [
+            47.78313,
+            13.07607
+          ],
+          [
+            47.78419,
+            13.07556
+          ],
+          [
+            47.78547,
+            13.07446
+          ],
+          [
+            47.79007,
+            13.0689
+          ],
+          [
+            47.79631,
+            13.05768
+          ],
+          [
+            47.79784,
+            13.05456
+          ],
+          [
+            47.7992,
+            13.05115
+          ],
+          [
+            47.80142,
+            13.04296
+          ],
+          [
+            47.80231,
+            13.04075
+          ],
+          [
+            47.80326,
+            13.03933
+          ],
+          [
+            47.80526,
+            13.03786
+          ],
+          [
+            47.80755,
+            13.03681
+          ],
+          [
+            47.80923,
+            13.03651
+          ],
+          [
+            47.81303,
+            13.03676
+          ],
+          [
+            47.81538,
+            13.03648
+          ],
+          [
+            47.81971,
+            13.03513
+          ],
+          [
+            47.82443,
+            13.03261
+          ]
+        ]
+      },
+      {
+        "name": "Almkanal",
+        "major": false,
+        "points": [
+          [
+            47.80348,
+            13.03165
+          ],
+          [
+            47.80424,
+            13.03253
+          ],
+          [
+            47.80511,
+            13.03282
+          ],
+          [
+            47.80655,
+            13.03384
+          ],
+          [
+            47.80685,
+            13.03428
+          ],
+          [
+            47.80682,
+            13.03517
+          ],
+          [
+            47.80692,
+            13.0358
+          ],
+          [
+            47.80712,
+            13.03609
+          ]
+        ]
+      },
+      {
+        "name": "Almkanal",
+        "major": false,
+        "points": [
+          [
+            47.76215,
+            13.03821
+          ],
+          [
+            47.76281,
+            13.04008
+          ],
+          [
+            47.76301,
+            13.04016
+          ],
+          [
+            47.76305,
+            13.04037
+          ],
+          [
+            47.76451,
+            13.04099
+          ],
+          [
+            47.76559,
+            13.04085
+          ],
+          [
+            47.766,
+            13.04061
+          ],
+          [
+            47.76639,
+            13.0408
+          ],
+          [
+            47.76769,
+            13.04035
+          ],
+          [
+            47.76827,
+            13.03993
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Leopoldskroner Weiher",
+        "points": [
+          [
+            47.78744,
+            13.03591
+          ],
+          [
+            47.78722,
+            13.03595
+          ],
+          [
+            47.78657,
+            13.0365
+          ],
+          [
+            47.78298,
+            13.03974
+          ],
+          [
+            47.78296,
+            13.03991
+          ],
+          [
+            47.78324,
+            13.04107
+          ],
+          [
+            47.78358,
+            13.04119
+          ],
+          [
+            47.78363,
+            13.04149
+          ],
+          [
+            47.78491,
+            13.04169
+          ],
+          [
+            47.78498,
+            13.04139
+          ],
+          [
+            47.78483,
+            13.04132
+          ],
+          [
+            47.78484,
+            13.04123
+          ],
+          [
+            47.78496,
+            13.04116
+          ],
+          [
+            47.78503,
+            13.04131
+          ],
+          [
+            47.78507,
+            13.04123
+          ],
+          [
+            47.78516,
+            13.04085
+          ],
+          [
+            47.78509,
+            13.04072
+          ],
+          [
+            47.78525,
+            13.04048
+          ],
+          [
+            47.78535,
+            13.03988
+          ],
+          [
+            47.78547,
+            13.03964
+          ],
+          [
+            47.787,
+            13.03937
+          ],
+          [
+            47.78754,
+            13.03911
+          ],
+          [
+            47.788,
+            13.03864
+          ],
+          [
+            47.78838,
+            13.03719
+          ],
+          [
+            47.78843,
+            13.03631
+          ],
+          [
+            47.78829,
+            13.03597
+          ],
+          [
+            47.78808,
+            13.03577
+          ],
+          [
+            47.78763,
+            13.03577
+          ],
+          [
+            47.78744,
+            13.03591
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Mirabellgarten",
+        "points": [
+          [
+            47.80544,
+            13.03961
+          ],
+          [
+            47.8057,
+            13.04099
+          ],
+          [
+            47.80609,
+            13.04214
+          ],
+          [
+            47.80593,
+            13.04224
+          ],
+          [
+            47.8057,
+            13.04136
+          ],
+          [
+            47.80512,
+            13.04169
+          ],
+          [
+            47.80539,
+            13.04274
+          ],
+          [
+            47.80457,
+            13.0432
+          ],
+          [
+            47.80441,
+            13.04276
+          ],
+          [
+            47.80345,
+            13.04332
+          ],
+          [
+            47.80329,
+            13.04272
+          ],
+          [
+            47.80352,
+            13.04259
+          ],
+          [
+            47.80373,
+            13.04215
+          ],
+          [
+            47.80403,
+            13.04197
+          ],
+          [
+            47.80396,
+            13.04171
+          ],
+          [
+            47.80444,
+            13.04108
+          ],
+          [
+            47.8044,
+            13.04101
+          ],
+          [
+            47.80451,
+            13.04086
+          ],
+          [
+            47.80428,
+            13.04048
+          ],
+          [
+            47.80544,
+            13.03961
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Kurgarten",
+        "points": [
+          [
+            47.80544,
+            13.03961
+          ],
+          [
+            47.80599,
+            13.03937
+          ],
+          [
+            47.80606,
+            13.03979
+          ],
+          [
+            47.80631,
+            13.03968
+          ],
+          [
+            47.80641,
+            13.03988
+          ],
+          [
+            47.80677,
+            13.04134
+          ],
+          [
+            47.80667,
+            13.0414
+          ],
+          [
+            47.8068,
+            13.04193
+          ],
+          [
+            47.80664,
+            13.04203
+          ],
+          [
+            47.80667,
+            13.04213
+          ],
+          [
+            47.80624,
+            13.0424
+          ],
+          [
+            47.80615,
+            13.04234
+          ],
+          [
+            47.8057,
+            13.04099
+          ],
+          [
+            47.80544,
+            13.03961
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Salzach",
+        "lat": 47.801,
+        "lon": 13.0447
+      },
+      {
+        "text": "Altstadt",
+        "lat": 47.7968,
+        "lon": 13.051,
+        "district": true
+      },
+      {
+        "text": "Mülln",
+        "lat": 47.8055,
+        "lon": 13.0311,
+        "district": true
+      },
+      {
+        "text": "Lehen",
+        "lat": 47.8135,
+        "lon": 13.0275,
+        "district": true
+      },
+      {
+        "text": "Riedenburg",
+        "lat": 47.796,
+        "lon": 13.0295,
+        "district": true
+      },
+      {
+        "text": "Nonntal",
+        "lat": 47.7914,
+        "lon": 13.0504,
+        "district": true
+      },
+      {
+        "text": "Maxglan",
+        "lat": 47.8042,
+        "lon": 13.0187,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          47.76811,
+          13.07471
+        ],
+        [
+          47.7667,
+          13.07488
+        ],
+        [
+          47.76206,
+          13.07623
+        ],
+        [
+          47.75611,
+          13.07883
+        ],
+        [
+          47.75505,
+          13.07909
+        ],
+        [
+          47.75497,
+          13.07839
+        ],
+        [
+          47.75312,
+          13.07425
+        ],
+        [
+          47.75132,
+          13.071
+        ],
+        [
+          47.75327,
+          13.07061
+        ],
+        [
+          47.75682,
+          13.06402
+        ],
+        [
+          47.76053,
+          13.06249
+        ],
+        [
+          47.76101,
+          13.06049
+        ],
+        [
+          47.76148,
+          13.05961
+        ],
+        [
+          47.76201,
+          13.05941
+        ],
+        [
+          47.7618,
+          13.05901
+        ],
+        [
+          47.75966,
+          13.04986
+        ],
+        [
+          47.75982,
+          13.04869
+        ],
+        [
+          47.75883,
+          13.0466
+        ],
+        [
+          47.75673,
+          13.03809
+        ],
+        [
+          47.75683,
+          13.038
+        ],
+        [
+          47.75654,
+          13.03676
+        ],
+        [
+          47.75564,
+          13.03704
+        ],
+        [
+          47.75434,
+          13.03505
+        ],
+        [
+          47.75283,
+          13.03141
+        ],
+        [
+          47.75491,
+          13.03046
+        ],
+        [
+          47.75529,
+          13.0286
+        ],
+        [
+          47.75548,
+          13.0284
+        ],
+        [
+          47.75526,
+          13.02525
+        ],
+        [
+          47.75566,
+          13.02354
+        ],
+        [
+          47.75411,
+          13.02137
+        ],
+        [
+          47.75335,
+          13.01993
+        ],
+        [
+          47.75187,
+          13.0198
+        ],
+        [
+          47.75142,
+          13.01942
+        ],
+        [
+          47.75131,
+          13.01855
+        ],
+        [
+          47.75151,
+          13.01746
+        ],
+        [
+          47.7515,
+          13.0162
+        ],
+        [
+          47.75121,
+          13.01566
+        ],
+        [
+          47.75222,
+          13.01352
+        ],
+        [
+          47.75433,
+          13.01041
+        ],
+        [
+          47.76289,
+          13.0
+        ],
+        [
+          47.76807,
+          13.00065
+        ],
+        [
+          47.77031,
+          13.00133
+        ],
+        [
+          47.77324,
+          13.00294
+        ],
+        [
+          47.77588,
+          13.00529
+        ],
+        [
+          47.77728,
+          13.00328
+        ],
+        [
+          47.77868,
+          13.0019
+        ],
+        [
+          47.77962,
+          13.00246
+        ],
+        [
+          47.78145,
+          13.00264
+        ],
+        [
+          47.78401,
+          12.99907
+        ],
+        [
+          47.78511,
+          12.99891
+        ],
+        [
+          47.7884,
+          12.99509
+        ],
+        [
+          47.78873,
+          12.99574
+        ],
+        [
+          47.78907,
+          12.99555
+        ],
+        [
+          47.78934,
+          12.99485
+        ],
+        [
+          47.79156,
+          12.99265
+        ],
+        [
+          47.79211,
+          12.99205
+        ],
+        [
+          47.79204,
+          12.99188
+        ],
+        [
+          47.79356,
+          12.99033
+        ],
+        [
+          47.79445,
+          12.98764
+        ],
+        [
+          47.79561,
+          12.98565
+        ],
+        [
+          47.81066,
+          12.99722
+        ],
+        [
+          47.81671,
+          13.00296
+        ],
+        [
+          47.81973,
+          13.00613
+        ],
+        [
+          47.8295,
+          12.99349
+        ],
+        [
+          47.83076,
+          12.9915
+        ],
+        [
+          47.83196,
+          12.98907
+        ],
+        [
+          47.83677,
+          12.99686
+        ],
+        [
+          47.84053,
+          13.00147
+        ],
+        [
+          47.84258,
+          13.00326
+        ],
+        [
+          47.84468,
+          13.00402
+        ],
+        [
+          47.847,
+          13.0041
+        ],
+        [
+          47.85002,
+          13.00336
+        ],
+        [
+          47.85286,
+          13.00183
+        ],
+        [
+          47.85439,
+          13.0014
+        ],
+        [
+          47.84546,
+          13.01189
+        ],
+        [
+          47.84605,
+          13.01297
+        ],
+        [
+          47.84663,
+          13.01199
+        ],
+        [
+          47.8468,
+          13.01435
+        ],
+        [
+          47.8475,
+          13.01563
+        ],
+        [
+          47.84778,
+          13.0153
+        ],
+        [
+          47.84794,
+          13.01602
+        ],
+        [
+          47.84767,
+          13.01676
+        ],
+        [
+          47.84732,
+          13.0167
+        ],
+        [
+          47.84607,
+          13.01822
+        ],
+        [
+          47.84586,
+          13.01942
+        ],
+        [
+          47.84571,
+          13.0194
+        ],
+        [
+          47.84566,
+          13.02035
+        ],
+        [
+          47.84305,
+          13.02021
+        ],
+        [
+          47.84259,
+          13.01859
+        ],
+        [
+          47.8417,
+          13.01877
+        ],
+        [
+          47.84112,
+          13.01952
+        ],
+        [
+          47.84065,
+          13.02081
+        ],
+        [
+          47.84021,
+          13.02107
+        ],
+        [
+          47.84002,
+          13.0206
+        ],
+        [
+          47.83949,
+          13.02118
+        ],
+        [
+          47.8376,
+          13.02244
+        ],
+        [
+          47.83529,
+          13.0251
+        ],
+        [
+          47.83469,
+          13.02648
+        ],
+        [
+          47.83507,
+          13.02684
+        ],
+        [
+          47.83561,
+          13.02663
+        ],
+        [
+          47.83546,
+          13.0269
+        ],
+        [
+          47.83462,
+          13.02807
+        ],
+        [
+          47.83223,
+          13.03024
+        ],
+        [
+          47.82958,
+          13.03535
+        ],
+        [
+          47.83045,
+          13.04373
+        ],
+        [
+          47.83061,
+          13.04309
+        ],
+        [
+          47.8307,
+          13.04338
+        ],
+        [
+          47.83048,
+          13.04397
+        ],
+        [
+          47.8311,
+          13.05062
+        ],
+        [
+          47.83171,
+          13.05305
+        ],
+        [
+          47.83319,
+          13.05651
+        ],
+        [
+          47.83415,
+          13.05763
+        ],
+        [
+          47.83393,
+          13.05779
+        ],
+        [
+          47.83503,
+          13.05879
+        ],
+        [
+          47.83553,
+          13.0589
+        ],
+        [
+          47.83622,
+          13.05975
+        ],
+        [
+          47.83669,
+          13.05982
+        ],
+        [
+          47.83658,
+          13.05946
+        ],
+        [
+          47.83669,
+          13.05929
+        ],
+        [
+          47.83737,
+          13.05935
+        ],
+        [
+          47.83833,
+          13.05884
+        ],
+        [
+          47.83853,
+          13.05914
+        ],
+        [
+          47.8389,
+          13.05852
+        ],
+        [
+          47.83939,
+          13.0593
+        ],
+        [
+          47.83984,
+          13.05948
+        ],
+        [
+          47.84102,
+          13.06063
+        ],
+        [
+          47.84268,
+          13.05815
+        ],
+        [
+          47.8429,
+          13.0587
+        ],
+        [
+          47.84247,
+          13.0597
+        ],
+        [
+          47.84293,
+          13.06023
+        ],
+        [
+          47.84285,
+          13.06052
+        ],
+        [
+          47.84171,
+          13.06278
+        ],
+        [
+          47.84064,
+          13.06415
+        ],
+        [
+          47.84013,
+          13.06466
+        ],
+        [
+          47.8393,
+          13.06505
+        ],
+        [
+          47.83622,
+          13.06599
+        ],
+        [
+          47.83597,
+          13.06953
+        ],
+        [
+          47.8366,
+          13.07279
+        ],
+        [
+          47.83595,
+          13.07444
+        ],
+        [
+          47.83604,
+          13.07514
+        ],
+        [
+          47.8368,
+          13.07651
+        ],
+        [
+          47.83684,
+          13.07737
+        ],
+        [
+          47.83681,
+          13.07785
+        ],
+        [
+          47.83607,
+          13.07872
+        ],
+        [
+          47.83541,
+          13.08012
+        ],
+        [
+          47.83581,
+          13.08083
+        ],
+        [
+          47.83531,
+          13.08136
+        ],
+        [
+          47.83431,
+          13.08012
+        ],
+        [
+          47.83402,
+          13.08045
+        ],
+        [
+          47.83388,
+          13.08146
+        ],
+        [
+          47.83064,
+          13.081
+        ],
+        [
+          47.82988,
+          13.08157
+        ],
+        [
+          47.82978,
+          13.08212
+        ],
+        [
+          47.82994,
+          13.08228
+        ],
+        [
+          47.8289,
+          13.08461
+        ],
+        [
+          47.82815,
+          13.08552
+        ],
+        [
+          47.82739,
+          13.08828
+        ],
+        [
+          47.82472,
+          13.08329
+        ],
+        [
+          47.82388,
+          13.08257
+        ],
+        [
+          47.8231,
+          13.08239
+        ],
+        [
+          47.82255,
+          13.08157
+        ],
+        [
+          47.82166,
+          13.08128
+        ],
+        [
+          47.82084,
+          13.08062
+        ],
+        [
+          47.82062,
+          13.08064
+        ],
+        [
+          47.82011,
+          13.08148
+        ],
+        [
+          47.81916,
+          13.08124
+        ],
+        [
+          47.81816,
+          13.08191
+        ],
+        [
+          47.81755,
+          13.08485
+        ],
+        [
+          47.81584,
+          13.08582
+        ],
+        [
+          47.81604,
+          13.0867
+        ],
+        [
+          47.81523,
+          13.08717
+        ],
+        [
+          47.81486,
+          13.0867
+        ],
+        [
+          47.81463,
+          13.08565
+        ],
+        [
+          47.81408,
+          13.08649
+        ],
+        [
+          47.81329,
+          13.08608
+        ],
+        [
+          47.81336,
+          13.08764
+        ],
+        [
+          47.81303,
+          13.08753
+        ],
+        [
+          47.81301,
+          13.08835
+        ],
+        [
+          47.81166,
+          13.08894
+        ],
+        [
+          47.80977,
+          13.08875
+        ],
+        [
+          47.81047,
+          13.09037
+        ],
+        [
+          47.81082,
+          13.09172
+        ],
+        [
+          47.81155,
+          13.09319
+        ],
+        [
+          47.81186,
+          13.09449
+        ],
+        [
+          47.81307,
+          13.09585
+        ],
+        [
+          47.81273,
+          13.09639
+        ],
+        [
+          47.81235,
+          13.09636
+        ],
+        [
+          47.81251,
+          13.09912
+        ],
+        [
+          47.81211,
+          13.10192
+        ],
+        [
+          47.81183,
+          13.10253
+        ],
+        [
+          47.81013,
+          13.10279
+        ],
+        [
+          47.80958,
+          13.10323
+        ],
+        [
+          47.80933,
+          13.10382
+        ],
+        [
+          47.80889,
+          13.10338
+        ],
+        [
+          47.80782,
+          13.10323
+        ],
+        [
+          47.80757,
+          13.10393
+        ],
+        [
+          47.80586,
+          13.10624
+        ],
+        [
+          47.8041,
+          13.1098
+        ],
+        [
+          47.80552,
+          13.11195
+        ],
+        [
+          47.80528,
+          13.11291
+        ],
+        [
+          47.80513,
+          13.11275
+        ],
+        [
+          47.80504,
+          13.11303
+        ],
+        [
+          47.80451,
+          13.11571
+        ],
+        [
+          47.80467,
+          13.11604
+        ],
+        [
+          47.80428,
+          13.11756
+        ],
+        [
+          47.80351,
+          13.12344
+        ],
+        [
+          47.80273,
+          13.12487
+        ],
+        [
+          47.80213,
+          13.12674
+        ],
+        [
+          47.80072,
+          13.12753
+        ],
+        [
+          47.80047,
+          13.12524
+        ],
+        [
+          47.80157,
+          13.12495
+        ],
+        [
+          47.80082,
+          13.12302
+        ],
+        [
+          47.80054,
+          13.12272
+        ],
+        [
+          47.79987,
+          13.12289
+        ],
+        [
+          47.79964,
+          13.12242
+        ],
+        [
+          47.79941,
+          13.12077
+        ],
+        [
+          47.79916,
+          13.12049
+        ],
+        [
+          47.79897,
+          13.11978
+        ],
+        [
+          47.79883,
+          13.11987
+        ],
+        [
+          47.79864,
+          13.11918
+        ],
+        [
+          47.79819,
+          13.11923
+        ],
+        [
+          47.79791,
+          13.11859
+        ],
+        [
+          47.79863,
+          13.11829
+        ],
+        [
+          47.79754,
+          13.11696
+        ],
+        [
+          47.7973,
+          13.11681
+        ],
+        [
+          47.79673,
+          13.11802
+        ],
+        [
+          47.79636,
+          13.11807
+        ],
+        [
+          47.79506,
+          13.11669
+        ],
+        [
+          47.7949,
+          13.11625
+        ],
+        [
+          47.79444,
+          13.11595
+        ],
+        [
+          47.79335,
+          13.11602
+        ],
+        [
+          47.79202,
+          13.1151
+        ],
+        [
+          47.79149,
+          13.11537
+        ],
+        [
+          47.79063,
+          13.11529
+        ],
+        [
+          47.78994,
+          13.11594
+        ],
+        [
+          47.78972,
+          13.11557
+        ],
+        [
+          47.78823,
+          13.11561
+        ],
+        [
+          47.78799,
+          13.11531
+        ],
+        [
+          47.78669,
+          13.1157
+        ],
+        [
+          47.78588,
+          13.11512
+        ],
+        [
+          47.78434,
+          13.11478
+        ],
+        [
+          47.78461,
+          13.11231
+        ],
+        [
+          47.78414,
+          13.11234
+        ],
+        [
+          47.78344,
+          13.11307
+        ],
+        [
+          47.78308,
+          13.11299
+        ],
+        [
+          47.78242,
+          13.1119
+        ],
+        [
+          47.78082,
+          13.11044
+        ],
+        [
+          47.78,
+          13.10831
+        ],
+        [
+          47.78005,
+          13.10653
+        ],
+        [
+          47.77984,
+          13.10585
+        ],
+        [
+          47.77974,
+          13.10289
+        ],
+        [
+          47.77925,
+          13.10204
+        ],
+        [
+          47.7795,
+          13.10084
+        ],
+        [
+          47.77937,
+          13.09997
+        ],
+        [
+          47.77947,
+          13.09937
+        ],
+        [
+          47.77921,
+          13.09858
+        ],
+        [
+          47.77938,
+          13.09833
+        ],
+        [
+          47.77897,
+          13.09632
+        ],
+        [
+          47.77858,
+          13.09606
+        ],
+        [
+          47.77834,
+          13.09444
+        ],
+        [
+          47.77906,
+          13.093
+        ],
+        [
+          47.77904,
+          13.09229
+        ],
+        [
+          47.77969,
+          13.0912
+        ],
+        [
+          47.77972,
+          13.09052
+        ],
+        [
+          47.77921,
+          13.09015
+        ],
+        [
+          47.77915,
+          13.08914
+        ],
+        [
+          47.77886,
+          13.08825
+        ],
+        [
+          47.7743,
+          13.08848
+        ],
+        [
+          47.7736,
+          13.08824
+        ],
+        [
+          47.77289,
+          13.08756
+        ],
+        [
+          47.77137,
+          13.08362
+        ],
+        [
+          47.77092,
+          13.08168
+        ],
+        [
+          47.77081,
+          13.07963
+        ],
+        [
+          47.77106,
+          13.07498
+        ],
+        [
+          47.76811,
+          13.07471
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Salzach",
+        "major": true
+      },
+      {
+        "name": "Almkanal"
+      }
+    ],
+    "lakes": [
+      "Leopoldskroner Weiher"
+    ],
+    "parks": [
+      "Mirabellgarten",
+      "Kurgarten"
+    ],
+    "boundary": "Salzburg"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Salzburg?",
+      "answer": "Laut Abgestimmter Erwerbsstatistik 2024 haben in Salzburg 24,4 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss – das sind rund 34.000 Personen (berechnet); österreichweit sind es 17,6 Prozent. Die Tertiärquote der Frauen ab 25 Jahren liegt bei 34,9 Prozent, die der Männer bei 35,8 Prozent (Österreich: 28,9 bzw. 31,8 Prozent). Die öffentlichen Universitäten in Salzburg zählen im Wintersemester 2025/26 zusammen 19.959 Studierende. Nach Angabe der Stadt Salzburg waren im Wintersemester 2024/25 an den vier Hochschulen der Stadt insgesamt 23.428 Studierende eingeschrieben."
+    },
+    {
+      "question": "Gibt es in Salzburg viele Singles?",
+      "answer": "In 46,9 Prozent aller Haushalte in Salzburg lebt nur eine Person (Abgestimmte Erwerbsstatistik 2024, österreichweit 38,9 Prozent). Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist. Das Durchschnittsalter liegt bei 43,9 Jahren (Österreich 43,6)."
+    },
+    {
+      "question": "Wo lernen Akademiker in Salzburg Singles kennen?",
+      "answer": "Im Mirabellgarten, auf dem Mönchsberg, am Residenzplatz oder bei einem Konzert im Festspielhaus. Auch Veranstaltungen der Universitäten und des Mozarteums sowie Spaziergänge entlang der Salzach bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "aest-gemeinde",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "aest-indikatoren",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Indikatoren für die Bundesländer und Landeshauptstädte (Blatt „Indikatoren 2024“): Durchschnittsalter, Einpersonenhaushalte, Tertiärquote ab 25 Jahren",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "uni-stud",
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "id": "einwohner",
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerung am 01.01.2026 nach Zählsprengel (Wohnbevölkerung, Hauptwohnsitzkonzept)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/405/Bev_Zaehlsprengel_2026.ods"
+    },
+    {
+      "id": "sbg-zahlen",
+      "publisher": "Stadt Salzburg, MA 2/01 Stadtarchiv und Statistik",
+      "title": "Salzburg in Zahlen 2025 (Wirtschaft, Gesundheit & Soziales, Kultur, Bildung & Sport; Angaben überwiegend für 2024)",
+      "stand": "Ausgabe 2025",
+      "url": "https://www.stadt-salzburg.at/fileadmin/landingpages/statistik/pdf/salzburg_in_zahlen_2025_druckversion_final.pdf"
+    }
+  ]
+}

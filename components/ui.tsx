@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { categoryLabel, cardText, formatDate, primaryCategory, type ImageCredit, type PublicPage } from "@/lib/content";
 import { REVIEW, TRUST_LINKS, registrationUrl, type Aid } from "@/lib/site";
 import styles from "./ui.module.css";

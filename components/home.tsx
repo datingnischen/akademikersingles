@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { ArticleCard, CityTile, ReviewSeal } from "@/components/ui";
 import { categoryLabel, getArticles, getCities, getLeadCategories, renderedContentHtml, topicCover, type PublicPage } from "@/lib/content";
 import { legacyUrl, registrationUrl } from "@/lib/site";

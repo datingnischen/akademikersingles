@@ -1,0 +1,2154 @@
+{
+  "path": "/partnersuche/lausanne/",
+  "name": "Lausanne",
+  "country": "Schweiz",
+  "region": "Waadt",
+  "seoTitle": "Partnersuche für Akademiker in Lausanne – AkademikerSingles",
+  "seoDescription": "Lausanne in Zahlen: 48,7 % mit Tertiärabschluss, UNIL und EPFL, 131.223 Beschäftigte, 49 % Einpersonenhaushalte. Partnersuche für Akademiker am Genfersee.",
+  "eyebrow": "Partnersuche für Akademiker · Hochschulstadt am Genfersee",
+  "lead": "Université de Lausanne, EPFL und das Universitätsspital CHUV: In Lausanne hat knapp jede zweite Person ab 30 Jahren einen Tertiärabschluss, und in fast jedem zweiten Haushalt lebt nur eine Person. Zwischen Altstadt, Ouchy und Genfersee sind das gute Voraussetzungen, um jemanden auf Augenhöhe zu treffen.",
+  "briefing": [
+    {
+      "value": "48,7 %",
+      "label": "der Einwohnerinnen und Einwohner ab 30 Jahren haben einen Tertiärabschluss (Hochschule oder höhere Berufsbildung)",
+      "source": "la-formation"
+    },
+    {
+      "value": "42,0 %",
+      "label": "der Einwohnerinnen und Einwohner ab 30 Jahren haben einen Hochschulabschluss (Universität, EPFL, Fachhochschule, Pädagogische Hochschule)",
+      "source": "la-formation",
+      "note": "Berechnet: 38.662 von 92.004 Personen"
+    },
+    {
+      "value": "49,4 %",
+      "label": "aller Haushalte in Lausanne sind Einpersonenhaushalte",
+      "source": "la-menages"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "16.450",
+      "label": "Studierende an der Universität Lausanne (UNIL) im Wintersemester 2024/25",
+      "source": "bfs-stud",
+      "note": "Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung"
+    },
+    {
+      "value": "13.583",
+      "label": "Studierende an der EPFL, deren Campus am westlichen Stadtrand liegt",
+      "source": "bfs-stud",
+      "note": "Wintersemester 2024/25; Bachelor, Master und Doktorat (ohne Weiterbildung)"
+    },
+    {
+      "value": "131.223",
+      "label": "Beschäftigte in Arbeitsstätten der Stadt Lausanne",
+      "source": "la-emplois",
+      "note": "STATENT, Dezember 2024 (Beschäftigungsverhältnisse); 94,9 % davon im Dienstleistungssektor (berechnet: 124.478 von 131.223)"
+    },
+    {
+      "value": "144.873",
+      "label": "Einwohnerinnen und Einwohner der Stadt Lausanne",
+      "source": "einwohner",
+      "note": "Ständige Wohnbevölkerung am 31.12.2024"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "UNIL und EPFL machen Lausanne zu einer der grossen Hochschulstädte der Westschweiz: Fast jede zweite Person ab 30 Jahren hat eine tertiäre Ausbildung abgeschlossen.",
+      "metrics": [
+        {
+          "value": "48,7 %",
+          "label": "der Einwohnerinnen und Einwohner ab 30 Jahren haben einen Tertiärabschluss",
+          "source": "la-formation",
+          "note": "Strukturerhebung 2024 (Stichprobe): 44.784 von 92.004 Personen (berechnet), Vertrauensintervall ±1.731 Personen beim Tertiärabschluss. Die Tertiärstufe umfasst höhere Berufsbildung und Hochschulen"
+        },
+        {
+          "value": "42,0 %",
+          "label": "haben einen Hochschulabschluss (Universität, EPFL, Pädagogische Hochschule, Fachhochschule)",
+          "source": "la-formation",
+          "note": "Berechnet: 38.662 von 92.004 Personen, Strukturerhebung 2024; höhere Berufsbildung zusätzlich 6.122 Personen"
+        },
+        {
+          "value": "16.450",
+          "label": "Studierende allein an der Universität Lausanne",
+          "source": "bfs-stud",
+          "note": "Wintersemester 2024/25 (Bachelor, Master, Doktorat und Diplomstufe, ohne Weiterbildung)"
+        }
+      ],
+      "takeaway": "Ob Medizin, Recht, Ingenieurwissenschaften oder Kultur: In Lausanne treffen Sie Menschen, die in mehreren Sprachen und Disziplinen denken."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Gesundheit und Soziales, Bildung und Forschung sowie Tourismus und Gastgewerbe prägen den Arbeitsmarkt am Genfersee.",
+      "metrics": [
+        {
+          "value": "131.223",
+          "label": "Beschäftigte in Lausanner Arbeitsstätten",
+          "source": "la-emplois",
+          "note": "STATENT, Dezember 2024; 102.657 Vollzeitäquivalente (gerundet); im Jahr 2024 sank die Beschäftigung in Lausanne um 0,6 %"
+        },
+        {
+          "value": "32.200",
+          "label": "Beschäftigte in Gesundheit, Sozialem und Medizinisch-Sozialem – der grösste Bereich der Stadt",
+          "source": "la-flyer",
+          "note": "Rund; in der Tabelle der Stadt: Gesundheit 21.728, Heime 3.919, Sozialwesen ohne Heime 6.631. Im Quartier Vallon/Béthusy, in dem das CHUV liegt, befinden sich rund 10 % der Lausanner Arbeitsplätze"
+        },
+        {
+          "value": "10.717",
+          "label": "Beschäftigte im Unterrichtswesen",
+          "source": "la-emplois",
+          "note": "STATENT, Dezember 2024; dazu 1.680 in Forschung und Entwicklung"
+        }
+      ],
+      "takeaway": "Wer hier sucht, begegnet Menschen mit Verantwortung im Beruf – und dem Wunsch, das Leben mit jemandem zu teilen, der das versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Lausanne ist jung: Fast jeder zweite Erwachsene ist ledig, und in fast jedem zweiten Haushalt lebt nur eine Person.",
+      "metrics": [
+        {
+          "value": "47,2 %",
+          "label": "der Einwohnerinnen und Einwohner ab 20 Jahren sind ledig",
+          "source": "bfs-zivil",
+          "note": "Berechnet aus der Altersklassenstatistik (ständige Wohnbevölkerung, 31.12.2024); ledig heisst nicht automatisch Single, auch unverheiratete Paare zählen dazu",
+          "compare": {
+            "city": 47.2,
+            "germany": 33.1,
+            "unit": " %",
+            "max": 57
+          }
+        },
+        {
+          "value": "39,4",
+          "label": "Jahre Durchschnittsalter – gut drei Jahre jünger als der Schweizer Schnitt",
+          "source": "bfs-alter",
+          "note": "Berechnet aus den Einzelaltersjahren (vollendete Jahre) der ständigen Wohnbevölkerung, 31.12.2024; gleiche Rechenweise für Stadt und Schweiz",
+          "compare": {
+            "city": 39.4,
+            "germany": 42.5,
+            "unit": " J.",
+            "max": 52
+          }
+        },
+        {
+          "value": "49,4 %",
+          "label": "Einpersonenhaushalte",
+          "source": "la-menages",
+          "compareSource": "bfs-hh-ch",
+          "note": "37.285 von 75.537 Privathaushalten, Stand Dezember 2025 (Stadt Lausanne). Schweiz insgesamt: 37,5 % (BFS STATPOP 2025); die Zählweisen sind nicht identisch, daher ohne Balkenvergleich"
+        }
+      ],
+      "takeaway": "Viele nehmen sich Zeit für Studium und Karriere – und suchen danach ganz bewusst die Partnerschaft, die wirklich passt."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Gesundheit & Soziales",
+      "text": "Rund 32.200 Arbeitsplätze, der grösste Bereich der Stadt und in zehn Jahren auch der am schnellsten gewachsene (+32 %); das Universitätsspital CHUV liegt im Quartier Vallon/Béthusy."
+    },
+    {
+      "name": "Bildung & Forschung",
+      "text": "10.717 Beschäftigte im Unterrichtswesen und 1.680 in Forschung und Entwicklung; UNIL und EPFL zählen zusammen 30.033 Studierende."
+    },
+    {
+      "name": "Tourismus, Gastgewerbe & Freizeit",
+      "text": "Rund 14.000 Arbeitsplätze, der zweitgrösste Bereich der Stadt; Ouchy und das Olympische Museum am Seeufer sind bekannte Ziele."
+    },
+    {
+      "name": "Finanz- & Versicherungswirtschaft",
+      "text": "Berechnet: 8.324 Beschäftigte, davon 2.434 in Finanzdienstleistungen, 3.926 in der Versicherung und 1.964 in damit verbundenen Tätigkeiten (STATENT 2024)."
+    },
+    {
+      "name": "Verwaltung & Recht",
+      "text": "7.129 Beschäftigte in der öffentlichen Verwaltung und 3.400 in Rechts- und Buchhaltungstätigkeiten; in Lausanne hat auch das Bundesgericht seinen Sitz."
+    }
+  ],
+  "clusterSources": [
+    "la-emplois",
+    "la-flyer",
+    "bfs-stud"
+  ],
+  "places": [
+    {
+      "name": "Université de Lausanne (UNIL)",
+      "kind": "work",
+      "district": "Dorigny · Seeufer-Campus",
+      "text": "Campus der Universität Lausanne im Westen der Stadt mit der Bibliothek Unithèque; 16.450 Studierende im Wintersemester 2024/25.",
+      "lat": 46.5226,
+      "lon": 6.5809
+    },
+    {
+      "name": "EPFL Rolex Learning Center",
+      "kind": "work",
+      "district": "Campus EPFL",
+      "text": "Das Learning Center der EPFL im Zentrum des Campus; die technische Hochschule zählt 13.583 Studierende.",
+      "lat": 46.5184,
+      "lon": 6.5676
+    },
+    {
+      "name": "CHUV Universitätsspital",
+      "kind": "work",
+      "district": "Vallon/Béthusy · Rue du Bugnon",
+      "text": "Universitätsspital des Kantons Waadt; im Quartier Vallon/Béthusy, in dem es liegt, befinden sich laut Stadtstatistik rund zehn Prozent der Lausanner Arbeitsplätze.",
+      "lat": 46.5255,
+      "lon": 6.6423
+    },
+    {
+      "name": "Bundesgericht",
+      "kind": "work",
+      "district": "Mon Repos · Avenue du Tribunal-Fédéral",
+      "text": "Das Schweizerische Bundesgericht hat seinen Sitz in Lausanne, nahe dem Park Mon Repos.",
+      "lat": 46.5197,
+      "lon": 6.6442
+    },
+    {
+      "name": "Kathedrale & Altstadt",
+      "kind": "date",
+      "district": "Cité · Altstadt",
+      "text": "Die Kathedrale Notre-Dame überblickt die Altstadt; enge Gassen führen von der Place de la Palud zum Flon.",
+      "lat": 46.5226,
+      "lon": 6.6354
+    },
+    {
+      "name": "Plateforme 10",
+      "kind": "date",
+      "district": "Bahnhofsquartier · Place de la Gare",
+      "text": "Kunstquartier direkt neben dem Bahnhof, unter anderem mit dem Musée de l'Elysée.",
+      "lat": 46.5184,
+      "lon": 6.6244
+    },
+    {
+      "name": "Ouchy & Quai",
+      "kind": "date",
+      "district": "Ouchy · Seeufer",
+      "text": "Promenade am Genfersee mit Blick auf die Berge, im Sommer bis in den Abend belebt.",
+      "lat": 46.5074,
+      "lon": 6.6262
+    },
+    {
+      "name": "Olympisches Museum",
+      "kind": "date",
+      "district": "Ouchy · Quai d'Ouchy",
+      "text": "Museum am Seeufer; der Park rundherum eignet sich für einen Spaziergang.",
+      "lat": 46.5087,
+      "lon": 6.6341
+    },
+    {
+      "name": "Parc de Mon Repos",
+      "kind": "date",
+      "district": "Mon Repos",
+      "text": "Grosser Stadtpark mit alten Bäumen oberhalb des Sees, ruhig für ein Gespräch.",
+      "lat": 46.5192,
+      "lon": 6.643
+    },
+    {
+      "name": "Sauvabelin",
+      "kind": "date",
+      "district": "Sauvabelin · Nordrand",
+      "text": "Wald- und Seengebiet am Stadtrand für längere Spaziergänge.",
+      "lat": 46.5327,
+      "lon": 6.6405
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 6.555,
+      "east": 6.665,
+      "south": 46.497,
+      "north": 46.545
+    },
+    "rivers": [],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Parc de Mon Repos",
+        "points": [
+          [
+            46.52399,
+            6.55951
+          ],
+          [
+            46.52317,
+            6.55845
+          ],
+          [
+            46.52254,
+            6.55998
+          ],
+          [
+            46.5233,
+            6.56052
+          ],
+          [
+            46.52374,
+            6.56056
+          ],
+          [
+            46.52425,
+            6.56024
+          ],
+          [
+            46.52399,
+            6.55951
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Parc de Valency",
+        "points": [
+          [
+            46.52943,
+            6.60801
+          ],
+          [
+            46.5301,
+            6.60791
+          ],
+          [
+            46.53042,
+            6.6087
+          ],
+          [
+            46.53051,
+            6.6102
+          ],
+          [
+            46.53077,
+            6.61046
+          ],
+          [
+            46.5308,
+            6.61112
+          ],
+          [
+            46.53106,
+            6.61153
+          ],
+          [
+            46.52897,
+            6.61421
+          ],
+          [
+            46.52847,
+            6.6144
+          ],
+          [
+            46.52811,
+            6.61409
+          ],
+          [
+            46.52828,
+            6.61367
+          ],
+          [
+            46.52821,
+            6.61326
+          ],
+          [
+            46.52872,
+            6.61217
+          ],
+          [
+            46.52942,
+            6.61007
+          ],
+          [
+            46.5286,
+            6.60953
+          ],
+          [
+            46.52742,
+            6.60986
+          ],
+          [
+            46.52744,
+            6.60936
+          ],
+          [
+            46.52843,
+            6.60883
+          ],
+          [
+            46.52876,
+            6.60811
+          ],
+          [
+            46.52943,
+            6.60801
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Genfersee",
+        "lat": 46.503,
+        "lon": 6.61
+      },
+      {
+        "text": "Cité",
+        "lat": 46.5226,
+        "lon": 6.6354,
+        "district": true
+      },
+      {
+        "text": "Flon",
+        "lat": 46.5207,
+        "lon": 6.6303,
+        "district": true
+      },
+      {
+        "text": "Ouchy",
+        "lat": 46.5074,
+        "lon": 6.6262,
+        "district": true
+      },
+      {
+        "text": "Sous-Gare",
+        "lat": 46.5151,
+        "lon": 6.626,
+        "district": true
+      },
+      {
+        "text": "Vallon",
+        "lat": 46.5264,
+        "lon": 6.6369,
+        "district": true
+      },
+      {
+        "text": "Chailly",
+        "lat": 46.5274,
+        "lon": 6.6528,
+        "district": true
+      },
+      {
+        "text": "Bellevaux",
+        "lat": 46.5392,
+        "lon": 6.6344,
+        "district": true
+      },
+      {
+        "text": "Dorigny",
+        "lat": 46.5226,
+        "lon": 6.5809,
+        "district": true
+      },
+      {
+        "text": "Vidy",
+        "lat": 46.5126,
+        "lon": 6.6042,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          46.45558,
+          6.58505
+        ],
+        [
+          46.45487,
+          6.64061
+        ],
+        [
+          46.50585,
+          6.64204
+        ],
+        [
+          46.50676,
+          6.64101
+        ],
+        [
+          46.50757,
+          6.64101
+        ],
+        [
+          46.50743,
+          6.64038
+        ],
+        [
+          46.50812,
+          6.64037
+        ],
+        [
+          46.5085,
+          6.63972
+        ],
+        [
+          46.5104,
+          6.63936
+        ],
+        [
+          46.51182,
+          6.64202
+        ],
+        [
+          46.51164,
+          6.64235
+        ],
+        [
+          46.51207,
+          6.64427
+        ],
+        [
+          46.51275,
+          6.64514
+        ],
+        [
+          46.51254,
+          6.64652
+        ],
+        [
+          46.51306,
+          6.6484
+        ],
+        [
+          46.51269,
+          6.64875
+        ],
+        [
+          46.51281,
+          6.6499
+        ],
+        [
+          46.51371,
+          6.65162
+        ],
+        [
+          46.51329,
+          6.65193
+        ],
+        [
+          46.51329,
+          6.65367
+        ],
+        [
+          46.51496,
+          6.65431
+        ],
+        [
+          46.51589,
+          6.65376
+        ],
+        [
+          46.51809,
+          6.65415
+        ],
+        [
+          46.5192,
+          6.65632
+        ],
+        [
+          46.5189,
+          6.65673
+        ],
+        [
+          46.51995,
+          6.65897
+        ],
+        [
+          46.52049,
+          6.65957
+        ],
+        [
+          46.52193,
+          6.6601
+        ],
+        [
+          46.5223,
+          6.66013
+        ],
+        [
+          46.52233,
+          6.65981
+        ],
+        [
+          46.52305,
+          6.6604
+        ],
+        [
+          46.52384,
+          6.66146
+        ],
+        [
+          46.52406,
+          6.66254
+        ],
+        [
+          46.52632,
+          6.66459
+        ],
+        [
+          46.52636,
+          6.66862
+        ],
+        [
+          46.52862,
+          6.66885
+        ],
+        [
+          46.52844,
+          6.67027
+        ],
+        [
+          46.52862,
+          6.67036
+        ],
+        [
+          46.53146,
+          6.67004
+        ],
+        [
+          46.53226,
+          6.67012
+        ],
+        [
+          46.5329,
+          6.67078
+        ],
+        [
+          46.53394,
+          6.67367
+        ],
+        [
+          46.5341,
+          6.67733
+        ],
+        [
+          46.53492,
+          6.67756
+        ],
+        [
+          46.53651,
+          6.67928
+        ],
+        [
+          46.53652,
+          6.68093
+        ],
+        [
+          46.5369,
+          6.68144
+        ],
+        [
+          46.53708,
+          6.6829
+        ],
+        [
+          46.53786,
+          6.68502
+        ],
+        [
+          46.53859,
+          6.68525
+        ],
+        [
+          46.53912,
+          6.68623
+        ],
+        [
+          46.53972,
+          6.68629
+        ],
+        [
+          46.53996,
+          6.68708
+        ],
+        [
+          46.54036,
+          6.68717
+        ],
+        [
+          46.54042,
+          6.68779
+        ],
+        [
+          46.54198,
+          6.68819
+        ],
+        [
+          46.54241,
+          6.68928
+        ],
+        [
+          46.54455,
+          6.69126
+        ],
+        [
+          46.54442,
+          6.69345
+        ],
+        [
+          46.54375,
+          6.69372
+        ],
+        [
+          46.54348,
+          6.69462
+        ],
+        [
+          46.54317,
+          6.69464
+        ],
+        [
+          46.54249,
+          6.6959
+        ],
+        [
+          46.54278,
+          6.69744
+        ],
+        [
+          46.54261,
+          6.69817
+        ],
+        [
+          46.54425,
+          6.69818
+        ],
+        [
+          46.54466,
+          6.69864
+        ],
+        [
+          46.54497,
+          6.69831
+        ],
+        [
+          46.54551,
+          6.69917
+        ],
+        [
+          46.54632,
+          6.69921
+        ],
+        [
+          46.54675,
+          6.69994
+        ],
+        [
+          46.54727,
+          6.6998
+        ],
+        [
+          46.54824,
+          6.70046
+        ],
+        [
+          46.5485,
+          6.7
+        ],
+        [
+          46.54885,
+          6.70023
+        ],
+        [
+          46.54923,
+          6.69988
+        ],
+        [
+          46.55007,
+          6.70019
+        ],
+        [
+          46.55113,
+          6.70103
+        ],
+        [
+          46.55122,
+          6.70188
+        ],
+        [
+          46.55179,
+          6.70224
+        ],
+        [
+          46.55224,
+          6.70381
+        ],
+        [
+          46.55313,
+          6.7039
+        ],
+        [
+          46.55383,
+          6.70443
+        ],
+        [
+          46.55382,
+          6.70483
+        ],
+        [
+          46.55409,
+          6.70461
+        ],
+        [
+          46.55416,
+          6.70501
+        ],
+        [
+          46.55506,
+          6.70511
+        ],
+        [
+          46.55507,
+          6.70544
+        ],
+        [
+          46.55622,
+          6.70591
+        ],
+        [
+          46.55692,
+          6.70679
+        ],
+        [
+          46.55881,
+          6.707
+        ],
+        [
+          46.56053,
+          6.70867
+        ],
+        [
+          46.56137,
+          6.70857
+        ],
+        [
+          46.56308,
+          6.70978
+        ],
+        [
+          46.56431,
+          6.70955
+        ],
+        [
+          46.56534,
+          6.71028
+        ],
+        [
+          46.56578,
+          6.71111
+        ],
+        [
+          46.56566,
+          6.71215
+        ],
+        [
+          46.56612,
+          6.71298
+        ],
+        [
+          46.57244,
+          6.71799
+        ],
+        [
+          46.57417,
+          6.71785
+        ],
+        [
+          46.57518,
+          6.71857
+        ],
+        [
+          46.5772,
+          6.71872
+        ],
+        [
+          46.58041,
+          6.72081
+        ],
+        [
+          46.58121,
+          6.71076
+        ],
+        [
+          46.58135,
+          6.70641
+        ],
+        [
+          46.58111,
+          6.70023
+        ],
+        [
+          46.58818,
+          6.68902
+        ],
+        [
+          46.58846,
+          6.68801
+        ],
+        [
+          46.59041,
+          6.68631
+        ],
+        [
+          46.59153,
+          6.68392
+        ],
+        [
+          46.59162,
+          6.68202
+        ],
+        [
+          46.59258,
+          6.68143
+        ],
+        [
+          46.59462,
+          6.68246
+        ],
+        [
+          46.59482,
+          6.68117
+        ],
+        [
+          46.59546,
+          6.68016
+        ],
+        [
+          46.59611,
+          6.6811
+        ],
+        [
+          46.59637,
+          6.6806
+        ],
+        [
+          46.59606,
+          6.6801
+        ],
+        [
+          46.59599,
+          6.67869
+        ],
+        [
+          46.59624,
+          6.6783
+        ],
+        [
+          46.59571,
+          6.67771
+        ],
+        [
+          46.59538,
+          6.67597
+        ],
+        [
+          46.59438,
+          6.67362
+        ],
+        [
+          46.59466,
+          6.67314
+        ],
+        [
+          46.59645,
+          6.67331
+        ],
+        [
+          46.59646,
+          6.67296
+        ],
+        [
+          46.59783,
+          6.6726
+        ],
+        [
+          46.59791,
+          6.66946
+        ],
+        [
+          46.59718,
+          6.66832
+        ],
+        [
+          46.59917,
+          6.66712
+        ],
+        [
+          46.59945,
+          6.66655
+        ],
+        [
+          46.60085,
+          6.66622
+        ],
+        [
+          46.60183,
+          6.66518
+        ],
+        [
+          46.60226,
+          6.66316
+        ],
+        [
+          46.60207,
+          6.66147
+        ],
+        [
+          46.60258,
+          6.66032
+        ],
+        [
+          46.60168,
+          6.66009
+        ],
+        [
+          46.59932,
+          6.65847
+        ],
+        [
+          46.59921,
+          6.65738
+        ],
+        [
+          46.59614,
+          6.65982
+        ],
+        [
+          46.59569,
+          6.65965
+        ],
+        [
+          46.59422,
+          6.65642
+        ],
+        [
+          46.59387,
+          6.65625
+        ],
+        [
+          46.59441,
+          6.65557
+        ],
+        [
+          46.5939,
+          6.65487
+        ],
+        [
+          46.59378,
+          6.65383
+        ],
+        [
+          46.59425,
+          6.6538
+        ],
+        [
+          46.59403,
+          6.65308
+        ],
+        [
+          46.59319,
+          6.65304
+        ],
+        [
+          46.59316,
+          6.65201
+        ],
+        [
+          46.59255,
+          6.64998
+        ],
+        [
+          46.59028,
+          6.64645
+        ],
+        [
+          46.5893,
+          6.64734
+        ],
+        [
+          46.58891,
+          6.6482
+        ],
+        [
+          46.58828,
+          6.64851
+        ],
+        [
+          46.58873,
+          6.64983
+        ],
+        [
+          46.58837,
+          6.65118
+        ],
+        [
+          46.58704,
+          6.65296
+        ],
+        [
+          46.5844,
+          6.65284
+        ],
+        [
+          46.58409,
+          6.65348
+        ],
+        [
+          46.58233,
+          6.65376
+        ],
+        [
+          46.58105,
+          6.65476
+        ],
+        [
+          46.58088,
+          6.65528
+        ],
+        [
+          46.57907,
+          6.65621
+        ],
+        [
+          46.57452,
+          6.65719
+        ],
+        [
+          46.57436,
+          6.65742
+        ],
+        [
+          46.5746,
+          6.65795
+        ],
+        [
+          46.57429,
+          6.65879
+        ],
+        [
+          46.57459,
+          6.65949
+        ],
+        [
+          46.57279,
+          6.65942
+        ],
+        [
+          46.57265,
+          6.65859
+        ],
+        [
+          46.56955,
+          6.65974
+        ],
+        [
+          46.56703,
+          6.65991
+        ],
+        [
+          46.56433,
+          6.65777
+        ],
+        [
+          46.56159,
+          6.65714
+        ],
+        [
+          46.56021,
+          6.66109
+        ],
+        [
+          46.56134,
+          6.66134
+        ],
+        [
+          46.56238,
+          6.66095
+        ],
+        [
+          46.56316,
+          6.6618
+        ],
+        [
+          46.56434,
+          6.66348
+        ],
+        [
+          46.56459,
+          6.66473
+        ],
+        [
+          46.56531,
+          6.66541
+        ],
+        [
+          46.56606,
+          6.66793
+        ],
+        [
+          46.56652,
+          6.66818
+        ],
+        [
+          46.56678,
+          6.66906
+        ],
+        [
+          46.56656,
+          6.6708
+        ],
+        [
+          46.56546,
+          6.67236
+        ],
+        [
+          46.56541,
+          6.67377
+        ],
+        [
+          46.5645,
+          6.67228
+        ],
+        [
+          46.5645,
+          6.67084
+        ],
+        [
+          46.56214,
+          6.66894
+        ],
+        [
+          46.56105,
+          6.67012
+        ],
+        [
+          46.56085,
+          6.66963
+        ],
+        [
+          46.55841,
+          6.67332
+        ],
+        [
+          46.55819,
+          6.67388
+        ],
+        [
+          46.55836,
+          6.67402
+        ],
+        [
+          46.55819,
+          6.67441
+        ],
+        [
+          46.55794,
+          6.67423
+        ],
+        [
+          46.55755,
+          6.67555
+        ],
+        [
+          46.55732,
+          6.67519
+        ],
+        [
+          46.55686,
+          6.67574
+        ],
+        [
+          46.5558,
+          6.67825
+        ],
+        [
+          46.55674,
+          6.67936
+        ],
+        [
+          46.5556,
+          6.68122
+        ],
+        [
+          46.5558,
+          6.68149
+        ],
+        [
+          46.55549,
+          6.68367
+        ],
+        [
+          46.55668,
+          6.6847
+        ],
+        [
+          46.5562,
+          6.6856
+        ],
+        [
+          46.55396,
+          6.68664
+        ],
+        [
+          46.55261,
+          6.68626
+        ],
+        [
+          46.55217,
+          6.6853
+        ],
+        [
+          46.55175,
+          6.6853
+        ],
+        [
+          46.5516,
+          6.6847
+        ],
+        [
+          46.5508,
+          6.68435
+        ],
+        [
+          46.54905,
+          6.68482
+        ],
+        [
+          46.54726,
+          6.6826
+        ],
+        [
+          46.54692,
+          6.68157
+        ],
+        [
+          46.54624,
+          6.68129
+        ],
+        [
+          46.54447,
+          6.67801
+        ],
+        [
+          46.54366,
+          6.67787
+        ],
+        [
+          46.54325,
+          6.67723
+        ],
+        [
+          46.5422,
+          6.67745
+        ],
+        [
+          46.54143,
+          6.67715
+        ],
+        [
+          46.54077,
+          6.67573
+        ],
+        [
+          46.53799,
+          6.67426
+        ],
+        [
+          46.53892,
+          6.66896
+        ],
+        [
+          46.53865,
+          6.6689
+        ],
+        [
+          46.53888,
+          6.66824
+        ],
+        [
+          46.53985,
+          6.66733
+        ],
+        [
+          46.53962,
+          6.66691
+        ],
+        [
+          46.5403,
+          6.66514
+        ],
+        [
+          46.5407,
+          6.66482
+        ],
+        [
+          46.54051,
+          6.66459
+        ],
+        [
+          46.54148,
+          6.66167
+        ],
+        [
+          46.54116,
+          6.66144
+        ],
+        [
+          46.54185,
+          6.65907
+        ],
+        [
+          46.54166,
+          6.65819
+        ],
+        [
+          46.54273,
+          6.65796
+        ],
+        [
+          46.5419,
+          6.65568
+        ],
+        [
+          46.54277,
+          6.65387
+        ],
+        [
+          46.54394,
+          6.65298
+        ],
+        [
+          46.54498,
+          6.64939
+        ],
+        [
+          46.54608,
+          6.64726
+        ],
+        [
+          46.54675,
+          6.64681
+        ],
+        [
+          46.54644,
+          6.64468
+        ],
+        [
+          46.54593,
+          6.64353
+        ],
+        [
+          46.54366,
+          6.64246
+        ],
+        [
+          46.54365,
+          6.63945
+        ],
+        [
+          46.5425,
+          6.63825
+        ],
+        [
+          46.54163,
+          6.63667
+        ],
+        [
+          46.54227,
+          6.63494
+        ],
+        [
+          46.54147,
+          6.6314
+        ],
+        [
+          46.54,
+          6.63105
+        ],
+        [
+          46.5393,
+          6.62932
+        ],
+        [
+          46.53883,
+          6.62887
+        ],
+        [
+          46.54,
+          6.62875
+        ],
+        [
+          46.53997,
+          6.62845
+        ],
+        [
+          46.5412,
+          6.62756
+        ],
+        [
+          46.54118,
+          6.62552
+        ],
+        [
+          46.54177,
+          6.62586
+        ],
+        [
+          46.54265,
+          6.62543
+        ],
+        [
+          46.54289,
+          6.62587
+        ],
+        [
+          46.54337,
+          6.62518
+        ],
+        [
+          46.54425,
+          6.62538
+        ],
+        [
+          46.54558,
+          6.62246
+        ],
+        [
+          46.54651,
+          6.62237
+        ],
+        [
+          46.54743,
+          6.62175
+        ],
+        [
+          46.54878,
+          6.62185
+        ],
+        [
+          46.54912,
+          6.62012
+        ],
+        [
+          46.55005,
+          6.61952
+        ],
+        [
+          46.551,
+          6.61929
+        ],
+        [
+          46.55114,
+          6.61991
+        ],
+        [
+          46.55096,
+          6.61745
+        ],
+        [
+          46.54897,
+          6.61447
+        ],
+        [
+          46.54979,
+          6.61434
+        ],
+        [
+          46.55012,
+          6.61233
+        ],
+        [
+          46.54482,
+          6.61128
+        ],
+        [
+          46.54229,
+          6.61194
+        ],
+        [
+          46.54209,
+          6.61099
+        ],
+        [
+          46.54021,
+          6.61172
+        ],
+        [
+          46.53979,
+          6.61024
+        ],
+        [
+          46.53538,
+          6.61286
+        ],
+        [
+          46.53462,
+          6.61124
+        ],
+        [
+          46.53393,
+          6.61172
+        ],
+        [
+          46.53359,
+          6.61058
+        ],
+        [
+          46.53319,
+          6.61087
+        ],
+        [
+          46.53249,
+          6.6098
+        ],
+        [
+          46.53274,
+          6.60943
+        ],
+        [
+          46.53145,
+          6.60737
+        ],
+        [
+          46.52845,
+          6.60753
+        ],
+        [
+          46.52838,
+          6.60559
+        ],
+        [
+          46.52879,
+          6.60375
+        ],
+        [
+          46.52835,
+          6.60394
+        ],
+        [
+          46.52675,
+          6.60317
+        ],
+        [
+          46.52504,
+          6.6038
+        ],
+        [
+          46.52503,
+          6.60332
+        ],
+        [
+          46.52464,
+          6.60333
+        ],
+        [
+          46.52463,
+          6.60211
+        ],
+        [
+          46.52365,
+          6.60059
+        ],
+        [
+          46.52352,
+          6.60086
+        ],
+        [
+          46.52332,
+          6.59939
+        ],
+        [
+          46.52421,
+          6.59526
+        ],
+        [
+          46.52641,
+          6.59088
+        ],
+        [
+          46.52706,
+          6.5909
+        ],
+        [
+          46.52762,
+          6.58935
+        ],
+        [
+          46.52546,
+          6.58747
+        ],
+        [
+          46.52567,
+          6.58693
+        ],
+        [
+          46.52233,
+          6.58588
+        ],
+        [
+          46.52178,
+          6.58659
+        ],
+        [
+          46.52088,
+          6.58693
+        ],
+        [
+          46.52116,
+          6.58565
+        ],
+        [
+          46.52076,
+          6.58424
+        ],
+        [
+          46.51742,
+          6.58665
+        ],
+        [
+          46.45558,
+          6.58505
+        ]
+      ],
+      [
+        [
+          46.57864,
+          6.62998
+        ],
+        [
+          46.57915,
+          6.62911
+        ],
+        [
+          46.57873,
+          6.62662
+        ],
+        [
+          46.57944,
+          6.62536
+        ],
+        [
+          46.57938,
+          6.62416
+        ],
+        [
+          46.57996,
+          6.62365
+        ],
+        [
+          46.58048,
+          6.6226
+        ],
+        [
+          46.58046,
+          6.62201
+        ],
+        [
+          46.58094,
+          6.62185
+        ],
+        [
+          46.58113,
+          6.62131
+        ],
+        [
+          46.58076,
+          6.62087
+        ],
+        [
+          46.58119,
+          6.62026
+        ],
+        [
+          46.58156,
+          6.62051
+        ],
+        [
+          46.58185,
+          6.6199
+        ],
+        [
+          46.5815,
+          6.61953
+        ],
+        [
+          46.5818,
+          6.61455
+        ],
+        [
+          46.5811,
+          6.61339
+        ],
+        [
+          46.58096,
+          6.61112
+        ],
+        [
+          46.58074,
+          6.61128
+        ],
+        [
+          46.58012,
+          6.61003
+        ],
+        [
+          46.58042,
+          6.60941
+        ],
+        [
+          46.58015,
+          6.6091
+        ],
+        [
+          46.58125,
+          6.60615
+        ],
+        [
+          46.58124,
+          6.6045
+        ],
+        [
+          46.58164,
+          6.6033
+        ],
+        [
+          46.58127,
+          6.60192
+        ],
+        [
+          46.58086,
+          6.60184
+        ],
+        [
+          46.57919,
+          6.59942
+        ],
+        [
+          46.57781,
+          6.5989
+        ],
+        [
+          46.57668,
+          6.59648
+        ],
+        [
+          46.57458,
+          6.59359
+        ],
+        [
+          46.57359,
+          6.59265
+        ],
+        [
+          46.57286,
+          6.59248
+        ],
+        [
+          46.57238,
+          6.59164
+        ],
+        [
+          46.572,
+          6.59189
+        ],
+        [
+          46.57118,
+          6.591
+        ],
+        [
+          46.56966,
+          6.59028
+        ],
+        [
+          46.56855,
+          6.58906
+        ],
+        [
+          46.56795,
+          6.58944
+        ],
+        [
+          46.56683,
+          6.58877
+        ],
+        [
+          46.56595,
+          6.58879
+        ],
+        [
+          46.5654,
+          6.5885
+        ],
+        [
+          46.56437,
+          6.5868
+        ],
+        [
+          46.56325,
+          6.58603
+        ],
+        [
+          46.56183,
+          6.58599
+        ],
+        [
+          46.56081,
+          6.58515
+        ],
+        [
+          46.55965,
+          6.58549
+        ],
+        [
+          46.5574,
+          6.5846
+        ],
+        [
+          46.55675,
+          6.58505
+        ],
+        [
+          46.55524,
+          6.58446
+        ],
+        [
+          46.55414,
+          6.58525
+        ],
+        [
+          46.55385,
+          6.58472
+        ],
+        [
+          46.55337,
+          6.58488
+        ],
+        [
+          46.55319,
+          6.58438
+        ],
+        [
+          46.55188,
+          6.58386
+        ],
+        [
+          46.55184,
+          6.58632
+        ],
+        [
+          46.55338,
+          6.5884
+        ],
+        [
+          46.55623,
+          6.58943
+        ],
+        [
+          46.5572,
+          6.59066
+        ],
+        [
+          46.56072,
+          6.59305
+        ],
+        [
+          46.56268,
+          6.59529
+        ],
+        [
+          46.56266,
+          6.59709
+        ],
+        [
+          46.5655,
+          6.59513
+        ],
+        [
+          46.56627,
+          6.59625
+        ],
+        [
+          46.56774,
+          6.59709
+        ],
+        [
+          46.56737,
+          6.5998
+        ],
+        [
+          46.56856,
+          6.60062
+        ],
+        [
+          46.56976,
+          6.60072
+        ],
+        [
+          46.56936,
+          6.61148
+        ],
+        [
+          46.56921,
+          6.61211
+        ],
+        [
+          46.56793,
+          6.61202
+        ],
+        [
+          46.56818,
+          6.61538
+        ],
+        [
+          46.56782,
+          6.6174
+        ],
+        [
+          46.56609,
+          6.61781
+        ],
+        [
+          46.56692,
+          6.61882
+        ],
+        [
+          46.56812,
+          6.62267
+        ],
+        [
+          46.57034,
+          6.62482
+        ],
+        [
+          46.57132,
+          6.62661
+        ],
+        [
+          46.57242,
+          6.62785
+        ],
+        [
+          46.57447,
+          6.6287
+        ],
+        [
+          46.57575,
+          6.62995
+        ],
+        [
+          46.57612,
+          6.62969
+        ],
+        [
+          46.57654,
+          6.63002
+        ],
+        [
+          46.57708,
+          6.62971
+        ],
+        [
+          46.57864,
+          6.62998
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Chamberonne"
+      }
+    ],
+    "lakes": [
+      "Lac Léman"
+    ],
+    "parks": [
+      "Parc de Mon Repos",
+      "Parc de Montbenon",
+      "Parc de Valency",
+      "Bois de Sauvabelin"
+    ],
+    "boundary": "Lausanne"
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Lausanne?",
+      "answer": "Laut der Strukturerhebung 2024 haben in Lausanne 48,7 Prozent der Einwohnerinnen und Einwohner ab 30 Jahren einen Tertiärabschluss, also einen Abschluss an einer Hochschule oder in der höheren Berufsbildung. 42,0 Prozent haben einen Hochschulabschluss (Universität, EPFL, Fachhochschule oder Pädagogische Hochschule). Die Werte beruhen auf einer Stichprobe und sind Schätzungen."
+    },
+    {
+      "question": "Gibt es in Lausanne viele Singles?",
+      "answer": "In 49,4 Prozent der Lausanner Privathaushalte lebt nur eine Person (Dezember 2025; schweizweit 37,5 Prozent laut BFS STATPOP 2025, die Zählweisen unterscheiden sich). Zudem sind 47,2 Prozent der Einwohnerinnen und Einwohner ab 20 Jahren ledig, in der ganzen Schweiz 33,1 Prozent (BFS, 31.12.2024). Alleinlebend oder ledig heisst nicht automatisch Single – die Zahlen zeigen aber, wie verbreitet das Leben ohne Trauschein oder gemeinsamen Haushalt ist."
+    },
+    {
+      "question": "Wo lernen Akademiker in Lausanne Singles kennen?",
+      "answer": "In der Altstadt rund um die Kathedrale, auf der Promenade in Ouchy, im Kunstquartier Plateforme 10 oder im Parc de Mon Repos. Auch Vorträge und Veranstaltungen von UNIL und EPFL bieten Gelegenheiten. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "einwohner",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP: Ständige und nichtständige Wohnbevölkerung nach Gemeinde, Alter (PxWeb px-x-0102010000_101), ständige Wohnbevölkerung",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-alter",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_101: Wohnbevölkerung nach Gemeinde und Einzelaltersjahren (Durchschnittsalter eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_101/px-x-0102010000_101.px"
+    },
+    {
+      "id": "bfs-zivil",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_103: Wohnbevölkerung nach Gemeinde, Zivilstand und Altersklasse (Anteil Lediger ab 20 Jahren eigene Berechnung)",
+      "stand": "Stand 31.12.2024",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+    },
+    {
+      "id": "bfs-stud",
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Studierende an den universitären Hochschulen nach Jahr, Fachrichtung, Studienstufe und Hochschule (PxWeb px-x-1502040100_105)",
+      "stand": "Wintersemester 2024/25",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_105/px-x-1502040100_105.px"
+    },
+    {
+      "id": "la-formation",
+      "publisher": "Stadt Lausanne, Office d'appui économique et statistique (nach BFS-Strukturerhebung)",
+      "title": "Tabelle 15.04.01: Ständige Wohnbevölkerung ab 30 Jahren nach Bildungsniveau, Lausanne (Données issues du «Relevé structurel»)",
+      "stand": "Strukturerhebung 2024",
+      "url": "https://www.lausanne.ch/officiel/statistique/themes/15-education-et-science.html"
+    },
+    {
+      "id": "la-emplois",
+      "publisher": "Stadt Lausanne, Office d'appui économique et statistique (nach BFS-STATENT)",
+      "title": "Tabelle 03.01: Etablissements et emplois – Emplois selon l'activité économique",
+      "stand": "STATENT Dezember 2024",
+      "url": "https://www.lausanne.ch/officiel/statistique/themes/03-vie-active.html"
+    },
+    {
+      "id": "la-flyer",
+      "publisher": "Stadt Lausanne, Office d'appui économique et statistique",
+      "title": "ACTU OAES – Emploi à Lausanne (Auswertung der STATENT 2024)",
+      "stand": "August 2026",
+      "url": "https://www.lausanne.ch/dam/jcr:037e1e1d-c66c-4ca0-8939-f0f1665549de/Actu-OAES-Statent.pdf"
+    },
+    {
+      "id": "la-menages",
+      "publisher": "Stadt Lausanne, Office d'appui économique et statistique",
+      "title": "Tabelle 01.03.01: Ménages privés selon la taille du ménage, Lausanne",
+      "stand": "Stand Dezember 2025",
+      "url": "https://www.lausanne.ch/officiel/statistique/themes/01-population.html"
+    },
+    {
+      "id": "bfs-hh-ch",
+      "publisher": "Bundesamt für Statistik (BFS), publiziert durch die Finanzverwaltung des Kantons Bern",
+      "title": "STATPOP: Privathaushalte nach Haushaltsgrösse, Kantone 2012–2025 (Schweiz: 1.537.386 von 4.105.458 Haushalten)",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.fin.be.ch/content/dam/fin/dokumente/de/finanzverwaltung/statistik/bev%C3%B6lkerungsstatistik/haushalte/Privathaushalte%20nach%20Haushaltsgr%C3%B6sse_Kantone_2012_2025_d.xlsx"
+    }
+  ]
+}

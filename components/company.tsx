@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/market-link";
 import { SearchForm } from "@/components/search-form";
 import { crumbsFor } from "@/components/templates";
 import { ArticleCard, Breadcrumbs, JsonLd, RegisterPanel, ReviewSeal, breadcrumbJsonLd } from "@/components/ui";
