@@ -1383,4 +1383,13 @@
     "sourceSha256": "4ca46c84dd688f49d24643f6f0c5604c8871d77787f5b75efd0ba28b2bd96c22",
     "sourceUrl": "scripts/build_goettingen_hero.py"
   }
+,
+  {
+    "bytes": 423672,
+    "localPath": "/brand/goettingen-altstadt-gaenseliesel-partnersuche.webp",
+    "rightsStatus": "Original AI-generated watercolor and ink illustration; OpenAI image generation, 2026-10-09",
+    "sha256": "cb3257d744021359501b42d7019aa3ead6317087a49a73acaab889f6ab6efd50",
+    "sourceSha256": "cb3257d744021359501b42d7019aa3ead6317087a49a73acaab889f6ab6efd50",
+    "sourceUrl": "OpenAI image_gen: original Göttingen market square cityscape"
+  }
 ]
