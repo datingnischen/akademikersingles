@@ -37,7 +37,8 @@
       "value": "2",
       "label": "Exzellenzcluster seit 2026: CIBSS und Future Forests",
       "source": "uni-exzellenz",
-      "note": "Über den Status als Exzellenzuniversität entscheidet die Exzellenzkommission am 2. Oktober 2026"
+      "note": "Am 2. Oktober 2026 hat die Exzellenzkommission die Universität Freiburg als neue Exzellenzuniversität ausgewählt; die Förderung beginnt 2027",
+      "compareSource": "bmftr-exu"
     },
     {
       "value": "238.299",
@@ -3266,6 +3267,13 @@
       "title": "Max-Planck-Institut zur Erforschung von Kriminalität, Sicherheit und Recht, Freiburg",
       "stand": "abgerufen 10/2026",
       "url": "https://csl.mpg.de/de"
+    },
+    {
+      "id": "bmftr-exu",
+      "publisher": "Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)",
+      "title": "Deutsche Spitzenforschung: Fünf neue Exzellenzuniversitäten und -verbünde",
+      "stand": "Entscheidung der Exzellenzkommission vom 02.10.2026",
+      "url": "https://www.bmftr.bund.de/SharedDocs/Kurzmeldungen/DE/2026/10/021026-exu-neu.html"
     }
   ]
 }

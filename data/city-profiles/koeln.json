@@ -34,7 +34,9 @@
     {
       "value": "5",
       "label": "Exzellenzcluster ab 2026 mit Beteiligung der Universität zu Köln",
-      "source": "exzellenz"
+      "source": "exzellenz",
+      "note": "Am 2. Oktober 2026 hat die Exzellenzkommission die Universität zu Köln als neue Exzellenzuniversität ausgewählt; die Förderung beginnt 2027",
+      "compareSource": "bmftr-exu"
     },
     {
       "value": "530.799",
@@ -2409,6 +2411,13 @@
       "title": "Logistik & Großhandel in Köln",
       "stand": "abgerufen 10/2026",
       "url": "https://koeln.business/branchen/logistik"
+    },
+    {
+      "id": "bmftr-exu",
+      "publisher": "Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)",
+      "title": "Deutsche Spitzenforschung: Fünf neue Exzellenzuniversitäten und -verbünde",
+      "stand": "Entscheidung der Exzellenzkommission vom 02.10.2026",
+      "url": "https://www.bmftr.bund.de/SharedDocs/Kurzmeldungen/DE/2026/10/021026-exu-neu.html"
     }
   ]
 }
