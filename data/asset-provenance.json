@@ -1374,5 +1374,13 @@
     "sha256": "fe0f97fa7f4fc4526386f35e07a90bd0378cb1c1078eb21cdaae851adb4328bb",
     "sourceSha256": "1d2dcdde8abc621c61bbfe288cc62ce33f85ad501f6c031efaca1930ed938961",
     "sourceUrl": "https://akademikersingles.de/magazin/wp-content/uploads/2026/01/Ist-Status-sexy-–-oder-nur-ein-gesellschaftliches-Tabu-1-2048x1365.jpg"
+  },
+  {
+    "bytes": 77099,
+    "localPath": "/brand/hero-goettingen.jpg",
+    "rightsStatus": "eigene Illustration, erzeugt mit scripts/build_goettingen_hero.py; keine Fremdrechte",
+    "sha256": "4ca46c84dd688f49d24643f6f0c5604c8871d77787f5b75efd0ba28b2bd96c22",
+    "sourceSha256": "4ca46c84dd688f49d24643f6f0c5604c8871d77787f5b75efd0ba28b2bd96c22",
+    "sourceUrl": "scripts/build_goettingen_hero.py"
   }
 ]
