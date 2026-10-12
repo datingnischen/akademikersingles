@@ -157,8 +157,10 @@
 .trust a { color: var(--navy-900); text-decoration-color: var(--gold); text-underline-offset: 4px; }
 
 /* Quellen */
-.sources { padding-top: clamp(56px, 6vw, 80px); }
-.sources h2 { margin: 0 0 12px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+.sources { padding-top: 24px; }
+.sources summary { cursor: pointer; color: var(--muted); font-size: 13px; font-weight: 600; }
+.sources summary:focus-visible { outline: 2px solid var(--brand-navy); outline-offset: 4px; }
+.sources details[open] summary { margin-bottom: 12px; }
 .sources ol { margin: 0; padding-left: 1.4em; color: var(--muted); font-size: 13px; line-height: 1.6; columns: 2; column-gap: 48px; }
 .sources li { break-inside: avoid; margin-bottom: 6px; scroll-margin-top: 140px; }
 .sources li:target { color: var(--navy-900); }

@@ -302,10 +302,12 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
     </section>
 
     <section className={`container ${styles.sources}`} aria-labelledby="quellen">
-      <h2 id="quellen">Quellen</h2>
+      <details>
+      <summary id="quellen">Quellen</summary>
       <ol>{profile.sources.map((source, index) => <li key={source.id} id={`quelle-${index + 1}`}>
         {source.publisher}: <a href={source.url} target="_blank" rel="nofollow noopener">{source.title}</a> ({source.stand})
       </li>)}</ol>
+      </details>
     </section>
 
     <section className={styles.cta}>
