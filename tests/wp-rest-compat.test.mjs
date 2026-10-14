@@ -65,7 +65,10 @@ test("posts: Teaser-Abruf wie bei ICONY liefert drei Beiträge im WordPress-Form
 
     const media = post._embedded["wp:featuredmedia"][0];
     assert.equal(media.id, post.featured_media);
-    assert.match(media.source_url, /^https:\/\/akademikersingles\.vercel\.app\/app-assets\/imported\/[0-9a-f]+\.jpg$/, "absolut auf dem Asset-Host");
+    // Eigene Domain statt Asset-Host: die ICONY-Startseite darf Bilder nur von der eigenen Domain laden (CSP, Heiko 2026-10-14)
+    assert.match(media.source_url, /^https:\/\/akademikersingles\.de\/magazin\/media\/imported\/[0-9a-f]+\.jpg$/, "eigene Domain unter /magazin/media/");
+    assert.equal(media.media_details.sizes.medium.source_url, media.source_url);
+    assert.doesNotMatch(JSON.stringify(media), /_next\/image|vercel\.app/);
     assert.ok(media.media_details.width > 0 && media.media_details.height > 0);
     assert.ok(media.alt_text.trim(), "Alt-Text nie leer");
     assert.ok(media.media_details.sizes.full && media.media_details.sizes.medium_large);

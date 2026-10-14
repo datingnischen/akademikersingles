@@ -43,7 +43,12 @@ export default function nextConfig(phase: string): NextConfig {
           { source: "/magazin", has: [{ type: "query", key: "rest_route" }], destination: "/magazin/index.php" },
           { source: "/magazin/", has: [{ type: "query", key: "rest_route" }], destination: "/magazin/index.php" },
         ],
-        afterFiles: [{ source: `${assetPathPrefix}/:path*`, destination: "/:path*" }],
+        afterFiles: [
+          { source: `${assetPathPrefix}/:path*`, destination: "/:path*" },
+          // Teaserbilder für ICONY (wp-json _embedded) auf der eigenen Domain unter /magazin/media/<pfad> = public/<pfad>
+          { source: "/magazin/media/:path*", destination: "/:path*" },
+          { source: "/:market(de|at|ch)/magazin/media/:path*", destination: "/:path*" },
+        ],
         fallback: [],
       };
     },

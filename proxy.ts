@@ -24,6 +24,10 @@ export function proxy(request: NextRequest) {
   if (decision.action === "next") return NextResponse.next();
   const destination = request.nextUrl.clone();
   destination.pathname = decision.pathname;
+  // Vercel verwirft bei Rewrites Parameter ohne Wert; ICONY ruft "?_embed" ohne Wert auf (WordPress-Schreibweise).
+  if (destination.searchParams.has("_embed") && destination.searchParams.get("_embed") === "") {
+    destination.searchParams.set("_embed", "1");
+  }
   return NextResponse.rewrite(destination);
 }
 
