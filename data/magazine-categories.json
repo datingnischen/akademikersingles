@@ -5,7 +5,7 @@
       "description": "",
       "id": 2,
       "name": "Erfolg & Anziehung",
-      "path": "/magazin/category/erfolg-anziehung/",
+      "path": "/magazin/thema/erfolg-anziehung/",
       "slug": "erfolg-anziehung"
     },
     {
@@ -13,7 +13,7 @@
       "description": "",
       "id": 3,
       "name": "Unternehmer & Selbstständige daten anders",
-      "path": "/magazin/category/unternehmer-selbststaendige-daten-anders/",
+      "path": "/magazin/thema/unternehmer-selbststaendige-daten-anders/",
       "slug": "unternehmer-selbststaendige-daten-anders"
     },
     {
@@ -21,7 +21,7 @@
       "description": "",
       "id": 4,
       "name": "Intellektuelle Anziehung & Tiefgang",
-      "path": "/magazin/category/intellektuelle-anziehung-tiefgang/",
+      "path": "/magazin/thema/intellektuelle-anziehung-tiefgang/",
       "slug": "intellektuelle-anziehung-tiefgang"
     },
     {
@@ -29,7 +29,7 @@
       "description": "",
       "id": 6,
       "name": "Lifestyle, Status & Luxus",
-      "path": "/magazin/category/status-luxus/",
+      "path": "/magazin/thema/status-luxus/",
       "slug": "status-luxus"
     },
     {
@@ -37,7 +37,7 @@
       "description": "",
       "id": 7,
       "name": "Beziehung auf Augenhöhe",
-      "path": "/magazin/category/beziehung-auf-augenhoehe/",
+      "path": "/magazin/thema/beziehung-auf-augenhoehe/",
       "slug": "beziehung-auf-augenhoehe"
     },
     {
@@ -45,7 +45,7 @@
       "description": "",
       "id": 9,
       "name": "Psychologie erfolgreicher Singles",
-      "path": "/magazin/category/psychologie-erfolgreicher-singles/",
+      "path": "/magazin/thema/psychologie-erfolgreicher-singles/",
       "slug": "psychologie-erfolgreicher-singles"
     },
     {
@@ -53,7 +53,7 @@
       "description": "",
       "id": 11,
       "name": "Frauen, die gezielt Akademiker suchen",
-      "path": "/magazin/category/die-gezielt-akademiker-suchen/",
+      "path": "/magazin/thema/die-gezielt-akademiker-suchen/",
       "slug": "die-gezielt-akademiker-suchen"
     },
     {
@@ -61,7 +61,7 @@
       "description": "",
       "id": 12,
       "name": "Gesellschaft & moderne Partnersuche",
-      "path": "/magazin/category/gesellschaft-moderne-partnersuche/",
+      "path": "/magazin/thema/gesellschaft-moderne-partnersuche/",
       "slug": "gesellschaft-moderne-partnersuche"
     }
   ],

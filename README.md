@@ -10,7 +10,7 @@ Next.js/Vercel-Frontend für die **öffentlichen redaktionellen Inhalte** von ak
 - `/partnersuche/` und 15 Stadtseiten `/partnersuche/<stadt>/`
 - Ratgeber `/partnervermittlung/`, `/universitaeten/`, `/ueber-50/`, `/einkommen/`
 - Über uns `/ueber-uns/` mit `/ueber-uns/bewertungen/` und `/ueber-uns/social-media/` (die Live-URL `/social-media/` leitet per 308 dorthin), dazu `/faq/`
-- `/magazin/`, alle Artikel `/magazin/<slug>/`, Kategorien `/magazin/category/<slug>/`, Autor `/magazin/author/redaktion/`
+- `/magazin/`, alle Artikel `/magazin/<slug>/`, Kategorien `/magazin/thema/<slug>/`, Autor `/magazin/author/redaktion/`
 - `sitemap.xml`, `robots.txt`
 
 Die WordPress-Paginierung (`/magazin/page/<n>/`, auch in Kategorien) leitet per 308 auf die Übersicht um, denn dort stehen alle Artikel auf einer Seite.

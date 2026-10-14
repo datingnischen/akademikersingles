@@ -7,9 +7,9 @@ import { staticAsset } from "@/lib/static-asset";
 
 const NAV = [
   { label: "Magazin", href: "/magazin/" },
-  { label: "Erfolg & Anziehung", href: "/magazin/category/erfolg-anziehung/" },
-  { label: "Unternehmer Dating", href: "/magazin/category/unternehmer-selbststaendige-daten-anders/" },
-  { label: "Lifestyle & Luxus", href: "/magazin/category/status-luxus/" },
+  { label: "Erfolg & Anziehung", href: "/magazin/thema/erfolg-anziehung/" },
+  { label: "Unternehmer Dating", href: "/magazin/thema/unternehmer-selbststaendige-daten-anders/" },
+  { label: "Lifestyle & Luxus", href: "/magazin/thema/status-luxus/" },
   { label: "Partnersuche", href: "/partnersuche/" },
 ];
 
@@ -37,8 +37,8 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           <summary aria-label="Menü öffnen"><span /><span /><span /></summary>
           <div className={styles.mobilePanel}>
             {NAV.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}
-            <Link href="/magazin/category/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
-            <Link href="/magazin/category/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
+            <Link href="/magazin/thema/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
+            <Link href="/magazin/thema/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
             <Link href="/ueber-uns/">Über uns</Link>
             <Link href="/ueber-uns/bewertungen/">Bewertungen</Link>
             <Link href="/ueber-uns/social-media/">Social Media</Link>

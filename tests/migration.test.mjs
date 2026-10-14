@@ -15,11 +15,20 @@ test("übernimmt die komplette öffentliche URL-Struktur der Live-Seite", () => 
   }
   assert.equal(pages.filter(page => page.family === "location").length, 15);
   assert.ok(pages.filter(page => page.family === "magazine").length >= 39);
-  for (const category of categories) assert.ok(paths.has(`/magazin/category/${category.slug}/`), `Kategorie ${category.slug} fehlt`);
+  for (const category of categories) assert.ok(paths.has(`/magazin/thema/${category.slug}/`), `Kategorie ${category.slug} fehlt`);
   for (const page of pages) {
     assert.match(page.path, /^\/(?:[a-z0-9-]+\/)*$/, `${page.path} ist keine saubere Pfadstruktur`);
     assert.equal(page.canonical, `https://akademikersingles.de${page.path}`);
   }
+});
+
+test("Kategorien liegen unter /magazin/thema/, alte /magazin/category/-URLs leiten dauerhaft um", async () => {
+  for (const page of pages) assert.ok(!page.path.includes("/category/"), `${page.path} nutzt noch /category/`);
+  const config = await read("next.config.ts");
+  for (const source of ["/magazin/category/:slug/", "/magazin/category/:slug", "/magazin/category/:slug/page/:n/"]) {
+    assert.ok(config.includes(`{ source: "${source}", destination: "/magazin/thema/:slug/", permanent: true }`), `${source} leitet nicht um`);
+  }
+  assert.doesNotMatch(await read("components/site-shell.tsx"), /\/magazin\/category\//);
 });
 
 test("enthält die fünf Leitkategorien des Magazins", () => {

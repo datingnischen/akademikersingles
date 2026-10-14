@@ -55,15 +55,21 @@ export default function nextConfig(phase: string): NextConfig {
     async redirects() {
       // Die WordPress-Paginierung entfällt: Hub und Kategorien zeigen alle Artikel auf einer Seite.
       return [
+        // Kategorien heißen seit Oktober 2026 /magazin/thema/<slug>/ statt WordPress-üblich /magazin/category/<slug>/.
+        { source: "/magazin/category/:slug/page/:n/", destination: "/magazin/thema/:slug/", permanent: true },
+        { source: "/magazin/category/:slug/page/:n", destination: "/magazin/thema/:slug/", permanent: true },
+        { source: "/magazin/category/:slug/", destination: "/magazin/thema/:slug/", permanent: true },
+        { source: "/magazin/category/:slug", destination: "/magazin/thema/:slug/", permanent: true },
+        { source: "/:market(de|at|ch)/magazin/category/:slug/:rest*", destination: "/:market/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/page/:n/", destination: "/magazin/", permanent: true },
         // Social Media gehört wie in den Schwesterprojekten zu „Über uns“.
         { source: "/social-media/", destination: "/ueber-uns/social-media/", permanent: true },
-        { source: "/magazin/category/:slug/page/:n/", destination: "/magazin/category/:slug/", permanent: true },
+        { source: "/magazin/thema/:slug/page/:n/", destination: "/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/author/:slug/page/:n/", destination: "/magazin/author/:slug/", permanent: true },
         // Ohne Slash am Ende (skipTrailingSlashRedirect): dieselben Umleitungen noch einmal.
         { source: "/magazin/page/:n", destination: "/magazin/", permanent: true },
         { source: "/social-media", destination: "/ueber-uns/social-media/", permanent: true },
-        { source: "/magazin/category/:slug/page/:n", destination: "/magazin/category/:slug/", permanent: true },
+        { source: "/magazin/thema/:slug/page/:n", destination: "/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/author/:slug/page/:n", destination: "/magazin/author/:slug/", permanent: true },
       ];
     },

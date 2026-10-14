@@ -58,7 +58,7 @@ test("Marktdomains akademikersingles.at/.ch schreiben intern auf /at bzw. /ch", 
 
 test("Links auf den Marktseiten bekommen das Präfix, ICONY-Pfade und DE bleiben unberührt", () => {
   assert.equal(localizePath("/partnersuche/", "at"), "/at/partnersuche/");
-  assert.equal(localizePath("/magazin/category/status-luxus/", "ch"), "/ch/magazin/category/status-luxus/");
+  assert.equal(localizePath("/magazin/thema/status-luxus/", "ch"), "/ch/magazin/thema/status-luxus/");
   assert.equal(localizePath("/ueber-uns/#gruender", "at"), "/at/ueber-uns/#gruender");
   assert.equal(localizePath("/faq/#sicherheit", "ch"), "/ch/faq/#sicherheit");
   assert.equal(localizePath("/", "at"), "/at/");
