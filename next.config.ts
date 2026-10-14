@@ -60,7 +60,9 @@ export default function nextConfig(phase: string): NextConfig {
         { source: "/magazin/category/:slug/page/:n", destination: "/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/category/:slug/", destination: "/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/category/:slug", destination: "/magazin/thema/:slug/", permanent: true },
-        { source: "/:market(de|at|ch)/magazin/category/:slug/:rest*", destination: "/:market/magazin/thema/:slug/", permanent: true },
+        // nginx ruft Vercel mit /de/… auf: das Ziel darf für Deutschland kein Länderpräfix tragen.
+        { source: "/de/magazin/category/:slug/:rest*", destination: "/magazin/thema/:slug/", permanent: true },
+        { source: "/:market(at|ch)/magazin/category/:slug/:rest*", destination: "/:market/magazin/thema/:slug/", permanent: true },
         { source: "/magazin/page/:n/", destination: "/magazin/", permanent: true },
         // Social Media gehört wie in den Schwesterprojekten zu „Über uns“.
         { source: "/social-media/", destination: "/ueber-uns/social-media/", permanent: true },

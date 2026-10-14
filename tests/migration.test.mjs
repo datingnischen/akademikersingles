@@ -28,6 +28,8 @@ test("Kategorien liegen unter /magazin/thema/, alte /magazin/category/-URLs leit
   for (const source of ["/magazin/category/:slug/", "/magazin/category/:slug", "/magazin/category/:slug/page/:n/"]) {
     assert.ok(config.includes(`{ source: "${source}", destination: "/magazin/thema/:slug/", permanent: true }`), `${source} leitet nicht um`);
   }
+  assert.ok(config.includes(`{ source: "/de/magazin/category/:slug/:rest*", destination: "/magazin/thema/:slug/", permanent: true }`), "nginx-/de-Aufruf leitet mit Länderpräfix um");
+  assert.ok(!config.includes(`"/:market(de|at|ch)/magazin/category`), "Länderregel darf /de nicht einschließen");
   assert.doesNotMatch(await read("components/site-shell.tsx"), /\/magazin\/category\//);
 });
 
