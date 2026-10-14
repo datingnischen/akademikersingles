@@ -254,7 +254,8 @@ export function renderedContentHtml(page: PublicPage): string {
   const registration = pageRegistrationUrl(page).replace(/&/g, "&amp;");
   const market: MarketCode = requestMarket();
   // Stadt- und Ratgeberseiten zeigen ihr erstes Inhaltsbild bereits im Seitenkopf.
-  const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.contentHtml;
+  // Artikel zeigen ihre Audio-Fassung als eigene Karte (articleAudio), der importierte Block entfällt.
+  const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.family === "magazine" ? page.contentHtml.replace(AUDIO_BLOCK, "") : page.contentHtml;
   const body = withoutHero.replace(CREDIT_PARAGRAPH, "").replace(/href="(\/[^"]*)"/g, (match, href: string) => LINK_MOVES[href] ? `href="${LINK_MOVES[href]}"` : match);
   return body
     .replace(/href="(\/[^"]*)"/g, (match, href: string) => localizePath(href, market) === href ? match : `href="${localizePath(href, market)}"`)
@@ -267,4 +268,14 @@ export function renderedContentHtml(page: PublicPage): string {
 
 export function hasAudio(page: PublicPage): boolean {
   return /<audio\b/i.test(page.contentHtml);
+}
+
+// Importierter WordPress-Block „Artikel kurz anhören“: Überschrift, Hinweis und nackter <audio>-Player.
+const AUDIO_BLOCK = /(?:<h2>[^<]*anhören[^<]*<\/h2>\s*(?:<p>[^<]*<\/p>\s*)?)?<p>\s*<audio\b[^>]*>[\s\S]*?<\/audio>\s*(?:<br\s*\/?>)?\s*<\/p>\s*/i;
+
+/** Audio-Fassung eines Artikels; die Seite zeigt sie als eigene Player-Karte statt im Fließtext. */
+export function articleAudio(page: PublicPage): string | null {
+  if (page.family !== "magazine") return null;
+  const src = page.contentHtml.match(/<audio\b[\s\S]*?\bsrc="([^"]+)"/i)?.[1];
+  return src ? staticAsset(src) : null;
 }

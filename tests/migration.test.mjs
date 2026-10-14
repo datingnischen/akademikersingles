@@ -31,6 +31,17 @@ test("Kategorien liegen unter /magazin/thema/, alte /magazin/category/-URLs leit
   assert.doesNotMatch(await read("components/site-shell.tsx"), /\/magazin\/category\//);
 });
 
+test("Artikel-Audio steckt in einer eigenen Player-Karte, nicht als nackter Player im Fließtext", async () => {
+  const content = await read("lib/content.ts");
+  assert.match(content, /page\.family === "magazine" \? page\.contentHtml\.replace\(AUDIO_BLOCK, ""\)/);
+  const block = new RegExp(content.match(/const AUDIO_BLOCK = \/(.+)\/i;/)[1], "i");
+  for (const article of pages.filter(page => page.family === "magazine" && /<audio\b/.test(page.contentHtml))) {
+    assert.doesNotMatch(article.contentHtml.replace(block, ""), /<audio\b|kurz anhören/, `${article.path} behält den alten Audio-Block`);
+  }
+  const templates = await read("components/templates.tsx");
+  assert.match(templates, /<Body page=\{page\}>\{audio \? <ArticleAudio src=\{audio\} \/> : null\}<\/Body>/);
+});
+
 test("enthält die fünf Leitkategorien des Magazins", () => {
   const slugs = categories.map(category => category.slug);
   for (const slug of ["erfolg-anziehung", "unternehmer-selbststaendige-daten-anders", "intellektuelle-anziehung-tiefgang", "status-luxus", "beziehung-auf-augenhoehe"]) {

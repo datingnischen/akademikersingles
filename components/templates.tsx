@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "@/components/market-link";
 import { CitySearchFallback } from "@/components/city-search-fallback";
+import { ArticleAudio } from "@/components/article-audio";
 import { CityDossierTemplate } from "@/components/city-dossier";
 import { ArticleCard, Breadcrumbs, CityTile, ImageCredits, JsonLd, RegisterPanel, Sidebar, breadcrumbJsonLd, type Crumb } from "@/components/ui";
 import {
-  aidFor, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
+  aidFor, articleAudio, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
   guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
 import { getCityProfile } from "@/lib/city-profile";
@@ -139,6 +140,7 @@ export function MagazineListingTemplate({ page }: { page: PublicPage }) {
 export function ArticleTemplate({ page }: { page: PublicPage }) {
   const category = primaryCategory(page);
   const related = relatedArticles(page);
+  const audio = articleAudio(page);
   const crumbs = crumbsFor(page);
   return <main>
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
@@ -161,10 +163,11 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
           <span>Von <Link href={page.author?.path ?? "/magazin/"}>{page.author?.name ?? "Redaktion"}</Link></span>
           <time dateTime={page.modified ?? page.published}>Aktualisiert am {formatDate(page.modified ?? page.published)}</time>
           <span>{page.readingMinutes} Min. Lesezeit</span>
+          {audio ? <a href="#anhoeren">Zum Anhören</a> : null}
         </div>
       </header>
       {page.heroImage ? <div className={`container ${styles.articleImage}`}><div><Image src={page.heroImage} alt={page.heroImageAlt ?? page.heroTitle} fill priority sizes="(max-width: 1280px) 100vw, 1240px" /></div></div> : null}
-      <Body page={page} />
+      <Body page={page}>{audio ? <ArticleAudio src={audio} /> : null}</Body>
     </article>
     <section className={styles.related}>
       <div className="container">

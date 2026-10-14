@@ -1,0 +1,121 @@
+.card {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  margin: 0 0 clamp(36px, 5vw, 52px);
+  scroll-margin-top: 140px;
+  padding: clamp(20px, 3vw, 28px);
+  color: var(--ivory);
+  background:
+    radial-gradient(120% 140% at 100% 0%, rgba(184, 149, 90, .22), transparent 55%),
+    linear-gradient(135deg, var(--navy-900), var(--navy-800));
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.play {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  color: var(--navy-950);
+  background: var(--gold-light);
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(216, 192, 149, .14);
+  cursor: pointer;
+  transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+}
+.play:hover { background: var(--gold-pale); transform: scale(1.04); box-shadow: 0 0 0 9px rgba(216, 192, 149, .18); }
+.play svg { width: 26px; height: 26px; fill: currentColor; }
+.playing .play { box-shadow: 0 0 0 9px rgba(216, 192, 149, .22); }
+
+.main { min-width: 0; }
+.head { margin-bottom: 14px; }
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 6px;
+  color: var(--gold-light);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.title { margin: 0; color: #fff; font-family: var(--font-display), Georgia, serif; font-size: clamp(24px, 2.4vw, 30px); font-weight: 600; line-height: 1.15; }
+.lead { margin: 4px 0 0; color: rgba(247, 242, 233, .74); font-size: 15px; line-height: 1.5; }
+
+.bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+.bars i { width: 2px; height: 40%; background: currentColor; border-radius: 1px; }
+.bars i:nth-child(2) { height: 100%; }
+.bars i:nth-child(3) { height: 65%; }
+.bars i:nth-child(4) { height: 30%; }
+.playing .bars i { animation: bounce 1s ease-in-out infinite; }
+.playing .bars i:nth-child(2) { animation-delay: -.3s; }
+.playing .bars i:nth-child(3) { animation-delay: -.6s; }
+.playing .bars i:nth-child(4) { animation-delay: -.15s; }
+@keyframes bounce { 0%, 100% { height: 25%; } 50% { height: 100%; } }
+
+.controls { display: flex; align-items: center; gap: 12px; }
+.time { flex: none; min-width: 34px; color: rgba(247, 242, 233, .8); font-size: 12px; font-variant-numeric: tabular-nums; font-weight: 600; }
+
+.range {
+  flex: 1;
+  min-width: 0;
+  height: 18px;
+  margin: 0;
+  background: transparent;
+  appearance: none;
+  cursor: pointer;
+}
+.range:disabled { cursor: default; opacity: .6; }
+.range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, var(--gold-light) var(--progress, 0%), rgba(247, 242, 233, .2) var(--progress, 0%));
+}
+.range::-moz-range-track { height: 4px; border-radius: 2px; background: rgba(247, 242, 233, .2); }
+.range::-moz-range-progress { height: 4px; border-radius: 2px; background: var(--gold-light); }
+.range::-webkit-slider-thumb { width: 14px; height: 14px; margin-top: -5px; border-radius: 50%; background: #fff; border: 0; appearance: none; }
+.range::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: #fff; border: 0; }
+
+.small {
+  flex: none;
+  min-width: 48px;
+  padding: 6px 10px;
+  color: var(--ivory);
+  background: rgba(247, 242, 233, .08);
+  border: 1px solid var(--line-dark);
+  border-radius: 999px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition: background .2s ease, border-color .2s ease;
+}
+.small:hover { background: rgba(247, 242, 233, .16); border-color: var(--gold); }
+
+.fallback { display: block; width: 100%; margin-top: 12px; }
+
+@media (max-width: 560px) {
+  .card { grid-template-columns: 1fr; gap: 16px; }
+  .head { margin-bottom: 0; }
+  .card > .play { position: absolute; top: 20px; right: 20px; width: 52px; height: 52px; }
+  .card > .play svg { width: 22px; height: 22px; }
+  .head { padding-right: 64px; }
+  .controls { flex-wrap: wrap; gap: 8px 10px; margin-top: 14px; }
+  .range { order: -1; flex-basis: 100%; }
+  .time:nth-of-type(2) { margin-right: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .playing .bars i { animation: none; }
+  .play, .small { transition: none; }
+}
