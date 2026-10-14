@@ -66,7 +66,8 @@ test("posts: Teaser-Abruf wie bei ICONY liefert drei Beiträge im WordPress-Form
     const media = post._embedded["wp:featuredmedia"][0];
     assert.equal(media.id, post.featured_media);
     // Eigene Domain statt Asset-Host: die ICONY-Startseite darf Bilder nur von der eigenen Domain laden (CSP, Heiko 2026-10-14)
-    assert.match(media.source_url, /^https:\/\/akademikersingles\.de\/magazin\/media\/imported\/[0-9a-f]+\.jpg$/, "eigene Domain unter /magazin/media/");
+    // Teaserbild ohne Dateiendung im wp-json-Bereich (lib/teaser-image.ts): nginx reicht .jpg/.png nicht an Vercel durch, CSP erlaubt nur die eigene Domain
+    assert.match(media.source_url, /^https:\/\/akademikersingles\.de\/magazin\/wp-json\/datingnischen\/v1\/bild\/imported\/[0-9a-f]+~jpg$/, "eigene Domain, ohne Dateiendung");
     assert.equal(media.media_details.sizes.medium.source_url, media.source_url);
     assert.doesNotMatch(JSON.stringify(media), /_next\/image|vercel\.app/);
     assert.ok(media.media_details.width > 0 && media.media_details.height > 0);
