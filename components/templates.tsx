@@ -64,6 +64,12 @@ function Body({ page, children }: { page: PublicPage; children?: React.ReactNode
     <div className={styles.bodyMain}>
       {children}
       <div className="prose" dangerouslySetInnerHTML={{ __html: renderedContentHtml(page) }} />
+      {page.family === "magazine" || page.family === "guide" ? <aside className={styles.authorBox} aria-label="Redaktionelle Verantwortung">
+        <p className="eyebrow">Aus unserer Redaktion</p>
+        <h2>{page.author?.name ?? "Redaktion"} AkademikerSingles</h2>
+        <p>Im Magazin und Ratgeber von AkademikerSingles geht es um Partnersuche, Beziehungen und das Singleleben mit gemeinsamen Interessen und Ansprüchen.</p>
+        <Link href={page.author?.path ?? "/ueber-uns/"}>Mehr über die Redaktion →</Link>
+      </aside> : null}
       <ImageCredits credits={imageCredits(page)} />
     </div>
     <Sidebar aid={aidFor(page)} />
@@ -149,7 +155,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
         "@type": "BlogPosting", headline: page.heroTitle, description: page.description, url: page.canonical, mainEntityOfPage: page.canonical,
         datePublished: page.published, dateModified: page.modified, inLanguage: "de-DE",
         image: page.heroImage ? staticAsset(page.heroImage) : undefined,
-        articleSection: category?.name, author: { "@type": "Organization", name: `${page.author?.name ?? "Redaktion"} AkademikerSingles`, url: `${ORIGIN}${page.author?.path ?? "/magazin/"}` },
+        articleSection: category?.name, author: { "@type": "Organization", name: `${page.author?.name ?? "Redaktion"} AkademikerSingles`, url: `${ORIGIN}${page.author?.path ?? "/ueber-uns/"}` },
         publisher: PUBLISHER,
       },
     ] }} />
@@ -160,7 +166,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
         <h1 className="display">{page.heroTitle}</h1>
         {page.description ? <p className={styles.articleLead}>{page.description}</p> : null}
         <div className={styles.articleMeta}>
-          <span>Von <Link href={page.author?.path ?? "/magazin/"}>{page.author?.name ?? "Redaktion"}</Link></span>
+          <span>Von <Link href={page.author?.path ?? "/ueber-uns/"}>{page.author?.name ?? "Redaktion"}</Link></span>
           <time dateTime={page.modified ?? page.published}>Aktualisiert am {formatDate(page.modified ?? page.published)}</time>
           <span>{page.readingMinutes} Min. Lesezeit</span>
           {audio ? <a href="#anhoeren">Zum Anhören</a> : null}

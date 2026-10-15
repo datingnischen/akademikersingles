@@ -119,3 +119,9 @@
   .articleHead > nav li:last-child { display: none; }
   .articleHead > nav li:nth-last-child(2)::after { content: none; }
 }
+
+
+.authorBox { margin-top: 36px; padding: clamp(20px, 4vw, 32px); border: 1px solid var(--gold); border-left-width: 4px; background: var(--ivory); color: var(--navy-900); overflow-wrap: anywhere; }
+.authorBox h2 { margin: .5rem 0 1rem; font-size: clamp(22px, 3vw, 30px); }
+.authorBox p { line-height: 1.65; }
+.authorBox a { display: inline-block; margin-top: 1rem; color: inherit; text-underline-offset: .2em; }
