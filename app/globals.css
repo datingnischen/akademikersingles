@@ -240,3 +240,6 @@ details.magazine-sources .magazine-sources__body a {
     transition: none;
   }
 }
+
+/* Hervorhebungen, die limitStrong (lib/html-cleanup.ts) aus <strong> in <span> umwandelt: gleiche Optik. */
+.em-strong { font-weight: 700; }

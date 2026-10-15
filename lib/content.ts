@@ -6,7 +6,7 @@ import { marketCities, marketHub } from "@/lib/market-cities";
 import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/markets";
 import { registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
-import { withImageAlt, withoutEmptyHeadings } from "./html-cleanup";
+import { limitStrong, withImageAlt, withoutEmptyHeadings, withoutHeadingSkips } from "./html-cleanup";
 import { collapseSourceSections } from "./collapse-sources";
 
 export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
@@ -67,7 +67,13 @@ const LINK_MOVES: Record<string, string> = { "/social-media/": SOCIAL_PATH };
 // Leere Überschriften aus dem Import (z. B. <h2>&nbsp;</h2>) entfallen (Seobility „leere Überschrift“).
 const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/"
   ? { ...page, family: "social" as const, path: SOCIAL_PATH, canonical: `https://akademikersingles.de${SOCIAL_PATH}` }
-  : page), ...AUTHORED_PAGES].map(page => ({ ...page, contentHtml: withImageAlt(withoutEmptyHeadings(page.contentHtml), page.heroTitle) }));
+  : page), ...AUTHORED_PAGES].map(page => {
+  const withoutEmpty = withoutEmptyHeadings(page.contentHtml);
+  // Stadt-Guides werden nach ihren Überschriften in Kapitel geteilt: dort keine Ebenen angleichen.
+  const leveled = page.family === "location" || page.family === "location-hub" ? withoutEmpty : withoutHeadingSkips(withoutEmpty);
+  // Seobility: höchstens vier Hervorhebungen im Importtext, keine doppelten oder überlangen.
+  return { ...page, contentHtml: withImageAlt(limitStrong(leveled), page.heroTitle) };
+});
 const pageIndex = new Map(pages.map(page => [page.path, page]));
 const leadOrder = Object.keys(LEAD_CATEGORIES);
 const categories = (categorySnapshot.categories as MagazineCategory[]).slice().sort((a, b) => {

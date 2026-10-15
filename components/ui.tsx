@@ -28,7 +28,7 @@ export function breadcrumbJsonLd(items: Crumb[], origin: string) {
 }
 
 /** heading="p" für lange Kartenlisten, die sonst zu viele Überschriften hätten (Seobility ab ca. 26 je Seite). */
-export function ArticleCard({ article, size = "default", priority = false, heading = "h3" }: { article: PublicPage; size?: "default" | "large" | "compact"; priority?: boolean; heading?: "h3" | "p" }) {
+export function ArticleCard({ article, size = "default", priority = false, heading = "h3" }: { article: PublicPage; size?: "default" | "large" | "compact"; priority?: boolean; heading?: "h2" | "h3" | "p" }) {
   const Heading = heading;
   const category = primaryCategory(article);
   return <article className={`${styles.card} ${styles[`card_${size}`]}`}>

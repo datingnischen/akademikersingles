@@ -22,7 +22,7 @@
 .briefing::before { content: ""; position: absolute; inset: 8px; border: 1px solid var(--line); pointer-events: none; }
 .briefingHead { display: flex; justify-content: space-between; margin: 0 0 8px; padding-bottom: 14px; border-bottom: 1px solid var(--gold); color: var(--gold); font-size: 11px; font-weight: 800; letter-spacing: .24em; text-transform: uppercase; }
 .briefingRow { display: grid; gap: 2px; padding: 16px 0; border-bottom: 1px solid var(--line); }
-.briefingRow strong { color: var(--navy-900); font-size: 46px; font-weight: 600; line-height: 1; }
+.briefingRow strong, .briefingRow .value { color: var(--navy-900); font-size: 46px; font-weight: 600; line-height: 1; }
 .briefingRow span { color: var(--muted); font-size: 14px; line-height: 1.45; }
 .briefingFoot { margin: 14px 0 0; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
 
@@ -32,7 +32,7 @@
 .kpis > div:first-child { border-radius: var(--radius) 0 0 var(--radius); }
 .kpis > div:last-child { border-radius: 0 var(--radius) var(--radius) 0; }
 .kpis > div + div { border-left: 1px solid var(--line-dark); }
-.kpis strong { color: var(--gold-light); font-size: clamp(30px, 3vw, 42px); font-weight: 600; line-height: 1; }
+.kpis strong, .kpis .value { color: var(--gold-light); font-size: clamp(30px, 3vw, 42px); font-weight: 600; line-height: 1; }
 
 /* Dossier */
 .dossier { padding-top: clamp(80px, 9vw, 120px); }
@@ -44,14 +44,14 @@
 .chapter h3 { margin: 0 0 10px; color: var(--navy-900); font-size: 32px; font-weight: 600; }
 .chapterIntro { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
 .metric { display: grid; gap: 4px; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.metric strong { color: var(--navy-900); font-size: 40px; font-weight: 600; line-height: 1; }
+.metric strong, .metric .value { color: var(--navy-900); font-size: 40px; font-weight: 600; line-height: 1; }
 .metricLabel { color: var(--ink); font-size: 15px; font-weight: 600; line-height: 1.4; }
 .metricNote { color: var(--muted); font-size: 13px; line-height: 1.45; }
 .bars { display: grid; gap: 6px; margin-top: 10px; }
 .bars > div { display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 10px; align-items: center; font-size: 12px; }
 .bars span { color: var(--muted); font-weight: 600; }
 .bars i { display: block; height: 8px; border-radius: 99px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); }
-.bars b { color: var(--navy-900); font-size: 12px; }
+.bars b, .bars .value { color: var(--navy-900); font-size: 12px; font-weight: 700; }
 .barDe i { background: #cfd3db; }
 .takeaway { margin: auto 0 0; padding-top: 22px; color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: 20px; font-style: italic; line-height: 1.4; }
 .takeaway span { display: block; margin-bottom: 6px; color: var(--gold); font-family: var(--font-sans), system-ui, sans-serif; font-size: 11px; font-style: normal; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
@@ -73,7 +73,7 @@
 .placeNo { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font-size: 13px; font-weight: 800; }
 .placeWork .placeNo { background: var(--gold); color: var(--navy-950); }
 .placeDate .placeNo { background: var(--brand-red); color: #fff; }
-.places strong { display: block; color: var(--ivory); font-size: 16px; }
+.places strong, .places .value { display: block; color: var(--ivory); font-size: 16px; }
 .places small { display: block; color: var(--gold-light); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .places p { margin: 6px 0 0; font-size: 14px; line-height: 1.55; }
 .mapFrame { padding: 18px; border: 1px solid var(--line-dark); border-radius: var(--radius); background: rgba(18, 36, 71, .55); }
@@ -102,7 +102,7 @@
 .clusters ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--navy-900); }
 .clusters li { padding: 26px 26px 28px 0; border-bottom: 1px solid var(--line); }
 .clusters li:not(:nth-child(3n + 1)) { padding-left: 26px; border-left: 1px solid var(--line); }
-.clusters strong { display: block; color: var(--navy-900); font-size: 26px; font-weight: 600; line-height: 1.15; }
+.clusters strong, .clusters .value { display: block; color: var(--navy-900); font-size: 26px; font-weight: 600; line-height: 1.15; }
 .clusters p { margin: 10px 0 0; color: var(--muted); font-size: 15px; }
 
 /* ICONY-Widget */
@@ -144,9 +144,9 @@
 .reach h2 { margin: 0 0 28px; color: var(--navy-900); font-size: clamp(32px, 3.8vw, 48px); }
 .distances { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
 .distances a { display: grid; grid-template-columns: 130px minmax(0, 1fr) 70px; gap: 14px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--navy-900); font-weight: 600; text-decoration: none; }
-.distances a:hover span { color: var(--gold); }
+.distances a:hover span:not(.value) { color: var(--gold); }
 .distances i { display: block; height: 6px; border-radius: 99px; background: linear-gradient(90deg, var(--navy-700), var(--gold)); }
-.distances b { color: var(--muted); font-size: 14px; text-align: right; }
+.distances b, .distances .value { color: var(--muted); font-size: 14px; text-align: right; }
 .distanceNote { margin: 10px 0 0; color: var(--muted); font-size: 12px; }
 .chipsHead { margin: 0 0 16px; color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: 24px; font-weight: 600; }
 .chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
@@ -209,3 +209,6 @@
   .faq summary { font-size: 21px; }
   .sticky { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 40; display: block; padding: 16px; border-radius: var(--radius); background: linear-gradient(135deg, #d9bf8c 0%, #b8955a 55%, #a07f47 100%); color: var(--navy-950); font-size: 14px; font-weight: 800; letter-spacing: .06em; text-align: center; text-decoration: none; text-transform: uppercase; box-shadow: 0 18px 40px -16px rgba(6, 14, 31, .7); }
 }
+
+/* Werte als <span> statt <strong> (Seobility „viele Strong-Tags“): Fettschrift wie vorher. */
+.value { font-weight: 700; }

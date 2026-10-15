@@ -95,7 +95,7 @@ export function MagazineHubTemplate({ page }: { page: PublicPage }) {
           <h1 className="display">Das <em>Magazin</em> für Akademiker-Singles</h1>
           <p>{page.description || "Über Erfolg, Anziehung, Lifestyle und Beziehungen auf Augenhöhe – für Singles mit Anspruch."}</p>
         </div>
-        <div className={styles.magFeatured}><ArticleCard article={featured} size="large" priority /></div>
+        <div className={styles.magFeatured}><ArticleCard article={featured} size="large" priority heading="h2" /></div>
       </div>
     </section>
     <TopicNav />
@@ -139,8 +139,8 @@ export function MagazineListingTemplate({ page }: { page: PublicPage }) {
     <section className={`container ${styles.listing}`}>
       {/* Autorenseite: schlanke Titelliste statt Karten mit Auszug – sonst „enthält“ sie jede Themenseite (Seobility Duplicate Content) und hat zu viele Überschriften. */}
       {category ? <>
-        {articles[0] ? <div className={styles.listingLead}><ArticleCard article={articles[0]} size="large" priority /></div> : null}
-        <div className={styles.grid}>{articles.slice(1).map(article => <ArticleCard key={article.path} article={article} />)}</div>
+        {articles[0] ? <div className={styles.listingLead}><ArticleCard article={articles[0]} size="large" priority heading="h2" /></div> : null}
+        <div className={styles.grid}>{articles.slice(1).map(article => <ArticleCard key={article.path} article={article} heading="h2" />)}</div>
       </> : <ol className={styles.authorList}>{articles.map(article => <li key={article.path}><Link href={article.path}>{article.heroTitle}</Link>{article.readingMinutes ? <span>{article.readingMinutes} Min. Lesezeit</span> : null}</li>)}</ol>}
     </section>
     <section className={`container ${styles.band}`}><RegisterPanel aid="magazin" title="Aus Inspiration wird Begegnung" text="Lernen Sie Singles kennen, die Ihre Ansprüche an Bildung, Stil und Tiefgang teilen – kostenlos und diskret." /></section>
@@ -182,7 +182,7 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
     <section className={styles.related}>
       <div className="container">
         <div className={styles.relatedHead}><p className="eyebrow">Weiterlesen</p><h2 className="display">Das könnte Sie auch <em>interessieren</em></h2></div>
-        <div className={styles.grid}>{related.map(article => <ArticleCard key={article.path} article={article} />)}</div>
+        <div className={styles.grid}>{related.map(article => <ArticleCard key={article.path} article={article} heading="p" />)}</div>
       </div>
     </section>
   </main>;

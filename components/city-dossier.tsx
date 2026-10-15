@@ -33,14 +33,14 @@ function CompareBars({ metric, city, profile }: { metric: Metric; city: string; 
   const fmt = (v: number) => `${v.toLocaleString("de-DE")}${c.unit}`;
   const country = profile.country ?? "Deutschland";
   return <div className={styles.bars} role="img" aria-label={`${city} ${fmt(c.city)}, ${country} ${fmt(c.germany)}`}>
-    <div><span>{city}</span><i style={{ width: `${(c.city / max) * 100}%` }} /><b>{fmt(c.city)}</b></div>
-    <div className={styles.barDe}><span>{country}{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><b>{fmt(c.germany)}</b></div>
+    <div><span>{city}</span><i style={{ width: `${(c.city / max) * 100}%` }} /><span className={styles.value}>{fmt(c.city)}</span></div>
+    <div className={styles.barDe}><span>{country}{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><span className={styles.value}>{fmt(c.germany)}</span></div>
   </div>;
 }
 
 function MetricBlock({ metric, profile, city }: { metric: Metric; profile: CityProfile; city: string }) {
   return <div className={styles.metric}>
-    <strong className="display">{metric.value}<SourceRef profile={profile} id={metric.source} />{metric.compareSource && !metric.compare ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</strong>
+    <span className={`display ${styles.value}`}>{metric.value}<SourceRef profile={profile} id={metric.source} />{metric.compareSource && !metric.compare ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span>
     <span className={styles.metricLabel}>{metric.label}</span>
     {metric.note ? <span className={styles.metricNote}>{metric.note}</span> : null}
     <CompareBars metric={metric} city={city} profile={profile} />
@@ -139,7 +139,7 @@ function CityMap({ profile, city }: { profile: CityProfile; city: string }) {
 function PlaceItem({ place, index }: { place: Place; index: number }) {
   return <li id={`ort-${index + 1}`} className={place.kind === "work" ? styles.placeWork : styles.placeDate}>
     <span className={styles.placeNo}>{index + 1}</span>
-    <div><strong>{place.name}</strong><small>{place.district}</small><p>{place.text}</p></div>
+    <div><span className={styles.value}>{place.name}</span><small>{place.district}</small><p>{place.text}</p></div>
   </li>;
 }
 
@@ -180,7 +180,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <aside className={styles.briefing} aria-label={`${city} auf einen Blick`}>
           <p className={styles.briefingHead}><span>Stadtdossier</span><span>{city}</span></p>
           {profile.briefing.map(metric => <div key={metric.label} className={styles.briefingRow}>
-            <strong className="display">{metric.value}<SourceRef profile={profile} id={metric.source} /></strong>
+            <span className={`display ${styles.value}`}>{metric.value}<SourceRef profile={profile} id={metric.source} /></span>
             <span>{metric.label}</span>
           </div>)}
           <p className={styles.briefingFoot}>Amtliche Statistik · Quellen am Seitenende</p>
@@ -190,7 +190,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
 
     <section className={`container ${styles.kpis}`} aria-label="Kennzahlen">
       {profile.kpis.map(metric => <div key={metric.label}>
-        <strong className="display">{metric.value}<SourceRef profile={profile} id={metric.source} /></strong>
+        <span className={`display ${styles.value}`}>{metric.value}<SourceRef profile={profile} id={metric.source} /></span>
         <span>{metric.label}</span>
       </div>)}
     </section>
@@ -240,7 +240,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <h2 className="display">Die Branchen, die {city} <em>prägen</em></h2>
         <p>Wer hier Karriere macht, tut das oft in einem dieser Felder – gute Gesprächsthemen fürs erste Date inklusive.{(profile.clusterSources ?? []).map(id => <SourceRef key={id} profile={profile} id={id} />)}</p>
       </header>
-      <ul>{profile.clusters.map(cluster => <li key={cluster.name}><strong className="display">{cluster.name}</strong><p>{cluster.text}</p></li>)}</ul>
+      <ul>{profile.clusters.map(cluster => <li key={cluster.name}><span className={`display ${styles.value}`}>{cluster.name}</span><p>{cluster.text}</p></li>)}</ul>
     </section>
 
     {page.cityWidget ? <section className={`container ${styles.widget}`} data-icony-city-widget>
@@ -287,7 +287,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <h2 className="display" id="in-reichweite">Partnersuche über {city} <em>hinaus</em></h2>
         <ul className={styles.distances}>{nearest.map(item => {
           const target = getPage(item.path);
-          return target ? <li key={item.path}><Link href={item.path}><span>{target.locationName}</span><i style={{ width: `${(item.km / farthest) * 100}%` }} /><b>{item.km} km</b></Link></li> : null;
+          return target ? <li key={item.path}><Link href={item.path}><span>{target.locationName}</span><i style={{ width: `${(item.km / farthest) * 100}%` }} /><span className={styles.value}>{item.km} km</span></Link></li> : null;
         })}</ul>
         <p className={styles.distanceNote}>Luftlinie ab Stadtmitte</p>
       </div>
