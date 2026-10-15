@@ -7,6 +7,7 @@ import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/market
 import { registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
 import { withImageAlt, withoutEmptyHeadings } from "./html-cleanup";
+import { collapseSourceSections } from "./collapse-sources";
 
 export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
 
@@ -259,7 +260,9 @@ export function renderedContentHtml(page: PublicPage): string {
   // Artikel zeigen ihre Audio-Fassung als eigene Karte (articleAudio), der importierte Block entfällt.
   const withoutHero = page.family !== "magazine" && page.heroImage ? withoutImage(page.contentHtml, page.heroImage) : page.family === "magazine" ? page.contentHtml.replace(AUDIO_BLOCK, "") : page.contentHtml;
   const body = withoutHero.replace(CREDIT_PARAGRAPH, "").replace(/href="(\/[^"]*)"/g, (match, href: string) => LINK_MOVES[href] ? `href="${LINK_MOVES[href]}"` : match);
-  return body
+  // Magazin und Ratgeber: Quellen klein und zugeklappt ans Ende des Beitrags.
+  const withSources = page.family === "magazine" || page.family === "guide" ? collapseSourceSections(body) : body;
+  return withSources
     .replace(/href="(\/[^"]*)"/g, (match, href: string) => localizePath(href, market) === href ? match : `href="${localizePath(href, market)}"`)
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>
