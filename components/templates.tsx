@@ -9,6 +9,7 @@ import {
   guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
 import { getCityProfile } from "@/lib/city-profile";
+import { categoryDescription } from "@/lib/seo-meta";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
@@ -68,7 +69,7 @@ function Body({ page, children }: { page: PublicPage; children?: React.ReactNode
         <p className="eyebrow">Aus unserer Redaktion</p>
         <h2>{page.author?.name ?? "Redaktion"} AkademikerSingles</h2>
         <p>Im Magazin und Ratgeber von AkademikerSingles geht es um Partnersuche, Beziehungen und das Singleleben mit gemeinsamen Interessen und Ansprüchen.</p>
-        <Link href={page.author?.path ?? "/ueber-uns/"}>Mehr über die Redaktion →</Link>
+        <Link href={page.author?.path ?? "/ueber-uns/"}>{page.author?.path ? "Mehr über die Redaktion" : "Mehr über AkademikerSingles"} →</Link>
       </aside> : null}
       <ImageCredits credits={imageCredits(page)} />
     </div>
@@ -91,7 +92,7 @@ export function MagazineHubTemplate({ page }: { page: PublicPage }) {
       <div className="container">
         <Breadcrumbs items={crumbs} tone="dark" />
         <div className={styles.magHeroHead}>
-          <h1 className="display">Das <em>Magazin</em></h1>
+          <h1 className="display">Das <em>Magazin</em> für Akademiker-Singles</h1>
           <p>{page.description || "Über Erfolg, Anziehung, Lifestyle und Beziehungen auf Augenhöhe – für Singles mit Anspruch."}</p>
         </div>
         <div className={styles.magFeatured}><ArticleCard article={featured} size="large" priority /></div>
@@ -107,7 +108,7 @@ export function MagazineHubTemplate({ page }: { page: PublicPage }) {
             <h2 className="display"><Link href={category.path}>{categoryLabel(category)}</Link></h2>
             {category.description ? <p>{category.description}</p> : null}
           </div>
-          <Link className="link-arrow" href={category.path}>Alle {items.length} Artikel <span aria-hidden="true">→</span></Link>
+          <Link className="link-arrow" href={category.path}>Alle {items.length} Artikel zu {categoryLabel(category)} <span aria-hidden="true">→</span></Link>
         </header>
         <div className={styles.grid}>{items.slice(0, 3).map(article => <ArticleCard key={article.path} article={article} />)}</div>
       </section>;
@@ -118,7 +119,7 @@ export function MagazineHubTemplate({ page }: { page: PublicPage }) {
         <div><h2 className="display">Weitere Themen</h2><p>Psychologie, Gesellschaft und die Frage, was Menschen mit Anspruch wirklich suchen.</p></div>
       </header>
       <div className={styles.otherTopics}>{others.map(category => <Link key={category.slug} href={category.path}><strong className="display">{category.name}</strong><span>{category.count} Artikel →</span></Link>)}</div>
-      <div className={`${styles.grid} ${styles.gridSpaced}`}>{rest.filter(article => !article.categories.some(slug => lead.some(category => category.slug === slug))).slice(0, 6).map(article => <ArticleCard key={article.path} article={article} />)}</div>
+      <div className={`${styles.grid} ${styles.gridSpaced}`}>{rest.filter(article => !article.categories.some(slug => lead.some(category => category.slug === slug))).slice(0, 6).map(article => <ArticleCard key={article.path} article={article} heading="p" />)}</div>
     </section>
   </main>;
 }
@@ -133,11 +134,14 @@ export function MagazineListingTemplate({ page }: { page: PublicPage }) {
       breadcrumbJsonLd(crumbs, ORIGIN),
       { "@type": category ? "CollectionPage" : "ProfilePage", name: page.title, url: page.canonical, description: page.description, inLanguage: "de-DE" },
     ] }} />
-    <Hero page={page} eyebrow={category ? `Magazin · ${articles.length} Artikel` : "Autor"} title={category ? category.name : name} lead={page.description || category?.description || `Alle Beiträge von ${name} im AkademikerSingles-Magazin.`} />
+    <Hero page={page} eyebrow={category ? `Magazin · ${articles.length} Artikel` : "Autor"} title={category ? (category.name.length < 20 ? `${category.name} beim Dating` : category.name) : `${name} von AkademikerSingles`} lead={page.description || category?.description || categoryDescription(category?.slug) || `Alle Beiträge von ${name} im AkademikerSingles-Magazin.`} />
     <TopicNav active={category?.slug} />
     <section className={`container ${styles.listing}`}>
-      {articles[0] ? <div className={styles.listingLead}><ArticleCard article={articles[0]} size="large" priority /></div> : null}
-      <div className={styles.grid}>{articles.slice(1).map(article => <ArticleCard key={article.path} article={article} />)}</div>
+      {/* Autorenseite: schlanke Titelliste statt Karten mit Auszug – sonst „enthält“ sie jede Themenseite (Seobility Duplicate Content) und hat zu viele Überschriften. */}
+      {category ? <>
+        {articles[0] ? <div className={styles.listingLead}><ArticleCard article={articles[0]} size="large" priority /></div> : null}
+        <div className={styles.grid}>{articles.slice(1).map(article => <ArticleCard key={article.path} article={article} />)}</div>
+      </> : <ol className={styles.authorList}>{articles.map(article => <li key={article.path}><Link href={article.path}>{article.heroTitle}</Link>{article.readingMinutes ? <span>{article.readingMinutes} Min. Lesezeit</span> : null}</li>)}</ol>}
     </section>
     <section className={`container ${styles.band}`}><RegisterPanel aid="magazin" title="Aus Inspiration wird Begegnung" text="Lernen Sie Singles kennen, die Ihre Ansprüche an Bildung, Stil und Tiefgang teilen – kostenlos und diskret." /></section>
   </main>;

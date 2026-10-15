@@ -57,7 +57,7 @@ export function HomeTemplate({ page }: { page: PublicPage }) {
       </div>
       <div className={styles.topics}>
         {topics.map(({ category, cover }, index) => <Link key={category.slug} href={category.path} className={`${styles.topic} ${index === 0 ? styles.topicLead : ""}`}>
-          <Image src={cover!.heroImage!} alt="" fill sizes={index === 0 ? "(max-width: 900px) 100vw, 50vw" : "(max-width: 900px) 50vw, 25vw"} />
+          <Image src={cover!.heroImage!} alt={cover!.heroImageAlt || cover!.heroTitle} fill sizes={index === 0 ? "(max-width: 900px) 100vw, 50vw" : "(max-width: 900px) 50vw, 25vw"} />
           <span className={styles.topicText}>
             <small>{String(index + 1).padStart(2, "0")} · {category.count} Artikel</small>
             <strong>{categoryLabel(category)}</strong>

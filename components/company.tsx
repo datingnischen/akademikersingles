@@ -48,7 +48,7 @@ const ABOUT_NAV = [
 ];
 
 const ABOUT_CARDS = [
-  { eyebrow: "Gründer & Experte", title: "Christian M. Haas", text: "Seit 2008 im Online-Dating aktiv: der Mensch und die Erfahrung hinter AkademikerSingles.de.", href: "/ueber-uns/#gruender", label: "Gründer kennenlernen" },
+  { eyebrow: "Gründer & Experte", title: "Der Gründer Christian M. Haas", text: "Seit 2008 im Online-Dating aktiv: der Mensch und die Erfahrung hinter AkademikerSingles.de.", href: "/ueber-uns/#gruender", label: "Gründer kennenlernen" },
   { eyebrow: "Bewertungen & Erfahrungen", title: "Was andere über uns sagen", text: "Testberichte unabhängiger Vergleichsportale, Trustpilot und die Geschichten unserer Paare.", href: "/ueber-uns/bewertungen/", label: "Bewertungen ansehen" },
   { eyebrow: "Social Media", title: "YouTube & Facebook", text: "Videos, Tipps und Inspiration rund um Partnerschaft, Dating und Beziehungen – auf YouTube und Facebook.", href: "/ueber-uns/social-media/", label: "Zu Social Media" },
   { eyebrow: "Erfolgsgeschichten", title: "Paare, die sich hier fanden", text: "Aus einem Gespräch wurde ein gemeinsamer Weg – lesen Sie, wie es begann.", href: legacyUrl("/unsere-erfolgsgeschichten.html"), label: "Geschichten lesen" },
@@ -98,7 +98,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
       },
       { "@type": "Book", "@id": `${page.canonical}#buch`, name: FOUNDER.book.title, alternateName: FOUNDER.book.subtitle, isbn: FOUNDER.book.isbn, datePublished: FOUNDER.book.published, inLanguage: "de-DE", url: FOUNDER.book.url, author: { "@id": `${page.canonical}#gruender` } },
     ] }} />
-    <DarkHero page={page} eyebrow="Über AkademikerSingles" title={<>Wo Anspruch auf <em>Gegenüber</em> trifft.</>} lead="Seit 2008 bringen wir gebildete Singles zusammen – mit manuell geprüften Profilen, absoluter Diskretion und dem Anspruch, dass sich Menschen auf Augenhöhe begegnen." image="/brand/success-stories.jpg" />
+    <DarkHero page={page} eyebrow="Über AkademikerSingles" title={<>Wo Anspruch auf <em>Gegenüber</em> trifft.</>} lead="Seit 2008 bringen wir gebildete Singles zusammen – mit manuell geprüften Profilen, absoluter Diskretion und dem Anspruch, dass sich Menschen auf Augenhöhe begegnen. Hier trifft Anspruch auf ein Gegenüber, das ihn teilt." image="/brand/success-stories.jpg" />
     <AboutNav current={page.path} />
 
     <section className={`container ${styles.manifesto}`}>
@@ -123,7 +123,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
         <h2 className="display">So sorgen wir für ein Umfeld mit <em>Niveau</em>.</h2>
         <p>Exklusivität entsteht nicht durch Versprechen, sondern durch Sorgfalt – bei jedem einzelnen Profil.</p>
       </div>
-      <ol className={styles.steps}>{STEPS.map(step => <li key={step.title}><a href={step.href}><h3 className="display">{step.title}</h3><p>{step.text}</p><span>Mehr erfahren →</span></a></li>)}</ol>
+      <ol className={styles.steps}>{STEPS.map(step => <li key={step.title}><div className={`${styles.step} ${styles.hasCardLink}`}><h3 className="display"><a className={styles.cardTitleLink} href={step.href}>{step.title}</a></h3><p>{step.text}</p><span aria-hidden="true">Mehr erfahren →</span></div></li>)}</ol>
     </section>
 
     <section className={styles.expertise} id="gruender" aria-labelledby="gruender-titel">
@@ -167,8 +167,8 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
       </div>
       <div className={styles.cardGrid}>
         {ABOUT_CARDS.map(card => {
-          const body = <><span className={styles.cardEyebrow}>{card.eyebrow}</span><h3 className="display">{card.title}</h3><p>{card.text}</p><span className={styles.cardLink}>{card.label} →</span></>;
-          return card.href.startsWith("/") ? <Link key={card.href} className={styles.aboutCard} href={card.href}>{body}</Link> : <a key={card.href} className={styles.aboutCard} href={card.href}>{body}</a>;
+          const titleLink = card.href.startsWith("/") ? <Link className={styles.cardTitleLink} href={card.href}>{card.title}</Link> : <a className={styles.cardTitleLink} href={card.href}>{card.title}</a>;
+          return <div key={card.href} className={`${styles.aboutCard} ${styles.hasCardLink}`}><span className={styles.cardEyebrow}>{card.eyebrow}</span><h3 className="display">{titleLink}</h3><p>{card.text}</p><span className={styles.cardLink} aria-hidden="true">{card.label} →</span></div>;
         })}
       </div>
     </section>
@@ -198,7 +198,7 @@ export function FaqTemplate({ page }: { page: PublicPage }) {
         mainEntity: FAQ_GROUPS.flatMap(group => group.items).map(item => ({ "@type": "Question", name: item.question, acceptedAnswer: { "@type": "Answer", text: faqPlainAnswer(item) } })),
       },
     ] }} />
-    <DarkHero page={page} eyebrow="FAQ" title={<>Häufige <em>Fragen</em></>} lead="Alles Wichtige zu Anmeldung, Mitgliedschaft, Sicherheit und Kündigung – kurz, klar und ehrlich beantwortet." />
+    <DarkHero page={page} eyebrow="FAQ" title={<>Häufige <em>Fragen</em> zu AkademikerSingles</>} lead="Alles Wichtige zu Anmeldung, Mitgliedschaft, Sicherheit und Kündigung – kurz, klar und ehrlich beantwortet." />
     <AboutNav current={page.path} />
     <section className={`container ${styles.faq}`}>
       <nav className={styles.faqNav} aria-label="FAQ-Themen">
@@ -266,30 +266,30 @@ export function ReviewsTemplate({ page }: { page: PublicPage }) {
         <h2 className="display">Empfohlen von <em>Vergleichsportalen</em></h2>
       </div>
       <div className={styles.reviewGrid}>
-        {REVIEW_CARDS.map(card => <a key={card.source} className={styles.reviewCard} href={card.href} target="_blank" rel="noopener">
+        {REVIEW_CARDS.map(card => <div key={card.source} className={`${styles.reviewCard} ${styles.hasCardLink}`}>
           <span className={styles.reviewSeal}><Image src={card.seal.src} alt={card.seal.alt} width={card.seal.width} height={card.seal.height} sizes="200px" /></span>
           <span className={styles.cardEyebrow}>{card.source}</span>
-          <h3 className="display">{card.title}</h3>
+          <h3 className="display"><a className={styles.cardTitleLink} href={card.href} target="_blank" rel="noopener">{card.title}</a></h3>
           <strong className={styles.verdict}>{card.verdict}</strong>
           <p>{card.text}</p>
-          <span className={styles.cardLink}>{card.label} →</span>
-        </a>)}
+          <span className={styles.cardLink} aria-hidden="true">{card.label} →</span>
+        </div>)}
       </div>
     </section>
     <section className={styles.valuesWrap}>
       <div className={`container ${styles.reviewMore}`}>
-        <a className={styles.aboutCard} href={REVIEW_SOURCES.trustpilot.url} target="_blank" rel="nofollow noopener">
+        <div className={`${styles.aboutCard} ${styles.hasCardLink}`}>
           <span className={styles.cardEyebrow}>Trustpilot</span>
-          <h3 className="display">Stimmen von Mitgliedern</h3>
+          <h3 className="display"><a className={styles.cardTitleLink} href={REVIEW_SOURCES.trustpilot.url} target="_blank" rel="nofollow noopener">Stimmen von Mitgliedern</a></h3>
           <p>Statt hier Sterne abzudrucken, die morgen schon veraltet sind, schicken wir Sie direkt zu Trustpilot. Dort lesen Sie, was Mitglieder aktuell über AkademikerSingles.de schreiben.</p>
-          <span className={styles.cardLink}>Trustpilot öffnen →</span>
-        </a>
-        <a className={styles.aboutCard} href={legacyUrl("/unsere-erfolgsgeschichten.html")}>
+          <span className={styles.cardLink} aria-hidden="true">Trustpilot öffnen →</span>
+        </div>
+        <div className={`${styles.aboutCard} ${styles.hasCardLink}`}>
           <span className={styles.cardEyebrow}>Erfolgsgeschichten</span>
-          <h3 className="display">Paare, die sich hier fanden</h3>
+          <h3 className="display"><a className={styles.cardTitleLink} href={legacyUrl("/unsere-erfolgsgeschichten.html")}>Paare, die sich hier fanden</a></h3>
           <p>Die schönste Bewertung ist ein gemeinsamer Weg. Lesen Sie, wie Paare sich auf AkademikerSingles.de kennengelernt haben.</p>
-          <span className={styles.cardLink}>Geschichten lesen →</span>
-        </a>
+          <span className={styles.cardLink} aria-hidden="true">Geschichten lesen →</span>
+        </div>
         <RegisterPanel title="Machen Sie sich selbst ein Bild" text="Die Basis-Mitgliedschaft ist kostenlos. Schauen Sie sich in Ruhe um und entscheiden Sie selbst." />
       </div>
     </section>

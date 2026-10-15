@@ -6,6 +6,7 @@ import { marketCities, marketHub } from "@/lib/market-cities";
 import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/markets";
 import { registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
+import { withImageAlt, withoutEmptyHeadings } from "./html-cleanup";
 
 export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
 
@@ -62,9 +63,10 @@ const CITY_WIDGET = /^https:\/\/js\.icony\.com\/frame\/\?h=300&id=akademikersing
 // Wie in den Schwesterprojekten liegt Social Media unter „Über uns“; die Live-URL /social-media/ leitet dorthin um.
 export const SOCIAL_PATH = "/ueber-uns/social-media/";
 const LINK_MOVES: Record<string, string> = { "/social-media/": SOCIAL_PATH };
+// Leere Überschriften aus dem Import (z. B. <h2>&nbsp;</h2>) entfallen (Seobility „leere Überschrift“).
 const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/"
   ? { ...page, family: "social" as const, path: SOCIAL_PATH, canonical: `https://akademikersingles.de${SOCIAL_PATH}` }
-  : page), ...AUTHORED_PAGES];
+  : page), ...AUTHORED_PAGES].map(page => ({ ...page, contentHtml: withImageAlt(withoutEmptyHeadings(page.contentHtml), page.heroTitle) }));
 const pageIndex = new Map(pages.map(page => [page.path, page]));
 const leadOrder = Object.keys(LEAD_CATEGORIES);
 const categories = (categorySnapshot.categories as MagazineCategory[]).slice().sort((a, b) => {

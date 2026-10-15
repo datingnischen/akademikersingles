@@ -8,6 +8,7 @@ import { pageRegistrationUrl, type PublicPage } from "@/lib/content";
 import { MARKET_CODES, MARKET_DOMAINS_LIVE, getMarket, publicUrl, type MarketCode } from "@/lib/markets";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import { staticAsset } from "@/lib/static-asset";
+import { seoDescription, seoTitle } from "@/lib/seo-meta";
 
 // Gemeinsame Darstellung der Seiten für DE (app/[[...slug]]) und die Marktrouten (app/at, app/ch).
 
@@ -24,14 +25,16 @@ function hreflang(page: PublicPage): Metadata["alternates"] {
 
 export function pageMetadata(page: PublicPage, market: MarketCode = "de"): Metadata {
   const image = page.family === "home" ? "/brand/hero-couple.jpg" : page.heroImage;
+  const title = seoTitle(page);
+  const description = seoDescription(page);
   return {
-    title: { absolute: page.title },
-    description: page.description,
+    title: { absolute: title },
+    description,
     alternates: { canonical: page.canonical, ...hreflang(page) },
     robots: { index: true, follow: true },
     openGraph: {
-      title: page.title,
-      description: page.description,
+      title,
+      description,
       url: page.canonical,
       siteName: SITE_NAME,
       locale: getMarket(market).ogLocale,
@@ -39,7 +42,7 @@ export function pageMetadata(page: PublicPage, market: MarketCode = "de"): Metad
       ...(page.family === "magazine" ? { publishedTime: page.published, modifiedTime: page.modified } : {}),
       ...(image ? { images: [{ url: staticAsset(image) }] } : {}),
     },
-    twitter: { card: "summary_large_image", title: page.title, description: page.description },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 

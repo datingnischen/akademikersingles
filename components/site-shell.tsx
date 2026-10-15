@@ -55,7 +55,8 @@ export function SiteShell({ children, registrationHref, current }: { children: R
       <div className={`container ${styles.footerCta}`}>
         <div>
           <p className="eyebrow">Ihr nächstes Kapitel</p>
-          <h2 className="display">Anspruch verdient ein <em>Gegenüber</em>, das ihn teilt.</h2>
+          {/* Footer-Texte ohne Überschriften-Tag: sie stehen auf jeder Seite (Seobility „zu viele Überschriften“ ab ca. 26 je Seite). */}
+          <p className={`display ${styles.footerCtaTitle}`}>Anspruch verdient ein <em>Gegenüber</em>, das ihn teilt.</p>
         </div>
         <div className={styles.footerCtaActions}>
           <a className="btn btn-gold" href={registration}>Jetzt kostenlos registrieren</a>
@@ -72,25 +73,25 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           </a>
         </section>
         <section>
-          <h3>Magazin</h3>
+          <p className={styles.footerHeading}>Magazin</p>
           <Link href="/magazin/">Alle Artikel</Link>
           {getCategories().map(category => <Link key={category.slug} href={category.path}>{categoryLabel(category)}</Link>)}
         </section>
         <section>
-          <h3>Partnersuche</h3>
+          <p className={styles.footerHeading}>Partnersuche</p>
           <Link href="/partnersuche/">Alle Städte</Link>
           {getCities().map(city => <Link key={city.path} href={city.path}>{city.locationName}</Link>)}
         </section>
         <section>
-          <h3>AkademikerSingles</h3>
+          <p className={styles.footerHeading}>AkademikerSingles</p>
           <Link href="/ueber-uns/">Über uns</Link>
           <Link href="/ueber-uns/#gruender">Gründer Christian M. Haas</Link>
           <Link href="/ueber-uns/bewertungen/">Bewertungen &amp; Erfahrungen</Link>
           <Link href="/ueber-uns/social-media/">Social Media</Link>
           <Link href="/faq/">Häufige Fragen</Link>
-          <h3 className={styles.footerSub}>Ratgeber</h3>
+          <p className={`${styles.footerHeading} ${styles.footerSub}`}>Ratgeber</p>
           {getGuides().map(guide => <Link key={guide.path} href={guide.path}>{guideLabel(guide)}</Link>)}
-          <h3 className={styles.footerSub}>Mitgliedschaft</h3>
+          <p className={`${styles.footerHeading} ${styles.footerSub}`}>Mitgliedschaft</p>
           {[...FEATURE_LINKS, ...TRUST_LINKS].map(link => <a key={link.href} href={link.href}>{link.label}</a>)}
         </section>
       </div>

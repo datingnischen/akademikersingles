@@ -27,18 +27,21 @@ export function breadcrumbJsonLd(items: Crumb[], origin: string) {
   };
 }
 
-export function ArticleCard({ article, size = "default", priority = false }: { article: PublicPage; size?: "default" | "large" | "compact"; priority?: boolean }) {
+/** heading="p" für lange Kartenlisten, die sonst zu viele Überschriften hätten (Seobility ab ca. 26 je Seite). */
+export function ArticleCard({ article, size = "default", priority = false, heading = "h3" }: { article: PublicPage; size?: "default" | "large" | "compact"; priority?: boolean; heading?: "h3" | "p" }) {
+  const Heading = heading;
   const category = primaryCategory(article);
   return <article className={`${styles.card} ${styles[`card_${size}`]}`}>
-    <Link className={styles.cardMedia} href={article.path} tabIndex={-1} aria-hidden="true">
-      {article.heroImage ? <Image src={article.heroImage} alt="" fill sizes={size === "large" ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 400px"} priority={priority} /> : null}
-    </Link>
+    {/* Nur der Titel ist verlinkt (kein leerer Bild-Link); .cardLink::after hält die ganze Karte klickbar. */}
+    <div className={styles.cardMedia}>
+      {article.heroImage ? <Image src={article.heroImage} alt={article.heroImageAlt || article.heroTitle} fill sizes={size === "large" ? "(max-width: 900px) 100vw, 60vw" : "(max-width: 640px) 100vw, (max-width: 1100px) 50vw, 400px"} priority={priority} /> : null}
+    </div>
     <div className={styles.cardBody}>
       <div className={styles.cardMeta}>
         {category ? <Link href={category.path}>{categoryLabel(category)}</Link> : null}
         {article.readingMinutes ? <span>{article.readingMinutes} Min. Lesezeit</span> : null}
       </div>
-      <h3 className="display"><Link href={article.path}>{article.heroTitle}</Link></h3>
+      <Heading className={`display ${styles.cardTitle}`}><Link className={styles.cardLink} href={article.path}>{article.heroTitle}</Link></Heading>
       {size !== "compact" ? <p>{cardText(article)}</p> : null}
       {size === "large" ? <span className={styles.cardDate}>Aktualisiert {formatDate(article.modified ?? article.published)}</span> : null}
     </div>
