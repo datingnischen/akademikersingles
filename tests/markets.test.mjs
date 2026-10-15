@@ -39,6 +39,7 @@ test("WordPress-REST für ICONY: unpräfixiert unverändert und ohne Slash-Umlei
     assert.deepEqual(resolveRequest(`/${prefix}/magazin/wp-json/wp/v2/posts`, false), rewrite("/magazin/wp-json/wp/v2/posts"));
     assert.deepEqual(resolveRequest(`/${prefix}/magazin/`, true), rewrite("/magazin/index.php"));
     assert.deepEqual(resolveRequest(`/${prefix}/magazin/index.php`, true), rewrite("/magazin/index.php"));
+    if (prefix === "de") assert.deepEqual(resolveRequest("/de/magazin/sitemap.xml", false), rewrite("/magazin/sitemap.xml"));
   }
 });
 

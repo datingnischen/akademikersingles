@@ -86,6 +86,8 @@ export function resolveRequest(pathname: string, hasRestRoute: boolean, hostname
   if (LAST_SEGMENT_HAS_DOT.test(pathname)) {
     if (!prefix && host && (pathname === "/robots.txt" || pathname === "/sitemap.xml")) return { action: "rewrite", pathname: `/${host}${pathname}` };
     if (path === "/magazin/index.php" && prefix) return { action: "rewrite", pathname: path };
+    // nginx ruft Vercel mit /de/… auf: /de/magazin/sitemap.xml (ICONYs sitemap.php verweist auf /magazin/sitemap.xml).
+    if (path === "/magazin/sitemap.xml" && prefix === "de") return { action: "rewrite", pathname: path };
     return { action: "next" };
   }
 

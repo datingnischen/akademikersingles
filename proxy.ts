@@ -34,5 +34,5 @@ export function proxy(request: NextRequest) {
 export const config = {
   // Nur Seitenrouten: keine Dateien mit Endung, keine Next.js-Interna, keine Assets, keine API.
   // Ausnahmen mit Endung: robots.txt/sitemap.xml (Marktdomains) und der Präfix-Zugang zu /magazin/index.php.
-  matcher: ["/robots.txt", "/sitemap.xml", "/(de|at|ch)/magazin/index.php", "/((?!_next/|app-assets/|api/|.*\\..*).*)"],
+  matcher: ["/robots.txt", "/sitemap.xml", "/(de|at|ch)/magazin/index.php", "/de/magazin/sitemap.xml", "/((?!_next/|app-assets/|api/|.*\\..*).*)"],
 };
