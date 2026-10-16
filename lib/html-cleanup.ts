@@ -32,7 +32,13 @@ export function withoutHeadingSkips(html: string, base = 1): string {
 export function limitStrong(html: string, max = 4): string {
   const seen = new Set<string>();
   let kept = 0;
-  return html.replace(/<(strong|b)\b([^>]*)>([\s\S]*?)<\/\1>/gi, (match: string, _tag: string, attrs: string, inner: string) => {
+  // Doppelt verschachtelt (<strong><strong>x</strong></strong>) erst glätten, sonst entsteht ungültiges HTML.
+  let flat = html;
+  for (let previous: string = ""; previous !== flat; ) {
+    previous = flat;
+    flat = flat.replace(/<(strong|b)\b([^>]*)>(\s*)<(?:strong|b)\b[^>]*>([\s\S]*?)<\/(?:strong|b)>(\s*)<\/\1>/gi, "<$1$2>$3$4$5</$1>");
+  }
+  return flat.replace(/<(strong|b)\b([^>]*)>([\s\S]*?)<\/\1>/gi, (match: string, _tag: string, attrs: string, inner: string) => {
     const text = inner.replace(/<[^>]+>/g, "").replace(/&nbsp;|\u00a0/g, " ").replace(/\s+/g, " ").trim();
     // Leer: Tag entfällt, ein enthaltenes Leerzeichen bleibt (sonst kleben die Nachbarwörter zusammen).
     if (!text) return inner.replace(/&nbsp;|\u00a0/g, " ").trim() ? inner : /\s|&nbsp;/.test(inner) ? " " : "";

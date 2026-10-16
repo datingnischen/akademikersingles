@@ -15,3 +15,7 @@ test("strong tags are capped, deduplicated and empty ones keep the word gap", ()
   assert.equal(limitStrong(html), '<strong>a</strong><strong>b</strong><span class="em-strong">a</span><strong>c</strong><strong>d</strong><span class="em-strong">e</span>');
   assert.equal(limitStrong("Nachhaltige<strong> </strong>französische"), "Nachhaltige französische");
 });
+
+test("doppelt verschachtelte Hervorhebungen ergeben gültiges HTML", () => {
+  assert.equal(limitStrong("<strong>a</strong><strong>a</strong><strong><strong>T</strong></strong>"), "<strong>a</strong><span class=\"em-strong\">a</span><strong>T</strong>");
+});
