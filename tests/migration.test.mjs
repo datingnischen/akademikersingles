@@ -38,7 +38,7 @@ test("Artikel-Audio steckt in einer eigenen Player-Karte, nicht als nackter Play
   assert.match(content, /page\.family === "magazine" \? page\.contentHtml\.replace\(AUDIO_BLOCK, ""\)/);
   const block = new RegExp(content.match(/const AUDIO_BLOCK = \/(.+)\/i;/)[1], "i");
   for (const article of pages.filter(page => page.family === "magazine" && /<audio\b/.test(page.contentHtml))) {
-    assert.doesNotMatch(article.contentHtml.replace(block, ""), /<audio\b|kurz anhören/, `${article.path} behält den alten Audio-Block`);
+    assert.doesNotMatch(article.contentHtml.replace(block, ""), /<audio\b|anhören\s*<\/h2>/i, `${article.path} behält den alten Audio-Block`);
   }
   const templates = await read("components/templates.tsx");
   assert.match(templates, /<Body page=\{page\}>\{audio \? <ArticleAudio src=\{audio\} \/> : null\}<\/Body>/);
