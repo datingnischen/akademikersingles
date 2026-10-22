@@ -8,6 +8,7 @@ import { registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
 import { limitStrong, withImageAlt, withoutEmptyHeadings, withoutHeadingSkips } from "./html-cleanup";
 import { collapseSourceSections } from "./collapse-sources";
+import { cardSource } from "./card-text";
 
 export type Family = "home" | "location-hub" | "location" | "guide" | "magazine-hub" | "magazine" | "magazine-category" | "magazine-author" | "about" | "about-reviews" | "social" | "faq";
 
@@ -207,7 +208,7 @@ export function excerpt(value: string, length = 170): string {
 }
 
 export function cardText(page: PublicPage): string {
-  return excerpt(page.excerpt || page.description);
+  return excerpt(cardSource(page.excerpt, page.description));
 }
 
 function optimizedImage(src: string, width: number): string {
