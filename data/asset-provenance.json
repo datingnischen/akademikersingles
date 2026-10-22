@@ -1391,5 +1391,21 @@
     "sha256": "cb3257d744021359501b42d7019aa3ead6317087a49a73acaab889f6ab6efd50",
     "sourceSha256": "cb3257d744021359501b42d7019aa3ead6317087a49a73acaab889f6ab6efd50",
     "sourceUrl": "OpenAI image_gen: original Göttingen market square cityscape"
+  },
+  {
+    "bytes": 952154,
+    "localPath": "/imported/29f75135221cbec5e864.mp3",
+    "rightsStatus": "eigene Audio-Zusammenfassung; ElevenLabs Text-to-Speech eleven_v4, Stimme Doreen, Sprechtext aus dem Artikel, 2026-10-22",
+    "sha256": "29f75135221cbec5e8647c592fdd69141b04a65c23291eb917690398f1f34380",
+    "sourceSha256": "29f75135221cbec5e8647c592fdd69141b04a65c23291eb917690398f1f34380",
+    "sourceUrl": "ElevenLabs eleven_v4: exklusive-dating-apps-audio-zusammenfassung.mp3"
+  },
+  {
+    "bytes": 996875,
+    "localPath": "/imported/d95398f64aaeff168c39.mp3",
+    "rightsStatus": "eigene Audio-Zusammenfassung; ElevenLabs Text-to-Speech eleven_v4, Stimme Doreen, Sprechtext aus dem Artikel, 2026-10-22",
+    "sha256": "d95398f64aaeff168c39d55a651c6b68b7238c0f5d0c4f56c543018a43c3ab38",
+    "sourceSha256": "d95398f64aaeff168c39d55a651c6b68b7238c0f5d0c4f56c543018a43c3ab38",
+    "sourceUrl": "ElevenLabs eleven_v4: high-value-dating-akademiker-audio-zusammenfassung.mp3"
   }
 ]
