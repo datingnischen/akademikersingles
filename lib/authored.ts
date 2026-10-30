@@ -175,4 +175,19 @@ export const AUTHORED_PAGES: PublicPage[] = [
     "Antworten zu Anmeldung, Mitgliedschaft, Profilprüfung, Datenschutz, Kosten und Kündigung bei AkademikerSingles.de – der Partnersuche für Akademiker.",
     "Häufige Fragen",
   ),
+  // Eigene Stadtseite ohne ICONY-Vorlage (2026-10-30): besteht nur aus dem Stadtdossier data/city-profiles/kassel.json.
+  {
+    path: "/partnersuche/kassel/",
+    sourceUrl: `${ORIGIN}/partnersuche/kassel/`,
+    canonical: `${ORIGIN}/partnersuche/kassel/`,
+    family: "location",
+    title: "Partnersuche in Kassel",
+    description: "Akademiker Singles in Kassel: Stadtdossier mit Zensus-Zahlen zu Bildung, Beruf und Single-Leben – Universität, Fraunhofer IEE und documenta.",
+    heroTitle: "Partnersuche in Kassel",
+    heroImage: null,
+    categories: [],
+    contentHtml: "",
+    locationName: "Kassel",
+    cityWidget: { postcode: "34117", url: "https://js.icony.com/frame/?h=300&id=akademikersingles&pc=a7060c&z=34117&ds=&ctr=49&it=1" },
+  },
 ];

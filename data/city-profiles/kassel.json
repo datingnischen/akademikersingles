@@ -1,0 +1,2658 @@
+{
+  "path": "/partnersuche/kassel/",
+  "eyebrow": "Partnersuche für Akademiker · documenta-Stadt an der Fulda",
+  "lead": "Universität mit Kunsthochschule, Fraunhofer-Institut für Energiesystemtechnik und die documenta: In Kassel hat mehr als jede vierte erwerbstätige Person einen Hochschulabschluss, und mehr als jeder zweite Haushalt ist ein Einpersonenhaushalt. Eine Stadt, in der Wissenschaft, Kunst und Industrie zusammenkommen und Sie jemandem auf Augenhöhe begegnen.",
+  "heroAlt": "Aquarellzeichnung von Kassel mit dem Herkules im Bergpark Wilhelmshöhe",
+  "briefing": [
+    {
+      "value": "28 %",
+      "label": "der Erwerbstätigen mit Arbeitsort Kassel haben einen Hochschulabschluss – bundesweit rund 26 %",
+      "source": "zensus-arbeitsort"
+    },
+    {
+      "value": "2,3 %",
+      "label": "der Kasselerinnen und Kasseler ab 15 Jahren sind promoviert – bundesweit 1,7 %",
+      "source": "zensus-bildung"
+    },
+    {
+      "value": "53 %",
+      "label": "aller Kasseler Haushalte sind Einpersonenhaushalte",
+      "source": "zensus-haushalte"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "21.131",
+      "label": "Studierende an der Universität Kassel im Wintersemester 2025/26",
+      "source": "uni",
+      "note": "Einschließlich Kunsthochschule; 16 % kommen aus dem Ausland"
+    },
+    {
+      "value": "319",
+      "label": "Professuren an der Universität Kassel",
+      "source": "uni",
+      "note": "Stand 2025, davon 111 mit Professorinnen besetzt"
+    },
+    {
+      "value": "117.482",
+      "label": "sozialversicherungspflichtig Beschäftigte arbeiten in der Stadt – 67.896 davon pendeln ein",
+      "source": "ba-gemeinden",
+      "note": "Arbeitsort Stadt Kassel, Stand 30.06.2025"
+    },
+    {
+      "value": "2027",
+      "label": "kommt die documenta 16 nach Kassel – vom 12. Juni bis 19. September",
+      "source": "documenta"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Kassel liegt beim Anteil der Hochschulabsolventinnen und -absolventen spürbar über dem Bundesschnitt – getragen von einer Universität, die Technik, Gesellschaftswissenschaften und Kunst vereint.",
+      "metrics": [
+        {
+          "value": "25 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschulabschluss",
+          "source": "zensus-bildung",
+          "note": "Berechnet: 40.390 von 164.490 Personen; Bachelor, Master, Diplom oder Promotion",
+          "compare": {
+            "city": 24.6,
+            "germany": 20.2,
+            "unit": " %",
+            "max": 30
+          }
+        },
+        {
+          "value": "2,3 %",
+          "label": "sind promoviert – deutlich mehr als im Bundesschnitt",
+          "source": "zensus-bildung",
+          "note": "3.720 Personen ab 15 Jahren mit Promotion",
+          "compare": {
+            "city": 2.3,
+            "germany": 1.7,
+            "unit": " %",
+            "max": 3
+          }
+        },
+        {
+          "value": "21.131",
+          "label": "Studierende an der Universität Kassel",
+          "source": "uni",
+          "note": "Wintersemester 2025/26; 40 Bachelor- und 50 Masterstudiengänge, dazu zwei künstlerische Studiengänge der Kunsthochschule"
+        }
+      ],
+      "takeaway": "Ob Ingenieurwesen, Ökologie oder freie Kunst: Hier finden Sie Gesprächspartner, die neugierig bleiben und gern über den eigenen Fachbereich hinausdenken."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Als Oberzentrum Nordhessens zieht Kassel Hochqualifizierte aus der ganzen Region an: Fast die Hälfte der Erwerbstätigen kommt zum Arbeiten von außerhalb in die Stadt.",
+      "metrics": [
+        {
+          "value": "28 %",
+          "label": "der Erwerbstätigen mit Arbeitsort Kassel haben einen Hochschulabschluss",
+          "source": "zensus-arbeitsort",
+          "note": "Berechnet: 35.520 von 126.080 Erwerbstätigen (Bachelor, Master, Diplom, Promotion); Deutschland 9.667.830 von 37.671.260; schließt Beamtinnen, Beamte und Selbstständige ein",
+          "compare": {
+            "city": 28.2,
+            "germany": 25.7,
+            "unit": " %",
+            "max": 34
+          }
+        },
+        {
+          "value": "50 %",
+          "label": "der Erwerbstätigen mit Arbeitsort Kassel pendeln von außerhalb ein",
+          "source": "zensus-arbeitsort",
+          "note": "62.950 von 126.080 Erwerbstätigen wohnen nicht in Kassel"
+        },
+        {
+          "value": "3.406",
+          "label": "Beschäftigte an der Universität Kassel",
+          "source": "uni",
+          "note": "Stand 2025, ohne Auszubildende und studentische Hilfskräfte"
+        }
+      ],
+      "takeaway": "Wer hier sucht, trifft auf Menschen, die in Forschung, Energiewirtschaft, Industrie und Kultur Verantwortung tragen – und jemanden suchen, der diesen Alltag versteht."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "In Kassel leben deutlich mehr Menschen allein als im Bundesschnitt, und ihr Anteil ist seit dem letzten Zensus kräftig gestiegen.",
+      "metrics": [
+        {
+          "value": "53 %",
+          "label": "Einpersonenhaushalte",
+          "source": "zensus-haushalte",
+          "note": "54.835 von 103.752 Haushalten",
+          "compare": {
+            "city": 52.9,
+            "germany": 43.4,
+            "unit": " %",
+            "max": 62
+          }
+        },
+        {
+          "value": "+6,2",
+          "label": "Prozentpunkte mehr Einpersonenhaushalte als beim Zensus 2011",
+          "source": "zensus-haushalte",
+          "note": "2011: 46,7 % (46.464 von 99.523 Haushalten); 2022: 52,9 %"
+        }
+      ],
+      "takeaway": "Erst Studium und Karriere, dann die passende Partnerschaft: In Kassel sind Sie damit in bester Gesellschaft."
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Energiesystemtechnik",
+      "text": "Das Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik IEE hat seinen Campus in der Joseph-Beuys-Straße; die Region forscht zu Wind- und Solarenergie, Speichern, Netzen und Wasserstoff."
+    },
+    {
+      "name": "Mobilität & Antriebe",
+      "text": "Volkswagen entwickelt und fertigt in der Region Leistungselektronik; das Transformationsnetzwerk Region Kassel begleitet die Automobilindustrie beim Wandel."
+    },
+    {
+      "name": "Bahntechnik",
+      "text": "Im Rail Network Kassel vernetzen sich Unternehmen und Zulieferer der Schienenbranche."
+    },
+    {
+      "name": "Luftfahrt",
+      "text": "Das 2010 gegründete Competence Center Aerospace Kassel bündelt Luftfahrttechnik, Engineering und Flughafentechnik; Airbus fertigt in der Region Komponenten für Hubschrauber."
+    },
+    {
+      "name": "Medizinische Forschung",
+      "text": "Die Paracelsus-Elena-Klinik in Kassel-Harleshausen ist auf die Behandlung und Erforschung der Parkinson-Krankheit spezialisiert."
+    },
+    {
+      "name": "Kunst & Kultur",
+      "text": "Die documenta macht Kassel alle fünf Jahre zum Treffpunkt der internationalen Kunstwelt; die Kunsthochschule bildet Künstlerinnen und Künstler aus."
+    }
+  ],
+  "clusterSources": [
+    "iee",
+    "wfg-forschung",
+    "wfg-netzwerke",
+    "documenta"
+  ],
+  "places": [
+    {
+      "name": "Campus Holländischer Platz",
+      "kind": "work",
+      "district": "Nord (Holland) · An der Ahna",
+      "text": "Hauptcampus der Universität Kassel mit Hörsälen, Bibliothek und den technischen und gesellschaftswissenschaftlichen Fachbereichen.",
+      "lat": 51.3233,
+      "lon": 9.5065
+    },
+    {
+      "name": "Science Park Kassel",
+      "kind": "work",
+      "district": "Nord (Holland) · Universitätsplatz",
+      "text": "Gründerzentrum direkt an der Universität, in dem Wissenschaft und Praxis zusammenarbeiten.",
+      "lat": 51.3258,
+      "lon": 9.5054
+    },
+    {
+      "name": "Fraunhofer IEE",
+      "kind": "work",
+      "district": "Mitte · Joseph-Beuys-Straße",
+      "text": "Campus des Fraunhofer-Instituts für Energiewirtschaft und Energiesystemtechnik – Arbeitsort vieler Ingenieurinnen und Ingenieure der Energiewende.",
+      "lat": 51.32,
+      "lon": 9.4872
+    },
+    {
+      "name": "Kunsthochschule Kassel",
+      "kind": "work",
+      "district": "Südstadt · Menzelstraße",
+      "text": "Die Kunsthochschule der Universität liegt am Rand der Karlsaue.",
+      "lat": 51.3043,
+      "lon": 9.489
+    },
+    {
+      "name": "Paracelsus-Elena-Klinik",
+      "kind": "work",
+      "district": "Harleshausen · Klinikstraße",
+      "text": "Fachklinik für Parkinson mit eigener Forschung.",
+      "lat": 51.3306,
+      "lon": 9.4227
+    },
+    {
+      "name": "Friedrichsplatz und Fridericianum",
+      "kind": "date",
+      "district": "Mitte · Friedrichsplatz",
+      "text": "Das Fridericianum ist ein Hauptort der documenta; rundherum liegen Cafés für das erste Treffen.",
+      "lat": 51.3138,
+      "lon": 9.4974
+    },
+    {
+      "name": "Staatstheater Kassel",
+      "kind": "date",
+      "district": "Mitte · Friedrichsplatz",
+      "text": "Oper, Schauspiel und Tanz am Friedrichsplatz – ein Abend, über den man danach gern noch redet.",
+      "lat": 51.3128,
+      "lon": 9.4992
+    },
+    {
+      "name": "Orangerie in der Karlsaue",
+      "kind": "date",
+      "district": "Südstadt · Auedamm",
+      "text": "Barockbau am Anfang der Karlsaue, Kassels großem Park an der Fulda – ideal für einen Spaziergang zu zweit.",
+      "lat": 51.31,
+      "lon": 9.5016
+    },
+    {
+      "name": "Grimmwelt",
+      "kind": "date",
+      "district": "Mitte · Weinbergstraße",
+      "text": "Das Museum zu Leben und Werk der Brüder Grimm auf dem Weinberg, mit Blick über die Karlsaue.",
+      "lat": 51.3091,
+      "lon": 9.4894
+    },
+    {
+      "name": "Schloss Wilhelmshöhe",
+      "kind": "date",
+      "district": "Bad Wilhelmshöhe · Schlosspark",
+      "text": "Schloss mit Gemäldegalerie im Bergpark, der zum UNESCO-Welterbe gehört.",
+      "lat": 51.315,
+      "lon": 9.4163
+    },
+    {
+      "name": "Herkules im Bergpark",
+      "kind": "date",
+      "district": "Bad Wilhelmshöhe · Bergpark",
+      "text": "Kassels Wahrzeichen hoch über der Stadt – für das zweite Date, wenn man länger reden möchte.",
+      "lat": 51.3161,
+      "lon": 9.3936
+    }
+  ],
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Fulda",
+        "major": true
+      },
+      {
+        "name": "Ahna"
+      },
+      {
+        "name": "Drusel"
+      }
+    ],
+    "lakes": [
+      "Buga-See",
+      "Bugasee",
+      "Fontänenteich",
+      "Großes Bassin"
+    ],
+    "parks": [
+      "Staatspark Karlsaue",
+      "Karlsaue",
+      "Bergpark Wilhelmshöhe",
+      "Fuldaaue",
+      "Habichtswald"
+    ],
+    "boundary": "Kassel"
+  },
+  "map": {
+    "bounds": {
+      "west": 9.38,
+      "east": 9.545,
+      "south": 51.285,
+      "north": 51.345
+    },
+    "rivers": [
+      {
+        "name": "Fulda",
+        "major": true,
+        "points": [
+          [
+            51.28206,
+            9.49025
+          ],
+          [
+            51.28702,
+            9.49027
+          ],
+          [
+            51.29188,
+            9.4886
+          ],
+          [
+            51.29337,
+            9.48908
+          ],
+          [
+            51.29491,
+            9.49189
+          ],
+          [
+            51.2962,
+            9.49887
+          ],
+          [
+            51.29825,
+            9.50196
+          ],
+          [
+            51.30499,
+            9.50196
+          ],
+          [
+            51.31309,
+            9.50423
+          ],
+          [
+            51.3165,
+            9.50825
+          ],
+          [
+            51.31717,
+            9.51602
+          ],
+          [
+            51.3185,
+            9.52132
+          ],
+          [
+            51.31956,
+            9.5224
+          ],
+          [
+            51.32368,
+            9.5241
+          ],
+          [
+            51.32458,
+            9.52566
+          ],
+          [
+            51.32431,
+            9.5287
+          ],
+          [
+            51.32232,
+            9.53317
+          ],
+          [
+            51.32207,
+            9.53911
+          ],
+          [
+            51.32257,
+            9.54067
+          ],
+          [
+            51.32349,
+            9.54092
+          ],
+          [
+            51.32571,
+            9.53942
+          ],
+          [
+            51.32625,
+            9.53956
+          ],
+          [
+            51.32718,
+            9.54089
+          ],
+          [
+            51.32825,
+            9.54356
+          ],
+          [
+            51.32912,
+            9.54776
+          ],
+          [
+            51.32911,
+            9.54906
+          ],
+          [
+            51.32845,
+            9.55189
+          ],
+          [
+            51.32859,
+            9.55844
+          ],
+          [
+            51.32778,
+            9.56219
+          ],
+          [
+            51.32775,
+            9.56461
+          ],
+          [
+            51.32825,
+            9.56632
+          ],
+          [
+            51.33003,
+            9.56885
+          ],
+          [
+            51.33143,
+            9.56971
+          ],
+          [
+            51.33327,
+            9.5701
+          ],
+          [
+            51.33728,
+            9.56984
+          ],
+          [
+            51.33866,
+            9.56933
+          ],
+          [
+            51.34277,
+            9.56599
+          ],
+          [
+            51.34625,
+            9.56071
+          ],
+          [
+            51.34768,
+            9.55926
+          ],
+          [
+            51.35486,
+            9.55585
+          ],
+          [
+            51.35737,
+            9.5526
+          ],
+          [
+            51.35893,
+            9.54957
+          ],
+          [
+            51.36236,
+            9.53491
+          ],
+          [
+            51.36324,
+            9.53269
+          ],
+          [
+            51.36453,
+            9.53089
+          ],
+          [
+            51.36507,
+            9.53061
+          ],
+          [
+            51.36753,
+            9.5314
+          ],
+          [
+            51.36865,
+            9.53247
+          ],
+          [
+            51.36898,
+            9.53497
+          ],
+          [
+            51.36863,
+            9.53805
+          ],
+          [
+            51.36819,
+            9.53914
+          ],
+          [
+            51.36426,
+            9.54363
+          ]
+        ]
+      },
+      {
+        "name": "Ahna",
+        "major": false,
+        "points": [
+          [
+            51.34649,
+            9.48513
+          ],
+          [
+            51.34611,
+            9.48383
+          ],
+          [
+            51.34545,
+            9.48414
+          ],
+          [
+            51.34519,
+            9.48364
+          ],
+          [
+            51.34452,
+            9.48448
+          ],
+          [
+            51.34296,
+            9.4848
+          ],
+          [
+            51.34167,
+            9.48604
+          ],
+          [
+            51.33872,
+            9.49414
+          ],
+          [
+            51.33611,
+            9.49566
+          ],
+          [
+            51.32918,
+            9.50222
+          ],
+          [
+            51.32868,
+            9.50285
+          ],
+          [
+            51.3282,
+            9.5052
+          ],
+          [
+            51.32513,
+            9.50701
+          ],
+          [
+            51.32349,
+            9.50705
+          ],
+          [
+            51.32257,
+            9.50681
+          ],
+          [
+            51.32227,
+            9.50628
+          ],
+          [
+            51.32084,
+            9.50614
+          ],
+          [
+            51.31929,
+            9.50705
+          ],
+          [
+            51.31845,
+            9.50985
+          ],
+          [
+            51.31804,
+            9.51442
+          ],
+          [
+            51.31717,
+            9.51602
+          ]
+        ]
+      },
+      {
+        "name": "Drusel",
+        "major": false,
+        "points": [
+          [
+            51.30914,
+            9.37941
+          ],
+          [
+            51.30978,
+            9.38078
+          ],
+          [
+            51.3094,
+            9.38492
+          ],
+          [
+            51.30952,
+            9.38896
+          ],
+          [
+            51.30681,
+            9.39834
+          ],
+          [
+            51.3062,
+            9.39895
+          ],
+          [
+            51.30533,
+            9.40247
+          ],
+          [
+            51.30383,
+            9.40401
+          ],
+          [
+            51.30362,
+            9.4077
+          ],
+          [
+            51.30227,
+            9.41094
+          ],
+          [
+            51.3026,
+            9.4113
+          ],
+          [
+            51.30287,
+            9.41301
+          ],
+          [
+            51.30453,
+            9.41514
+          ],
+          [
+            51.30654,
+            9.4163
+          ],
+          [
+            51.30688,
+            9.41763
+          ],
+          [
+            51.30816,
+            9.41988
+          ],
+          [
+            51.30833,
+            9.42126
+          ],
+          [
+            51.30926,
+            9.4234
+          ],
+          [
+            51.30953,
+            9.42594
+          ],
+          [
+            51.31112,
+            9.43021
+          ],
+          [
+            51.31256,
+            9.43193
+          ],
+          [
+            51.31304,
+            9.43349
+          ],
+          [
+            51.31484,
+            9.43521
+          ],
+          [
+            51.31526,
+            9.43695
+          ],
+          [
+            51.31598,
+            9.43758
+          ],
+          [
+            51.31587,
+            9.43998
+          ],
+          [
+            51.3162,
+            9.44073
+          ],
+          [
+            51.31602,
+            9.44159
+          ],
+          [
+            51.31665,
+            9.44253
+          ],
+          [
+            51.31634,
+            9.44272
+          ],
+          [
+            51.31625,
+            9.4438
+          ],
+          [
+            51.31661,
+            9.44456
+          ],
+          [
+            51.31675,
+            9.44639
+          ],
+          [
+            51.3163,
+            9.44865
+          ],
+          [
+            51.31504,
+            9.44923
+          ],
+          [
+            51.31448,
+            9.45009
+          ],
+          [
+            51.31437,
+            9.4569
+          ],
+          [
+            51.31354,
+            9.46477
+          ],
+          [
+            51.31166,
+            9.46663
+          ],
+          [
+            51.31074,
+            9.46814
+          ],
+          [
+            51.30957,
+            9.47373
+          ],
+          [
+            51.30905,
+            9.47934
+          ],
+          [
+            51.30725,
+            9.48743
+          ],
+          [
+            51.30699,
+            9.49031
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "water",
+        "name": "Bugasee",
+        "points": [
+          [
+            51.29838,
+            9.503
+          ],
+          [
+            51.30047,
+            9.50335
+          ],
+          [
+            51.30071,
+            9.50351
+          ],
+          [
+            51.3008,
+            9.50397
+          ],
+          [
+            51.30144,
+            9.50346
+          ],
+          [
+            51.30152,
+            9.50501
+          ],
+          [
+            51.29999,
+            9.50569
+          ],
+          [
+            51.29887,
+            9.50552
+          ],
+          [
+            51.29751,
+            9.50615
+          ],
+          [
+            51.29657,
+            9.50577
+          ],
+          [
+            51.29579,
+            9.50731
+          ],
+          [
+            51.29543,
+            9.50745
+          ],
+          [
+            51.29503,
+            9.50714
+          ],
+          [
+            51.29388,
+            9.50488
+          ],
+          [
+            51.29296,
+            9.50452
+          ],
+          [
+            51.29252,
+            9.50389
+          ],
+          [
+            51.2923,
+            9.50308
+          ],
+          [
+            51.29143,
+            9.50255
+          ],
+          [
+            51.29139,
+            9.50165
+          ],
+          [
+            51.29162,
+            9.50042
+          ],
+          [
+            51.29107,
+            9.49898
+          ],
+          [
+            51.29153,
+            9.49813
+          ],
+          [
+            51.29136,
+            9.49764
+          ],
+          [
+            51.2907,
+            9.49717
+          ],
+          [
+            51.29061,
+            9.49679
+          ],
+          [
+            51.29209,
+            9.49321
+          ],
+          [
+            51.29206,
+            9.49241
+          ],
+          [
+            51.29149,
+            9.49172
+          ],
+          [
+            51.29088,
+            9.49298
+          ],
+          [
+            51.29152,
+            9.49081
+          ],
+          [
+            51.29253,
+            9.49017
+          ],
+          [
+            51.29366,
+            9.49089
+          ],
+          [
+            51.29269,
+            9.49339
+          ],
+          [
+            51.29244,
+            9.49355
+          ],
+          [
+            51.29223,
+            9.4933
+          ],
+          [
+            51.29175,
+            9.49468
+          ],
+          [
+            51.29216,
+            9.49577
+          ],
+          [
+            51.29275,
+            9.49637
+          ],
+          [
+            51.29265,
+            9.49803
+          ],
+          [
+            51.29375,
+            9.49787
+          ],
+          [
+            51.29445,
+            9.4984
+          ],
+          [
+            51.29511,
+            9.49971
+          ],
+          [
+            51.29459,
+            9.49908
+          ],
+          [
+            51.29431,
+            9.49923
+          ],
+          [
+            51.29348,
+            9.49865
+          ],
+          [
+            51.29271,
+            9.49863
+          ],
+          [
+            51.29236,
+            9.49908
+          ],
+          [
+            51.29228,
+            9.50044
+          ],
+          [
+            51.29259,
+            9.50148
+          ],
+          [
+            51.29344,
+            9.50231
+          ],
+          [
+            51.29526,
+            9.5021
+          ],
+          [
+            51.29626,
+            9.50276
+          ],
+          [
+            51.29674,
+            9.50258
+          ],
+          [
+            51.29838,
+            9.503
+          ]
+        ]
+      },
+      {
+        "kind": "water",
+        "name": "Fontänenteich",
+        "points": [
+          [
+            51.31506,
+            9.41253
+          ],
+          [
+            51.31444,
+            9.41193
+          ],
+          [
+            51.31451,
+            9.41119
+          ],
+          [
+            51.31482,
+            9.41167
+          ],
+          [
+            51.31524,
+            9.41159
+          ],
+          [
+            51.31562,
+            9.41218
+          ],
+          [
+            51.31506,
+            9.41253
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Karlsaue",
+        "points": [
+          [
+            51.30335,
+            9.48619
+          ],
+          [
+            51.30228,
+            9.48497
+          ],
+          [
+            51.30166,
+            9.48493
+          ],
+          [
+            51.30013,
+            9.48563
+          ],
+          [
+            51.29945,
+            9.48546
+          ],
+          [
+            51.29861,
+            9.48686
+          ],
+          [
+            51.29768,
+            9.48669
+          ],
+          [
+            51.29682,
+            9.48706
+          ],
+          [
+            51.29625,
+            9.48552
+          ],
+          [
+            51.29515,
+            9.48573
+          ],
+          [
+            51.29391,
+            9.48823
+          ],
+          [
+            51.29554,
+            9.49131
+          ],
+          [
+            51.29645,
+            9.49509
+          ],
+          [
+            51.29787,
+            9.49856
+          ],
+          [
+            51.29863,
+            9.49953
+          ],
+          [
+            51.30262,
+            9.49942
+          ],
+          [
+            51.30588,
+            9.50131
+          ],
+          [
+            51.30989,
+            9.50248
+          ],
+          [
+            51.31074,
+            9.5
+          ],
+          [
+            51.31056,
+            9.49926
+          ],
+          [
+            51.31142,
+            9.49797
+          ],
+          [
+            51.31171,
+            9.49841
+          ],
+          [
+            51.31188,
+            9.49803
+          ],
+          [
+            51.30863,
+            9.49259
+          ],
+          [
+            51.30581,
+            9.49246
+          ],
+          [
+            51.30509,
+            9.49149
+          ],
+          [
+            51.30311,
+            9.48804
+          ],
+          [
+            51.30315,
+            9.48662
+          ],
+          [
+            51.30335,
+            9.48619
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Bergpark Wilhelmshöhe",
+        "points": [
+          [
+            51.31755,
+            9.42264
+          ],
+          [
+            51.31645,
+            9.42345
+          ],
+          [
+            51.31538,
+            9.42382
+          ],
+          [
+            51.31538,
+            9.427
+          ],
+          [
+            51.31489,
+            9.42827
+          ],
+          [
+            51.31459,
+            9.43087
+          ],
+          [
+            51.31426,
+            9.4321
+          ],
+          [
+            51.31402,
+            9.43208
+          ],
+          [
+            51.31415,
+            9.42761
+          ],
+          [
+            51.31395,
+            9.42555
+          ],
+          [
+            51.31419,
+            9.42524
+          ],
+          [
+            51.31413,
+            9.42439
+          ],
+          [
+            51.31387,
+            9.42393
+          ],
+          [
+            51.31299,
+            9.42427
+          ],
+          [
+            51.31236,
+            9.42204
+          ],
+          [
+            51.31211,
+            9.42181
+          ],
+          [
+            51.31172,
+            9.42211
+          ],
+          [
+            51.31202,
+            9.42057
+          ],
+          [
+            51.31235,
+            9.41983
+          ],
+          [
+            51.31216,
+            9.41888
+          ],
+          [
+            51.31203,
+            9.41896
+          ],
+          [
+            51.31162,
+            9.41757
+          ],
+          [
+            51.31117,
+            9.41703
+          ],
+          [
+            51.31096,
+            9.41723
+          ],
+          [
+            51.31032,
+            9.41563
+          ],
+          [
+            51.31053,
+            9.4154
+          ],
+          [
+            51.31031,
+            9.41416
+          ],
+          [
+            51.30897,
+            9.41374
+          ],
+          [
+            51.30829,
+            9.41209
+          ],
+          [
+            51.30652,
+            9.41102
+          ],
+          [
+            51.3058,
+            9.4097
+          ],
+          [
+            51.30567,
+            9.40893
+          ],
+          [
+            51.30635,
+            9.4065
+          ],
+          [
+            51.30628,
+            9.40533
+          ],
+          [
+            51.30789,
+            9.40387
+          ],
+          [
+            51.31074,
+            9.40015
+          ],
+          [
+            51.31279,
+            9.3989
+          ],
+          [
+            51.31491,
+            9.39849
+          ],
+          [
+            51.31558,
+            9.39709
+          ],
+          [
+            51.31569,
+            9.39506
+          ],
+          [
+            51.31489,
+            9.39283
+          ],
+          [
+            51.31557,
+            9.39139
+          ],
+          [
+            51.31632,
+            9.3912
+          ],
+          [
+            51.31751,
+            9.39166
+          ],
+          [
+            51.31775,
+            9.39266
+          ],
+          [
+            51.31774,
+            9.39331
+          ],
+          [
+            51.31629,
+            9.39517
+          ],
+          [
+            51.31624,
+            9.3973
+          ],
+          [
+            51.31744,
+            9.3989
+          ],
+          [
+            51.31955,
+            9.40065
+          ],
+          [
+            51.31955,
+            9.40109
+          ],
+          [
+            51.32021,
+            9.40191
+          ],
+          [
+            51.32169,
+            9.40498
+          ],
+          [
+            51.32216,
+            9.40666
+          ],
+          [
+            51.32245,
+            9.41066
+          ],
+          [
+            51.32207,
+            9.41543
+          ],
+          [
+            51.32306,
+            9.41926
+          ],
+          [
+            51.3232,
+            9.42221
+          ],
+          [
+            51.32087,
+            9.42259
+          ],
+          [
+            51.32071,
+            9.42089
+          ],
+          [
+            51.3173,
+            9.42169
+          ],
+          [
+            51.31755,
+            9.42264
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Fuldaaue",
+        "points": [
+          [
+            51.2991,
+            9.50271
+          ],
+          [
+            51.30105,
+            9.50272
+          ],
+          [
+            51.30214,
+            9.50312
+          ],
+          [
+            51.30197,
+            9.50519
+          ],
+          [
+            51.30172,
+            9.5056
+          ],
+          [
+            51.30066,
+            9.50588
+          ],
+          [
+            51.29986,
+            9.50653
+          ],
+          [
+            51.29903,
+            9.50606
+          ],
+          [
+            51.29802,
+            9.50651
+          ],
+          [
+            51.29701,
+            9.50243
+          ],
+          [
+            51.29767,
+            9.50231
+          ],
+          [
+            51.2991,
+            9.50271
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Fulda",
+        "lat": 51.3045,
+        "lon": 9.511
+      },
+      {
+        "text": "Mitte",
+        "lat": 51.3165,
+        "lon": 9.493,
+        "district": true
+      },
+      {
+        "text": "Nord (Holland)",
+        "lat": 51.33,
+        "lon": 9.5,
+        "district": true
+      },
+      {
+        "text": "Südstadt",
+        "lat": 51.299,
+        "lon": 9.484,
+        "district": true
+      },
+      {
+        "text": "Wehlheiden",
+        "lat": 51.306,
+        "lon": 9.462,
+        "district": true
+      },
+      {
+        "text": "Bad Wilhelmshöhe",
+        "lat": 51.308,
+        "lon": 9.433,
+        "district": true
+      },
+      {
+        "text": "Harleshausen",
+        "lat": 51.338,
+        "lon": 9.433,
+        "district": true
+      },
+      {
+        "text": "Bettenhausen",
+        "lat": 51.315,
+        "lon": 9.533,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          51.34509,
+          9.47011
+        ],
+        [
+          51.34248,
+          9.4683
+        ],
+        [
+          51.34246,
+          9.46609
+        ],
+        [
+          51.34489,
+          9.46653
+        ],
+        [
+          51.34507,
+          9.46273
+        ],
+        [
+          51.34659,
+          9.46241
+        ],
+        [
+          51.34663,
+          9.46094
+        ],
+        [
+          51.34365,
+          9.45999
+        ],
+        [
+          51.3472,
+          9.44844
+        ],
+        [
+          51.34679,
+          9.44329
+        ],
+        [
+          51.34757,
+          9.44311
+        ],
+        [
+          51.34774,
+          9.4397
+        ],
+        [
+          51.3488,
+          9.44114
+        ],
+        [
+          51.34985,
+          9.43882
+        ],
+        [
+          51.35076,
+          9.43419
+        ],
+        [
+          51.35066,
+          9.43131
+        ],
+        [
+          51.35352,
+          9.4248
+        ],
+        [
+          51.35417,
+          9.42217
+        ],
+        [
+          51.3525,
+          9.41363
+        ],
+        [
+          51.35191,
+          9.4082
+        ],
+        [
+          51.35223,
+          9.40447
+        ],
+        [
+          51.35084,
+          9.4002
+        ],
+        [
+          51.34975,
+          9.39912
+        ],
+        [
+          51.35114,
+          9.39735
+        ],
+        [
+          51.35278,
+          9.39752
+        ],
+        [
+          51.35376,
+          9.39678
+        ],
+        [
+          51.3528,
+          9.3931
+        ],
+        [
+          51.35196,
+          9.39229
+        ],
+        [
+          51.35182,
+          9.39075
+        ],
+        [
+          51.35086,
+          9.38971
+        ],
+        [
+          51.35175,
+          9.38799
+        ],
+        [
+          51.35049,
+          9.38663
+        ],
+        [
+          51.3507,
+          9.38393
+        ],
+        [
+          51.34872,
+          9.38184
+        ],
+        [
+          51.34704,
+          9.38098
+        ],
+        [
+          51.34465,
+          9.37829
+        ],
+        [
+          51.346,
+          9.37759
+        ],
+        [
+          51.34858,
+          9.37819
+        ],
+        [
+          51.34982,
+          9.37704
+        ],
+        [
+          51.35052,
+          9.37425
+        ],
+        [
+          51.34998,
+          9.37095
+        ],
+        [
+          51.34865,
+          9.36906
+        ],
+        [
+          51.34848,
+          9.36965
+        ],
+        [
+          51.34893,
+          9.37049
+        ],
+        [
+          51.34867,
+          9.37103
+        ],
+        [
+          51.34765,
+          9.37065
+        ],
+        [
+          51.34546,
+          9.37226
+        ],
+        [
+          51.34191,
+          9.37232
+        ],
+        [
+          51.34146,
+          9.37379
+        ],
+        [
+          51.33971,
+          9.3725
+        ],
+        [
+          51.3382,
+          9.37247
+        ],
+        [
+          51.33746,
+          9.37389
+        ],
+        [
+          51.33448,
+          9.37459
+        ],
+        [
+          51.33274,
+          9.37721
+        ],
+        [
+          51.33161,
+          9.37791
+        ],
+        [
+          51.33165,
+          9.3786
+        ],
+        [
+          51.33111,
+          9.37931
+        ],
+        [
+          51.32958,
+          9.37979
+        ],
+        [
+          51.32976,
+          9.38072
+        ],
+        [
+          51.3292,
+          9.38073
+        ],
+        [
+          51.32922,
+          9.38031
+        ],
+        [
+          51.32856,
+          9.38069
+        ],
+        [
+          51.32827,
+          9.38015
+        ],
+        [
+          51.32811,
+          9.38065
+        ],
+        [
+          51.32731,
+          9.3803
+        ],
+        [
+          51.32709,
+          9.38108
+        ],
+        [
+          51.32631,
+          9.38033
+        ],
+        [
+          51.32474,
+          9.38035
+        ],
+        [
+          51.3233,
+          9.37891
+        ],
+        [
+          51.31973,
+          9.38198
+        ],
+        [
+          51.31809,
+          9.3796
+        ],
+        [
+          51.31825,
+          9.3778
+        ],
+        [
+          51.31748,
+          9.37755
+        ],
+        [
+          51.31685,
+          9.36815
+        ],
+        [
+          51.31519,
+          9.36124
+        ],
+        [
+          51.31614,
+          9.35566
+        ],
+        [
+          51.313,
+          9.35568
+        ],
+        [
+          51.30952,
+          9.35744
+        ],
+        [
+          51.30713,
+          9.35102
+        ],
+        [
+          51.30609,
+          9.35494
+        ],
+        [
+          51.30608,
+          9.35773
+        ],
+        [
+          51.30366,
+          9.3574
+        ],
+        [
+          51.30243,
+          9.35837
+        ],
+        [
+          51.2994,
+          9.36286
+        ],
+        [
+          51.29722,
+          9.3628
+        ],
+        [
+          51.29515,
+          9.36372
+        ],
+        [
+          51.29257,
+          9.3624
+        ],
+        [
+          51.29325,
+          9.36968
+        ],
+        [
+          51.29143,
+          9.37005
+        ],
+        [
+          51.28761,
+          9.36772
+        ],
+        [
+          51.28602,
+          9.36757
+        ],
+        [
+          51.28622,
+          9.36822
+        ],
+        [
+          51.2813,
+          9.3761
+        ],
+        [
+          51.28207,
+          9.37654
+        ],
+        [
+          51.28334,
+          9.37957
+        ],
+        [
+          51.28556,
+          9.38223
+        ],
+        [
+          51.28554,
+          9.38865
+        ],
+        [
+          51.28518,
+          9.38899
+        ],
+        [
+          51.28402,
+          9.38771
+        ],
+        [
+          51.28229,
+          9.38764
+        ],
+        [
+          51.28207,
+          9.38928
+        ],
+        [
+          51.2814,
+          9.38974
+        ],
+        [
+          51.2813,
+          9.39064
+        ],
+        [
+          51.28161,
+          9.39705
+        ],
+        [
+          51.2803,
+          9.3984
+        ],
+        [
+          51.27943,
+          9.39801
+        ],
+        [
+          51.2803,
+          9.40056
+        ],
+        [
+          51.27953,
+          9.40475
+        ],
+        [
+          51.28008,
+          9.40549
+        ],
+        [
+          51.27819,
+          9.4044
+        ],
+        [
+          51.27541,
+          9.41163
+        ],
+        [
+          51.27288,
+          9.41583
+        ],
+        [
+          51.27217,
+          9.41883
+        ],
+        [
+          51.27115,
+          9.41863
+        ],
+        [
+          51.27073,
+          9.41913
+        ],
+        [
+          51.26881,
+          9.42493
+        ],
+        [
+          51.26742,
+          9.43405
+        ],
+        [
+          51.26717,
+          9.44064
+        ],
+        [
+          51.26564,
+          9.44816
+        ],
+        [
+          51.26613,
+          9.44967
+        ],
+        [
+          51.26588,
+          9.45214
+        ],
+        [
+          51.26357,
+          9.45473
+        ],
+        [
+          51.26215,
+          9.4601
+        ],
+        [
+          51.26136,
+          9.4754
+        ],
+        [
+          51.26038,
+          9.48271
+        ],
+        [
+          51.26129,
+          9.48324
+        ],
+        [
+          51.2614,
+          9.48261
+        ],
+        [
+          51.26343,
+          9.48285
+        ],
+        [
+          51.26576,
+          9.48601
+        ],
+        [
+          51.26627,
+          9.48548
+        ],
+        [
+          51.26962,
+          9.48683
+        ],
+        [
+          51.26981,
+          9.49005
+        ],
+        [
+          51.2704,
+          9.48994
+        ],
+        [
+          51.27046,
+          9.49082
+        ],
+        [
+          51.27331,
+          9.49031
+        ],
+        [
+          51.2777,
+          9.491
+        ],
+        [
+          51.28411,
+          9.49019
+        ],
+        [
+          51.28331,
+          9.49676
+        ],
+        [
+          51.27866,
+          9.49513
+        ],
+        [
+          51.27582,
+          9.49626
+        ],
+        [
+          51.27586,
+          9.50077
+        ],
+        [
+          51.27449,
+          9.5072
+        ],
+        [
+          51.27471,
+          9.508
+        ],
+        [
+          51.27444,
+          9.50811
+        ],
+        [
+          51.27474,
+          9.50827
+        ],
+        [
+          51.27448,
+          9.51337
+        ],
+        [
+          51.27275,
+          9.51343
+        ],
+        [
+          51.27256,
+          9.52054
+        ],
+        [
+          51.27195,
+          9.52148
+        ],
+        [
+          51.2778,
+          9.53154
+        ],
+        [
+          51.2779,
+          9.5282
+        ],
+        [
+          51.28105,
+          9.52505
+        ],
+        [
+          51.28378,
+          9.52057
+        ],
+        [
+          51.28539,
+          9.52476
+        ],
+        [
+          51.286,
+          9.52781
+        ],
+        [
+          51.28704,
+          9.53002
+        ],
+        [
+          51.28719,
+          9.53224
+        ],
+        [
+          51.2885,
+          9.5351
+        ],
+        [
+          51.28818,
+          9.53782
+        ],
+        [
+          51.28634,
+          9.54029
+        ],
+        [
+          51.28571,
+          9.5405
+        ],
+        [
+          51.28475,
+          9.54357
+        ],
+        [
+          51.28925,
+          9.55209
+        ],
+        [
+          51.29306,
+          9.55821
+        ],
+        [
+          51.29291,
+          9.55853
+        ],
+        [
+          51.29452,
+          9.56039
+        ],
+        [
+          51.29862,
+          9.56229
+        ],
+        [
+          51.30852,
+          9.55927
+        ],
+        [
+          51.30858,
+          9.56167
+        ],
+        [
+          51.30954,
+          9.56147
+        ],
+        [
+          51.31032,
+          9.5603
+        ],
+        [
+          51.31141,
+          9.56058
+        ],
+        [
+          51.31138,
+          9.55988
+        ],
+        [
+          51.31076,
+          9.55964
+        ],
+        [
+          51.31179,
+          9.55665
+        ],
+        [
+          51.31086,
+          9.5564
+        ],
+        [
+          51.31115,
+          9.55185
+        ],
+        [
+          51.31206,
+          9.54701
+        ],
+        [
+          51.31141,
+          9.54657
+        ],
+        [
+          51.31444,
+          9.53899
+        ],
+        [
+          51.31423,
+          9.53851
+        ],
+        [
+          51.31536,
+          9.53719
+        ],
+        [
+          51.31476,
+          9.5355
+        ],
+        [
+          51.31658,
+          9.53453
+        ],
+        [
+          51.31591,
+          9.53226
+        ],
+        [
+          51.31769,
+          9.53211
+        ],
+        [
+          51.31812,
+          9.53065
+        ],
+        [
+          51.31917,
+          9.53193
+        ],
+        [
+          51.31949,
+          9.53379
+        ],
+        [
+          51.32079,
+          9.53637
+        ],
+        [
+          51.32196,
+          9.53731
+        ],
+        [
+          51.32196,
+          9.53897
+        ],
+        [
+          51.32256,
+          9.54057
+        ],
+        [
+          51.32366,
+          9.54085
+        ],
+        [
+          51.32537,
+          9.53954
+        ],
+        [
+          51.32643,
+          9.53962
+        ],
+        [
+          51.32828,
+          9.54387
+        ],
+        [
+          51.32908,
+          9.54865
+        ],
+        [
+          51.32845,
+          9.55131
+        ],
+        [
+          51.32855,
+          9.55823
+        ],
+        [
+          51.32773,
+          9.56362
+        ],
+        [
+          51.32859,
+          9.567
+        ],
+        [
+          51.33012,
+          9.56895
+        ],
+        [
+          51.33371,
+          9.57007
+        ],
+        [
+          51.33893,
+          9.56931
+        ],
+        [
+          51.34244,
+          9.56592
+        ],
+        [
+          51.34745,
+          9.55921
+        ],
+        [
+          51.35182,
+          9.55726
+        ],
+        [
+          51.35294,
+          9.5512
+        ],
+        [
+          51.35276,
+          9.54962
+        ],
+        [
+          51.35052,
+          9.54677
+        ],
+        [
+          51.34989,
+          9.54682
+        ],
+        [
+          51.34926,
+          9.54576
+        ],
+        [
+          51.34916,
+          9.54443
+        ],
+        [
+          51.33959,
+          9.53975
+        ],
+        [
+          51.33781,
+          9.53817
+        ],
+        [
+          51.33878,
+          9.53513
+        ],
+        [
+          51.33827,
+          9.53014
+        ],
+        [
+          51.34081,
+          9.52924
+        ],
+        [
+          51.34017,
+          9.52476
+        ],
+        [
+          51.34047,
+          9.52215
+        ],
+        [
+          51.34147,
+          9.52169
+        ],
+        [
+          51.34178,
+          9.51915
+        ],
+        [
+          51.34102,
+          9.51846
+        ],
+        [
+          51.34254,
+          9.51096
+        ],
+        [
+          51.34398,
+          9.51053
+        ],
+        [
+          51.34279,
+          9.50392
+        ],
+        [
+          51.34366,
+          9.50448
+        ],
+        [
+          51.34719,
+          9.50437
+        ],
+        [
+          51.34687,
+          9.50303
+        ],
+        [
+          51.35142,
+          9.4996
+        ],
+        [
+          51.35191,
+          9.49669
+        ],
+        [
+          51.35252,
+          9.49694
+        ],
+        [
+          51.35264,
+          9.49615
+        ],
+        [
+          51.35099,
+          9.493
+        ],
+        [
+          51.34873,
+          9.49059
+        ],
+        [
+          51.34838,
+          9.48878
+        ],
+        [
+          51.34734,
+          9.48778
+        ],
+        [
+          51.34635,
+          9.48557
+        ],
+        [
+          51.34576,
+          9.47893
+        ],
+        [
+          51.34591,
+          9.47576
+        ],
+        [
+          51.34509,
+          9.47011
+        ]
+      ],
+      [
+        [
+          51.3592,
+          9.54858
+        ],
+        [
+          51.3588,
+          9.54856
+        ],
+        [
+          51.35953,
+          9.54571
+        ],
+        [
+          51.35853,
+          9.54558
+        ],
+        [
+          51.35913,
+          9.5431
+        ],
+        [
+          51.35888,
+          9.54532
+        ],
+        [
+          51.35954,
+          9.54536
+        ],
+        [
+          51.36074,
+          9.54064
+        ],
+        [
+          51.36061,
+          9.53749
+        ],
+        [
+          51.3627,
+          9.53193
+        ],
+        [
+          51.36482,
+          9.53031
+        ],
+        [
+          51.36882,
+          9.53186
+        ],
+        [
+          51.3694,
+          9.53389
+        ],
+        [
+          51.3688,
+          9.53938
+        ],
+        [
+          51.36787,
+          9.54082
+        ],
+        [
+          51.36441,
+          9.5435
+        ],
+        [
+          51.36227,
+          9.55083
+        ],
+        [
+          51.3592,
+          9.54858
+        ]
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Kassel?",
+      "answer": "Laut Zensus 2022 haben rund 40.390 Kasselerinnen und Kasseler ab 15 Jahren einen Hochschulabschluss, das sind 25 Prozent (bundesweit 20 Prozent). 2,3 Prozent sind promoviert. Unter den Erwerbstätigen mit Arbeitsort Kassel hat mehr als jede vierte Person studiert (28 Prozent, bundesweit rund 26 Prozent)."
+    },
+    {
+      "question": "Gibt es in Kassel viele Singles?",
+      "answer": "In 53 Prozent aller Kasseler Haushalte lebt nur eine Person (Zensus 2022, bundesweit 43 Prozent); 2011 waren es noch 47 Prozent. Alleinlebend heißt nicht automatisch Single – die Zahl zeigt aber, wie verbreitet das Leben ohne Partner im selben Haushalt ist."
+    },
+    {
+      "question": "Wo lernen Akademiker in Kassel Singles kennen?",
+      "answer": "Rund um den Campus Holländischer Platz, bei Ausstellungen im Fridericianum und während der documenta, im Staatstheater, in der Grimmwelt oder bei einem Spaziergang durch die Karlsaue und den Bergpark Wilhelmshöhe. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles.de: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "sources": [
+    {
+      "id": "zensus-arbeitsort",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-2123: Erwerbstätige nach Arbeitsort – Arbeitsort in Hauptwohnsitzgemeinde und Einpendelnde – höchster beruflicher Abschluss (ausführlich)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-2123"
+    },
+    {
+      "id": "zensus-bildung",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 2000S-1004: Personen ab 15 Jahren nach höchstem beruflichem Abschluss (ausführlich)",
+      "stand": "Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/2000S/table/2000S-1004"
+    },
+    {
+      "id": "zensus-haushalte",
+      "publisher": "Statistische Ämter des Bundes und der Länder",
+      "title": "Zensusdatenbank, Tabelle 5000H-1002: Haushalte nach Größe des privaten Haushalts",
+      "stand": "Zensus 2011 (09.05.2011) und Zensus 2022 (15.05.2022)",
+      "url": "https://ergebnisse.zensus2022.de/datenbank/online/statistic/5000H/table/5000H-1002"
+    },
+    {
+      "id": "uni",
+      "publisher": "Universität Kassel",
+      "title": "Zahlen und Fakten",
+      "stand": "Wintersemester 2025/26, Personal 2025",
+      "url": "https://www.uni-kassel.de/uni/universitaet/unser-profil/zahlen-und-fakten"
+    },
+    {
+      "id": "ba-gemeinden",
+      "publisher": "Bundesagentur für Arbeit, Statistik",
+      "title": "Gemeindedaten der sozialversicherungspflichtig Beschäftigten nach Wohn- und Arbeitsort (Kreise und Gemeinden)",
+      "stand": "30.06.2025",
+      "url": "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202506/iiia6/beschaeftigung-sozbe-gemband/gemband-dlk-0-202506-xlsx.xlsx?__blob=publicationFile&v=1"
+    },
+    {
+      "id": "documenta",
+      "publisher": "documenta und Museum Fridericianum gGmbH",
+      "title": "documenta 16 findet vom 12. Juni bis zum 19. September 2027 statt",
+      "stand": "2026",
+      "url": "https://documenta.de/en/news/documenta-16-findet-vom-12-juni-bis-zum-19-september-2027-statt"
+    },
+    {
+      "id": "iee",
+      "publisher": "Fraunhofer IEE",
+      "title": "Standorte des Fraunhofer IEE",
+      "stand": "2026",
+      "url": "https://www.iee.fraunhofer.de/en/profile/locations.html"
+    },
+    {
+      "id": "wfg-forschung",
+      "publisher": "Wirtschaftsförderung Region Kassel",
+      "title": "Research and Science in the Kassel Region",
+      "stand": "2026",
+      "url": "https://wfg-kassel.de/en/?p=386"
+    },
+    {
+      "id": "wfg-netzwerke",
+      "publisher": "Wirtschaftsförderung Region Kassel",
+      "title": "Our networks in the Kassel region",
+      "stand": "2026",
+      "url": "https://wfg-kassel.de/en/?p=102"
+    }
+  ]
+}

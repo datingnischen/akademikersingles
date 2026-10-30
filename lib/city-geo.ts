@@ -10,6 +10,7 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "/partnersuche/hamburg/": [53.5511, 9.9937],
   "/partnersuche/heidelberg/": [49.3988, 8.6724],
   "/partnersuche/karlsruhe/": [49.0069, 8.4037],
+  "/partnersuche/kassel/": [51.3127, 9.4797],
   "/partnersuche/koeln/": [50.9375, 6.9603],
   "/partnersuche/muenchen/": [48.1351, 11.5820],
   "/partnersuche/muenster/": [51.9607, 7.6261],

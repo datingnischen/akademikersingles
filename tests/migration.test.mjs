@@ -215,8 +215,13 @@ test("Stadtdossiers: jede Stadtseite hat ein Profil, jede Kennzahl eine verlinkt
   const profiles = await Promise.all(files.map(async file => JSON.parse(await readFile(new URL(file, dir), "utf8"))));
   const byPath = new Map(profiles.map(profile => [profile.path, profile]));
   for (const city of pages.filter(page => page.family === "location")) assert.ok(byPath.has(city.path), `${city.path} ohne Stadtdossier`);
+  // Eigene Stadtseiten ohne ICONY-Vorlage (z. B. Kassel) stehen in lib/authored.ts statt im Import.
+  const authored = await read("lib/authored.ts");
+  const ownCities = new Set([...authored.matchAll(/path: "(\/partnersuche\/[a-z-]+\/)"/g)].map(match => match[1]));
+  assert.ok(ownCities.has("/partnersuche/kassel/"), "Kassel fehlt in lib/authored.ts");
+  for (const path of ownCities) assert.ok(byPath.has(path) && !paths.has(path), `${path}: eigene Stadtseite braucht ein Dossier und gehört nicht in den Import`);
   for (const profile of profiles) {
-    assert.ok(paths.has(profile.path), `${profile.path} ist keine Stadtseite`);
+    assert.ok(paths.has(profile.path) || ownCities.has(profile.path), `${profile.path} ist keine Stadtseite`);
     const ids = new Set(profile.sources.map(source => source.id));
     for (const source of profile.sources) assert.match(source.url, /^https:\/\//, `${profile.path} ${source.id}`);
     const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
