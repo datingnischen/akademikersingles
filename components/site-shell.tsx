@@ -15,11 +15,10 @@ const NAV = [
   { label: "Partnersuche", href: "/partnersuche/" },
 ];
 
-// Das Logo trägt die Domainendung: .de nur in DE; AT/CH zeigen bis zur eigenen Variante (Codex-Auftrag
-// docs/codex-auftrag-at-ch-titelbilder-logos.md) das Logo ohne Endung, gleiche Höhe, etwas schmaler.
+// Landeslogos mit derselben Ansicht und Höhe wie das DE-Original.
 function brand(market: MarketCode) {
   if (market === "de") return { logo: "/brand/logo.svg", logoLight: "/brand/logo-light.svg", alt: "AkademikerSingles.de", width: 232, footerWidth: 200 };
-  return { logo: `/brand/logo-${market}.svg`, logoLight: `/brand/logo-light-${market}.svg`, alt: "AkademikerSingles", width: 216, footerWidth: 187 };
+  return { logo: `/brand/logo-${market}.svg`, logoLight: `/brand/logo-light-${market}.svg`, alt: `AkademikerSingles.${market}`, width: 232, footerWidth: 200 };
 }
 
 export function SiteShell({ children, registrationHref, current }: { children: React.ReactNode; registrationHref?: string; current?: string }) {

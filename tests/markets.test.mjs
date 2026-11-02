@@ -191,15 +191,16 @@ test("ICONY-Links je Markt: ohne live geschaltete Landesdomain (Standard) bleibe
   }
 });
 
-test("Logo je Markt: AT/CH ohne .de-Endung", () => {
+test("Logo je Markt: AT/CH mit eigener Domainendung", () => {
   const shell = source("components/site-shell.tsx");
   assert.match(shell, /logo-\$\{market\}\.svg/);
   assert.match(shell, /logo-light-\$\{market\}\.svg/);
+  assert.match(shell, /alt: `AkademikerSingles\.\$\{market\}`/);
   for (const market of ["at", "ch"]) {
     for (const name of ["logo", "logo-light"]) {
       const svg = source(`public/brand/${name}-${market}.svg`);
-      assert.match(svg, /viewBox="0 0 2179\.321 303\.134"/, `${name}-${market}.svg`);
-      assert.equal((svg.match(/<path\b/g) ?? []).length, 9, `${name}-${market}.svg: ohne .de-Pfad`);
+      assert.match(svg, /viewBox="0 0 2347\.321 303\.134"/, `${name}-${market}.svg`);
+      assert.equal((svg.match(/<path\b/g) ?? []).length, 10, `${name}-${market}.svg: mit Landesendung`);
     }
   }
 });
