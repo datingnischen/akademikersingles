@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { getMarketProfiles, type CityProfile } from "@/lib/city-profile";
 import { getMarket, publicUrl, type RegionalMarket } from "@/lib/markets";
 import type { PublicPage } from "@/lib/content";
@@ -7,6 +9,18 @@ import type { PublicPage } from "@/lib/content";
 // Canonical zeigt auf die künftige Landesdomain (publicUrl), die Seiten laufen bis dahin unter /at/… bzw. /ch/….
 
 const HUB_PATH = "/partnersuche/";
+
+// Titelbilder liefert Codex (docs/codex-auftrag-at-ch-titelbilder-logos.md) nach public/brand/<land>-<stadt>-partnersuche.webp.
+// Die Seite zeigt das Bild, sobald die Datei existiert; den Alt-Text trägt das Dossier (heroAlt).
+export function marketHeroPath(market: RegionalMarket, profile: CityProfile): string {
+  const slug = profile.path.split("/").filter(Boolean).pop();
+  return `/brand/${market}-${slug}-partnersuche.webp`;
+}
+
+function marketHeroImage(market: RegionalMarket, profile: CityProfile): string | null {
+  const file = marketHeroPath(market, profile);
+  return existsSync(join(process.cwd(), "public", file)) ? file : null;
+}
 
 function cityPage(market: RegionalMarket, profile: CityProfile): PublicPage {
   const name = profile.name ?? profile.path;
@@ -19,7 +33,7 @@ function cityPage(market: RegionalMarket, profile: CityProfile): PublicPage {
     title: profile.seoTitle ?? `Partnersuche für Akademiker in ${name} – AkademikerSingles`,
     description: profile.seoDescription ?? `Akademiker Singles in ${name} (${countryName}): Stadtdossier mit amtlichen Kennzahlen zu Bildung, Beruf und Single-Leben.`,
     heroTitle: `Partnersuche in ${name}`,
-    heroImage: null,
+    heroImage: marketHeroImage(market, profile),
     categories: [],
     contentHtml: "",
     locationName: name,

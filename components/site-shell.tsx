@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "@/components/market-link";
 import { categoryLabel, getCategories, getCities, getGuides, guideLabel } from "@/lib/content";
-import { FEATURE_LINKS, LEGAL_LINKS, LOGIN_URL, REVIEW, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
+import { featureLinks, legalLinks, loginUrl, REVIEW, trustLinks, legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./site-shell.module.css";
 import { staticAsset } from "@/lib/static-asset";
+import { requestMarket } from "@/lib/market-context";
+import { getMarket, type MarketCode } from "@/lib/markets";
 
 const NAV = [
   { label: "Magazin", href: "/magazin/" },
@@ -13,8 +15,17 @@ const NAV = [
   { label: "Partnersuche", href: "/partnersuche/" },
 ];
 
+// Das Logo trägt die Domainendung: .de nur in DE; AT/CH zeigen bis zur eigenen Variante (Codex-Auftrag
+// docs/codex-auftrag-at-ch-titelbilder-logos.md) das Logo ohne Endung, gleiche Höhe, etwas schmaler.
+function brand(market: MarketCode) {
+  if (market === "de") return { logo: "/brand/logo.svg", logoLight: "/brand/logo-light.svg", alt: "AkademikerSingles.de", width: 232, footerWidth: 200 };
+  return { logo: `/brand/logo-${market}.svg`, logoLight: `/brand/logo-light-${market}.svg`, alt: "AkademikerSingles", width: 216, footerWidth: 187 };
+}
+
 export function SiteShell({ children, registrationHref, current }: { children: React.ReactNode; registrationHref?: string; current?: string }) {
   const registration = registrationHref ?? registrationUrl();
+  const market = requestMarket();
+  const logo = brand(market);
   const isCurrent = (href: string) => current === href || (href !== "/magazin/" && current?.startsWith(href));
   return <div className={styles.shell}>
     <a className={styles.skip} href="#inhalt">Zum Inhalt springen</a>
@@ -24,13 +35,13 @@ export function SiteShell({ children, registrationHref, current }: { children: R
       </div>
       <div className={`container ${styles.bar}`}>
         <Link className={styles.brand} href="/" aria-label="AkademikerSingles – Startseite">
-          <Image src={staticAsset("/brand/logo.svg")} alt="AkademikerSingles.de" width={232} height={30} priority />
+          <Image src={staticAsset(logo.logo)} alt={logo.alt} width={logo.width} height={30} priority />
         </Link>
         <nav className={styles.nav} aria-label="Hauptnavigation">
           {NAV.map(item => <Link key={item.href} href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</Link>)}
         </nav>
         <div className={styles.actions}>
-          <a className={styles.login} href={LOGIN_URL}>Login</a>
+          <a className={styles.login} href={loginUrl()}>Login</a>
           <a className={`btn btn-dark ${styles.register}`} href={registration}>Kostenlos registrieren</a>
         </div>
         <details className={styles.mobile}>
@@ -44,7 +55,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
             <Link href="/ueber-uns/social-media/">Social Media</Link>
             <Link href="/faq/">FAQ</Link>
             <Link href="/ueber-uns/suche/">Suche</Link>
-            <a href={LOGIN_URL}>Login</a>
+            <a href={loginUrl()}>Login</a>
             <a className="btn btn-gold" href={registration}>Kostenlos registrieren</a>
           </div>
         </details>
@@ -65,7 +76,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
       </div>
       <div className={`container ${styles.footerGrid}`}>
         <section className={styles.footerBrand}>
-          <Image src={staticAsset("/brand/logo-light.svg")} alt="AkademikerSingles.de" width={200} height={26} className={styles.footerLogo} />
+          <Image src={staticAsset(logo.logoLight)} alt={logo.alt} width={logo.footerWidth} height={26} className={styles.footerLogo} />
           <p>Die Partnersuche für Akademiker, Unternehmer und erfolgreiche Singles, die Bildung, Stil und echte Gespräche zu schätzen wissen.</p>
           <a className={styles.footerSeal} href={REVIEW.url} target="_blank" rel="noopener">
             <Image src={REVIEW.seal} alt="Empfohlen von Singlebörsen-Überblick: 4,5 Sterne – sehr gut" width={120} height={180} />
@@ -92,12 +103,12 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           <p className={`${styles.footerHeading} ${styles.footerSub}`}>Ratgeber</p>
           {getGuides().map(guide => <Link key={guide.path} href={guide.path}>{guideLabel(guide)}</Link>)}
           <p className={`${styles.footerHeading} ${styles.footerSub}`}>Mitgliedschaft</p>
-          {[...FEATURE_LINKS, ...TRUST_LINKS].map(link => <a key={link.href} href={link.href}>{link.label}</a>)}
+          {[...featureLinks(), ...trustLinks()].map(link => <a key={link.href} href={link.href}>{link.label}</a>)}
         </section>
       </div>
       <div className={`container ${styles.legal}`}>
-        <span>© {new Date().getFullYear()} AkademikerSingles.de</span>
-        <nav aria-label="Rechtliches">{LEGAL_LINKS.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
+        <span>© {new Date().getFullYear()} AkademikerSingles.{getMarket(market).domain.split(".").pop()}</span>
+        <nav aria-label="Rechtliches">{legalLinks().map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
       </div>
     </footer>
   </div>;

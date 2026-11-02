@@ -178,7 +178,7 @@ test("Städteübersicht verweist auf die individuelle Suche der Live-Domain", as
   assert.match(fallback, /href=\{searchUrl\("location"\)\}/);
   assert.doesNotMatch(fallback, /href="\/suche/);
   const site = await read("lib/site.ts");
-  assert.match(site, /\$\{ORIGIN\}\/suche\/\?AID=\$\{aid\}/);
+  assert.match(site, /legacyUrl\(aid \? `\/suche\/\?AID=\$\{aid\}` : "\/suche\/", market\)/);
 });
 
 test("Assets kommen absolut vom Vercel-Host, weil nginx nur Seitenrouten durchreicht", async () => {

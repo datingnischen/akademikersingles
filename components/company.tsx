@@ -5,7 +5,7 @@ import { crumbsFor } from "@/components/templates";
 import { ArticleCard, Breadcrumbs, JsonLd, RegisterPanel, ReviewSeal, breadcrumbJsonLd } from "@/components/ui";
 import { FAQ_GROUPS, faqPlainAnswer } from "@/lib/authored";
 import { getArticles, getCities, type PublicPage } from "@/lib/content";
-import { ORIGIN, REVIEW, REVIEW_SOURCES, SOCIAL, TRUST_LINKS, legacyUrl, registrationUrl } from "@/lib/site";
+import { ORIGIN, REVIEW, REVIEW_SOURCES, SOCIAL, trustLinks, legacyUrl, marketUrl, registrationUrl } from "@/lib/site";
 import { SEARCH_PATH } from "@/lib/search";
 import styles from "./company.module.css";
 import { staticAsset } from "@/lib/static-asset";
@@ -30,14 +30,14 @@ const VALUES = [
   { title: "Augenhöhe", text: "Akademiker, Unternehmer und Erfolgreiche begegnen sich hier mit Respekt – als Menschen, nicht als Lebensläufe." },
 ];
 
-const STEPS = [
+const STEPS = () => [
   { title: "Manuelle Profilprüfung", text: "Jedes neue Profil wird von unserem Team persönlich geprüft, bevor es anderen Mitgliedern begegnet.", href: legacyUrl("/redaktionelle-kontrolle.html") },
   { title: "Check des akademischen Status", text: "Mit der Prüfung des akademischen Status setzen wir unser persönliches Zeichen von Seriosität.", href: legacyUrl("/redaktionelle-kontrolle.html") },
   { title: "Verifizierte Profile", text: "Verifizierte Mitglieder tragen ein sichtbares Symbol – so wissen Sie, dass Sie mit einem echten Menschen schreiben.", href: legacyUrl("/premium-mitgliedschaft.html") },
   { title: "Sichere Technik", text: "Rechenzentren in Deutschland und eine verschlüsselte Verbindung für Login, Nachrichten und Profil.", href: legacyUrl("/sicherheit-und-datenschutz.html") },
 ];
 
-const ABOUT_NAV = [
+const ABOUT_NAV = () => [
   { label: "Überblick", href: "/ueber-uns/" },
   { label: "Gründer", href: "/ueber-uns/#gruender" },
   { label: "Bewertungen", href: "/ueber-uns/bewertungen/" },
@@ -47,7 +47,7 @@ const ABOUT_NAV = [
   { label: "Suche", href: SEARCH_PATH },
 ];
 
-const ABOUT_CARDS = [
+const ABOUT_CARDS = () => [
   { eyebrow: "Gründer & Experte", title: "Der Gründer Christian M. Haas", text: "Seit 2008 im Online-Dating aktiv: der Mensch und die Erfahrung hinter AkademikerSingles.de.", href: "/ueber-uns/#gruender", label: "Gründer kennenlernen" },
   { eyebrow: "Bewertungen & Erfahrungen", title: "Was andere über uns sagen", text: "Testberichte unabhängiger Vergleichsportale, Trustpilot und die Geschichten unserer Paare.", href: "/ueber-uns/bewertungen/", label: "Bewertungen ansehen" },
   { eyebrow: "Social Media", title: "YouTube & Facebook", text: "Videos, Tipps und Inspiration rund um Partnerschaft, Dating und Beziehungen – auf YouTube und Facebook.", href: "/ueber-uns/social-media/", label: "Zu Social Media" },
@@ -59,7 +59,7 @@ const ABOUT_CARDS = [
 export function AboutNav({ current }: { current: string }) {
   return <nav className={styles.aboutNav} aria-label="Bereich Über uns">
     <div className="container">
-      {ABOUT_NAV.map(item => {
+      {ABOUT_NAV().map(item => {
         const active = item.href === current;
         return item.href.startsWith("/")
           ? <Link key={item.href} href={item.href} aria-current={active ? "page" : undefined}>{item.label}</Link>
@@ -123,7 +123,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
         <h2 className="display">So sorgen wir für ein Umfeld mit <em>Niveau</em>.</h2>
         <p>Exklusivität entsteht nicht durch Versprechen, sondern durch Sorgfalt – bei jedem einzelnen Profil.</p>
       </div>
-      <ol className={styles.steps}>{STEPS.map(step => <li key={step.title}><div className={`${styles.step} ${styles.hasCardLink}`}><h3 className="display"><a className={styles.cardTitleLink} href={step.href}>{step.title}</a></h3><p>{step.text}</p><span aria-hidden="true">Mehr erfahren →</span></div></li>)}</ol>
+      <ol className={styles.steps}>{STEPS().map(step => <li key={step.title}><div className={`${styles.step} ${styles.hasCardLink}`}><h3 className="display"><a className={styles.cardTitleLink} href={step.href}>{step.title}</a></h3><p>{step.text}</p><span aria-hidden="true">Mehr erfahren →</span></div></li>)}</ol>
     </section>
 
     <section className={styles.expertise} id="gruender" aria-labelledby="gruender-titel">
@@ -166,7 +166,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
         <h2 className="display" id="mehr-ueber-uns">Hinter den <em>Kulissen</em></h2>
       </div>
       <div className={styles.cardGrid}>
-        {ABOUT_CARDS.map(card => {
+        {ABOUT_CARDS().map(card => {
           const titleLink = card.href.startsWith("/") ? <Link className={styles.cardTitleLink} href={card.href}>{card.title}</Link> : <a className={styles.cardTitleLink} href={card.href}>{card.title}</a>;
           return <div key={card.href} className={`${styles.aboutCard} ${styles.hasCardLink}`}><span className={styles.cardEyebrow}>{card.eyebrow}</span><h3 className="display">{titleLink}</h3><p>{card.text}</p><span className={styles.cardLink} aria-hidden="true">{card.label} →</span></div>;
         })}
@@ -178,7 +178,7 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
         <p className="eyebrow">Transparenz</p>
         <h2 className="display">Alles Wichtige auf einen Blick</h2>
         <ul>
-          {TRUST_LINKS.map(link => <li key={link.href}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}
+          {trustLinks().map(link => <li key={link.href}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}
           <li><Link href="/faq/">Häufige Fragen<span aria-hidden="true">→</span></Link></li>
         </ul>
         <div className={styles.closingSeal}><ReviewSeal /></div>
@@ -217,7 +217,7 @@ export function FaqTemplate({ page }: { page: PublicPage }) {
             <summary><span>{item.question}</span><i aria-hidden="true" /></summary>
             <div className={styles.faqAnswer}>
               {item.answer.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
-              {item.links?.length ? <p className={styles.faqLinks}>{item.links.map(link => link.href.startsWith("/") ? <Link key={link.href} href={link.href}>{link.label} →</Link> : <a key={link.href} href={link.href}>{link.label} →</a>)}</p> : null}
+              {item.links?.length ? <p className={styles.faqLinks}>{item.links.map(link => link.href.startsWith("/") ? <Link key={link.href} href={link.href}>{link.label} →</Link> : <a key={link.href} href={marketUrl(link.href)}>{link.label} →</a>)}</p> : null}
             </div>
           </details>)}
         </section>)}

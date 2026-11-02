@@ -6,7 +6,7 @@ import { nearestCities } from "@/lib/city-geo";
 import { sourceNumber, splitGuide, type CityProfile, type Metric, type Place } from "@/lib/city-profile";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
-import { TRUST_LINKS } from "@/lib/site";
+import { trustLinks } from "@/lib/site";
 import styles from "./city-dossier.module.css";
 
 type Crumb = { name: string; href: string };
@@ -297,7 +297,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
           {related.map(link => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}
           <li><Link className={styles.chipAll} href="/partnersuche/">Alle Städte →</Link></li>
         </ul>
-        <ul className={styles.trust}>{TRUST_LINKS.slice(0, 3).map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
+        <ul className={styles.trust}>{trustLinks().slice(0, 3).map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
       </div>
     </section>
 

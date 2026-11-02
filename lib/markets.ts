@@ -21,9 +21,20 @@ const MARKETS: Record<MarketCode, MarketConfig> = {
   ch: { code: "ch", countryName: "Schweiz", countryPhrase: "der Schweiz", domain: "akademikersingles.ch", locale: "de-CH", ogLocale: "de_CH" },
 };
 
-// Die Domains akademikersingles.at/.ch sind noch nicht angelegt. hreflang verweist erst dann auf sie, wenn dieser
-// Schalter true ist (sonst zeigten die Alternativen ins Leere).
-export const MARKET_DOMAINS_LIVE = false;
+// Welche Landesdomains schon live sind (ICONY-Plattform + nginx), steuert die Vercel-Variable
+// NEXT_PUBLIC_LIVE_MARKET_DOMAINS, z. B. "at,ch" oder "at" (danach neu deployen). Erst dann zeigen auf den Marktseiten
+// interne Links absolut auf akademikersingles.at/.ch statt auf /at/…, ICONY-Links (Registrierung, Login, Rechtliches)
+// auf die Landesplattform statt auf .de, und hreflang verweist auf die Domain. Ohne Eintrag bleibt die Vorschau
+// unter /at/ und /ch/ in sich geschlossen.
+export function parseLiveMarkets(value = ""): RegionalMarket[] {
+  return value.split(",").map(item => item.trim().toLowerCase()).filter((item): item is RegionalMarket => item === "at" || item === "ch");
+}
+
+export const LIVE_MARKETS: readonly RegionalMarket[] = parseLiveMarkets(process.env.NEXT_PUBLIC_LIVE_MARKET_DOMAINS);
+
+export function isMarketDomainLive(market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): boolean {
+  return market === "de" || (live as readonly string[]).includes(market);
+}
 
 export function isMarketCode(value: string): value is MarketCode {
   return (MARKET_CODES as readonly string[]).includes(value);
@@ -45,11 +56,25 @@ export function publicUrl(code: MarketCode, pathname = "/"): string {
 // Nur diese Wurzeln gehören der App; alles andere (ICONY, Dateien) bleibt unverändert.
 const APP_PATH = /^\/(?:(?:magazin|partnersuche|ueber-uns|faq)(?:\/|$|[?#])|$|[?#])/;
 
-/** Hängt das Marktpräfix an interne Seitenpfade; DE bleibt unpräfixiert. */
-export function localizePath(path: string, market: MarketCode): string {
+export function isAppPath(path: string): boolean {
+  return APP_PATH.test(path);
+}
+
+/**
+ * Interne Seitenpfade auf den Marktseiten: in der Vorschau mit Marktpräfix (/at/…), bei live geschalteter Landesdomain
+ * absolut (https://akademikersingles.at/…), weil der ICONY-nginx dort nur die Seitenwurzeln ohne Präfix weiterreicht.
+ * DE bleibt unpräfixiert und relativ.
+ */
+export function localizePath(path: string, market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): string {
   if (market === "de" || !path.startsWith("/") || path.startsWith("//")) return path;
   if (!APP_PATH.test(path)) return path;
+  if (isMarketDomainLive(market, live)) return publicUrl(market, path);
   return path === "/" ? `/${market}/` : `/${market}${path}`;
+}
+
+/** Herkunft der ICONY-Plattformseiten (Registrierung, Login, Rechtliches): die Landesplattform, sobald sie live ist. */
+export function platformOrigin(market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): string {
+  return isMarketDomainLive(market, live) ? marketOrigin(market) : marketOrigin("de");
 }
 
 export function hostMarket(hostname = ""): RegionalMarket | null {
@@ -88,6 +113,10 @@ export function resolveRequest(pathname: string, hasRestRoute: boolean, hostname
     if (path === "/magazin/index.php" && prefix) return { action: "rewrite", pathname: path };
     // nginx ruft Vercel mit /de/… auf: /de/magazin/sitemap.xml (ICONYs sitemap.php verweist auf /magazin/sitemap.xml).
     if (path === "/magazin/sitemap.xml" && prefix === "de") return { action: "rewrite", pathname: path };
+    // Marktsitemap zusätzlich unter /partnersuche/sitemap.xml: diese Wurzel reicht der ICONY-nginx auf .at/.ch ohnehin
+    // an Vercel weiter, /sitemap.xml gehört dort ICONY.
+    const sitemapMarket = prefix && prefix !== "de" ? prefix : !prefix ? host : null;
+    if (path === "/partnersuche/sitemap.xml" && sitemapMarket) return { action: "rewrite", pathname: `/${sitemapMarket}/sitemap.xml` };
     return { action: "next" };
   }
 

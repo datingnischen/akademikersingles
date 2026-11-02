@@ -5,7 +5,7 @@ import { marketOrigin, publicUrl, type RegionalMarket } from "@/lib/markets";
 // Die Sitemap enthält nur, was dort kanonisch ist: Städteübersicht und Stadtseiten. Magazin, Über uns und FAQ
 // zeigen per Canonical auf die DE-Seite und stehen deshalb nicht drin.
 export function marketRobots(market: RegionalMarket): Response {
-  const body = `User-Agent: *\nAllow: /\n\nSitemap: ${marketOrigin(market)}/sitemap.xml\n`;
+  const body = `User-Agent: *\nAllow: /\n\nSitemap: ${marketOrigin(market)}/partnersuche/sitemap.xml\n`;
   return new Response(body, { headers: { "content-type": "text/plain; charset=utf-8" } });
 }
 

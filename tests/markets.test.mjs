@@ -2,7 +2,8 @@ import assert from "node:assert/strict";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import test from "node:test";
 
-import { hostMarket, localizePath, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
+import { hostMarket, isMarketDomainLive, localizePath, parseLiveMarkets, platformOrigin, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
+import { legacyUrl, marketUrl, registrationUrl } from "../lib/site.ts";
 
 const root = new URL("../", import.meta.url);
 const source = path => readFileSync(new URL(path, root), "utf8");
@@ -55,6 +56,11 @@ test("Marktdomains akademikersingles.at/.ch schreiben intern auf /at bzw. /ch", 
   assert.deepEqual(resolveRequest("/robots.txt", false, "akademikersingles.at"), rewrite("/at/robots.txt"));
   assert.deepEqual(resolveRequest("/sitemap.xml", false, "akademikersingles.ch"), rewrite("/ch/sitemap.xml"));
   assert.deepEqual(resolveRequest("/at/sitemap.xml", false), next);
+  assert.deepEqual(resolveRequest("/partnersuche/sitemap.xml", false, "akademikersingles.at"), rewrite("/at/sitemap.xml"));
+  assert.deepEqual(resolveRequest("/ch/partnersuche/sitemap.xml", false), rewrite("/ch/sitemap.xml"));
+  assert.deepEqual(resolveRequest("/partnersuche/sitemap.xml", false, "akademikersingles.de"), next);
+  assert.ok(source("proxy.ts").includes('"/partnersuche/sitemap.xml", "/(at|ch)/partnersuche/sitemap.xml"'));
+  assert.match(source("lib/market-seo.ts"), /\/partnersuche\/sitemap\.xml/);
 });
 
 test("Links auf den Marktseiten bekommen das Präfix, ICONY-Pfade und DE bleiben unberührt", () => {
@@ -92,8 +98,9 @@ test("Marktrouten: Canonical der Magazin-/Über-uns-Seiten bleibt die DE-Seite, 
   assert.match(route, /setRequestMarket\(market\)/);
   const view = source("components/page-view.tsx");
   assert.match(view, /canonical: page\.canonical, \.\.\.hreflang\(page\)/);
-  assert.match(view, /MARKET_DOMAINS_LIVE/);
-  assert.match(source("lib/markets.ts"), /MARKET_DOMAINS_LIVE = false/);
+  assert.match(view, /LIVE_MARKETS\.length/);
+  assert.match(view, /isMarketDomainLive\(code\)/);
+  assert.match(source("lib/markets.ts"), /process\.env\.NEXT_PUBLIC_LIVE_MARKET_DOMAINS/);
   assert.match(source("lib/market-cities.ts"), /canonical: publicUrl\(market, profile\.path\)/);
   for (const market of ["at", "ch"]) {
     for (const file of [`app/${market}/[[...slug]]/page.tsx`, `app/${market}/ueber-uns/suche/page.tsx`, `app/${market}/robots.txt/route.ts`, `app/${market}/sitemap.xml/route.ts`]) {
@@ -114,6 +121,7 @@ for (const [market, country, expected] of [["at", "Österreich", ["wien", "graz"
       assert.equal(profile.path, `/partnersuche/${slug}/`);
       assert.equal(profile.country, country);
       assert.ok(profile.name && profile.seoTitle && profile.seoDescription, `${file}: Name/SEO-Texte`);
+      assert.match(profile.heroAlt ?? "", /^Aquarellzeichnung von /, `${file}: Alt-Text für das Codex-Titelbild`);
       assert.ok(profile.seoTitle.length <= 60, `${file}: seoTitle zu lang`);
       assert.ok(profile.seoDescription.length >= 110 && profile.seoDescription.length <= 155, `${file}: seoDescription ${profile.seoDescription.length} Zeichen`);
       const ids = new Set(profile.sources.map(entry => entry.id));
@@ -148,4 +156,50 @@ test("Marktseiten: keine rohen Bilder ohne Alt-Text, ICONY-Links nie über den V
     assert.doesNotMatch(text, /akademikersingles\.vercel\.app/, `${file}: ICONY-Seiten nie über den Vercel-Host`);
   }
   assert.doesNotMatch(source("components/city-dossier.tsx"), /alt=""/);
+});
+
+test("Landesdomains live (NEXT_PUBLIC_LIVE_MARKET_DOMAINS): Links absolut auf .at/.ch, ICONY-Seiten auf die Landesplattform", () => {
+  assert.deepEqual(parseLiveMarkets(""), []);
+  assert.deepEqual(parseLiveMarkets(" AT, ch ,de,xx"), ["at", "ch"]);
+  assert.equal(isMarketDomainLive("de", []), true);
+  assert.equal(isMarketDomainLive("at", []), false);
+  assert.equal(isMarketDomainLive("at", ["at"]), true);
+  // Vorschau ohne Landesdomain: Präfix wie bisher, ICONY auf .de.
+  assert.equal(localizePath("/partnersuche/wien/", "at", []), "/at/partnersuche/wien/");
+  assert.equal(platformOrigin("at", []), "https://akademikersingles.de");
+  // Landesdomain live: nginx reicht dort nur Seitenwurzeln ohne Präfix weiter, deshalb absolut.
+  assert.equal(localizePath("/partnersuche/wien/", "at", ["at"]), "https://akademikersingles.at/partnersuche/wien/");
+  assert.equal(localizePath("/", "ch", ["ch"]), "https://akademikersingles.ch/");
+  assert.equal(localizePath("/faq/#sicherheit", "ch", ["ch"]), "https://akademikersingles.ch/faq/#sicherheit");
+  assert.equal(localizePath("/partnersuche/zuerich/", "ch", ["at"]), "/ch/partnersuche/zuerich/");
+  assert.equal(localizePath("/registration/", "at", ["at"]), "/registration/");
+  assert.equal(localizePath("/partnersuche/", "de", ["at", "ch"]), "/partnersuche/");
+  assert.equal(platformOrigin("at", ["at"]), "https://akademikersingles.at");
+  assert.equal(platformOrigin("de", ["at", "ch"]), "https://akademikersingles.de");
+});
+
+test("ICONY-Links je Markt: ohne live geschaltete Landesdomain (Standard) bleiben sie auf .de", () => {
+  assert.equal(registrationUrl("location", "at"), "https://akademikersingles.de/registration/?AID=location");
+  assert.equal(legacyUrl("/impressum.html", "ch"), "https://akademikersingles.de/impressum.html");
+  assert.equal(marketUrl("https://akademikersingles.de/partnersuche/", "at"), "/at/partnersuche/");
+  assert.equal(marketUrl("https://www.akademikersingles.de/agb.html", "ch"), "https://akademikersingles.de/agb.html");
+  assert.equal(marketUrl("https://akademikersingles.de/magazin/", "de"), "https://akademikersingles.de/magazin/");
+  assert.equal(marketUrl("https://example.org/x", "at"), "https://example.org/x");
+  for (const file of ["components/site-shell.tsx", "components/company.tsx", "components/home.tsx", "components/ui.tsx", "components/city-dossier.tsx"]) {
+    assert.doesNotMatch(source(file), /TRUST_LINKS|FEATURE_LINKS|LEGAL_LINKS|LOGIN_URL/, `${file}: Linklisten müssen je Render (Markt) gebaut werden`);
+    assert.doesNotMatch(source(file), /^const [A-Z_]+ = \[[^\]]*legacyUrl\(/ms, `${file}: legacyUrl nicht in Modulkonstanten`);
+  }
+});
+
+test("Logo je Markt: AT/CH ohne .de-Endung", () => {
+  const shell = source("components/site-shell.tsx");
+  assert.match(shell, /logo-\$\{market\}\.svg/);
+  assert.match(shell, /logo-light-\$\{market\}\.svg/);
+  for (const market of ["at", "ch"]) {
+    for (const name of ["logo", "logo-light"]) {
+      const svg = source(`public/brand/${name}-${market}.svg`);
+      assert.match(svg, /viewBox="0 0 2179\.321 303\.134"/, `${name}-${market}.svg`);
+      assert.equal((svg.match(/<path\b/g) ?? []).length, 9, `${name}-${market}.svg: ohne .de-Pfad`);
+    }
+  }
 });

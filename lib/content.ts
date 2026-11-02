@@ -4,7 +4,7 @@ import { AUTHORED_PAGES } from "@/lib/authored";
 import { requestMarket } from "@/lib/market-context";
 import { marketCities, marketHub } from "@/lib/market-cities";
 import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/markets";
-import { registrationUrl, type Aid } from "@/lib/site";
+import { marketUrl, registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
 import { limitStrong, withImageAlt, withoutEmptyHeadings, withoutHeadingSkips } from "./html-cleanup";
 import { collapseSourceSections } from "./collapse-sources";
@@ -272,6 +272,8 @@ export function renderedContentHtml(page: PublicPage): string {
   return withSources
     .replace(/href="(\/[^"]*)"/g, (match, href: string) => localizePath(href, market) === href ? match : `href="${localizePath(href, market)}"`)
     .replace(/href=(["'])https:\/\/(?:www\.)?akademikersingles\.de\/registration\/?(?:\?[^"']*)?\1/gi, (_match, quote) => `href=${quote}${registration}${quote} class="registration-cta"`)
+    // Übrige feste Links auf die .de-Domain: auf den Marktseiten in den Markt bzw. auf die Landesplattform.
+    .replace(/href=(["'])(https:\/\/(?:www\.)?akademikersingles\.de[^"']*)\1/gi, (match, quote: string, url: string) => market === "de" ? match : `href=${quote}${marketUrl(url, market)}${quote}`)
     .replace(/<img\b([^>]*?)src="(\/imported\/[^"]+\.(?:jpe?g|png|webp))"([^>]*)>/gi, (_match, before, src, after) =>
       `<img${before}src="${optimizedImage(src, 1200)}" srcset="${optimizedImage(src, 640)} 640w, ${optimizedImage(src, 1080)} 1080w, ${optimizedImage(src, 1920)} 1920w" sizes="(max-width: 760px) 100vw, 720px" decoding="async"${after}>`)
     // Übrige Dateien aus public/ (Audio-Fassungen, sonstige Grafiken) direkt vom Vercel-Host laden.

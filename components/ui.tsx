@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "@/components/market-link";
 import { categoryLabel, cardText, formatDate, primaryCategory, type ImageCredit, type PublicPage } from "@/lib/content";
-import { REVIEW, TRUST_LINKS, registrationUrl, type Aid } from "@/lib/site";
+import { REVIEW, trustLinks, registrationUrl, type Aid } from "@/lib/site";
 import styles from "./ui.module.css";
 
 export function safeJsonLd(value: unknown) {
@@ -85,7 +85,7 @@ export function RegisterPanel({ aid, title = "Menschen mit Niveau kennenlernen",
 export function TrustPanel() {
   return <div className={styles.trust}>
     <h2>Vertrauen &amp; Qualität</h2>
-    <ul>{TRUST_LINKS.map(link => <li key={link.href}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}</ul>
+    <ul>{trustLinks().map(link => <li key={link.href}><a href={link.href}>{link.label}<span aria-hidden="true">→</span></a></li>)}</ul>
   </div>;
 }
 

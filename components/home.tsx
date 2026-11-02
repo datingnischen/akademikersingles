@@ -5,13 +5,13 @@ import { categoryLabel, getArticles, getCities, getLeadCategories, renderedConte
 import { legacyUrl, registrationUrl } from "@/lib/site";
 import styles from "./home.module.css";
 
-const PILLARS = [
+const PILLARS = () => [
   { numeral: "I", title: "Redaktionelle Kontrolle", text: "Jedes neue Profil wird von unserem Team persönlich geprüft – für ein Umfeld, in dem Seriosität selbstverständlich ist.", href: legacyUrl("/redaktionelle-kontrolle.html") },
   { numeral: "II", title: "Absolute Diskretion", text: "Strenger Datenschutz, Server in Deutschland und Funktionen wie anonymes Surfen für Menschen, die in der Öffentlichkeit stehen.", href: legacyUrl("/sicherheit-und-datenschutz.html") },
   { numeral: "III", title: "Begegnung auf Augenhöhe", text: "Mit dem Check des akademischen Status treffen Sie Singles, die Bildung, Ambition und Tiefgang teilen.", href: legacyUrl("/kostenlose-basis-mitgliedschaft.html") },
 ];
 
-const FEATURES = [
+const FEATURES = () => [
   { title: "Fragenflirt", text: "Klare Antworten auf direkte Fragen: Sie erkennen früh, ob Lebensstil und Werte zusammenpassen.", image: "/brand/feature-fragenflirt.png", width: 722, height: 622, href: legacyUrl("/fragenflirt.html") },
   { title: "Fotoflirt", text: "Der erste Eindruck zählt. Entdecken Sie Profile mit Ausstrahlung – und zeigen Sie Ihre eigene.", image: "/brand/feature-fotoflirt.png", width: 898, height: 550, href: legacyUrl("/fotoflirt.html") },
   { title: "Videodate", text: "Persönlich kennenlernen, bevor Sie sich treffen – bequem, sicher und ohne Ihre Nummer zu teilen.", image: "/brand/feature-videodate-hand.png", width: 726, height: 693, href: legacyUrl("/videodate.html") },
@@ -74,7 +74,7 @@ export function HomeTemplate({ page }: { page: PublicPage }) {
           <h2 className="display">Exklusivität entsteht durch <em>Sorgfalt</em>.</h2>
           <p>Wir bürgen für Qualität durch absolute Diskretion und redaktionelle Kontrolle – damit Sie Ihre Zeit nur mit Menschen verbringen, die Ihnen wirklich entsprechen.</p>
         </div>
-        {PILLARS.map(pillar => <a key={pillar.title} className={styles.pillar} href={pillar.href}>
+        {PILLARS().map(pillar => <a key={pillar.title} className={styles.pillar} href={pillar.href}>
           <span className={styles.numeral}>{pillar.numeral}</span>
           <h3 className="display">{pillar.title}</h3>
           <p>{pillar.text}</p>
@@ -105,7 +105,7 @@ export function HomeTemplate({ page }: { page: PublicPage }) {
           </div>
         </div>
         <div className={styles.featureGrid}>
-          {FEATURES.map(feature => <a key={feature.title} className={styles.feature} href={feature.href}>
+          {FEATURES().map(feature => <a key={feature.title} className={styles.feature} href={feature.href}>
             <span className={styles.featureMedia}><Image src={feature.image} alt={`${feature.title} auf AkademikerSingles`} width={feature.width} height={feature.height} sizes="(max-width: 900px) 90vw, 380px" /></span>
             <h3 className="display">{feature.title}</h3>
             <p>{feature.text}</p>

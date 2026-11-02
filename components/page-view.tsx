@@ -5,19 +5,20 @@ import { SiteShell } from "@/components/site-shell";
 import { ArticleTemplate, GuideTemplate, LocationHubTemplate, LocationTemplate, MagazineHubTemplate, MagazineListingTemplate } from "@/components/templates";
 import { JsonLd } from "@/components/ui";
 import { pageRegistrationUrl, type PublicPage } from "@/lib/content";
-import { MARKET_CODES, MARKET_DOMAINS_LIVE, getMarket, publicUrl, type MarketCode } from "@/lib/markets";
+import { LIVE_MARKETS, MARKET_CODES, getMarket, isMarketDomainLive, publicUrl, type MarketCode } from "@/lib/markets";
 import { ORIGIN, SITE_NAME } from "@/lib/site";
 import { staticAsset } from "@/lib/static-asset";
 import { seoDescription, seoTitle } from "@/lib/seo-meta";
 
 // Gemeinsame Darstellung der Seiten für DE (app/[[...slug]]) und die Marktrouten (app/at, app/ch).
 
-// hreflang nur für die Städteübersicht (in jedem Markt vorhanden) und erst, wenn die Landesdomains laufen.
+// hreflang nur für die Städteübersicht (in jedem Markt vorhanden) und nur mit Landesdomains, die schon live sind
+// (NEXT_PUBLIC_LIVE_MARKET_DOMAINS, sonst zeigten die Alternativen ins Leere).
 function hreflang(page: PublicPage): Metadata["alternates"] {
-  if (!MARKET_DOMAINS_LIVE || page.family !== "location-hub") return {};
+  if (!LIVE_MARKETS.length || page.family !== "location-hub") return {};
   return {
     languages: {
-      ...Object.fromEntries(MARKET_CODES.map(code => [getMarket(code).locale, publicUrl(code, page.path)])),
+      ...Object.fromEntries(MARKET_CODES.filter(code => isMarketDomainLive(code)).map(code => [getMarket(code).locale, publicUrl(code, page.path)])),
       "x-default": publicUrl("de", page.path),
     },
   };
