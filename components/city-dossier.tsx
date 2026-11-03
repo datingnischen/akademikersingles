@@ -298,6 +298,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
           <li><Link className={styles.chipAll} href="/partnersuche/">Alle Städte →</Link></li>
         </ul>
         <ul className={styles.trust}>{trustLinks().slice(0, 3).map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
+        {profile.nicheHint ? <p className={styles.trust}>{profile.nicheHint.before}<a href={profile.nicheHint.href} target="_blank" rel="noopener">{profile.nicheHint.anchor}</a>{profile.nicheHint.after}</p> : null}
       </div>
     </section>
 

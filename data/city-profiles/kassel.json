@@ -2591,6 +2591,12 @@
       "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
     }
   ],
+  "nicheHint": {
+    "before": "Neben Studium und Beruf zählen für Sie noch andere Gemeinsamkeiten? Das ",
+    "anchor": "Partner-Quiz für Kassel",
+    "href": "https://kasseler-singles.de/#quiz",
+    "after": " auf kasseler-singles.de zeigt Ihnen, welche Kasseler Nischenbörsen außerdem passen."
+  },
   "sources": [
     {
       "id": "zensus-arbeitsort",

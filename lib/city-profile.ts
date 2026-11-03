@@ -65,6 +65,8 @@ export type CityProfile = {
   };
   faq: { question: string; answer: string }[];
   sources: Source[];
+  // Redaktioneller Hinweis auf eine eigene Verteilerseite (nur einzelne Städte, z. B. Kassel → kasseler-singles.de/#quiz).
+  nicheHint?: { before: string; anchor: string; href: string; after: string };
 };
 
 const PROFILE_DIR = join(process.cwd(), "data", "city-profiles");

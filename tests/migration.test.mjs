@@ -239,3 +239,19 @@ test("Stadtdossiers: jede Stadtseite hat ein Profil, jede Kennzahl eine verlinkt
   const templates = await read("components/templates.tsx");
   assert.match(templates, /if \(profile\) return <CityDossierTemplate/);
 });
+
+test("Quiz-Hinweis auf kasseler-singles.de nur im Kassel-Dossier, vor den Quellen", async () => {
+  const dir = new URL("../data/city-profiles/", import.meta.url);
+  const files = (await readdir(dir)).filter(file => file.endsWith(".json"));
+  for (const file of files) {
+    const profile = JSON.parse(await readFile(new URL(file, dir), "utf8"));
+    if (file === "kassel.json") {
+      assert.equal(profile.nicheHint?.href, "https://kasseler-singles.de/#quiz");
+      assert.equal(profile.nicheHint?.anchor, "Partner-Quiz für Kassel");
+    } else assert.equal(profile.nicheHint, undefined, `${file}: Quiz-Hinweis gehört nur nach Kassel`);
+  }
+  const dossier = await read("components/city-dossier.tsx");
+  const hint = dossier.indexOf("profile.nicheHint ?");
+  assert.ok(hint > 0 && hint < dossier.indexOf('aria-labelledby="quellen"'), "Hinweis steht vor dem Quellenblock");
+  assert.doesNotMatch(dossier.slice(hint, dossier.indexOf("</p>", hint)), /sponsored|nofollow/);
+});
