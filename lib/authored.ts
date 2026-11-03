@@ -184,7 +184,7 @@ export const AUTHORED_PAGES: PublicPage[] = [
     title: "Partnersuche in Kassel",
     description: "Akademiker Singles in Kassel: Stadtdossier mit Zensus-Zahlen zu Bildung, Beruf und Single-Leben – Universität, Fraunhofer IEE und documenta.",
     heroTitle: "Partnersuche in Kassel",
-    heroImage: null,
+    heroImage: "/brand/kassel-herkules-bergpark-partnersuche.webp",
     categories: [],
     contentHtml: "",
     locationName: "Kassel",

@@ -49,6 +49,7 @@ export type CityProfile = {
   eyebrow: string;
   lead: string;
   heroAlt?: string;
+  heroCredit?: string;
   briefing: Metric[];
   kpis: Metric[];
   dossier: DossierChapter[];

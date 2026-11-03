@@ -158,6 +158,7 @@
 
 /* Quellen */
 .sources { padding-top: 24px; }
+.sources p { color: var(--muted); font-size: 13px; line-height: 1.6; }
 .sources summary { cursor: pointer; color: var(--muted); font-size: 13px; font-weight: 600; }
 .sources summary:focus-visible { outline: 2px solid var(--brand-navy); outline-offset: 4px; }
 .sources details[open] summary { margin-bottom: 12px; }

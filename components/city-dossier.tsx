@@ -303,7 +303,8 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
 
     <section className={`container ${styles.sources}`} aria-labelledby="quellen">
       <details>
-      <summary id="quellen">Quellen</summary>
+      <summary id="quellen">Quellen{profile.heroCredit ? " & Bildnachweise" : ""}</summary>
+      {profile.heroCredit ? <p>{profile.heroCredit}</p> : null}
       <ol>{profile.sources.map((source, index) => <li key={source.id} id={`quelle-${index + 1}`}>
         {source.publisher}: <a href={source.url} target="_blank" rel="nofollow noopener">{source.title}</a> ({source.stand})
       </li>)}</ol>
