@@ -1,5 +1,6 @@
 import snapshot from "@/data/public-pages.json";
 import categorySnapshot from "@/data/magazine-categories.json";
+import citySeo from "@/data/partnersuche-seo.json";
 import { AUTHORED_PAGES } from "@/lib/authored";
 import { requestMarket } from "@/lib/market-context";
 import { marketCities, marketHub } from "@/lib/market-cities";
@@ -18,6 +19,8 @@ export type PublicPage = {
   canonical: string;
   family: Family;
   title: string;
+  /** Eigener <title> der Stadtseite (seo-meta: Suffix nur, wenn er in 60 Zeichen passt); H1 bleibt heroTitle. */
+  metaTitle?: string;
   description: string;
   heroTitle: string;
   heroImage: string | null;
@@ -65,10 +68,19 @@ const CITY_WIDGET = /^https:\/\/js\.icony\.com\/frame\/\?h=300&id=akademikersing
 // Wie in den Schwesterprojekten liegt Social Media unter „Über uns“; die Live-URL /social-media/ leitet dorthin um.
 export const SOCIAL_PATH = "/ueber-uns/social-media/";
 const LINK_MOVES: Record<string, string> = { "/social-media/": SOCIAL_PATH };
+// Individuelle <title> und Descriptions der DE-Stadtseiten (Christian, 2026-11-04: keine Schablone, in der nur die Stadt
+// wechselt). Eigene Datei neben dem ICONY-Import, damit ein Re-Import sie nicht überschreibt. AT/CH: seoTitle im Dossier.
+const CITY_SEO = citySeo as Record<string, { metaTitle: string; description: string }>;
+function withCitySeo(page: PublicPage): PublicPage {
+  if (page.family !== "location") return page;
+  const seo = CITY_SEO[page.path.split("/").filter(Boolean).pop() ?? ""];
+  return seo ? { ...page, metaTitle: seo.metaTitle, description: seo.description } : page;
+}
+
 // Leere Überschriften aus dem Import (z. B. <h2>&nbsp;</h2>) entfallen (Seobility „leere Überschrift“).
 const pages = [...(snapshot.pages as PublicPage[]).map(page => page.path === "/social-media/"
   ? { ...page, family: "social" as const, path: SOCIAL_PATH, canonical: `https://akademikersingles.de${SOCIAL_PATH}` }
-  : page), ...AUTHORED_PAGES].map(page => {
+  : page), ...AUTHORED_PAGES].map(withCitySeo).map(page => {
   const withoutEmpty = withoutEmptyHeadings(page.contentHtml);
   // Stadt-Guides werden nach ihren Überschriften in Kapitel geteilt: dort keine Ebenen angleichen.
   const leveled = page.family === "location" || page.family === "location-hub" ? withoutEmpty : withoutHeadingSkips(withoutEmpty);

@@ -69,7 +69,14 @@ export function categoryDescription(slug?: string | null) {
 
 const LEGACY_SUFFIX = /\s*-\s*AkademikerSingles\s*-\s*Magazin\s*$/i;
 
-export function seoTitle(page: Pick<PublicPage, "path" | "title">): string {
+// Stadtseiten mit eigenem Titel: Suffix nur, wenn der gerenderte Titel dann höchstens 60 Zeichen und 570 px hat.
+export const CITY_TITLE_MAX = 60;
+
+export function seoTitle(page: Pick<PublicPage, "path" | "title" | "metaTitle">): string {
+  if (page.metaTitle) {
+    const branded = `${page.metaTitle}${TITLE_SUFFIX}`;
+    return branded.length <= CITY_TITLE_MAX && titleWidth(branded) <= TITLE_MAX_WIDTH ? branded : page.metaTitle;
+  }
   const base = (TITLE_OVERRIDES[page.path] ?? page.title).replace(LEGACY_SUFFIX, "").replace(/AkademikerSingles\.de/g, "AkademikerSingles").trim();
   if (/AkademikerSingles/i.test(base)) return base;
   const branded = `${base}${TITLE_SUFFIX}`;

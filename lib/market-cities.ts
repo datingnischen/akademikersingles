@@ -30,7 +30,9 @@ function cityPage(market: RegionalMarket, profile: CityProfile): PublicPage {
     sourceUrl: publicUrl(market, profile.path),
     canonical: publicUrl(market, profile.path),
     family: "location",
-    title: profile.seoTitle ?? `Partnersuche für Akademiker in ${name} – AkademikerSingles`,
+    title: `Partnersuche für Akademiker in ${name}`,
+    // Individueller <title> aus dem Dossier (max. 60 Zeichen, seo-meta hängt den Suffix nur an, wenn er passt).
+    metaTitle: profile.seoTitle,
     description: profile.seoDescription ?? `Akademiker Singles in ${name} (${countryName}): Stadtdossier mit amtlichen Kennzahlen zu Bildung, Beruf und Single-Leben.`,
     heroTitle: `Partnersuche in ${name}`,
     heroImage: marketHeroImage(market, profile),
