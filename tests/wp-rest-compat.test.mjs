@@ -14,8 +14,8 @@ test("IDs: echte WordPress-IDs aus dem Abzug, für neue Artikel stabile Ableitun
   const live = get("/wp/v2/posts", "slug=depression-dating-loslassen").body[0];
   assert.equal(live.id, 545, "echte WordPress-ID");
   assert.equal(live.featured_media, 547);
-  assert.equal(live.date, "2026-09-09T07:02:05");
-  assert.equal(live.modified, "2026-09-10T00:04:05");
+  assert.equal(live.date, "2026-09-09T16:11:41");
+  assert.equal(live.modified, "2026-09-10T14:44:49");
   assert.deepEqual(live.categories, [9]);
   assert.equal(live.author, 1);
   assert.equal(get("/wp/v2/posts/545").body.slug, "depression-dating-loslassen");
