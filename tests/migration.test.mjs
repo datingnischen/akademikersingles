@@ -144,7 +144,7 @@ test("Über uns nennt Christian M. Haas als Gründer mit eigenem Porträt", asyn
   const company = await read("components/company.tsx");
   assert.match(company, /name: "Christian M\. Haas"/);
   assert.match(company, /Gründer von AkademikerSingles\.de/);
-  assert.match(company, /founder: \{ "@id": `\$\{page\.canonical\}#gruender` \}/);
+  assert.match(company, /founder: \{ "@id": CHRISTIAN_PERSON_ID \}/);
   await access(new URL("../public/brand/christian-m-haas.jpg", import.meta.url));
 });
 

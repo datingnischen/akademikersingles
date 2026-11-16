@@ -1,3 +1,4 @@
+import { CHRISTIAN_PERSON_ID, christianPerson } from "@/lib/christian-person";
 import Image from "next/image";
 import Link from "@/components/market-link";
 import { SearchForm } from "@/components/search-form";
@@ -91,12 +92,12 @@ export function AboutTemplate({ page }: { page: PublicPage }) {
     <JsonLd data={{ "@context": "https://schema.org", "@graph": [
       breadcrumbJsonLd(crumbs, ORIGIN),
       { "@type": "AboutPage", name: page.title, url: page.canonical, description: page.description, inLanguage: "de-DE", mainEntity: { "@id": `${ORIGIN}/#organization` } },
-      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: staticAsset("/brand/logo.svg"), founder: { "@id": `${page.canonical}#gruender` } },
+      { "@type": "Organization", "@id": `${ORIGIN}/#organization`, name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: staticAsset("/brand/logo.svg"), founder: { "@id": CHRISTIAN_PERSON_ID } },
       {
-        "@type": "Person", "@id": `${page.canonical}#gruender`, name: FOUNDER.name, jobTitle: FOUNDER.role, image: staticAsset(FOUNDER.image), url: `${page.canonical}#gruender`,
+        ...christianPerson(), jobTitle: FOUNDER.role, image: staticAsset(FOUNDER.image),
         knowsAbout: ["Online-Dating", "Partnersuche", "Singlebörsen"],
       },
-      { "@type": "Book", "@id": `${page.canonical}#buch`, name: FOUNDER.book.title, alternateName: FOUNDER.book.subtitle, isbn: FOUNDER.book.isbn, datePublished: FOUNDER.book.published, inLanguage: "de-DE", url: FOUNDER.book.url, author: { "@id": `${page.canonical}#gruender` } },
+      { "@type": "Book", "@id": `${page.canonical}#buch`, name: FOUNDER.book.title, alternateName: FOUNDER.book.subtitle, isbn: FOUNDER.book.isbn, datePublished: FOUNDER.book.published, inLanguage: "de-DE", url: FOUNDER.book.url, author: { "@id": CHRISTIAN_PERSON_ID } },
     ] }} />
     <DarkHero page={page} eyebrow="Über AkademikerSingles" title={<>Wo Anspruch auf <em>Gegenüber</em> trifft.</>} lead="Seit 2008 bringen wir gebildete Singles zusammen – mit manuell geprüften Profilen, absoluter Diskretion und dem Anspruch, dass sich Menschen auf Augenhöhe begegnen. Hier trifft Anspruch auf ein Gegenüber, das ihn teilt." image="/brand/success-stories.jpg" />
     <AboutNav current={page.path} />
