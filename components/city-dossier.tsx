@@ -6,7 +6,7 @@ import { nearestCities } from "@/lib/city-geo";
 import { sourceNumber, splitGuide, type CityProfile, type Metric, type Place } from "@/lib/city-profile";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
-import { trustLinks } from "@/lib/site";
+import { citySearchUrl, trustLinks } from "@/lib/site";
 import styles from "./city-dossier.module.css";
 
 type Crumb = { name: string; href: string };
@@ -249,6 +249,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <h2 className="display">Akademiker Singles aus <em>{city}</em> und Umgebung</h2>
         <p>Menschen aus Ihrer Region, die Bildung, Erfolg und niveauvolle Gespräche zu schätzen wissen – jedes Profil manuell geprüft.</p>
         <a className="btn btn-dark" href={register}>Jetzt kostenlos kennenlernen</a>
+        <a className="btn btn-outline" href={citySearchUrl(page.cityWidget.postcode)}>In {city} und Umgebung suchen</a>
       </div>
       <div className={styles.widgetFrame}>
         <iframe src={page.cityWidget.url} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />

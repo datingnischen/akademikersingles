@@ -1,5 +1,5 @@
 import { requestMarket } from "./market-context.ts";
-import { isAppPath, localizePath, platformOrigin, type MarketCode } from "./markets.ts";
+import { isAppPath, localizePath, marketOrigin, platformOrigin, type MarketCode } from "./markets.ts";
 
 export const DOMAIN = "akademikersingles.de";
 export const ORIGIN = `https://${DOMAIN}`;
@@ -21,6 +21,20 @@ export function registrationUrl(aid?: Aid | null, market: MarketCode = requestMa
 // Individuelle ICONY-Suche (Ort, Umkreis, Alter) – ebenfalls nur auf der Live-Plattform.
 export function searchUrl(aid?: Aid | null, market: MarketCode = requestMarket()): string {
   return legacyUrl(aid ? `/suche/?AID=${aid}` : "/suche/", market);
+}
+
+/**
+ * Such-CTA einer Stadtseite: Die PLZ gehört immer mit in die ICONY-Suche, sonst startet sie ohne Umkreis
+ * (Christian, 18.11.2026). Gesucht wird auf der Plattform des Marktes – solange .at/.ch nicht live sind, ist das
+ * akademikersingles.de, wo nur eine fünfstellige PLZ greift. Passt die PLZ nicht, bleibt es bei der offenen Suche.
+ */
+export function citySearchUrl(postcode: string | null | undefined, market: MarketCode = requestMarket()): string {
+  const origin = platformOrigin(market);
+  const searchMarket: MarketCode = origin === marketOrigin("at") ? "at" : origin === marketOrigin("ch") ? "ch" : "de";
+  const pattern = searchMarket === "de" ? /^\d{5}$/ : /^\d{4}$/;
+  return pattern.test(String(postcode ?? ""))
+    ? legacyUrl(`/suche/?plz=${postcode}&AID=location`, market)
+    : searchUrl("location", market);
 }
 
 export function loginUrl(): string {

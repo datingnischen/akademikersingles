@@ -12,7 +12,7 @@ import { getCityProfile } from "@/lib/city-profile";
 import { categoryDescription } from "@/lib/seo-meta";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
-import { ORIGIN, SITE_NAME } from "@/lib/site";
+import { ORIGIN, SITE_NAME, citySearchUrl } from "@/lib/site";
 import styles from "./templates.module.css";
 import { staticAsset } from "@/lib/static-asset";
 
@@ -253,6 +253,7 @@ export function LocationTemplate({ page }: { page: PublicPage }) {
         <h2 className="display">Akademiker Singles aus <em>{city}</em> und Umgebung</h2>
         <p>Entdecken Sie Menschen aus Ihrer Region, die Bildung, Erfolg und niveauvolle Gespräche zu schätzen wissen.</p>
         <a className="btn btn-dark" href={register}>Jetzt kostenlos kennenlernen</a>
+        <a className="btn btn-outline" href={citySearchUrl(page.cityWidget.postcode)}>In {city} und Umgebung suchen</a>
       </div>
       <div className={styles.widgetFrame}>
         <iframe src={page.cityWidget.url} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />
