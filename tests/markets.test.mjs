@@ -153,7 +153,22 @@ for (const [market, country, expected] of [["at", "Österreich", ["wien", "graz"
       const { west, east, south, north } = profile.map.bounds;
       for (const place of profile.places) assert.ok(place.lat > south && place.lat < north && place.lon > west && place.lon < east, `${file}: ${place.name} außerhalb der Karte`);
       assert.ok(profile.map.rivers.length + profile.map.areas.length > 0, `${file}: Karte ohne Geometrie (scripts/build_city_map.py)`);
-      assert.ok(profile.faq.length >= 4, `${file}: ${profile.faq.length} FAQ-Einträge`);
+      assert.ok(profile.faq.length >= 6, `${file}: nur ${profile.faq.length} FAQ-Einträge (Standard ab 20.11.2026: mindestens 6)`);
+      // Ausbaustand der AT/CH-Dossiers (20.11.2026): Hochschulen, Quartiere, Termine, Gesprächsstoff, eigener Stadt-Guide.
+      assert.ok((profile.universities ?? []).length >= 3, `${file}: mindestens drei Hochschulporträts`);
+      for (const item of profile.universities) assert.ok(item.name && item.kind && item.text && item.source, `${file}: Hochschule unvollständig (${item.name})`);
+      assert.ok((profile.quarters ?? []).length >= 4, `${file}: mindestens vier Quartiere`);
+      for (const quarter of profile.quarters) assert.ok(quarter.name && quarter.label && quarter.text.length > 80, `${file}: Quartier unvollständig (${quarter.name})`);
+      assert.ok((profile.agenda ?? []).length >= 3, `${file}: mindestens drei Termine`);
+      for (const item of profile.agenda) assert.ok(item.title && item.when && item.text.length > 80, `${file}: Termin unvollständig (${item.title})`);
+      assert.ok((profile.talkingPoints ?? []).length >= 3, `${file}: mindestens drei Gesprächsthemen`);
+      assert.ok((profile.guide ?? []).length >= 4, `${file}: eigener Stadt-Guide mit mindestens vier Kapiteln`);
+      for (const chapter of profile.guide) {
+        assert.ok(chapter.title && chapter.html.length > 600, `${file}: Guide-Kapitel zu dünn (${chapter.title})`);
+        assert.match(chapter.html, /^<p>/, `${file}: Guide-Kapitel ohne Absatz (${chapter.title})`);
+      }
+      assert.equal(new Set(profile.guide.map(chapter => chapter.title)).size, profile.guide.length, `${file}: Guide-Titel doppelt`);
+      assert.equal((profile.hubFacts ?? []).length, 4, `${file}: vier Vergleichswerte für die Städteübersicht`);
       const text = JSON.stringify(profile);
       assert.doesNotMatch(text, /garantiert|Garantie/i, `${file}: Werbeversprechen`);
       assert.doesNotMatch(text, /lebensfreunde/i, `${file}: fremde Marke`);
@@ -216,4 +231,39 @@ test("Logo je Markt: AT/CH mit eigener Domainendung", () => {
       assert.equal((svg.match(/<path\b/g) ?? []).length, 10, `${name}-${market}.svg: mit Landesendung`);
     }
   }
+});
+
+
+// Unique-Prüfung über alle AT/CH-Dossiers: kein Satz aus Guide, Quartieren, Terminen, Gesprächsstoff oder
+// Hochschulporträts darf wortgleich in zwei Städten stehen (Regel „Content muss unique sein“, 20.11.2026).
+test("AT/CH: Stadttexte sind je Stadt einzigartig und die Vergleichswerte einheitlich", () => {
+  const seen = new Map();
+  const labels = {};
+  let sentences = 0;
+  for (const market of ["at", "ch"]) {
+    const dir = new URL(`data/city-profiles/${market}/`, root);
+    for (const file of readdirSync(dir).filter(name => name.endsWith(".json"))) {
+      const profile = JSON.parse(readFileSync(new URL(file, dir), "utf8"));
+      const key = `${market}/${file}`;
+      const names = (profile.hubFacts ?? []).map(fact => fact.label).join(" | ");
+      labels[market] ??= names;
+      assert.equal(names, labels[market], `${key}: andere Vergleichswerte als die übrigen ${market.toUpperCase()}-Städte`);
+      const text = [
+        ...(profile.guide ?? []).map(chapter => chapter.html),
+        ...(profile.quarters ?? []).map(quarter => quarter.text),
+        ...(profile.talkingPoints ?? []).map(point => point.text),
+        ...(profile.agenda ?? []).map(item => item.text),
+        ...(profile.universities ?? []).map(item => item.text),
+      ].join(" ").replace(/<[^>]+>/g, " ");
+      for (const sentence of text.split(/(?<=[.!?])\s+(?=[A-ZÄÖÜ])/)) {
+        const normalized = sentence.trim().replace(/\s+/g, " ");
+        if (normalized.length < 70) continue;
+        sentences++;
+        const other = seen.get(normalized);
+        assert.ok(!other || other === key, `${key}: Satz steht wortgleich in ${other} – „${normalized.slice(0, 70)}…“`);
+        seen.set(normalized, key);
+      }
+    }
+  }
+  assert.ok(sentences > 500, `nur ${sentences} geprüfte Sätze`);
 });

@@ -1,2879 +1,2879 @@
 {
-  "path": "/partnersuche/leoben/",
-  "name": "Leoben",
-  "heroAlt": "Aquarellzeichnung von Leoben mit dem Schwammerlturm und der Mur im Vordergrund",
-  "country": "Österreich",
-  "region": "Steiermark",
-  "seoTitle": "Akademiker Singles in Leoben: Montanuniversität",
-  "seoDescription": "Leoben in Zahlen: Österreichs einzige Montanuniversität mit 2.929 Studierenden und 115 Männer je 100 Frauen zwischen 30 und 49 Jahren.",
-  "eyebrow": "Partnersuche für Akademiker · Universitätsstadt an der Mur",
-  "lead": "Leoben hat 24.581 Einwohner und eine Universität, die es in Österreich nur hier gibt: die Montanuniversität mit 2.929 Studierenden in den Bereichen Rohstoffe, Werkstoffe und Prozesse. Das prägt die Stadt bis in die Statistik – mit 1,85 Personen je Haushalt der kleinste Wert unserer österreichischen Dossiers und mit 115 Männern je 100 Frauen zwischen 30 und 49 der deutlichste Männerüberschuss. Wer das weiß, kann es nutzen: Für Frauen ist Leoben rechnerisch der günstigste Markt des Landes.",
-  "briefing": [
+ "path": "/partnersuche/leoben/",
+ "name": "Leoben",
+ "heroAlt": "Aquarellzeichnung von Leoben mit dem Schwammerlturm und der Mur im Vordergrund",
+ "country": "Österreich",
+ "region": "Steiermark",
+ "seoTitle": "Akademiker Singles in Leoben: Montanuniversität",
+ "seoDescription": "Leoben in Zahlen: Österreichs einzige Montanuniversität mit 2.929 Studierenden und 115 Männer je 100 Frauen zwischen 30 und 49 Jahren.",
+ "eyebrow": "Partnersuche für Akademiker · Universitätsstadt an der Mur",
+ "lead": "Leoben hat 24.581 Einwohner und eine Universität, die es in Österreich nur hier gibt: die Montanuniversität mit 2.929 Studierenden in den Bereichen Rohstoffe, Werkstoffe und Prozesse. Das prägt die Stadt bis in die Statistik – mit 1,85 Personen je Haushalt der kleinste Wert unserer österreichischen Dossiers und mit 115 Männern je 100 Frauen zwischen 30 und 49 der deutlichste Männerüberschuss. Wer das weiß, kann es nutzen: Für Frauen ist Leoben rechnerisch der günstigste Markt des Landes.",
+ "briefing": [
+  {
+   "value": "2.929",
+   "label": "Studierende an der Montanuniversität Leoben – Österreichs einziger Universität dieser Art",
+   "source": "uni-stud"
+  },
+  {
+   "value": "115",
+   "label": "Männer je 100 Frauen zwischen 30 und 49 Jahren – der höchste Wert unserer österreichischen Dossiers",
+   "source": "bev-alter"
+  },
+  {
+   "value": "1,85",
+   "label": "Personen je Privathaushalt – kleiner als in Wien (2,04) oder Graz (1,94)",
+   "source": "aest-gemeinde"
+  }
+ ],
+ "kpis": [
+  {
+   "value": "24.581",
+   "label": "Einwohnerinnen und Einwohner in Leoben",
+   "source": "aest-gemeinde",
+   "note": "Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024"
+  },
+  {
+   "value": "18.533",
+   "label": "Beschäftigte in Leobener Arbeitsstätten",
+   "source": "aest-gemeinde",
+   "note": "1.695 Arbeitsstätten, 1.296 Unternehmen; 87,7 % der Arbeitsstätten im tertiären Sektor"
+  },
+  {
+   "value": "15,8 %",
+   "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+   "source": "aest-gemeinde",
+   "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 %, Österreich 17,6 %"
+  },
+  {
+   "value": "12.779",
+   "label": "Privathaushalte mit durchschnittlich 1,85 Personen",
+   "source": "aest-gemeinde",
+   "note": "Abgestimmte Erwerbsstatistik 2024 – die kleinste durchschnittliche Haushaltsgröße unter den österreichischen Städten dieses Dossiers"
+  }
+ ],
+ "dossier": [
+  {
+   "key": "bildung",
+   "title": "Bildung",
+   "intro": "Eine Universität, die es in Österreich nur einmal gibt – mit 2.929 Studierenden auf 24.581 Einwohner.",
+   "metrics": [
     {
-      "value": "2.929",
-      "label": "Studierende an der Montanuniversität Leoben – Österreichs einziger Universität dieser Art",
-      "source": "uni-stud"
+     "value": "2.929",
+     "label": "Studierende an der Montanuniversität Leoben",
+     "source": "uni-stud",
+     "note": "Wintersemester 2025/26. In der Liste der 22 öffentlichen Universitäten Österreichs ist sie die einzige Montanuniversität; ihre Studienbereiche sind Rohstoffe, Werkstoffe und Prozesse",
+     "compareSource": "mul-profil"
     },
     {
-      "value": "115",
-      "label": "Männer je 100 Frauen zwischen 30 und 49 Jahren – der höchste Wert unserer österreichischen Dossiers",
-      "source": "bev-alter"
+     "value": "119",
+     "label": "Studierende je 1.000 Einwohnerinnen und Einwohner",
+     "source": "uni-stud",
+     "compareSource": "aest-gemeinde",
+     "note": "Berechnet: 2.929 Studierende auf 24.581 Einwohner. Zum Vergleich: In Wien sind es rund 82, in Graz rund 181 je 1.000 Einwohner"
     },
     {
-      "value": "1,85",
-      "label": "Personen je Privathaushalt – kleiner als in Wien (2,04) oder Graz (1,94)",
-      "source": "aest-gemeinde"
+     "value": "15,8 %",
+     "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+     "source": "aest-gemeinde",
+     "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 %, Österreich 17,6 %. Viele Absolventinnen und Absolventen der Montanuniversität gehen nach dem Studium in die Industriezentren",
+     "compare": {
+      "city": 15.8,
+      "germany": 17.6,
+      "unit": " %",
+      "max": 26
+     }
     }
-  ],
-  "kpis": [
+   ],
+   "takeaway": "Wer hier studiert hat, arbeitet später oft in der Industrie – und bringt ein Fachwissen mit, das man sonst selten am Tisch hat."
+  },
+  {
+   "key": "beruf",
+   "title": "Beruf & Erfolg",
+   "intro": "Industrie, Forschung und Gesundheitswesen: In Leoben arbeiten mehr Menschen, als dort wohnen – ein Erbe der Montanregion.",
+   "metrics": [
     {
-      "value": "24.581",
-      "label": "Einwohnerinnen und Einwohner in Leoben",
-      "source": "aest-gemeinde",
-      "note": "Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024"
+     "value": "18.533",
+     "label": "Beschäftigte in Leobener Arbeitsstätten",
+     "source": "aest-gemeinde",
+     "note": "1.695 Arbeitsstätten; 38,7 % der Leobener Erwerbstätigen pendeln aus der Stadt aus (Stichtag 31.10.2024)"
     },
     {
-      "value": "18.533",
-      "label": "Beschäftigte in Leobener Arbeitsstätten",
-      "source": "aest-gemeinde",
-      "note": "1.695 Arbeitsstätten, 1.296 Unternehmen; 87,7 % der Arbeitsstätten im tertiären Sektor"
+     "value": "6,7 %",
+     "label": "Arbeitslosenquote ab 15 Jahren – niedriger als in Graz (8,2 %) oder Linz (7,9 %)",
+     "source": "aest-gemeinde",
+     "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 5,3 %, Österreich 6,6 %"
     },
     {
-      "value": "15,8 %",
-      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
-      "source": "aest-gemeinde",
-      "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 %, Österreich 17,6 %"
-    },
-    {
-      "value": "12.779",
-      "label": "Privathaushalte mit durchschnittlich 1,85 Personen",
-      "source": "aest-gemeinde",
-      "note": "Abgestimmte Erwerbsstatistik 2024 – die kleinste durchschnittliche Haushaltsgröße unter den österreichischen Städten dieses Dossiers"
+     "value": "24,6 %",
+     "label": "der Bevölkerung haben keine österreichische Staatsangehörigkeit",
+     "source": "aest-gemeinde",
+     "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 14,4 %. Die internationale Studierendenschaft der Montanuniversität und die Industrie prägen diesen Wert"
     }
-  ],
-  "dossier": [
+   ],
+   "takeaway": "Hier wird an Material, Energie und Kreislaufwirtschaft gearbeitet – Themen, über die man abends tatsächlich reden kann."
+  },
+  {
+   "key": "singles",
+   "title": "Single-Leben",
+   "intro": "Der deutlichste Männerüberschuss unserer österreichischen Dossiers – und die kleinsten Haushalte.",
+   "metrics": [
     {
-      "key": "bildung",
-      "title": "Bildung",
-      "intro": "Eine Universität, die es in Österreich nur einmal gibt – mit 2.929 Studierenden auf 24.581 Einwohner.",
-      "metrics": [
-        {
-          "value": "2.929",
-          "label": "Studierende an der Montanuniversität Leoben",
-          "source": "uni-stud",
-          "note": "Wintersemester 2025/26. In der Liste der 22 öffentlichen Universitäten Österreichs ist sie die einzige Montanuniversität; ihre Studienbereiche sind Rohstoffe, Werkstoffe und Prozesse",
-          "compareSource": "mul-profil"
-        },
-        {
-          "value": "119",
-          "label": "Studierende je 1.000 Einwohnerinnen und Einwohner",
-          "source": "uni-stud",
-          "compareSource": "aest-gemeinde",
-          "note": "Berechnet: 2.929 Studierende auf 24.581 Einwohner. Zum Vergleich: In Wien sind es rund 82, in Graz rund 181 je 1.000 Einwohner"
-        },
-        {
-          "value": "15,8 %",
-          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
-          "source": "aest-gemeinde",
-          "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 %, Österreich 17,6 %. Viele Absolventinnen und Absolventen der Montanuniversität gehen nach dem Studium in die Industriezentren",
-          "compare": {
-            "city": 15.8,
-            "germany": 17.6,
-            "unit": " %",
-            "max": 26
-          }
-        }
-      ],
-      "takeaway": "Wer hier studiert hat, arbeitet später oft in der Industrie – und bringt ein Fachwissen mit, das man sonst selten am Tisch hat."
+     "value": "115",
+     "label": "Männer je 100 Frauen zwischen 30 und 49 Jahren",
+     "source": "bev-alter",
+     "note": "3.483 Männer zu 3.022 Frauen am 01.01.2026. In Klagenfurt sind es 99, in Wien 103, in Graz 109 – Leoben ist das andere Ende der Skala",
+     "compare": {
+      "city": 115.3,
+      "germany": 103,
+      "unit": "",
+      "max": 125
+     }
     },
     {
-      "key": "beruf",
-      "title": "Beruf & Erfolg",
-      "intro": "Industrie, Forschung und Gesundheitswesen: In Leoben arbeiten mehr Menschen, als dort wohnen – ein Erbe der Montanregion.",
-      "metrics": [
-        {
-          "value": "18.533",
-          "label": "Beschäftigte in Leobener Arbeitsstätten",
-          "source": "aest-gemeinde",
-          "note": "1.695 Arbeitsstätten; 38,7 % der Leobener Erwerbstätigen pendeln aus der Stadt aus (Stichtag 31.10.2024)"
-        },
-        {
-          "value": "6,7 %",
-          "label": "Arbeitslosenquote ab 15 Jahren – niedriger als in Graz (8,2 %) oder Linz (7,9 %)",
-          "source": "aest-gemeinde",
-          "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 5,3 %, Österreich 6,6 %"
-        },
-        {
-          "value": "24,6 %",
-          "label": "der Bevölkerung haben keine österreichische Staatsangehörigkeit",
-          "source": "aest-gemeinde",
-          "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 14,4 %. Die internationale Studierendenschaft der Montanuniversität und die Industrie prägen diesen Wert"
-        }
-      ],
-      "takeaway": "Hier wird an Material, Energie und Kreislaufwirtschaft gearbeitet – Themen, über die man abends tatsächlich reden kann."
+     "value": "1,85",
+     "label": "Personen je Privathaushalt – der kleinste Wert unserer österreichischen Städte",
+     "source": "aest-gemeinde",
+     "note": "12.779 Privathaushalte, Abgestimmte Erwerbsstatistik 2024; Steiermark 2,17, Österreich 2,18"
     },
     {
-      "key": "singles",
-      "title": "Single-Leben",
-      "intro": "Der deutlichste Männerüberschuss unserer österreichischen Dossiers – und die kleinsten Haushalte.",
-      "metrics": [
-        {
-          "value": "115",
-          "label": "Männer je 100 Frauen zwischen 30 und 49 Jahren",
-          "source": "bev-alter",
-          "note": "3.483 Männer zu 3.022 Frauen am 01.01.2026. In Klagenfurt sind es 99, in Wien 103, in Graz 109 – Leoben ist das andere Ende der Skala",
-          "compare": {
-            "city": 115.3,
-            "germany": 103,
-            "unit": "",
-            "max": 125
-          }
-        },
-        {
-          "value": "1,85",
-          "label": "Personen je Privathaushalt – der kleinste Wert unserer österreichischen Städte",
-          "source": "aest-gemeinde",
-          "note": "12.779 Privathaushalte, Abgestimmte Erwerbsstatistik 2024; Steiermark 2,17, Österreich 2,18"
-        },
-        {
-          "value": "23,9 %",
-          "label": "der Bevölkerung sind 65 Jahre oder älter",
-          "source": "aest-gemeinde",
-          "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 22,0 %, Österreich 20,2 %. Leoben ist älter als die Universitätsstädte – ein Effekt des industriellen Strukturwandels"
-        }
-      ],
-      "takeaway": "Für Frauen ist Leoben statistisch der freundlichste Markt des Landes – für Männer zählt hier mehr als anderswo, wie ein Profil geschrieben ist."
+     "value": "23,9 %",
+     "label": "der Bevölkerung sind 65 Jahre oder älter",
+     "source": "aest-gemeinde",
+     "note": "Abgestimmte Erwerbsstatistik 2024; Steiermark 22,0 %, Österreich 20,2 %. Leoben ist älter als die Universitätsstädte – ein Effekt des industriellen Strukturwandels"
     }
-  ],
-  "universities": [
-    {
-      "name": "Montanuniversität Leoben",
-      "kind": "Technische Universität für Rohstoffe, Werkstoffe und Prozesse",
-      "students": "2.929",
-      "source": "uni-stud",
-      "compareSource": "mul-profil",
-      "text": "Österreichs einzige Montanuniversität: Die Studienbereiche reichen von Rohstoffen über Werkstoffe bis zu Prozessen, der Forschungsansatz rund um Circular Engineering zielt auf ressourcenschonende Produkte und Kreislaufwirtschaft. Thematische Schwerpunkte sind Digitalisierung und KI, Energiewende, Rohstoffsicherheit und nachhaltige Technologien."
-    },
-    {
-      "name": "Erzherzog-Johann-Auditorium",
-      "kind": "Veranstaltungszentrum der Universität",
-      "students": "",
-      "source": "mul-profil",
-      "text": "Der zentrale Hörsaal der Universität ist zugleich Konzert- und Festsaal der Stadt: Hier spielt das Universitätsblasorchester Bergkapelle Leoben-Seegraben, hier findet das Absolvententreffen mit der Verleihung der Silbernen Diplome statt."
-    },
-    {
-      "name": "LKH Hochsteiermark, Standort Leoben",
-      "kind": "Landeskrankenhaus",
-      "students": "",
-      "source": "aest-gemeinde",
-      "text": "Das Krankenhaus versorgt die obersteirische Region und ist einer der größten Arbeitgeber der Stadt – mit entsprechend vielen Gesundheitsberufen im Bekanntenkreis."
-    }
-  ],
-  "universitiesNote": "Studierende an öffentlichen Universitäten im Wintersemester 2025/26 nach Statistik Austria.",
-  "clusters": [
-    {
-      "name": "Montanuniversität & Forschung",
-      "text": "2.929 Studierende in den Bereichen Rohstoffe, Werkstoffe und Prozesse (Wintersemester 2025/26); die Universität arbeitet schwerpunktmäßig zu Kreislaufwirtschaft, Energiewende und Rohstoffsicherheit."
-    },
-    {
-      "name": "Werkstoffe & Industrie",
-      "text": "Die Obersteiermark lebt von Metall-, Werkstoff- und Elektronikindustrie; 18.533 Menschen arbeiten in Leobener Arbeitsstätten – bei 24.581 Einwohnern."
-    },
-    {
-      "name": "Gesundheitswesen",
-      "text": "Das LKH Hochsteiermark am Standort Leoben versorgt die Region und zählt zu den größten Arbeitgebern der Stadt."
-    },
-    {
-      "name": "Kultur & Museen",
-      "text": "Museumscenter und Kunsthalle Leoben zeigen Ausstellungen, die regelmäßig überregionales Publikum anziehen."
-    },
-    {
-      "name": "Internationale Studierende",
-      "text": "24,6 % der Leobener Bevölkerung haben keine österreichische Staatsangehörigkeit – ein Wert, der für eine Stadt dieser Größe ungewöhnlich hoch ist (Steiermark 14,4 %)."
-    }
-  ],
-  "clusterSources": [
-    "uni-stud",
-    "aest-gemeinde",
-    "mul-profil"
-  ],
-  "places": [
-    {
-      "name": "Montanuniversität Leoben",
-      "kind": "work",
-      "district": "Josef-Heißl-Straße · Campus",
-      "text": "Österreichs einzige Montanuniversität mit 2.929 Studierenden – Rohstoffe, Werkstoffe, Prozesse und Circular Engineering.",
-      "lat": 47.3854,
-      "lon": 15.0935
-    },
-    {
-      "name": "Rohstoff- und Werkstoffzentrum",
-      "kind": "work",
-      "district": "Campus · Franz-Josef-Straße",
-      "text": "Labore und Institute der Universität, in denen an Materialien für Energiewende und Kreislaufwirtschaft gearbeitet wird.",
-      "lat": 47.382,
-      "lon": 15.0908
-    },
-    {
-      "name": "LKH Hochsteiermark, Standort Leoben",
-      "kind": "work",
-      "district": "Leoben · Vordernberger Straße",
-      "text": "Schwerpunktkrankenhaus der Obersteiermark und einer der größten Arbeitgeber der Stadt.",
-      "lat": 47.3805,
-      "lon": 15.085
-    },
-    {
-      "name": "AT&S Leoben-Hinterberg",
-      "kind": "work",
-      "district": "Hinterberg · Fabriksgasse",
-      "text": "Leiterplatten- und Hochtechnologiestandort im Süden der Stadt – einer der Gründe, warum Leoben technisch geprägte Lebensläufe anzieht.",
-      "lat": 47.3593,
-      "lon": 15.0653
-    },
-    {
-      "name": "Museumscenter & Kunsthalle Leoben",
-      "kind": "work",
-      "district": "Altstadt · Kirchgasse",
-      "text": "Ausstellungshaus mit überregionalem Programm, mitten in der Altstadt.",
-      "lat": 47.3807,
-      "lon": 15.0917
-    },
-    {
-      "name": "Hauptplatz Leoben",
-      "kind": "date",
-      "district": "Altstadt",
-      "text": "Der zentrale Platz mit Arkadenhäusern und Gastgärten – der Treffpunkt, den jeder findet.",
-      "lat": 47.3805,
-      "lon": 15.0947
-    },
-    {
-      "name": "Schwammerlturm",
-      "kind": "date",
-      "district": "Altstadt · Murbrücke",
-      "text": "Das Wahrzeichen der Stadt am Übergang zur Mur; von hier beginnt der Spazierweg am Fluss.",
-      "lat": 47.38,
-      "lon": 15.0926
-    },
-    {
-      "name": "Stadtpark Leoben",
-      "kind": "date",
-      "district": "Zentrum",
-      "text": "Grüner Ruhepunkt zwischen Hauptplatz und Bahnhof – gut für ein erstes Treffen ohne großen Aufwand.",
-      "lat": 47.3787,
-      "lon": 15.0955
-    },
-    {
-      "name": "Asia Spa Leoben",
-      "kind": "date",
-      "district": "Nördlich der Mur",
-      "text": "Thermen- und Saunabad am Flussufer, das die ganze Region nutzt. Für ein späteres Treffen eine naheliegende Idee.",
-      "lat": 47.387,
-      "lon": 15.0971
-    },
-    {
-      "name": "Massenburg",
-      "kind": "date",
-      "district": "Südlich der Altstadt",
-      "text": "Ruine über der Stadt mit Blick über Leoben und das Murtal – zwanzig Minuten bergauf, dafür das beste Panorama.",
-      "lat": 47.3754,
-      "lon": 15.0974
-    }
-  ],
-  "map": {
-    "bounds": {
-      "west": 15.05,
-      "east": 15.14,
-      "south": 47.352,
-      "north": 47.4
-    },
-    "rivers": [
-      {
-        "name": "Mur",
-        "major": true,
-        "points": [
-          [
-            47.33375,
-            15.02143
-          ],
-          [
-            47.33291,
-            15.02294
-          ],
-          [
-            47.33236,
-            15.02539
-          ],
-          [
-            47.33229,
-            15.02674
-          ],
-          [
-            47.3333,
-            15.02843
-          ],
-          [
-            47.33381,
-            15.03039
-          ],
-          [
-            47.3344,
-            15.03167
-          ],
-          [
-            47.3357,
-            15.03318
-          ],
-          [
-            47.33642,
-            15.03349
-          ],
-          [
-            47.33785,
-            15.03268
-          ],
-          [
-            47.33958,
-            15.03105
-          ],
-          [
-            47.3405,
-            15.03078
-          ],
-          [
-            47.34085,
-            15.03102
-          ],
-          [
-            47.3412,
-            15.0323
-          ],
-          [
-            47.34108,
-            15.03775
-          ],
-          [
-            47.34048,
-            15.04028
-          ],
-          [
-            47.33972,
-            15.04146
-          ],
-          [
-            47.33729,
-            15.04312
-          ],
-          [
-            47.3369,
-            15.04499
-          ],
-          [
-            47.33752,
-            15.04712
-          ],
-          [
-            47.33839,
-            15.04798
-          ],
-          [
-            47.33965,
-            15.05001
-          ],
-          [
-            47.34119,
-            15.05332
-          ],
-          [
-            47.34237,
-            15.05454
-          ],
-          [
-            47.34317,
-            15.05491
-          ],
-          [
-            47.34586,
-            15.05517
-          ],
-          [
-            47.34918,
-            15.05445
-          ],
-          [
-            47.35047,
-            15.05364
-          ],
-          [
-            47.35169,
-            15.05243
-          ],
-          [
-            47.35291,
-            15.05199
-          ],
-          [
-            47.35386,
-            15.05218
-          ],
-          [
-            47.35469,
-            15.05301
-          ],
-          [
-            47.35583,
-            15.05567
-          ],
-          [
-            47.35724,
-            15.05729
-          ],
-          [
-            47.35815,
-            15.05957
-          ],
-          [
-            47.35821,
-            15.0607
-          ],
-          [
-            47.35748,
-            15.063
-          ],
-          [
-            47.35579,
-            15.06461
-          ],
-          [
-            47.35535,
-            15.06581
-          ],
-          [
-            47.35534,
-            15.06657
-          ],
-          [
-            47.35561,
-            15.0674
-          ],
-          [
-            47.35683,
-            15.06881
-          ],
-          [
-            47.35931,
-            15.07045
-          ],
-          [
-            47.35983,
-            15.07198
-          ],
-          [
-            47.35975,
-            15.07282
-          ],
-          [
-            47.35918,
-            15.07427
-          ],
-          [
-            47.35738,
-            15.0768
-          ],
-          [
-            47.35705,
-            15.07802
-          ],
-          [
-            47.35705,
-            15.07936
-          ],
-          [
-            47.35769,
-            15.08098
-          ],
-          [
-            47.3578,
-            15.08183
-          ],
-          [
-            47.35774,
-            15.08301
-          ],
-          [
-            47.35664,
-            15.08567
-          ],
-          [
-            47.35656,
-            15.08651
-          ],
-          [
-            47.35663,
-            15.08961
-          ],
-          [
-            47.35724,
-            15.09106
-          ],
-          [
-            47.35796,
-            15.09155
-          ],
-          [
-            47.35886,
-            15.09153
-          ],
-          [
-            47.36009,
-            15.09058
-          ],
-          [
-            47.36194,
-            15.08971
-          ],
-          [
-            47.36356,
-            15.0886
-          ],
-          [
-            47.36413,
-            15.08856
-          ],
-          [
-            47.36511,
-            15.08941
-          ],
-          [
-            47.36535,
-            15.08998
-          ],
-          [
-            47.36556,
-            15.09215
-          ],
-          [
-            47.3655,
-            15.0943
-          ],
-          [
-            47.36597,
-            15.09632
-          ],
-          [
-            47.36649,
-            15.09715
-          ],
-          [
-            47.36725,
-            15.09758
-          ],
-          [
-            47.36897,
-            15.09744
-          ],
-          [
-            47.37067,
-            15.09716
-          ],
-          [
-            47.3748,
-            15.09483
-          ],
-          [
-            47.37833,
-            15.09337
-          ],
-          [
-            47.3792,
-            15.09254
-          ],
-          [
-            47.37996,
-            15.09128
-          ],
-          [
-            47.38094,
-            15.08865
-          ],
-          [
-            47.38159,
-            15.08746
-          ],
-          [
-            47.38195,
-            15.08719
-          ],
-          [
-            47.38232,
-            15.08727
-          ],
-          [
-            47.38361,
-            15.08852
-          ],
-          [
-            47.38435,
-            15.08964
-          ],
-          [
-            47.38714,
-            15.09186
-          ],
-          [
-            47.38815,
-            15.09349
-          ],
-          [
-            47.38856,
-            15.09462
-          ],
-          [
-            47.38865,
-            15.09564
-          ],
-          [
-            47.38837,
-            15.09708
-          ],
-          [
-            47.38752,
-            15.09825
-          ],
-          [
-            47.38626,
-            15.09847
-          ],
-          [
-            47.38344,
-            15.09653
-          ],
-          [
-            47.38221,
-            15.09703
-          ],
-          [
-            47.3812,
-            15.09782
-          ],
-          [
-            47.38029,
-            15.0987
-          ],
-          [
-            47.37965,
-            15.09969
-          ],
-          [
-            47.37941,
-            15.10079
-          ],
-          [
-            47.37947,
-            15.10233
-          ],
-          [
-            47.37974,
-            15.10349
-          ],
-          [
-            47.38037,
-            15.10448
-          ],
-          [
-            47.38094,
-            15.10468
-          ],
-          [
-            47.38152,
-            15.10461
-          ],
-          [
-            47.38381,
-            15.10334
-          ],
-          [
-            47.38458,
-            15.10326
-          ],
-          [
-            47.38612,
-            15.10362
-          ],
-          [
-            47.38746,
-            15.10428
-          ],
-          [
-            47.38828,
-            15.10516
-          ],
-          [
-            47.38844,
-            15.10595
-          ],
-          [
-            47.38834,
-            15.11063
-          ],
-          [
-            47.38811,
-            15.11207
-          ],
-          [
-            47.38743,
-            15.11401
-          ],
-          [
-            47.38711,
-            15.11638
-          ],
-          [
-            47.38761,
-            15.12088
-          ],
-          [
-            47.38707,
-            15.12342
-          ],
-          [
-            47.38624,
-            15.12593
-          ],
-          [
-            47.38648,
-            15.12797
-          ],
-          [
-            47.38742,
-            15.12905
-          ],
-          [
-            47.39041,
-            15.12924
-          ],
-          [
-            47.39209,
-            15.12876
-          ],
-          [
-            47.39337,
-            15.1266
-          ],
-          [
-            47.39377,
-            15.12657
-          ],
-          [
-            47.39402,
-            15.12705
-          ],
-          [
-            47.39377,
-            15.12912
-          ],
-          [
-            47.393,
-            15.13142
-          ],
-          [
-            47.39244,
-            15.13503
-          ],
-          [
-            47.39234,
-            15.13715
-          ],
-          [
-            47.39263,
-            15.13878
-          ],
-          [
-            47.39319,
-            15.13989
-          ],
-          [
-            47.39484,
-            15.14172
-          ],
-          [
-            47.39579,
-            15.14336
-          ],
-          [
-            47.39638,
-            15.14498
-          ],
-          [
-            47.39665,
-            15.14664
-          ],
-          [
-            47.39737,
-            15.148
-          ],
-          [
-            47.39836,
-            15.14901
-          ],
-          [
-            47.40016,
-            15.14902
-          ],
-          [
-            47.40071,
-            15.14938
-          ],
-          [
-            47.40057,
-            15.15036
-          ],
-          [
-            47.39896,
-            15.1524
-          ],
-          [
-            47.39846,
-            15.15334
-          ],
-          [
-            47.39815,
-            15.15511
-          ],
-          [
-            47.39836,
-            15.15653
-          ],
-          [
-            47.40071,
-            15.16475
-          ],
-          [
-            47.40099,
-            15.16778
-          ],
-          [
-            47.40267,
-            15.1719
-          ],
-          [
-            47.40333,
-            15.17556
-          ],
-          [
-            47.40339,
-            15.17755
-          ],
-          [
-            47.40213,
-            15.18399
-          ],
-          [
-            47.40231,
-            15.18602
-          ],
-          [
-            47.40328,
-            15.18905
-          ],
-          [
-            47.40494,
-            15.19307
-          ],
-          [
-            47.40745,
-            15.19701
-          ],
-          [
-            47.40983,
-            15.19897
-          ],
-          [
-            47.41146,
-            15.20139
-          ],
-          [
-            47.41279,
-            15.20388
-          ],
-          [
-            47.41324,
-            15.20674
-          ],
-          [
-            47.41207,
-            15.21064
-          ],
-          [
-            47.41141,
-            15.21134
-          ],
-          [
-            47.40812,
-            15.21311
-          ],
-          [
-            47.40752,
-            15.21361
-          ],
-          [
-            47.40717,
-            15.21449
-          ],
-          [
-            47.40696,
-            15.21793
-          ],
-          [
-            47.4055,
-            15.22122
-          ],
-          [
-            47.40527,
-            15.22318
-          ],
-          [
-            47.40535,
-            15.22602
-          ],
-          [
-            47.4051,
-            15.22799
-          ],
-          [
-            47.4046,
-            15.22924
-          ],
-          [
-            47.40135,
-            15.23127
-          ],
-          [
-            47.40047,
-            15.23261
-          ],
-          [
-            47.40015,
-            15.23356
-          ],
-          [
-            47.39999,
-            15.23482
-          ],
-          [
-            47.40008,
-            15.23565
-          ],
-          [
-            47.40109,
-            15.23779
-          ]
-        ]
-      },
-      {
-        "name": "Vordernberger Bach",
-        "major": false,
-        "points": [
-          [
-            47.40807,
-            15.02674
-          ],
-          [
-            47.40435,
-            15.03083
-          ],
-          [
-            47.40293,
-            15.03032
-          ],
-          [
-            47.40069,
-            15.03201
-          ],
-          [
-            47.40014,
-            15.03301
-          ],
-          [
-            47.3991,
-            15.03292
-          ],
-          [
-            47.39815,
-            15.03337
-          ],
-          [
-            47.39668,
-            15.03284
-          ],
-          [
-            47.39573,
-            15.03338
-          ],
-          [
-            47.39465,
-            15.03296
-          ],
-          [
-            47.39352,
-            15.03469
-          ],
-          [
-            47.39263,
-            15.03518
-          ],
-          [
-            47.39178,
-            15.03515
-          ],
-          [
-            47.3912,
-            15.03729
-          ],
-          [
-            47.39085,
-            15.03795
-          ],
-          [
-            47.39013,
-            15.03789
-          ],
-          [
-            47.38876,
-            15.03925
-          ],
-          [
-            47.3884,
-            15.04149
-          ],
-          [
-            47.38734,
-            15.04208
-          ],
-          [
-            47.38721,
-            15.04412
-          ],
-          [
-            47.38667,
-            15.04465
-          ],
-          [
-            47.38642,
-            15.04549
-          ],
-          [
-            47.38608,
-            15.04597
-          ],
-          [
-            47.38563,
-            15.0461
-          ],
-          [
-            47.38458,
-            15.04597
-          ],
-          [
-            47.3844,
-            15.04729
-          ],
-          [
-            47.3835,
-            15.04822
-          ],
-          [
-            47.38314,
-            15.05018
-          ],
-          [
-            47.38262,
-            15.05123
-          ],
-          [
-            47.38241,
-            15.05242
-          ],
-          [
-            47.38371,
-            15.0534
-          ],
-          [
-            47.38457,
-            15.05485
-          ],
-          [
-            47.38399,
-            15.05698
-          ],
-          [
-            47.38318,
-            15.06267
-          ],
-          [
-            47.37973,
-            15.07247
-          ],
-          [
-            47.37925,
-            15.07508
-          ],
-          [
-            47.37936,
-            15.07602
-          ],
-          [
-            47.3789,
-            15.07812
-          ],
-          [
-            47.37803,
-            15.07945
-          ],
-          [
-            47.37652,
-            15.08036
-          ],
-          [
-            47.37604,
-            15.081
-          ],
-          [
-            47.37544,
-            15.08356
-          ],
-          [
-            47.37562,
-            15.08418
-          ],
-          [
-            47.37538,
-            15.08525
-          ],
-          [
-            47.37542,
-            15.08591
-          ],
-          [
-            47.37606,
-            15.0895
-          ],
-          [
-            47.3772,
-            15.09026
-          ],
-          [
-            47.37818,
-            15.08967
-          ],
-          [
-            47.37887,
-            15.08981
-          ],
-          [
-            47.38073,
-            15.08922
-          ]
-        ]
-      }
-    ],
-    "areas": [
-      {
-        "kind": "green",
-        "name": "Stadtpark",
-        "points": [
-          [
-            47.37882,
-            15.09703
-          ],
-          [
-            47.37908,
-            15.09668
-          ],
-          [
-            47.37899,
-            15.09639
-          ],
-          [
-            47.37913,
-            15.09629
-          ],
-          [
-            47.3795,
-            15.09729
-          ],
-          [
-            47.37973,
-            15.09708
-          ],
-          [
-            47.37864,
-            15.09377
-          ],
-          [
-            47.37834,
-            15.09404
-          ],
-          [
-            47.3785,
-            15.09461
-          ],
-          [
-            47.37819,
-            15.09486
-          ],
-          [
-            47.3781,
-            15.09552
-          ],
-          [
-            47.37813,
-            15.09691
-          ],
-          [
-            47.37774,
-            15.09696
-          ],
-          [
-            47.37781,
-            15.09761
-          ],
-          [
-            47.37802,
-            15.09795
-          ],
-          [
-            47.37821,
-            15.098
-          ],
-          [
-            47.37843,
-            15.09796
-          ],
-          [
-            47.37837,
-            15.09712
-          ],
-          [
-            47.37882,
-            15.09703
-          ]
-        ]
-      }
-    ],
-    "labels": [
-      {
-        "text": "Mur",
-        "lat": 47.3835,
-        "lon": 15.1035
-      },
-      {
-        "text": "Altstadt",
-        "lat": 47.3803,
-        "lon": 15.0938,
-        "district": true
-      },
-      {
-        "text": "Donawitz",
-        "lat": 47.3753,
-        "lon": 15.072,
-        "district": true
-      },
-      {
-        "text": "Göss",
-        "lat": 47.3635,
-        "lon": 15.0917,
-        "district": true
-      },
-      {
-        "text": "Judendorf",
-        "lat": 47.3895,
-        "lon": 15.1005,
-        "district": true
-      },
-      {
-        "text": "Leitendorf",
-        "lat": 47.3705,
-        "lon": 15.0885,
-        "district": true
-      },
-      {
-        "text": "Hinterberg",
-        "lat": 47.3598,
-        "lon": 15.0668,
-        "district": true
-      }
-    ],
-    "boundary": [
-      [
-        [
-          47.39336,
-          15.12655
-        ],
-        [
-          47.39329,
-          15.12606
-        ],
-        [
-          47.39362,
-          15.12548
-        ],
-        [
-          47.39288,
-          15.12441
-        ],
-        [
-          47.39073,
-          15.12347
-        ],
-        [
-          47.39135,
-          15.12208
-        ],
-        [
-          47.39224,
-          15.12132
-        ],
-        [
-          47.39222,
-          15.12081
-        ],
-        [
-          47.39111,
-          15.11984
-        ],
-        [
-          47.39109,
-          15.11807
-        ],
-        [
-          47.39244,
-          15.11601
-        ],
-        [
-          47.39295,
-          15.11268
-        ],
-        [
-          47.39389,
-          15.11212
-        ],
-        [
-          47.3935,
-          15.11009
-        ],
-        [
-          47.39432,
-          15.11037
-        ],
-        [
-          47.39674,
-          15.10891
-        ],
-        [
-          47.39804,
-          15.10667
-        ],
-        [
-          47.39847,
-          15.10482
-        ],
-        [
-          47.39919,
-          15.10384
-        ],
-        [
-          47.40032,
-          15.10326
-        ],
-        [
-          47.40048,
-          15.10351
-        ],
-        [
-          47.403,
-          15.10335
-        ],
-        [
-          47.40513,
-          15.10481
-        ],
-        [
-          47.40601,
-          15.10378
-        ],
-        [
-          47.40621,
-          15.10148
-        ],
-        [
-          47.40752,
-          15.10232
-        ],
-        [
-          47.40844,
-          15.10419
-        ],
-        [
-          47.40913,
-          15.10484
-        ],
-        [
-          47.41065,
-          15.10513
-        ],
-        [
-          47.4118,
-          15.10587
-        ],
-        [
-          47.41357,
-          15.10553
-        ],
-        [
-          47.41536,
-          15.10466
-        ],
-        [
-          47.41689,
-          15.10471
-        ],
-        [
-          47.42072,
-          15.10319
-        ],
-        [
-          47.42461,
-          15.10048
-        ],
-        [
-          47.4235,
-          15.0983
-        ],
-        [
-          47.42233,
-          15.09474
-        ],
-        [
-          47.42214,
-          15.09163
-        ],
-        [
-          47.42135,
-          15.09066
-        ],
-        [
-          47.42096,
-          15.09039
-        ],
-        [
-          47.4185,
-          15.09103
-        ],
-        [
-          47.41603,
-          15.08958
-        ],
-        [
-          47.41385,
-          15.08932
-        ],
-        [
-          47.41219,
-          15.09029
-        ],
-        [
-          47.4107,
-          15.08941
-        ],
-        [
-          47.40954,
-          15.08936
-        ],
-        [
-          47.40653,
-          15.08674
-        ],
-        [
-          47.40386,
-          15.08649
-        ],
-        [
-          47.4011,
-          15.0818
-        ],
-        [
-          47.40008,
-          15.08079
-        ],
-        [
-          47.39779,
-          15.07601
-        ],
-        [
-          47.39492,
-          15.07181
-        ],
-        [
-          47.39492,
-          15.0702
-        ],
-        [
-          47.39462,
-          15.06994
-        ],
-        [
-          47.38953,
-          15.07071
-        ],
-        [
-          47.38718,
-          15.06966
-        ],
-        [
-          47.38588,
-          15.06981
-        ],
-        [
-          47.38501,
-          15.06708
-        ],
-        [
-          47.38541,
-          15.06476
-        ],
-        [
-          47.38515,
-          15.06451
-        ],
-        [
-          47.38589,
-          15.0633
-        ],
-        [
-          47.38634,
-          15.06116
-        ],
-        [
-          47.38723,
-          15.05971
-        ],
-        [
-          47.38704,
-          15.05892
-        ],
-        [
-          47.38725,
-          15.05822
-        ],
-        [
-          47.38692,
-          15.05692
-        ],
-        [
-          47.38583,
-          15.0561
-        ],
-        [
-          47.38686,
-          15.05424
-        ],
-        [
-          47.3872,
-          15.05278
-        ],
-        [
-          47.38812,
-          15.05063
-        ],
-        [
-          47.38943,
-          15.04945
-        ],
-        [
-          47.38948,
-          15.04879
-        ],
-        [
-          47.38921,
-          15.04823
-        ],
-        [
-          47.38615,
-          15.04592
-        ],
-        [
-          47.38458,
-          15.04603
-        ],
-        [
-          47.38451,
-          15.04736
-        ],
-        [
-          47.38393,
-          15.04762
-        ],
-        [
-          47.38349,
-          15.04825
-        ],
-        [
-          47.38294,
-          15.04733
-        ],
-        [
-          47.3829,
-          15.0477
-        ],
-        [
-          47.38185,
-          15.04739
-        ],
-        [
-          47.37989,
-          15.04768
-        ],
-        [
-          47.37936,
-          15.04596
-        ],
-        [
-          47.37981,
-          15.04132
-        ],
-        [
-          47.37889,
-          15.04055
-        ],
-        [
-          47.37891,
-          15.03886
-        ],
-        [
-          47.37947,
-          15.03583
-        ],
-        [
-          47.37872,
-          15.0362
-        ],
-        [
-          47.37758,
-          15.03487
-        ],
-        [
-          47.37605,
-          15.03429
-        ],
-        [
-          47.37597,
-          15.03305
-        ],
-        [
-          47.37246,
-          15.03474
-        ],
-        [
-          47.37233,
-          15.03055
-        ],
-        [
-          47.37211,
-          15.02966
-        ],
-        [
-          47.37042,
-          15.02943
-        ],
-        [
-          47.36921,
-          15.02864
-        ],
-        [
-          47.36883,
-          15.02718
-        ],
-        [
-          47.36851,
-          15.02783
-        ],
-        [
-          47.36891,
-          15.02885
-        ],
-        [
-          47.3669,
-          15.02929
-        ],
-        [
-          47.36632,
-          15.02984
-        ],
-        [
-          47.36604,
-          15.03065
-        ],
-        [
-          47.3657,
-          15.0298
-        ],
-        [
-          47.36534,
-          15.03008
-        ],
-        [
-          47.36478,
-          15.02968
-        ],
-        [
-          47.36397,
-          15.03293
-        ],
-        [
-          47.36341,
-          15.03406
-        ],
-        [
-          47.36323,
-          15.03704
-        ],
-        [
-          47.36101,
-          15.03815
-        ],
-        [
-          47.36082,
-          15.0393
-        ],
-        [
-          47.3605,
-          15.03923
-        ],
-        [
-          47.35943,
-          15.04093
-        ],
-        [
-          47.35912,
-          15.04183
-        ],
-        [
-          47.35808,
-          15.04325
-        ],
-        [
-          47.35783,
-          15.0447
-        ],
-        [
-          47.357,
-          15.0456
-        ],
-        [
-          47.35657,
-          15.04465
-        ],
-        [
-          47.35416,
-          15.04286
-        ],
-        [
-          47.35196,
-          15.04265
-        ],
-        [
-          47.35148,
-          15.04303
-        ],
-        [
-          47.34966,
-          15.04223
-        ],
-        [
-          47.347,
-          15.04338
-        ],
-        [
-          47.34419,
-          15.04326
-        ],
-        [
-          47.34382,
-          15.04388
-        ],
-        [
-          47.34548,
-          15.04876
-        ],
-        [
-          47.34705,
-          15.05135
-        ],
-        [
-          47.34772,
-          15.05172
-        ],
-        [
-          47.34782,
-          15.05465
-        ],
-        [
-          47.3458,
-          15.05517
-        ],
-        [
-          47.34385,
-          15.05506
-        ],
-        [
-          47.34237,
-          15.05453
-        ],
-        [
-          47.34176,
-          15.05397
-        ],
-        [
-          47.34072,
-          15.05256
-        ],
-        [
-          47.33864,
-          15.04827
-        ],
-        [
-          47.33752,
-          15.04713
-        ],
-        [
-          47.33698,
-          15.04565
-        ],
-        [
-          47.33701,
-          15.04393
-        ],
-        [
-          47.33676,
-          15.04369
-        ],
-        [
-          47.33488,
-          15.0452
-        ],
-        [
-          47.33421,
-          15.047
-        ],
-        [
-          47.33454,
-          15.04831
-        ],
-        [
-          47.33428,
-          15.04921
-        ],
-        [
-          47.33198,
-          15.05239
-        ],
-        [
-          47.32806,
-          15.05525
-        ],
-        [
-          47.3248,
-          15.05654
-        ],
-        [
-          47.3248,
-          15.05742
-        ],
-        [
-          47.32525,
-          15.05881
-        ],
-        [
-          47.32492,
-          15.05934
-        ],
-        [
-          47.32525,
-          15.06021
-        ],
-        [
-          47.32501,
-          15.0615
-        ],
-        [
-          47.32596,
-          15.06146
-        ],
-        [
-          47.32598,
-          15.06263
-        ],
-        [
-          47.32649,
-          15.06462
-        ],
-        [
-          47.32803,
-          15.06554
-        ],
-        [
-          47.32851,
-          15.06778
-        ],
-        [
-          47.32901,
-          15.06869
-        ],
-        [
-          47.33033,
-          15.06906
-        ],
-        [
-          47.33035,
-          15.06931
-        ],
-        [
-          47.33007,
-          15.07204
-        ],
-        [
-          47.32636,
-          15.07558
-        ],
-        [
-          47.32618,
-          15.07753
-        ],
-        [
-          47.32548,
-          15.07937
-        ],
-        [
-          47.32563,
-          15.0819
-        ],
-        [
-          47.32605,
-          15.08312
-        ],
-        [
-          47.32597,
-          15.08373
-        ],
-        [
-          47.3252,
-          15.0855
-        ],
-        [
-          47.32306,
-          15.08835
-        ],
-        [
-          47.32272,
-          15.09012
-        ],
-        [
-          47.32264,
-          15.09237
-        ],
-        [
-          47.32053,
-          15.09559
-        ],
-        [
-          47.31913,
-          15.09699
-        ],
-        [
-          47.31759,
-          15.10165
-        ],
-        [
-          47.31538,
-          15.10464
-        ],
-        [
-          47.3133,
-          15.10227
-        ],
-        [
-          47.31301,
-          15.10227
-        ],
-        [
-          47.31202,
-          15.1034
-        ],
-        [
-          47.31084,
-          15.10542
-        ],
-        [
-          47.31074,
-          15.10599
-        ],
-        [
-          47.30859,
-          15.1089
-        ],
-        [
-          47.30776,
-          15.10863
-        ],
-        [
-          47.30699,
-          15.10899
-        ],
-        [
-          47.30696,
-          15.11016
-        ],
-        [
-          47.30557,
-          15.11186
-        ],
-        [
-          47.30426,
-          15.11633
-        ],
-        [
-          47.30242,
-          15.11859
-        ],
-        [
-          47.30036,
-          15.12174
-        ],
-        [
-          47.29987,
-          15.12361
-        ],
-        [
-          47.29941,
-          15.12373
-        ],
-        [
-          47.2986,
-          15.12567
-        ],
-        [
-          47.29674,
-          15.12478
-        ],
-        [
-          47.29446,
-          15.12511
-        ],
-        [
-          47.29436,
-          15.12445
-        ],
-        [
-          47.29366,
-          15.12487
-        ],
-        [
-          47.2931,
-          15.12229
-        ],
-        [
-          47.29211,
-          15.12433
-        ],
-        [
-          47.29135,
-          15.12759
-        ],
-        [
-          47.29035,
-          15.13037
-        ],
-        [
-          47.28945,
-          15.13167
-        ],
-        [
-          47.28841,
-          15.13396
-        ],
-        [
-          47.28846,
-          15.13627
-        ],
-        [
-          47.28673,
-          15.14111
-        ],
-        [
-          47.28553,
-          15.14596
-        ],
-        [
-          47.28328,
-          15.14714
-        ],
-        [
-          47.28114,
-          15.14704
-        ],
-        [
-          47.28043,
-          15.15306
-        ],
-        [
-          47.28187,
-          15.15488
-        ],
-        [
-          47.28339,
-          15.15926
-        ],
-        [
-          47.28371,
-          15.15972
-        ],
-        [
-          47.28469,
-          15.15976
-        ],
-        [
-          47.28731,
-          15.16497
-        ],
-        [
-          47.28753,
-          15.16594
-        ],
-        [
-          47.28902,
-          15.16761
-        ],
-        [
-          47.28912,
-          15.17014
-        ],
-        [
-          47.29027,
-          15.17158
-        ],
-        [
-          47.29069,
-          15.17332
-        ],
-        [
-          47.29131,
-          15.17448
-        ],
-        [
-          47.29245,
-          15.17499
-        ],
-        [
-          47.2937,
-          15.17678
-        ],
-        [
-          47.29577,
-          15.17847
-        ],
-        [
-          47.29628,
-          15.17954
-        ],
-        [
-          47.2974,
-          15.18036
-        ],
-        [
-          47.29764,
-          15.18091
-        ],
-        [
-          47.29726,
-          15.18357
-        ],
-        [
-          47.29819,
-          15.18733
-        ],
-        [
-          47.2993,
-          15.18816
-        ],
-        [
-          47.30309,
-          15.18869
-        ],
-        [
-          47.30373,
-          15.18792
-        ],
-        [
-          47.30448,
-          15.18853
-        ],
-        [
-          47.30524,
-          15.1908
-        ],
-        [
-          47.30575,
-          15.19146
-        ],
-        [
-          47.30643,
-          15.18968
-        ],
-        [
-          47.30705,
-          15.18901
-        ],
-        [
-          47.3102,
-          15.1899
-        ],
-        [
-          47.31055,
-          15.19095
-        ],
-        [
-          47.31167,
-          15.19237
-        ],
-        [
-          47.31338,
-          15.19368
-        ],
-        [
-          47.31432,
-          15.19557
-        ],
-        [
-          47.31799,
-          15.19654
-        ],
-        [
-          47.31983,
-          15.19601
-        ],
-        [
-          47.32102,
-          15.19616
-        ],
-        [
-          47.32257,
-          15.1983
-        ],
-        [
-          47.32377,
-          15.2006
-        ],
-        [
-          47.3249,
-          15.20201
-        ],
-        [
-          47.32456,
-          15.20238
-        ],
-        [
-          47.32468,
-          15.20289
-        ],
-        [
-          47.32567,
-          15.20447
-        ],
-        [
-          47.32507,
-          15.20539
-        ],
-        [
-          47.32533,
-          15.20578
-        ],
-        [
-          47.32605,
-          15.20539
-        ],
-        [
-          47.32832,
-          15.20854
-        ],
-        [
-          47.32909,
-          15.21103
-        ],
-        [
-          47.32866,
-          15.21242
-        ],
-        [
-          47.3294,
-          15.21484
-        ],
-        [
-          47.33006,
-          15.21536
-        ],
-        [
-          47.32991,
-          15.21607
-        ],
-        [
-          47.33034,
-          15.21763
-        ],
-        [
-          47.33014,
-          15.21806
-        ],
-        [
-          47.33086,
-          15.22146
-        ],
-        [
-          47.3315,
-          15.22181
-        ],
-        [
-          47.33207,
-          15.22369
-        ],
-        [
-          47.3338,
-          15.22394
-        ],
-        [
-          47.33448,
-          15.22521
-        ],
-        [
-          47.33433,
-          15.22532
-        ],
-        [
-          47.33487,
-          15.22769
-        ],
-        [
-          47.33458,
-          15.2323
-        ],
-        [
-          47.33587,
-          15.23145
-        ],
-        [
-          47.33726,
-          15.23128
-        ],
-        [
-          47.33736,
-          15.22603
-        ],
-        [
-          47.33721,
-          15.22243
-        ],
-        [
-          47.33682,
-          15.2204
-        ],
-        [
-          47.33699,
-          15.21838
-        ],
-        [
-          47.33678,
-          15.2178
-        ],
-        [
-          47.34063,
-          15.2167
-        ],
-        [
-          47.34353,
-          15.21464
-        ],
-        [
-          47.34487,
-          15.21314
-        ],
-        [
-          47.34678,
-          15.20966
-        ],
-        [
-          47.34876,
-          15.2078
-        ],
-        [
-          47.353,
-          15.20699
-        ],
-        [
-          47.35459,
-          15.20613
-        ],
-        [
-          47.35551,
-          15.20604
-        ],
-        [
-          47.35699,
-          15.20409
-        ],
-        [
-          47.35746,
-          15.20266
-        ],
-        [
-          47.35937,
-          15.19954
-        ],
-        [
-          47.35933,
-          15.19821
-        ],
-        [
-          47.35831,
-          15.19717
-        ],
-        [
-          47.35818,
-          15.19659
-        ],
-        [
-          47.35829,
-          15.19562
-        ],
-        [
-          47.35895,
-          15.19434
-        ],
-        [
-          47.35949,
-          15.19114
-        ],
-        [
-          47.35827,
-          15.19051
-        ],
-        [
-          47.35839,
-          15.18905
-        ],
-        [
-          47.35784,
-          15.1876
-        ],
-        [
-          47.35867,
-          15.18549
-        ],
-        [
-          47.35917,
-          15.18326
-        ],
-        [
-          47.35908,
-          15.17913
-        ],
-        [
-          47.35871,
-          15.17688
-        ],
-        [
-          47.35904,
-          15.17511
-        ],
-        [
-          47.36037,
-          15.17289
-        ],
-        [
-          47.36209,
-          15.17369
-        ],
-        [
-          47.36358,
-          15.17308
-        ],
-        [
-          47.36394,
-          15.17238
-        ],
-        [
-          47.36392,
-          15.17052
-        ],
-        [
-          47.36419,
-          15.16994
-        ],
-        [
-          47.36472,
-          15.16966
-        ],
-        [
-          47.36649,
-          15.16967
-        ],
-        [
-          47.36757,
-          15.16884
-        ],
-        [
-          47.36903,
-          15.16686
-        ],
-        [
-          47.3703,
-          15.166
-        ],
-        [
-          47.3709,
-          15.16521
-        ],
-        [
-          47.37119,
-          15.16536
-        ],
-        [
-          47.37219,
-          15.16474
-        ],
-        [
-          47.37237,
-          15.16386
-        ],
-        [
-          47.37314,
-          15.16276
-        ],
-        [
-          47.37364,
-          15.16083
-        ],
-        [
-          47.37486,
-          15.15866
-        ],
-        [
-          47.3757,
-          15.158
-        ],
-        [
-          47.37678,
-          15.1562
-        ],
-        [
-          47.37872,
-          15.15568
-        ],
-        [
-          47.37952,
-          15.15472
-        ],
-        [
-          47.37993,
-          15.15312
-        ],
-        [
-          47.3805,
-          15.15241
-        ],
-        [
-          47.38143,
-          15.15
-        ],
-        [
-          47.38226,
-          15.14514
-        ],
-        [
-          47.3832,
-          15.14413
-        ],
-        [
-          47.3827,
-          15.1438
-        ],
-        [
-          47.3838,
-          15.14102
-        ],
-        [
-          47.38188,
-          15.14056
-        ],
-        [
-          47.3823,
-          15.13969
-        ],
-        [
-          47.38234,
-          15.13872
-        ],
-        [
-          47.38524,
-          15.13696
-        ],
-        [
-          47.38607,
-          15.13692
-        ],
-        [
-          47.38691,
-          15.13745
-        ],
-        [
-          47.38811,
-          15.13672
-        ],
-        [
-          47.38818,
-          15.13609
-        ],
-        [
-          47.38672,
-          15.1318
-        ],
-        [
-          47.38629,
-          15.13144
-        ],
-        [
-          47.38735,
-          15.13034
-        ],
-        [
-          47.38704,
-          15.12951
-        ],
-        [
-          47.38719,
-          15.12892
-        ],
-        [
-          47.38869,
-          15.12894
-        ],
-        [
-          47.38995,
-          15.12944
-        ],
-        [
-          47.3915,
-          15.12916
-        ],
-        [
-          47.39229,
-          15.1284
-        ],
-        [
-          47.39336,
-          15.12655
-        ]
-      ]
+   ],
+   "takeaway": "Für Frauen ist Leoben statistisch der freundlichste Markt des Landes – für Männer zählt hier mehr als anderswo, wie ein Profil geschrieben ist."
+  }
+ ],
+ "universities": [
+  {
+   "name": "Montanuniversität Leoben",
+   "kind": "Technische Universität für Rohstoffe, Werkstoffe und Prozesse",
+   "students": "2.929",
+   "source": "uni-stud",
+   "compareSource": "mul-profil",
+   "text": "Österreichs einzige Montanuniversität: Die Studienbereiche reichen von Rohstoffen über Werkstoffe bis zu Prozessen, der Forschungsansatz rund um Circular Engineering zielt auf ressourcenschonende Produkte und Kreislaufwirtschaft. Thematische Schwerpunkte sind Digitalisierung und KI, Energiewende, Rohstoffsicherheit und nachhaltige Technologien."
+  },
+  {
+   "name": "Erzherzog-Johann-Auditorium",
+   "kind": "Veranstaltungszentrum der Universität",
+   "students": "",
+   "source": "mul-profil",
+   "text": "Der zentrale Hörsaal der Universität ist zugleich Konzert- und Festsaal der Stadt: Hier spielt das Universitätsblasorchester Bergkapelle Leoben-Seegraben, hier findet das Absolvententreffen mit der Verleihung der Silbernen Diplome statt."
+  },
+  {
+   "name": "LKH Hochsteiermark, Standort Leoben",
+   "kind": "Landeskrankenhaus",
+   "students": "",
+   "source": "aest-gemeinde",
+   "text": "Das Krankenhaus versorgt die obersteirische Region und ist einer der größten Arbeitgeber der Stadt – mit entsprechend vielen Gesundheitsberufen im Bekanntenkreis."
+  }
+ ],
+ "universitiesNote": "Studierende an öffentlichen Universitäten im Wintersemester 2025/26 nach Statistik Austria.",
+ "clusters": [
+  {
+   "name": "Montanuniversität & Forschung",
+   "text": "2.929 Studierende in den Bereichen Rohstoffe, Werkstoffe und Prozesse (Wintersemester 2025/26); die Universität arbeitet schwerpunktmäßig zu Kreislaufwirtschaft, Energiewende und Rohstoffsicherheit."
+  },
+  {
+   "name": "Werkstoffe & Industrie",
+   "text": "Die Obersteiermark lebt von Metall-, Werkstoff- und Elektronikindustrie; 18.533 Menschen arbeiten in Leobener Arbeitsstätten – bei 24.581 Einwohnern."
+  },
+  {
+   "name": "Gesundheitswesen",
+   "text": "Das LKH Hochsteiermark am Standort Leoben versorgt die Region und zählt zu den größten Arbeitgebern der Stadt."
+  },
+  {
+   "name": "Kultur & Museen",
+   "text": "Museumscenter und Kunsthalle Leoben zeigen Ausstellungen, die regelmäßig überregionales Publikum anziehen."
+  },
+  {
+   "name": "Internationale Studierende",
+   "text": "24,6 % der Leobener Bevölkerung haben keine österreichische Staatsangehörigkeit – ein Wert, der für eine Stadt dieser Größe ungewöhnlich hoch ist (Steiermark 14,4 %)."
+  }
+ ],
+ "clusterSources": [
+  "uni-stud",
+  "aest-gemeinde",
+  "mul-profil"
+ ],
+ "places": [
+  {
+   "name": "Montanuniversität Leoben",
+   "kind": "work",
+   "district": "Josef-Heißl-Straße · Campus",
+   "text": "Österreichs einzige Montanuniversität mit 2.929 Studierenden – Rohstoffe, Werkstoffe, Prozesse und Circular Engineering.",
+   "lat": 47.3854,
+   "lon": 15.0935
+  },
+  {
+   "name": "Rohstoff- und Werkstoffzentrum",
+   "kind": "work",
+   "district": "Campus · Franz-Josef-Straße",
+   "text": "Labore und Institute der Universität, in denen an Materialien für Energiewende und Kreislaufwirtschaft gearbeitet wird.",
+   "lat": 47.382,
+   "lon": 15.0908
+  },
+  {
+   "name": "LKH Hochsteiermark, Standort Leoben",
+   "kind": "work",
+   "district": "Leoben · Vordernberger Straße",
+   "text": "Schwerpunktkrankenhaus der Obersteiermark und einer der größten Arbeitgeber der Stadt.",
+   "lat": 47.3805,
+   "lon": 15.085
+  },
+  {
+   "name": "AT&S Leoben-Hinterberg",
+   "kind": "work",
+   "district": "Hinterberg · Fabriksgasse",
+   "text": "Leiterplatten- und Hochtechnologiestandort im Süden der Stadt – einer der Gründe, warum Leoben technisch geprägte Lebensläufe anzieht.",
+   "lat": 47.3593,
+   "lon": 15.0653
+  },
+  {
+   "name": "Museumscenter & Kunsthalle Leoben",
+   "kind": "work",
+   "district": "Altstadt · Kirchgasse",
+   "text": "Ausstellungshaus mit überregionalem Programm, mitten in der Altstadt.",
+   "lat": 47.3807,
+   "lon": 15.0917
+  },
+  {
+   "name": "Hauptplatz Leoben",
+   "kind": "date",
+   "district": "Altstadt",
+   "text": "Der zentrale Platz mit Arkadenhäusern und Gastgärten – der Treffpunkt, den jeder findet.",
+   "lat": 47.3805,
+   "lon": 15.0947
+  },
+  {
+   "name": "Schwammerlturm",
+   "kind": "date",
+   "district": "Altstadt · Murbrücke",
+   "text": "Das Wahrzeichen der Stadt am Übergang zur Mur; von hier beginnt der Spazierweg am Fluss.",
+   "lat": 47.38,
+   "lon": 15.0926
+  },
+  {
+   "name": "Stadtpark Leoben",
+   "kind": "date",
+   "district": "Zentrum",
+   "text": "Grüner Ruhepunkt zwischen Hauptplatz und Bahnhof – gut für ein erstes Treffen ohne großen Aufwand.",
+   "lat": 47.3787,
+   "lon": 15.0955
+  },
+  {
+   "name": "Asia Spa Leoben",
+   "kind": "date",
+   "district": "Nördlich der Mur",
+   "text": "Thermen- und Saunabad am Flussufer, das die ganze Region nutzt. Für ein späteres Treffen eine naheliegende Idee.",
+   "lat": 47.387,
+   "lon": 15.0971
+  },
+  {
+   "name": "Massenburg",
+   "kind": "date",
+   "district": "Südlich der Altstadt",
+   "text": "Ruine über der Stadt mit Blick über Leoben und das Murtal – zwanzig Minuten bergauf, dafür das beste Panorama.",
+   "lat": 47.3754,
+   "lon": 15.0974
+  }
+ ],
+ "map": {
+  "bounds": {
+   "west": 15.05,
+   "east": 15.14,
+   "south": 47.352,
+   "north": 47.4
+  },
+  "rivers": [
+   {
+    "name": "Mur",
+    "major": true,
+    "points": [
+     [
+      47.33375,
+      15.02143
+     ],
+     [
+      47.33291,
+      15.02294
+     ],
+     [
+      47.33236,
+      15.02539
+     ],
+     [
+      47.33229,
+      15.02674
+     ],
+     [
+      47.3333,
+      15.02843
+     ],
+     [
+      47.33381,
+      15.03039
+     ],
+     [
+      47.3344,
+      15.03167
+     ],
+     [
+      47.3357,
+      15.03318
+     ],
+     [
+      47.33642,
+      15.03349
+     ],
+     [
+      47.33785,
+      15.03268
+     ],
+     [
+      47.33958,
+      15.03105
+     ],
+     [
+      47.3405,
+      15.03078
+     ],
+     [
+      47.34085,
+      15.03102
+     ],
+     [
+      47.3412,
+      15.0323
+     ],
+     [
+      47.34108,
+      15.03775
+     ],
+     [
+      47.34048,
+      15.04028
+     ],
+     [
+      47.33972,
+      15.04146
+     ],
+     [
+      47.33729,
+      15.04312
+     ],
+     [
+      47.3369,
+      15.04499
+     ],
+     [
+      47.33752,
+      15.04712
+     ],
+     [
+      47.33839,
+      15.04798
+     ],
+     [
+      47.33965,
+      15.05001
+     ],
+     [
+      47.34119,
+      15.05332
+     ],
+     [
+      47.34237,
+      15.05454
+     ],
+     [
+      47.34317,
+      15.05491
+     ],
+     [
+      47.34586,
+      15.05517
+     ],
+     [
+      47.34918,
+      15.05445
+     ],
+     [
+      47.35047,
+      15.05364
+     ],
+     [
+      47.35169,
+      15.05243
+     ],
+     [
+      47.35291,
+      15.05199
+     ],
+     [
+      47.35386,
+      15.05218
+     ],
+     [
+      47.35469,
+      15.05301
+     ],
+     [
+      47.35583,
+      15.05567
+     ],
+     [
+      47.35724,
+      15.05729
+     ],
+     [
+      47.35815,
+      15.05957
+     ],
+     [
+      47.35821,
+      15.0607
+     ],
+     [
+      47.35748,
+      15.063
+     ],
+     [
+      47.35579,
+      15.06461
+     ],
+     [
+      47.35535,
+      15.06581
+     ],
+     [
+      47.35534,
+      15.06657
+     ],
+     [
+      47.35561,
+      15.0674
+     ],
+     [
+      47.35683,
+      15.06881
+     ],
+     [
+      47.35931,
+      15.07045
+     ],
+     [
+      47.35983,
+      15.07198
+     ],
+     [
+      47.35975,
+      15.07282
+     ],
+     [
+      47.35918,
+      15.07427
+     ],
+     [
+      47.35738,
+      15.0768
+     ],
+     [
+      47.35705,
+      15.07802
+     ],
+     [
+      47.35705,
+      15.07936
+     ],
+     [
+      47.35769,
+      15.08098
+     ],
+     [
+      47.3578,
+      15.08183
+     ],
+     [
+      47.35774,
+      15.08301
+     ],
+     [
+      47.35664,
+      15.08567
+     ],
+     [
+      47.35656,
+      15.08651
+     ],
+     [
+      47.35663,
+      15.08961
+     ],
+     [
+      47.35724,
+      15.09106
+     ],
+     [
+      47.35796,
+      15.09155
+     ],
+     [
+      47.35886,
+      15.09153
+     ],
+     [
+      47.36009,
+      15.09058
+     ],
+     [
+      47.36194,
+      15.08971
+     ],
+     [
+      47.36356,
+      15.0886
+     ],
+     [
+      47.36413,
+      15.08856
+     ],
+     [
+      47.36511,
+      15.08941
+     ],
+     [
+      47.36535,
+      15.08998
+     ],
+     [
+      47.36556,
+      15.09215
+     ],
+     [
+      47.3655,
+      15.0943
+     ],
+     [
+      47.36597,
+      15.09632
+     ],
+     [
+      47.36649,
+      15.09715
+     ],
+     [
+      47.36725,
+      15.09758
+     ],
+     [
+      47.36897,
+      15.09744
+     ],
+     [
+      47.37067,
+      15.09716
+     ],
+     [
+      47.3748,
+      15.09483
+     ],
+     [
+      47.37833,
+      15.09337
+     ],
+     [
+      47.3792,
+      15.09254
+     ],
+     [
+      47.37996,
+      15.09128
+     ],
+     [
+      47.38094,
+      15.08865
+     ],
+     [
+      47.38159,
+      15.08746
+     ],
+     [
+      47.38195,
+      15.08719
+     ],
+     [
+      47.38232,
+      15.08727
+     ],
+     [
+      47.38361,
+      15.08852
+     ],
+     [
+      47.38435,
+      15.08964
+     ],
+     [
+      47.38714,
+      15.09186
+     ],
+     [
+      47.38815,
+      15.09349
+     ],
+     [
+      47.38856,
+      15.09462
+     ],
+     [
+      47.38865,
+      15.09564
+     ],
+     [
+      47.38837,
+      15.09708
+     ],
+     [
+      47.38752,
+      15.09825
+     ],
+     [
+      47.38626,
+      15.09847
+     ],
+     [
+      47.38344,
+      15.09653
+     ],
+     [
+      47.38221,
+      15.09703
+     ],
+     [
+      47.3812,
+      15.09782
+     ],
+     [
+      47.38029,
+      15.0987
+     ],
+     [
+      47.37965,
+      15.09969
+     ],
+     [
+      47.37941,
+      15.10079
+     ],
+     [
+      47.37947,
+      15.10233
+     ],
+     [
+      47.37974,
+      15.10349
+     ],
+     [
+      47.38037,
+      15.10448
+     ],
+     [
+      47.38094,
+      15.10468
+     ],
+     [
+      47.38152,
+      15.10461
+     ],
+     [
+      47.38381,
+      15.10334
+     ],
+     [
+      47.38458,
+      15.10326
+     ],
+     [
+      47.38612,
+      15.10362
+     ],
+     [
+      47.38746,
+      15.10428
+     ],
+     [
+      47.38828,
+      15.10516
+     ],
+     [
+      47.38844,
+      15.10595
+     ],
+     [
+      47.38834,
+      15.11063
+     ],
+     [
+      47.38811,
+      15.11207
+     ],
+     [
+      47.38743,
+      15.11401
+     ],
+     [
+      47.38711,
+      15.11638
+     ],
+     [
+      47.38761,
+      15.12088
+     ],
+     [
+      47.38707,
+      15.12342
+     ],
+     [
+      47.38624,
+      15.12593
+     ],
+     [
+      47.38648,
+      15.12797
+     ],
+     [
+      47.38742,
+      15.12905
+     ],
+     [
+      47.39041,
+      15.12924
+     ],
+     [
+      47.39209,
+      15.12876
+     ],
+     [
+      47.39337,
+      15.1266
+     ],
+     [
+      47.39377,
+      15.12657
+     ],
+     [
+      47.39402,
+      15.12705
+     ],
+     [
+      47.39377,
+      15.12912
+     ],
+     [
+      47.393,
+      15.13142
+     ],
+     [
+      47.39244,
+      15.13503
+     ],
+     [
+      47.39234,
+      15.13715
+     ],
+     [
+      47.39263,
+      15.13878
+     ],
+     [
+      47.39319,
+      15.13989
+     ],
+     [
+      47.39484,
+      15.14172
+     ],
+     [
+      47.39579,
+      15.14336
+     ],
+     [
+      47.39638,
+      15.14498
+     ],
+     [
+      47.39665,
+      15.14664
+     ],
+     [
+      47.39737,
+      15.148
+     ],
+     [
+      47.39836,
+      15.14901
+     ],
+     [
+      47.40016,
+      15.14902
+     ],
+     [
+      47.40071,
+      15.14938
+     ],
+     [
+      47.40057,
+      15.15036
+     ],
+     [
+      47.39896,
+      15.1524
+     ],
+     [
+      47.39846,
+      15.15334
+     ],
+     [
+      47.39815,
+      15.15511
+     ],
+     [
+      47.39836,
+      15.15653
+     ],
+     [
+      47.40071,
+      15.16475
+     ],
+     [
+      47.40099,
+      15.16778
+     ],
+     [
+      47.40267,
+      15.1719
+     ],
+     [
+      47.40333,
+      15.17556
+     ],
+     [
+      47.40339,
+      15.17755
+     ],
+     [
+      47.40213,
+      15.18399
+     ],
+     [
+      47.40231,
+      15.18602
+     ],
+     [
+      47.40328,
+      15.18905
+     ],
+     [
+      47.40494,
+      15.19307
+     ],
+     [
+      47.40745,
+      15.19701
+     ],
+     [
+      47.40983,
+      15.19897
+     ],
+     [
+      47.41146,
+      15.20139
+     ],
+     [
+      47.41279,
+      15.20388
+     ],
+     [
+      47.41324,
+      15.20674
+     ],
+     [
+      47.41207,
+      15.21064
+     ],
+     [
+      47.41141,
+      15.21134
+     ],
+     [
+      47.40812,
+      15.21311
+     ],
+     [
+      47.40752,
+      15.21361
+     ],
+     [
+      47.40717,
+      15.21449
+     ],
+     [
+      47.40696,
+      15.21793
+     ],
+     [
+      47.4055,
+      15.22122
+     ],
+     [
+      47.40527,
+      15.22318
+     ],
+     [
+      47.40535,
+      15.22602
+     ],
+     [
+      47.4051,
+      15.22799
+     ],
+     [
+      47.4046,
+      15.22924
+     ],
+     [
+      47.40135,
+      15.23127
+     ],
+     [
+      47.40047,
+      15.23261
+     ],
+     [
+      47.40015,
+      15.23356
+     ],
+     [
+      47.39999,
+      15.23482
+     ],
+     [
+      47.40008,
+      15.23565
+     ],
+     [
+      47.40109,
+      15.23779
+     ]
     ]
-  },
-  "mapSpec": {
-    "rivers": [
-      {
-        "name": "Mur",
-        "major": true
-      },
-      {
-        "name": "Vordernberger Bach"
-      }
+   },
+   {
+    "name": "Vordernberger Bach",
+    "major": false,
+    "points": [
+     [
+      47.40807,
+      15.02674
+     ],
+     [
+      47.40435,
+      15.03083
+     ],
+     [
+      47.40293,
+      15.03032
+     ],
+     [
+      47.40069,
+      15.03201
+     ],
+     [
+      47.40014,
+      15.03301
+     ],
+     [
+      47.3991,
+      15.03292
+     ],
+     [
+      47.39815,
+      15.03337
+     ],
+     [
+      47.39668,
+      15.03284
+     ],
+     [
+      47.39573,
+      15.03338
+     ],
+     [
+      47.39465,
+      15.03296
+     ],
+     [
+      47.39352,
+      15.03469
+     ],
+     [
+      47.39263,
+      15.03518
+     ],
+     [
+      47.39178,
+      15.03515
+     ],
+     [
+      47.3912,
+      15.03729
+     ],
+     [
+      47.39085,
+      15.03795
+     ],
+     [
+      47.39013,
+      15.03789
+     ],
+     [
+      47.38876,
+      15.03925
+     ],
+     [
+      47.3884,
+      15.04149
+     ],
+     [
+      47.38734,
+      15.04208
+     ],
+     [
+      47.38721,
+      15.04412
+     ],
+     [
+      47.38667,
+      15.04465
+     ],
+     [
+      47.38642,
+      15.04549
+     ],
+     [
+      47.38608,
+      15.04597
+     ],
+     [
+      47.38563,
+      15.0461
+     ],
+     [
+      47.38458,
+      15.04597
+     ],
+     [
+      47.3844,
+      15.04729
+     ],
+     [
+      47.3835,
+      15.04822
+     ],
+     [
+      47.38314,
+      15.05018
+     ],
+     [
+      47.38262,
+      15.05123
+     ],
+     [
+      47.38241,
+      15.05242
+     ],
+     [
+      47.38371,
+      15.0534
+     ],
+     [
+      47.38457,
+      15.05485
+     ],
+     [
+      47.38399,
+      15.05698
+     ],
+     [
+      47.38318,
+      15.06267
+     ],
+     [
+      47.37973,
+      15.07247
+     ],
+     [
+      47.37925,
+      15.07508
+     ],
+     [
+      47.37936,
+      15.07602
+     ],
+     [
+      47.3789,
+      15.07812
+     ],
+     [
+      47.37803,
+      15.07945
+     ],
+     [
+      47.37652,
+      15.08036
+     ],
+     [
+      47.37604,
+      15.081
+     ],
+     [
+      47.37544,
+      15.08356
+     ],
+     [
+      47.37562,
+      15.08418
+     ],
+     [
+      47.37538,
+      15.08525
+     ],
+     [
+      47.37542,
+      15.08591
+     ],
+     [
+      47.37606,
+      15.0895
+     ],
+     [
+      47.3772,
+      15.09026
+     ],
+     [
+      47.37818,
+      15.08967
+     ],
+     [
+      47.37887,
+      15.08981
+     ],
+     [
+      47.38073,
+      15.08922
+     ]
+    ]
+   }
+  ],
+  "areas": [
+   {
+    "kind": "green",
+    "name": "Stadtpark",
+    "points": [
+     [
+      47.37882,
+      15.09703
+     ],
+     [
+      47.37908,
+      15.09668
+     ],
+     [
+      47.37899,
+      15.09639
+     ],
+     [
+      47.37913,
+      15.09629
+     ],
+     [
+      47.3795,
+      15.09729
+     ],
+     [
+      47.37973,
+      15.09708
+     ],
+     [
+      47.37864,
+      15.09377
+     ],
+     [
+      47.37834,
+      15.09404
+     ],
+     [
+      47.3785,
+      15.09461
+     ],
+     [
+      47.37819,
+      15.09486
+     ],
+     [
+      47.3781,
+      15.09552
+     ],
+     [
+      47.37813,
+      15.09691
+     ],
+     [
+      47.37774,
+      15.09696
+     ],
+     [
+      47.37781,
+      15.09761
+     ],
+     [
+      47.37802,
+      15.09795
+     ],
+     [
+      47.37821,
+      15.098
+     ],
+     [
+      47.37843,
+      15.09796
+     ],
+     [
+      47.37837,
+      15.09712
+     ],
+     [
+      47.37882,
+      15.09703
+     ]
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Mur",
+    "lat": 47.3835,
+    "lon": 15.1035
+   },
+   {
+    "text": "Altstadt",
+    "lat": 47.3803,
+    "lon": 15.0938,
+    "district": true
+   },
+   {
+    "text": "Donawitz",
+    "lat": 47.3753,
+    "lon": 15.072,
+    "district": true
+   },
+   {
+    "text": "Göss",
+    "lat": 47.3635,
+    "lon": 15.0917,
+    "district": true
+   },
+   {
+    "text": "Judendorf",
+    "lat": 47.3895,
+    "lon": 15.1005,
+    "district": true
+   },
+   {
+    "text": "Leitendorf",
+    "lat": 47.3705,
+    "lon": 15.0885,
+    "district": true
+   },
+   {
+    "text": "Hinterberg",
+    "lat": 47.3598,
+    "lon": 15.0668,
+    "district": true
+   }
+  ],
+  "boundary": [
+   [
+    [
+     47.39336,
+     15.12655
     ],
-    "lakes": [],
-    "parks": [
-      "Stadtpark",
-      "Schwammerlpark"
+    [
+     47.39329,
+     15.12606
     ],
-    "boundary": "Leoben"
-  },
-  "quarters": [
-    {
-      "name": "Altstadt",
-      "label": "Zentrum an der Mur",
-      "text": "Hauptplatz mit Arkaden, Schwammerlturm an der Brücke, Museumscenter und Kunsthalle in Gehweite. Alles, was Leoben an Gastronomie hat, liegt in diesen paar hundert Metern."
-    },
-    {
-      "name": "Universitätsviertel",
-      "label": "Campus",
-      "text": "Nördlich der Altstadt liegen Universitätsgebäude, Institute und Studierendenheime. Hier ist Leoben am internationalsten – und abends am lautesten."
-    },
-    {
-      "name": "Judendorf",
-      "label": "Nördlich der Mur",
-      "text": "Wohnviertel mit Asia Spa, Sportstätten und kurzem Weg zur Universität. Beliebt bei Mitarbeitenden der Hochschule und des Krankenhauses."
-    },
-    {
-      "name": "Donawitz",
-      "label": "Industriegeschichte",
-      "text": "Der westliche Stadtteil ist seit über einem Jahrhundert Standort der Stahlindustrie. Wer die Geschichte der Region verstehen will, fängt hier an."
-    },
-    {
-      "name": "Göss",
-      "label": "Brauerei und Grün",
-      "text": "Im Süden liegt der Stadtteil mit der Brauerei und dem ehemaligen Stift. Ruhiger als das Zentrum, mit Radweg entlang der Mur."
-    },
-    {
-      "name": "Hinterberg",
-      "label": "Technologiestandort",
-      "text": "Hochtechnologie im Süden der Stadt, unter anderem der Leiterplattenstandort von AT&S. Arbeitsplätze, die Akademikerinnen und Akademiker in der Region halten."
-    }
-  ],
-  "agenda": [
-    {
-      "title": "Ledersprung der Montanuniversität",
-      "when": "Dezember",
-      "text": "Der traditionelle Aufnahmeritus der Montanuniversität gehört zum akademischen Jahreslauf der Stadt und steht im offiziellen Veranstaltungskalender der Universität. Wer in Leoben studiert hat, erzählt davon noch Jahrzehnte später.",
-      "href": "https://www.unileoben.ac.at/"
-    },
-    {
-      "title": "Konzerte der Bergkapelle Leoben-Seegraben",
-      "when": "Mehrmals im Jahr",
-      "text": "Das Universitätsblasorchester spielt im Erzherzog-Johann-Auditorium der Montanuniversität – ein Abend, bei dem Stadt und Hochschule tatsächlich zusammenkommen.",
-      "href": "https://www.unileoben.ac.at/"
-    },
-    {
-      "title": "Lange Nacht der Forschung",
-      "when": "Alle zwei Jahre",
-      "text": "Zuletzt am 24. April 2026 mit österreichweit über 3.000 Programmpunkten und mehr als 192.000 Besuchenden bei freiem Eintritt; die nächste Ausgabe ist für den 19. Mai 2028 angekündigt. In Leoben öffnen die Labore der Montanuniversität.",
-      "href": "https://langenachtderforschung.at/"
-    },
-    {
-      "title": "Murradweg und Massenburg",
-      "when": "Frühling bis Herbst",
-      "text": "Der Radweg entlang der Mur führt von der Altstadt nach Göss und weiter; wer lieber steigt, nimmt den Weg hinauf zur Massenburg mit Blick über das Murtal."
-    }
-  ],
-  "talkingPoints": [
-    {
-      "title": "Die einzige ihrer Art",
-      "text": "Unter Österreichs 22 öffentlichen Universitäten ist die Montanuniversität Leoben die einzige, die sich Rohstoffen, Werkstoffen und Prozessen widmet. Wer hier studiert hat, gehört einem kleinen, gut vernetzten Kreis an – und merkt das spätestens beim ersten Jobwechsel."
-    },
-    {
-      "title": "115 zu 100",
-      "text": "Auf 100 Frauen zwischen 30 und 49 kommen 115 Männer – der deutlichste Überschuss unserer österreichischen Dossiers. Für Frauen heißt das viel Auswahl, für Männer: Ein Profil, das die eigene Arbeit verständlich erklärt, hebt sich hier sofort ab."
-    },
-    {
-      "title": "Kleinstadt mit Weltmarkt",
-      "text": "24,6 Prozent der Leobenerinnen und Leobener haben keine österreichische Staatsangehörigkeit. Internationale Studierende und Industrie sorgen dafür, dass man in einer 24.000-Einwohner-Stadt regelmäßig Englisch hört."
-    }
-  ],
-  "faq": [
-    {
-      "question": "Was ist die Montanuniversität Leoben?",
-      "answer": "Sie ist Österreichs einzige Montanuniversität und widmet sich den Studienbereichen Rohstoffe, Werkstoffe und Prozesse – mit Schwerpunkten in Digitalisierung und KI, Energiewende, Rohstoffsicherheit und Kreislaufwirtschaft. Im Wintersemester 2025/26 sind dort 2.929 Studierende inskribiert (Statistik Austria)."
-    },
-    {
-      "question": "Wie viele Akademiker leben in Leoben?",
-      "answer": "15,8 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss (Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 Prozent, Österreich 17,6 Prozent). Der Wert liegt unter dem Bundesschnitt, weil viele Absolventinnen und Absolventen nach dem Studium in die Industriezentren ziehen."
-    },
-    {
-      "question": "Gibt es in Leoben mehr Männer oder Frauen?",
-      "answer": "In der Altersgruppe 30 bis 49 kommen auf 100 Frauen 115 Männer (3.483 zu 3.022 am 01.01.2026) – der deutlichste Männerüberschuss unserer österreichischen Stadtdossiers. In Klagenfurt liegt der Wert bei 99, in Wien bei 103."
-    },
-    {
-      "question": "Lohnt sich eine Stadt mit 24.581 Einwohnern für die Partnersuche?",
-      "answer": "Leoben hat 18.533 Arbeitsplätze, eine Universität mit internationalem Publikum und 12.779 Privathaushalte mit durchschnittlich nur 1,85 Personen – der kleinste Wert unserer österreichischen Städte. Der Markt ist überschaubar, dafür begegnet man einander wirklich. Für die Umgebung lohnt sich die Suche mit größerem Umkreis: Graz ist rund 60 Kilometer entfernt."
-    },
-    {
-      "question": "Wo lernen Akademiker in Leoben Singles kennen?",
-      "answer": "Bei Veranstaltungen der Montanuniversität im Erzherzog-Johann-Auditorium, bei der Langen Nacht der Forschung, im Museumscenter und in der Kunsthalle, am Hauptplatz, im Stadtpark, im Asia Spa oder bei einem Aufstieg zur Massenburg. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles: Jedes Profil wird manuell geprüft."
-    },
-    {
-      "question": "Wie international ist Leoben?",
-      "answer": "24,6 Prozent der Bevölkerung haben keine österreichische Staatsangehörigkeit – deutlich mehr als in der Steiermark insgesamt (14,4 Prozent). Die Montanuniversität zieht Studierende aus vielen Ländern an, und die Industrie der Region beschäftigt internationale Fachkräfte."
-    },
-    {
-      "question": "Ist die Anmeldung kostenlos?",
-      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
-    }
-  ],
-  "guide": [
-    {
-      "title": "Eine Universität, die es in Österreich nur hier gibt",
-      "html": "<p>Unter den 22 öffentlichen Universitäten Österreichs ist die Montanuniversität Leoben die einzige ihrer Art. Sie widmet sich den Studienbereichen Rohstoffe, Werkstoffe und Prozesse; ihr Forschungsansatz rund um Circular Engineering zielt auf ressourcenschonende Produkte und Kreislaufwirtschaft, die thematischen Schwerpunkte reichen von Digitalisierung und KI über die Energiewende bis zur Rohstoffsicherheit.</p><p>2.929 Studierende sind im Wintersemester 2025/26 inskribiert – auf 24.581 Einwohner gerechnet sind das 119 Studierende je 1.000 Einwohner. Zum Vergleich: In Wien liegt dieser Wert bei rund 82. Leoben ist also, relativ betrachtet, eine der dichtesten Universitätsstädte des Landes.</p><p>Für die Partnersuche heißt das zweierlei. Erstens: Das akademische Milieu ist klein, aber sehr präsent – man kennt einander. Zweitens: Es ist technisch geprägt, mit allem, was daraus folgt – auch beim Geschlechterverhältnis.</p>"
-    },
-    {
-      "title": "115 zu 100: der schiefste Markt unserer Dossiers",
-      "html": "<p>Auf 100 Frauen zwischen 30 und 49 kommen in Leoben 115 Männer (3.483 zu 3.022 am 1. Januar 2026). Das ist der höchste Wert unserer österreichischen Stadtdossiers – deutlich über Graz (109), Innsbruck (110) oder Wien (103). Klagenfurt liegt am anderen Ende mit 99.</p><p>Statistik ist kein Schicksal, aber sie beschreibt Ausgangslagen. Für Frauen bedeutet dieser Wert: viel Auswahl, viele Anfragen, und die Möglichkeit, in Ruhe auszuwählen. Für Männer bedeutet er: Standardnachrichten gehen unter. Was hier wirklich hilft, ist Konkretheit – welches Projekt gerade läuft, was an der eigenen Arbeit spannend ist, warum man in Leoben lebt und nicht in Graz.</p><p>Dazu kommt die Haushaltsstruktur: 12.779 Privathaushalte mit durchschnittlich 1,85 Personen, der kleinste Wert unserer österreichischen Städte. Viele hier wohnen allein – Studierende, Pendlerinnen und Pendler, ältere Menschen nach dem industriellen Strukturwandel.</p>"
-    },
-    {
-      "title": "Industrie, Forschung, Klinik: wer hier arbeitet",
-      "html": "<p>18.533 Menschen arbeiten in Leobener Arbeitsstätten – bei 24.581 Einwohnern. 87,7 Prozent der Arbeitsstätten gehören zum tertiären Sektor, die industriellen Arbeitsplätze konzentrieren sich auf wenige große Standorte. Im Süden der Stadt liegt mit Hinterberg ein Hochtechnologiestandort, im Westen Donawitz mit über hundertjähriger Stahlgeschichte.</p><p>Die Arbeitslosenquote liegt bei 6,7 Prozent – niedriger als in Graz (8,2) oder Linz (7,9). Und 24,6 Prozent der Bevölkerung haben keine österreichische Staatsangehörigkeit, fast doppelt so viel wie in der Steiermark insgesamt. Universität und Industrie bringen Menschen aus vielen Ländern in eine kleine Stadt.</p><p>Beim Kennenlernen ist das praktisch: Fast jede Biografie hier lässt sich auf Universität, Industrie oder Gesundheitswesen zurückführen. Die Frage, woran jemand gerade arbeitet, führt in Leoben fast immer zu einer konkreten Antwort.</p>"
-    },
-    {
-      "title": "Wie die Stadt gebaut ist",
-      "html": "<p>Leoben liegt in einer Schleife der Mur. Im Zentrum die Altstadt mit Hauptplatz, Arkadenhäusern und dem Schwammerlturm an der Brücke, nördlich davon der Universitätscampus, jenseits des Flusses Judendorf mit dem Asia Spa, im Westen Donawitz, im Süden Göss mit Brauerei und ehemaligem Stift, ganz im Süden der Technologiestandort Hinterberg.</p><p>Alles liegt in Gehweite oder wenigen Radminuten. Das macht Verabredungen einfach: Hauptplatz als Treffpunkt, Stadtpark oder Murradweg für den Spaziergang, Museumscenter für Regentage, Massenburg für alle, die zwanzig Minuten bergauf nicht scheuen.</p><p>Wer mehr Auswahl braucht, fährt nach Graz – rund 60 Kilometer, mit der Bahn gut erreichbar. Viele Leobener Lebensläufe pendeln ohnehin zwischen beiden Städten, und für die Partnersuche lohnt es sich, den Suchradius entsprechend zu setzen.</p>"
-    },
-    {
-      "title": "Termine, bei denen Stadt und Universität zusammenkommen",
-      "html": "<p>Der Ledersprung ist der traditionelle Aufnahmeritus der Montanuniversität und steht im offiziellen Veranstaltungskalender der Hochschule – ein Abend im Dezember, an dem die Stadt sieht, wie eng Universität und Bergbautradition verbunden sind.</p><p>Regelmäßig spielt außerdem das Universitätsblasorchester Bergkapelle Leoben-Seegraben im Erzherzog-Johann-Auditorium, und zum Absolvententreffen mit der Verleihung der Silbernen Diplome kommen Jahrgänge zurück, die hier vor Jahrzehnten studiert haben.</p><p>Alle zwei Jahre kommt die Lange Nacht der Forschung dazu: zuletzt am 24. April 2026 mit österreichweit über 3.000 Programmpunkten und mehr als 192.000 Besuchenden bei freiem Eintritt, die nächste ist für den 19. Mai 2028 angekündigt. Für ein erstes Treffen ist das ideal – Programm, Bewegung und Gesprächsstoff inklusive.</p>"
-    },
-    {
-      "title": "Was die Zahlen nicht sagen",
-      "html": "<p>Die Werte dieser Seite stammen aus der Abgestimmten Erwerbsstatistik 2024 (Stichtag 31. Oktober 2024), dem Bevölkerungsstand zum 1. Januar 2026 und der Hochschulstatistik für das Wintersemester 2025/26. Dass die Montanuniversität Österreichs einzige Universität dieser Art ist, ergibt sich aus der amtlichen Liste der öffentlichen Universitäten.</p><p>Das Geschlechterverhältnis von 115 zu 100 betrifft die gesamte Stadtbevölkerung zwischen 30 und 49, nicht nur Singles – Zivilstandsdaten auf Gemeindeebene gibt es in Österreich nicht in dieser Form. Und die Akademikerquote von 15,8 Prozent misst, wer hier wohnt, nicht wer hier studiert hat.</p><p>Was bleibt: eine kleine Stadt mit einer einzigartigen Universität, internationalem Publikum, kurzen Wegen und einem klaren statistischen Ungleichgewicht. Wer das weiß, kann es für sich nutzen – in beide Richtungen.</p>"
-    }
-  ],
-  "hubFacts": [
-    {
-      "label": "Hochschulabschluss ab 15 Jahren",
-      "value": "15,8 %"
-    },
-    {
-      "label": "Studierende",
-      "value": "2.929"
-    },
-    {
-      "label": "Personen je Haushalt",
-      "value": "1,85"
-    },
-    {
-      "label": "Männer je 100 Frauen (30–49)",
-      "value": "115"
-    }
-  ],
-  "sources": [
-    {
-      "id": "aest-gemeinde",
-      "publisher": "Statistik Austria",
-      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen, Arbeitslosenquote",
-      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
-      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
-    },
-    {
-      "id": "uni-stud",
-      "publisher": "Statistik Austria",
-      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1): Montanuniversität Leoben 2.929 Studierende; die Liste der 22 öffentlichen Universitäten führt keine zweite Montanuniversität",
-      "stand": "Wintersemester 2025/26",
-      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
-    },
-    {
-      "id": "bev-alter",
-      "publisher": "Statistik Austria",
-      "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
-      "stand": "Stand 01.01.2026",
-      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
-    },
-    {
-      "id": "mul-profil",
-      "publisher": "Montanuniversität Leoben",
-      "title": "Startseite und Veranstaltungskalender: Studienbereiche Rohstoffe, Werkstoffe und Prozesse, Circular Engineering, Schwerpunkte Digitalisierung und KI, Energiewende, Rohstoffsicherheit; Veranstaltungen im Erzherzog-Johann-Auditorium",
-      "stand": "abgerufen 11/2026",
-      "url": "https://www.unileoben.ac.at/"
-    }
+    [
+     47.39362,
+     15.12548
+    ],
+    [
+     47.39288,
+     15.12441
+    ],
+    [
+     47.39073,
+     15.12347
+    ],
+    [
+     47.39135,
+     15.12208
+    ],
+    [
+     47.39224,
+     15.12132
+    ],
+    [
+     47.39222,
+     15.12081
+    ],
+    [
+     47.39111,
+     15.11984
+    ],
+    [
+     47.39109,
+     15.11807
+    ],
+    [
+     47.39244,
+     15.11601
+    ],
+    [
+     47.39295,
+     15.11268
+    ],
+    [
+     47.39389,
+     15.11212
+    ],
+    [
+     47.3935,
+     15.11009
+    ],
+    [
+     47.39432,
+     15.11037
+    ],
+    [
+     47.39674,
+     15.10891
+    ],
+    [
+     47.39804,
+     15.10667
+    ],
+    [
+     47.39847,
+     15.10482
+    ],
+    [
+     47.39919,
+     15.10384
+    ],
+    [
+     47.40032,
+     15.10326
+    ],
+    [
+     47.40048,
+     15.10351
+    ],
+    [
+     47.403,
+     15.10335
+    ],
+    [
+     47.40513,
+     15.10481
+    ],
+    [
+     47.40601,
+     15.10378
+    ],
+    [
+     47.40621,
+     15.10148
+    ],
+    [
+     47.40752,
+     15.10232
+    ],
+    [
+     47.40844,
+     15.10419
+    ],
+    [
+     47.40913,
+     15.10484
+    ],
+    [
+     47.41065,
+     15.10513
+    ],
+    [
+     47.4118,
+     15.10587
+    ],
+    [
+     47.41357,
+     15.10553
+    ],
+    [
+     47.41536,
+     15.10466
+    ],
+    [
+     47.41689,
+     15.10471
+    ],
+    [
+     47.42072,
+     15.10319
+    ],
+    [
+     47.42461,
+     15.10048
+    ],
+    [
+     47.4235,
+     15.0983
+    ],
+    [
+     47.42233,
+     15.09474
+    ],
+    [
+     47.42214,
+     15.09163
+    ],
+    [
+     47.42135,
+     15.09066
+    ],
+    [
+     47.42096,
+     15.09039
+    ],
+    [
+     47.4185,
+     15.09103
+    ],
+    [
+     47.41603,
+     15.08958
+    ],
+    [
+     47.41385,
+     15.08932
+    ],
+    [
+     47.41219,
+     15.09029
+    ],
+    [
+     47.4107,
+     15.08941
+    ],
+    [
+     47.40954,
+     15.08936
+    ],
+    [
+     47.40653,
+     15.08674
+    ],
+    [
+     47.40386,
+     15.08649
+    ],
+    [
+     47.4011,
+     15.0818
+    ],
+    [
+     47.40008,
+     15.08079
+    ],
+    [
+     47.39779,
+     15.07601
+    ],
+    [
+     47.39492,
+     15.07181
+    ],
+    [
+     47.39492,
+     15.0702
+    ],
+    [
+     47.39462,
+     15.06994
+    ],
+    [
+     47.38953,
+     15.07071
+    ],
+    [
+     47.38718,
+     15.06966
+    ],
+    [
+     47.38588,
+     15.06981
+    ],
+    [
+     47.38501,
+     15.06708
+    ],
+    [
+     47.38541,
+     15.06476
+    ],
+    [
+     47.38515,
+     15.06451
+    ],
+    [
+     47.38589,
+     15.0633
+    ],
+    [
+     47.38634,
+     15.06116
+    ],
+    [
+     47.38723,
+     15.05971
+    ],
+    [
+     47.38704,
+     15.05892
+    ],
+    [
+     47.38725,
+     15.05822
+    ],
+    [
+     47.38692,
+     15.05692
+    ],
+    [
+     47.38583,
+     15.0561
+    ],
+    [
+     47.38686,
+     15.05424
+    ],
+    [
+     47.3872,
+     15.05278
+    ],
+    [
+     47.38812,
+     15.05063
+    ],
+    [
+     47.38943,
+     15.04945
+    ],
+    [
+     47.38948,
+     15.04879
+    ],
+    [
+     47.38921,
+     15.04823
+    ],
+    [
+     47.38615,
+     15.04592
+    ],
+    [
+     47.38458,
+     15.04603
+    ],
+    [
+     47.38451,
+     15.04736
+    ],
+    [
+     47.38393,
+     15.04762
+    ],
+    [
+     47.38349,
+     15.04825
+    ],
+    [
+     47.38294,
+     15.04733
+    ],
+    [
+     47.3829,
+     15.0477
+    ],
+    [
+     47.38185,
+     15.04739
+    ],
+    [
+     47.37989,
+     15.04768
+    ],
+    [
+     47.37936,
+     15.04596
+    ],
+    [
+     47.37981,
+     15.04132
+    ],
+    [
+     47.37889,
+     15.04055
+    ],
+    [
+     47.37891,
+     15.03886
+    ],
+    [
+     47.37947,
+     15.03583
+    ],
+    [
+     47.37872,
+     15.0362
+    ],
+    [
+     47.37758,
+     15.03487
+    ],
+    [
+     47.37605,
+     15.03429
+    ],
+    [
+     47.37597,
+     15.03305
+    ],
+    [
+     47.37246,
+     15.03474
+    ],
+    [
+     47.37233,
+     15.03055
+    ],
+    [
+     47.37211,
+     15.02966
+    ],
+    [
+     47.37042,
+     15.02943
+    ],
+    [
+     47.36921,
+     15.02864
+    ],
+    [
+     47.36883,
+     15.02718
+    ],
+    [
+     47.36851,
+     15.02783
+    ],
+    [
+     47.36891,
+     15.02885
+    ],
+    [
+     47.3669,
+     15.02929
+    ],
+    [
+     47.36632,
+     15.02984
+    ],
+    [
+     47.36604,
+     15.03065
+    ],
+    [
+     47.3657,
+     15.0298
+    ],
+    [
+     47.36534,
+     15.03008
+    ],
+    [
+     47.36478,
+     15.02968
+    ],
+    [
+     47.36397,
+     15.03293
+    ],
+    [
+     47.36341,
+     15.03406
+    ],
+    [
+     47.36323,
+     15.03704
+    ],
+    [
+     47.36101,
+     15.03815
+    ],
+    [
+     47.36082,
+     15.0393
+    ],
+    [
+     47.3605,
+     15.03923
+    ],
+    [
+     47.35943,
+     15.04093
+    ],
+    [
+     47.35912,
+     15.04183
+    ],
+    [
+     47.35808,
+     15.04325
+    ],
+    [
+     47.35783,
+     15.0447
+    ],
+    [
+     47.357,
+     15.0456
+    ],
+    [
+     47.35657,
+     15.04465
+    ],
+    [
+     47.35416,
+     15.04286
+    ],
+    [
+     47.35196,
+     15.04265
+    ],
+    [
+     47.35148,
+     15.04303
+    ],
+    [
+     47.34966,
+     15.04223
+    ],
+    [
+     47.347,
+     15.04338
+    ],
+    [
+     47.34419,
+     15.04326
+    ],
+    [
+     47.34382,
+     15.04388
+    ],
+    [
+     47.34548,
+     15.04876
+    ],
+    [
+     47.34705,
+     15.05135
+    ],
+    [
+     47.34772,
+     15.05172
+    ],
+    [
+     47.34782,
+     15.05465
+    ],
+    [
+     47.3458,
+     15.05517
+    ],
+    [
+     47.34385,
+     15.05506
+    ],
+    [
+     47.34237,
+     15.05453
+    ],
+    [
+     47.34176,
+     15.05397
+    ],
+    [
+     47.34072,
+     15.05256
+    ],
+    [
+     47.33864,
+     15.04827
+    ],
+    [
+     47.33752,
+     15.04713
+    ],
+    [
+     47.33698,
+     15.04565
+    ],
+    [
+     47.33701,
+     15.04393
+    ],
+    [
+     47.33676,
+     15.04369
+    ],
+    [
+     47.33488,
+     15.0452
+    ],
+    [
+     47.33421,
+     15.047
+    ],
+    [
+     47.33454,
+     15.04831
+    ],
+    [
+     47.33428,
+     15.04921
+    ],
+    [
+     47.33198,
+     15.05239
+    ],
+    [
+     47.32806,
+     15.05525
+    ],
+    [
+     47.3248,
+     15.05654
+    ],
+    [
+     47.3248,
+     15.05742
+    ],
+    [
+     47.32525,
+     15.05881
+    ],
+    [
+     47.32492,
+     15.05934
+    ],
+    [
+     47.32525,
+     15.06021
+    ],
+    [
+     47.32501,
+     15.0615
+    ],
+    [
+     47.32596,
+     15.06146
+    ],
+    [
+     47.32598,
+     15.06263
+    ],
+    [
+     47.32649,
+     15.06462
+    ],
+    [
+     47.32803,
+     15.06554
+    ],
+    [
+     47.32851,
+     15.06778
+    ],
+    [
+     47.32901,
+     15.06869
+    ],
+    [
+     47.33033,
+     15.06906
+    ],
+    [
+     47.33035,
+     15.06931
+    ],
+    [
+     47.33007,
+     15.07204
+    ],
+    [
+     47.32636,
+     15.07558
+    ],
+    [
+     47.32618,
+     15.07753
+    ],
+    [
+     47.32548,
+     15.07937
+    ],
+    [
+     47.32563,
+     15.0819
+    ],
+    [
+     47.32605,
+     15.08312
+    ],
+    [
+     47.32597,
+     15.08373
+    ],
+    [
+     47.3252,
+     15.0855
+    ],
+    [
+     47.32306,
+     15.08835
+    ],
+    [
+     47.32272,
+     15.09012
+    ],
+    [
+     47.32264,
+     15.09237
+    ],
+    [
+     47.32053,
+     15.09559
+    ],
+    [
+     47.31913,
+     15.09699
+    ],
+    [
+     47.31759,
+     15.10165
+    ],
+    [
+     47.31538,
+     15.10464
+    ],
+    [
+     47.3133,
+     15.10227
+    ],
+    [
+     47.31301,
+     15.10227
+    ],
+    [
+     47.31202,
+     15.1034
+    ],
+    [
+     47.31084,
+     15.10542
+    ],
+    [
+     47.31074,
+     15.10599
+    ],
+    [
+     47.30859,
+     15.1089
+    ],
+    [
+     47.30776,
+     15.10863
+    ],
+    [
+     47.30699,
+     15.10899
+    ],
+    [
+     47.30696,
+     15.11016
+    ],
+    [
+     47.30557,
+     15.11186
+    ],
+    [
+     47.30426,
+     15.11633
+    ],
+    [
+     47.30242,
+     15.11859
+    ],
+    [
+     47.30036,
+     15.12174
+    ],
+    [
+     47.29987,
+     15.12361
+    ],
+    [
+     47.29941,
+     15.12373
+    ],
+    [
+     47.2986,
+     15.12567
+    ],
+    [
+     47.29674,
+     15.12478
+    ],
+    [
+     47.29446,
+     15.12511
+    ],
+    [
+     47.29436,
+     15.12445
+    ],
+    [
+     47.29366,
+     15.12487
+    ],
+    [
+     47.2931,
+     15.12229
+    ],
+    [
+     47.29211,
+     15.12433
+    ],
+    [
+     47.29135,
+     15.12759
+    ],
+    [
+     47.29035,
+     15.13037
+    ],
+    [
+     47.28945,
+     15.13167
+    ],
+    [
+     47.28841,
+     15.13396
+    ],
+    [
+     47.28846,
+     15.13627
+    ],
+    [
+     47.28673,
+     15.14111
+    ],
+    [
+     47.28553,
+     15.14596
+    ],
+    [
+     47.28328,
+     15.14714
+    ],
+    [
+     47.28114,
+     15.14704
+    ],
+    [
+     47.28043,
+     15.15306
+    ],
+    [
+     47.28187,
+     15.15488
+    ],
+    [
+     47.28339,
+     15.15926
+    ],
+    [
+     47.28371,
+     15.15972
+    ],
+    [
+     47.28469,
+     15.15976
+    ],
+    [
+     47.28731,
+     15.16497
+    ],
+    [
+     47.28753,
+     15.16594
+    ],
+    [
+     47.28902,
+     15.16761
+    ],
+    [
+     47.28912,
+     15.17014
+    ],
+    [
+     47.29027,
+     15.17158
+    ],
+    [
+     47.29069,
+     15.17332
+    ],
+    [
+     47.29131,
+     15.17448
+    ],
+    [
+     47.29245,
+     15.17499
+    ],
+    [
+     47.2937,
+     15.17678
+    ],
+    [
+     47.29577,
+     15.17847
+    ],
+    [
+     47.29628,
+     15.17954
+    ],
+    [
+     47.2974,
+     15.18036
+    ],
+    [
+     47.29764,
+     15.18091
+    ],
+    [
+     47.29726,
+     15.18357
+    ],
+    [
+     47.29819,
+     15.18733
+    ],
+    [
+     47.2993,
+     15.18816
+    ],
+    [
+     47.30309,
+     15.18869
+    ],
+    [
+     47.30373,
+     15.18792
+    ],
+    [
+     47.30448,
+     15.18853
+    ],
+    [
+     47.30524,
+     15.1908
+    ],
+    [
+     47.30575,
+     15.19146
+    ],
+    [
+     47.30643,
+     15.18968
+    ],
+    [
+     47.30705,
+     15.18901
+    ],
+    [
+     47.3102,
+     15.1899
+    ],
+    [
+     47.31055,
+     15.19095
+    ],
+    [
+     47.31167,
+     15.19237
+    ],
+    [
+     47.31338,
+     15.19368
+    ],
+    [
+     47.31432,
+     15.19557
+    ],
+    [
+     47.31799,
+     15.19654
+    ],
+    [
+     47.31983,
+     15.19601
+    ],
+    [
+     47.32102,
+     15.19616
+    ],
+    [
+     47.32257,
+     15.1983
+    ],
+    [
+     47.32377,
+     15.2006
+    ],
+    [
+     47.3249,
+     15.20201
+    ],
+    [
+     47.32456,
+     15.20238
+    ],
+    [
+     47.32468,
+     15.20289
+    ],
+    [
+     47.32567,
+     15.20447
+    ],
+    [
+     47.32507,
+     15.20539
+    ],
+    [
+     47.32533,
+     15.20578
+    ],
+    [
+     47.32605,
+     15.20539
+    ],
+    [
+     47.32832,
+     15.20854
+    ],
+    [
+     47.32909,
+     15.21103
+    ],
+    [
+     47.32866,
+     15.21242
+    ],
+    [
+     47.3294,
+     15.21484
+    ],
+    [
+     47.33006,
+     15.21536
+    ],
+    [
+     47.32991,
+     15.21607
+    ],
+    [
+     47.33034,
+     15.21763
+    ],
+    [
+     47.33014,
+     15.21806
+    ],
+    [
+     47.33086,
+     15.22146
+    ],
+    [
+     47.3315,
+     15.22181
+    ],
+    [
+     47.33207,
+     15.22369
+    ],
+    [
+     47.3338,
+     15.22394
+    ],
+    [
+     47.33448,
+     15.22521
+    ],
+    [
+     47.33433,
+     15.22532
+    ],
+    [
+     47.33487,
+     15.22769
+    ],
+    [
+     47.33458,
+     15.2323
+    ],
+    [
+     47.33587,
+     15.23145
+    ],
+    [
+     47.33726,
+     15.23128
+    ],
+    [
+     47.33736,
+     15.22603
+    ],
+    [
+     47.33721,
+     15.22243
+    ],
+    [
+     47.33682,
+     15.2204
+    ],
+    [
+     47.33699,
+     15.21838
+    ],
+    [
+     47.33678,
+     15.2178
+    ],
+    [
+     47.34063,
+     15.2167
+    ],
+    [
+     47.34353,
+     15.21464
+    ],
+    [
+     47.34487,
+     15.21314
+    ],
+    [
+     47.34678,
+     15.20966
+    ],
+    [
+     47.34876,
+     15.2078
+    ],
+    [
+     47.353,
+     15.20699
+    ],
+    [
+     47.35459,
+     15.20613
+    ],
+    [
+     47.35551,
+     15.20604
+    ],
+    [
+     47.35699,
+     15.20409
+    ],
+    [
+     47.35746,
+     15.20266
+    ],
+    [
+     47.35937,
+     15.19954
+    ],
+    [
+     47.35933,
+     15.19821
+    ],
+    [
+     47.35831,
+     15.19717
+    ],
+    [
+     47.35818,
+     15.19659
+    ],
+    [
+     47.35829,
+     15.19562
+    ],
+    [
+     47.35895,
+     15.19434
+    ],
+    [
+     47.35949,
+     15.19114
+    ],
+    [
+     47.35827,
+     15.19051
+    ],
+    [
+     47.35839,
+     15.18905
+    ],
+    [
+     47.35784,
+     15.1876
+    ],
+    [
+     47.35867,
+     15.18549
+    ],
+    [
+     47.35917,
+     15.18326
+    ],
+    [
+     47.35908,
+     15.17913
+    ],
+    [
+     47.35871,
+     15.17688
+    ],
+    [
+     47.35904,
+     15.17511
+    ],
+    [
+     47.36037,
+     15.17289
+    ],
+    [
+     47.36209,
+     15.17369
+    ],
+    [
+     47.36358,
+     15.17308
+    ],
+    [
+     47.36394,
+     15.17238
+    ],
+    [
+     47.36392,
+     15.17052
+    ],
+    [
+     47.36419,
+     15.16994
+    ],
+    [
+     47.36472,
+     15.16966
+    ],
+    [
+     47.36649,
+     15.16967
+    ],
+    [
+     47.36757,
+     15.16884
+    ],
+    [
+     47.36903,
+     15.16686
+    ],
+    [
+     47.3703,
+     15.166
+    ],
+    [
+     47.3709,
+     15.16521
+    ],
+    [
+     47.37119,
+     15.16536
+    ],
+    [
+     47.37219,
+     15.16474
+    ],
+    [
+     47.37237,
+     15.16386
+    ],
+    [
+     47.37314,
+     15.16276
+    ],
+    [
+     47.37364,
+     15.16083
+    ],
+    [
+     47.37486,
+     15.15866
+    ],
+    [
+     47.3757,
+     15.158
+    ],
+    [
+     47.37678,
+     15.1562
+    ],
+    [
+     47.37872,
+     15.15568
+    ],
+    [
+     47.37952,
+     15.15472
+    ],
+    [
+     47.37993,
+     15.15312
+    ],
+    [
+     47.3805,
+     15.15241
+    ],
+    [
+     47.38143,
+     15.15
+    ],
+    [
+     47.38226,
+     15.14514
+    ],
+    [
+     47.3832,
+     15.14413
+    ],
+    [
+     47.3827,
+     15.1438
+    ],
+    [
+     47.3838,
+     15.14102
+    ],
+    [
+     47.38188,
+     15.14056
+    ],
+    [
+     47.3823,
+     15.13969
+    ],
+    [
+     47.38234,
+     15.13872
+    ],
+    [
+     47.38524,
+     15.13696
+    ],
+    [
+     47.38607,
+     15.13692
+    ],
+    [
+     47.38691,
+     15.13745
+    ],
+    [
+     47.38811,
+     15.13672
+    ],
+    [
+     47.38818,
+     15.13609
+    ],
+    [
+     47.38672,
+     15.1318
+    ],
+    [
+     47.38629,
+     15.13144
+    ],
+    [
+     47.38735,
+     15.13034
+    ],
+    [
+     47.38704,
+     15.12951
+    ],
+    [
+     47.38719,
+     15.12892
+    ],
+    [
+     47.38869,
+     15.12894
+    ],
+    [
+     47.38995,
+     15.12944
+    ],
+    [
+     47.3915,
+     15.12916
+    ],
+    [
+     47.39229,
+     15.1284
+    ],
+    [
+     47.39336,
+     15.12655
+    ]
+   ]
   ]
+ },
+ "mapSpec": {
+  "rivers": [
+   {
+    "name": "Mur",
+    "major": true
+   },
+   {
+    "name": "Vordernberger Bach"
+   }
+  ],
+  "lakes": [],
+  "parks": [
+   "Stadtpark",
+   "Schwammerlpark"
+  ],
+  "boundary": "Leoben"
+ },
+ "quarters": [
+  {
+   "name": "Altstadt",
+   "label": "Zentrum an der Mur",
+   "text": "Hauptplatz mit Arkaden, Schwammerlturm an der Brücke, Museumscenter und Kunsthalle in Gehweite. Alles, was Leoben an Gastronomie hat, liegt in diesen paar hundert Metern."
+  },
+  {
+   "name": "Universitätsviertel",
+   "label": "Campus",
+   "text": "Nördlich der Altstadt liegen Universitätsgebäude, Institute und Studierendenheime. Hier ist Leoben am internationalsten – und abends am lautesten."
+  },
+  {
+   "name": "Judendorf",
+   "label": "Nördlich der Mur",
+   "text": "Wohnviertel mit Asia Spa, Sportstätten und kurzem Weg zur Universität. Beliebt bei Mitarbeitenden der Hochschule und des Krankenhauses."
+  },
+  {
+   "name": "Donawitz",
+   "label": "Industriegeschichte",
+   "text": "Der westliche Stadtteil ist seit über einem Jahrhundert Standort der Stahlindustrie. Wer die Geschichte der Region verstehen will, fängt hier an."
+  },
+  {
+   "name": "Göss",
+   "label": "Brauerei und Grün",
+   "text": "Im Süden liegt der Stadtteil mit der Brauerei und dem ehemaligen Stift. Ruhiger als das Zentrum, mit Radweg entlang der Mur."
+  },
+  {
+   "name": "Hinterberg",
+   "label": "Technologiestandort",
+   "text": "Hochtechnologie im Süden der Stadt, unter anderem der Leiterplattenstandort von AT&S. Arbeitsplätze, die Akademikerinnen und Akademiker in der Region halten."
+  }
+ ],
+ "agenda": [
+  {
+   "title": "Ledersprung der Montanuniversität",
+   "when": "Dezember",
+   "text": "Der traditionelle Aufnahmeritus der Montanuniversität gehört zum akademischen Jahreslauf der Stadt und steht im offiziellen Veranstaltungskalender der Universität. Wer in Leoben studiert hat, erzählt davon noch Jahrzehnte später.",
+   "href": "https://www.unileoben.ac.at/"
+  },
+  {
+   "title": "Konzerte der Bergkapelle Leoben-Seegraben",
+   "when": "Mehrmals im Jahr",
+   "text": "Das Universitätsblasorchester spielt im Erzherzog-Johann-Auditorium der Montanuniversität – ein Abend, bei dem Stadt und Hochschule tatsächlich zusammenkommen.",
+   "href": "https://www.unileoben.ac.at/"
+  },
+  {
+   "title": "Lange Nacht der Forschung",
+   "when": "Alle zwei Jahre",
+   "text": "Beim Durchgang am 24. April 2026 kamen österreichweit mehr als 192.000 Menschen zu über 3.000 Programmpunkten, der Eintritt war frei. In Leoben öffnet dann die Montanuniversität ihre Labore; angekündigt ist der 19. Mai 2028.",
+   "href": "https://langenachtderforschung.at/"
+  },
+  {
+   "title": "Murradweg und Massenburg",
+   "when": "Frühling bis Herbst",
+   "text": "Der Radweg entlang der Mur führt von der Altstadt nach Göss und weiter; wer lieber steigt, nimmt den Weg hinauf zur Massenburg mit Blick über das Murtal."
+  }
+ ],
+ "talkingPoints": [
+  {
+   "title": "Die einzige ihrer Art",
+   "text": "Unter Österreichs 22 öffentlichen Universitäten ist die Montanuniversität Leoben die einzige, die sich Rohstoffen, Werkstoffen und Prozessen widmet. Wer hier studiert hat, gehört einem kleinen, gut vernetzten Kreis an – und merkt das spätestens beim ersten Jobwechsel."
+  },
+  {
+   "title": "115 zu 100",
+   "text": "Auf 100 Frauen zwischen 30 und 49 kommen 115 Männer – der deutlichste Überschuss unserer österreichischen Dossiers. Für Frauen heißt das viel Auswahl, für Männer: Ein Profil, das die eigene Arbeit verständlich erklärt, hebt sich hier sofort ab."
+  },
+  {
+   "title": "Kleinstadt mit Weltmarkt",
+   "text": "24,6 Prozent der Leobenerinnen und Leobener haben keine österreichische Staatsangehörigkeit. Internationale Studierende und Industrie sorgen dafür, dass man in einer 24.000-Einwohner-Stadt regelmäßig Englisch hört."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Was ist die Montanuniversität Leoben?",
+   "answer": "Sie ist Österreichs einzige Montanuniversität und widmet sich den Studienbereichen Rohstoffe, Werkstoffe und Prozesse – mit Schwerpunkten in Digitalisierung und KI, Energiewende, Rohstoffsicherheit und Kreislaufwirtschaft. Im Wintersemester 2025/26 sind dort 2.929 Studierende inskribiert (Statistik Austria)."
+  },
+  {
+   "question": "Wie viele Akademiker leben in Leoben?",
+   "answer": "15,8 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss (Abgestimmte Erwerbsstatistik 2024; Steiermark 16,0 Prozent, Österreich 17,6 Prozent). Der Wert liegt unter dem Bundesschnitt, weil viele Absolventinnen und Absolventen nach dem Studium in die Industriezentren ziehen."
+  },
+  {
+   "question": "Gibt es in Leoben mehr Männer oder Frauen?",
+   "answer": "In der Altersgruppe 30 bis 49 kommen auf 100 Frauen 115 Männer (3.483 zu 3.022 am 01.01.2026) – der deutlichste Männerüberschuss unserer österreichischen Stadtdossiers. In Klagenfurt liegt der Wert bei 99, in Wien bei 103."
+  },
+  {
+   "question": "Lohnt sich eine Stadt mit 24.581 Einwohnern für die Partnersuche?",
+   "answer": "Leoben hat 18.533 Arbeitsplätze, eine Universität mit internationalem Publikum und 12.779 Privathaushalte mit durchschnittlich nur 1,85 Personen – der kleinste Wert unserer österreichischen Städte. Der Markt ist überschaubar, dafür begegnet man einander wirklich. Für die Umgebung lohnt sich die Suche mit größerem Umkreis: Graz ist rund 60 Kilometer entfernt."
+  },
+  {
+   "question": "Wo lernen Akademiker in Leoben Singles kennen?",
+   "answer": "Bei Veranstaltungen der Montanuniversität im Erzherzog-Johann-Auditorium, bei der Langen Nacht der Forschung, im Museumscenter und in der Kunsthalle, am Hauptplatz, im Stadtpark, im Asia Spa oder bei einem Aufstieg zur Massenburg. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles: Jedes Profil wird manuell geprüft."
+  },
+  {
+   "question": "Wie international ist Leoben?",
+   "answer": "24,6 Prozent der Bevölkerung haben keine österreichische Staatsangehörigkeit – deutlich mehr als in der Steiermark insgesamt (14,4 Prozent). Die Montanuniversität zieht Studierende aus vielen Ländern an, und die Industrie der Region beschäftigt internationale Fachkräfte."
+  },
+  {
+   "question": "Ist die Anmeldung kostenlos?",
+   "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+  }
+ ],
+ "guide": [
+  {
+   "title": "Eine Universität, die es in Österreich nur hier gibt",
+   "html": "<p>Unter den 22 öffentlichen Universitäten Österreichs ist die Montanuniversität Leoben die einzige ihrer Art. Sie widmet sich den Studienbereichen Rohstoffe, Werkstoffe und Prozesse; ihr Forschungsansatz rund um Circular Engineering zielt auf ressourcenschonende Produkte und Kreislaufwirtschaft, die thematischen Schwerpunkte reichen von Digitalisierung und KI über die Energiewende bis zur Rohstoffsicherheit.</p><p>2.929 Studierende sind im Wintersemester 2025/26 inskribiert – auf 24.581 Einwohner gerechnet sind das 119 Studierende je 1.000 Einwohner. Zum Vergleich: In Wien liegt dieser Wert bei rund 82. Leoben ist also, relativ betrachtet, eine der dichtesten Universitätsstädte des Landes.</p><p>Für die Partnersuche heißt das zweierlei. Erstens: Das akademische Milieu ist klein, aber sehr präsent – man kennt einander. Zweitens: Es ist technisch geprägt, mit allem, was daraus folgt – auch beim Geschlechterverhältnis.</p>"
+  },
+  {
+   "title": "115 zu 100: der schiefste Markt unserer Dossiers",
+   "html": "<p>Auf 100 Frauen zwischen 30 und 49 kommen in Leoben 115 Männer (3.483 zu 3.022 am 1. Januar 2026). Das ist der höchste Wert unserer österreichischen Stadtdossiers – deutlich über Graz (109), Innsbruck (110) oder Wien (103). Klagenfurt liegt am anderen Ende mit 99.</p><p>Statistik ist kein Schicksal, aber sie beschreibt Ausgangslagen. Für Frauen bedeutet dieser Wert: viel Auswahl, viele Anfragen, und die Möglichkeit, in Ruhe auszuwählen. Für Männer bedeutet er: Standardnachrichten gehen unter. Was hier wirklich hilft, ist Konkretheit – welches Projekt gerade läuft, was an der eigenen Arbeit spannend ist, warum man in Leoben lebt und nicht in Graz.</p><p>Dazu kommt die Haushaltsstruktur: 12.779 Privathaushalte mit durchschnittlich 1,85 Personen, der kleinste Wert unserer österreichischen Städte. Viele hier wohnen allein – Studierende, Pendlerinnen und Pendler, ältere Menschen nach dem industriellen Strukturwandel.</p>"
+  },
+  {
+   "title": "Industrie, Forschung, Klinik: wer hier arbeitet",
+   "html": "<p>18.533 Menschen arbeiten in Leobener Arbeitsstätten – bei 24.581 Einwohnern. 87,7 Prozent der Arbeitsstätten gehören zum tertiären Sektor, die industriellen Arbeitsplätze konzentrieren sich auf wenige große Standorte. Im Süden der Stadt liegt mit Hinterberg ein Hochtechnologiestandort, im Westen Donawitz mit über hundertjähriger Stahlgeschichte.</p><p>Die Arbeitslosenquote liegt bei 6,7 Prozent – niedriger als in Graz (8,2) oder Linz (7,9). Und 24,6 Prozent der Bevölkerung haben keine österreichische Staatsangehörigkeit, fast doppelt so viel wie in der Steiermark insgesamt. Universität und Industrie bringen Menschen aus vielen Ländern in eine kleine Stadt.</p><p>Beim Kennenlernen ist das praktisch: Fast jede Biografie hier lässt sich auf Universität, Industrie oder Gesundheitswesen zurückführen. Die Frage, woran jemand gerade arbeitet, führt in Leoben fast immer zu einer konkreten Antwort.</p>"
+  },
+  {
+   "title": "Wie die Stadt gebaut ist",
+   "html": "<p>Leoben liegt in einer Schleife der Mur. Im Zentrum die Altstadt mit Hauptplatz, Arkadenhäusern und dem Schwammerlturm an der Brücke, nördlich davon der Universitätscampus, jenseits des Flusses Judendorf mit dem Asia Spa, im Westen Donawitz, im Süden Göss mit Brauerei und ehemaligem Stift, ganz im Süden der Technologiestandort Hinterberg.</p><p>Alles liegt in Gehweite oder wenigen Radminuten. Das macht Verabredungen einfach: Hauptplatz als Treffpunkt, Stadtpark oder Murradweg für den Spaziergang, Museumscenter für Regentage, Massenburg für alle, die zwanzig Minuten bergauf nicht scheuen.</p><p>Wer mehr Auswahl braucht, fährt nach Graz – rund 60 Kilometer, mit der Bahn gut erreichbar. Viele Leobener Lebensläufe pendeln ohnehin zwischen beiden Städten, und für die Partnersuche lohnt es sich, den Suchradius entsprechend zu setzen.</p>"
+  },
+  {
+   "title": "Termine, bei denen Stadt und Universität zusammenkommen",
+   "html": "<p>Der Ledersprung ist der traditionelle Aufnahmeritus der Montanuniversität und steht im offiziellen Veranstaltungskalender der Hochschule – ein Abend im Dezember, an dem die Stadt sieht, wie eng Universität und Bergbautradition verbunden sind.</p><p>Regelmäßig spielt außerdem das Universitätsblasorchester Bergkapelle Leoben-Seegraben im Erzherzog-Johann-Auditorium, und zum Absolvententreffen mit der Verleihung der Silbernen Diplome kommen Jahrgänge zurück, die hier vor Jahrzehnten studiert haben.</p><p>Jedes zweite Jahr öffnet zusätzlich die Lange Nacht der Forschung die Labore – beim Durchgang am 24. April 2026 kamen österreichweit mehr als 192.000 Menschen, bei freiem Eintritt und über 3.000 Programmpunkten. Für ein erstes Treffen ist das ideal: Programm, Bewegung und Gesprächsstoff inklusive. Angekündigt ist der 19. Mai 2028.</p>"
+  },
+  {
+   "title": "Was die Zahlen nicht sagen",
+   "html": "<p>Belegt ist alles amtlich: Abgestimmte Erwerbsstatistik mit Stichtag 31. Oktober 2024, Bevölkerungsstand zu Jahresbeginn 2026, Hochschulstatistik des Wintersemesters 2025/26. Dass die Montanuniversität Österreichs einzige Universität dieser Art ist, ergibt sich aus der amtlichen Liste der öffentlichen Universitäten.</p><p>Das Geschlechterverhältnis von 115 zu 100 betrifft die gesamte Stadtbevölkerung zwischen 30 und 49, nicht nur Singles – Zivilstandsdaten auf Gemeindeebene gibt es in Österreich nicht in dieser Form. Und die Akademikerquote von 15,8 Prozent misst, wer hier wohnt, nicht wer hier studiert hat.</p><p>Was bleibt: eine kleine Stadt mit einer einzigartigen Universität, internationalem Publikum, kurzen Wegen und einem klaren statistischen Ungleichgewicht. Wer das weiß, kann es für sich nutzen – in beide Richtungen.</p>"
+  }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "15,8 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "2.929"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "1,85"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "115"
+  }
+ ],
+ "sources": [
+  {
+   "id": "aest-gemeinde",
+   "publisher": "Statistik Austria",
+   "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen, Arbeitslosenquote",
+   "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+   "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+  },
+  {
+   "id": "uni-stud",
+   "publisher": "Statistik Austria",
+   "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1): Montanuniversität Leoben 2.929 Studierende; die Liste der 22 öffentlichen Universitäten führt keine zweite Montanuniversität",
+   "stand": "Wintersemester 2025/26",
+   "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+  },
+  {
+   "id": "bev-alter",
+   "publisher": "Statistik Austria",
+   "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
+   "stand": "Stand 01.01.2026",
+   "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
+  },
+  {
+   "id": "mul-profil",
+   "publisher": "Montanuniversität Leoben",
+   "title": "Startseite und Veranstaltungskalender: Studienbereiche Rohstoffe, Werkstoffe und Prozesse, Circular Engineering, Schwerpunkte Digitalisierung und KI, Energiewende, Rohstoffsicherheit; Veranstaltungen im Erzherzog-Johann-Auditorium",
+   "stand": "abgerufen 11/2026",
+   "url": "https://www.unileoben.ac.at/"
+  }
+ ]
 }
