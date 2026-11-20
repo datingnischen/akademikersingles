@@ -25,6 +25,8 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "/partnersuche/klagenfurt/": [46.6247, 14.3053],
   "/partnersuche/krems/": [48.4103, 15.6000],
   "/partnersuche/leoben/": [47.3797, 15.0940],
+  "/partnersuche/genf/": [46.2044, 6.1432],
+  "/partnersuche/luzern/": [47.0502, 8.3093],
   "/partnersuche/zuerich/": [47.3769, 8.5417],
   "/partnersuche/bern/": [46.9480, 7.4474],
   "/partnersuche/basel/": [47.5596, 7.5886],

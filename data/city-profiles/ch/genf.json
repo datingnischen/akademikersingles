@@ -1,0 +1,2453 @@
+{
+ "path": "/partnersuche/genf/",
+ "name": "Genf",
+ "heroAlt": "Aquarellzeichnung von Genf mit dem Jet d'eau über dem Genfersee und der Altstadt",
+ "country": "Schweiz",
+ "region": "Genf",
+ "seoTitle": "Akademiker Singles in Genf: 49 % mit Tertiärabschluss",
+ "seoDescription": "Genf in Zahlen: 49 % Tertiärabschluss, 103 ledige Männer je 100 ledige Frauen und 24 % der jungen Paare haben sich über Dating-Portale gefunden.",
+ "eyebrow": "Partnersuche für Akademiker · Universitäts- und UNO-Stadt am See",
+ "lead": "Genf ist der ausgeglichenste Partnermarkt der Schweiz: Auf 100 ledige Frauen zwischen 25 und 54 kommen 103 ledige Männer – schweizweit sind es 125. Dazu die höchste Tertiärquote des Landes (49 Prozent der 25- bis 64-Jährigen), 210.767 Arbeitsplätze in einer Stadt mit 211.152 Einwohnern und eine Besonderheit, die es sonst nirgends gibt: Die Genfer Statistik erhebt, wie Paare einander kennengelernt haben. Bei Paaren, die seit 2019 zusammengefunden haben, war es in 24,3 Prozent der Fälle ein Dating-Portal.",
+ "briefing": [
+  {
+   "value": "49 %",
+   "label": "der 25- bis 64-Jährigen im Kanton Genf haben einen Tertiärabschluss – Frauen 50 %, Männer 48 %",
+   "source": "ocstat-formation"
+  },
+  {
+   "value": "103",
+   "label": "ledige Männer je 100 ledige Frauen (25 bis 54 Jahre) – schweizweit 125",
+   "source": "bfs-zivil"
+  },
+  {
+   "value": "24,3 %",
+   "label": "der Paare, die zwischen 2019 und 2023 entstanden sind, haben sich über Dating-Portale kennengelernt",
+   "source": "ocstat-rencontre"
+  }
+ ],
+ "kpis": [
+  {
+   "value": "211.152",
+   "label": "Einwohnerinnen und Einwohner der Stadt Genf",
+   "source": "einwohner",
+   "note": "Ständige Wohnbevölkerung am 31.12.2025"
+  },
+  {
+   "value": "210.767",
+   "label": "Arbeitsplätze in der Stadt Genf",
+   "source": "ocstat-emplois",
+   "note": "24.728 Arbeitsstätten, Stand Dezember 2024 – fast so viele Arbeitsplätze wie Einwohner"
+  },
+  {
+   "value": "17.520",
+   "label": "Studierende an Universität Genf und Graduate Institute",
+   "source": "bfs-stud",
+   "note": "Wintersemester 2025/26: Université de Genève 16.481, Geneva Graduate Institute (IHEID) 1.039; Bachelor bis Doktorat ohne Weiterbildung"
+  },
+  {
+   "value": "47,5 %",
+   "label": "Einpersonenhaushalte in der Stadt Genf",
+   "source": "ocstat-menages",
+   "note": "42.629 von 89.749 Privathaushalten, Fünfjahresmittel 2020–2024"
+  }
+ ],
+ "dossier": [
+  {
+   "key": "bildung",
+   "title": "Bildung",
+   "intro": "Nirgends in der Schweiz ist der Anteil der Hochqualifizierten so hoch – und nirgends liegen Frauen und Männer dabei so gleichauf.",
+   "metrics": [
+    {
+     "value": "49 %",
+     "label": "der 25- bis 64-Jährigen haben einen Tertiärabschluss",
+     "source": "ocstat-formation",
+     "note": "Kanton Genf, Fünfjahresmittel 2019–2023 (Strukturerhebung): 49 % Tertiärstufe, 31 % Sekundarstufe II, 20 % obligatorische Schule. Bei den Erwerbstätigen sind es 53 %",
+     "compare": {
+      "city": 49,
+      "germany": 31,
+      "unit": " %",
+      "max": 60,
+      "cityLabel": "Tertiärstufe",
+      "compareLabel": "Sekundarstufe II"
+     }
+    },
+    {
+     "value": "50 %",
+     "label": "der Frauen und 48 % der Männer im erwerbsfähigen Alter haben einen Tertiärabschluss",
+     "source": "ocstat-formation",
+     "note": "Kanton Genf, 25 bis 64 Jahre, Mittel 2019–2023. Bei den 25- bis 44-Jährigen haben 84 % mindestens einen Abschluss der Sekundarstufe II, bei den 45- bis 64-Jährigen 75 %"
+    },
+    {
+     "value": "62,9 %",
+     "label": "Frauenanteil unter den 16.481 Studierenden der Universität Genf",
+     "source": "bfs-stud",
+     "note": "Wintersemester 2025/26, Bachelor bis Doktorat ohne Weiterbildung: 10.362 von 16.481. Am Geneva Graduate Institute (1.039 Studierende) sind es 67,6 %"
+    }
+   ],
+   "takeaway": "Wer hier sucht, trifft auf ein Umfeld, in dem ein Hochschulabschluss weder Ausnahme noch Statussymbol ist."
+  },
+  {
+   "key": "beruf",
+   "title": "Beruf & Erfolg",
+   "intro": "Internationale Organisationen, Banken, Uhren und Forschung: Genf hat fast so viele Arbeitsplätze wie Einwohner.",
+   "metrics": [
+    {
+     "value": "210.767",
+     "label": "Arbeitsplätze in 24.728 Arbeitsstätten",
+     "source": "ocstat-emplois",
+     "note": "Stand Dezember 2024; 2011 waren es noch 186.264 Arbeitsplätze in 20.160 Arbeitsstätten"
+    },
+    {
+     "value": "25",
+     "label": "Mitgliedstaaten hat das CERN vor den Toren der Stadt, dazu elf assoziierte Mitglieder",
+     "source": "cern-governance",
+     "note": "Das europäische Kernforschungszentrum liegt in Meyrin an der französischen Grenze und beschäftigt Forschende aus aller Welt"
+    },
+    {
+     "value": "1927",
+     "label": "gegründet: das Geneva Graduate Institute für internationale Beziehungen und Entwicklung",
+     "source": "iheid-about",
+     "note": "Seine Absolventinnen und Absolventen arbeiten in UNO-Organisationen, Diplomatie und Entwicklungszusammenarbeit; unter den Alumni sind Nobel- und Pulitzerpreisträger"
+    }
+   ],
+   "takeaway": "Viele Lebensläufe hier haben zwei, drei Länder gesehen – und suchen jemanden, der das nicht erklärt bekommen muss."
+  },
+  {
+   "key": "forschung",
+   "title": "Wie Paare sich finden",
+   "intro": "Genf ist der einzige Kanton, der erhebt, wie Paare einander kennengelernt haben. Die Zahlen zeigen, wie stark sich das in zehn Jahren verschoben hat.",
+   "metrics": [
+    {
+     "value": "24,3 %",
+     "label": "der Paare, die zwischen 2019 und 2023 entstanden sind, haben sich über Dating-Sites oder -Apps gefunden",
+     "source": "ocstat-rencontre",
+     "note": "Kanton Genf, Erhebung 2023 unter Personen von 25 bis 80 Jahren in einer Partnerschaft. Bei Paaren, die vor 2013 zusammenkamen, waren es 3,2 %, zwischen 2013 und 2018 bereits 21,7 %",
+     "compare": {
+      "city": 24.3,
+      "germany": 3.2,
+      "unit": " %",
+      "max": 40,
+      "cityLabel": "Paare ab 2019",
+      "compareLabel": "Paare vor 2013"
+     }
+    },
+    {
+     "value": "27,3 %",
+     "label": "der Menschen mit Tertiärabschluss haben ihre Partnerin oder ihren Partner in Ausbildung oder Beruf kennengelernt",
+     "source": "ocstat-rencontre",
+     "note": "Kanton Genf, Erhebung 2023; bei Personen mit obligatorischer Schulbildung sind es 13,5 %. Über Dating-Portale fanden 11,1 % der Tertiärgebildeten ihre Beziehung, über Freunde und Bekannte 33,2 %"
+    },
+    {
+     "value": "34,3 %",
+     "label": "aller Paare im Kanton Genf bestehen aus zwei Partnern mit Tertiärabschluss",
+     "source": "ocstat-couples",
+     "note": "32.240 von 93.983 Paaren, Fünfjahresmittel 2020–2024. Von den Männern mit Tertiärabschluss leben 73 % mit einer Partnerin mit Tertiärabschluss zusammen",
+     "compare": {
+      "city": 34.3,
+      "germany": 13.6,
+      "unit": " %",
+      "max": 45,
+      "cityLabel": "beide Tertiärstufe",
+      "compareLabel": "beide obligatorische Schule"
+     }
+    }
+   ],
+   "takeaway": "Akademiker finden Akademiker – und immer häufiger über Portale, in denen das Niveau von Anfang an klar ist."
+  },
+  {
+   "key": "singles",
+   "title": "Single-Leben",
+   "intro": "Mehr als die Hälfte der 25- bis 54-Jährigen ist ledig, fast jeder zweite Haushalt besteht aus einer Person – und das Geschlechterverhältnis ist das ausgeglichenste des Landes.",
+   "metrics": [
+    {
+     "value": "53,3 %",
+     "label": "der 25- bis 54-Jährigen sind ledig",
+     "source": "bfs-zivil",
+     "note": "54.449 von 102.148 Personen dieser Altersgruppe (ständige Wohnbevölkerung, 31.12.2025); schweizweit 43,7 %. Ledig heisst nicht automatisch Single, auch unverheiratete Paare zählen dazu",
+     "compare": {
+      "city": 53.3,
+      "germany": 43.7,
+      "unit": " %",
+      "max": 65
+     }
+    },
+    {
+     "value": "103",
+     "label": "ledige Männer je 100 ledige Frauen zwischen 25 und 54",
+     "source": "bfs-zivil",
+     "note": "27.617 Männer zu 26.832 Frauen (31.12.2025). Schweizweit sind es 125, in Zürich 116, in St. Gallen 127 – Genf ist der ausgeglichenste Markt unserer Schweizer Dossiers",
+     "compare": {
+      "city": 103,
+      "germany": 125,
+      "unit": "",
+      "max": 145
+     }
+    },
+    {
+     "value": "12,9 %",
+     "label": "der Erwachsenen ab 20 sind geschieden – der höchste Wert unserer Schweizer Städte",
+     "source": "bfs-zivil",
+     "note": "Stand 31.12.2025; schweizweit 11,3 %. Ein zweiter Anlauf ist in Genf besonders verbreitet"
+    }
+   ],
+   "takeaway": "Rechnerisch der fairste Markt des Landes – und einer, in dem zweite Beziehungen zum Alltag gehören."
+  }
+ ],
+ "universities": [
+  {
+   "name": "Université de Genève (UNIGE)",
+   "kind": "Volluniversität des Kantons",
+   "students": "16.481",
+   "women": "62,9 %",
+   "source": "bfs-stud",
+   "text": "Eine der grössten Universitäten der Schweiz, mitten in der Stadt: Das Hauptgebäude liegt am Parc des Bastions, Medizin und Life Sciences am Campus Biotech und beim Universitätsspital. Mit knapp 63 Prozent hat sie einen der höchsten Frauenanteile des Landes."
+  },
+  {
+   "name": "Geneva Graduate Institute (IHEID)",
+   "kind": "Hochschulinstitut für internationale Beziehungen",
+   "founded": "1927",
+   "students": "1.039",
+   "women": "67,6 %",
+   "source": "bfs-stud",
+   "compareSource": "iheid-about",
+   "text": "Seit 1927 bildet das Institut an der Maison de la paix für internationale Beziehungen und Entwicklungszusammenarbeit aus – mit Master- und Doktoratsprogrammen und Alumni in UNO-Organisationen, Diplomatie und Forschung."
+  },
+  {
+   "name": "CERN",
+   "kind": "Europäische Organisation für Kernforschung",
+   "source": "cern-governance",
+   "text": "Das grösste Teilchenphysiklabor der Welt liegt in Meyrin an der Stadtgrenze und wird von 25 Mitgliedstaaten und elf assoziierten Mitgliedern getragen. Wer in Genf jemanden aus der Physik trifft, trifft meistens jemanden von hier."
+  },
+  {
+   "name": "Hôpitaux universitaires de Genève",
+   "kind": "Universitätsspital",
+   "source": "ocstat-emplois",
+   "text": "Das Universitätsspital ist einer der grössten Arbeitgeber des Kantons und Lehrkrankenhaus der UNIGE – mit allem, was Schichtdienste für Verabredungen bedeuten."
+  }
+ ],
+ "universitiesNote": "Studierendenzahlen für das Wintersemester 2025/26 ohne Weiterbildung. Dazu kommen die HES-SO Genève mit ihren Fachhochschulen und die Haute école d'art et de design.",
+ "clusters": [
+  {
+   "name": "Internationale Organisationen",
+   "text": "Genf ist europäischer UNO-Sitz und Standort zahlreicher internationaler Organisationen und Nichtregierungsorganisationen – ein Arbeitsmarkt mit hoher Akademikerdichte und vielen befristeten Verträgen."
+  },
+  {
+   "name": "Forschung & Teilchenphysik",
+   "text": "Das CERN in Meyrin wird von 25 Mitgliedstaaten und elf assoziierten Mitgliedern getragen; der Campus Biotech in der Stadt bündelt Neurowissenschaften und Biotechnologie."
+  },
+  {
+   "name": "Hochschulen",
+   "text": "Université de Genève (16.481 Studierende, 62,9 % Frauen) und Geneva Graduate Institute (1.039 Studierende) prägen das akademische Leben der Stadt (Wintersemester 2025/26)."
+  },
+  {
+   "name": "Finanzplatz & Rohstoffhandel",
+   "text": "Private Banken, Vermögensverwaltung und Rohstoffhandel gehören zu den grossen Arbeitgebern; insgesamt zählt die Stadt 210.767 Arbeitsplätze in 24.728 Arbeitsstätten (Dezember 2024)."
+  },
+  {
+   "name": "Uhren & Luxus",
+   "text": "Die Uhrenindustrie und das Luxussegment haben in Genf ihren historischen Kern – mit Entwicklung, Design und Vertrieb auf Stadtgebiet."
+  }
+ ],
+ "clusterSources": [
+  "bfs-stud",
+  "cern-governance",
+  "ocstat-emplois"
+ ],
+ "places": [
+  {
+   "name": "Université de Genève, Uni Bastions",
+   "kind": "work",
+   "district": "Cité-Centre · Parc des Bastions",
+   "text": "Das Hauptgebäude der Universität liegt direkt am Park – Vorlesungen und Spaziergang trennen hier dreissig Sekunden.",
+   "lat": 46.1989,
+   "lon": 6.1446
+  },
+  {
+   "name": "Campus Biotech",
+   "kind": "work",
+   "district": "Sécheron · Avenue de Sécheron",
+   "text": "Neurowissenschaften, Biotechnologie und Forschungsgruppen der UNIGE und der EPFL unter einem Dach, direkt am See.",
+   "lat": 46.2218,
+   "lon": 6.1472
+  },
+  {
+   "name": "Hôpitaux universitaires de Genève",
+   "kind": "work",
+   "district": "Champel · Rue Gabrielle-Perret-Gentil",
+   "text": "Universitätsspital und Lehrkrankenhaus der UNIGE, einer der grössten Arbeitgeber des Kantons.",
+   "lat": 46.192,
+   "lon": 6.1479
+  },
+  {
+   "name": "Palais des Nations",
+   "kind": "work",
+   "district": "Nations · Avenue de la Paix",
+   "text": "Europäischer Sitz der Vereinten Nationen und Zentrum des internationalen Genf – rundherum liegen Missionen und Organisationen.",
+   "lat": 46.2257,
+   "lon": 6.1408
+  },
+  {
+   "name": "Geneva Graduate Institute",
+   "kind": "work",
+   "district": "Nations · Maison de la paix",
+   "text": "Seit 1927 Ausbildungsort für internationale Beziehungen und Entwicklung, heute an der Maison de la paix neben dem UNO-Quartier.",
+   "lat": 46.221,
+   "lon": 6.1439
+  },
+  {
+   "name": "Parc des Bastions",
+   "kind": "date",
+   "district": "Cité-Centre",
+   "text": "Der Universitätspark mit Reformationsdenkmal und Riesenschachbrettern – der naheliegendste Treffpunkt der Stadt.",
+   "lat": 46.1994,
+   "lon": 6.1453
+  },
+  {
+   "name": "Jet d'eau",
+   "kind": "date",
+   "district": "Eaux-Vives · Quai Gustave-Ador",
+   "text": "Das Wahrzeichen Genfs am Seeufer; der Spaziergang vom Quai bis zum Jardin Anglais dauert genau so lange wie ein gutes erstes Gespräch.",
+   "lat": 46.2074,
+   "lon": 6.1559
+  },
+  {
+   "name": "Bains des Pâquis",
+   "kind": "date",
+   "district": "Pâquis · Quai du Mont-Blanc",
+   "text": "Badeanstalt, Sauna und Buvette mitten im See – im Sommer wie im Winter der demokratischste Ort der Stadt.",
+   "lat": 46.2114,
+   "lon": 6.1528
+  },
+  {
+   "name": "Plaine de Plainpalais",
+   "kind": "date",
+   "district": "Plainpalais",
+   "text": "Flohmarkt, Skatepark und Foodtrucks auf einer Fläche, an der auch die Universität liegt – hier trifft sich studentisches Genf.",
+   "lat": 46.1974,
+   "lon": 6.1409
+  },
+  {
+   "name": "Parc La Grange",
+   "kind": "date",
+   "district": "Eaux-Vives",
+   "text": "Rosengarten und Seeblick auf der linken Seeseite, im Sommer mit Open-Air-Programm.",
+   "lat": 46.2105,
+   "lon": 6.1706
+  }
+ ],
+ "map": {
+  "bounds": {
+   "west": 6.1,
+   "east": 6.185,
+   "south": 46.18,
+   "north": 46.24
+  },
+  "rivers": [
+   {
+    "name": "Le Rhône",
+    "major": true,
+    "points": [
+     [
+      46.20631,
+      6.14857
+     ],
+     [
+      46.20634,
+      6.14757
+     ],
+     [
+      46.20602,
+      6.14659
+     ],
+     [
+      46.20566,
+      6.14384
+     ],
+     [
+      46.20514,
+      6.14174
+     ],
+     [
+      46.20504,
+      6.13657
+     ],
+     [
+      46.20463,
+      6.13544
+     ],
+     [
+      46.20364,
+      6.13395
+     ],
+     [
+      46.20324,
+      6.13283
+     ],
+     [
+      46.2031,
+      6.13161
+     ],
+     [
+      46.20322,
+      6.12948
+     ],
+     [
+      46.20308,
+      6.12744
+     ],
+     [
+      46.20242,
+      6.12438
+     ],
+     [
+      46.20153,
+      6.12184
+     ],
+     [
+      46.20089,
+      6.1192
+     ],
+     [
+      46.20106,
+      6.11707
+     ],
+     [
+      46.20272,
+      6.11277
+     ],
+     [
+      46.20282,
+      6.11076
+     ],
+     [
+      46.20252,
+      6.10909
+     ],
+     [
+      46.20069,
+      6.10668
+     ],
+     [
+      46.19936,
+      6.10564
+     ],
+     [
+      46.19651,
+      6.10249
+     ],
+     [
+      46.19376,
+      6.09991
+     ],
+     [
+      46.19281,
+      6.09851
+     ],
+     [
+      46.19234,
+      6.09666
+     ],
+     [
+      46.19221,
+      6.09366
+     ],
+     [
+      46.19245,
+      6.0919
+     ],
+     [
+      46.19337,
+      6.08916
+     ]
+    ]
+   },
+   {
+    "name": "L'Arve",
+    "major": false,
+    "points": [
+     [
+      46.17907,
+      6.17041
+     ],
+     [
+      46.17993,
+      6.17149
+     ],
+     [
+      46.18142,
+      6.17148
+     ],
+     [
+      46.18267,
+      6.17128
+     ],
+     [
+      46.18526,
+      6.16987
+     ],
+     [
+      46.1866,
+      6.16877
+     ],
+     [
+      46.18728,
+      6.16787
+     ],
+     [
+      46.18792,
+      6.16638
+     ],
+     [
+      46.18816,
+      6.16525
+     ],
+     [
+      46.18812,
+      6.16424
+     ],
+     [
+      46.18753,
+      6.16285
+     ],
+     [
+      46.18634,
+      6.16242
+     ],
+     [
+      46.18494,
+      6.16248
+     ],
+     [
+      46.18132,
+      6.15996
+     ],
+     [
+      46.17873,
+      6.15939
+     ],
+     [
+      46.17805,
+      6.1584
+     ],
+     [
+      46.17781,
+      6.15768
+     ],
+     [
+      46.17779,
+      6.15652
+     ],
+     [
+      46.17817,
+      6.1554
+     ],
+     [
+      46.17886,
+      6.15438
+     ],
+     [
+      46.18096,
+      6.15347
+     ],
+     [
+      46.18212,
+      6.15402
+     ],
+     [
+      46.18454,
+      6.15447
+     ],
+     [
+      46.1853,
+      6.15434
+     ],
+     [
+      46.18605,
+      6.15377
+     ],
+     [
+      46.18666,
+      6.15193
+     ],
+     [
+      46.18688,
+      6.14796
+     ],
+     [
+      46.1868,
+      6.14497
+     ],
+     [
+      46.18731,
+      6.14279
+     ],
+     [
+      46.18792,
+      6.14202
+     ],
+     [
+      46.19279,
+      6.13962
+     ],
+     [
+      46.19385,
+      6.13873
+     ],
+     [
+      46.1968,
+      6.13274
+     ],
+     [
+      46.19905,
+      6.12933
+     ],
+     [
+      46.19993,
+      6.12755
+     ],
+     [
+      46.20047,
+      6.12589
+     ],
+     [
+      46.20077,
+      6.12424
+     ],
+     [
+      46.20094,
+      6.12267
+     ],
+     [
+      46.20089,
+      6.1192
+     ]
+    ]
+   }
+  ],
+  "areas": [
+   {
+    "kind": "green",
+    "name": "Parc des Bastions",
+    "points": [
+     [
+      46.1998,
+      6.14696
+     ],
+     [
+      46.19964,
+      6.147
+     ],
+     [
+      46.19961,
+      6.14725
+     ],
+     [
+      46.19958,
+      6.14715
+     ],
+     [
+      46.1994,
+      6.14724
+     ],
+     [
+      46.19935,
+      6.14704
+     ],
+     [
+      46.19914,
+      6.14716
+     ],
+     [
+      46.1992,
+      6.14736
+     ],
+     [
+      46.199,
+      6.14748
+     ],
+     [
+      46.19898,
+      6.14727
+     ],
+     [
+      46.19868,
+      6.14726
+     ],
+     [
+      46.19771,
+      6.14589
+     ],
+     [
+      46.19869,
+      6.14443
+     ],
+     [
+      46.19879,
+      6.14458
+     ],
+     [
+      46.19905,
+      6.14421
+     ],
+     [
+      46.19894,
+      6.14406
+     ],
+     [
+      46.19952,
+      6.14321
+     ],
+     [
+      46.20043,
+      6.14327
+     ],
+     [
+      46.20082,
+      6.14393
+     ],
+     [
+      46.20104,
+      6.14405
+     ],
+     [
+      46.20108,
+      6.14428
+     ],
+     [
+      46.1998,
+      6.14696
+     ]
+    ]
+   },
+   {
+    "kind": "green",
+    "name": "Parc La Grange",
+    "points": [
+     [
+      46.20584,
+      6.17156
+     ],
+     [
+      46.20665,
+      6.17066
+     ],
+     [
+      46.20671,
+      6.16925
+     ],
+     [
+      46.20893,
+      6.16666
+     ],
+     [
+      46.20755,
+      6.16354
+     ],
+     [
+      46.20691,
+      6.16251
+     ],
+     [
+      46.20362,
+      6.16764
+     ],
+     [
+      46.20396,
+      6.16873
+     ],
+     [
+      46.20532,
+      6.17064
+     ],
+     [
+      46.20584,
+      6.17156
+     ]
+    ]
+   },
+   {
+    "kind": "green",
+    "name": "Parc des Eaux-Vives",
+    "points": [
+     [
+      46.20705,
+      6.16885
+     ],
+     [
+      46.20839,
+      6.17117
+     ],
+     [
+      46.20893,
+      6.1719
+     ],
+     [
+      46.20971,
+      6.1708
+     ],
+     [
+      46.20963,
+      6.17033
+     ],
+     [
+      46.21022,
+      6.1695
+     ],
+     [
+      46.2094,
+      6.16766
+     ],
+     [
+      46.20919,
+      6.16765
+     ],
+     [
+      46.20913,
+      6.16751
+     ],
+     [
+      46.20922,
+      6.16725
+     ],
+     [
+      46.20895,
+      6.16665
+     ],
+     [
+      46.20705,
+      6.16885
+     ]
+    ]
+   },
+   {
+    "kind": "green",
+    "name": "Jardin Anglais",
+    "points": [
+     [
+      46.20352,
+      6.1531
+     ],
+     [
+      46.20364,
+      6.15358
+     ],
+     [
+      46.20424,
+      6.15482
+     ],
+     [
+      46.20452,
+      6.15454
+     ],
+     [
+      46.20426,
+      6.15377
+     ],
+     [
+      46.20507,
+      6.15055
+     ],
+     [
+      46.20503,
+      6.15002
+     ],
+     [
+      46.20491,
+      6.14998
+     ],
+     [
+      46.20442,
+      6.15043
+     ],
+     [
+      46.20432,
+      6.15057
+     ],
+     [
+      46.2045,
+      6.15045
+     ],
+     [
+      46.2044,
+      6.15074
+     ],
+     [
+      46.20411,
+      6.15079
+     ],
+     [
+      46.20387,
+      6.15137
+     ],
+     [
+      46.20352,
+      6.1531
+     ]
+    ]
+   },
+   {
+    "kind": "water",
+    "name": "Genfersee",
+    "points": [
+     [
+      46.22894,
+      6.18666
+     ],
+     [
+      46.22669,
+      6.18404
+     ],
+     [
+      46.22544,
+      6.18308
+     ],
+     [
+      46.22502,
+      6.18211
+     ],
+     [
+      46.22445,
+      6.18161
+     ],
+     [
+      46.22496,
+      6.18214
+     ],
+     [
+      46.22479,
+      6.18258
+     ],
+     [
+      46.22428,
+      6.18219
+     ],
+     [
+      46.22431,
+      6.18203
+     ],
+     [
+      46.22424,
+      6.18215
+     ],
+     [
+      46.22039,
+      6.17926
+     ],
+     [
+      46.22012,
+      6.17881
+     ],
+     [
+      46.21976,
+      6.17879
+     ],
+     [
+      46.21525,
+      6.17553
+     ],
+     [
+      46.21512,
+      6.17521
+     ],
+     [
+      46.2151,
+      6.17452
+     ],
+     [
+      46.215,
+      6.17454
+     ],
+     [
+      46.21505,
+      6.17477
+     ],
+     [
+      46.21482,
+      6.17477
+     ],
+     [
+      46.21466,
+      6.17355
+     ],
+     [
+      46.21456,
+      6.17353
+     ],
+     [
+      46.21446,
+      6.17302
+     ],
+     [
+      46.21466,
+      6.17274
+     ],
+     [
+      46.21454,
+      6.17277
+     ],
+     [
+      46.21447,
+      6.17257
+     ],
+     [
+      46.21445,
+      6.17172
+     ],
+     [
+      46.21452,
+      6.17103
+     ],
+     [
+      46.21469,
+      6.17062
+     ],
+     [
+      46.21492,
+      6.17089
+     ],
+     [
+      46.21506,
+      6.1703
+     ],
+     [
+      46.21547,
+      6.16954
+     ],
+     [
+      46.21536,
+      6.1694
+     ],
+     [
+      46.21566,
+      6.16889
+     ],
+     [
+      46.2156,
+      6.16866
+     ],
+     [
+      46.21547,
+      6.16868
+     ],
+     [
+      46.21549,
+      6.16891
+     ],
+     [
+      46.21476,
+      6.17013
+     ],
+     [
+      46.21468,
+      6.17004
+     ],
+     [
+      46.21412,
+      6.17057
+     ],
+     [
+      46.21399,
+      6.17029
+     ],
+     [
+      46.21366,
+      6.1706
+     ],
+     [
+      46.21389,
+      6.1712
+     ],
+     [
+      46.21345,
+      6.17194
+     ],
+     [
+      46.21229,
+      6.17303
+     ],
+     [
+      46.21127,
+      6.17084
+     ],
+     [
+      46.2115,
+      6.1706
+     ],
+     [
+      46.20959,
+      6.16651
+     ],
+     [
+      46.21102,
+      6.16778
+     ],
+     [
+      46.21114,
+      6.16768
+     ],
+     [
+      46.21127,
+      6.16781
+     ],
+     [
+      46.21208,
+      6.16705
+     ],
+     [
+      46.21204,
+      6.16695
+     ],
+     [
+      46.21182,
+      6.16716
+     ],
+     [
+      46.21139,
+      6.16669
+     ],
+     [
+      46.21139,
+      6.16638
+     ],
+     [
+      46.21133,
+      6.16658
+     ],
+     [
+      46.21123,
+      6.16655
+     ],
+     [
+      46.21077,
+      6.16601
+     ],
+     [
+      46.21065,
+      6.16566
+     ],
+     [
+      46.2106,
+      6.16577
+     ],
+     [
+      46.21033,
+      6.16565
+     ],
+     [
+      46.20991,
+      6.16493
+     ],
+     [
+      46.20946,
+      6.16482
+     ],
+     [
+      46.20916,
+      6.1642
+     ],
+     [
+      46.20896,
+      6.16428
+     ],
+     [
+      46.20882,
+      6.16405
+     ],
+     [
+      46.2089,
+      6.16271
+     ],
+     [
+      46.20939,
+      6.16242
+     ],
+     [
+      46.20909,
+      6.16154
+     ],
+     [
+      46.209,
+      6.15905
+     ],
+     [
+      46.2088,
+      6.15902
+     ],
+     [
+      46.20891,
+      6.1591
+     ],
+     [
+      46.20905,
+      6.16154
+     ],
+     [
+      46.20923,
+      6.16222
+     ],
+     [
+      46.20838,
+      6.16261
+     ],
+     [
+      46.20777,
+      6.16132
+     ],
+     [
+      46.20801,
+      6.16096
+     ],
+     [
+      46.20807,
+      6.15938
+     ],
+     [
+      46.20794,
+      6.16096
+     ],
+     [
+      46.20771,
+      6.1612
+     ],
+     [
+      46.20596,
+      6.15754
+     ],
+     [
+      46.20628,
+      6.15717
+     ],
+     [
+      46.20593,
+      6.15749
+     ],
+     [
+      46.20435,
+      6.15418
+     ],
+     [
+      46.20428,
+      6.15366
+     ],
+     [
+      46.20507,
+      6.15055
+     ],
+     [
+      46.20506,
+      6.14977
+     ],
+     [
+      46.20701,
+      6.14806
+     ],
+     [
+      46.20725,
+      6.14871
+     ],
+     [
+      46.2076,
+      6.14876
+     ],
+     [
+      46.20854,
+      6.14978
+     ],
+     [
+      46.20835,
+      6.15008
+     ],
+     [
+      46.2086,
+      6.15033
+     ],
+     [
+      46.20852,
+      6.15064
+     ],
+     [
+      46.2087,
+      6.15103
+     ],
+     [
+      46.20898,
+      6.15118
+     ],
+     [
+      46.20924,
+      6.15104
+     ],
+     [
+      46.21105,
+      6.15303
+     ],
+     [
+      46.21083,
+      6.15352
+     ],
+     [
+      46.21113,
+      6.15311
+     ],
+     [
+      46.21159,
+      6.15321
+     ],
+     [
+      46.21271,
+      6.1529
+     ],
+     [
+      46.21285,
+      6.15387
+     ],
+     [
+      46.21278,
+      6.15425
+     ],
+     [
+      46.21207,
+      6.15454
+     ],
+     [
+      46.21186,
+      6.15444
+     ],
+     [
+      46.21187,
+      6.15464
+     ],
+     [
+      46.21285,
+      6.15439
+     ],
+     [
+      46.21295,
+      6.15376
+     ],
+     [
+      46.21279,
+      6.15299
+     ],
+     [
+      46.21286,
+      6.15285
+     ],
+     [
+      46.21389,
+      6.15257
+     ],
+     [
+      46.21396,
+      6.15268
+     ],
+     [
+      46.214,
+      6.15254
+     ],
+     [
+      46.21742,
+      6.15162
+     ],
+     [
+      46.21802,
+      6.15191
+     ],
+     [
+      46.21791,
+      6.15218
+     ],
+     [
+      46.21877,
+      6.15247
+     ],
+     [
+      46.21928,
+      6.15247
+     ],
+     [
+      46.21926,
+      6.1526
+     ],
+     [
+      46.2194,
+      6.1525
+     ],
+     [
+      46.21988,
+      6.15307
+     ],
+     [
+      46.21958,
+      6.15307
+     ],
+     [
+      46.21946,
+      6.15337
+     ],
+     [
+      46.21974,
+      6.15314
+     ],
+     [
+      46.22082,
+      6.15369
+     ],
+     [
+      46.22142,
+      6.15364
+     ],
+     [
+      46.2222,
+      6.15281
+     ],
+     [
+      46.22225,
+      6.15256
+     ],
+     [
+      46.22268,
+      6.15221
+     ],
+     [
+      46.2226,
+      6.15201
+     ],
+     [
+      46.22282,
+      6.15175
+     ],
+     [
+      46.22292,
+      6.15208
+     ],
+     [
+      46.22278,
+      6.15221
+     ],
+     [
+      46.22276,
+      6.15248
+     ],
+     [
+      46.22345,
+      6.15133
+     ],
+     [
+      46.22419,
+      6.15126
+     ],
+     [
+      46.22431,
+      6.15096
+     ],
+     [
+      46.22541,
+      6.15001
+     ],
+     [
+      46.22551,
+      6.14972
+     ],
+     [
+      46.22564,
+      6.14993
+     ],
+     [
+      46.22545,
+      6.15025
+     ],
+     [
+      46.22596,
+      6.14945
+     ],
+     [
+      46.22663,
+      6.14904
+     ],
+     [
+      46.227,
+      6.14905
+     ],
+     [
+      46.2273,
+      6.14933
+     ],
+     [
+      46.22768,
+      6.14932
+     ],
+     [
+      46.22762,
+      6.14955
+     ],
+     [
+      46.22733,
+      6.14957
+     ],
+     [
+      46.22747,
+      6.14951
+     ],
+     [
+      46.22768,
+      6.1497
+     ],
+     [
+      46.22799,
+      6.14956
+     ],
+     [
+      46.22787,
+      6.14994
+     ],
+     [
+      46.22772,
+      6.15
+     ],
+     [
+      46.22803,
+      6.14976
+     ],
+     [
+      46.22844,
+      6.14984
+     ],
+     [
+      46.22867,
+      6.1497
+     ],
+     [
+      46.2307,
+      6.15033
+     ],
+     [
+      46.23102,
+      6.15031
+     ],
+     [
+      46.23103,
+      6.15006
+     ],
+     [
+      46.23151,
+      6.15008
+     ],
+     [
+      46.23148,
+      6.15065
+     ],
+     [
+      46.231,
+      6.15075
+     ],
+     [
+      46.23161,
+      6.15069
+     ],
+     [
+      46.23229,
+      6.14999
+     ],
+     [
+      46.23321,
+      6.15088
+     ],
+     [
+      46.23369,
+      6.1509
+     ],
+     [
+      46.23367,
+      6.1511
+     ],
+     [
+      46.23345,
+      6.15121
+     ],
+     [
+      46.23368,
+      6.15114
+     ],
+     [
+      46.23383,
+      6.15088
+     ],
+     [
+      46.23413,
+      6.15089
+     ],
+     [
+      46.23441,
+      6.1505
+     ],
+     [
+      46.23448,
+      6.15067
+     ],
+     [
+      46.23427,
+      6.15105
+     ],
+     [
+      46.23447,
+      6.15073
+     ],
+     [
+      46.23466,
+      6.15064
+     ],
+     [
+      46.23468,
+      6.15078
+     ],
+     [
+      46.2352,
+      6.15045
+     ],
+     [
+      46.23524,
+      6.15061
+     ],
+     [
+      46.23494,
+      6.15096
+     ],
+     [
+      46.23525,
+      6.15065
+     ],
+     [
+      46.23524,
+      6.15045
+     ],
+     [
+      46.23557,
+      6.15027
+     ],
+     [
+      46.23533,
+      6.15097
+     ],
+     [
+      46.23565,
+      6.15036
+     ],
+     [
+      46.23589,
+      6.15025
+     ],
+     [
+      46.23648,
+      6.15048
+     ],
+     [
+      46.23634,
+      6.15086
+     ],
+     [
+      46.23662,
+      6.15066
+     ],
+     [
+      46.23763,
+      6.15091
+     ],
+     [
+      46.23757,
+      6.15131
+     ],
+     [
+      46.23738,
+      6.15114
+     ],
+     [
+      46.23749,
+      6.15136
+     ],
+     [
+      46.23761,
+      6.15128
+     ],
+     [
+      46.23768,
+      6.15091
+     ],
+     [
+      46.23797,
+      6.15103
+     ],
+     [
+      46.23791,
+      6.15131
+     ],
+     [
+      46.23774,
+      6.15125
+     ],
+     [
+      46.23785,
+      6.15136
+     ],
+     [
+      46.23805,
+      6.15098
+     ],
+     [
+      46.23918,
+      6.15107
+     ],
+     [
+      46.23927,
+      6.15123
+     ],
+     [
+      46.23909,
+      6.15149
+     ],
+     [
+      46.23948,
+      6.15117
+     ],
+     [
+      46.23939,
+      6.15149
+     ],
+     [
+      46.23975,
+      6.15136
+     ],
+     [
+      46.24025,
+      6.15162
+     ],
+     [
+      46.24,
+      6.185
+     ]
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Lac Léman",
+    "lat": 46.2205,
+    "lon": 6.1595
+   },
+   {
+    "text": "Rhône",
+    "lat": 46.2065,
+    "lon": 6.1265
+   },
+   {
+    "text": "Arve",
+    "lat": 46.1885,
+    "lon": 6.1355
+   },
+   {
+    "text": "Cité-Centre",
+    "lat": 46.2005,
+    "lon": 6.1455,
+    "district": true
+   },
+   {
+    "text": "Pâquis",
+    "lat": 46.2125,
+    "lon": 6.1475,
+    "district": true
+   },
+   {
+    "text": "Eaux-Vives",
+    "lat": 46.2055,
+    "lon": 6.1645,
+    "district": true
+   },
+   {
+    "text": "Plainpalais",
+    "lat": 46.1955,
+    "lon": 6.1395,
+    "district": true
+   },
+   {
+    "text": "Champel",
+    "lat": 46.1885,
+    "lon": 6.1525,
+    "district": true
+   },
+   {
+    "text": "Servette",
+    "lat": 46.2155,
+    "lon": 6.1285,
+    "district": true
+   }
+  ],
+  "boundary": [
+   [
+    [
+     46.23166,
+     6.13265
+    ],
+    [
+     46.22853,
+     6.12826
+    ],
+    [
+     46.22798,
+     6.12861
+    ],
+    [
+     46.22735,
+     6.12769
+    ],
+    [
+     46.22779,
+     6.12698
+    ],
+    [
+     46.2271,
+     6.12617
+    ],
+    [
+     46.22735,
+     6.12578
+    ],
+    [
+     46.22573,
+     6.12422
+    ],
+    [
+     46.22671,
+     6.12189
+    ],
+    [
+     46.22598,
+     6.12121
+    ],
+    [
+     46.22515,
+     6.12209
+    ],
+    [
+     46.22484,
+     6.12175
+    ],
+    [
+     46.22193,
+     6.11767
+    ],
+    [
+     46.22207,
+     6.11743
+    ],
+    [
+     46.22027,
+     6.11383
+    ],
+    [
+     46.21756,
+     6.11625
+    ],
+    [
+     46.21621,
+     6.11925
+    ],
+    [
+     46.21603,
+     6.11843
+    ],
+    [
+     46.21256,
+     6.11609
+    ],
+    [
+     46.21108,
+     6.11463
+    ],
+    [
+     46.21095,
+     6.11491
+    ],
+    [
+     46.2107,
+     6.11473
+    ],
+    [
+     46.20862,
+     6.11247
+    ],
+    [
+     46.20577,
+     6.11027
+    ],
+    [
+     46.20242,
+     6.11074
+    ],
+    [
+     46.20164,
+     6.11104
+    ],
+    [
+     46.20173,
+     6.11127
+    ],
+    [
+     46.19908,
+     6.11137
+    ],
+    [
+     46.19706,
+     6.11184
+    ],
+    [
+     46.19683,
+     6.11238
+    ],
+    [
+     46.19761,
+     6.12156
+    ],
+    [
+     46.19612,
+     6.12155
+    ],
+    [
+     46.19584,
+     6.12344
+    ],
+    [
+     46.19709,
+     6.12679
+    ],
+    [
+     46.1971,
+     6.12737
+    ],
+    [
+     46.19541,
+     6.12684
+    ],
+    [
+     46.19537,
+     6.12712
+    ],
+    [
+     46.1946,
+     6.12695
+    ],
+    [
+     46.19465,
+     6.12791
+    ],
+    [
+     46.18777,
+     6.12765
+    ],
+    [
+     46.18792,
+     6.12885
+    ],
+    [
+     46.19084,
+     6.13502
+    ],
+    [
+     46.18881,
+     6.13701
+    ],
+    [
+     46.18864,
+     6.1397
+    ],
+    [
+     46.18908,
+     6.14144
+    ],
+    [
+     46.188,
+     6.14195
+    ],
+    [
+     46.18734,
+     6.14276
+    ],
+    [
+     46.18694,
+     6.14391
+    ],
+    [
+     46.18675,
+     6.14596
+    ],
+    [
+     46.18687,
+     6.14819
+    ],
+    [
+     46.18644,
+     6.15308
+    ],
+    [
+     46.18566,
+     6.15418
+    ],
+    [
+     46.18471,
+     6.15453
+    ],
+    [
+     46.1796,
+     6.15393
+    ],
+    [
+     46.17817,
+     6.15533
+    ],
+    [
+     46.17782,
+     6.15647
+    ],
+    [
+     46.17782,
+     6.15774
+    ],
+    [
+     46.17821,
+     6.15877
+    ],
+    [
+     46.17885,
+     6.15947
+    ],
+    [
+     46.1815,
+     6.16003
+    ],
+    [
+     46.18491,
+     6.16226
+    ],
+    [
+     46.18732,
+     6.16255
+    ],
+    [
+     46.18798,
+     6.16356
+    ],
+    [
+     46.18818,
+     6.16505
+    ],
+    [
+     46.18794,
+     6.16633
+    ],
+    [
+     46.18727,
+     6.16786
+    ],
+    [
+     46.1899,
+     6.16739
+    ],
+    [
+     46.19381,
+     6.17259
+    ],
+    [
+     46.19451,
+     6.17124
+    ],
+    [
+     46.19831,
+     6.17435
+    ],
+    [
+     46.19944,
+     6.17473
+    ],
+    [
+     46.19957,
+     6.17422
+    ],
+    [
+     46.19984,
+     6.17432
+    ],
+    [
+     46.20133,
+     6.17582
+    ],
+    [
+     46.20248,
+     6.17373
+    ],
+    [
+     46.20296,
+     6.17339
+    ],
+    [
+     46.20401,
+     6.17496
+    ],
+    [
+     46.20447,
+     6.17398
+    ],
+    [
+     46.20519,
+     6.17468
+    ],
+    [
+     46.20579,
+     6.17585
+    ],
+    [
+     46.20703,
+     6.17488
+    ],
+    [
+     46.20588,
+     6.17173
+    ],
+    [
+     46.2067,
+     6.17075
+    ],
+    [
+     46.20765,
+     6.17088
+    ],
+    [
+     46.2096,
+     6.17328
+    ],
+    [
+     46.21106,
+     6.17138
+    ],
+    [
+     46.2116,
+     6.17255
+    ],
+    [
+     46.21189,
+     6.17236
+    ],
+    [
+     46.21522,
+     6.1619
+    ],
+    [
+     46.22246,
+     6.16593
+    ],
+    [
+     46.22447,
+     6.1667
+    ],
+    [
+     46.22779,
+     6.14894
+    ],
+    [
+     46.22798,
+     6.14899
+    ],
+    [
+     46.22873,
+     6.14588
+    ],
+    [
+     46.2301,
+     6.1437
+    ],
+    [
+     46.23064,
+     6.14343
+    ],
+    [
+     46.2293,
+     6.14286
+    ],
+    [
+     46.23029,
+     6.13853
+    ],
+    [
+     46.22875,
+     6.13882
+    ],
+    [
+     46.22817,
+     6.13849
+    ],
+    [
+     46.22818,
+     6.13794
+    ],
+    [
+     46.22849,
+     6.13744
+    ],
+    [
+     46.23036,
+     6.13634
+    ],
+    [
+     46.23063,
+     6.13592
+    ],
+    [
+     46.23067,
+     6.13456
+    ],
+    [
+     46.23189,
+     6.13307
+    ],
+    [
+     46.23166,
+     6.13265
+    ]
+   ]
+  ]
+ },
+ "mapSpec": {
+  "rivers": [
+   {
+    "name": "Le Rhône",
+    "major": true
+   },
+   {
+    "name": "L'Arve"
+   }
+  ],
+  "lakes": [],
+  "parks": [
+   "Parc des Bastions",
+   "Parc La Grange",
+   "Parc des Eaux-Vives",
+   "Parc Mon-Repos",
+   "Jardin Anglais"
+  ],
+  "boundary": "Genève"
+ },
+ "quarters": [
+  {
+   "name": "Cité-Centre",
+   "label": "Altstadt und Universität",
+   "text": "Zwischen Kathedrale Saint-Pierre, Parc des Bastions und Uni-Hauptgebäude liegt das akademische Zentrum. Buchhandlungen, Cafés, kurze Wege – und abends das ruhigste Pflaster der Innenstadt."
+  },
+  {
+   "name": "Pâquis",
+   "label": "Rechtes Seeufer",
+   "text": "Dichtes, internationales Quartier zwischen Bahnhof und See: Restaurants aus aller Welt, die Bains des Pâquis als Treffpunkt und die kürzeste Distanz zwischen UNO-Viertel und Innenstadt."
+  },
+  {
+   "name": "Eaux-Vives",
+   "label": "Linkes Seeufer",
+   "text": "Jet d'eau, Parc La Grange und die neue Bahnhofslinie nach Annemasse. Beliebt bei allen, die am Wasser wohnen und trotzdem in zehn Minuten im Büro sein wollen."
+  },
+  {
+   "name": "Plainpalais & Jonction",
+   "label": "Studentisches Genf",
+   "text": "Rund um die Plaine de Plainpalais liegen Universitätsgebäude, Kinos und die lebendigste Beizenszene. Hier wohnt, wer in Genf jung ist – oder es bleiben will."
+  },
+  {
+   "name": "Champel",
+   "label": "Bürgerliche Hanglage",
+   "text": "Zwischen Universitätsspital und Arve-Ufer: ruhige Strassen, Praxen und Kanzleien, viel Grün. Das Quartier für alle, die beruflich angekommen sind."
+  },
+  {
+   "name": "Nations & Sécheron",
+   "label": "Internationales Viertel",
+   "text": "Palais des Nations, Missionen, Organisationen und der Campus Biotech. Wer hier arbeitet, hat Kolleginnen und Kollegen aus dreissig Ländern – und Verträge, die oft auf drei Jahre laufen."
+  }
+ ],
+ "agenda": [
+  {
+   "title": "Öffentliche Vorlesungen und Konferenzen der UNIGE",
+   "when": "Semesterweise",
+   "text": "Die Universität Genf öffnet Vorlesungsreihen und Konferenzen für die Öffentlichkeit, oft an der Uni Dufour oder in den Instituten. Kostenlos, inhaltlich anspruchsvoll – und ein Thema für danach.",
+   "href": "https://www.unige.ch/"
+  },
+  {
+   "title": "Bains des Pâquis",
+   "when": "Ganzjährig",
+   "text": "Die Badeanstalt im See ist Treffpunkt, Sauna, Fondue-Stube und Konzertbühne in einem. Eintritt kostet zwei Franken; ein Treffen hier ist unprätentiös und funktioniert bei jedem Wetter.",
+   "href": "https://www.bains-des-paquis.ch/"
+  },
+  {
+   "title": "Spaziergang Quai Wilson bis Jet d'eau",
+   "when": "Ganzjährig",
+   "text": "Vom rechten Seeufer über die Mont-Blanc-Brücke zum Jardin Anglais und weiter zum Jet d'eau: eine knappe Stunde, bei der man nebeneinander geht statt sich gegenüberzusitzen."
+  },
+  {
+   "title": "Flohmarkt auf der Plaine de Plainpalais",
+   "when": "Mittwoch und Samstag",
+   "text": "Zweimal pro Woche verwandelt sich die grosse Fläche neben der Universität in einen Flohmarkt. Guter Ort für ein zweites Treffen: Man läuft, schaut, redet – und kauft am Ende nichts."
+  }
+ ],
+ "talkingPoints": [
+  {
+   "title": "Der ausgeglichenste Markt der Schweiz",
+   "text": "103 ledige Männer je 100 ledige Frauen zwischen 25 und 54 – schweizweit sind es 125. Wer aus Zürich (116) oder St. Gallen (127) nach Genf zieht, merkt den Unterschied nicht in der Statistik, sondern im Antwortverhalten."
+  },
+  {
+   "title": "Wie man sich hier kennenlernt",
+   "text": "Die Genfer Statistik fragt danach: Bei Paaren, die zwischen 2019 und 2023 zusammengekommen sind, war in 24,3 Prozent der Fälle ein Dating-Portal im Spiel, bei Paaren von vor 2013 nur in 3,2 Prozent. Freunde und Bekannte bleiben mit 30,4 Prozent der häufigste Weg."
+  },
+  {
+   "title": "Befristet, international, mobil",
+   "text": "Internationale Organisationen arbeiten mit Verträgen über zwei, drei oder vier Jahre. Die Frage, wie lange jemand bleibt, ist in Genf deshalb keine Floskel – sondern die wichtigste Frage des zweiten Abends."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Wie viele Akademiker leben in Genf?",
+   "answer": "Im Kanton Genf haben 49 Prozent der 25- bis 64-Jährigen einen Tertiärabschluss – der höchste Wert der Schweiz (Fünfjahresmittel 2019–2023, OCSTAT nach Strukturerhebung). Bei den Frauen sind es 50 Prozent, bei den Männern 48 Prozent; unter den Erwerbstätigen 53 Prozent."
+  },
+  {
+   "question": "Gibt es in Genf mehr ledige Männer oder Frauen?",
+   "answer": "Das Verhältnis ist nahezu ausgeglichen: Auf 100 ledige Frauen zwischen 25 und 54 kommen 103 ledige Männer (27.617 zu 26.832, BFS STATPOP am 31.12.2025). Schweizweit sind es 125. Genf ist damit der ausgeglichenste Partnermarkt unserer Schweizer Stadtdossiers."
+  },
+  {
+   "question": "Wie lernen sich Paare in Genf kennen?",
+   "answer": "Die Genfer Statistik hat 2023 Personen von 25 bis 80 Jahren in Partnerschaften befragt: Bei Paaren, die zwischen 2019 und 2023 entstanden sind, kamen 24,3 Prozent über Dating-Sites oder -Apps zusammen, 30,4 Prozent über Freunde und Bekannte und 18 Prozent über Ausbildung oder Arbeit. Vor 2013 lag der Anteil der Dating-Portale bei 3,2 Prozent."
+  },
+  {
+   "question": "Suchen Akademiker in Genf eher Akademiker?",
+   "answer": "Die Zahlen legen das nahe: In 34,3 Prozent aller Genfer Paare haben beide Partner einen Tertiärabschluss (32.240 von 93.983 Paaren, Mittel 2020–2024). Von den Männern mit Tertiärabschluss leben 73 Prozent mit einer Partnerin zusammen, die ebenfalls einen Tertiärabschluss hat."
+  },
+  {
+   "question": "Wie viele Studierende hat Genf?",
+   "answer": "An der Université de Genève sind im Wintersemester 2025/26 16.481 Menschen eingeschrieben (62,9 Prozent davon Frauen), am Geneva Graduate Institute 1.039 (67,6 Prozent Frauen). Dazu kommen die Fachhochschulen der HES-SO Genève und die Haute école d'art et de design."
+  },
+  {
+   "question": "Wo lernen Akademiker in Genf Singles kennen?",
+   "answer": "Bei öffentlichen Vorlesungen und Konferenzen der UNIGE, in den Bains des Pâquis, auf der Plaine de Plainpalais, im Parc des Bastions oder beim Spaziergang vom Quai Wilson zum Jet d'eau. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles: Jedes Profil wird manuell geprüft."
+  },
+  {
+   "question": "Ist die Anmeldung kostenlos?",
+   "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+  }
+ ],
+ "guide": [
+  {
+   "title": "Die Stadt mit der höchsten Akademikerquote der Schweiz",
+   "html": "<p>49 Prozent der 25- bis 64-Jährigen im Kanton Genf haben einen Abschluss auf Tertiärstufe – Hochschule oder höhere Berufsbildung. 31 Prozent haben einen Abschluss der Sekundarstufe II, 20 Prozent nicht mehr als die obligatorische Schule. Unter den Erwerbstätigen steigt der Tertiäranteil auf 53 Prozent.</p><p>Bemerkenswert ist, wie gleichmässig sich das verteilt: Bei den Frauen liegt die Quote bei 50 Prozent, bei den Männern bei 48. In vielen Städten klafft hier eine Lücke, die sich bis in die Partnersuche auswirkt – in Genf nicht.</p><p>Das zeigt sich auch beim Nachwuchs: 84 Prozent der 25- bis 44-Jährigen haben mindestens einen Abschluss der Sekundarstufe II, bei den 45- bis 64-Jährigen sind es 75 Prozent. Genf wird also weiter akademischer, nicht weniger.</p>"
+  },
+  {
+   "title": "103 zu 100: der fairste Markt des Landes",
+   "html": "<p>In der Schweiz kommen auf 100 ledige Frauen zwischen 25 und 54 im Schnitt 125 ledige Männer. In Zug sind es 138, in St. Gallen 127, in Zürich 116 – und in Genf 103. Mit 27.617 ledigen Männern und 26.832 ledigen Frauen ist der Genfer Partnermarkt praktisch im Gleichgewicht.</p><p>Hinzu kommt: 53,3 Prozent der 25- bis 54-Jährigen sind ledig, deutlich über dem Landesschnitt von 43,7 Prozent, und 47,5 Prozent der Haushalte bestehen aus einer Person. Genf ist eine Stadt, in der man unabhängig lebt, ohne dass das erklärungsbedürftig wäre.</p><p>Die dritte Zahl gehört dazu: 12,9 Prozent der Erwachsenen ab 20 sind geschieden, der höchste Wert unserer Schweizer Dossiers. Zweite Beziehungen sind hier kein Sonderfall, sondern Normalität – was den Umgang miteinander oft ehrlicher macht.</p>"
+  },
+  {
+   "title": "Was die Genfer Statistik über das Kennenlernen weiss",
+   "html": "<p>Genf ist der einzige Kanton, der systematisch erhebt, wie Paare einander kennengelernt haben. 2023 wurden dafür Personen zwischen 25 und 80 Jahren befragt, die in einer Partnerschaft leben. Das Ergebnis liest sich wie eine Zeitgeschichte der Partnersuche.</p><p>Bei Paaren, die vor 2013 zusammenkamen, spielten Dating-Portale mit 3,2 Prozent kaum eine Rolle. Bei Paaren aus den Jahren 2013 bis 2018 waren es 21,7 Prozent, bei Paaren ab 2019 bereits 24,3 Prozent. Konstant geblieben ist der stärkste Weg: Freunde und Bekannte, zuletzt 30,4 Prozent. Ausbildung und Arbeit folgen mit 18 Prozent.</p><p>Interessant ist der Blick nach Bildungsgrad. Menschen mit Tertiärabschluss lernen ihre Partnerin oder ihren Partner überdurchschnittlich oft in Ausbildung oder Beruf kennen (27,3 Prozent gegenüber 13,5 Prozent bei Personen mit obligatorischer Schulbildung) – und nutzen Dating-Portale mit 11,1 Prozent etwas häufiger als der Durchschnitt. Wer sich also fragt, ob ein Portal das richtige Mittel ist: In Genf ist es für ein Viertel der jüngeren Paare die Antwort gewesen.</p>"
+  },
+  {
+   "title": "Akademiker finden Akademiker – mit Zahlen belegt",
+   "html": "<p>Die zweite Genfer Besonderheit ist eine Tabelle, die es so kaum irgendwo gibt: Paare nach dem Bildungsniveau beider Partner. Von 93.983 Paaren im Kanton haben 32.240 zwei Partner mit Tertiärabschluss – 34,3 Prozent. Zum Vergleich: In 12.823 Paaren haben beide höchstens die obligatorische Schule abgeschlossen.</p><p>Noch deutlicher wird es aus der Perspektive der Einzelnen. Von den 44.230 Männern mit Tertiärabschluss leben 32.240 mit einer Partnerin zusammen, die ebenfalls tertiär gebildet ist – das sind 73 Prozent. Bei den Frauen mit Tertiärabschluss sind es 76 Prozent.</p><p>Diese Zahlen sagen nichts darüber, ob Bildung glücklich macht. Sie zeigen aber, dass gemeinsamer Bildungshintergrund für die meisten Paare keine Nebensache ist – und erklären, warum eine Plattform, die genau dort ansetzt, in dieser Stadt Sinn ergibt.</p>"
+  },
+  {
+   "title": "Arbeiten in Genf: international und befristet",
+   "html": "<p>210.767 Arbeitsplätze in 24.728 Arbeitsstätten zählt die Stadt (Dezember 2024) – bei 211.152 Einwohnern. 2011 waren es noch 186.264 Arbeitsplätze; Genf wächst also als Arbeitsort schneller als als Wohnort, was den Pendelverkehr aus der Waadt und aus Frankreich erklärt.</p><p>Die akademisch geprägten Arbeitgeber sind schnell aufgezählt: das internationale Genf rund um den Palais des Nations, die Universität mit ihren Instituten, das Universitätsspital, das Geneva Graduate Institute, der Campus Biotech – und, gleich vor den Toren der Stadt in Meyrin, das CERN mit seinen 25 Mitgliedstaaten und elf assoziierten Mitgliedern.</p><p>Was man dazu wissen sollte: Viele Stellen in internationalen Organisationen sind befristet. Zwei bis vier Jahre sind üblich, Verlängerungen ungewiss. Beziehungen in Genf stehen deshalb oft früh vor der Frage, wessen Vertrag die gemeinsame Zukunft bestimmt – und wer bereit wäre, mitzugehen.</p>"
+  },
+  {
+   "title": "Was die Zahlen nicht sagen",
+   "html": "<p>Die Bildungs-, Paar- und Kennenlerndaten dieser Seite stammen aus der Strukturerhebung und aus Befragungen des kantonalen Statistikamts und gelten für den <em>Kanton</em> Genf; Haushalts- und Beschäftigtenzahlen beziehen sich auf die Stadt. Befragungsdaten haben Vertrauensintervalle: Je kleiner die Gruppe, desto breiter die Spanne.</p><p>„Ledig“ bleibt ein Zivilstand und kein Beziehungsstatus – in der Westschweiz ist das Zusammenleben ohne Trauschein besonders verbreitet. Und die 24,3 Prozent, die sich über ein Portal gefunden haben, sagen nichts darüber, wie viele es versucht und nicht gefunden haben.</p><p>Was bleibt: Genf ist akademisch so dicht wie keine andere Schweizer Stadt, beim Geschlechterverhältnis nahezu im Gleichgewicht, international geprägt und erstaunlich offen für neue Wege der Partnersuche. Wer Französisch spricht oder lernt, hat es dabei deutlich leichter.</p>"
+  }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "49 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "17.520"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "53,3 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "103"
+  }
+ ],
+ "sources": [
+  {
+   "id": "einwohner",
+   "publisher": "Bundesamt für Statistik (BFS)",
+   "title": "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde (Bevölkerungsstand)",
+   "stand": "Stand 31.12.2025",
+   "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+  },
+  {
+   "id": "bfs-zivil",
+   "publisher": "Bundesamt für Statistik (BFS)",
+   "title": "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde, Geschlecht, Zivilstand und Altersklasse (Anteil Ledige, Geschiedene, Geschlechterverhältnis)",
+   "stand": "Stand 31.12.2025",
+   "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+  },
+  {
+   "id": "bfs-stud",
+   "publisher": "Bundesamt für Statistik (BFS)",
+   "title": "Studierende an den universitären Hochschulen (px-x-1502040100_106) nach Fachbereich, Studienstufe, Geschlecht und Hochschule; Bachelor bis Doktorat ohne Weiterbildung",
+   "stand": "Wintersemester 2025/26",
+   "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_106/px-x-1502040100_106.px"
+  },
+  {
+   "id": "ocstat-formation",
+   "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+   "title": "Meldung vom 24.06.2025: Niveau de formation de la population résidant dans le canton de Genève – 49 % der 25- bis 64-Jährigen mit Tertiärabschluss (Frauen 50 %, Männer 48 %), 31 % Sekundarstufe II, 20 % obligatorische Schule",
+   "stand": "Fünfjahresmittel 2019–2023 (Strukturerhebung)",
+   "url": "https://statistique.ge.ch/actualites/welcome.asp?actu=5677"
+  },
+  {
+   "id": "ocstat-menages",
+   "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+   "title": "Tabelle T 01.05.3.04: Ménages privés selon la taille du ménage, par commune – Stadt Genf 42.629 Einpersonenhaushalte von 89.749 Privathaushalten",
+   "stand": "Fünfjahresmittel 2020–2024",
+   "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_3_04.xlsx"
+  },
+  {
+   "id": "ocstat-emplois",
+   "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+   "title": "Tabelle T 06.02.2.1.02: Etablissements et emplois par commune – Stadt Genf 210.767 Arbeitsplätze in 24.728 Arbeitsstätten",
+   "stand": "Stand Dezember 2024",
+   "url": "https://statistique.ge.ch/tel/domaines/06/06_02/T_06_02_2_1_02.xlsx"
+  },
+  {
+   "id": "ocstat-rencontre",
+   "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+   "title": "Tabelle T 01.05.5.03: Mode de rencontre de la ou du partenaire, selon la date de formation du couple, le groupe d'âges et le niveau de formation (Personen von 25 bis 80 Jahren in Partnerschaft)",
+   "stand": "Erhebung 2023",
+   "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_5_03.xlsx"
+  },
+  {
+   "id": "ocstat-couples",
+   "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+   "title": "Tabelle T 01.05.1.04: Couples selon le sexe et le niveau de formation achevée le plus élevé des conjoints – 32.240 von 93.983 Paaren mit zwei Tertiärabschlüssen",
+   "stand": "Fünfjahresmittel 2020–2024",
+   "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_1_04.xlsx"
+  },
+  {
+   "id": "cern-governance",
+   "publisher": "CERN",
+   "title": "Our governance: CERN wird von 25 Mitgliedstaaten und elf assoziierten Mitgliedstaaten getragen",
+   "stand": "abgerufen 11/2026",
+   "url": "https://home.cern/about/who-we-are/our-governance"
+  },
+  {
+   "id": "iheid-about",
+   "publisher": "Geneva Graduate Institute (IHEID)",
+   "title": "Discover the Institute: Master- und PhD-Programme für internationale Beziehungen und Entwicklung, seit 1927",
+   "stand": "abgerufen 11/2026",
+   "url": "https://www.graduateinstitute.ch/discover-institute"
+  }
+ ]
+}
