@@ -1,6 +1,7 @@
 // Stadtdossier Zürich auf den Ausbaustand 2026-11 heben: neue Kennzahlen (STATPOP 2025, BFS-Hochschulstatistik
 // WS 2025/26), Hochschulporträts, Quartiere mit Tertiärquote, Termine, Gesprächsstoff und eigener Stadt-Guide.
 import { readFileSync, writeFileSync } from "node:fs";
+import { applySources } from "./_sources.mjs";
 
 const file = "data/city-profiles/ch/zuerich.json";
 const p = JSON.parse(readFileSync(file, "utf8"));
@@ -141,18 +142,18 @@ p.guide = [
 ];
 
 // Quellen: bestehende behalten, aktualisieren, neue anhängen
-const byId = new Map(p.sources.map(s => [s.id, s]));
-const set = (id, data) => byId.set(id, { id, ...data });
-set("einwohner", { publisher: "Bundesamt für Statistik (BFS)", title: "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde (Bevölkerungsstand)", stand: "Stand 31.12.2025", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px" });
-set("bfs-zivil", { publisher: "Bundesamt für Statistik (BFS)", title: "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde, Geschlecht, Zivilstand und Altersklasse (Anteil Ledige, Geschlechterverhältnis)", stand: "Stand 31.12.2025", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px" });
-set("bfs-stud", { publisher: "Bundesamt für Statistik (BFS)", title: "Studierende an den universitären Hochschulen (px-x-1502040100_106) sowie an Fachhochschulen und pädagogischen Hochschulen (px-x-1502040400_136) nach Fachbereich, Studienstufe, Geschlecht und Hochschule; Bachelor, Master, Lizenziat/Diplom und Doktorat ohne Weiterbildung", stand: "Wintersemester 2025/26", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_106/px-x-1502040100_106.px" });
-set("zh-quartier", { publisher: "Statistik Stadt Zürich (nach BFS-Strukturerhebung)", title: "Bevölkerung nach Bildungsstand, Stadtkreis und Stadtquartier (BIL101OD1012): Anteil Tertiärstufe an der ständigen Wohnbevölkerung ab 15 Jahren", stand: "Strukturerhebung, Pooling 2022–2024", url: "https://data.stadt-zuerich.ch/dataset/bfs_bev_bildungsstand_statquartier_od1012" });
-set("eth-geschichte", { publisher: "ETH Zürich", title: "Geschichte der ETH Zürich: Gründung 1855 als «Polytechnikum», 22 Nobelpreise an Forschende mit ETH-Bezug", stand: "abgerufen 11/2026", url: "https://ethz.ch/de/die-eth-zuerich/portraet/geschichte.html" });
-set("uzh-excellence", { publisher: "Universität Zürich", title: "Porträt, Fakultäten und Exzellenz: Gründung 1833, sieben Fakultäten und über 150 Institute, zwölf Nobelpreisträger", stand: "abgerufen 11/2026", url: "https://www.uzh.ch/de/explore/portrait.html" });
-set("phzh-zahlen", { publisher: "Pädagogische Hochschule Zürich", title: "PH Zürich in Zahlen: 3.918 Studierende (gewichteter Durchschnitt dreier Stichtage), 1.609 Studieneintritte, 439 Quereinsteigende", stand: "Jahr 2025", url: "https://phzh.ch/ueber-die-phzh/aktuell/zahlen-und-fakten/" });
-set("zhaw-zahlen", { publisher: "ZHAW Zürcher Hochschule für Angewandte Wissenschaften", title: "Zahlen und Fakten: acht Departemente, drei Standorte, 3.729 Mitarbeitende, 34 Bachelor- und 20 Masterstudiengänge (Jahresbericht 2025)", stand: "Jahresbericht 2025", url: "https://www.zhaw.ch/de/ueber-uns/zahlen-und-fakten/" });
-set("hwz-portrait", { publisher: "HWZ Hochschule für Wirtschaft Zürich", title: "Über uns: rund 3.000 Studierende und 800 Dozierende aus der Praxis, seit 1986 ausschliesslich berufsbegleitend", stand: "abgerufen 11/2026", url: "https://www.fh-hwz.ch/ueber-uns/" });
-p.sources = [...byId.values()];
+const sources = {
+  "einwohner": { publisher: "Bundesamt für Statistik (BFS)", title: "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde (Bevölkerungsstand)", stand: "Stand 31.12.2025", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px" },
+  "bfs-zivil": { publisher: "Bundesamt für Statistik (BFS)", title: "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde, Geschlecht, Zivilstand und Altersklasse (Anteil Ledige, Geschlechterverhältnis)", stand: "Stand 31.12.2025", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px" },
+  "bfs-stud": { publisher: "Bundesamt für Statistik (BFS)", title: "Studierende an den universitären Hochschulen (px-x-1502040100_106) sowie an Fachhochschulen und pädagogischen Hochschulen (px-x-1502040400_136) nach Fachbereich, Studienstufe, Geschlecht und Hochschule; Bachelor, Master, Lizenziat/Diplom und Doktorat ohne Weiterbildung", stand: "Wintersemester 2025/26", url: "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_106/px-x-1502040100_106.px" },
+  "zh-quartier": { publisher: "Statistik Stadt Zürich (nach BFS-Strukturerhebung)", title: "Bevölkerung nach Bildungsstand, Stadtkreis und Stadtquartier (BIL101OD1012): Anteil Tertiärstufe an der ständigen Wohnbevölkerung ab 15 Jahren", stand: "Strukturerhebung, Pooling 2022–2024", url: "https://data.stadt-zuerich.ch/dataset/bfs_bev_bildungsstand_statquartier_od1012" },
+  "eth-geschichte": { publisher: "ETH Zürich", title: "Geschichte der ETH Zürich: Gründung 1855 als «Polytechnikum», 22 Nobelpreise an Forschende mit ETH-Bezug", stand: "abgerufen 11/2026", url: "https://ethz.ch/de/die-eth-zuerich/portraet/geschichte.html" },
+  "uzh-excellence": { publisher: "Universität Zürich", title: "Porträt, Fakultäten und Exzellenz: Gründung 1833, sieben Fakultäten und über 150 Institute, zwölf Nobelpreisträger", stand: "abgerufen 11/2026", url: "https://www.uzh.ch/de/explore/portrait.html" },
+  "phzh-zahlen": { publisher: "Pädagogische Hochschule Zürich", title: "PH Zürich in Zahlen: 3.918 Studierende (gewichteter Durchschnitt dreier Stichtage), 1.609 Studieneintritte, 439 Quereinsteigende", stand: "Jahr 2025", url: "https://phzh.ch/ueber-die-phzh/aktuell/zahlen-und-fakten/" },
+  "zhaw-zahlen": { publisher: "ZHAW Zürcher Hochschule für Angewandte Wissenschaften", title: "Zahlen und Fakten: acht Departemente, drei Standorte, 3.729 Mitarbeitende, 34 Bachelor- und 20 Masterstudiengänge (Jahresbericht 2025)", stand: "Jahresbericht 2025", url: "https://www.zhaw.ch/de/ueber-uns/zahlen-und-fakten/" },
+  "hwz-portrait": { publisher: "HWZ Hochschule für Wirtschaft Zürich", title: "Über uns: rund 3.000 Studierende und 800 Dozierende aus der Praxis, seit 1986 ausschliesslich berufsbegleitend", stand: "abgerufen 11/2026", url: "https://www.fh-hwz.ch/ueber-uns/" },
+};
+applySources(p, sources);
 
 writeFileSync(file, JSON.stringify(p, null, 1) + "\n");
 console.log("Zürich geschrieben:", p.sources.length, "Quellen,", p.guide.length, "Guide-Kapitel,", p.universities.length, "Hochschulen");
