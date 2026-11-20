@@ -22,3 +22,11 @@ export function applySources(profile, updates) {
   profile.sources = [...byId.values()].filter(source => used.has(source.id));
   return profile.sources;
 }
+
+/** SEO-Texte früh prüfen: Titel max. 60, Description 110–150 Zeichen (siehe tests/city-seo-titles.test.mjs). */
+export function checkSeo(profile) {
+  const title = profile.seoTitle ?? "";
+  const description = profile.seoDescription ?? "";
+  if (title.length > 60) throw new Error(`seoTitle ${title.length} Zeichen: ${title}`);
+  if (description.length < 110 || description.length > 150) throw new Error(`seoDescription ${description.length} Zeichen: ${description}`);
+}
