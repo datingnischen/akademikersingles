@@ -4,9 +4,9 @@ Stand: 2026-11-20 (Claude Code). Repo `datingnischen/akademikersingles`, Branch 
 Trello: Board „Christian Aufgaben“, Liste „in Bearbeitung“, Karte „Codex: Titelbilder Klagenfurt/Krems/Leoben + Infografiken Städtevergleich AT/CH“.
 
 ## Hintergrund
-Die AT/CH-Stadtdossiers wurden am 20.11.2026 stark ausgebaut (Hochschulporträts, Quartiere, Termine, eigener Stadt-Guide, aktuelle amtliche Kennzahlen). Neu dazugekommen sind drei österreichische Stadtseiten, die noch kein Titelbild haben. Außerdem haben die beiden Länderseiten jetzt einen Städtevergleich als Tabelle – dafür fehlt eine Infografik.
+Die AT/CH-Stadtdossiers wurden am 20./21.11.2026 stark ausgebaut (Hochschulporträts, Quartiere, Termine, eigener Stadt-Guide, aktuelle amtliche Kennzahlen). Neu dazugekommen sind drei österreichische und zwei Schweizer Stadtseiten, die noch kein Titelbild haben. Außerdem haben die beiden Länderseiten jetzt einen Städtevergleich als Tabelle – dafür fehlt eine Infografik.
 
-## 1. Titelbilder (3 Dateien)
+## 1. Titelbilder (5 Dateien)
 - Format: WebP, **1536 × 1024 px**, je höchstens 450 KB – gleiche Machart wie die bestehenden AT/CH-Titelbilder in `public/brand/` (Aquarellzeichnung, ruhig, hochwertig, helle Töne).
 - Keine Logos, Markenzeichen, Schriftzüge, keine erkennbaren realen Personen.
 - Einbau: keiner nötig. `lib/market-cities.ts` zeigt das Bild automatisch, sobald die Datei unter dem Zielpfad liegt (Kopf der Stadtseite und Kachel in der Städteübersicht). Der Alt-Text steht als `heroAlt` im Dossier; bei abweichendem Motiv dort anpassen.
@@ -16,6 +16,8 @@ Die AT/CH-Stadtdossiers wurden am 20.11.2026 stark ausgebaut (Hochschulporträts
 | `public/brand/at-klagenfurt-partnersuche.webp` | Klagenfurt mit dem Lindwurm am Neuen Platz und dem Wörthersee im Hintergrund |
 | `public/brand/at-krems-partnersuche.webp` | Krems an der Donau mit Steiner Tor und den Weinbergen der Wachau |
 | `public/brand/at-leoben-partnersuche.webp` | Leoben mit dem Schwammerlturm und der Mur im Vordergrund |
+| `public/brand/ch-genf-partnersuche.webp` | Genf mit dem Jet d'eau über dem Genfersee und der Altstadt |
+| `public/brand/ch-luzern-partnersuche.webp` | Luzern mit Kapellbrücke, Wasserturm und dem Vierwaldstättersee |
 
 Bitte die Wiedererkennbarkeit der Motive prüfen (Göttingen-Fehler: Hero zeigte Hannover).
 
