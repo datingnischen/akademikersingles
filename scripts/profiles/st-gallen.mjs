@@ -31,7 +31,7 @@ p.dossier = [
     intro: "Eine Wirtschaftsuniversität mit internationalem Ruf, eine junge Fachhochschule und eine Pädagogische Hochschule – St. Gallen ist akademisch ungewöhnlich spezialisiert.",
     metrics: [
       { value: "46 %", label: "der 25- bis 64-Jährigen haben einen Tertiärabschluss", source: "sg-stadtstat", note: "Angabe der Stadtstatistik im europäischen Städtevergleich (Strukturerhebung, Eurostat City Statistics)" },
-      { value: "35,3 %", label: "Frauenanteil an der Universität St.Gallen – der tiefste Wert aller Schweizer Volluniversitäten", source: "bfs-stud", note: "Wintersemester 2025/26: 3.571 von 10.116 Studierenden; zum Vergleich: Universität Zürich 59,1 %, Universität Bern 59,6 %", compare: { city: 35.3, germany: 59.1, unit: " %", max: 70 }, compareSource: "bfs-stud" },
+      { value: "35,3 %", label: "Frauenanteil an der Universität St.Gallen – der tiefste Wert aller Schweizer Volluniversitäten", source: "bfs-stud", note: "Wintersemester 2025/26: 3.571 von 10.116 Studierenden; zum Vergleich: Universität Zürich 59,1 %, Universität Bern 59,6 %", compare: { city: 35.3, germany: 59.1, unit: " %", max: 70, cityLabel: "HSG", compareLabel: "Universität Zürich" }, compareSource: "bfs-stud" },
       { value: "4.030", label: "Studierende an der OST Ostschweizer Fachhochschule", source: "ost-zahlen", note: "Stand 31.12.2025: 3.583 Bachelor, 447 Master; 42,7 % Frauen (1.721 von 4.030). Die OST hat Standorte in St.Gallen, Rapperswil-Jona und Buchs" },
     ],
     takeaway: "Wirtschaft, Technik, Gesundheit, Bildung: Wer hier studiert hat, hat sich früh für eine klare Richtung entschieden.",

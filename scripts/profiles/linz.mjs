@@ -42,7 +42,7 @@ p.dossier = [
     intro: "Industrie, Technik und Dienstleistung: Linz hat fast so viele Arbeitsplätze wie Einwohner und zieht Beschäftigte aus ganz Oberösterreich an.",
     metrics: [
       { value: "198.306", label: "Beschäftigte in Linzer Arbeitsstätten", source: "aest-gemeinde", note: "17.769 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024" },
-      { value: "173", label: "Einpendelnde je 100 Auspendelnde – Höchstwert unter den Landeshauptstädten", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; 32,8 % der Linzer Erwerbstätigen pendeln aus, die durchschnittliche Wegzeit liegt bei 20 Minuten", compare: { city: 173.8, germany: 118.4, unit: "", max: 200 } },
+      { value: "173", label: "Einpendelnde je 100 Auspendelnde – Höchstwert unter den Landeshauptstädten", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; 32,8 % der Linzer Erwerbstätigen pendeln aus, die durchschnittliche Wegzeit liegt bei 20 Minuten", compare: { city: 173.8, germany: 118.4, unit: "", max: 200, cityLabel: "Linz", compareLabel: "Wien" } },
       { value: "57,0 %", label: "der Studierenden unter 30 sind erwerbstätig", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 56,1 %. Der Softwarepark Hagenberg und die Industrie bieten viele studienbegleitende Stellen", compareSource: "jku-geschichte" },
     ],
     takeaway: "Wer in Linz arbeitet, arbeitet oft an etwas Konkretem – Maschinen, Software, Patienten. Das macht Gespräche angenehm greifbar.",
@@ -64,7 +64,7 @@ p.dossier = [
     intro: "Jünger als Oberösterreich, mit hohem Anteil Alleinlebender und einem leichten Männerüberschuss.",
     metrics: [
       { value: "42,3", label: "Jahre Durchschnittsalter – jünger als Oberösterreich (43,3) und Österreich (43,6)", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024", compare: { city: 42.3, germany: 43.6, unit: " J.", max: 50 } },
-      { value: "109", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "31.802 Männer zu 29.175 Frauen am 01.01.2026; in Wien sind es 103, in Salzburg 103", compare: { city: 109, germany: 103, unit: "", max: 125 } },
+      { value: "109", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "31.802 Männer zu 29.175 Frauen am 01.01.2026; in Wien sind es 103, in Salzburg 103", compare: { city: 109, germany: 103, unit: "", max: 125, cityLabel: "Linz", compareLabel: "Wien" } },
       { value: "29,9 %", label: "der Bevölkerung haben keine österreichische Staatsangehörigkeit", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Oberösterreich 16,2 %. Linz ist internationaler, als es von außen wirkt" },
     ],
     takeaway: "Viele sind für die Arbeit hergezogen und suchen Anschluss – ein ehrliches Profil wirkt hier schneller als Inszenierung.",

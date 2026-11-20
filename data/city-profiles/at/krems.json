@@ -125,7 +125,9 @@
       "city": 113.9,
       "germany": 103,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Krems",
+      "compareLabel": "Wien"
      }
     },
     {

@@ -34,10 +34,11 @@ function CompareBars({ metric, city, profile }: { metric: Metric; city: string; 
   if (!c) return null;
   const max = c.max ?? Math.max(c.city, c.germany) * 1.15;
   const fmt = (v: number) => `${v.toLocaleString("de-DE")}${c.unit}`;
-  const country = profile.country ?? "Deutschland";
-  return <div className={styles.bars} role="img" aria-label={`${city} ${fmt(c.city)}, ${country} ${fmt(c.germany)}`}>
-    <div><span>{city}</span><i style={{ width: `${(c.city / max) * 100}%` }} /><span className={styles.value}>{fmt(c.city)}</span></div>
-    <div className={styles.barDe}><span>{country}{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><span className={styles.value}>{fmt(c.germany)}</span></div>
+  const left = c.cityLabel ?? city;
+  const right = c.compareLabel ?? profile.country ?? "Deutschland";
+  return <div className={styles.bars} role="img" aria-label={`${left} ${fmt(c.city)}, ${right} ${fmt(c.germany)}`}>
+    <div><span>{left}</span><i style={{ width: `${(c.city / max) * 100}%` }} /><span className={styles.value}>{fmt(c.city)}</span></div>
+    <div className={styles.barDe}><span>{right}{metric.compareSource ? <SourceRef profile={profile} id={metric.compareSource} /> : null}</span><i style={{ width: `${(c.germany / max) * 100}%` }} /><span className={styles.value}>{fmt(c.germany)}</span></div>
   </div>;
 }
 

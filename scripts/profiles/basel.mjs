@@ -52,7 +52,7 @@ p.dossier = [
     title: "Wohnen & Quartiere",
     intro: "Basel ist klein genug, um alles zu Fuss zu erreichen – und doch deutlich nach Milieus sortiert. Die Gymnasialquote der Wohnviertel macht das sichtbar.",
     metrics: [
-      { value: "61,5 %", label: "Gymnasialquote im Wohnviertel Wettstein – der höchste Wert der Stadt", source: "bs-viertel", compareSource: "bs-viertel", note: "Anteil der Übertritte ins Gymnasium, Datenjahr 2024 (Publikation 2025). Im Klybeck sind es 13,9 %, in Bachletten 60,4 % und in der Altstadt Grossbasel 57,9 %", compare: { city: 61.5, germany: 13.9, unit: " %", max: 70 } },
+      { value: "61,5 %", label: "Gymnasialquote im Wohnviertel Wettstein – der höchste Wert der Stadt", source: "bs-viertel", compareSource: "bs-viertel", note: "Anteil der Übertritte ins Gymnasium, Datenjahr 2024 (Publikation 2025). Im Klybeck sind es 13,9 %, in Bachletten 60,4 % und in der Altstadt Grossbasel 57,9 %", compare: { city: 61.5, germany: 13.9, unit: " %", max: 70, cityLabel: "Wettstein", compareLabel: "Klybeck" } },
       { value: "48,8 %", label: "Einpersonenhaushalte in der Stadt Basel", source: "bs-hh", compareSource: "bfs-hh-ch", note: "44.740 von 91.603 Privathaushalten, 31.12.2023 (kantonale Bevölkerungsstatistik). Schweiz insgesamt: 37,5 % (BFS STATPOP 2025); die Zählweisen sind nicht identisch, daher ohne Balkenvergleich" },
       { value: "35,7 %", label: "Anteil der Menschen in Einpersonenhaushalten in der Altstadt Kleinbasel – Spitzenwert unter den Wohnvierteln", source: "bs-viertel", note: "Datenjahr 2024; in den Vorstädten sind es 32,7 %, auf dem Bruderholz dagegen 14,3 %" },
     ],

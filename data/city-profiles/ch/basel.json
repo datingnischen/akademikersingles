@@ -121,7 +121,9 @@
       "city": 61.5,
       "germany": 13.9,
       "unit": " %",
-      "max": 70
+      "max": 70,
+      "cityLabel": "Wettstein",
+      "compareLabel": "Klybeck"
      }
     },
     {

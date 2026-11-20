@@ -64,7 +64,7 @@ p.dossier = [
     intro: "Die zweitjüngste Landeshauptstadt Österreichs mit einem leichten Männerüberschuss in der entscheidenden Altersgruppe.",
     metrics: [
       { value: "41,4", label: "Jahre Durchschnittsalter – nur Wien ist jünger", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 43,6 Jahre, Steiermark 44,8", compare: { city: 41.4, germany: 43.6, unit: " J.", max: 50 } },
-      { value: "109", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "47.807 Männer zu 44.011 Frauen am 01.01.2026. Der Überschuss hat auch mit der TU Graz und den technischen Studienrichtungen zu tun", compare: { city: 109, germany: 103, unit: "", max: 125 } },
+      { value: "109", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "47.807 Männer zu 44.011 Frauen am 01.01.2026. Der Überschuss hat auch mit der TU Graz und den technischen Studienrichtungen zu tun", compare: { city: 109, germany: 103, unit: "", max: 125, cityLabel: "Graz", compareLabel: "Wien" } },
       { value: "17,1 %", label: "der Bevölkerung sind 65 Jahre oder älter – der niedrigste Wert aller Landeshauptstädte außer Wien", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Steiermark 22,0 %, Österreich 20,2 %" },
     ],
     takeaway: "Eine junge Stadt mit hoher Fluktuation: Hier lernt man leicht jemanden kennen – und sollte früh über Bleiben oder Weiterziehen reden.",

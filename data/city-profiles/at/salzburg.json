@@ -163,7 +163,9 @@
       "city": 103,
       "germany": 109,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Salzburg",
+      "compareLabel": "Graz"
      }
     },
     {

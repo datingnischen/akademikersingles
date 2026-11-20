@@ -67,7 +67,7 @@ const p = {
       title: "Single-Leben",
       intro: "Die einzige Landeshauptstadt unseres Dossiers, in der Frauen in der Altersgruppe 30 bis 49 leicht in der Mehrheit sind.",
       metrics: [
-        { value: "99", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "13.992 Männer zu 14.069 Frauen am 01.01.2026. In Graz sind es 109, in Innsbruck 110, in Leoben 115 – Klagenfurt ist die Ausnahme", compare: { city: 99.5, germany: 109, unit: "", max: 125 } },
+        { value: "99", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "13.992 Männer zu 14.069 Frauen am 01.01.2026. In Graz sind es 109, in Innsbruck 110, in Leoben 115 – Klagenfurt ist die Ausnahme", compare: { city: 99.5, germany: 109, unit: "", max: 125, cityLabel: "Klagenfurt", compareLabel: "Graz" } },
         { value: "44,9", label: "Jahre Durchschnittsalter", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Kärnten 46,0 Jahre, Österreich 43,6. Klagenfurt ist jünger als sein Bundesland, aber älter als Graz oder Innsbruck", compare: { city: 44.9, germany: 43.6, unit: " J.", max: 52 } },
         { value: "21,3 %", label: "der Bevölkerung haben keine österreichische Staatsangehörigkeit", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Kärnten 13,5 %. Nähe zu Italien und Slowenien sowie rund 3.000 internationale Studierende prägen die Stadt", compareSource: "aau-profil" },
       ],

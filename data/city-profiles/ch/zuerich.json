@@ -46,11 +46,11 @@
    "note": "72.964 ledige Männer und 62.790 ledige Frauen dieser Altersgruppe, 31.12.2025; Schweiz insgesamt 125"
   },
   {
-   "value": "34",
-   "label": "Nobelpreise mit Zürcher Hochschulbezug",
+   "value": "22",
+   "label": "Nobelpreise an Forschende mit ETH-Bezug",
    "source": "eth-geschichte",
    "compareSource": "uzh-excellence",
-   "note": "22 Nobelpreise an Forschende mit ETH-Bezug (Angabe der ETH Zürich) und zwölf Nobelpreisträger, die an der Universität Zürich gelehrt und geforscht haben (Angabe der UZH); die Zählweisen der beiden Hochschulen sind nicht identisch"
+   "note": "Angabe der ETH Zürich. Die Universität Zürich nennt zwölf Nobelpreisträger, die hier gelehrt und geforscht haben – beide Häuser zählen nach eigenen Kriterien, deshalb werden die Zahlen hier nicht addiert"
   }
  ],
  "dossier": [
@@ -122,7 +122,9 @@
       "city": 79,
       "germany": 34.9,
       "unit": " %",
-      "max": 90
+      "max": 90,
+      "cityLabel": "Escher Wyss",
+      "compareLabel": "Hirzenbach"
      }
     },
     {

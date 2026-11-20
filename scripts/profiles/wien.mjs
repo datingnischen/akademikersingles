@@ -52,7 +52,7 @@ p.dossier = [
     title: "Wohnen & Bezirke",
     intro: "Wien ist nach Bezirken sortiert, auch nach Bildung: Zwischen Neubau und Simmering liegen 35 Prozentpunkte Akademikerquote.",
     metrics: [
-      { value: "47,9 %", label: "Akademikerquote im 7. Bezirk (Neubau) – der höchste Wert aller Gemeindebezirke", source: "aest-bezirke", compareSource: "aest-bezirke", note: "Anteil der Bevölkerung ab 15 Jahren mit Hochschul-, Akademie- oder Kollegabschluss, Abgestimmte Erwerbsstatistik 2024. Es folgen Josefstadt (47,5 %), Innere Stadt (47,2 %) und Alsergrund (46,3 %); Schlusslichter sind Simmering (13,2 %) und Favoriten (15,0 %)", compare: { city: 47.9, germany: 13.2, unit: " %", max: 55 } },
+      { value: "47,9 %", label: "Akademikerquote im 7. Bezirk (Neubau) – der höchste Wert aller Gemeindebezirke", source: "aest-bezirke", compareSource: "aest-bezirke", note: "Anteil der Bevölkerung ab 15 Jahren mit Hochschul-, Akademie- oder Kollegabschluss, Abgestimmte Erwerbsstatistik 2024. Es folgen Josefstadt (47,5 %), Innere Stadt (47,2 %) und Alsergrund (46,3 %); Schlusslichter sind Simmering (13,2 %) und Favoriten (15,0 %)", compare: { city: 47.9, germany: 13.2, unit: " %", max: 55, cityLabel: "Neubau", compareLabel: "Simmering" } },
       { value: "78,7 %", label: "Mietquote der Hauptwohnsitzwohnungen – der höchste Wert aller Bundesländer", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 45,3 %. Wohneigentum spielt in Wien eine viel kleinere Rolle als im Rest des Landes", compare: { city: 78.7, germany: 45.3, unit: " %", max: 90 } },
       { value: "72,6", label: "Quadratmeter durchschnittliche Wohnfläche je Hauptwohnsitzwohnung – österreichweit 96,7", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; kleinere Wohnungen, dafür kurze Wege: Nur 11,9 % der Erwerbstätigen pendeln aus Wien aus" },
     ],
@@ -65,7 +65,7 @@ p.dossier = [
     metrics: [
       { value: "45,3 %", label: "Einpersonenhaushalte", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 38,9 %", compare: { city: 45.3, germany: 38.9, unit: " %", max: 55 } },
       { value: "41,1", label: "Jahre Durchschnittsalter – 2,5 Jahre jünger als der österreichische Schnitt", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024 (Stichtag 31.10.2024)", compare: { city: 41.1, germany: 43.6, unit: " J.", max: 52 } },
-      { value: "103", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "310.257 Männer zu 302.581 Frauen am 01.01.2026. In kleineren Universitätsstädten mit technischem Schwerpunkt ist das Verhältnis deutlich unausgeglichener – in Leoben etwa 115 zu 100", compare: { city: 103, germany: 115, unit: "", max: 130 } },
+      { value: "103", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "310.257 Männer zu 302.581 Frauen am 01.01.2026. In kleineren Universitätsstädten mit technischem Schwerpunkt ist das Verhältnis deutlich unausgeglichener – in Leoben etwa 115 zu 100", compare: { city: 103, germany: 115, unit: "", max: 130, cityLabel: "Wien", compareLabel: "Leoben" } },
     ],
     takeaway: "Viele nehmen sich Zeit für Studium und Beruf – und suchen danach sehr bewusst jemanden, der die eigene Taktung versteht.",
   },

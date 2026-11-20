@@ -138,7 +138,9 @@
       "city": 47.9,
       "germany": 13.2,
       "unit": " %",
-      "max": 55
+      "max": 55,
+      "cityLabel": "Neubau",
+      "compareLabel": "Simmering"
      }
     },
     {
@@ -200,7 +202,9 @@
       "city": 103,
       "germany": 115,
       "unit": "",
-      "max": 130
+      "max": 130,
+      "cityLabel": "Wien",
+      "compareLabel": "Leoben"
      }
     }
    ],

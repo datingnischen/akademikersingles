@@ -163,7 +163,9 @@
       "city": 99.5,
       "germany": 109,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Klagenfurt",
+      "compareLabel": "Graz"
      }
     },
     {

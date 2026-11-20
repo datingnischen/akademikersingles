@@ -181,7 +181,9 @@
       "city": 109,
       "germany": 103,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Graz",
+      "compareLabel": "Wien"
      }
     },
     {

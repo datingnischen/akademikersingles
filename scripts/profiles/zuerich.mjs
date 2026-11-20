@@ -21,7 +21,7 @@ p.kpis = [
   { value: "440.935", label: "Einwohnerinnen und Einwohner der Stadt Zürich", source: "einwohner", note: "Ständige Wohnbevölkerung am 31.12.2025" },
   { value: "545.295", label: "Beschäftigte in Arbeitsstätten der Stadt Zürich", source: "zh-statent", note: "STATENT, Dezember 2024: 47.829 Arbeitsstätten; gezählt werden Beschäftigungsverhältnisse, nicht Personen" },
   { value: "116", label: "ledige Männer je 100 ledige Frauen (25 bis 54 Jahre)", source: "bfs-zivil", note: "72.964 ledige Männer und 62.790 ledige Frauen dieser Altersgruppe, 31.12.2025; Schweiz insgesamt 125" },
-  { value: "34", label: "Nobelpreise mit Zürcher Hochschulbezug", source: "eth-geschichte", compareSource: "uzh-excellence", note: "22 Nobelpreise an Forschende mit ETH-Bezug (Angabe der ETH Zürich) und zwölf Nobelpreisträger, die an der Universität Zürich gelehrt und geforscht haben (Angabe der UZH); die Zählweisen der beiden Hochschulen sind nicht identisch" },
+  { value: "22", label: "Nobelpreise an Forschende mit ETH-Bezug", source: "eth-geschichte", compareSource: "uzh-excellence", note: "Angabe der ETH Zürich. Die Universität Zürich nennt zwölf Nobelpreisträger, die hier gelehrt und geforscht haben – beide Häuser zählen nach eigenen Kriterien, deshalb werden die Zahlen hier nicht addiert" },
 ];
 
 p.dossier = [
@@ -52,7 +52,7 @@ p.dossier = [
     title: "Wohnen & Quartiere",
     intro: "Zürich ist in Quartiere sortiert, auch nach Bildung: Zwischen dem höchsten und dem niedrigsten Tertiäranteil liegen mehr als 40 Prozentpunkte.",
     metrics: [
-      { value: "79,0 %", label: "Tertiäranteil im Quartier Escher Wyss (Kreis 5) – der höchste Wert aller Wohnquartiere", source: "zh-quartier", compareSource: "zh-quartier", note: "Strukturerhebung, Pooling 2022–2024, ständige Wohnbevölkerung ab 15 Jahren; Vertrauensintervall 75,2 bis 82,8 %. Im Quartier Hirzenbach (Kreis 12) sind es 34,9 %", compare: { city: 79, germany: 34.9, unit: " %", max: 90 } },
+      { value: "79,0 %", label: "Tertiäranteil im Quartier Escher Wyss (Kreis 5) – der höchste Wert aller Wohnquartiere", source: "zh-quartier", compareSource: "zh-quartier", note: "Strukturerhebung, Pooling 2022–2024, ständige Wohnbevölkerung ab 15 Jahren; Vertrauensintervall 75,2 bis 82,8 %. Im Quartier Hirzenbach (Kreis 12) sind es 34,9 %", compare: { city: 79, germany: 34.9, unit: " %", max: 90, cityLabel: "Escher Wyss", compareLabel: "Hirzenbach" } },
       { value: "44,0 %", label: "Einpersonenhaushalte", source: "zh-hh", compareSource: "bfs-hh-ch", note: "95.871 von 217.807 Privathaushalten, Stand 2025 (wirtschaftlicher Wohnsitz, ohne Kollektivhaushalte). Schweiz insgesamt: 37,5 % (BFS STATPOP 2025); die Zählweisen sind nicht identisch, daher ohne Balkenvergleich" },
       { value: "217.807", label: "Privathaushalte in der Stadt", source: "zh-hh", note: "Stand 2025; die kleinteilige Haushaltsstruktur ist einer der Gründe, warum in Zürich so viele Menschen allein wohnen, ohne allein zu sein" },
     ],

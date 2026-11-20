@@ -111,7 +111,9 @@
       "city": 173.8,
       "germany": 118.4,
       "unit": "",
-      "max": 200
+      "max": 200,
+      "cityLabel": "Linz",
+      "compareLabel": "Wien"
      }
     },
     {
@@ -188,7 +190,9 @@
       "city": 109,
       "germany": 103,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Linz",
+      "compareLabel": "Wien"
      }
     },
     {

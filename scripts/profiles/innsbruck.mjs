@@ -42,7 +42,7 @@ p.dossier = [
     intro: "Universität, Klinik, Tourismus und Verwaltung: Innsbruck ist das Arbeitszentrum Tirols und zieht Beschäftigte aus dem ganzen Inntal an.",
     metrics: [
       { value: "110.030", label: "Beschäftigte in Innsbrucker Arbeitsstätten", source: "aest-gemeinde", note: "14.661 Arbeitsstätten; Beschäftigungsverhältnisse am Arbeitsort, Stichtag 31.10.2024" },
-      { value: "152", label: "Einpendelnde je 100 Auspendelnde", source: "aest-indikatoren", note: "Pendlersaldo nach der Abgestimmten Erwerbsstatistik 2024; nur 28,3 % der Innsbrucker Erwerbstätigen pendeln aus der Stadt aus", compare: { city: 151.8, germany: 118.4, unit: "", max: 200 } },
+      { value: "152", label: "Einpendelnde je 100 Auspendelnde", source: "aest-indikatoren", note: "Pendlersaldo nach der Abgestimmten Erwerbsstatistik 2024; nur 28,3 % der Innsbrucker Erwerbstätigen pendeln aus der Stadt aus", compare: { city: 151.8, germany: 118.4, unit: "", max: 200, cityLabel: "Innsbruck", compareLabel: "Wien" } },
       { value: "31,9 %", label: "der Bevölkerung haben keine österreichische Staatsangehörigkeit", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Tirol 18,9 %, Österreich 20,0 %. Hochschulen, Klinik und Tourismus bringen viele Menschen aus dem Ausland in die Stadt" },
     ],
     takeaway: "Viele Lebensläufe verbinden hier Beruf und Berg – wer das nicht teilt, sollte zumindest Verständnis dafür mitbringen.",
@@ -63,7 +63,7 @@ p.dossier = [
     title: "Single-Leben",
     intro: "Jung, studentisch geprägt – und mit einem spürbaren Männerüberschuss in der Altersgruppe zwischen 30 und 49.",
     metrics: [
-      { value: "110", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "20.179 Männer zu 18.434 Frauen am 01.01.2026; in Salzburg sind es 103, in Wien 103", compare: { city: 109.5, germany: 103, unit: "", max: 125 } },
+      { value: "110", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "20.179 Männer zu 18.434 Frauen am 01.01.2026; in Salzburg sind es 103, in Wien 103", compare: { city: 109.5, germany: 103, unit: "", max: 125, cityLabel: "Innsbruck", compareLabel: "Wien" } },
       { value: "42,8", label: "Jahre Durchschnittsalter – jünger als Tirol (43,4) und Österreich (43,6)", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024", compare: { city: 42.8, germany: 43.6, unit: " J.", max: 50 } },
       { value: "19,2 %", label: "der Bevölkerung sind 65 Jahre oder älter", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Tirol 19,8 %, Österreich 20,2 %. Der Anteil der unter 15-Jährigen liegt mit 11,7 % besonders niedrig – eine Stadt der Studierenden und Berufstätigen" },
     ],

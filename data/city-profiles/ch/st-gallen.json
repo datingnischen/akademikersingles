@@ -74,7 +74,9 @@
       "city": 35.3,
       "germany": 59.1,
       "unit": " %",
-      "max": 70
+      "max": 70,
+      "cityLabel": "HSG",
+      "compareLabel": "Universität Zürich"
      },
      "compareSource": "bfs-stud"
     },

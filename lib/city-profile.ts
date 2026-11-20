@@ -7,7 +7,9 @@ import type { MarketCode } from "@/lib/markets";
 // Jede Zahl verweist per `source` auf einen Eintrag in `sources` (Institution, Stand, URL);
 // `compareSource` belegt den Deutschland-Vergleich bzw. eine zweite Quelle. Eine Datei je Stadt in data/city-profiles/.
 
-export type Comparison = { city: number; germany: number; unit: string; max?: number };
+// Vergleichsbalken: Standard ist Stadt gegen Land. Mit `cityLabel`/`compareLabel` lassen sich stattdessen
+// zwei Quartiere, zwei Hochschulen oder zwei Städte gegenüberstellen – sonst stünde dort fälschlich der Landesname.
+export type Comparison = { city: number; germany: number; unit: string; max?: number; cityLabel?: string; compareLabel?: string };
 
 export type Metric = {
   value: string;

@@ -56,7 +56,7 @@ const p = {
       title: "Single-Leben",
       intro: "Kleine Haushalte, deutlicher Männerüberschuss und eine Altersstruktur, die älter ist als in den Universitätsstädten.",
       metrics: [
-        { value: "114", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "3.419 Männer zu 3.002 Frauen am 01.01.2026; in Wien sind es 103, in Graz 109. Für Frauen ist der Kremser Markt damit rechnerisch günstig", compare: { city: 113.9, germany: 103, unit: "", max: 125 } },
+        { value: "114", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "3.419 Männer zu 3.002 Frauen am 01.01.2026; in Wien sind es 103, in Graz 109. Für Frauen ist der Kremser Markt damit rechnerisch günstig", compare: { city: 113.9, germany: 103, unit: "", max: 125, cityLabel: "Krems", compareLabel: "Wien" } },
         { value: "1,97", label: "Personen je Privathaushalt – kleiner als im niederösterreichischen Schnitt (2,24)", source: "aest-gemeinde", note: "12.244 Privathaushalte, Abgestimmte Erwerbsstatistik 2024. Krems wohnt städtischer, als es die Größe vermuten lässt" },
         { value: "23,4 %", label: "der Bevölkerung sind 65 Jahre oder älter", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Niederösterreich 21,6 %, Österreich 20,2 %. Die Weiterbildungsuniversität bringt kaum klassische Studienanfänger in die Stadt" },
       ],

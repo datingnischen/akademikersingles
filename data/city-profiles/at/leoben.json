@@ -126,7 +126,9 @@
       "city": 115.3,
       "germany": 103,
       "unit": "",
-      "max": 125
+      "max": 125,
+      "cityLabel": "Leoben",
+      "compareLabel": "Wien"
      }
     },
     {

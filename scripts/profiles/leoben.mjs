@@ -56,7 +56,7 @@ const p = {
       title: "Single-Leben",
       intro: "Der deutlichste Männerüberschuss unserer österreichischen Dossiers – und die kleinsten Haushalte.",
       metrics: [
-        { value: "115", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "3.483 Männer zu 3.022 Frauen am 01.01.2026. In Klagenfurt sind es 99, in Wien 103, in Graz 109 – Leoben ist das andere Ende der Skala", compare: { city: 115.3, germany: 103, unit: "", max: 125 } },
+        { value: "115", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "3.483 Männer zu 3.022 Frauen am 01.01.2026. In Klagenfurt sind es 99, in Wien 103, in Graz 109 – Leoben ist das andere Ende der Skala", compare: { city: 115.3, germany: 103, unit: "", max: 125, cityLabel: "Leoben", compareLabel: "Wien" } },
         { value: "1,85", label: "Personen je Privathaushalt – der kleinste Wert unserer österreichischen Städte", source: "aest-gemeinde", note: "12.779 Privathaushalte, Abgestimmte Erwerbsstatistik 2024; Steiermark 2,17, Österreich 2,18" },
         { value: "23,9 %", label: "der Bevölkerung sind 65 Jahre oder älter", source: "aest-gemeinde", note: "Abgestimmte Erwerbsstatistik 2024; Steiermark 22,0 %, Österreich 20,2 %. Leoben ist älter als die Universitätsstädte – ein Effekt des industriellen Strukturwandels" },
       ],

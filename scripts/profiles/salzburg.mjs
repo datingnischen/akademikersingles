@@ -63,7 +63,7 @@ p.dossier = [
     title: "Single-Leben",
     intro: "Fast jeder zweite Haushalt besteht aus einer Person, und Männer und Frauen sind in der entscheidenden Altersgruppe fast gleich verteilt.",
     metrics: [
-      { value: "103", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "22.169 Männer zu 21.529 Frauen am 01.01.2026; in Graz sind es 109, in Innsbruck 110", compare: { city: 103, germany: 109, unit: "", max: 125 } },
+      { value: "103", label: "Männer je 100 Frauen zwischen 30 und 49 Jahren", source: "bev-alter", note: "22.169 Männer zu 21.529 Frauen am 01.01.2026; in Graz sind es 109, in Innsbruck 110", compare: { city: 103, germany: 109, unit: "", max: 125, cityLabel: "Salzburg", compareLabel: "Graz" } },
       { value: "43,9", label: "Jahre Durchschnittsalter", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 43,6 Jahre, Land Salzburg 43,6. Salzburg ist damit älter als Graz (41,4) oder Innsbruck (42,8)", compare: { city: 43.9, germany: 43.6, unit: " J.", max: 50 } },
       { value: "34,8 %", label: "der 20- bis 24-Jährigen sind in weiterführender Ausbildung", source: "aest-indikatoren", note: "Abgestimmte Erwerbsstatistik 2024; Österreich 33,5 %. Salzburg ist weniger stark studentisch geprägt als Graz (50,5 %) oder Innsbruck (48,8 %)" },
     ],
