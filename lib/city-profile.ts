@@ -19,7 +19,7 @@ export type Metric = {
 };
 
 export type DossierChapter = {
-  key: "bildung" | "beruf" | "singles";
+  key: "bildung" | "beruf" | "forschung" | "einkommen" | "wohnen" | "singles";
   title: string;
   intro: string;
   metrics: Metric[];
@@ -36,6 +36,30 @@ export type Place = {
 };
 
 export type Source = { id: string; publisher: string; title: string; stand: string; url: string };
+
+// Hochschulporträt: eine Zeile je Hochschule der Stadt (Trägerschaft, Gründung, Studierende, Frauenanteil, Profil).
+export type University = {
+  name: string;
+  kind: string;
+  founded?: string;
+  students?: string;
+  women?: string;
+  text: string;
+  source: string;
+  compareSource?: string;
+};
+
+// Quartiere und Bezirke: wo in der Stadt Hochschulnahe wohnen, arbeiten und ausgehen.
+export type Quarter = { name: string; label: string; text: string; source?: string };
+
+// Wiederkehrende Termine und Netzwerke mit akademischem Bezug (Lange Nacht der Forschung, Science Slam, Alumni-Clubs).
+export type AgendaItem = { title: string; when: string; text: string; href?: string };
+
+// Gesprächsstoff: redaktionelle Themen, über die in dieser Stadt wirklich geredet wird.
+export type TalkingPoint = { title: string; text: string };
+
+// Eigener Stadt-Guide der AT/CH-Seiten (in DE liefert den Text der ICONY-Import).
+export type GuideChapter = { title: string; html: string };
 
 export type CityProfile = {
   path: string;
@@ -63,6 +87,14 @@ export type CityProfile = {
     labels: { text: string; lat: number; lon: number; district?: boolean }[];
     boundary?: [number, number][][];
   };
+  // Nur AT/CH: eigene Kapitel (Hochschulen, Quartiere, Termine, Gesprächsstoff, Stadt-Guide). DE-Dossiers lassen sie leer.
+  universities?: University[];
+  universitiesNote?: string;
+  quarters?: Quarter[];
+  quarterSources?: string[];
+  agenda?: AgendaItem[];
+  talkingPoints?: TalkingPoint[];
+  guide?: GuideChapter[];
   faq: { question: string; answer: string }[];
   sources: Source[];
   // Redaktioneller Hinweis auf eine eigene Verteilerseite (nur einzelne Städte, z. B. Kassel → kasseler-singles.de/#quiz).
@@ -83,7 +115,13 @@ function loadProfiles(market: MarketCode): Map<string, CityProfile> {
   for (const profile of profiles.values()) {
     const ids = new Set(profile.sources.map(source => source.id));
     const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
-    const used = [...metrics.flatMap(metric => [metric.source, metric.compareSource ?? metric.source]), ...(profile.clusterSources ?? [])];
+    const used = [
+      ...metrics.flatMap(metric => [metric.source, metric.compareSource ?? metric.source]),
+      ...(profile.clusterSources ?? []),
+      ...(profile.quarterSources ?? []),
+      ...(profile.universities ?? []).flatMap(item => [item.source, item.compareSource ?? item.source]),
+      ...(profile.quarters ?? []).flatMap(item => (item.source ? [item.source] : [])),
+    ];
     for (const id of used) {
       if (!ids.has(id)) throw new Error(`${profile.path}: Quelle ${id} fehlt in sources`);
     }
@@ -116,6 +154,11 @@ export type GuideParts = { intro: string; sections: GuideSection[]; related: { h
 
 function slugify(value: string): string {
   return value.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss").replace(/<[^>]+>/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/** Eigener Stadt-Guide der AT/CH-Dossiers als Abschnitte mit Anker-IDs (DE nutzt splitGuide auf dem ICONY-Text). */
+export function profileGuide(profile: CityProfile): GuideSection[] {
+  return (profile.guide ?? []).map(chapter => ({ id: slugify(chapter.title), title: chapter.title, html: chapter.html }));
 }
 
 /**

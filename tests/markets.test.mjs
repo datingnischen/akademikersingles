@@ -130,17 +130,30 @@ for (const [market, country, expected] of [["at", "Österreich", ["wien", "graz"
         assert.ok(entry.publisher && entry.title && entry.stand, `${file} ${entry.id}: Herausgeber/Titel/Stand`);
       }
       const metrics = [...profile.briefing, ...profile.kpis, ...profile.dossier.flatMap(chapter => chapter.metrics)];
-      const used = new Set([...metrics.flatMap(metric => [metric.source, metric.compareSource].filter(Boolean)), ...(profile.clusterSources ?? [])]);
+      const used = new Set([
+        ...metrics.flatMap(metric => [metric.source, metric.compareSource].filter(Boolean)),
+        ...(profile.clusterSources ?? []),
+        ...(profile.quarterSources ?? []),
+        ...(profile.universities ?? []).flatMap(item => [item.source, item.compareSource].filter(Boolean)),
+        ...(profile.quarters ?? []).map(item => item.source).filter(Boolean),
+      ]);
       for (const id of used) assert.ok(ids.has(id), `${file}: Quelle ${id} fehlt`);
       for (const id of ids) assert.ok(used.has(id), `${file}: Quelle ${id} wird nicht verwendet`);
       assert.equal(profile.briefing.length, 3, file);
       assert.ok(profile.kpis.length >= 3 && profile.kpis.length <= 4, file);
-      assert.deepEqual(profile.dossier.map(chapter => chapter.key), ["bildung", "beruf", "singles"], file);
+      // Dossier: Bildung zuerst, Single-Leben zuletzt; dazwischen sind Beruf und optionale Kapitel erlaubt.
+      const keys = profile.dossier.map(chapter => chapter.key);
+      assert.ok(keys.length >= 3 && keys.length <= 5, `${file}: ${keys.length} Dossier-Kapitel`);
+      assert.equal(keys[0], "bildung", file);
+      assert.equal(keys[keys.length - 1], "singles", file);
+      assert.ok(keys.includes("beruf"), file);
+      for (const key of keys) assert.ok(["bildung", "beruf", "forschung", "einkommen", "wohnen", "singles"].includes(key), `${file}: unbekanntes Kapitel ${key}`);
+      assert.equal(new Set(keys).size, keys.length, `${file}: Kapitel doppelt`);
       for (const chapter of profile.dossier) assert.ok(chapter.metrics.length >= 2, `${file}: ${chapter.key} braucht mindestens zwei Kennzahlen`);
       const { west, east, south, north } = profile.map.bounds;
       for (const place of profile.places) assert.ok(place.lat > south && place.lat < north && place.lon > west && place.lon < east, `${file}: ${place.name} außerhalb der Karte`);
       assert.ok(profile.map.rivers.length + profile.map.areas.length > 0, `${file}: Karte ohne Geometrie (scripts/build_city_map.py)`);
-      assert.equal(profile.faq.length, 4, file);
+      assert.ok(profile.faq.length >= 4, `${file}: ${profile.faq.length} FAQ-Einträge`);
       const text = JSON.stringify(profile);
       assert.doesNotMatch(text, /garantiert|Garantie/i, `${file}: Werbeversprechen`);
       assert.doesNotMatch(text, /lebensfreunde/i, `${file}: fremde Marke`);

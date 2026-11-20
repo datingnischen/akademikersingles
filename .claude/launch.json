@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "akademikersingles dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "-p", "3017"], "port": 3017 }
+  ]
+}

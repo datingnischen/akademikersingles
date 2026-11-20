@@ -3,7 +3,7 @@ import Link from "@/components/market-link";
 import { Breadcrumbs, ImageCredits, JsonLd, breadcrumbJsonLd } from "@/components/ui";
 import { getCities, getPage, imageCredits, pageRegistrationUrl, renderedContentHtml, type PublicPage } from "@/lib/content";
 import { nearestCities } from "@/lib/city-geo";
-import { sourceNumber, splitGuide, type CityProfile, type Metric, type Place } from "@/lib/city-profile";
+import { profileGuide, sourceNumber, splitGuide, type CityProfile, type Metric, type Place } from "@/lib/city-profile";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
 import { citySearchUrl, trustLinks } from "@/lib/site";
@@ -14,6 +14,9 @@ type Crumb = { name: string; href: string };
 const CHAPTER_ICONS: Record<string, React.ReactNode> = {
   bildung: <path d="M3 9l9-5 9 5-9 5-9-5zm3 2.2V16c0 1.6 2.7 3 6 3s6-1.4 6-3v-4.8M21 9v6" />,
   beruf: <path d="M4 8h16v11H4zM9 8V5h6v3M4 13h16" />,
+  forschung: <path d="M9 3h6M10 3v5.2L5.6 17a2.4 2.4 0 002.1 3.6h8.6a2.4 2.4 0 002.1-3.6L14 8.2V3M7.4 14h9.2" />,
+  einkommen: <path d="M12 3v18M8.5 7.5h5a2.5 2.5 0 010 5h-3a2.5 2.5 0 000 5h5" />,
+  wohnen: <path d="M4 11l8-6 8 6M6 10.5V20h12v-9.5M10 20v-5h4v5" />,
   singles: <path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z" />,
 };
 
@@ -148,7 +151,10 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
   const market = getMarket(requestMarket());
   const origin = marketOrigin(market.code);
   const register = pageRegistrationUrl(page);
-  const guide = splitGuide(renderedContentHtml(page));
+  const imported = splitGuide(renderedContentHtml(page));
+  // DE: Kapitel aus dem ICONY-Text; AT/CH: eigener Stadt-Guide aus dem Dossier.
+  const own = profileGuide(profile);
+  const guide = own.length ? { ...imported, sections: own } : imported;
   const allCities = getCities();
   const nearest = nearestCities(page.path, allCities.map(item => item.path));
   const farthest = Math.max(...nearest.map(item => item.km), 1);
@@ -201,7 +207,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <h2 className="display">Warum {city} zu Menschen <em>mit Anspruch</em> passt</h2>
         <p>Bildung, Beruf und Lebensform – drei Blickwinkel auf die Stadt, belegt mit amtlichen Zahlen. Damit Sie wissen, wen Sie hier treffen.</p>
       </header>
-      <div className={styles.chapters}>
+      <div className={`${styles.chapters} ${profile.dossier.length === 4 ? styles.chapters4 : ""}`}>
         {profile.dossier.map((chapter, index) => <article key={chapter.key} className={styles.chapter}>
           <header>
             <span className={styles.chapterIcon}><Icon>{CHAPTER_ICONS[chapter.key]}</Icon></span>
@@ -215,6 +221,27 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
       </div>
     </section>
 
+
+    {profile.universities?.length ? <section id="hochschulen" className={`container ${styles.unis}`}>
+      <header className={styles.sectionHead}>
+        <p className="eyebrow">Hochschullandschaft</p>
+        <h2 className="display">Wer in {city} <em>forscht und lehrt</em></h2>
+        {profile.universitiesNote ? <p>{profile.universitiesNote}</p> : null}
+      </header>
+      <ol className={styles.uniList}>
+        {profile.universities.map(item => <li key={item.name}>
+          <div className={styles.uniName}>
+            <span className={styles.value}>{item.name}</span>
+            <small>{item.kind}{item.founded ? ` · gegründet ${item.founded}` : ""}</small>
+          </div>
+          <div className={styles.uniFacts}>
+            {item.students ? <span><i>Studierende</i>{item.students}<SourceRef profile={profile} id={item.source} /></span> : null}
+            {item.women ? <span><i>Frauenanteil</i>{item.women}{item.compareSource ? <SourceRef profile={profile} id={item.compareSource} /> : null}</span> : null}
+          </div>
+          <p>{item.text}</p>
+        </li>)}
+      </ol>
+    </section> : null}
     <section className={styles.mapBand}>
       <div className={`container ${styles.mapInner}`}>
         <div className={styles.mapCopy}>
@@ -242,6 +269,37 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
       </header>
       <ul>{profile.clusters.map(cluster => <li key={cluster.name}><span className={`display ${styles.value}`}>{cluster.name}</span><p>{cluster.text}</p></li>)}</ul>
     </section>
+
+    {profile.quarters?.length ? <section className={`container ${styles.quarters}`}>
+      <header className={styles.sectionHead}>
+        <p className="eyebrow">Wohnen &amp; ausgehen</p>
+        <h2 className="display">Die Viertel, in denen {city} <em>zu Hause ist</em></h2>
+        <p>Wo Hochschulnahe wohnen, wo abends geredet wird – und was das für ein erstes Treffen bedeutet.{(profile.quarterSources ?? []).map(id => <SourceRef key={id} profile={profile} id={id} />)}</p>
+      </header>
+      <ul className={styles.quarterList}>
+        {profile.quarters.map(quarter => <li key={quarter.name}>
+          <span className={styles.quarterLabel}>{quarter.label}</span>
+          <span className={`display ${styles.value}`}>{quarter.name}</span>
+          <p>{quarter.text}{quarter.source ? <SourceRef profile={profile} id={quarter.source} /> : null}</p>
+        </li>)}
+      </ul>
+    </section> : null}
+
+    {profile.talkingPoints?.length ? <section className={styles.talkBand}>
+      <div className={`container ${styles.talkInner}`}>
+        <div className={styles.talkCopy}>
+          <p className="eyebrow">Gesprächsstoff</p>
+          <h2 className="display">Worüber in {city} <em>wirklich geredet wird</em></h2>
+          <p>Drei Themen, mit denen Sie hier kein Smalltalk-Risiko eingehen – und bei denen Sie schnell merken, ob es passt.</p>
+        </div>
+        <ul className={styles.talkList}>
+          {profile.talkingPoints.map(point => <li key={point.title}>
+            <span className={styles.value}>{point.title}</span>
+            <p>{point.text}</p>
+          </li>)}
+        </ul>
+      </div>
+    </section> : null}
 
     {page.cityWidget ? <section className={`container ${styles.widget}`} data-icony-city-widget>
       <div className={styles.widgetCopy}>
@@ -272,6 +330,23 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         </article>)}
         <ImageCredits credits={imageCredits(page)} />
       </div>
+    </section> : null}
+
+    {profile.agenda?.length ? <section className={`container ${styles.agenda}`}>
+      <header className={styles.sectionHead}>
+        <p className="eyebrow">Termine &amp; Netzwerke</p>
+        <h2 className="display">Wo man sich in {city} <em>ohnehin trifft</em></h2>
+        <p>Wiederkehrende Veranstaltungen und Netzwerke mit akademischem Publikum – Anlässe, zu denen man auch zu zweit gehen kann.</p>
+      </header>
+      <ol className={styles.agendaList}>
+        {profile.agenda.map(item => <li key={item.title}>
+          <span className={styles.agendaWhen}>{item.when}</span>
+          <div>
+            <span className={styles.value}>{item.href ? <a href={item.href} target="_blank" rel="nofollow noopener">{item.title}</a> : item.title}</span>
+            <p>{item.text}</p>
+          </div>
+        </li>)}
+      </ol>
     </section> : null}
 
     <section className={`container ${styles.faq}`}>
