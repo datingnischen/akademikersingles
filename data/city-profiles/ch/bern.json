@@ -4065,5 +4065,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Berner Bildungszahlen stammen aus einer gepoolten Stichprobe der Jahre 2022 bis 2024 und gelten für Personen ab 25 Jahren in Privathaushalten; sie haben Vertrauensintervalle, die bei kleinen Gruppen – etwa den Promovierten – deutlich breiter sind. Die Beschäftigtenzahlen zählen Arbeitsverhältnisse, nicht Köpfe.</p><p>Und „ledig“ bleibt ein Zivilstand: Unter den 41.107 ledigen 25- bis 54-Jährigen sind viele, die seit Jahren in einer Partnerschaft leben, nur eben ohne Trauschein. Der hohe Berner Wert hat auch damit zu tun, dass hier überdurchschnittlich viele Menschen in dieser Form zusammenleben.</p><p>Was trotzdem bleibt: Bern ist klein genug für kurze Wege, gross genug für Anonymität, akademisch geprägt und beim Geschlechterverhältnis näher am Gleichgewicht als jede andere Deutschschweizer Stadt in unseren Dossiers. Schlechtere Ausgangslagen gibt es.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "43,9 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "24.496"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "60,4 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "105"
+  }
  ]
 }

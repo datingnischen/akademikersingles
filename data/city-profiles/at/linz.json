@@ -2408,5 +2408,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Werte dieser Seite stammen aus der Abgestimmten Erwerbsstatistik 2024 mit Stichtag 31. Oktober 2024 und aus der Hochschulstatistik für das Wintersemester 2025/26. Die Studierendenzahlen zählen belegte Studien an öffentlichen Universitäten – Fachhochschule und Privatuniversität sind nicht enthalten, die tatsächliche Zahl liegt höher.</p><p>Ein Einpersonenhaushalt ist kein Beziehungsstatus: Ein erheblicher Teil der 48,5 Prozent lebt in einer festen Partnerschaft, nur eben in zwei Wohnungen. Und das Geschlechterverhältnis von 109 zu 100 in der Altersgruppe 30 bis 49 ist ein Durchschnitt über zwanzig Jahrgänge.</p><p>Was bleibt: Linz ist eine Stadt mit eigener Wohnung für fast jeden Zweiten, kurzen Wegen, einer jungen Universität und einer Kulturszene, die ihren Ruf der Technik verdankt. Für die Partnersuche sind das bessere Voraussetzungen, als der Industrie-Ruf vermuten lässt.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "20,4 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "28.680"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "1,94"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "109"
+  }
  ]
 }

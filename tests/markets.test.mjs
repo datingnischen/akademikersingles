@@ -109,7 +109,7 @@ test("Marktrouten: Canonical der Magazin-/Über-uns-Seiten bleibt die DE-Seite, 
   }
 });
 
-for (const [market, country, expected] of [["at", "Österreich", ["wien", "graz", "salzburg", "innsbruck", "linz"]], ["ch", "Schweiz", ["zuerich", "bern", "basel", "lausanne", "st-gallen"]]]) {
+for (const [market, country, expected] of [["at", "Österreich", ["wien", "graz", "salzburg", "innsbruck", "linz", "klagenfurt", "krems", "leoben"]], ["ch", "Schweiz", ["zuerich", "bern", "basel", "lausanne", "st-gallen"]]]) {
   test(`${country}: Stadtdossiers mit belegten Quellen`, () => {
     const dir = new URL(`data/city-profiles/${market}/`, root);
     const files = readdirSync(dir).filter(file => file.endsWith(".json"));

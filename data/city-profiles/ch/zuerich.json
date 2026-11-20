@@ -11843,5 +11843,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Alle Werte auf dieser Seite sind amtlich belegt und am Seitenende mit Quelle und Stand aufgeführt. Trotzdem gehört dazugesagt, was sie nicht leisten. „Ledig“ ist ein Zivilstand, kein Beziehungsstatus: In den 135.754 ledigen 25- bis 54-Jährigen stecken auch viele feste Paare ohne Trauschein. Die Tertiärquote stammt aus einer Stichprobe und hat Vertrauensintervalle; für kleine Quartiere sind die Spannen breiter als für die Gesamtstadt.</p><p>Auch das Verhältnis von 116 ledigen Männern je 100 ledige Frauen sagt nichts über eine einzelne Altersgruppe, eine Branche oder einen Freundeskreis. Es ist ein Durchschnitt über drei Jahrzehnte Lebenszeit. Er erklärt aber, warum sich viele Frauen in Zürich über zu viele gleichförmige Anfragen beklagen und viele Männer über zu wenige Antworten: Beides ist dieselbe Statistik, von zwei Seiten gesehen.</p><p>Was bleibt, ist die einfachste Erkenntnis dieses Dossiers: Zürich bietet eine ungewöhnlich hohe Dichte an Menschen mit vergleichbarem Bildungsweg, eigener Wohnung und eigener Agenda. Was daraus wird, entscheidet kein Prozentwert, sondern das erste echte Gespräch.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "58,7 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "61.394"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "58,9 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "116"
+  }
  ]
 }

@@ -2732,5 +2732,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Alle Werte dieser Seite stammen aus amtlichen Quellen und sind unten mit Stand aufgeführt. Trotzdem gilt: Die Studierendenzahlen zählen belegte Studien an öffentlichen Universitäten; wer an zwei Universitäten eingeschrieben ist, erscheint doppelt. Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten sind in den 166.413 nicht enthalten.</p><p>Die Akademikerquote je Bezirk bezieht sich auf die Bevölkerung ab 15 Jahren – in Bezirken mit vielen jungen Familien drückt das den Wert, unabhängig vom Bildungsstand der Erwachsenen. Und ein Einpersonenhaushalt ist kein Beziehungsstatus: Viele der 45,3 Prozent leben in einer festen Partnerschaft, nur eben in zwei Wohnungen.</p><p>Was bleibt: Wien bietet die größte Dichte an Hochschulabsolventen im deutschsprachigen Raum außerhalb Deutschlands, ein nahezu ausgeglichenes Geschlechterverhältnis in der entscheidenden Altersgruppe und kurze Wege. Der Rest ist eine Frage des ersten Gesprächs.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "26,4 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "166.413"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "2,04"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "103"
+  }
  ]
 }

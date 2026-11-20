@@ -8,7 +8,7 @@ import {
   aidFor, articleAudio, articlesInCategory, categoryLabel, formatDate, getArticles, getCategories, getCategory, getCities, getLeadCategories,
   guideLabel, imageCredits, moreCities, pageRegistrationUrl, primaryCategory, relatedArticles, renderedContentHtml, type PublicPage,
 } from "@/lib/content";
-import { getCityProfile } from "@/lib/city-profile";
+import { getCityProfile, getMarketProfiles } from "@/lib/city-profile";
 import { categoryDescription } from "@/lib/seo-meta";
 import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
@@ -199,6 +199,34 @@ export function GuideTemplate({ page }: { page: PublicPage }) {
 
 const HUB_COLLAGE = ["/partnersuche/berlin/", "/partnersuche/muenchen/", "/partnersuche/hamburg/", "/partnersuche/heidelberg/"];
 
+// Städtevergleich der Marktseiten: dieselben vier Kennzahlen je Stadt, direkt aus den Stadtdossiers.
+function HubCompare() {
+  const market = requestMarket();
+  const profiles = getMarketProfiles(market).filter(profile => profile.hubFacts?.length);
+  if (!profiles.length) return null;
+  const labels = profiles[0].hubFacts!.map(fact => fact.label);
+  return <section className={`container ${styles.compare}`} aria-labelledby="staedtevergleich">
+    <div className={styles.relatedHead}>
+      <p className="eyebrow">Städtevergleich</p>
+      <h2 className="display" id="staedtevergleich">Dieselben Kennzahlen, <em>alle Städte</em></h2>
+    </div>
+    <div className={styles.compareScroll}>
+      <table className={styles.compareTable}>
+        <thead>
+          <tr><th scope="col">Stadt</th>{labels.map(label => <th key={label} scope="col">{label}</th>)}</tr>
+        </thead>
+        <tbody>
+          {profiles.map(profile => <tr key={profile.path}>
+            <th scope="row"><Link href={profile.path}>{profile.name ?? profile.path}</Link></th>
+            {profile.hubFacts!.map(fact => <td key={fact.label}>{fact.value}</td>)}
+          </tr>)}
+        </tbody>
+      </table>
+    </div>
+    <p className={styles.compareNote}>Quellen und Stand stehen auf jeder Stadtseite im Abschnitt „Quellen“.</p>
+  </section>;
+}
+
 export function LocationHubTemplate({ page }: { page: PublicPage }) {
   const cities = getCities();
   const market = getMarket(requestMarket());
@@ -231,6 +259,7 @@ export function LocationHubTemplate({ page }: { page: PublicPage }) {
       <div className={styles.cityGrid}>{cities.map((city, index) => <CityTile key={city.path} city={city} priority={index < 5} />)}</div>
       <CitySearchFallback />
     </section>
+    <HubCompare />
     <Body page={page} />
   </main>;
 }

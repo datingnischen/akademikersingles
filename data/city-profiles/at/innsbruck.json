@@ -2242,5 +2242,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Werte dieser Seite stammen aus der Abgestimmten Erwerbsstatistik 2024 (Stichtag 31. Oktober 2024), der Bevölkerungsstatistik zum 1. Januar 2026 und der Hochschulstatistik für das Wintersemester 2025/26. Die Studierendenzahlen umfassen nur die öffentlichen Universitäten; MCI, UMIT und Pädagogische Hochschule kommen dazu.</p><p>Die hohe Akademikerquote von 29,7 Prozent ist zum Teil ein Effekt der Studierenden selbst, und das Geschlechterverhältnis von 110 zu 100 ist ein Durchschnitt über zwanzig Jahrgänge – in einzelnen Milieus sieht es ganz anders aus. Ein Einpersonenhaushalt ist zudem kein Beziehungsstatus.</p><p>Was bleibt: Innsbruck ist jung, akademisch dicht, international und klein genug, dass man sich zweimal über den Weg läuft. Dafür ist der Wohnungsmarkt eng und die Fluktuation hoch. Wer hier sucht, sollte beides einkalkulieren – und die Bergfrage nicht unterschätzen.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "29,7 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "31.677"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "1,93"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "110"
+  }
  ]
 }

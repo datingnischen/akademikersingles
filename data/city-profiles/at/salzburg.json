@@ -2133,5 +2133,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Werte dieser Seite stammen aus der Abgestimmten Erwerbsstatistik 2024 (Stichtag 31. Oktober 2024) und der Hochschulstatistik für das Wintersemester 2025/26. Die Studierendenzahlen umfassen nur die öffentlichen Universitäten; Fachhochschule und Privatuniversität sind nicht enthalten.</p><p>Ein Einpersonenhaushalt ist kein Beziehungsstatus – viele der 46,9 Prozent leben in einer Partnerschaft, nur in zwei Wohnungen. Und das ausgeglichene Geschlechterverhältnis von 103 zu 100 ist ein Durchschnitt über zwanzig Jahrgänge; in einzelnen Berufsfeldern sieht es deutlich anders aus.</p><p>Was bleibt: Salzburg ist klein, international und kulturell dicht, mit ausgeglichenem Geschlechterverhältnis und einer hohen Zahl an Menschen, die wegen einer Aufgabe hergezogen sind. Wer hier sucht, sollte den Wohnungsmarkt im Blick behalten – und den Festspielkalender.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "24,4 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "19.959"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "1,99"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "103"
+  }
  ]
 }

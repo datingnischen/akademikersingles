@@ -2507,5 +2507,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Der Tertiäranteil von rund 46 Prozent stammt aus dem europäischen Städtevergleich der Stadtstatistik und bezieht sich auf die 25- bis 64-Jährigen; er ist gerundet und basiert auf einer Stichprobe. Die Studierendenzahlen der OST und der PHSG umfassen alle Standorte, nicht nur die Stadt.</p><p>Das Geschlechterverhältnis von 127 zu 100 ist ein Durchschnitt über drei Jahrzehnte Lebenszeit und sagt nichts über eine einzelne Altersgruppe oder ein einzelnes Milieu. Und „ledig“ bleibt ein Zivilstand: Viele der 18.144 ledigen 25- bis 54-Jährigen leben in festen Partnerschaften.</p><p>Was bleibt: eine kompakte Stadt mit drei Hochschulen, mehr Arbeitsplätzen als Einwohnern, kurzen Wegen in die Berge und einem Partnermarkt, der für Frauen statistisch günstig und für Männer anspruchsvoll ist. Beides lässt sich nutzen, wenn man es kennt.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "46 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "15.646"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "50,6 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "127"
+  }
  ]
 }

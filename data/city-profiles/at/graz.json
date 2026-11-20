@@ -4706,5 +4706,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Studierendenzahlen zählen belegte Studien an öffentlichen Universitäten; wer parallel an zwei Universitäten eingeschrieben ist, erscheint doppelt. Fachhochschulen, Pädagogische Hochschulen und Privatuniversitäten sind in den 55.254 nicht enthalten – die tatsächliche Zahl der Studierenden in Graz liegt also höher.</p><p>Die hohe Akademikerquote ist zum Teil ein Effekt der Studierenden selbst: Eine Stadt mit vielen Hochschulen hat zwangsläufig viele Menschen mit oder kurz vor dem Abschluss. Und das Geschlechterverhältnis von 109 zu 100 ist ein Durchschnitt über zwanzig Jahrgänge, kein Versprechen für eine einzelne Altersgruppe.</p><p>Was bleibt: Graz ist jung, akademisch geprägt, kompakt und hat ein öffentliches Leben, das zum Kennenlernen einlädt. Wer hier niemanden trifft, hat meistens zu wenig das Haus verlassen – nicht zu wenig Auswahl gehabt.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschulabschluss ab 15 Jahren",
+   "value": "30,7 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "55.254"
+  },
+  {
+   "label": "Personen je Haushalt",
+   "value": "1,94"
+  },
+  {
+   "label": "Männer je 100 Frauen (30–49)",
+   "value": "109"
+  }
  ]
 }

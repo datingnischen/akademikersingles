@@ -1676,5 +1676,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Alle Werte dieser Seite stammen aus amtlichen Quellen und sind am Seitenende mit Stand aufgeführt. Trotzdem: Die Gymnasialquote ist ein Milieu-Indikator, keine Akademikerquote – sie misst Schulübertritte, nicht Abschlüsse. Die Bildungsdaten des Kantons stammen aus einer Stichprobe mit Vertrauensintervallen, und sie umfassen Basel, Riehen und Bettingen, nicht nur die Stadt.</p><p>„Ledig“ wiederum ist ein Zivilstand: In den 45.367 ledigen 25- bis 54-Jährigen stecken auch viele feste Partnerschaften ohne Trauschein. Umgekehrt sind 11,9 Prozent der Erwachsenen geschieden – mehr als im Schweizer Mittel. Beides zusammen beschreibt eine Stadt, in der Lebensläufe selten geradlinig verlaufen.</p><p>Was bleibt: Basel hat eine hohe Dichte an Menschen mit Hochschulabschluss, kurze Wege und eine Kulturdichte, die Verabredungen leicht macht. Den Rest entscheidet, wie gut das erste Gespräch läuft.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "36,6 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "27.857"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "53,7 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "113"
+  }
  ]
 }

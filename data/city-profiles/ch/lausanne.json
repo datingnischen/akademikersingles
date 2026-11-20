@@ -2323,5 +2323,23 @@
    "title": "Was die Zahlen nicht sagen",
    "html": "<p>Die Bildungszahlen der Stadt gelten für Personen ab 30 Jahren und stammen aus der Strukturerhebung, also aus einer Stichprobe mit Unsicherheitsbereichen. Die Studierendenzahlen umfassen Bachelor bis Doktorat ohne Weiterbildung; ein Teil dieser Menschen wohnt ausserhalb der Stadtgrenze, etwa in Renens, Ecublens oder Pully.</p><p>„Ledig“ ist auch hier ein Zivilstand und kein Beziehungsstatus: In der Westschweiz ist das Zusammenleben ohne Trauschein besonders verbreitet, was den hohen Wert von 57,1 Prozent bei den 25- bis 54-Jährigen zusätzlich erklärt.</p><p>Was bleibt: eine junge, international geprägte Stadt mit zwei grossen Hochschulen, kurzen Wegen und einem Geschlechterverhältnis, das näher am Gleichgewicht liegt als im Schweizer Mittel. Der Rest hängt davon ab, ob man die Sprache spricht – und ob man bereit ist, den Berg hochzulaufen.</p>"
   }
+ ],
+ "hubFacts": [
+  {
+   "label": "Hochschul- oder Tertiärabschluss",
+   "value": "42,0 %"
+  },
+  {
+   "label": "Studierende",
+   "value": "30.433"
+  },
+  {
+   "label": "ledig (25–54 Jahre)",
+   "value": "57,1 %"
+  },
+  {
+   "label": "ledige Männer je 100 Frauen",
+   "value": "111"
+  }
  ]
 }

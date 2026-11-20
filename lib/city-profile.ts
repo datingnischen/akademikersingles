@@ -95,6 +95,8 @@ export type CityProfile = {
   agenda?: AgendaItem[];
   talkingPoints?: TalkingPoint[];
   guide?: GuideChapter[];
+  // Vergleichszeile für die Städteübersicht des Marktes (gleiche Reihenfolge je Land).
+  hubFacts?: { label: string; value: string }[];
   faq: { question: string; answer: string }[];
   sources: Source[];
   // Redaktioneller Hinweis auf eine eigene Verteilerseite (nur einzelne Städte, z. B. Kassel → kasseler-singles.de/#quiz).

@@ -1,0 +1,2340 @@
+{
+  "path": "/partnersuche/krems/",
+  "name": "Krems",
+  "heroAlt": "Aquarellzeichnung von Krems an der Donau mit Steiner Tor und den Weinbergen der Wachau",
+  "country": "Österreich",
+  "region": "Niederösterreich",
+  "seoTitle": "Akademiker Singles in Krems: drei Hochschulen, Wachau",
+  "seoDescription": "Krems in Zahlen: drei Hochschulen am Campus, 6.440 Studierende an der Universität für Weiterbildung und 20.323 Arbeitsplätze bei 25.404 Einwohnern.",
+  "eyebrow": "Partnersuche für Akademiker · Campusstadt am Tor zur Wachau",
+  "lead": "Krems hat 25.404 Einwohner – und drei Hochschulen auf einem Campus. Die Universität für Weiterbildung Krems ist nach eigenen Angaben die führende öffentliche Universität für Weiterbildung in Europa: Ihre 6.440 Studierenden stehen fast alle mitten im Berufsleben. Dazu kommen die IMC Fachhochschule und die Karl Landsteiner Privatuniversität für Gesundheitswissenschaften. Wer hier jemanden kennenlernt, trifft selten auf Erstsemester – und oft auf Menschen mit zweitem Bildungsweg und klarem Kopf.",
+  "briefing": [
+    {
+      "value": "6.440",
+      "label": "Studierende an der Universität für Weiterbildung Krems – fast alle berufsbegleitend",
+      "source": "uni-stud"
+    },
+    {
+      "value": "20.323",
+      "label": "Arbeitsplätze bei 25.404 Einwohnerinnen und Einwohnern",
+      "source": "aest-gemeinde"
+    },
+    {
+      "value": "17,8 %",
+      "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss – Niederösterreich 15,1 %",
+      "source": "aest-gemeinde"
+    }
+  ],
+  "kpis": [
+    {
+      "value": "25.404",
+      "label": "Einwohnerinnen und Einwohner in Krems an der Donau",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024"
+    },
+    {
+      "value": "3",
+      "label": "Hochschulen auf dem Campus Krems",
+      "source": "donau-uni",
+      "note": "Universität für Weiterbildung Krems, IMC Fachhochschule Krems und Karl Landsteiner Privatuniversität für Gesundheitswissenschaften teilen sich das Campusgelände"
+    },
+    {
+      "value": "7.500",
+      "label": "Studierende sind an der Universität für Weiterbildung derzeit zugelassen (eigene Angabe)",
+      "source": "donau-uni",
+      "note": "Statistik Austria zählt für das Wintersemester 2025/26 6.440 Studierende; mehr als 33.000 Menschen haben ihr Studium hier bereits abgeschlossen"
+    },
+    {
+      "value": "12.244",
+      "label": "Privathaushalte mit durchschnittlich 1,97 Personen",
+      "source": "aest-gemeinde",
+      "note": "Abgestimmte Erwerbsstatistik 2024; die kleine Haushaltsgröße entspricht eher einer Großstadt als einer Bezirksstadt"
+    }
+  ],
+  "dossier": [
+    {
+      "key": "bildung",
+      "title": "Bildung",
+      "intro": "Drei Hochschulen auf einem Campus – und eine Universität, deren Studierende überwiegend berufstätig sind.",
+      "metrics": [
+        {
+          "value": "17,8 %",
+          "label": "der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Niederösterreich 15,1 %, Österreich 17,6 %",
+          "compare": {
+            "city": 17.8,
+            "germany": 17.6,
+            "unit": " %",
+            "max": 26
+          }
+        },
+        {
+          "value": "6.440",
+          "label": "Studierende an der Universität für Weiterbildung Krems",
+          "source": "uni-stud",
+          "compareSource": "donau-uni",
+          "note": "Wintersemester 2025/26 (Statistik Austria); die Universität selbst nennt rund 7.500 zugelassene Studierende und mehr als 33.000 Absolventinnen und Absolventen"
+        },
+        {
+          "value": "33.000",
+          "label": "Absolventinnen und Absolventen hat die Universität für Weiterbildung bereits hervorgebracht",
+          "source": "donau-uni",
+          "note": "Eigene Angabe der Universität; sie führt berufsbegleitende Bachelor- und Masterstudien der Weiterbildung, Kurzprogramme und PhD-Studien und trägt das Qualitätssiegel der AQ Austria"
+        }
+      ],
+      "takeaway": "Wer in Krems studiert, hat meist schon einen Beruf – und eine Vorstellung davon, was er oder sie vom Leben will."
+    },
+    {
+      "key": "beruf",
+      "title": "Beruf & Erfolg",
+      "intro": "Mehr Arbeitsplätze als Haushalte: Krems ist Zentrum einer Region, die von Bildung, Gesundheit und Weinbau lebt.",
+      "metrics": [
+        {
+          "value": "20.323",
+          "label": "Beschäftigte in Kremser Arbeitsstätten",
+          "source": "aest-gemeinde",
+          "note": "2.653 Arbeitsstätten, 2.100 Unternehmen; 88,0 % der Arbeitsstätten im tertiären Sektor (Stichtag 31.10.2024)"
+        },
+        {
+          "value": "48,6 %",
+          "label": "der Kremser Erwerbstätigen pendeln aus der Stadt aus",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Niederösterreich 73,3 %. Krems hält also deutlich mehr Menschen in der Stadt als das Bundesland insgesamt"
+        },
+        {
+          "value": "21,6 %",
+          "label": "der Bevölkerung haben keine österreichische Staatsangehörigkeit",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Niederösterreich 12,4 %. Hochschulen und Gesundheitswesen ziehen Menschen aus dem Ausland an"
+        }
+      ],
+      "takeaway": "Universität, Klinikum, Kunstmeile: Drei Arbeitswelten, die sich in einer Stadt dieser Größe zwangsläufig begegnen."
+    },
+    {
+      "key": "singles",
+      "title": "Single-Leben",
+      "intro": "Kleine Haushalte, deutlicher Männerüberschuss und eine Altersstruktur, die älter ist als in den Universitätsstädten.",
+      "metrics": [
+        {
+          "value": "114",
+          "label": "Männer je 100 Frauen zwischen 30 und 49 Jahren",
+          "source": "bev-alter",
+          "note": "3.419 Männer zu 3.002 Frauen am 01.01.2026; in Wien sind es 103, in Graz 109. Für Frauen ist der Kremser Markt damit rechnerisch günstig",
+          "compare": {
+            "city": 113.9,
+            "germany": 103,
+            "unit": "",
+            "max": 125
+          }
+        },
+        {
+          "value": "1,97",
+          "label": "Personen je Privathaushalt – kleiner als im niederösterreichischen Schnitt (2,24)",
+          "source": "aest-gemeinde",
+          "note": "12.244 Privathaushalte, Abgestimmte Erwerbsstatistik 2024. Krems wohnt städtischer, als es die Größe vermuten lässt"
+        },
+        {
+          "value": "23,4 %",
+          "label": "der Bevölkerung sind 65 Jahre oder älter",
+          "source": "aest-gemeinde",
+          "note": "Abgestimmte Erwerbsstatistik 2024; Niederösterreich 21,6 %, Österreich 20,2 %. Die Weiterbildungsuniversität bringt kaum klassische Studienanfänger in die Stadt"
+        }
+      ],
+      "takeaway": "Hier sucht man selten das erste Mal – und meistens mit sehr konkreten Vorstellungen."
+    }
+  ],
+  "universities": [
+    {
+      "name": "Universität für Weiterbildung Krems",
+      "kind": "Öffentliche Universität für Weiterbildung",
+      "founded": "1995",
+      "students": "6.440",
+      "source": "uni-stud",
+      "compareSource": "donau-uni",
+      "text": "Nach eigenen Angaben die führende öffentliche Universität für Weiterbildung in Europa: spezialisiert auf die Höherqualifizierung von Berufstätigen, mit berufsbegleitenden Bachelor- und Masterstudien, Kurzprogrammen und PhD-Studien. Rund 7.500 Studierende sind zugelassen, mehr als 33.000 haben bereits abgeschlossen."
+    },
+    {
+      "name": "IMC Fachhochschule Krems",
+      "kind": "Fachhochschule",
+      "students": "",
+      "source": "imc-krems",
+      "text": "Wirtschaft, Gesundheit, Life Sciences und Digitalisierung, stark international ausgerichtet und mit vielen Austauschstudierenden. Die IMC teilt sich das Campusgelände mit Universität und Privatuniversität."
+    },
+    {
+      "name": "Karl Landsteiner Privatuniversität",
+      "kind": "Privatuniversität für Gesundheitswissenschaften",
+      "students": "",
+      "source": "kl-krems",
+      "text": "Medizin und Psychologie in kleinen Jahrgängen, eng verzahnt mit dem Universitätsklinikum Krems und den niederösterreichischen Kliniken. Benannt nach dem Nobelpreisträger Karl Landsteiner."
+    },
+    {
+      "name": "Universitätsklinikum Krems",
+      "kind": "Universitätsklinikum",
+      "students": "",
+      "source": "kl-krems",
+      "text": "Lehr- und Forschungsklinik der Karl Landsteiner Privatuniversität und einer der größten Arbeitgeber der Stadt – mit entsprechend vielen Dienstplänen im Bekanntenkreis."
+    }
+  ],
+  "universitiesNote": "Studierende an öffentlichen Universitäten im Wintersemester 2025/26; Fachhochschule und Privatuniversität sind in dieser Zahl nicht enthalten.",
+  "clusters": [
+    {
+      "name": "Weiterbildung & Wissenschaft",
+      "text": "Die Universität für Weiterbildung Krems zählt 6.440 Studierende (Wintersemester 2025/26) und nach eigenen Angaben mehr als 33.000 Absolventinnen und Absolventen – ein Netzwerk, das weit über die Stadt hinausreicht."
+    },
+    {
+      "name": "Gesundheitswissenschaften",
+      "text": "Karl Landsteiner Privatuniversität und Universitätsklinikum Krems bilden gemeinsam den medizinischen Schwerpunkt der Stadt."
+    },
+    {
+      "name": "Fachhochschule & Internationales",
+      "text": "Die IMC Fachhochschule Krems bringt Wirtschaft, Life Sciences und Digitalisierung an den Campus – mit einem hohen Anteil internationaler Studierender."
+    },
+    {
+      "name": "Kunst & Kultur",
+      "text": "Die Kunstmeile Krems mit Landesgalerie Niederösterreich, Kunsthalle und Karikaturmuseum macht die Stadt zu einem der dichtesten Ausstellungsorte des Landes."
+    },
+    {
+      "name": "Wein & Wachau",
+      "text": "Krems liegt am östlichen Ende der Wachau; Weinbau, Heurige und die Donau prägen Wirtschaft und Freizeit gleichermaßen."
+    }
+  ],
+  "clusterSources": [
+    "uni-stud",
+    "donau-uni",
+    "kunstmeile"
+  ],
+  "places": [
+    {
+      "name": "Universität für Weiterbildung Krems",
+      "kind": "work",
+      "district": "Campus Krems · Dr.-Karl-Dorrek-Straße",
+      "text": "Europas führende öffentliche Weiterbildungsuniversität nach eigenen Angaben – mit Studierenden, die fast alle berufstätig sind.",
+      "lat": 48.4078,
+      "lon": 15.5863
+    },
+    {
+      "name": "IMC Fachhochschule Krems",
+      "kind": "work",
+      "district": "Campus Krems",
+      "text": "Wirtschaft, Gesundheit und Life Sciences, international ausgerichtet – direkt neben der Universität.",
+      "lat": 48.4086,
+      "lon": 15.5889
+    },
+    {
+      "name": "Karl Landsteiner Privatuniversität",
+      "kind": "work",
+      "district": "Campus Krems",
+      "text": "Medizin und Psychologie in kleinen Jahrgängen, benannt nach dem Nobelpreisträger Karl Landsteiner.",
+      "lat": 48.4075,
+      "lon": 15.5886
+    },
+    {
+      "name": "Universitätsklinikum Krems",
+      "kind": "work",
+      "district": "Krems · Mitterweg",
+      "text": "Lehrklinik der Privatuniversität und einer der größten Arbeitgeber der Stadt.",
+      "lat": 48.412,
+      "lon": 15.6156
+    },
+    {
+      "name": "Landesgalerie Niederösterreich",
+      "kind": "work",
+      "district": "Kunstmeile · Museumsplatz",
+      "text": "Die Landesgalerie an der Kunstmeile zeigt Kunst des Landes und internationale Positionen – und beschäftigt einen guten Teil der Kremser Kulturszene.",
+      "lat": 48.4043,
+      "lon": 15.5879
+    },
+    {
+      "name": "Kunsthalle Krems",
+      "kind": "date",
+      "district": "Kunstmeile · Steiner Landstraße",
+      "text": "Wechselausstellungen moderner und zeitgenössischer Kunst, zehn Gehminuten vom Campus entfernt.",
+      "lat": 48.4047,
+      "lon": 15.5871
+    },
+    {
+      "name": "Steiner Landstraße",
+      "kind": "date",
+      "district": "Stein",
+      "text": "Die alte Hauptgasse von Stein mit Weinhäusern, Lokalen und Blick auf die Donau – der stimmungsvollste Abendspaziergang der Stadt.",
+      "lat": 48.4046,
+      "lon": 15.5877
+    },
+    {
+      "name": "Steiner Tor",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Das Wahrzeichen von Krems und der naheliegendste Treffpunkt: Von hier beginnt die Fußgängerzone in beide Richtungen.",
+      "lat": 48.4098,
+      "lon": 15.5965
+    },
+    {
+      "name": "Hoher Markt & Piaristenkirche",
+      "kind": "date",
+      "district": "Altstadt",
+      "text": "Oberhalb der Altstadt liegen Hoher Markt und Piaristenkirche mit Blick über die Dächer bis zur Donau.",
+      "lat": 48.4123,
+      "lon": 15.6021
+    },
+    {
+      "name": "Sandgrube & Weinberge",
+      "kind": "date",
+      "district": "Krems · Wachaustraße",
+      "text": "Am nördlichen Stadtrand beginnen die Weingärten; Kellereien und Weingüter sind zu Fuß erreichbar – und ein Spaziergang dorthin ersetzt jedes Programm.",
+      "lat": 48.4214,
+      "lon": 15.6173
+    }
+  ],
+  "map": {
+    "bounds": {
+      "west": 15.555,
+      "east": 15.665,
+      "south": 48.375,
+      "north": 48.435
+    },
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true,
+        "points": [
+          [
+            48.38444,
+            15.5386
+          ],
+          [
+            48.38548,
+            15.54458
+          ],
+          [
+            48.38693,
+            15.54916
+          ],
+          [
+            48.39681,
+            15.57241
+          ],
+          [
+            48.39831,
+            15.57826
+          ],
+          [
+            48.40074,
+            15.58586
+          ],
+          [
+            48.40132,
+            15.58954
+          ],
+          [
+            48.40257,
+            15.60497
+          ],
+          [
+            48.40338,
+            15.6271
+          ],
+          [
+            48.40226,
+            15.6348
+          ],
+          [
+            48.40008,
+            15.64249
+          ],
+          [
+            48.39784,
+            15.64779
+          ],
+          [
+            48.38682,
+            15.6591
+          ],
+          [
+            48.38341,
+            15.66399
+          ],
+          [
+            48.38144,
+            15.66888
+          ],
+          [
+            48.38128,
+            15.67602
+          ],
+          [
+            48.38282,
+            15.68468
+          ],
+          [
+            48.3882,
+            15.69703
+          ],
+          [
+            48.38826,
+            15.71099
+          ],
+          [
+            48.3865,
+            15.71716
+          ],
+          [
+            48.38074,
+            15.72845
+          ]
+        ]
+      },
+      {
+        "name": "Krems",
+        "major": false,
+        "points": [
+          [
+            48.47055,
+            15.44852
+          ],
+          [
+            48.47106,
+            15.44763
+          ],
+          [
+            48.47184,
+            15.44762
+          ],
+          [
+            48.47241,
+            15.44875
+          ],
+          [
+            48.47245,
+            15.4498
+          ],
+          [
+            48.47183,
+            15.45109
+          ],
+          [
+            48.47068,
+            15.45162
+          ],
+          [
+            48.4704,
+            15.45247
+          ],
+          [
+            48.46994,
+            15.45486
+          ],
+          [
+            48.47007,
+            15.45594
+          ],
+          [
+            48.47048,
+            15.45676
+          ],
+          [
+            48.47147,
+            15.4576
+          ],
+          [
+            48.47184,
+            15.45881
+          ],
+          [
+            48.47168,
+            15.45931
+          ],
+          [
+            48.47101,
+            15.45963
+          ],
+          [
+            48.4703,
+            15.46053
+          ],
+          [
+            48.46997,
+            15.46171
+          ],
+          [
+            48.4704,
+            15.46253
+          ],
+          [
+            48.47089,
+            15.46276
+          ],
+          [
+            48.47291,
+            15.46117
+          ],
+          [
+            48.47304,
+            15.4623
+          ],
+          [
+            48.47267,
+            15.46297
+          ],
+          [
+            48.47134,
+            15.46391
+          ],
+          [
+            48.46998,
+            15.46557
+          ],
+          [
+            48.4693,
+            15.46722
+          ],
+          [
+            48.46948,
+            15.46832
+          ],
+          [
+            48.46985,
+            15.46868
+          ],
+          [
+            48.47078,
+            15.4686
+          ],
+          [
+            48.47259,
+            15.47061
+          ],
+          [
+            48.47402,
+            15.47151
+          ],
+          [
+            48.4748,
+            15.4724
+          ],
+          [
+            48.47533,
+            15.47354
+          ],
+          [
+            48.47579,
+            15.47653
+          ],
+          [
+            48.47624,
+            15.47757
+          ],
+          [
+            48.47924,
+            15.48149
+          ],
+          [
+            48.48167,
+            15.48292
+          ],
+          [
+            48.48197,
+            15.48426
+          ],
+          [
+            48.48075,
+            15.48751
+          ],
+          [
+            48.47907,
+            15.4895
+          ],
+          [
+            48.47735,
+            15.49077
+          ],
+          [
+            48.47699,
+            15.49274
+          ],
+          [
+            48.47701,
+            15.49802
+          ],
+          [
+            48.47676,
+            15.49924
+          ],
+          [
+            48.47531,
+            15.49998
+          ],
+          [
+            48.47471,
+            15.49999
+          ],
+          [
+            48.47415,
+            15.49954
+          ],
+          [
+            48.47376,
+            15.49976
+          ],
+          [
+            48.47291,
+            15.50176
+          ],
+          [
+            48.47246,
+            15.5043
+          ],
+          [
+            48.47324,
+            15.50875
+          ],
+          [
+            48.47308,
+            15.51128
+          ],
+          [
+            48.47229,
+            15.513
+          ],
+          [
+            48.4705,
+            15.51502
+          ],
+          [
+            48.47009,
+            15.5159
+          ],
+          [
+            48.47017,
+            15.51796
+          ],
+          [
+            48.47066,
+            15.52018
+          ],
+          [
+            48.4703,
+            15.52224
+          ],
+          [
+            48.46953,
+            15.5243
+          ],
+          [
+            48.46902,
+            15.52475
+          ],
+          [
+            48.46846,
+            15.52442
+          ],
+          [
+            48.46785,
+            15.52299
+          ],
+          [
+            48.46722,
+            15.52218
+          ],
+          [
+            48.46672,
+            15.52183
+          ],
+          [
+            48.46624,
+            15.52198
+          ],
+          [
+            48.4656,
+            15.52651
+          ],
+          [
+            48.465,
+            15.52693
+          ],
+          [
+            48.46435,
+            15.52636
+          ],
+          [
+            48.46335,
+            15.52608
+          ],
+          [
+            48.46261,
+            15.52657
+          ],
+          [
+            48.46182,
+            15.5286
+          ],
+          [
+            48.46131,
+            15.53247
+          ],
+          [
+            48.4604,
+            15.53396
+          ],
+          [
+            48.45845,
+            15.5349
+          ],
+          [
+            48.45461,
+            15.53484
+          ],
+          [
+            48.45337,
+            15.5353
+          ],
+          [
+            48.45367,
+            15.53704
+          ],
+          [
+            48.45529,
+            15.53896
+          ],
+          [
+            48.45549,
+            15.5418
+          ],
+          [
+            48.45528,
+            15.5423
+          ],
+          [
+            48.45153,
+            15.54416
+          ],
+          [
+            48.45077,
+            15.54539
+          ],
+          [
+            48.45081,
+            15.54604
+          ],
+          [
+            48.45197,
+            15.54793
+          ],
+          [
+            48.45202,
+            15.5484
+          ],
+          [
+            48.45065,
+            15.55233
+          ],
+          [
+            48.449,
+            15.55527
+          ],
+          [
+            48.44863,
+            15.5565
+          ],
+          [
+            48.44881,
+            15.55747
+          ],
+          [
+            48.44926,
+            15.55795
+          ],
+          [
+            48.45011,
+            15.56019
+          ],
+          [
+            48.45038,
+            15.56162
+          ],
+          [
+            48.45017,
+            15.56244
+          ],
+          [
+            48.44947,
+            15.56326
+          ],
+          [
+            48.44838,
+            15.56369
+          ],
+          [
+            48.44743,
+            15.56321
+          ],
+          [
+            48.44561,
+            15.56056
+          ],
+          [
+            48.44543,
+            15.55969
+          ],
+          [
+            48.4456,
+            15.55735
+          ],
+          [
+            48.44493,
+            15.55681
+          ],
+          [
+            48.44413,
+            15.5569
+          ],
+          [
+            48.44353,
+            15.56027
+          ],
+          [
+            48.44515,
+            15.56514
+          ],
+          [
+            48.44532,
+            15.56666
+          ],
+          [
+            48.44519,
+            15.56754
+          ],
+          [
+            48.4442,
+            15.5691
+          ],
+          [
+            48.44273,
+            15.57033
+          ],
+          [
+            48.44062,
+            15.57395
+          ],
+          [
+            48.43948,
+            15.57509
+          ],
+          [
+            48.4387,
+            15.57533
+          ],
+          [
+            48.43831,
+            15.57593
+          ],
+          [
+            48.43794,
+            15.57715
+          ],
+          [
+            48.43767,
+            15.57997
+          ],
+          [
+            48.4374,
+            15.58064
+          ],
+          [
+            48.43642,
+            15.58126
+          ],
+          [
+            48.43564,
+            15.58124
+          ],
+          [
+            48.43438,
+            15.58249
+          ],
+          [
+            48.43347,
+            15.58597
+          ],
+          [
+            48.43223,
+            15.58759
+          ],
+          [
+            48.43071,
+            15.58858
+          ],
+          [
+            48.43018,
+            15.5908
+          ],
+          [
+            48.42922,
+            15.59216
+          ],
+          [
+            48.42864,
+            15.59221
+          ],
+          [
+            48.42822,
+            15.59178
+          ],
+          [
+            48.42549,
+            15.5865
+          ],
+          [
+            48.42414,
+            15.58572
+          ],
+          [
+            48.42356,
+            15.58595
+          ],
+          [
+            48.42276,
+            15.58723
+          ],
+          [
+            48.4208,
+            15.58902
+          ],
+          [
+            48.42052,
+            15.58963
+          ],
+          [
+            48.42049,
+            15.59225
+          ],
+          [
+            48.4211,
+            15.59522
+          ],
+          [
+            48.42122,
+            15.59992
+          ],
+          [
+            48.42102,
+            15.60096
+          ],
+          [
+            48.42021,
+            15.60173
+          ],
+          [
+            48.41941,
+            15.60194
+          ],
+          [
+            48.4175,
+            15.60119
+          ],
+          [
+            48.41595,
+            15.6015
+          ],
+          [
+            48.41558,
+            15.60218
+          ],
+          [
+            48.41527,
+            15.60396
+          ],
+          [
+            48.41489,
+            15.60423
+          ],
+          [
+            48.41363,
+            15.60419
+          ],
+          [
+            48.41295,
+            15.60462
+          ],
+          [
+            48.41067,
+            15.60834
+          ],
+          [
+            48.41002,
+            15.61183
+          ],
+          [
+            48.41053,
+            15.61437
+          ],
+          [
+            48.41046,
+            15.61788
+          ],
+          [
+            48.41078,
+            15.62026
+          ],
+          [
+            48.4101,
+            15.62546
+          ],
+          [
+            48.41028,
+            15.62836
+          ],
+          [
+            48.40994,
+            15.63447
+          ],
+          [
+            48.41026,
+            15.63688
+          ],
+          [
+            48.41014,
+            15.63867
+          ],
+          [
+            48.40465,
+            15.65308
+          ],
+          [
+            48.40323,
+            15.65573
+          ],
+          [
+            48.40019,
+            15.66013
+          ],
+          [
+            48.39922,
+            15.66204
+          ],
+          [
+            48.39679,
+            15.67091
+          ],
+          [
+            48.39417,
+            15.67699
+          ],
+          [
+            48.39342,
+            15.68085
+          ],
+          [
+            48.39361,
+            15.68666
+          ],
+          [
+            48.39297,
+            15.69313
+          ],
+          [
+            48.39247,
+            15.69463
+          ],
+          [
+            48.39091,
+            15.69695
+          ],
+          [
+            48.39032,
+            15.69884
+          ]
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "kind": "green",
+        "name": "Stadtpark",
+        "points": [
+          [
+            48.40764,
+            15.59744
+          ],
+          [
+            48.40705,
+            15.59576
+          ],
+          [
+            48.40629,
+            15.59631
+          ],
+          [
+            48.40685,
+            15.59793
+          ],
+          [
+            48.407,
+            15.59802
+          ],
+          [
+            48.40764,
+            15.59744
+          ]
+        ]
+      },
+      {
+        "kind": "green",
+        "name": "Stadtpark",
+        "points": [
+          [
+            48.40781,
+            15.59728
+          ],
+          [
+            48.40724,
+            15.59564
+          ],
+          [
+            48.40779,
+            15.59517
+          ],
+          [
+            48.40803,
+            15.59516
+          ],
+          [
+            48.40904,
+            15.59598
+          ],
+          [
+            48.40781,
+            15.59728
+          ]
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Donau",
+        "lat": 48.395,
+        "lon": 15.605
+      },
+      {
+        "text": "Altstadt",
+        "lat": 48.4105,
+        "lon": 15.6005,
+        "district": true
+      },
+      {
+        "text": "Stein",
+        "lat": 48.4055,
+        "lon": 15.584,
+        "district": true
+      },
+      {
+        "text": "Campus",
+        "lat": 48.408,
+        "lon": 15.587,
+        "district": true
+      },
+      {
+        "text": "Lerchenfeld",
+        "lat": 48.4175,
+        "lon": 15.6115,
+        "district": true
+      },
+      {
+        "text": "Weinzierl",
+        "lat": 48.4145,
+        "lon": 15.5825,
+        "district": true
+      },
+      {
+        "text": "Mitterau",
+        "lat": 48.3985,
+        "lon": 15.6185,
+        "district": true
+      }
+    ],
+    "boundary": [
+      [
+        [
+          48.42113,
+          15.53361
+        ],
+        [
+          48.41952,
+          15.53393
+        ],
+        [
+          48.41913,
+          15.53106
+        ],
+        [
+          48.41786,
+          15.52771
+        ],
+        [
+          48.41781,
+          15.52567
+        ],
+        [
+          48.41704,
+          15.5251
+        ],
+        [
+          48.41608,
+          15.52522
+        ],
+        [
+          48.41227,
+          15.52999
+        ],
+        [
+          48.41121,
+          15.5303
+        ],
+        [
+          48.41046,
+          15.53127
+        ],
+        [
+          48.40925,
+          15.53592
+        ],
+        [
+          48.40929,
+          15.53807
+        ],
+        [
+          48.40973,
+          15.53914
+        ],
+        [
+          48.40901,
+          15.53989
+        ],
+        [
+          48.40894,
+          15.54333
+        ],
+        [
+          48.40935,
+          15.54487
+        ],
+        [
+          48.41128,
+          15.54714
+        ],
+        [
+          48.41311,
+          15.54789
+        ],
+        [
+          48.41308,
+          15.54883
+        ],
+        [
+          48.41227,
+          15.55385
+        ],
+        [
+          48.41127,
+          15.55407
+        ],
+        [
+          48.40994,
+          15.55563
+        ],
+        [
+          48.40867,
+          15.55909
+        ],
+        [
+          48.40725,
+          15.55753
+        ],
+        [
+          48.40366,
+          15.55695
+        ],
+        [
+          48.40374,
+          15.55263
+        ],
+        [
+          48.40177,
+          15.56018
+        ],
+        [
+          48.40027,
+          15.56076
+        ],
+        [
+          48.39912,
+          15.56227
+        ],
+        [
+          48.39915,
+          15.56158
+        ],
+        [
+          48.3973,
+          15.56038
+        ],
+        [
+          48.39578,
+          15.55799
+        ],
+        [
+          48.39445,
+          15.55718
+        ],
+        [
+          48.39324,
+          15.5572
+        ],
+        [
+          48.39307,
+          15.55783
+        ],
+        [
+          48.39135,
+          15.5594
+        ],
+        [
+          48.39681,
+          15.57241
+        ],
+        [
+          48.40099,
+          15.58707
+        ],
+        [
+          48.40166,
+          15.59322
+        ],
+        [
+          48.40332,
+          15.61612
+        ],
+        [
+          48.4038,
+          15.61881
+        ],
+        [
+          48.40382,
+          15.62475
+        ],
+        [
+          48.40296,
+          15.62546
+        ],
+        [
+          48.40454,
+          15.63406
+        ],
+        [
+          48.39721,
+          15.63662
+        ],
+        [
+          48.39666,
+          15.63487
+        ],
+        [
+          48.3959,
+          15.63441
+        ],
+        [
+          48.3949,
+          15.63419
+        ],
+        [
+          48.3926,
+          15.63512
+        ],
+        [
+          48.39177,
+          15.63498
+        ],
+        [
+          48.39053,
+          15.63251
+        ],
+        [
+          48.38868,
+          15.63104
+        ],
+        [
+          48.38751,
+          15.62901
+        ],
+        [
+          48.38678,
+          15.62837
+        ],
+        [
+          48.38182,
+          15.62904
+        ],
+        [
+          48.381,
+          15.63112
+        ],
+        [
+          48.38047,
+          15.63666
+        ],
+        [
+          48.38015,
+          15.63751
+        ],
+        [
+          48.37901,
+          15.63883
+        ],
+        [
+          48.37625,
+          15.63721
+        ],
+        [
+          48.37502,
+          15.63569
+        ],
+        [
+          48.37559,
+          15.63257
+        ],
+        [
+          48.37426,
+          15.63251
+        ],
+        [
+          48.37255,
+          15.63349
+        ],
+        [
+          48.37255,
+          15.62738
+        ],
+        [
+          48.37134,
+          15.62773
+        ],
+        [
+          48.37147,
+          15.63157
+        ],
+        [
+          48.37177,
+          15.6315
+        ],
+        [
+          48.37192,
+          15.6339
+        ],
+        [
+          48.37241,
+          15.63576
+        ],
+        [
+          48.37267,
+          15.63569
+        ],
+        [
+          48.37274,
+          15.63608
+        ],
+        [
+          48.372,
+          15.63636
+        ],
+        [
+          48.37228,
+          15.63797
+        ],
+        [
+          48.37217,
+          15.63982
+        ],
+        [
+          48.37285,
+          15.63982
+        ],
+        [
+          48.37348,
+          15.64248
+        ],
+        [
+          48.37354,
+          15.64281
+        ],
+        [
+          48.37305,
+          15.64324
+        ],
+        [
+          48.37384,
+          15.64619
+        ],
+        [
+          48.37402,
+          15.64841
+        ],
+        [
+          48.37482,
+          15.64779
+        ],
+        [
+          48.37598,
+          15.65087
+        ],
+        [
+          48.37652,
+          15.65407
+        ],
+        [
+          48.37647,
+          15.65581
+        ],
+        [
+          48.37566,
+          15.65854
+        ],
+        [
+          48.37573,
+          15.65986
+        ],
+        [
+          48.37461,
+          15.66066
+        ],
+        [
+          48.37502,
+          15.66103
+        ],
+        [
+          48.37462,
+          15.66204
+        ],
+        [
+          48.37479,
+          15.66212
+        ],
+        [
+          48.37402,
+          15.66744
+        ],
+        [
+          48.37218,
+          15.66772
+        ],
+        [
+          48.37246,
+          15.6682
+        ],
+        [
+          48.37144,
+          15.669
+        ],
+        [
+          48.37004,
+          15.66749
+        ],
+        [
+          48.36971,
+          15.66825
+        ],
+        [
+          48.36874,
+          15.66659
+        ],
+        [
+          48.36851,
+          15.66672
+        ],
+        [
+          48.36958,
+          15.67166
+        ],
+        [
+          48.36939,
+          15.67321
+        ],
+        [
+          48.37059,
+          15.68043
+        ],
+        [
+          48.37059,
+          15.68399
+        ],
+        [
+          48.36947,
+          15.68692
+        ],
+        [
+          48.36876,
+          15.68989
+        ],
+        [
+          48.36831,
+          15.69329
+        ],
+        [
+          48.36948,
+          15.69615
+        ],
+        [
+          48.37025,
+          15.69651
+        ],
+        [
+          48.37135,
+          15.69539
+        ],
+        [
+          48.37098,
+          15.70025
+        ],
+        [
+          48.37025,
+          15.70064
+        ],
+        [
+          48.37042,
+          15.70392
+        ],
+        [
+          48.37232,
+          15.70711
+        ],
+        [
+          48.37282,
+          15.70653
+        ],
+        [
+          48.37314,
+          15.7076
+        ],
+        [
+          48.37323,
+          15.70812
+        ],
+        [
+          48.37285,
+          15.7087
+        ],
+        [
+          48.37319,
+          15.70912
+        ],
+        [
+          48.37269,
+          15.71187
+        ],
+        [
+          48.37324,
+          15.71331
+        ],
+        [
+          48.37282,
+          15.71448
+        ],
+        [
+          48.37322,
+          15.72165
+        ],
+        [
+          48.37577,
+          15.72866
+        ],
+        [
+          48.38058,
+          15.72335
+        ],
+        [
+          48.38366,
+          15.71911
+        ],
+        [
+          48.38458,
+          15.71731
+        ],
+        [
+          48.38673,
+          15.70784
+        ],
+        [
+          48.38819,
+          15.70637
+        ],
+        [
+          48.38812,
+          15.70009
+        ],
+        [
+          48.38707,
+          15.69587
+        ],
+        [
+          48.38588,
+          15.69284
+        ],
+        [
+          48.38928,
+          15.68654
+        ],
+        [
+          48.38997,
+          15.68433
+        ],
+        [
+          48.39042,
+          15.67848
+        ],
+        [
+          48.39095,
+          15.67583
+        ],
+        [
+          48.39457,
+          15.67599
+        ],
+        [
+          48.39665,
+          15.67051
+        ],
+        [
+          48.39966,
+          15.67068
+        ],
+        [
+          48.40201,
+          15.66961
+        ],
+        [
+          48.40271,
+          15.6691
+        ],
+        [
+          48.40277,
+          15.66869
+        ],
+        [
+          48.4022,
+          15.6683
+        ],
+        [
+          48.40313,
+          15.66629
+        ],
+        [
+          48.40418,
+          15.66787
+        ],
+        [
+          48.40425,
+          15.67183
+        ],
+        [
+          48.4079,
+          15.67239
+        ],
+        [
+          48.40959,
+          15.67173
+        ],
+        [
+          48.40883,
+          15.66293
+        ],
+        [
+          48.40733,
+          15.65788
+        ],
+        [
+          48.41024,
+          15.65604
+        ],
+        [
+          48.41377,
+          15.65259
+        ],
+        [
+          48.41501,
+          15.64934
+        ],
+        [
+          48.41582,
+          15.6456
+        ],
+        [
+          48.4155,
+          15.64298
+        ],
+        [
+          48.41659,
+          15.64213
+        ],
+        [
+          48.41716,
+          15.64219
+        ],
+        [
+          48.41717,
+          15.64159
+        ],
+        [
+          48.42005,
+          15.64028
+        ],
+        [
+          48.42025,
+          15.64074
+        ],
+        [
+          48.4238,
+          15.63941
+        ],
+        [
+          48.42772,
+          15.63851
+        ],
+        [
+          48.42875,
+          15.63775
+        ],
+        [
+          48.43,
+          15.63809
+        ],
+        [
+          48.43117,
+          15.63691
+        ],
+        [
+          48.43193,
+          15.63701
+        ],
+        [
+          48.43256,
+          15.63795
+        ],
+        [
+          48.43394,
+          15.63723
+        ],
+        [
+          48.43407,
+          15.63769
+        ],
+        [
+          48.43562,
+          15.63764
+        ],
+        [
+          48.43575,
+          15.63612
+        ],
+        [
+          48.43784,
+          15.63623
+        ],
+        [
+          48.44321,
+          15.63773
+        ],
+        [
+          48.44299,
+          15.64164
+        ],
+        [
+          48.44338,
+          15.64584
+        ],
+        [
+          48.45079,
+          15.6457
+        ],
+        [
+          48.45123,
+          15.64008
+        ],
+        [
+          48.44955,
+          15.63945
+        ],
+        [
+          48.44918,
+          15.63895
+        ],
+        [
+          48.44966,
+          15.63655
+        ],
+        [
+          48.4498,
+          15.63377
+        ],
+        [
+          48.44941,
+          15.63006
+        ],
+        [
+          48.44525,
+          15.62586
+        ],
+        [
+          48.44159,
+          15.61982
+        ],
+        [
+          48.44269,
+          15.61861
+        ],
+        [
+          48.4436,
+          15.61575
+        ],
+        [
+          48.4434,
+          15.61574
+        ],
+        [
+          48.44348,
+          15.61405
+        ],
+        [
+          48.43871,
+          15.61473
+        ],
+        [
+          48.43871,
+          15.61083
+        ],
+        [
+          48.43961,
+          15.61019
+        ],
+        [
+          48.44032,
+          15.60678
+        ],
+        [
+          48.4401,
+          15.60624
+        ],
+        [
+          48.44111,
+          15.59886
+        ],
+        [
+          48.44324,
+          15.59475
+        ],
+        [
+          48.44274,
+          15.59448
+        ],
+        [
+          48.44127,
+          15.59151
+        ],
+        [
+          48.43961,
+          15.58975
+        ],
+        [
+          48.43913,
+          15.58764
+        ],
+        [
+          48.4387,
+          15.58699
+        ],
+        [
+          48.43862,
+          15.58579
+        ],
+        [
+          48.43808,
+          15.5852
+        ],
+        [
+          48.43695,
+          15.58511
+        ],
+        [
+          48.43725,
+          15.58406
+        ],
+        [
+          48.43588,
+          15.58326
+        ],
+        [
+          48.43579,
+          15.58267
+        ],
+        [
+          48.43427,
+          15.58103
+        ],
+        [
+          48.43391,
+          15.57987
+        ],
+        [
+          48.43398,
+          15.57706
+        ],
+        [
+          48.43432,
+          15.57579
+        ],
+        [
+          48.43404,
+          15.57147
+        ],
+        [
+          48.43537,
+          15.56484
+        ],
+        [
+          48.43536,
+          15.56251
+        ],
+        [
+          48.4362,
+          15.55724
+        ],
+        [
+          48.43615,
+          15.5497
+        ],
+        [
+          48.43702,
+          15.54555
+        ],
+        [
+          48.43817,
+          15.54284
+        ],
+        [
+          48.43795,
+          15.53844
+        ],
+        [
+          48.43936,
+          15.53717
+        ],
+        [
+          48.43867,
+          15.53494
+        ],
+        [
+          48.43708,
+          15.53265
+        ],
+        [
+          48.4373,
+          15.53129
+        ],
+        [
+          48.43714,
+          15.53056
+        ],
+        [
+          48.43747,
+          15.53019
+        ],
+        [
+          48.43758,
+          15.52876
+        ],
+        [
+          48.43683,
+          15.52736
+        ],
+        [
+          48.43693,
+          15.52639
+        ],
+        [
+          48.43638,
+          15.52572
+        ],
+        [
+          48.4355,
+          15.52615
+        ],
+        [
+          48.43501,
+          15.52583
+        ],
+        [
+          48.43382,
+          15.52691
+        ],
+        [
+          48.43359,
+          15.52761
+        ],
+        [
+          48.43253,
+          15.52876
+        ],
+        [
+          48.43148,
+          15.53096
+        ],
+        [
+          48.4295,
+          15.53141
+        ],
+        [
+          48.42916,
+          15.53553
+        ],
+        [
+          48.42844,
+          15.53439
+        ],
+        [
+          48.42672,
+          15.53408
+        ],
+        [
+          48.42568,
+          15.53279
+        ],
+        [
+          48.42384,
+          15.53269
+        ],
+        [
+          48.42166,
+          15.53193
+        ],
+        [
+          48.42113,
+          15.53361
+        ]
+      ]
+    ]
+  },
+  "mapSpec": {
+    "rivers": [
+      {
+        "name": "Donau",
+        "major": true
+      },
+      {
+        "name": "Krems"
+      },
+      {
+        "name": "Donaukanal"
+      }
+    ],
+    "lakes": [],
+    "parks": [
+      "Stadtpark",
+      "Hafen Krems"
+    ],
+    "boundary": "Krems an der Donau"
+  },
+  "quarters": [
+    {
+      "name": "Campus Krems",
+      "label": "Drei Hochschulen",
+      "text": "Universität für Weiterbildung, IMC Fachhochschule und Karl Landsteiner Privatuniversität teilen sich ein Gelände am westlichen Stadtrand. Wer hier arbeitet oder studiert, kennt die anderen beiden Häuser zwangsläufig."
+    },
+    {
+      "name": "Stein",
+      "label": "Altort an der Donau",
+      "text": "Der westliche Stadtteil mit der Steiner Landstraße, Weinhäusern und der ehemaligen Minoritenkirche. Die schönste Adresse der Stadt – und die mit den meisten Lokalen für einen zweiten Abend."
+    },
+    {
+      "name": "Altstadt & Hoher Markt",
+      "label": "Zentrum",
+      "text": "Zwischen Steiner Tor und Pfarrplatz liegt die Fußgängerzone, darüber der Hohe Markt mit Piaristenkirche. Kompakt genug, dass man sich innerhalb von zehn Minuten überall trifft."
+    },
+    {
+      "name": "Kunstmeile",
+      "label": "Museumsquartier",
+      "text": "Landesgalerie Niederösterreich, Kunsthalle und Karikaturmuseum liegen zwischen Stein und Altstadt. Eine Museumsdichte, die man in einer Stadt dieser Größe nicht erwartet."
+    },
+    {
+      "name": "Lerchenfeld & Mitterau",
+      "label": "Wohnviertel",
+      "text": "Gewachsene Wohnquartiere mit Genossenschaftsbauten, Schulen und kurzen Wegen in die Stadt – hier wohnen viele, die am Campus oder im Klinikum arbeiten."
+    },
+    {
+      "name": "Weinberge & Sandgrube",
+      "label": "Nördlicher Stadtrand",
+      "text": "Oberhalb der Stadt beginnen die Weingärten der Kremser Lagen. Kellereien, Weingüter und Aussichtspunkte sind zu Fuß erreichbar."
+    }
+  ],
+  "agenda": [
+    {
+      "title": "donaufestival Krems",
+      "when": "April, an zwei Wochenenden",
+      "text": "Festival für zeitgenössische Musik und Performance in der Kremser Messehalle und an Spielorten der Stadt. Die Ausgabe 2027 läuft vom 16. bis 18. April und vom 23. bis 25. April – zwei Wochenenden, an denen Krems ein anderes Publikum anzieht als sonst.",
+      "href": "https://www.donaufestival.at/"
+    },
+    {
+      "title": "Kunstmeile Krems",
+      "when": "Ganzjährig",
+      "text": "Landesgalerie Niederösterreich, Kunsthalle Krems und Karikaturmuseum liegen nebeneinander. Ein Nachmittag dort gibt Gesprächsstoff für den ganzen Abend – und endet zu Fuß in Stein.",
+      "href": "https://www.kunstmeile-krems.at/"
+    },
+    {
+      "title": "Lange Nacht der Forschung",
+      "when": "Alle zwei Jahre",
+      "text": "Zuletzt am 24. April 2026 mit österreichweit über 3.000 Programmpunkten und mehr als 192.000 Besuchenden bei freiem Eintritt. Der Campus Krems beteiligt sich mit allen drei Hochschulen; die nächste Ausgabe ist für den 19. Mai 2028 angekündigt.",
+      "href": "https://langenachtderforschung.at/"
+    },
+    {
+      "title": "Wachau zu Fuß und per Rad",
+      "when": "Frühling bis Herbst",
+      "text": "Krems ist das östliche Tor zur Wachau: Weinberge, Donauradweg und Heurige beginnen am Stadtrand. Für ein zweites Treffen braucht es hier wenig mehr als festes Schuhwerk."
+    }
+  ],
+  "talkingPoints": [
+    {
+      "title": "Studieren mit Berufserfahrung",
+      "text": "Die Universität für Weiterbildung Krems ist auf die Höherqualifizierung von Berufstätigen spezialisiert. Das heißt: Wer hier studiert, hat meistens schon eine Karriere, oft Familie und fast immer ein klares Ziel. Ein völlig anderes Milieu als in klassischen Studentenstädten."
+    },
+    {
+      "title": "Drei Hochschulen, ein Campus",
+      "text": "Universität, Fachhochschule und Privatuniversität teilen sich ein Gelände. In Wien wäre das Verwaltungsgeschichte, in Krems ist es Alltag – und der Grund, warum sich Medizin, Wirtschaft und Weiterbildung hier dauernd über den Weg laufen."
+    },
+    {
+      "title": "Wachau als Standortvorteil",
+      "text": "Weinberge am Stadtrand, Donauradweg vor der Tür, UNESCO-Kulturlandschaft ab der nächsten Ortschaft. Wer in Krems lebt, braucht für ein Wochenendprogramm kein Auto und keinen Plan."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wie viele Akademiker leben in Krems?",
+      "answer": "17,8 Prozent der Einwohnerinnen und Einwohner ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss (Abgestimmte Erwerbsstatistik 2024; Niederösterreich 15,1 Prozent, Österreich 17,6 Prozent). Durch die drei Hochschulen am Campus ist der Anteil an Menschen mit akademischem Umfeld deutlich höher als in vergleichbaren Bezirksstädten."
+    },
+    {
+      "question": "Welche Hochschulen gibt es in Krems?",
+      "answer": "Drei: die Universität für Weiterbildung Krems (6.440 Studierende im Wintersemester 2025/26), die IMC Fachhochschule Krems und die Karl Landsteiner Privatuniversität für Gesundheitswissenschaften. Alle drei teilen sich den Campus Krems; dazu kommt das Universitätsklinikum als Lehrklinik."
+    },
+    {
+      "question": "Was ist das Besondere an der Universität für Weiterbildung?",
+      "answer": "Sie ist nach eigenen Angaben die führende öffentliche Universität für Weiterbildung in Europa und auf die Höherqualifizierung von Berufstätigen spezialisiert. Angeboten werden berufsbegleitende Bachelor- und Masterstudien, Kurzprogramme und PhD-Studien; mehr als 33.000 Menschen haben hier bereits abgeschlossen."
+    },
+    {
+      "question": "Gibt es in Krems mehr Männer oder Frauen?",
+      "answer": "In der Altersgruppe 30 bis 49 kommen auf 100 Frauen 114 Männer (3.419 zu 3.002 am 01.01.2026). Für Frauen ist der Markt damit rechnerisch günstiger als in Wien (103) oder Graz (109)."
+    },
+    {
+      "question": "Lohnt sich Krems für Berufstätige?",
+      "answer": "In der Stadt gibt es 20.323 Arbeitsplätze bei 25.404 Einwohnern, und nur 48,6 Prozent der Erwerbstätigen pendeln aus – in Niederösterreich insgesamt sind es 73,3 Prozent. Dazu kommt die Bahnverbindung nach Wien, die ein Pendeln in die Hauptstadt möglich macht, ohne dort zu wohnen."
+    },
+    {
+      "question": "Wo lernen Akademiker in Krems Singles kennen?",
+      "answer": "Am Campus und bei Veranstaltungen der drei Hochschulen, auf der Kunstmeile mit Landesgalerie und Kunsthalle, beim donaufestival im April, in den Lokalen an der Steiner Landstraße oder bei einem Spaziergang in die Weinberge. Wer gezielt Menschen mit ähnlichem Bildungshintergrund sucht, findet sie bei AkademikerSingles: Jedes Profil wird manuell geprüft."
+    },
+    {
+      "question": "Ist die Anmeldung kostenlos?",
+      "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
+    }
+  ],
+  "guide": [
+    {
+      "title": "Eine Stadt für Menschen, die schon im Beruf stehen",
+      "html": "<p>Krems ist keine klassische Studentenstadt. Die größte Hochschule der Stadt, die Universität für Weiterbildung Krems, ist nach eigenen Angaben die führende öffentliche Weiterbildungsuniversität Europas – spezialisiert auf die Höherqualifizierung von Berufstätigen. Ihre 6.440 Studierenden sitzen nicht mit 19 im Hörsaal, sondern mit 35 im Blockseminar.</p><p>Das prägt die Stadt. 23,4 Prozent der Einwohnerinnen und Einwohner sind 65 Jahre oder älter, der Altersdurchschnitt liegt über dem von Graz oder Innsbruck, und trotzdem leben hier viele Menschen in kleinen Haushalten: 12.244 Privathaushalte mit durchschnittlich 1,97 Personen – ein Wert, den man eher in einer Großstadt erwartet.</p><p>Für die Partnersuche heißt das: In Krems trifft man seltener auf Menschen, die gerade erst anfangen, und häufiger auf solche, die schon wissen, was sie wollen. Zweitstudium, Berufswechsel, Neuanfang nach einer Trennung – das sind hier normale Biografien.</p>"
+    },
+    {
+      "title": "Drei Hochschulen auf einem Gelände",
+      "html": "<p>Der Campus Krems bringt zusammen, was anderswo über eine ganze Stadt verteilt ist: die Universität für Weiterbildung Krems, die IMC Fachhochschule Krems und die Karl Landsteiner Privatuniversität für Gesundheitswissenschaften. Dazu kommt das Universitätsklinikum als Lehrklinik der Privatuniversität.</p><p>Die Universität führt berufsbegleitende Bachelor- und Masterstudien, Kurzprogramme und PhD-Studien und trägt das Qualitätssiegel der AQ Austria. Mehr als 33.000 Absolventinnen und Absolventen hat sie nach eigenen Angaben hervorgebracht – ein Alumni-Netzwerk, das in ganz Österreich und darüber hinaus reicht.</p><p>Die IMC bringt internationale Studierende in die Stadt, die Privatuniversität Medizin und Psychologie in kleinen Jahrgängen. Auf engem Raum entsteht so eine akademische Mischung, die man einer Stadt mit 25.404 Einwohnern nicht zutraut.</p>"
+    },
+    {
+      "title": "Arbeiten in Krems – und pendeln nach Wien",
+      "html": "<p>20.323 Menschen arbeiten in Krems, bei 25.404 Einwohnern. 88,0 Prozent der Arbeitsstätten gehören zum tertiären Sektor, und nur 48,6 Prozent der Kremser Erwerbstätigen pendeln aus der Stadt aus – in Niederösterreich sind es 73,3 Prozent. Krems ist damit kein Vorort, sondern ein eigenes Zentrum.</p><p>Die großen Arbeitgeber sind Hochschulen, Klinikum, Landesverwaltung, Handel und die Weinwirtschaft. Dazu kommt die Nähe zu Wien: Die Bahnverbindung macht Pendeln möglich, ohne in der Hauptstadt wohnen zu müssen – ein Modell, das viele Paare hier leben.</p><p>21,6 Prozent der Kremserinnen und Kremser haben keine österreichische Staatsangehörigkeit, deutlich mehr als in Niederösterreich insgesamt (12,4 Prozent). Hochschulen und Gesundheitswesen ziehen Menschen aus dem Ausland an – was die Stadt internationaler macht, als ihre Größe vermuten lässt.</p>"
+    },
+    {
+      "title": "Stein, Altstadt, Weinberge",
+      "html": "<p>Krems besteht aus drei Teilen, die zu Fuß verbunden sind: Stein mit der alten Landstraße direkt an der Donau, die Altstadt rund um Steiner Tor und Pfarrplatz, und dazwischen die Kunstmeile mit Landesgalerie Niederösterreich, Kunsthalle und Karikaturmuseum. Nördlich beginnen die Weingärten, östlich liegt der Campus.</p><p>Diese Anordnung macht Verabredungen einfach. Treffpunkt Steiner Tor, dann durch die Fußgängerzone, Kunstmeile, weiter nach Stein und dort in eines der Weinhäuser – eine Strecke von zwanzig Minuten, die sich beliebig dehnen lässt.</p><p>Im Frühjahr und Herbst übernimmt die Landschaft: Donauradweg, Wachau-Weinberge, Heurige in den Nachbarorten. Wer hier lebt, hat sein Wochenendprogramm vor der Haustür – und braucht für ein gelungenes zweites Treffen selten einen Tisch zu reservieren.</p>"
+    },
+    {
+      "title": "Termine, die Krems größer machen",
+      "html": "<p>Zweimal im April wird die Stadt zum Festivalort: Das donaufestival bringt zeitgenössische Musik und Performance in die Messehalle und an weitere Spielorte – 2027 vom 16. bis 18. und vom 23. bis 25. April. Das Publikum reist aus Wien und darüber hinaus an, und die Stadt sieht für zwei Wochenenden anders aus als sonst.</p><p>Ganzjährig trägt die Kunstmeile das kulturelle Programm. Drei Häuser nebeneinander, Wechselausstellungen, Vermittlungsangebote – ein Nachmittag dort ist in Krems das, was in größeren Städten ein Museumsbesuch mit Anfahrt wäre.</p><p>Alle zwei Jahre kommt die Lange Nacht der Forschung dazu, zuletzt am 24. April 2026 mit österreichweit über 3.000 Programmpunkten und mehr als 192.000 Besuchenden bei freiem Eintritt. Am Campus Krems öffnen dann alle drei Hochschulen – die nächste Ausgabe ist für den 19. Mai 2028 angekündigt.</p>"
+    },
+    {
+      "title": "Was die Zahlen nicht sagen",
+      "html": "<p>Die Werte dieser Seite stammen aus der Abgestimmten Erwerbsstatistik 2024 (Stichtag 31. Oktober 2024), dem Bevölkerungsstand zum 1. Januar 2026 und der Hochschulstatistik für das Wintersemester 2025/26. Die Studierendenzahl von 6.440 betrifft nur die öffentliche Universität; IMC Fachhochschule und Karl Landsteiner Privatuniversität sind nicht enthalten.</p><p>Das Geschlechterverhältnis von 114 Männern je 100 Frauen in der Altersgruppe 30 bis 49 ist ein statistischer Durchschnitt über die gesamte Stadtbevölkerung dieser Jahrgänge; Gründe für solche Abweichungen sind vielfältig und lassen sich aus der Zahl allein nicht ableiten.</p><p>Was bleibt: Krems ist klein, hat aber drei Hochschulen, eine Museumsmeile, ein internationales Festival und die Wachau vor der Tür. Für Akademiker mitten im Berufsleben ist das eine ungewöhnlich gute Mischung – und ein Umfeld, in dem man einander wirklich kennenlernt.</p>"
+    }
+  ],
+  "hubFacts": [
+    {
+      "label": "Hochschulabschluss ab 15 Jahren",
+      "value": "17,8 %"
+    },
+    {
+      "label": "Studierende",
+      "value": "6.440"
+    },
+    {
+      "label": "Personen je Haushalt",
+      "value": "1,97"
+    },
+    {
+      "label": "Männer je 100 Frauen (30–49)",
+      "value": "114"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aest-gemeinde",
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung, höchste abgeschlossene Bildung ab 15 Jahren, Privathaushalte, Arbeitsstätten, Beschäftigte, Unternehmen, Pendler",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "id": "uni-stud",
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Uni (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "id": "bev-alter",
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
+    },
+    {
+      "id": "donau-uni",
+      "publisher": "Universität für Weiterbildung Krems",
+      "title": "Über uns: führende öffentliche Universität für Weiterbildung in Europa, rund 7.500 zugelassene Studierende, mehr als 33.000 Absolvent_innen, berufsbegleitende Studien und Qualitätssiegel der AQ Austria",
+      "stand": "abgerufen 11/2026",
+      "url": "https://www.donau-uni.ac.at/de/universitaet/ueber-uns.html"
+    },
+    {
+      "id": "imc-krems",
+      "publisher": "IMC Fachhochschule Krems",
+      "title": "Über uns: Studienangebot in Wirtschaft, Gesundheit, Life Sciences und Digitalisierung am Campus Krems",
+      "stand": "abgerufen 11/2026",
+      "url": "https://www.imc.ac.at/de/"
+    },
+    {
+      "id": "kl-krems",
+      "publisher": "Karl Landsteiner Privatuniversität für Gesundheitswissenschaften",
+      "title": "Universität: Medizin und Psychologie am Campus Krems, Zusammenarbeit mit dem Universitätsklinikum Krems",
+      "stand": "abgerufen 11/2026",
+      "url": "https://www.kl.ac.at/universitaet"
+    },
+    {
+      "id": "kunstmeile",
+      "publisher": "Kunstmeile Krems",
+      "title": "Kunstmeile Krems: Landesgalerie Niederösterreich, Kunsthalle Krems und Karikaturmuseum",
+      "stand": "abgerufen 11/2026",
+      "url": "https://www.kunstmeile-krems.at/"
+    }
+  ]
+}

@@ -43,9 +43,23 @@ function cityPage(market: RegionalMarket, profile: CityProfile): PublicPage {
   };
 }
 
-const HUBS: Record<RegionalMarket, { title: string; heroTitle: string; lead: string }> = {
-  at: { title: "Partnersuche für Akademiker in Österreich – AkademikerSingles", heroTitle: "Partnersuche für Akademiker in Österreich", lead: "Akademiker Singles in Österreich" },
-  ch: { title: "Partnersuche für Akademiker in der Schweiz – AkademikerSingles", heroTitle: "Partnersuche für Akademiker in der Schweiz", lead: "Akademiker Singles in der Schweiz" },
+const HUBS: Record<RegionalMarket, { title: string; heroTitle: string; lead: string; body: string }> = {
+  at: {
+    title: "Partnersuche für Akademiker in Österreich – AkademikerSingles",
+    heroTitle: "Partnersuche für Akademiker in Österreich",
+    lead: "Akademiker Singles in Österreich",
+    body: `<p>325.077 Menschen studieren im Wintersemester 2025/26 an Österreichs öffentlichen Universitäten, 17,6 Prozent der Bevölkerung ab 15 Jahren haben einen Hochschul-, Akademie- oder Kollegabschluss, und 38,9 Prozent aller Haushalte bestehen aus einer Person. Hinter diesen Durchschnittswerten liegen Städte, die sich deutlich unterscheiden: In Graz haben 30,7 Prozent der Erwachsenen einen Hochschulabschluss, in Linz 20,4 Prozent – dafür lebt dort fast jeder zweite Haushalt allein.</p>
+<p>Unsere Stadtdossiers übersetzen diese Statistik in etwas Praktisches: Wie viele Studierende hat die Stadt, welche Hochschulen prägen sie, in welchen Bezirken wohnen Menschen mit Hochschulabschluss, wie steht es um das Geschlechterverhältnis in der Altersgruppe 30 bis 49, und wo trifft man sich abends. Jede Zahl ist mit Quelle und Stand belegt: Abgestimmte Erwerbsstatistik 2024 und Bevölkerungsstand 2026 von Statistik Austria, Hochschulstatistik aus den offenen Daten des Bundes.</p>
+<p>Dazu kommen Termine mit akademischem Publikum – von der Langen Nacht der Forschung über die Montagsakademie in Graz und den Kepler Salon in Linz bis zum Wiener Ball der Wissenschaften. Ist Ihre Stadt nicht dabei, legen Sie über die individuelle Suche Ort, Umkreis und Alter selbst fest.</p>`,
+  },
+  ch: {
+    title: "Partnersuche für Akademiker in der Schweiz – AkademikerSingles",
+    heroTitle: "Partnersuche für Akademiker in der Schweiz",
+    lead: "Akademiker Singles in der Schweiz",
+    body: `<p>270.764 Menschen studieren im Wintersemester 2025/26 an Schweizer Hochschulen – 168.533 an universitären Hochschulen und 102.231 an Fachhochschulen und pädagogischen Hochschulen. 43,7 Prozent der 25- bis 54-Jährigen sind ledig, und auf 100 ledige Frauen dieser Altersgruppe kommen landesweit 125 ledige Männer. In den Städten sieht das anders aus: Bern kommt auf 105, Zürich auf 116, St. Gallen auf 127.</p>
+<p>Genau solche Unterschiede machen unsere Stadtdossiers sichtbar. Sie zeigen den Tertiäranteil der Bevölkerung, die Studierendenzahlen samt Frauenanteil je Hochschule, die Quartiere mit den höchsten Bildungsquoten und die Haushaltsstruktur – alles mit Quelle und Stand, von der STATPOP-Statistik und der Strukturerhebung des Bundesamts für Statistik bis zu den Zahlen der Stadt- und Kantonsstatistiken.</p>
+<p>Dazu kommen wiederkehrende Termine mit akademischem Publikum: die Scientifica von ETH und Universität Zürich, die Ringvorlesungen in Zürich und Basel, die Nacht der Forschung in Bern, das St. Gallen Symposium oder das Festival de la Cité in Lausanne. Ist Ihre Stadt nicht dabei, legen Sie über die individuelle Suche Ort, Umkreis und Alter selbst fest.</p>`,
+  },
 };
 
 export function marketCities(market: RegionalMarket): PublicPage[] {
@@ -67,7 +81,7 @@ export function marketHub(market: RegionalMarket): PublicPage {
     heroTitle: hub.heroTitle,
     heroImage: null,
     categories: [],
-    contentHtml: `<p>Die Stadtdossiers fassen für ${list} zusammen, was amtliche Statistiken zu Bildung, Beruf und Single-Leben hergeben: Akademikeranteil, Hochschulen, wichtige Branchen und Haushaltsstrukturen, jeweils mit Quelle und Stand. Dazu kommen Orte, an denen Wissenschaft, Beruf und Freizeit der Stadt zusammenkommen.</p><p>Ist Ihre Stadt nicht dabei, finden Sie über die individuelle Suche Singles in Ihrer Region: Sie legen Ort, Umkreis und Alter selbst fest.</p>`,
+    contentHtml: `<h2>Was in den Stadtdossiers steht</h2>${hub.body}`,
     locationName: null,
     cityWidget: null,
   };
