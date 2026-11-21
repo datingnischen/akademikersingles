@@ -15,6 +15,7 @@ import { getMarket, marketOrigin } from "@/lib/markets";
 import { ORIGIN, SITE_NAME, citySearchUrl } from "@/lib/site";
 import styles from "./templates.module.css";
 import { staticAsset } from "@/lib/static-asset";
+import { widgetUrlWithAgeRange } from "@/lib/icony-widget-url";
 
 const PUBLISHER = { "@type": "Organization", name: "AkademikerSingles.de", url: `${ORIGIN}/`, logo: { "@type": "ImageObject", url: staticAsset("/brand/logo.svg") } };
 
@@ -331,7 +332,7 @@ export function LocationTemplate({ page }: { page: PublicPage }) {
         <a className="btn btn-outline" href={citySearchUrl(page.cityWidget.postcode)}>In {city} und Umgebung suchen</a>
       </div>
       <div className={styles.widgetFrame}>
-        <iframe src={page.cityWidget.url} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />
+        <iframe src={widgetUrlWithAgeRange(page.cityWidget.url)} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />
       </div>
     </section> : null}
     <Body page={page} />

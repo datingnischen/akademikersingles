@@ -8,6 +8,7 @@ import { requestMarket } from "@/lib/market-context";
 import { getMarket, marketOrigin } from "@/lib/markets";
 import { citySearchUrl, trustLinks } from "@/lib/site";
 import styles from "./city-dossier.module.css";
+import { widgetUrlWithAgeRange } from "@/lib/icony-widget-url";
 
 type Crumb = { name: string; href: string };
 
@@ -311,7 +312,7 @@ export function CityDossierTemplate({ page, profile, crumbs }: { page: PublicPag
         <a className="btn btn-outline" href={citySearchUrl(page.cityWidget.postcode)}>In {city} und Umgebung suchen</a>
       </div>
       <div className={styles.widgetFrame}>
-        <iframe src={page.cityWidget.url} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />
+        <iframe src={widgetUrlWithAgeRange(page.cityWidget.url)} title={`Aktive Akademiker Singles aus ${city} und Umgebung`} width="440" height="300" loading="lazy" referrerPolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" />
       </div>
     </section> : null}
 
