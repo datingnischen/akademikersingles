@@ -240,15 +240,20 @@ test("Stadtdossiers: jede Stadtseite hat ein Profil, jede Kennzahl eine verlinkt
   assert.match(templates, /if \(profile\) return <CityDossierTemplate/);
 });
 
-test("Quiz-Hinweis auf kasseler-singles.de nur im Kassel-Dossier, vor den Quellen", async () => {
+test("Quiz-Hinweise auf eigene Verteilerseiten nur in Kassel und Köln, vor den Quellen", async () => {
   const dir = new URL("../data/city-profiles/", import.meta.url);
   const files = (await readdir(dir)).filter(file => file.endsWith(".json"));
+  const EXPECTED = {
+    "kassel.json": { href: "https://kasseler-singles.de/#quiz", anchor: "Partner-Quiz für Kassel" },
+    "koeln.json": { href: "https://koelner-singles.de/#quiz", anchor: "Interessen-Abgleich für Kölner Singles" },
+  };
   for (const file of files) {
     const profile = JSON.parse(await readFile(new URL(file, dir), "utf8"));
-    if (file === "kassel.json") {
-      assert.equal(profile.nicheHint?.href, "https://kasseler-singles.de/#quiz");
-      assert.equal(profile.nicheHint?.anchor, "Partner-Quiz für Kassel");
-    } else assert.equal(profile.nicheHint, undefined, `${file}: Quiz-Hinweis gehört nur nach Kassel`);
+    const expected = EXPECTED[file];
+    if (expected) {
+      assert.equal(profile.nicheHint?.href, expected.href);
+      assert.equal(profile.nicheHint?.anchor, expected.anchor);
+    } else assert.equal(profile.nicheHint, undefined, `${file}: Quiz-Hinweis gehört nur nach Kassel und Köln`);
   }
   const dossier = await read("components/city-dossier.tsx");
   const hint = dossier.indexOf("profile.nicheHint ?");

@@ -2284,6 +2284,12 @@
       "answer": "Ja. Die Registrierung ist kostenfrei und beinhaltet die Basis-Mitgliedschaft. Damit legen Sie Ihr Profil an, nutzen den Fragenflirt und antworten kostenlos auf Nachrichten von Premium-Mitgliedern."
     }
   ],
+  "nicheHint": {
+    "before": "Hochschule und Beruf sind nur ein Teil Ihres Lebens in Köln? Der ",
+    "anchor": "Interessen-Abgleich für Kölner Singles",
+    "href": "https://koelner-singles.de/#quiz",
+    "after": " auf koelner-singles.de ordnet Ihnen in drei Fragen die passende Kölner Nischenbörse zu."
+  },
   "sources": [
     {
       "id": "jb-arbeit",
