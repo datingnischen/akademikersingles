@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import test from "node:test";
 
-import { getLiveMarketDomains, hostMarket, isMarketDomainLive, localizePath, parseLiveMarkets, platformOrigin, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
+import { getLiveMarketDomains, getOtherMarkets, hostMarket, isMarketDomainLive, localizePath, parseLiveMarkets, platformOrigin, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
 import { legacyUrl, marketUrl, registrationUrl } from "../lib/site.ts";
 
 const root = new URL("../", import.meta.url);
@@ -204,6 +204,19 @@ test("Landesdomains live (NEXT_PUBLIC_LIVE_MARKET_DOMAINS): Links absolut auf .a
   assert.equal(localizePath("/partnersuche/", "de", ["at", "ch"]), "/partnersuche/");
   assert.equal(platformOrigin("at", ["at"]), "https://akademikersingles.at");
   assert.equal(platformOrigin("de", ["at", "ch"]), "https://akademikersingles.de");
+});
+
+test("Fußzeile verlinkt die Landesausgaben, aber nur erreichbare Domains", () => {
+  // Vor dem Launch eines Landes steht dort kein Link; sonst führte die Fußzeile jeder Seite ins Leere.
+  assert.deepEqual(getOtherMarkets("de", []).map(entry => entry.code), []);
+  assert.deepEqual(getOtherMarkets("de", ["at", "ch"]).map(entry => entry.domain), ["akademikersingles.at", "akademikersingles.ch"]);
+  assert.deepEqual(getOtherMarkets("at", ["at", "ch"]).map(entry => entry.code), ["de", "ch"]);
+  assert.deepEqual(getOtherMarkets("ch", ["at"]).map(entry => entry.code), ["de", "at"]);
+  const shell = source("components/site-shell.tsx");
+  assert.match(shell, /<FooterCountryLinks market=\{market\} \/>/);
+  // Absolute Adressen: ein relativer Pfad bliebe auf der eigenen Landesdomain.
+  assert.match(shell, /href=\{publicUrl\(entry\.code\)\}/);
+  assert.match(shell, /hrefLang=\{entry\.locale\}/);
 });
 
 test("Direkte Landesdomains veröffentlichen redaktionelle Links ohne eigene ICONY-Plattform", () => {

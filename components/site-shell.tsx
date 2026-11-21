@@ -5,7 +5,7 @@ import { featureLinks, legalLinks, loginUrl, REVIEW, trustLinks, legacyUrl, regi
 import styles from "./site-shell.module.css";
 import { staticAsset } from "@/lib/static-asset";
 import { requestMarket } from "@/lib/market-context";
-import { getMarket, type MarketCode } from "@/lib/markets";
+import { getMarket, getOtherMarkets, publicUrl, type MarketCode } from "@/lib/markets";
 
 const NAV = [
   { label: "Magazin", href: "/magazin/" },
@@ -27,6 +27,44 @@ const MARKET_NAV = [
 function brand(market: MarketCode) {
   if (market === "de") return { logo: "/brand/logo.svg", logoLight: "/brand/logo-light.svg", alt: "AkademikerSingles.de", width: 232, footerWidth: 200 };
   return { logo: `/brand/logo-${market}.svg`, logoLight: `/brand/logo-light-${market}.svg`, alt: `AkademikerSingles.${market}`, width: 232, footerWidth: 200 };
+}
+
+function CountryFlag({ code }: { code: MarketCode }) {
+  return <svg className={styles.countryFlag} viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+    {code === "de" ? <>
+      <rect width="24" height="16" fill="#ffce00" />
+      <rect width="24" height="10.67" fill="#dd0000" />
+      <rect width="24" height="5.33" fill="#000" />
+    </> : code === "at" ? <>
+      <rect width="24" height="16" fill="#ed2939" />
+      <rect y="5.33" width="24" height="5.33" fill="#fff" />
+    </> : <>
+      <rect width="24" height="16" fill="#da291c" />
+      <rect x="10.5" y="3.5" width="3" height="9" fill="#fff" />
+      <rect x="7.5" y="6.5" width="9" height="3" fill="#fff" />
+    </>}
+  </svg>;
+}
+
+/** Die Landesausgaben in der Fußzeile, wie bei Dich mit Stich: Flagge und Domain, nur für erreichbare Länderdomains. */
+function FooterCountryLinks({ market }: { market: MarketCode }) {
+  const others = getOtherMarkets(market);
+  if (!others.length) return null;
+  return <div className={`container ${styles.countries}`}>
+    <span className={styles.countriesLabel}>AkademikerSingles in {others.map(entry => entry.countryPhrase).join(" und ")}</span>
+    <nav aria-label="Landesausgaben">
+      {others.map(entry => <a
+        key={entry.code}
+        className={styles.country}
+        href={publicUrl(entry.code)}
+        hrefLang={entry.locale}
+        aria-label={`AkademikerSingles ${entry.countryName}: ${entry.domain}`}
+      >
+        <CountryFlag code={entry.code} />
+        <span>{entry.domain}</span>
+      </a>)}
+    </nav>
+  </div>;
 }
 
 export function SiteShell({ children, registrationHref, current }: { children: React.ReactNode; registrationHref?: string; current?: string }) {
@@ -114,6 +152,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           {[...featureLinks(), ...trustLinks()].map(link => <a key={link.href} href={link.href}>{link.label}</a>)}
         </section>
       </div>
+      <FooterCountryLinks market={market} />
       <div className={`container ${styles.legal}`}>
         <span>© {new Date().getFullYear()} AkademikerSingles.{getMarket(market).domain.split(".").pop()}</span>
         <nav aria-label="Rechtliches">{legalLinks().map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>

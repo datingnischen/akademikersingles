@@ -52,6 +52,14 @@ export function getMarket(code: MarketCode): MarketConfig {
   return MARKETS[code];
 }
 
+/**
+ * Die übrigen Länder für die Fußzeile – aber nur die, deren eigene Domain schon erreichbar ist.
+ * Vor dem Launch eines Landes stünde dort sonst ein Link ins Leere.
+ */
+export function getOtherMarkets(market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): MarketConfig[] {
+  return MARKET_CODES.filter(code => code !== market && isMarketDomainLive(code, live)).map(code => MARKETS[code]);
+}
+
 export function marketOrigin(code: MarketCode): string {
   return `https://${MARKETS[code].domain}`;
 }
