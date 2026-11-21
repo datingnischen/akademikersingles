@@ -211,6 +211,11 @@ test("REST-Knoten liefert je Land die eigenen Beiträge", () => {
       deIds.add(post.id);
       assert.ok(post.dateGmt < post.date, `${market}/${post.slug}: GMT nicht vor Ortszeit`);
       assert.equal(post.categories.length, 0);
+      const cover = `/brand/magazin-${market}-${post.slug}.webp`;
+      assert.equal(post.media?.imagePath, cover);
+      assert.equal(post.media?.bytes, readFileSync(new URL(`public${cover}`, root)).length);
+      assert.equal(post.media?.sourceUrl, `https://akademikersingles.${market}/magazin/wp-json/datingnischen/v1/bild${cover.replace(".webp", "~webp")}`);
+      assert.ok(!/src="\/brand\/magazin-/.test(post.content), "relatives Bild im REST-Inhalt");
     }
     assert.deepEqual(source.categories, []);
   }

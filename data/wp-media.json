@@ -232,5 +232,65 @@
     "height": 1024,
     "mime": "image/jpeg",
     "bytes": 143220
+  },
+  "/brand/magazin-at-akademikerquote-oesterreich.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 406264
+  },
+  "/brand/magazin-at-kleine-haushalte-grosse-staedte.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 434052
+  },
+  "/brand/magazin-at-maennerueberschuss-staedte.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 356898
+  },
+  "/brand/magazin-at-studieren-neben-dem-beruf.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 370072
+  },
+  "/brand/magazin-at-wien-nach-bezirken.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 415380
+  },
+  "/brand/magazin-ch-bildung-und-partnerwahl.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 354108
+  },
+  "/brand/magazin-ch-frauenanteil-studienfaecher.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 429400
+  },
+  "/brand/magazin-ch-partnermarkt-schweiz-staedte.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 379870
+  },
+  "/brand/magazin-ch-wie-paare-sich-kennenlernen.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 409444
+  },
+  "/brand/magazin-ch-wo-die-akademiker-wohnen.webp": {
+    "width": 1536,
+    "height": 1024,
+    "mime": "image/webp",
+    "bytes": 436890
   }
 }

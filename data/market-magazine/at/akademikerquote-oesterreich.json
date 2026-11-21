@@ -120,6 +120,10 @@
       "note": "Hochschul-, Akademie- oder Kollegabschluss. Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024."
     },
     {
+      "type": "text",
+      "html": "<figure><img src=\"/brand/magazin-at-akademikerquote.webp\" loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"900\" alt=\"Unter den Gemeinden ab 10.000 Einwohnern liegen Perchtoldsdorf mit 35,6 Prozent und Klosterneuburg mit 35,4 Prozent vorne. Der Österreichwert liegt bei 17,6 Prozent.\"><figcaption>Die gestrichelte Linie zeigt den österreichischen Vergleichswert für die Bevölkerung ab 15 Jahren. Quelle: Statistik Austria, 31. Oktober 2024.</figcaption></figure>"
+    },
+    {
       "type": "heading",
       "text": "Die Landeshauptstädte im Vergleich"
     },

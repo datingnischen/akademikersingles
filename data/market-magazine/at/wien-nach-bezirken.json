@@ -229,6 +229,10 @@
       "note": "Quelle: Statistik Austria, Bevölkerungsstand 01.01.2026 (OGD_bevstandjbab2002)."
     },
     {
+      "type": "text",
+      "html": "<figure><img src=\"/brand/magazin-at-wien-bezirke.webp\" loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"900\" alt=\"Die 23 Wiener Bezirke zeigen unterschiedliche Kombinationen. Neubau liegt bei 47,9 Prozent Akademikerquote und 100,2 Männern je 100 Frauen von 30 bis 49 Jahren, Simmering bei 13,2 Prozent und 104,5.\"><figcaption>Die vier beschrifteten Bezirke verdeutlichen die Spannweite. Bildung und Bevölkerungsstand stammen aus unterschiedlichen Stichtagen von Statistik Austria.</figcaption></figure>"
+    },
+    {
       "type": "heading",
       "text": "Neubau: der Bezirk, in dem beides stimmt"
     },

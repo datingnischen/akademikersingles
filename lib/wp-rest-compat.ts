@@ -2,12 +2,14 @@ import pagesSnapshot from "../data/public-pages.json" with { type: "json" };
 import categorySnapshot from "../data/magazine-categories.json" with { type: "json" };
 import mediaSnapshot from "../data/wp-media.json" with { type: "json" };
 import wpSnapshot from "../data/wp-posts.json" with { type: "json" };
-import { marketArticles, articleHtml, type MarketArticle } from "./market-magazine.ts";
+import { marketArticles, articleHtml, marketArticleImagePath, type MarketArticle } from "./market-magazine.ts";
 import { marketOrigin, type RegionalMarket } from "./markets.ts";
 import { ORIGIN } from "./site.ts";
 import { staticAsset } from "./static-asset.ts";
 
 import { teaserImageUrl } from "./teaser-image.ts";
+
+const mediaInfo = mediaSnapshot as Record<string, { width: number; height: number; mime: string; bytes: number }>;
 /**
  * WordPress-kompatibler REST-Endpunkt für die Magazin-Beiträge, erzeugt aus den Dateien im Repo.
  *
@@ -174,7 +176,6 @@ export function buildMagazineSource(): MagazineSource {
     (page) => page.family === "magazine" && /^\/magazin\/[a-z0-9-]+\/$/.test(page.path) && page.published,
   );
   const categoryRows = categorySnapshot.categories as unknown as Array<Omit<SourceCategory, "count">>;
-  const mediaInfo = mediaSnapshot as unknown as Record<string, { width: number; height: number; mime: string; bytes: number }>;
 
   const snapshot = new Map((wpSnapshot.posts as unknown as WpPost[]).map((post) => [post.slug, post]));
   const authorNames = [...new Set(pages.map((page) => page.author?.name ?? "Redaktion"))].sort();
@@ -237,8 +238,7 @@ export function buildMagazineSource(): MagazineSource {
 /**
  * Eigene Quelle je Landesmarkt: ICONY liest die drei Teaser auf den Startseiten von akademikersingles.at und .ch
  * über dieselbe URL /magazin/wp-json/wp/v2/posts. Dort sollen die Beiträge des jeweiligen Landes stehen und nicht
- * die deutschen (Christian, 21.11.2026: „Möchte keine Kopie der deutschen Variante“). Kategorien, Schlagwörter und
- * Beitragsbilder gibt es im Marktmagazin nicht, die Listen bleiben deshalb leer.
+ * die deutschen (Christian, 21.11.2026: „Möchte keine Kopie der deutschen Variante“). Kategorien und Schlagwörter bleiben in den Landesausgaben leer.
  */
 export function buildMarketMagazineSource(market: RegionalMarket): MagazineSource {
   const origin = marketOrigin(market);
@@ -246,14 +246,32 @@ export function buildMarketMagazineSource(market: RegionalMarket): MagazineSourc
   const posts: SourceEntry[] = marketArticles(market).map((article: MarketArticle) => {
     const date = article.published;
     const modified = article.modified || date;
+    const id = postIdForSlug(`${market}-${article.slug}`);
+    const imagePath = marketArticleImagePath(market, article);
+    const info = mediaInfo[imagePath];
+    const media: SourceMedia | null = info ? {
+      id: mediaIdForPostId(id),
+      slug: imagePath.split("/").pop()!.replace(/\.[^.]+$/, ""),
+      title: article.title,
+      altText: article.heroImageAlt,
+      sourceUrl: teaserImageUrl(`${origin}/magazin/wp-json`, imagePath),
+      mimeType: info.mime,
+      width: info.width,
+      height: info.height,
+      bytes: info.bytes,
+      imagePath,
+      date,
+      dateGmt: berlinToGmt(date),
+      post: id,
+    } : null;
     return {
-      id: postIdForSlug(`${market}-${article.slug}`),
+      id,
       slug: article.slug,
       link: `${origin}/magazin/${article.slug}/`,
       title: escapeHtml(article.metaTitle ?? article.title),
       excerpt: `<p>${escapeHtml(article.description)}</p>
 `,
-      content: absolute(articleHtml(article)),
+      content: absolute(articleHtml(article, media && !article.heroImage ? "Titelbild: KI-generiertes Symbolbild" : "")),
       date,
       dateGmt: berlinToGmt(date),
       modified,
@@ -261,10 +279,10 @@ export function buildMarketMagazineSource(market: RegionalMarket): MagazineSourc
       author: 1,
       categories: [],
       tags: [],
-      media: null,
+      media,
     };
   });
-  return { posts, categories: [], tags: [], media: [] };
+  return { posts, categories: [], tags: [], media: posts.flatMap(post => post.media ? [post.media] : []) };
 }
 
 const cached = new Map<string, MagazineSource>();

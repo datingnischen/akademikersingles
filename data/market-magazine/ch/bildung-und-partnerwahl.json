@@ -8,7 +8,7 @@
   "published": "2026-11-14T09:38:19",
   "modified": "2026-11-20T14:19:36",
   "readingMinutes": 8,
-  "heroImageAlt": "Paar beim Spaziergang entlang einer Hochschulfassade in der Genfer Altstadt",
+  "heroImageAlt": "Zwei Menschen spazieren an einer steinernen Hochschulfassade oberhalb des Genfersees.",
   "blocks": [
     {
       "type": "text",
@@ -90,6 +90,10 @@
         }
       ],
       "note": "Kanton Genf, Fünfjahresmittel 2020–2024. Quelle: OCSTAT, T 01.05.1.04."
+    },
+    {
+      "type": "text",
+      "html": "<figure><img src=\"/brand/magazin-ch-bildungshomogamie.webp\" loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"900\" alt=\"Bei 64,6 Prozent der 93’983 Genfer Paare hatten beide denselben Bildungsstand. In 32’240 Paaren hatten beide einen Tertiärabschluss.\"><figcaption>Die farbige Diagonale markiert die drei Kombinationen mit gleichem Bildungsniveau. Quelle: OCSTAT Genf, Mittel 2020–2024.</figcaption></figure>"
     },
     {
       "type": "heading",

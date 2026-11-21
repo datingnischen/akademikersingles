@@ -1,5 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { staticAsset } from "./static-asset.ts";
 import type { PublicPage } from "./content.ts";
 import { publicUrl, type RegionalMarket } from "./markets.ts";
 
@@ -63,7 +64,7 @@ function chartHtml(block: Extract<ArticleBlock, { type: "chart" }>): string {
 function blockHtml(block: ArticleBlock): string {
   switch (block.type) {
     case "text":
-      return block.html;
+      return block.html.replace(/\bsrc="(\/brand\/magazin-[a-z0-9-]+\.webp)"/g, (_match, path: string) => `src="${staticAsset(path)}"`);
     case "heading":
       return `<h2>${escape(block.text)}</h2>`;
     case "kpis":
@@ -84,13 +85,14 @@ function blockHtml(block: ArticleBlock): string {
 }
 
 /** Beitrags-HTML aus den Blöcken; die Quellenliste hängt hinten an und wird von collapseSourceSections eingeklappt. */
-export function articleHtml(article: MarketArticle): string {
+export function articleHtml(article: MarketArticle, imageCredit = ""): string {
   const body = article.blocks.map(blockHtml).join("\n");
   const sources = article.sources.map(source => `<li>${escape(source.publisher)}: <a href="${source.url}" target="_blank" rel="nofollow noopener">${escape(source.title)}</a> (${escape(source.stand)})</li>`).join("");
+  const credit = imageCredit ? `<li>${escape(imageCredit)}</li>` : "";
   const related = article.related?.length
     ? `<h2>Passend dazu</h2><ul class="mag-list">${article.related.map(link => `<li><a href="${link.href}">${escape(link.label)}</a></li>`).join("")}</ul>`
     : "";
-  return `${body}\n${related}\n<h2>Quellen</h2><ul class="mag-sources">${sources}</ul>`;
+  return `${body}\n${related}\n<h2>Quellen</h2><ul class="mag-sources">${sources}${credit}</ul>`;
 }
 
 function load(market: RegionalMarket): MarketArticle[] {
@@ -115,13 +117,20 @@ export function marketArticles(market: RegionalMarket): MarketArticle[] {
  * Titelbild nur, wenn die Datei wirklich im Repo liegt. Die Bilder kommen von Codex (Regel „Bilder immer Codex“);
  * bis sie da sind, erscheint der Beitrag ohne Bild statt mit einem toten Pfad – genauso wie bei den Stadtseiten.
  */
+export function marketArticleImagePath(market: RegionalMarket, article: MarketArticle): string {
+  return article.heroImage ?? `/brand/magazin-${market}-${article.slug}.webp`;
+}
+
 function heroImage(market: RegionalMarket, article: MarketArticle): string | null {
-  const file = article.heroImage ?? `/brand/magazin-${market}-${article.slug}.webp`;
+  const file = marketArticleImagePath(market, article);
   return existsSync(join(process.cwd(), "public", file)) ? file : null;
 }
 
 function articlePage(market: RegionalMarket, article: MarketArticle): PublicPage {
   const path = `/magazin/${article.slug}/`;
+  const cover = heroImage(market, article);
+  // Die Titelbilder am Standardpfad sind generierte Aquarell-Symbolbilder.
+  const credit = cover && !article.heroImage ? "Titelbild: KI-generiertes Symbolbild" : "";
   return {
     path,
     sourceUrl: publicUrl(market, path),
@@ -131,11 +140,11 @@ function articlePage(market: RegionalMarket, article: MarketArticle): PublicPage
     metaTitle: article.metaTitle,
     description: article.description,
     heroTitle: article.title,
-    heroImage: heroImage(market, article),
+    heroImage: cover,
     heroImageAlt: article.heroImageAlt,
     categories: [],
     topicLabel: article.topic,
-    contentHtml: articleHtml(article),
+    contentHtml: articleHtml(article, credit),
     readingMinutes: article.readingMinutes,
     published: article.published,
     modified: article.modified,

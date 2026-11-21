@@ -107,6 +107,10 @@
       "note": "Balkenlänge = Anteil bei den Paaren von 2019 bis 2023. Quelle: OCSTAT, T 01.05.5.03."
     },
     {
+      "type": "text",
+      "html": "<figure><img src=\"/brand/magazin-ch-kennenlernen-zeitstrahl.webp\" loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"900\" alt=\"In Genf stieg der Anteil der über Dating-Portale entstandenen Beziehungen von 3,2 Prozent vor 2013 auf 24,3 Prozent für 2019 bis 2023. Freunde und Bekannte blieben mit 30,4 Prozent der häufigste der gezeigten Wege.\"><figcaption>Die Linien vergleichen sechs Kennenlernwege nach Entstehungszeit der Beziehung. Offene Punkte beruhen auf kleinen Fallzahlen. Quelle: OCSTAT Genf, Erhebung 2023.</figcaption></figure>"
+    },
+    {
       "type": "heading",
       "text": "Je jünger, desto digitaler – aber nicht nur"
     },
