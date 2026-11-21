@@ -182,7 +182,7 @@ test("Magazinseiten: Hub und Beiträge liegen unter /magazin/", () => {
     const hub = marketMagazineHub(market);
     assert.equal(pages[0].path, "/magazin/");
     assert.equal(hub.family, "magazine-hub");
-    assert.ok(hub.description.length >= 110 && hub.description.length <= 180, `${market}: Hub-Description ${hub.description.length}`);
+    assert.ok(hub.description.length >= 110 && hub.description.length <= 150, `${market}: Hub-Description ${hub.description.length}`);
     assert.equal(pages.length, marketArticles(market).length + 1);
     for (const page of pages.slice(1)) {
       assert.equal(page.family, "magazine");

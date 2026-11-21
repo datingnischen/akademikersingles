@@ -56,8 +56,8 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           <summary aria-label="Menü öffnen"><span /><span /><span /></summary>
           <div className={styles.mobilePanel}>
             {nav.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}
-            <Link href="/magazin/thema/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
-            <Link href="/magazin/thema/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
+            {market === "de" ? <Link href="/magazin/thema/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link> : null}
+            {market === "de" ? <Link href="/magazin/thema/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link> : null}
             <Link href="/ueber-uns/">Über uns</Link>
             <Link href="/ueber-uns/bewertungen/">Bewertungen</Link>
             <Link href="/ueber-uns/social-media/">Social Media</Link>

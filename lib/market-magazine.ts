@@ -152,12 +152,12 @@ export function marketArticlePages(market: RegionalMarket): PublicPage[] {
 const HUBS: Record<RegionalMarket, { title: string; description: string; lead: string }> = {
   at: {
     title: "Magazin für Akademiker Singles in Österreich – AkademikerSingles",
-    description: "Das Magazin für Akademiker Singles in Österreich: Partnermarkt, Hochschulen und Alltag in Zahlen – von Statistik Austria belegt, für Österreich geschrieben.",
+    description: "Partnermarkt, Hochschulen und Alltag in Österreich in Zahlen: eigene Beiträge aus der amtlichen Statistik, nicht aus Deutschland übernommen.",
     lead: "Beiträge über Bildung, Partnersuche und Alltag in Österreich – jede Zahl mit Quelle, kein übersetzter Deutschland-Text.",
   },
   ch: {
     title: "Magazin für Akademiker Singles in der Schweiz – AkademikerSingles",
-    description: "Das Magazin für Akademiker Singles in der Schweiz: Partnermarkt, Hochschulen und Alltag in Zahlen – belegt mit Daten des Bundesamts für Statistik.",
+    description: "Partnermarkt, Hochschulen und Alltag in der Schweiz in Zahlen: eigene Beiträge, belegt mit Daten des Bundesamts für Statistik und der Kantone.",
     lead: "Beiträge über Bildung, Partnersuche und Alltag in der Schweiz – jede Zahl mit Quelle, kein übersetzter Deutschland-Text.",
   },
 };
