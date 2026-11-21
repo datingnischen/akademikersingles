@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import test from "node:test";
 
-import { hostMarket, isMarketDomainLive, localizePath, parseLiveMarkets, platformOrigin, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
+import { getLiveMarketDomains, hostMarket, isMarketDomainLive, localizePath, parseLiveMarkets, platformOrigin, publicUrl, resolveRequest, stripMarketPrefix } from "../lib/markets.ts";
 import { legacyUrl, marketUrl, registrationUrl } from "../lib/site.ts";
 
 const root = new URL("../", import.meta.url);
@@ -204,6 +204,21 @@ test("Landesdomains live (NEXT_PUBLIC_LIVE_MARKET_DOMAINS): Links absolut auf .a
   assert.equal(localizePath("/partnersuche/", "de", ["at", "ch"]), "/partnersuche/");
   assert.equal(platformOrigin("at", ["at"]), "https://akademikersingles.at");
   assert.equal(platformOrigin("de", ["at", "ch"]), "https://akademikersingles.de");
+});
+
+test("Direkte Landesdomains veröffentlichen redaktionelle Links ohne eigene ICONY-Plattform", () => {
+  const domains = getLiveMarketDomains(["ch"], ["at", "ch"]);
+  assert.deepEqual(domains, ["ch", "at"]);
+  assert.equal(localizePath("/magazin/", "at", domains), "https://akademikersingles.at/magazin/");
+  assert.equal(platformOrigin("at", ["ch"]), "https://akademikersingles.de");
+  assert.deepEqual(resolveRequest("/at/magazin", false, "akademikersingles.at", ["at", "ch"]), {
+    action: "redirect", url: "https://akademikersingles.at/magazin/",
+  });
+  assert.deepEqual(resolveRequest("/ch/magazin/", false, "akademikersingles.at", ["at", "ch"]), {
+    action: "redirect", url: "https://akademikersingles.ch/magazin/",
+  });
+  assert.deepEqual(resolveRequest("/at/magazin/", false, "akademikersingles.vercel.app", ["at", "ch"]), next);
+  assert.deepEqual(resolveRequest("/at/magazin/", false, "akademikersingles.at", []), next);
 });
 
 test("ICONY-Links je Markt: ohne live geschaltete Landesdomain (Standard) bleiben sie auf .de", () => {

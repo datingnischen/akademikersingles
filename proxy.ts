@@ -22,6 +22,11 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const decision = resolveRequest(pathname, request.nextUrl.searchParams.has("rest_route"), requestHostname(request));
   if (decision.action === "next") return NextResponse.next();
+  if (decision.action === "redirect") {
+    const destination = new URL(decision.url);
+    destination.search = request.nextUrl.search;
+    return NextResponse.redirect(destination, 308);
+  }
   const destination = request.nextUrl.clone();
   destination.pathname = decision.pathname;
   // Vercel verwirft bei Rewrites Parameter ohne Wert; ICONY ruft "?_embed" ohne Wert auf (WordPress-Schreibweise).

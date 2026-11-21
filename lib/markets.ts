@@ -1,5 +1,5 @@
 // Länderlogik wie bei alleinerziehende-singles: DE ist der unpräfixierte Standard (Live-Domain akademikersingles.de),
-// AT und CH liegen unter /at/ und /ch/ (Vorschau auf Vercel) und bekommen später eigene Domains.
+// AT und CH liegen unter /at/ und /ch/ (Vorschau auf Vercel) und werden auf den Landesdomains intern dorthin geschrieben.
 // Dieses Modul ist bewusst ohne Next.js-Importe, damit proxy.ts und die Tests es direkt laden können.
 
 export const MARKET_CODES = ["de", "at", "ch"] as const;
@@ -21,16 +21,24 @@ const MARKETS: Record<MarketCode, MarketConfig> = {
   ch: { code: "ch", countryName: "Schweiz", countryPhrase: "der Schweiz", domain: "akademikersingles.ch", locale: "de-CH", ogLocale: "de_CH" },
 };
 
-// Welche Landesdomains schon live sind (ICONY-Plattform + nginx), steuert die Vercel-Variable
-// NEXT_PUBLIC_LIVE_MARKET_DOMAINS, z. B. "at,ch" oder "at" (danach neu deployen). Erst dann zeigen auf den Marktseiten
-// interne Links absolut auf akademikersingles.at/.ch statt auf /at/…, ICONY-Links (Registrierung, Login, Rechtliches)
-// auf die Landesplattform statt auf .de, und hreflang verweist auf die Domain. Ohne Eintrag bleibt die Vorschau
-// unter /at/ und /ch/ in sich geschlossen.
+// NEXT_PUBLIC_DIRECT_MARKET_DOMAINS aktiviert öffentliche Länderseiten direkt auf Vercel.
+// NEXT_PUBLIC_LIVE_MARKET_DOMAINS aktiviert die jeweilige ICONY-Plattform hinter nginx.
+// Beide Listen werden kommasepariert angegeben und beim Build gelesen.
 export function parseLiveMarkets(value = ""): RegionalMarket[] {
   return value.split(",").map(item => item.trim().toLowerCase()).filter((item): item is RegionalMarket => item === "at" || item === "ch");
 }
 
-export const LIVE_MARKETS: readonly RegionalMarket[] = parseLiveMarkets(process.env.NEXT_PUBLIC_LIVE_MARKET_DOMAINS);
+const PLATFORM_MARKETS: readonly RegionalMarket[] = parseLiveMarkets(process.env.NEXT_PUBLIC_LIVE_MARKET_DOMAINS);
+const DIRECT_MARKETS: readonly RegionalMarket[] = parseLiveMarkets(process.env.NEXT_PUBLIC_DIRECT_MARKET_DOMAINS);
+
+export function getLiveMarketDomains(
+  platforms: readonly RegionalMarket[],
+  direct: readonly RegionalMarket[],
+): RegionalMarket[] {
+  return [...new Set([...platforms, ...direct])];
+}
+
+export const LIVE_MARKETS: readonly RegionalMarket[] = getLiveMarketDomains(PLATFORM_MARKETS, DIRECT_MARKETS);
 
 export function isMarketDomainLive(market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): boolean {
   return market === "de" || (live as readonly string[]).includes(market);
@@ -62,7 +70,7 @@ export function isAppPath(path: string): boolean {
 
 /**
  * Interne Seitenpfade auf den Marktseiten: in der Vorschau mit Marktpräfix (/at/…), bei live geschalteter Landesdomain
- * absolut (https://akademikersingles.at/…), weil der ICONY-nginx dort nur die Seitenwurzeln ohne Präfix weiterreicht.
+ * absolut (https://akademikersingles.at/…).
  * DE bleibt unpräfixiert und relativ.
  */
 export function localizePath(path: string, market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): string {
@@ -73,8 +81,8 @@ export function localizePath(path: string, market: MarketCode, live: readonly Re
 }
 
 /** Herkunft der ICONY-Plattformseiten (Registrierung, Login, Rechtliches): die Landesplattform, sobald sie live ist. */
-export function platformOrigin(market: MarketCode, live: readonly RegionalMarket[] = LIVE_MARKETS): string {
-  return isMarketDomainLive(market, live) ? marketOrigin(market) : marketOrigin("de");
+export function platformOrigin(market: MarketCode, platforms: readonly RegionalMarket[] = PLATFORM_MARKETS): string {
+  return isMarketDomainLive(market, platforms) ? marketOrigin(market) : marketOrigin("de");
 }
 
 export function hostMarket(hostname = ""): RegionalMarket | null {
@@ -84,7 +92,7 @@ export function hostMarket(hostname = ""): RegionalMarket | null {
   return null;
 }
 
-export type ProxyDecision = { action: "next" } | { action: "rewrite"; pathname: string };
+export type ProxyDecision = { action: "next" } | { action: "rewrite"; pathname: string } | { action: "redirect"; url: string };
 
 const WP_REST_PATH = /^\/magazin\/wp-json(?:\/|$)/;
 const MARKET_PREFIX = /^\/(de|at|ch)(\/.*)?$/;
@@ -104,7 +112,12 @@ export function stripMarketPrefix(pathname: string): { market: MarketCode | null
  * - /de/… liefert den unpräfixierten DE-Inhalt, /at/… und /ch/… die Marktseiten (app/at, app/ch).
  * - Marktdomain ohne Präfix wird intern auf /at/… bzw. /ch/… geschrieben.
  */
-export function resolveRequest(pathname: string, hasRestRoute: boolean, hostname = ""): ProxyDecision {
+export function resolveRequest(
+  pathname: string,
+  hasRestRoute: boolean,
+  hostname = "",
+  direct: readonly RegionalMarket[] = DIRECT_MARKETS,
+): ProxyDecision {
   const host = hostMarket(hostname);
   const { market: prefix, path } = stripMarketPrefix(pathname);
 
@@ -127,6 +140,9 @@ export function resolveRequest(pathname: string, hasRestRoute: boolean, hostname
   }
 
   const slashed = path.endsWith("/") ? path : `${path}/`;
+  if (host && direct.includes(host) && prefix && prefix !== "de" && direct.includes(prefix)) {
+    return { action: "redirect", url: publicUrl(prefix, slashed) };
+  }
   if (prefix === "de") return { action: "rewrite", pathname: slashed };
   if (prefix) return pathname.endsWith("/") ? { action: "next" } : { action: "rewrite", pathname: `/${prefix}${slashed}` };
   if (host) return { action: "rewrite", pathname: `/${host}${slashed}` };

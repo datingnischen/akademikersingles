@@ -19,13 +19,15 @@ Die WordPress-Paginierung (`/magazin/page/<n>/`, auch in Kategorien) leitet per 
 
 ## Länderlogik (DE, AT, CH)
 
-Wie bei alleinerziehende-singles: DE ist der unpräfixierte Standard (Live `akademikersingles.de` über nginx, Canonicals unverändert). Auf Vercel antworten zusätzlich `/de/…`, `/at/…` und `/ch/…`. Für `akademikersingles.at` und `.ch` gibt es noch keine Domains; die Markt-Erkennung per Host (auch `X-Forwarded-Host`) ist vorbereitet und schreibt dann intern auf `/at/…` bzw. `/ch/…` um.
+Wie bei alleinerziehende-singles: DE ist der unpräfixierte Standard (Live `akademikersingles.de` über nginx, Canonicals unverändert). Auf Vercel antworten zusätzlich `/de/…`, `/at/…` und `/ch/…`. Für `akademikersingles.at` und `.ch` erkennt der Proxy die Landesdomains per Host (auch `X-Forwarded-Host`) und schreibt intern auf `/at/…` bzw. `/ch/…` um.
+
+Direkter Vercel-Betrieb wie bei Eishockey-Liebe: Hauptdomain und `www` in Vercel hinterlegen, `www` per 308 auf die Hauptdomain umleiten und die von Vercel angegebenen DNS-Ziele bei Internex eintragen. In Vercel `NEXT_PUBLIC_DIRECT_MARKET_DOMAINS=at,ch` für Production setzen und neu deployen. Redaktionelle Links zeigen auf die Landesdomain und Präfix-URLs werden dort auf die kanonische URL umgeleitet. Registrierung, Login und Rechtstexte führen zur deutschen ICONY-Plattform. Sobald ICONY eine Landesplattform mit nginx übernimmt, deren Länderkürzel von `NEXT_PUBLIC_DIRECT_MARKET_DOMAINS` nach `NEXT_PUBLIC_LIVE_MARKET_DOMAINS` verschieben und neu deployen.
 
 | Pfad | DE | AT / CH |
 | --- | --- | --- |
 | `/de/…` | rewrite auf den unpräfixierten DE-Pfad | – |
 | `/at/`, `/ch/` | – | Startseite (dieselbe wie DE, Canonical auf DE, Städteliste des Landes) |
-| `/partnersuche/` | Hub, 15 Städte | eigener Hub, Canonical auf die Landesdomain, hreflang erst bei `MARKET_DOMAINS_LIVE = true` (`lib/markets.ts`) |
+| `/partnersuche/` | Hub, 15 Städte | eigener Hub, Canonical auf die Landesdomain, hreflang für veröffentlichte Landesdomains (`lib/markets.ts`) |
 | `/partnersuche/<stadt>/` | ICONY-Text + Stadtdossier | Stadtdossier aus `data/city-profiles/<land>/<stadt>.json`, Canonical auf die Landesdomain |
 | `/magazin/…`, `/ueber-uns/…`, `/faq/` | Originalseiten | dieselben Seiten, Canonical auf die DE-Seite (keine Dublette) |
 | `/ueber-uns/suche/` | Seitensuche | Seitensuche des Marktes (`noindex`) |
