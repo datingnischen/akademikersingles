@@ -1,0 +1,321 @@
+{
+  "slug": "wien-nach-bezirken",
+  "title": "Wien nach Bezirken: Wo die Akademiker wohnen und wo die Rechnung aufgeht",
+  "metaTitle": "Wien: Akademikerquote und Partnermarkt je Bezirk",
+  "description": "In Neubau haben 47,9 Prozent einen Hochschulabschluss, in Simmering 13,2. Dazu das Geschlechterverhältnis in allen 23 Wiener Bezirken.",
+  "excerpt": "Zwei amtliche Datensätze, auf dieselben 23 Bezirke gelegt: Bildungsstand und Geschlechterverhältnis der 30- bis 49-Jährigen. Erst zusammen ergeben sie eine Karte, die für die Partnersuche in Wien wirklich etwas aussagt.",
+  "topic": "Wien",
+  "published": "2026-11-10T14:43:27",
+  "modified": "2026-11-10T14:43:27",
+  "readingMinutes": 8,
+  "heroImageAlt": "Wiener Gründerzeithäuser mit Straßencafé an einem Nachmittag",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Wien hat 2.022.557 Einwohnerinnen und Einwohner und 23 Gemeindebezirke, die statistisch so unterschiedlich sind wie österreichische Bundesländer. Für die Partnersuche sind zwei Zahlen entscheidend, und beide liegen amtlich je Bezirk vor: die Akademikerquote aus der Abgestimmten Erwerbsstatistik und das Verhältnis von Männern zu Frauen in der Altersgruppe 30 bis 49 aus dem Bevölkerungsstand zu Jahresbeginn 2026.</p><p>Gesamtstädtisch sind beide Werte unauffällig: 26,4 Prozent Akademikerquote, 103 Männer auf 100 Frauen. Innerhalb der Stadt verteilen sie sich jedoch auf eine Weise, die sich nicht mit der üblichen Einteilung in „gute“ und „einfache“ Bezirke deckt.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "47,9 %",
+          "label": "Akademikerquote in Neubau, dem Spitzenbezirk"
+        },
+        {
+          "value": "13,2 %",
+          "label": "Akademikerquote in Simmering"
+        },
+        {
+          "value": "90,4",
+          "label": "Männer je 100 Frauen (30–49) in der Inneren Stadt"
+        },
+        {
+          "value": "113,5",
+          "label": "Männer je 100 Frauen in Rudolfsheim-Fünfhaus"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Die Bildungskarte: ein Ring um die Innenstadt"
+    },
+    {
+      "type": "text",
+      "html": "<p>Vier Bezirke liegen über 46 Prozent: Neubau mit 47,9, die Josefstadt mit 47,5, die Innere Stadt mit 47,2 und der Alsergrund mit 46,3 Prozent. Es sind genau die Bezirke mit den meisten Universitätsgebäuden, den kleinsten Haushalten – zwischen 1,82 und 1,89 Personen – und den höchsten Mieten. Dahinter folgen Währing (44,3), Wieden (43,8) und Mariahilf (42,9).</p><p>Der Abstand nach unten ist größer als der Abstand zwischen Bundesländern: Simmering hat 13,2 Prozent, Favoriten 15,0, Floridsdorf 16,6 Prozent. In diesen drei Bezirken leben zusammen 522.773 Menschen – fast ein Viertel der Stadt. Ihre Haushalte sind mit 2,15 bis 2,20 Personen die größten Wiens.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Akademikerquote in den Wiener Gemeindebezirken (ab 15 Jahren)",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "7. Neubau",
+          "value": 47.9,
+          "display": "47,9 %",
+          "highlight": true
+        },
+        {
+          "label": "8. Josefstadt",
+          "value": 47.5,
+          "display": "47,5 %"
+        },
+        {
+          "label": "1. Innere Stadt",
+          "value": 47.2,
+          "display": "47,2 %"
+        },
+        {
+          "label": "9. Alsergrund",
+          "value": 46.3,
+          "display": "46,3 %"
+        },
+        {
+          "label": "18. Währing",
+          "value": 44.3,
+          "display": "44,3 %"
+        },
+        {
+          "label": "4. Wieden",
+          "value": 43.8,
+          "display": "43,8 %"
+        },
+        {
+          "label": "6. Mariahilf",
+          "value": 42.9,
+          "display": "42,9 %"
+        },
+        {
+          "label": "13. Hietzing",
+          "value": 38.1,
+          "display": "38,1 %"
+        },
+        {
+          "label": "3. Landstraße",
+          "value": 37.0,
+          "display": "37,0 %"
+        },
+        {
+          "label": "19. Döbling",
+          "value": 36.3,
+          "display": "36,3 %"
+        },
+        {
+          "label": "2. Leopoldstadt",
+          "value": 33.7,
+          "display": "33,7 %"
+        },
+        {
+          "label": "Wien insgesamt",
+          "value": 26.4,
+          "display": "26,4 %",
+          "highlight": true
+        },
+        {
+          "label": "16. Ottakring",
+          "value": 23.8,
+          "display": "23,8 %"
+        },
+        {
+          "label": "22. Donaustadt",
+          "value": 21.2,
+          "display": "21,2 %"
+        },
+        {
+          "label": "21. Floridsdorf",
+          "value": 16.6,
+          "display": "16,6 %"
+        },
+        {
+          "label": "10. Favoriten",
+          "value": 15.0,
+          "display": "15,0 %"
+        },
+        {
+          "label": "11. Simmering",
+          "value": 13.2,
+          "display": "13,2 %",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024."
+    },
+    {
+      "type": "heading",
+      "text": "Die Geschlechterkarte folgt einer anderen Logik"
+    },
+    {
+      "type": "text",
+      "html": "<p>Legt man das Geschlechterverhältnis der 30- bis 49-Jährigen darüber, entsteht ein zweites Bild, das sich nicht mit dem ersten deckt. Vier Bezirke haben einen deutlichen Frauenüberschuss: die Innere Stadt mit 90,4 Männern je 100 Frauen, Währing mit 92,3, Döbling mit 93,3 und Hietzing mit 93,6. Das sind alte, bürgerliche Bezirke mit hohem Bildungsstand – und der stärksten Überzahl an Frauen in der Stadt.</p><p>Am anderen Ende stehen Rudolfsheim-Fünfhaus mit 113,5 und Favoriten mit 113,4 Männern je 100 Frauen. Dazwischen liegt ein Fall, der beides verbindet: die Josefstadt mit 47,5 Prozent Akademikerquote und 109,6 Männern je 100 Frauen – der höchste Männerüberschuss unter den akademisch geprägten Bezirken. Mariahilf (42,9 Prozent, 109,2) liegt ähnlich.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Männer je 100 Frauen, 30 bis 49 Jahre (01.01.2026)",
+      "bars": [
+        {
+          "label": "15. Rudolfsheim-Fünfhaus",
+          "value": 113.5,
+          "display": "113,5",
+          "highlight": true
+        },
+        {
+          "label": "10. Favoriten",
+          "value": 113.4,
+          "display": "113,4"
+        },
+        {
+          "label": "5. Margareten",
+          "value": 110.4,
+          "display": "110,4"
+        },
+        {
+          "label": "8. Josefstadt",
+          "value": 109.6,
+          "display": "109,6",
+          "highlight": true
+        },
+        {
+          "label": "16. Ottakring",
+          "value": 109.4,
+          "display": "109,4"
+        },
+        {
+          "label": "6. Mariahilf",
+          "value": 109.2,
+          "display": "109,2"
+        },
+        {
+          "label": "4. Wieden",
+          "value": 105.1,
+          "display": "105,1"
+        },
+        {
+          "label": "Wien insgesamt",
+          "value": 102.5,
+          "display": "102,5",
+          "highlight": true
+        },
+        {
+          "label": "9. Alsergrund",
+          "value": 100.8,
+          "display": "100,8"
+        },
+        {
+          "label": "7. Neubau",
+          "value": 100.2,
+          "display": "100,2"
+        },
+        {
+          "label": "13. Hietzing",
+          "value": 93.6,
+          "display": "93,6"
+        },
+        {
+          "label": "19. Döbling",
+          "value": 93.3,
+          "display": "93,3"
+        },
+        {
+          "label": "18. Währing",
+          "value": 92.3,
+          "display": "92,3"
+        },
+        {
+          "label": "1. Innere Stadt",
+          "value": 90.4,
+          "display": "90,4",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, Bevölkerungsstand 01.01.2026 (OGD_bevstandjbab2002)."
+    },
+    {
+      "type": "heading",
+      "text": "Neubau: der Bezirk, in dem beides stimmt"
+    },
+    {
+      "type": "text",
+      "html": "<p>Wenn man beide Karten übereinanderlegt, bleibt ein Bezirk übrig, in dem die Werte für die akademische Partnersuche am günstigsten zusammenlaufen: Neubau. 47,9 Prozent Akademikerquote, die höchste der Stadt – und 100,2 Männer je 100 Frauen, also ein nahezu ausgeglichenes Verhältnis. Dazu die kleinsten Haushalte Wiens mit 1,82 Personen und 16.839 Privathaushalte auf 31.364 Einwohner. 96,5 Prozent der Beschäftigten in den 7.034 Arbeitsstätten des Bezirks arbeiten im Dienstleistungssektor.</p><p>Der Alsergrund liegt mit 46,3 Prozent und 100,8 knapp dahinter – und hat mit der Universität Wien, der Medizinischen Universität und dem AKH die dichteste Konzentration akademischer Arbeitsplätze der Stadt. Wer in Wien gezielt sucht, hat mit diesen beiden Bezirken und der Wieden die drei Adressen, an denen Bildungsdichte und Geschlechterverhältnis gleichzeitig passen.</p>"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Für Frauen:</strong> Die Bezirke mit Männerüberschuss und hohem Bildungsstand sind Josefstadt (109,6 / 47,5 %) und Mariahilf (109,2 / 42,9 %). Beides sind kleine, dicht bebaute Innenbezirke mit kurzen Wegen.",
+        "<strong>Für Männer:</strong> Innere Stadt (90,4 / 47,2 %), Währing (92,3 / 44,3 %), Döbling (93,3 / 36,3 %) und Hietzing (93,6 / 38,1 %) verbinden Frauenüberschuss mit hohem Akademikeranteil – allesamt teure Wohnlagen mit älterer Bevölkerung.",
+        "<strong>Ausgeglichen und akademisch:</strong> Neubau (100,2 / 47,9 %), Alsergrund (100,8 / 46,3 %), Wieden (105,1 / 43,8 %) und Landstraße (100,2 / 37,0 %).",
+        "<strong>Groß, aber anders strukturiert:</strong> Donaustadt (93,5 / 21,2 %) und Liesing (97,2 / 22,0 %) haben Frauenüberschuss bei niedriger Akademikerquote – hier wohnen vor allem Familien."
+      ]
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Wien ist kein Partnermarkt, sondern 23. Die Bildungsdichte reicht von 13 bis 48 Prozent, das Geschlechterverhältnis von 90 bis 114 Männern je 100 Frauen – und beide Skalen verlaufen nicht parallel. Für die akademische Partnersuche sind Neubau und Alsergrund die Bezirke, in denen beide Werte gleichzeitig günstig sind. Wer die Innere Stadt, Währing oder Döbling als „gute Adresse“ liest, liest nur die halbe Statistik: Dort ist der Bildungsstand hoch und das Verhältnis für Männer besonders günstig.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Warum 30 bis 49 Jahre und nicht der Familienstand?",
+          "answer": "Weil Österreich den Familienstand nicht je Gemeinde oder Bezirk als offene Daten veröffentlicht. Der Bevölkerungsstand nach Alter in Einzeljahren liegt dagegen frei vor. Die Spanne 30 bis 49 schließt Studierende aus, die das Bild in Bezirken mit Hochschulen sonst verzerren würden."
+        },
+        {
+          "question": "Enthält das Geschlechterverhältnis auch verheiratete Personen?",
+          "answer": "Ja. Es ist das Verhältnis aller Männer zu allen Frauen dieser Altersgruppe, unabhängig vom Familienstand. Für die Partnersuche ist es ein Rahmenwert, nicht die Zahl der verfügbaren Personen."
+        },
+        {
+          "question": "Welcher Bezirk hat die kleinsten Haushalte?",
+          "answer": "Neubau mit 1,82 Personen je Privathaushalt, dicht gefolgt von Mariahilf (1,83), Josefstadt (1,83) und Alsergrund (1,84). Die größten Haushalte hat Simmering mit 2,20 Personen."
+        },
+        {
+          "question": "Warum hat die Innere Stadt einen Frauenüberschuss?",
+          "answer": "Darüber sagt die Statistik nichts Direktes. Plausibel ist eine Kombination aus einer älteren Wohnbevölkerung, einem hohen Anteil an Alleinwohnenden und einer besonders hohen Mietbelastung – ein Muster, das sich in Währing, Döbling und Hietzing wiederholt."
+        },
+        {
+          "question": "Wie groß ist Wien im Vergleich zu Österreich?",
+          "answer": "Wien hat 2.022.557 Einwohnerinnen und Einwohner, also rund 22 Prozent der österreichischen Bevölkerung von 9.189.929. Die Akademikerquote der Stadt liegt mit 26,4 Prozent fast neun Punkte über dem Bundesschnitt von 17,6 Prozent."
+        },
+        {
+          "question": "Spielt die Universität für die Bezirksunterschiede eine Rolle?",
+          "answer": "Eine große. An der Universität Wien sind 87.161 Menschen eingeschrieben, an der Technischen Universität 27.264, an der Wirtschaftsuniversität 23.003. Ihre Standorte liegen im 1., 4., 7., 9. und 2. Bezirk – also genau dort, wo die Akademikerquoten am höchsten sind."
+        },
+        {
+          "question": "Wie aktuell sind die beiden Datensätze?",
+          "answer": "Der Bildungsstand hat den Stichtag 31. Oktober 2024 und wurde am 9. Juni 2026 veröffentlicht, der Bevölkerungsstand den 1. Jänner 2026. Beide erscheinen jährlich."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung ab 15 Jahren nach höchster abgeschlossener Ausbildung, Privathaushalte, Arbeitsstätten, Beschäftigte",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Universität (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/wien/",
+      "label": "Stadtdossier Wien: Hochschulen, Bezirke, Termine"
+    },
+    {
+      "href": "/magazin/akademikerquote-oesterreich/",
+      "label": "Akademikerquote in Österreich: die Gemeinden an der Spitze"
+    },
+    {
+      "href": "/magazin/maennerueberschuss-staedte/",
+      "label": "Wo in Österreich die Männer in der Überzahl sind"
+    }
+  ]
+}

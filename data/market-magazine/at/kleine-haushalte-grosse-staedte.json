@@ -1,0 +1,246 @@
+{
+  "slug": "kleine-haushalte-grosse-staedte",
+  "title": "1,85 Personen je Haushalt: Österreichs Städte der Alleinwohnenden",
+  "metaTitle": "Haushaltsgröße in Österreich: Städte im Vergleich",
+  "description": "In Leoben und Lienz leben 1,85 Personen je Haushalt, in Strasshof 2,53. Wie die Haushaltsgröße mit Bildung und Partnermarkt zusammenhängt.",
+  "excerpt": "Die durchschnittliche Haushaltsgröße ist die unauffälligste Zahl der amtlichen Statistik – und eine der aussagekräftigsten für die Partnersuche. Wir haben sie für alle 88 größeren Gemeinden Österreichs gegen die Akademikerquote gestellt.",
+  "topic": "Stadtleben",
+  "published": "2026-11-19T19:27:41",
+  "modified": "2026-11-19T19:27:41",
+  "readingMinutes": 6,
+  "heroImageAlt": "Beleuchtete Fenster eines Wohnhauses am Abend, dahinter Dächer einer Stadt",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In Österreich leben 9.189.929 Menschen in 4.144.528 Privathaushalten – durchschnittlich 2,18 Personen je Haushalt. Das klingt nach einer Verwaltungszahl, ist aber die direkteste Auskunft darüber, wie viele Menschen in einer Gemeinde allein oder zu zweit wohnen. Und sie geht zwischen den Städten weit auseinander: von 1,82 in Wien-Neubau bis 2,53 in Strasshof an der Nordbahn.</p><p>Wir haben die Haushaltsgröße für alle 88 Gemeinden mit mindestens 10.000 Einwohnerinnen und Einwohnern ausgewertet und gegen die Akademikerquote gestellt. Der Zusammenhang ist vorhanden, aber schwächer als erwartet: Die Korrelation liegt bei minus 0,25. Das heißt: Städte mit mehr Hochschulabschlüssen haben tendenziell kleinere Haushalte, aber die Regel hat viele Ausnahmen – und die sind die interessanten Fälle.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "2,18",
+          "label": "Personen je Privathaushalt in Österreich"
+        },
+        {
+          "value": "1,85",
+          "label": "niedrigster Wert: Leoben und Lienz"
+        },
+        {
+          "value": "2,53",
+          "label": "höchster Wert: Strasshof an der Nordbahn"
+        },
+        {
+          "value": "−0,25",
+          "label": "Korrelation zwischen Akademikerquote und Haushaltsgröße"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Die Städte mit den kleinsten Haushalten"
+    },
+    {
+      "type": "text",
+      "html": "<p>An der Spitze stehen Leoben und Lienz mit je 1,85 Personen. Dahinter folgen St. Veit an der Glan und Bruck an der Mur mit 1,91, Klagenfurt mit 1,92, Innsbruck mit 1,93, Linz, Steyr und Graz mit je 1,94 sowie Villach und Gmunden mit 1,95.</p><p>In dieser Liste stehen zwei sehr verschiedene Stadttypen nebeneinander. Leoben, Lienz, St. Veit, Bruck an der Mur und Steyr sind Städte mit schrumpfender oder alternder Bevölkerung: Hier sind kleine Haushalte oft Haushalte von Älteren, die allein zurückgeblieben sind. Graz, Innsbruck, Klagenfurt und Linz sind das Gegenteil: Universitätsstädte, in denen junge Menschen allein oder in Wohngemeinschaften leben.</p><p>Die Akademikerquote trennt die beiden Gruppen sauber: Graz 30,7 Prozent, Innsbruck 29,7, Klagenfurt 22,3, Linz 20,4 – gegenüber Leoben 15,8, Lienz 16,3, Bruck an der Mur 12,2, St. Veit und Steyr je 12,5 Prozent. Die Haushaltsgröße allein sagt also nichts über die Partnersuche; erst mit der zweiten Zahl wird sie brauchbar.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Personen je Privathaushalt in österreichischen Städten",
+      "bars": [
+        {
+          "label": "Wien 7., Neubau (47,9 % akad.)",
+          "value": 1.82,
+          "display": "1,82",
+          "highlight": true
+        },
+        {
+          "label": "Leoben (15,8 %)",
+          "value": 1.85,
+          "display": "1,85"
+        },
+        {
+          "label": "Lienz (16,3 %)",
+          "value": 1.85,
+          "display": "1,85"
+        },
+        {
+          "label": "Bruck an der Mur (12,2 %)",
+          "value": 1.91,
+          "display": "1,91"
+        },
+        {
+          "label": "Klagenfurt (22,3 %)",
+          "value": 1.92,
+          "display": "1,92"
+        },
+        {
+          "label": "Innsbruck (29,7 %)",
+          "value": 1.93,
+          "display": "1,93",
+          "highlight": true
+        },
+        {
+          "label": "Graz (30,7 %)",
+          "value": 1.94,
+          "display": "1,94",
+          "highlight": true
+        },
+        {
+          "label": "Linz (20,4 %)",
+          "value": 1.94,
+          "display": "1,94"
+        },
+        {
+          "label": "Villach (18,8 %)",
+          "value": 1.95,
+          "display": "1,95"
+        },
+        {
+          "label": "Salzburg (24,4 %)",
+          "value": 1.99,
+          "display": "1,99"
+        },
+        {
+          "label": "Wien insgesamt (26,4 %)",
+          "value": 2.04,
+          "display": "2,04"
+        },
+        {
+          "label": "St. Pölten (16,5 %)",
+          "value": 2.11,
+          "display": "2,11"
+        },
+        {
+          "label": "Österreich (17,6 %)",
+          "value": 2.18,
+          "display": "2,18",
+          "highlight": true
+        },
+        {
+          "label": "Strasshof a. d. Nordbahn (13,1 %)",
+          "value": 2.53,
+          "display": "2,53"
+        }
+      ],
+      "note": "In Klammern die Akademikerquote. Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024."
+    },
+    {
+      "type": "heading",
+      "text": "Die Ausnahmen erklären das Muster"
+    },
+    {
+      "type": "text",
+      "html": "<p>Am aufschlussreichsten sind die Gemeinden, die aus der Regel fallen. Perchtoldsdorf und Klosterneuburg haben mit 35,6 und 35,4 Prozent die höchsten Akademikerquoten Österreichs – und mit 2,19 und 2,17 Personen je Haushalt überdurchschnittlich große Haushalte. Dort wohnen Familien mit Kindern, in denen beide Eltern studiert haben. Brunn am Gebirge (26,1 Prozent, 2,17) und Leonding (22,9 Prozent, 2,13) liegen ähnlich.</p><p>Umgekehrt Knittelfeld: 7,5 Prozent Akademikerquote, aber 1,95 Personen je Haushalt – so klein wie in Villach. Hier ist die Ursache die Altersstruktur einer Industriestadt, nicht die Lebensform junger Akademiker.</p><p>Daraus folgt eine brauchbare Faustregel für die Partnersuche: Kleine Haushalte plus hohe Akademikerquote weisen auf einen Markt mit vielen jungen Alleinwohnenden hin – Graz, Innsbruck, Klagenfurt, die Wiener Innenbezirke. Große Haushalte plus hohe Akademikerquote bedeuten das Gegenteil: eine Gemeinde, in der die Akademiker weitgehend in festen Partnerschaften leben.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Hohe Akademikerquote, große Haushalte: der Wiener Speckgürtel",
+      "bars": [
+        {
+          "label": "Perchtoldsdorf · 35,6 % akad.",
+          "value": 2.19,
+          "display": "2,19 Personen",
+          "highlight": true
+        },
+        {
+          "label": "Klosterneuburg · 35,4 %",
+          "value": 2.17,
+          "display": "2,17 Personen"
+        },
+        {
+          "label": "Brunn am Gebirge · 26,1 %",
+          "value": 2.17,
+          "display": "2,17 Personen"
+        },
+        {
+          "label": "Leonding · 22,9 %",
+          "value": 2.13,
+          "display": "2,13 Personen"
+        },
+        {
+          "label": "Mödling · 29,8 %",
+          "value": 1.97,
+          "display": "1,97 Personen"
+        },
+        {
+          "label": "Baden · 28,1 %",
+          "value": 1.98,
+          "display": "1,98 Personen"
+        },
+        {
+          "label": "Graz · 30,7 %",
+          "value": 1.94,
+          "display": "1,94 Personen",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024."
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Die Haushaltsgröße ist für sich genommen kein Hinweis auf viele Singles – in Leoben und in Graz steht dieselbe Zahl für ganz verschiedene Städte. Zusammen mit der Akademikerquote wird sie aber zu einer verlässlichen Kennzahl: Graz, Innsbruck und Klagenfurt verbinden kleine Haushalte mit hohem Bildungsstand, der Wiener Speckgürtel verbindet hohen Bildungsstand mit Familienhaushalten. Für die Partnersuche sind das zwei völlig verschiedene Ausgangslagen.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Was ist ein Privathaushalt?",
+          "answer": "Alle Personen, die in einer Wohneinheit zusammen wohnen und wirtschaften. Anstalten, Heime und Wohngemeinschaften mit gemeinsamer Verwaltung zählen als Anstaltshaushalte und sind in diesen Zahlen nicht enthalten."
+        },
+        {
+          "question": "Warum nicht der Anteil der Einpersonenhaushalte?",
+          "answer": "Statistik Austria weist ihn in der Gemeindetabelle nicht aus, sondern nur die Zahl der Privathaushalte und die durchschnittliche Haushaltsgröße. Für die Bundesländer und Landeshauptstädte gibt es ihn im Indikatorenblatt derselben Veröffentlichung."
+        },
+        {
+          "question": "Was bedeutet eine Korrelation von minus 0,25?",
+          "answer": "Einen schwachen negativen Zusammenhang: Gemeinden mit höherer Akademikerquote haben eher kleinere Haushalte, aber die Streuung ist groß. Von 88 Gemeinden lassen sich mit dieser Beziehung nur rund sechs Prozent der Unterschiede erklären – der Rest hängt an Altersstruktur, Wohnungsmarkt und Lage."
+        },
+        {
+          "question": "Welche Stadt hat die kleinsten Haushalte Österreichs?",
+          "answer": "Unter den Gemeinden ab 10.000 Einwohnern Leoben und Lienz mit je 1,85 Personen. Rechnet man die Wiener Gemeindebezirke mit, liegt Neubau mit 1,82 davor, gefolgt von Mariahilf und Josefstadt mit je 1,83."
+        },
+        {
+          "question": "Sind Studierende in den Haushaltszahlen enthalten?",
+          "answer": "Ja, mit ihrem Hauptwohnsitz. Wer am Studienort nur einen Nebenwohnsitz gemeldet hat, zählt dort nicht mit – das drückt die Zahl der Haushalte in Universitätsstädten gegenüber der tatsächlichen Wohnbevölkerung."
+        },
+        {
+          "question": "Woher stammen die Daten?",
+          "answer": "Haushaltsgröße und Akademikerquote stehen beide in den Gemeindeergebnissen der Abgestimmten Erwerbsstatistik 2024, Blatt „Gemeindetab“, mit Stichtag 31. Oktober 2024. Weil die Statistik Melde-, Bildungs- und Erwerbsregister verknüpft, deckt sie alle Haushalte ab und schätzt nicht."
+        },
+        {
+          "question": "Gilt das auch für die Schweiz und Deutschland?",
+          "answer": "Das Muster ja, die Werte nicht. Die Schweiz weist Haushaltsgrößen über das Bundesamt für Statistik aus, Deutschland über die Statistischen Landesämter; die Abgrenzungen unterscheiden sich, ein direkter Zahlenvergleich über die Grenze ist deshalb nicht zulässig."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung ab 15 Jahren nach höchster abgeschlossener Ausbildung, Privathaushalte, durchschnittliche Haushaltsgröße",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
+    }
+  ],
+  "related": [
+    {
+      "href": "/magazin/akademikerquote-oesterreich/",
+      "label": "Akademikerquote in Österreich: die Gemeinden an der Spitze"
+    },
+    {
+      "href": "/partnersuche/graz/",
+      "label": "Stadtdossier Graz: kleine Haushalte, hohe Bildungsdichte"
+    },
+    {
+      "href": "/partnersuche/leoben/",
+      "label": "Stadtdossier Leoben: 1,85 Personen je Haushalt"
+    }
+  ]
+}

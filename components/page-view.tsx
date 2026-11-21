@@ -26,8 +26,8 @@ function hreflang(page: PublicPage): Metadata["alternates"] {
 
 export function pageMetadata(page: PublicPage, market: MarketCode = "de"): Metadata {
   const image = page.family === "home" ? "/brand/hero-couple.jpg" : page.heroImage;
-  const title = seoTitle(page);
-  const description = seoDescription(page);
+  const title = seoTitle(page, market);
+  const description = seoDescription(page, market);
   return {
     title: { absolute: title },
     description,

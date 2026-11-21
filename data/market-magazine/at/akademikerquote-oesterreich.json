@@ -1,0 +1,265 @@
+{
+  "slug": "akademikerquote-oesterreich",
+  "title": "Akademikerquote in Österreich: Die Gemeinden an der Spitze",
+  "metaTitle": "Akademikerquote Österreich: Ranking der Gemeinden",
+  "description": "In Perchtoldsdorf haben 35,6 Prozent der Erwachsenen einen Hochschulabschluss, im Bundesschnitt 17,6. Das Ranking der Städte und Gemeinden.",
+  "excerpt": "Statistik Austria weist die höchste abgeschlossene Ausbildung für jede Gemeinde aus. Das Ergebnis ordnet Österreich anders, als man es erwartet – und erklärt, wo Akademiker tatsächlich aufeinandertreffen.",
+  "topic": "Bildung",
+  "published": "2026-11-06T10:21:33",
+  "modified": "2026-11-06T10:21:33",
+  "readingMinutes": 7,
+  "heroImageAlt": "Altstadtgasse mit Kaffeehaus und Universitätsgebäude im Hintergrund",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>In Österreich haben 17,6 Prozent der Bevölkerung ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss. Dieser Wert aus der Abgestimmten Erwerbsstatistik 2024 ist der Bezugspunkt für jede Frage nach dem akademischen Partnermarkt – und er sagt für sich genommen wenig, weil die Verteilung extrem ist. Zwischen der Gemeinde an der Spitze und einer Industriestadt in der Obersteiermark liegen 28 Prozentpunkte.</p><p>Die Statistik erfasst alle 2.093 Gemeinden. Wir haben die 88 Gemeinden mit mindestens 10.000 Einwohnerinnen und Einwohnern ausgewertet, dazu die 23 Wiener Gemeindebezirke getrennt. Das Ergebnis: Die höchsten Quoten liegen nicht in den Universitätsstädten, sondern im Speckgürtel um Wien.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "17,6 %",
+          "label": "Akademikerquote in Österreich (ab 15 Jahren)"
+        },
+        {
+          "value": "35,6 %",
+          "label": "Spitzenwert Perchtoldsdorf, Niederösterreich"
+        },
+        {
+          "value": "30,7 %",
+          "label": "höchster Wert unter den Großstädten: Graz"
+        },
+        {
+          "value": "28 Pkt.",
+          "label": "Abstand zwischen der ersten und der letzten Gemeinde im Ranking"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Der Wiener Speckgürtel liegt vor den Universitätsstädten"
+    },
+    {
+      "type": "text",
+      "html": "<p>Perchtoldsdorf führt mit 35,6 Prozent, direkt gefolgt von Klosterneuburg mit 35,4 Prozent. Beide Gemeinden liegen am Stadtrand von Wien, haben hohe Immobilienpreise, kurze Wege in die Innenstadt und eine Erwerbstätigenquote von 76,1 beziehungsweise 74,5 Prozent. Dahinter kommt mit Graz die erste Großstadt: 30,7 Prozent bei 304.459 Einwohnerinnen und Einwohnern. Mödling (29,8), Innsbruck (29,7), Baden (28,1) und Wien (26,4) folgen.</p><p>Dieses Muster ist typisch für Länder mit teuren Zentren: Wer studiert hat, Familie gründet und Platz braucht, zieht aus der Stadt in den Ring um die Stadt – bleibt aber im Pendelbereich. In Perchtoldsdorf leben 14.959 Menschen in Haushalten mit durchschnittlich 2,19 Personen; in Wien-Neubau, wo 47,9 Prozent einen Hochschulabschluss haben, sind es 1,82.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Akademikerquote: Gemeinden ab 10.000 Einwohnern (Anteil der Bevölkerung ab 15 Jahren)",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Perchtoldsdorf (NÖ)",
+          "value": 35.6,
+          "display": "35,6 %",
+          "highlight": true
+        },
+        {
+          "label": "Klosterneuburg (NÖ)",
+          "value": 35.4,
+          "display": "35,4 %"
+        },
+        {
+          "label": "Graz",
+          "value": 30.7,
+          "display": "30,7 %",
+          "highlight": true
+        },
+        {
+          "label": "Mödling (NÖ)",
+          "value": 29.8,
+          "display": "29,8 %"
+        },
+        {
+          "label": "Innsbruck",
+          "value": 29.7,
+          "display": "29,7 %"
+        },
+        {
+          "label": "Baden (NÖ)",
+          "value": 28.1,
+          "display": "28,1 %"
+        },
+        {
+          "label": "Wien",
+          "value": 26.4,
+          "display": "26,4 %"
+        },
+        {
+          "label": "Brunn am Gebirge (NÖ)",
+          "value": 26.1,
+          "display": "26,1 %"
+        },
+        {
+          "label": "Salzburg",
+          "value": 24.4,
+          "display": "24,4 %"
+        },
+        {
+          "label": "Eisenstadt",
+          "value": 23.7,
+          "display": "23,7 %"
+        },
+        {
+          "label": "Klagenfurt",
+          "value": 22.3,
+          "display": "22,3 %"
+        },
+        {
+          "label": "Linz",
+          "value": 20.4,
+          "display": "20,4 %"
+        },
+        {
+          "label": "Österreich",
+          "value": 17.6,
+          "display": "17,6 %",
+          "highlight": true
+        }
+      ],
+      "note": "Hochschul-, Akademie- oder Kollegabschluss. Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024, Stichtag 31.10.2024."
+    },
+    {
+      "type": "heading",
+      "text": "Die Landeshauptstädte im Vergleich"
+    },
+    {
+      "type": "text",
+      "html": "<p>Unter den neun Landeshauptstädten ist die Reihenfolge klar: Graz 30,7 Prozent, Innsbruck 29,7, Wien 26,4, Salzburg 24,4, Eisenstadt 23,7, Klagenfurt 22,3, Linz 20,4, St. Pölten 16,5 und Bregenz 16,3 Prozent. Graz und Innsbruck liegen vorn, weil sie im Verhältnis zur Einwohnerzahl die meisten Studierenden haben: In Graz sind an Universität, Technischer Universität, Medizinischer Universität und Kunstuniversität zusammen 55.254 Menschen eingeschrieben, in Innsbruck an Universität und Medizinischer Universität 31.677.</p><p>Linz dagegen hat 213.297 Einwohner und 26.917 Studierende an der Johannes Kepler Universität – eine große Industrie- und Verwaltungsstadt mit einer vergleichsweise jungen Universität. Die Stadt hat traditionell hohe Lehr- und Fachschulanteile: 56,8 Prozent der Erwachsenen haben Lehre, AHS oder BHS als höchsten Abschluss.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Und das untere Ende?"
+    },
+    {
+      "type": "text",
+      "html": "<p>Am Ende des Rankings stehen Industriestädte: Knittelfeld mit 7,5 Prozent, Bruck an der Mur mit 12,2, Steyr und St. Veit an der Glan mit je 12,5 Prozent, Wels mit 12,3 Prozent. Es sind Städte mit starker gewerblicher Tradition, in denen die Lehre der übliche Weg war und ist. Für die Partnersuche bedeutet das nicht, dass dort keine Akademiker leben – in Wels mit 65.000 Einwohnern sind es immerhin mehrere Tausend –, aber die Dichte ist eine andere.</p><p>Leoben ist der interessanteste Fall dieser Gruppe: 15,8 Prozent Akademikerquote, obwohl die Stadt mit der Montanuniversität Österreichs einzige Hochschule für Rohstoffe und Werkstoffe beherbergt. 2.929 Studierende treffen auf 24.581 Einwohner – und die meisten Absolventen gehen nach dem Abschluss dorthin, wo die Industrie ihre Zentralen hat.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Die niedrigsten Akademikerquoten unter den Städten ab 10.000 Einwohnern",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Knittelfeld",
+          "value": 7.5,
+          "display": "7,5 %",
+          "highlight": true
+        },
+        {
+          "label": "Bruck an der Mur",
+          "value": 12.2,
+          "display": "12,2 %"
+        },
+        {
+          "label": "Wels",
+          "value": 12.3,
+          "display": "12,3 %"
+        },
+        {
+          "label": "Steyr",
+          "value": 12.5,
+          "display": "12,5 %"
+        },
+        {
+          "label": "St. Veit an der Glan",
+          "value": 12.5,
+          "display": "12,5 %"
+        },
+        {
+          "label": "Leoben",
+          "value": 15.8,
+          "display": "15,8 %"
+        },
+        {
+          "label": "Lienz",
+          "value": 16.3,
+          "display": "16,3 %"
+        },
+        {
+          "label": "St. Pölten",
+          "value": 16.5,
+          "display": "16,5 %"
+        },
+        {
+          "label": "Dornbirn",
+          "value": 17.2,
+          "display": "17,2 %"
+        },
+        {
+          "label": "Österreich",
+          "value": 17.6,
+          "display": "17,6 %",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, Abgestimmte Erwerbsstatistik 2024."
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Österreichs akademische Landkarte hat zwei Zentren: die Universitätsstädte Graz, Innsbruck, Wien und Salzburg – und den Ring aus niederösterreichischen Gemeinden um Wien, der die höchsten Quoten des Landes überhaupt aufweist. Wer den Partnermarkt nach Bildungsstand beurteilt, sollte beides kennen: In Perchtoldsdorf und Klosterneuburg ist die Dichte am höchsten, in Graz und Innsbruck ist der Anteil junger und lediger Akademikerinnen und Akademiker am größten.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Was zählt Statistik Austria als Akademikerabschluss?",
+          "answer": "Die Kategorie heißt „Hochschule, Akademie, Kolleg“ und umfasst Universitäten, Fachhochschulen, Pädagogische Hochschulen, die früheren Akademien für Sozialarbeit und Lehrkräfte sowie Kollegs. Sie ist damit etwas breiter gefasst als „Universitätsabschluss“, aber enger als die schweizerische Tertiärstufe, die auch die höhere Berufsbildung enthält."
+        },
+        {
+          "question": "Warum liegen Gemeinden im Wiener Umland vor den Universitätsstädten?",
+          "answer": "Weil sie den Lebensabschnitt nach dem Studium abbilden. Studierende und junge Absolventen wohnen in der Stadt, Familien mit abgeschlossenem Studium ziehen in den Pendelbereich. Perchtoldsdorf, Klosterneuburg, Mödling und Brunn am Gebirge haben die höchsten Erwerbstätigenquoten und die höchsten Akademikerquoten des Landes."
+        },
+        {
+          "question": "Woher stammen die Daten?",
+          "answer": "Aus der Abgestimmten Erwerbsstatistik 2024 von Statistik Austria, Stichtag 31. Oktober 2024, veröffentlicht am 9. Juni 2026. Sie ist eine Registerzählung: Sie verknüpft Melde-, Bildungs- und Erwerbsregister und ist deshalb keine Stichprobe, sondern eine Vollerhebung."
+        },
+        {
+          "question": "Gibt es die Zahlen auch für die Wiener Bezirke?",
+          "answer": "Ja, die Gemeindetabelle führt die 23 Wiener Gemeindebezirke getrennt. Die Spanne reicht von 47,9 Prozent in Neubau bis 13,2 Prozent in Simmering. Wir haben sie in einem eigenen Beitrag ausgewertet."
+        },
+        {
+          "question": "Sind Studierende mitgezählt?",
+          "answer": "Als Personen ja, mit ihrem bisher erreichten Abschluss. Wer gerade im Bachelorstudium ist, zählt mit Matura, nicht mit Hochschulabschluss. Das drückt die Quote in Städten mit vielen Studierenden leicht – Graz und Innsbruck wären ohne diesen Effekt noch höher."
+        },
+        {
+          "question": "Wie viele Gemeinden hat Österreich?",
+          "answer": "2.093 Gemeinden, Gebietsstand 2026. Davon haben 88 mindestens 10.000 Einwohnerinnen und Einwohner; nur diese haben wir verglichen, weil die Quoten in kleinen Gemeinden stark schwanken."
+        },
+        {
+          "question": "Wann kommen neue Zahlen?",
+          "answer": "Die Abgestimmte Erwerbsstatistik erscheint jährlich, jeweils mit rund 19 Monaten Abstand zum Stichtag. Der nächste Stand bezieht sich auf den 31. Oktober 2025."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung ab 15 Jahren nach höchster abgeschlossener Ausbildung, Privathaushalte, Arbeitsstätten, Beschäftigte",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Universität (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/",
+      "label": "Partnersuche in Österreich: alle Stadtdossiers im Vergleich"
+    },
+    {
+      "href": "/magazin/wien-nach-bezirken/",
+      "label": "Wien nach Bezirken: 47,9 Prozent in Neubau, 13,2 in Simmering"
+    },
+    {
+      "href": "/partnersuche/graz/",
+      "label": "Stadtdossier Graz: die akademischste Großstadt Österreichs"
+    }
+  ]
+}

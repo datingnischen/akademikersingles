@@ -1,4 +1,5 @@
 import type { PublicPage } from "./content";
+import type { MarketCode } from "./markets";
 
 /**
  * Suchmaschinen-Titel und Meta-Descriptions zur Laufzeit glätten (Seobility-Crawl 15.10.2026), ohne die importierten
@@ -72,12 +73,16 @@ const LEGACY_SUFFIX = /\s*-\s*AkademikerSingles\s*-\s*Magazin\s*$/i;
 // Stadtseiten mit eigenem Titel: Suffix nur, wenn der gerenderte Titel dann höchstens 60 Zeichen und 570 px hat.
 export const CITY_TITLE_MAX = 60;
 
-export function seoTitle(page: Pick<PublicPage, "path" | "title" | "metaTitle">): string {
+/**
+ * Die Titel- und Description-Ausnahmen gelten für die deutschen Seiten: Sie sind nach Pfad abgelegt, und /magazin/
+ * ist auf den Marktseiten ein anderes Magazin (lib/market-magazine.ts). Darum greifen sie nur im Markt „de“.
+ */
+export function seoTitle(page: Pick<PublicPage, "path" | "title" | "metaTitle">, market: MarketCode = "de"): string {
   if (page.metaTitle) {
     const branded = `${page.metaTitle}${TITLE_SUFFIX}`;
     return branded.length <= CITY_TITLE_MAX && titleWidth(branded) <= TITLE_MAX_WIDTH ? branded : page.metaTitle;
   }
-  const base = (TITLE_OVERRIDES[page.path] ?? page.title).replace(LEGACY_SUFFIX, "").replace(/AkademikerSingles\.de/g, "AkademikerSingles").trim();
+  const base = ((market === "de" ? TITLE_OVERRIDES[page.path] : undefined) ?? page.title).replace(LEGACY_SUFFIX, "").replace(/AkademikerSingles\.de/g, "AkademikerSingles").trim();
   if (/AkademikerSingles/i.test(base)) return base;
   const branded = `${base}${TITLE_SUFFIX}`;
   return titleWidth(branded) <= TITLE_MAX_WIDTH ? branded : base;
@@ -99,8 +104,9 @@ export function clampMetaDescription(text?: string | null, max = META_DESCRIPTIO
   return `${words} …`;
 }
 
-export function seoDescription(page: Pick<PublicPage, "path" | "description" | "family" | "categories">): string {
+export function seoDescription(page: Pick<PublicPage, "path" | "description" | "family" | "categories">, market: MarketCode = "de"): string {
   const own = (page.description || "").trim();
-  const fallback = DESCRIPTION_OVERRIDES[page.path] || (page.family === "magazine-category" ? categoryDescription(page.categories[0]) : "");
-  return clampMetaDescription(own.length >= 90 && !DESCRIPTION_OVERRIDES[page.path] ? own : fallback || own);
+  const override = market === "de" ? DESCRIPTION_OVERRIDES[page.path] : undefined;
+  const fallback = override || (page.family === "magazine-category" ? categoryDescription(page.categories[0]) : "");
+  return clampMetaDescription(own.length >= 90 && !override ? own : fallback || own);
 }

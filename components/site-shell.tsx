@@ -15,6 +15,14 @@ const NAV = [
   { label: "Partnersuche", href: "/partnersuche/" },
 ];
 
+// AT/CH haben ein eigenes Magazin ohne Themenseiten – dort führt die Navigation direkt zu Magazin und Städten.
+const MARKET_NAV = [
+  { label: "Magazin", href: "/magazin/" },
+  { label: "Partnersuche", href: "/partnersuche/" },
+  { label: "Über uns", href: "/ueber-uns/" },
+  { label: "FAQ", href: "/faq/" },
+];
+
 // Landeslogos mit derselben Ansicht und Höhe wie das DE-Original.
 function brand(market: MarketCode) {
   if (market === "de") return { logo: "/brand/logo.svg", logoLight: "/brand/logo-light.svg", alt: "AkademikerSingles.de", width: 232, footerWidth: 200 };
@@ -26,6 +34,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
   const market = requestMarket();
   const logo = brand(market);
   const isCurrent = (href: string) => current === href || (href !== "/magazin/" && current?.startsWith(href));
+  const nav = market === "de" ? NAV : MARKET_NAV;
   return <div className={styles.shell}>
     <a className={styles.skip} href="#inhalt">Zum Inhalt springen</a>
     <header className={styles.header}>
@@ -37,7 +46,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
           <Image src={staticAsset(logo.logo)} alt={logo.alt} width={logo.width} height={30} priority />
         </Link>
         <nav className={styles.nav} aria-label="Hauptnavigation">
-          {NAV.map(item => <Link key={item.href} href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</Link>)}
+          {nav.map(item => <Link key={item.href} href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</Link>)}
         </nav>
         <div className={styles.actions}>
           <a className={styles.login} href={loginUrl()}>Login</a>
@@ -46,7 +55,7 @@ export function SiteShell({ children, registrationHref, current }: { children: R
         <details className={styles.mobile}>
           <summary aria-label="Menü öffnen"><span /><span /><span /></summary>
           <div className={styles.mobilePanel}>
-            {NAV.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}
+            {nav.map(item => <Link key={item.href} href={item.href}>{item.label}</Link>)}
             <Link href="/magazin/thema/intellektuelle-anziehung-tiefgang/">Intellektuelle Anziehung</Link>
             <Link href="/magazin/thema/beziehung-auf-augenhoehe/">Beziehung auf Augenhöhe</Link>
             <Link href="/ueber-uns/">Über uns</Link>

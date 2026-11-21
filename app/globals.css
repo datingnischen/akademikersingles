@@ -243,3 +243,51 @@ details.magazine-sources .magazine-sources__body a {
 
 /* Hervorhebungen, die limitStrong (lib/html-cleanup.ts) aus <strong> in <span> umwandelt: gleiche Optik. */
 .em-strong { font-weight: 700; }
+
+/* ---- Bausteine der AT/CH-Magazinbeiträge (lib/market-magazine.ts) ---- */
+/* Kennzahlenleiste */
+.prose .mag-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1px; margin: 2em 0; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.prose .mag-kpis > div { display: grid; gap: 6px; padding: 22px 24px; background: #fff; }
+.prose .mag-kpi-value { color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: clamp(30px, 3.4vw, 40px); font-weight: 600; line-height: 1; }
+.prose .mag-kpi-label { color: var(--muted); font-size: 14px; line-height: 1.45; }
+
+/* Balkendiagramm */
+.prose .mag-chart { margin: 2.2em 0; padding: 26px 28px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--ivory); }
+.prose .mag-chart figcaption { margin-bottom: 18px; color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: 21px; font-weight: 600; line-height: 1.25; }
+.prose .mag-chart ul { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.prose .mag-chart li { display: grid; grid-template-columns: minmax(96px, 150px) minmax(0, 1fr) auto; gap: 14px; align-items: center; margin: 0; font-size: 14px; }
+.prose .mag-chart li::marker { content: none; }
+.prose .mag-chart-label { color: var(--muted); font-weight: 600; line-height: 1.3; }
+.prose .mag-chart-bar { display: block; height: 10px; border-radius: 99px; background: rgba(6, 14, 31, .07); }
+.prose .mag-chart-bar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--navy-700), var(--gold)); }
+.prose .mag-chart li.is-highlight .mag-chart-bar i { background: linear-gradient(90deg, var(--gold), var(--gold-light)); }
+.prose .mag-chart li.is-highlight .mag-chart-label, .prose .mag-chart li.is-highlight .mag-chart-value { color: var(--navy-900); }
+.prose .mag-chart-value { color: var(--navy-900); font-weight: 700; font-variant-numeric: tabular-nums; }
+.prose .mag-chart-note { margin: 16px 0 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+
+/* Zitat */
+.prose .mag-quote { margin: 2em 0; padding: 4px 0 4px 26px; border-left: 3px solid var(--gold); }
+.prose .mag-quote p { margin: 0; color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: clamp(21px, 2.3vw, 26px); font-style: italic; line-height: 1.4; }
+.prose .mag-quote cite { display: block; margin-top: 12px; color: var(--muted); font-size: 14px; font-style: normal; }
+
+/* Fazitbox */
+.prose .mag-takeaway { margin: 2.4em 0; padding: 26px 28px; border: 1px solid var(--gold); border-radius: var(--radius); background: rgba(216, 192, 149, .1); }
+.prose .mag-takeaway-title { margin: 0 0 10px; color: var(--gold); font-size: 12px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+.prose .mag-takeaway p:last-child { margin-bottom: 0; }
+
+/* Aufzählungen und FAQ */
+.prose .mag-list { margin: 1.4em 0; padding-left: 1.3em; }
+.prose .mag-list li { margin-bottom: .6em; }
+.prose .mag-faq { margin: 2.4em 0 0; }
+.prose .mag-faq details { border-bottom: 1px solid var(--line); }
+.prose .mag-faq details:first-of-type { border-top: 1px solid var(--navy-900); }
+.prose .mag-faq summary { position: relative; padding: 20px 40px 20px 0; color: var(--navy-900); font-family: var(--font-display), Georgia, serif; font-size: 21px; font-weight: 600; line-height: 1.3; cursor: pointer; list-style: none; }
+.prose .mag-faq summary::-webkit-details-marker { display: none; }
+.prose .mag-faq summary::after { content: "+"; position: absolute; top: 16px; right: 4px; color: var(--gold); font-size: 28px; font-weight: 400; transition: transform .25s ease; }
+.prose .mag-faq details[open] summary::after { transform: rotate(45deg); }
+.prose .mag-faq details p { margin: 0 0 20px; font-size: 17px; }
+
+@media (max-width: 640px) {
+  .prose .mag-chart { padding: 20px 18px 16px; }
+  .prose .mag-chart li { grid-template-columns: minmax(84px, 1fr) minmax(0, 1.2fr) auto; gap: 10px; font-size: 13px; }
+}

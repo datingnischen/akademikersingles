@@ -1,0 +1,289 @@
+{
+  "slug": "wie-paare-sich-kennenlernen",
+  "title": "Wie Paare sich in der Schweiz kennenlernen",
+  "metaTitle": "Kennenlernen in der Schweiz: Zahlen aus Genf",
+  "description": "Vor 2013 lernten sich 3 Prozent der Genfer Paare über eine Dating-App kennen, seit 2019 sind es 24 Prozent. Was sich sonst verschoben hat.",
+  "excerpt": "Der Kanton Genf hat 2023 mehr als 2.000 Menschen gefragt, wie sie ihre Partnerin oder ihren Partner kennengelernt haben – ausgewertet nach Jahrzehnt, Alter und Bildungsstand. Eine Datenquelle, die es sonst nirgends in der Schweiz gibt.",
+  "topic": "Kennenlernen",
+  "published": "2026-11-11T17:26:52",
+  "modified": "2026-11-11T17:26:52",
+  "readingMinutes": 8,
+  "heroImageAlt": "Zwei Menschen im Gespräch an einem Caféhaustisch mit Blick auf den Genfersee",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Über das Kennenlernen wird viel behauptet und selten gemessen. Für die Schweiz gibt es eine Ausnahme: Das kantonale Statistikamt Genf hat die Erhebung zu Familien und Generationen des Bundesamts für Statistik aus dem Jahr 2023 für den eigenen Kanton ausgewertet und die Frage, wo sich Paare begegnet sind, nach Entstehungszeit der Beziehung, Alter und Bildungsstand aufgeschlüsselt. Herausgekommen ist die präziseste Antwort, die in der Schweiz derzeit zu haben ist – auch wenn sie nur für einen Kanton gilt.</p><p>Befragt wurden Menschen zwischen 25 und 80 Jahren, die in einer Partnerschaft leben. Über alle Paare hinweg steht ein Weg weit vorn: 35,0 Prozent haben sich über Freunde und Bekannte kennengelernt. Dahinter folgen Schule, Studium und Arbeitsplatz mit 22,0 Prozent, Bar, Club oder Fest mit 10,9 Prozent, Dating-Portale und -Apps mit 9,3 Prozent, die Familie mit 6,9 Prozent und Hobby, Sport oder Verein mit 5,4 Prozent.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "35,0 %",
+          "label": "aller Paare kamen über Freunde und Bekannte zusammen"
+        },
+        {
+          "value": "24,3 %",
+          "label": "der Paare ab 2019 lernten sich über ein Portal kennen"
+        },
+        {
+          "value": "3,2 %",
+          "label": "waren es bei den Paaren von vor 2013"
+        },
+        {
+          "value": "27,3 %",
+          "label": "der Tertiärgebildeten trafen den Partner in Studium oder Beruf"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Das Portal hat die Bar überholt – und zwar deutlich"
+    },
+    {
+      "type": "text",
+      "html": "<p>Die aufschlussreichste Spalte der Genfer Tabelle ist die nach Entstehungszeit der Beziehung. Sie zeigt eine Verschiebung, die innerhalb eines Jahrzehnts passiert ist: Von den Paaren, die vor 2013 zusammenkamen, hatten 3,2 Prozent über ein Dating-Portal zueinander gefunden. Bei den Paaren von 2013 bis 2018 waren es 21,7 Prozent, bei denen von 2019 bis 2023 bereits 24,3 Prozent.</p><p>Im gleichen Zeitraum ist die klassische Nacht ausgegangen: Bar, Club und Fest fielen von 12,2 auf 8,9 Prozent. Freunde und Bekannte verloren von 36,7 auf 30,4 Prozent – sie bleiben der häufigste Weg, haben aber sechs Punkte abgegeben. Schule, Studium und Arbeit sanken von 23,6 auf 18,0 Prozent. Die Familie als Vermittlerin ist von 7,4 auf 3,3 Prozent regelrecht verschwunden.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Über ein Dating-Portal kennengelernt – nach Entstehungszeit der Beziehung",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "vor 2013",
+          "value": 3.2,
+          "display": "3,2 %"
+        },
+        {
+          "label": "2013–2018",
+          "value": 21.7,
+          "display": "21,7 %"
+        },
+        {
+          "label": "2019–2023",
+          "value": 24.3,
+          "display": "24,3 %",
+          "highlight": true
+        }
+      ],
+      "note": "Paare im Kanton Genf, Personen von 25 bis 80 Jahren. Quelle: OCSTAT, T 01.05.5.03, Erhebung 2023."
+    },
+    {
+      "type": "chart",
+      "title": "Wie sich die Wege verschoben haben (vor 2013 zu 2019–2023)",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Freunde, Bekannte: 36,7 → 30,4",
+          "value": 30.4,
+          "display": "−6,3 Pkt."
+        },
+        {
+          "label": "Schule, Studium, Arbeit: 23,6 → 18,0",
+          "value": 18.0,
+          "display": "−5,6 Pkt."
+        },
+        {
+          "label": "Bar, Club, Fest: 12,2 → 8,9",
+          "value": 8.9,
+          "display": "−3,3 Pkt."
+        },
+        {
+          "label": "Familie: 7,4 → 3,3",
+          "value": 3.3,
+          "display": "−4,1 Pkt."
+        },
+        {
+          "label": "Hobby, Sport, Verein: 5,2 → 5,7",
+          "value": 5.7,
+          "display": "+0,5 Pkt."
+        },
+        {
+          "label": "Dating-Portale: 3,2 → 24,3",
+          "value": 24.3,
+          "display": "+21,1 Pkt.",
+          "highlight": true
+        }
+      ],
+      "note": "Balkenlänge = Anteil bei den Paaren von 2019 bis 2023. Quelle: OCSTAT, T 01.05.5.03."
+    },
+    {
+      "type": "heading",
+      "text": "Je jünger, desto digitaler – aber nicht nur"
+    },
+    {
+      "type": "text",
+      "html": "<p>Die Auswertung nach Altersgruppen bestätigt das, allerdings mit einem Dreh. Bei den 25- bis 34-Jährigen haben 20,6 Prozent ihre Partnerin oder ihren Partner über ein Portal gefunden, bei den 35- bis 44-Jährigen 11,2 Prozent, bei den 45- bis 54-Jährigen 8,9, bei den 55- bis 64-Jährigen 5,0 und bei den 65- bis 80-Jährigen 2,3 Prozent. Weil die Frage nach der bestehenden Beziehung gestellt wurde, misst diese Reihe nicht das Alter beim Kennenlernen, sondern wie alt die Beziehung ist – die Älteren haben ihre Partnerschaften in einer Zeit begonnen, in der es keine Apps gab.</p><p>Bemerkenswert ist deshalb etwas anderes: Bei den 25- bis 34-Jährigen ist Schule, Studium oder Arbeit mit 25,1 Prozent der zweithäufigste Weg und liegt über dem Portal. Für junge Akademikerinnen und Akademiker bleibt die Hochschule der dichteste Begegnungsort, den es gibt – das Portal kommt danach.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Über ein Dating-Portal kennengelernt – nach Altersgruppe",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "25–34 Jahre",
+          "value": 20.6,
+          "display": "20,6 %",
+          "highlight": true
+        },
+        {
+          "label": "35–44 Jahre",
+          "value": 11.2,
+          "display": "11,2 %"
+        },
+        {
+          "label": "45–54 Jahre",
+          "value": 8.9,
+          "display": "8,9 %"
+        },
+        {
+          "label": "55–64 Jahre",
+          "value": 5.0,
+          "display": "5,0 %"
+        },
+        {
+          "label": "65–80 Jahre",
+          "value": 2.3,
+          "display": "2,3 %"
+        }
+      ],
+      "note": "Quelle: OCSTAT, T 01.05.5.03. Werte für die oberen Altersgruppen beruhen auf kleinen Stichproben."
+    },
+    {
+      "type": "heading",
+      "text": "Der Bildungsstand verschiebt alle Wege"
+    },
+    {
+      "type": "text",
+      "html": "<p>Für dieses Magazin ist die dritte Aufschlüsselung die interessanteste. Genf hat die Antworten nach dem höchsten Bildungsabschluss getrennt – und die Wege sehen je nach Abschluss sehr unterschiedlich aus. Von den Befragten mit Tertiärabschluss, also Hochschule oder höhere Berufsbildung, haben 27,3 Prozent ihre Partnerin oder ihren Partner in Schule, Studium oder Beruf getroffen. Bei denen mit Sekundarstufe II sind es 19,0 Prozent, bei denen mit obligatorischer Schule 13,5 Prozent.</p><p>Umgekehrt verläuft es bei Bar, Club und Fest: 8,7 Prozent bei Tertiärgebildeten, 12,4 Prozent bei Sekundarstufe II, 14,3 Prozent bei obligatorischer Schule. Und die Familie als Vermittlerin fällt von 12,6 Prozent bei obligatorischer Schule auf 4,8 Prozent bei Tertiärabschluss. Dating-Portale liegen bei Tertiärgebildeten mit 11,1 Prozent am höchsten, gefolgt von 9,1 und 4,9 Prozent.</p><p>Die Tertiärgebildeten stellen in Genf 49,1 Prozent aller befragten Paare – der Kanton hat den höchsten Anteil Hochqualifizierter der Schweiz. Ihr Muster ist damit kein Randphänomen, sondern prägt die Gesamtzahlen stark mit.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Wege zum Partner nach Bildungsstand (Anteil in Prozent)",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Studium/Arbeit · Tertiär",
+          "value": 27.3,
+          "display": "27,3 %",
+          "highlight": true
+        },
+        {
+          "label": "Studium/Arbeit · Sek II",
+          "value": 19.0,
+          "display": "19,0 %"
+        },
+        {
+          "label": "Studium/Arbeit · oblig. Schule",
+          "value": 13.5,
+          "display": "13,5 %"
+        },
+        {
+          "label": "Portale · Tertiär",
+          "value": 11.1,
+          "display": "11,1 %",
+          "highlight": true
+        },
+        {
+          "label": "Portale · Sek II",
+          "value": 9.1,
+          "display": "9,1 %"
+        },
+        {
+          "label": "Portale · oblig. Schule",
+          "value": 4.9,
+          "display": "4,9 %"
+        },
+        {
+          "label": "Bar/Club · Tertiär",
+          "value": 8.7,
+          "display": "8,7 %"
+        },
+        {
+          "label": "Bar/Club · oblig. Schule",
+          "value": 14.3,
+          "display": "14,3 %"
+        }
+      ],
+      "note": "Quelle: OCSTAT, T 01.05.5.03, Erhebung 2023. Tertiär = Hochschule oder höhere Berufsbildung."
+    },
+    {
+      "type": "heading",
+      "text": "Was das für die Partnersuche bedeutet"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Freunde bleiben der grösste Kanal.</strong> Auch bei den jüngsten Paaren liegt der Weg über Bekannte mit 30,4 Prozent vorn. Wer das Netzwerk pflegt, pflegt seinen Partnermarkt – daran hat die Digitalisierung nichts geändert.",
+        "<strong>Das Portal ist kein Notausgang mehr.</strong> Mit 24,3 Prozent der neuen Beziehungen ist es in Genf der zweithäufigste Weg und liegt vor Bar, Hobby und Familie zusammen. Die Zeiten, in denen man das erklären musste, sind vorbei.",
+        "<strong>Für Akademiker zählt der Alltag doppelt.</strong> Studium und Beruf bringen Tertiärgebildete doppelt so häufig zusammen wie Menschen mit obligatorischer Schule. Wer in einem Umfeld arbeitet, in dem das nicht passiert, hat weniger Zufall zur Verfügung – und braucht den gezielten Weg stärker.",
+        "<strong>Die Familie ist aus dem Spiel.</strong> Von 7,4 auf 3,3 Prozent: Kaum eine Zahl in der Tabelle hat sich so klar halbiert. Erwartungen aus dem Elternhaus sind geblieben, Vermittlung ist verschwunden."
+      ]
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>In zehn Jahren hat sich in Genf der Anteil der Paare, die über ein Portal zusammenkamen, von 3 auf 24 Prozent erhöht – während alle anderen Wege ausser dem Hobby Anteile verloren haben. Gleichzeitig bleibt die Hochschule für Akademikerinnen und Akademiker der dichteste Begegnungsort: 27,3 Prozent von ihnen haben den Partner in Studium oder Beruf getroffen. Beides gilt gleichzeitig, und beides spricht dafür, nicht auf einen Kanal allein zu setzen.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Gelten die Genfer Zahlen für die ganze Schweiz?",
+          "answer": "Nicht ohne Vorbehalt. Die Erhebung zu Familien und Generationen ist eine Bundeserhebung, aber nur Genf hat sie so detailliert für den eigenen Kanton ausgewertet. Genf ist internationaler und akademisch stärker geprägt als der Landesschnitt. Die Richtung der Verschiebungen dürfte für die Schweiz gelten, die Höhe der Anteile nicht in jedem Kanton."
+        },
+        {
+          "question": "Wie gross war die Stichprobe?",
+          "answer": "Die Erhebung befragt die ständige Wohnbevölkerung ab 15 Jahren; für diese Tabelle wurden Personen von 25 bis 80 Jahren ausgewertet, die in einer Partnerschaft leben. Das Statistikamt weist zu jedem Wert ein 95-Prozent-Vertrauensintervall aus; einzelne Werte beruhen auf kleinen Stichproben und sind in der Originaltabelle in Klammern gesetzt."
+        },
+        {
+          "question": "Warum sinkt der Anteil «Schule, Studium, Arbeit», obwohl mehr Menschen studieren?",
+          "answer": "Weil er sich auf alle Wege zusammen bezieht. Der Anteil fällt, weil die Portale stark zugelegt haben, nicht weil Hochschulen weniger Paare hervorbringen. In absoluten Zahlen ist der Weg über Studium und Beruf stabil geblieben."
+        },
+        {
+          "question": "Sind gleichgeschlechtliche Paare enthalten?",
+          "answer": "In dieser Tabelle ja – befragt wurden alle Personen in einer Partnerschaft. Die separate Genfer Paarstatistik nach Bildungsniveau zählt dagegen nur Paare aus einer Frau und einem Mann; das steht dort ausdrücklich in den Fussnoten."
+        },
+        {
+          "question": "Was heisst «Tertiärstufe» in der Schweiz?",
+          "answer": "Sie umfasst zwei Dinge: die Hochschulen, also Universitäten, Fachhochschulen und pädagogische Hochschulen, und die höhere Berufsbildung mit eidgenössischen Diplomen und höheren Fachschulen. Der Begriff ist damit weiter gefasst als «Akademiker» im deutschen Sprachgebrauch."
+        },
+        {
+          "question": "Gibt es eine neuere Erhebung?",
+          "answer": "Die Erhebung zu Familien und Generationen findet rund alle fünf Jahre statt; die hier ausgewerteten Daten stammen aus dem Erhebungsjahr 2023, die Genfer Tabelle wurde am 12. März 2025 aktualisiert. Eine neuere Auswertung liegt derzeit nicht vor."
+        },
+        {
+          "question": "Wo finde ich die Originaltabelle?",
+          "answer": "Unter den Quellen am Ende dieses Beitrags verlinken wir die Tabelle T 01.05.5.03 des Office cantonal de la statistique direkt. Sie ist frei zugänglich und enthält zu jedem Wert das Vertrauensintervall."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+      "title": "Tabelle T 01.05.5.03: Mode de rencontre de la ou du partenaire, selon la date de formation du couple, le groupe d'âges et le niveau de formation (Personen von 25 bis 80 Jahren in Partnerschaft)",
+      "stand": "Erhebung 2023, Aktualisierung 12.03.2025",
+      "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_5_03.xlsx"
+    },
+    {
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Erhebung zu Familien und Generationen (EFG): Erhebungsjahr 2023, Stichprobe der ständigen Wohnbevölkerung ab 15 Jahren – Grundlage der Genfer Auswertung zum Kennenlernen",
+      "stand": "Erhebung 2023",
+      "url": "https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/erhebungen/efg.html"
+    }
+  ],
+  "related": [
+    {
+      "href": "/magazin/bildung-und-partnerwahl/",
+      "label": "Bildung und Partnerwahl: Wie oft Akademiker unter sich bleiben"
+    },
+    {
+      "href": "/partnersuche/genf/",
+      "label": "Stadtdossier Genf: Hochschulen, Quartiere, Partnermarkt"
+    },
+    {
+      "href": "/partnersuche/",
+      "label": "Alle Schweizer Stadtdossiers im Vergleich"
+    }
+  ]
+}

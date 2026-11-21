@@ -1,0 +1,235 @@
+{
+  "slug": "studieren-neben-dem-beruf",
+  "title": "25.590 studieren nebenher: Österreichs zweiter Bildungsweg",
+  "metaTitle": "Studieren neben dem Beruf: Zahlen aus Österreich",
+  "description": "An Österreichs Universitäten sind 25.590 Menschen außerordentlich eingeschrieben – fast doppelt so viele wie vor 20 Jahren. Wer das ist.",
+  "excerpt": "Wer mit 35 noch einmal studiert, tut das meist neben dem Beruf. Die amtliche Zeitreihe zeigt, wie stark dieser Weg gewachsen ist – und warum eine niederösterreichische Kleinstadt dabei die Hauptrolle spielt.",
+  "topic": "Bildung",
+  "published": "2026-11-17T18:34:49",
+  "modified": "2026-11-17T18:34:49",
+  "readingMinutes": 6,
+  "heroImageAlt": "Erwachsene in einem Seminarraum mit Notebooks an einem Abendtermin",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Im Wintersemester 2025/26 sind an Österreichs öffentlichen Universitäten 296.177 Menschen eingeschrieben. 270.587 davon studieren ordentlich, also in einem Bachelor-, Master-, Diplom- oder Doktoratsstudium. Die anderen 25.590 sind außerordentliche Studierende: Sie besuchen Universitätslehrgänge, einzelne Fächer oder Weiterbildungsprogramme, meistens neben einem Beruf, meistens nicht mit zwanzig.</p><p>Diese Gruppe ist der am stärksten gewachsene Teil des österreichischen Hochschulsystems. Im Wintersemester 2003/04 waren es 13.669 Personen – seither ein Plus von 87 Prozent, während die Zahl der ordentlichen Studierenden um 41 Prozent gestiegen ist. Ihr Anteil an allen Studierenden hat sich von 6,6 auf 8,6 Prozent erhöht.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "25.590",
+          "label": "außerordentliche Studierende im Wintersemester 2025/26"
+        },
+        {
+          "value": "+87 %",
+          "label": "Zuwachs gegenüber dem Wintersemester 2003/04"
+        },
+        {
+          "value": "8,6 %",
+          "label": "Anteil an allen Studierenden an öffentlichen Universitäten"
+        },
+        {
+          "value": "6.440",
+          "label": "Studierende an der Universität für Weiterbildung Krems"
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "title": "Studierende an öffentlichen Universitäten nach Studientyp",
+      "bars": [
+        {
+          "label": "ordentlich · WS 2003/04",
+          "value": 192560,
+          "display": "192.560"
+        },
+        {
+          "label": "ordentlich · WS 2025/26",
+          "value": 270587,
+          "display": "270.587",
+          "highlight": true
+        },
+        {
+          "label": "außerordentlich · WS 2003/04",
+          "value": 13669,
+          "display": "13.669"
+        },
+        {
+          "label": "außerordentlich · WS 2025/26",
+          "value": 25590,
+          "display": "25.590",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, OGD_unistud2_ext_UNI_STUD2_1."
+    },
+    {
+      "type": "heading",
+      "text": "Krems: eine Universität, die nur für diesen Weg existiert"
+    },
+    {
+      "type": "text",
+      "html": "<p>Österreich hat eine Besonderheit, die es in Deutschland und der Schweiz nicht gibt: eine öffentliche Universität, deren gesetzlicher Auftrag ausschließlich die Weiterbildung ist. Die Universität für Weiterbildung Krems hat im Wintersemester 2025/26 6.440 Studierende und bezeichnet sich als führende öffentliche Weiterbildungsuniversität Europas. Ihre Studiengänge sind berufsbegleitend organisiert, mit Präsenzblöcken und Fernlehre; nach eigenen Angaben haben mehr als 33.000 Menschen hier abgeschlossen.</p><p>Für die Stadt Krems mit 25.569 Einwohnerinnen und Einwohnern bedeutet das ein ungewöhnliches Publikum: Menschen mit zehn oder zwanzig Jahren Berufserfahrung, die an bestimmten Wochen in der Stadt sind. Zusammen mit der IMC Fachhochschule und der Karl Landsteiner Privatuniversität kommt Krems auf drei Hochschulen – und damit auf eine Hochschuldichte, die sonst nur Landeshauptstädte haben.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Studierende an den zehn größten öffentlichen Universitäten, WS 2025/26",
+      "bars": [
+        {
+          "label": "Universität Wien",
+          "value": 87161,
+          "display": "87.161",
+          "highlight": true
+        },
+        {
+          "label": "Universität Graz",
+          "value": 29561,
+          "display": "29.561"
+        },
+        {
+          "label": "Universität Innsbruck",
+          "value": 27793,
+          "display": "27.793"
+        },
+        {
+          "label": "TU Wien",
+          "value": 27264,
+          "display": "27.264"
+        },
+        {
+          "label": "Universität Linz",
+          "value": 26917,
+          "display": "26.917"
+        },
+        {
+          "label": "WU Wien",
+          "value": 23003,
+          "display": "23.003"
+        },
+        {
+          "label": "Universität Salzburg",
+          "value": 17691,
+          "display": "17.691"
+        },
+        {
+          "label": "TU Graz",
+          "value": 17400,
+          "display": "17.400"
+        },
+        {
+          "label": "Universität Klagenfurt",
+          "value": 13655,
+          "display": "13.655"
+        },
+        {
+          "label": "BOKU Wien",
+          "value": 10413,
+          "display": "10.413"
+        },
+        {
+          "label": "Uni für Weiterbildung Krems",
+          "value": 6440,
+          "display": "6.440",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, OGD_unistud3_ext_UNI_STUD3_1. Österreich hat 23 öffentliche Universitäten mit zusammen 325.077 Studienfällen."
+    },
+    {
+      "type": "heading",
+      "text": "Warum das für die Partnersuche zählt"
+    },
+    {
+      "type": "text",
+      "html": "<p>Der zweite Bildungsweg verändert, wer in Österreich als Akademikerin oder Akademiker zählt – und wann. Wer mit 38 einen Masterlehrgang abschließt, taucht in der Bildungsstatistik derselben Gemeinde Jahre später in einer anderen Kategorie auf. In der Abgestimmten Erwerbsstatistik haben 17,6 Prozent der Österreicherinnen und Österreicher ab 15 Jahren einen Hochschul-, Akademie- oder Kollegabschluss; ein wachsender Teil davon hat ihn nicht mit 24 erworben.</p><p>Praktisch heißt das: Das Bild vom Akademiker, der direkt nach der Matura studiert und mit 25 fertig ist, deckt einen immer kleineren Teil ab. Wer in einem Profil nach Bildungsstand filtert, filtert auch Menschen heraus, die ihren Abschluss später gemacht haben – und die oft genau die Lebenserfahrung mitbringen, die gesucht wird.</p>"
+    },
+    {
+      "type": "list",
+      "items": [
+        "<strong>Universitätslehrgänge</strong> schließen mit akademischen Bezeichnungen wie MSc, MBA oder MA ab, setzen aber nicht immer ein Erststudium voraus – Berufserfahrung kann den Zugang eröffnen.",
+        "<strong>Außerordentliche Studien</strong> umfassen auch einzelne Fächer ohne Abschlussziel und den Besuch von Vorstudienlehrgängen; die Gruppe ist also nicht durchgehend eine Weiterbildungsgruppe.",
+        "<strong>Fachhochschulen</strong> bieten zusätzlich berufsbegleitende Bachelor- und Masterstudien an, die als ordentliche Studien zählen und in dieser Zahl nicht enthalten sind.",
+        "<strong>Die Zeitreihe</strong> reicht bis zum Wintersemester 2003/04 zurück und erlaubt damit einen Vergleich über zwei Jahrzehnte – ungewöhnlich für Bildungsdaten."
+      ]
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Fast jeder elfte Studierende an Österreichs öffentlichen Universitäten ist außerordentlich eingeschrieben, und diese Gruppe ist in zwei Jahrzehnten doppelt so stark gewachsen wie die der ordentlichen Studierenden. Für die Partnersuche ist das vor allem eine Erinnerung daran, dass ein Abschluss keinen Lebenslauf beschreibt – und dass in Krems an bestimmten Wochen ein Publikum zusammenkommt, das es sonst nirgends in Österreich gibt.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Was ist der Unterschied zwischen ordentlichen und außerordentlichen Studien?",
+          "answer": "Ordentliche Studien sind Bachelor-, Master-, Diplom- und Doktoratsstudien mit regulärem Zulassungsweg. Außerordentliche Studien sind Universitätslehrgänge, einzelne Fächer und Vorstudienlehrgänge; die Zulassung ist anders geregelt, und viele Lehrgänge sind kostenpflichtig."
+        },
+        {
+          "question": "Sind Fachhochschulen in den Zahlen enthalten?",
+          "answer": "Nein. Der Datensatz bezieht sich auf die 23 öffentlichen Universitäten. Fachhochschulen, Privatuniversitäten und Pädagogische Hochschulen werden von Statistik Austria getrennt ausgewiesen – ihre berufsbegleitenden Studiengänge kommen also noch dazu."
+        },
+        {
+          "question": "Wie viele öffentliche Universitäten hat Österreich?",
+          "answer": "23, von der Universität Wien mit 87.161 Studierenden bis zum Institute of Digital Sciences Austria in Linz mit 70. Zusammen zählt die Statistik 325.077 Studienfälle; weil Mehrfachinskriptionen möglich sind, liegt die Zahl der Personen darunter."
+        },
+        {
+          "question": "Führt ein Universitätslehrgang zu einem akademischen Grad?",
+          "answer": "Zu einer akademischen Bezeichnung, nicht immer zu einem Grad im Sinne des Studienrechts – die Unterschiede sind je Lehrgang geregelt. Masterlehrgänge der Universität für Weiterbildung Krems etwa sind durch die Agentur für Qualitätssicherung und Akkreditierung Austria zertifiziert."
+        },
+        {
+          "question": "Warum liegt die Universität für Weiterbildung in Krems?",
+          "answer": "Sie wurde 1994 als Donau-Universität Krems gegründet, als das Land Niederösterreich den Campus Krems mit mehreren Hochschulen aufbaute. Heute teilen sich dort die Universität für Weiterbildung, die IMC Fachhochschule und die Karl Landsteiner Privatuniversität ein Areal."
+        },
+        {
+          "question": "Wie alt sind außerordentliche Studierende im Schnitt?",
+          "answer": "Das weist dieser Datensatz nicht aus. Die Altersstruktur ist aber deutlich höher als bei ordentlichen Studien, weil die Lehrgänge Berufserfahrung voraussetzen oder darauf aufbauen."
+        },
+        {
+          "question": "Wie oft werden die Zahlen aktualisiert?",
+          "answer": "Zweimal jährlich, jeweils für das Winter- und das Sommersemester. Die aktuellen Werte beziehen sich auf das Wintersemester 2025/26."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Studientyp – ordentliche und außerordentliche Studien (Open Government Data, Datensatz OGD_unistud2_ext_UNI_STUD2_1), Zeitreihe ab Wintersemester 2003/04",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud2_ext_UNI_STUD2_1"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Universität (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    },
+    {
+      "publisher": "Universität für Weiterbildung Krems",
+      "title": "Über uns: führende öffentliche Universität für Weiterbildung in Europa, berufsbegleitende Studienformate, mehr als 33.000 Absolventinnen und Absolventen",
+      "stand": "abgerufen 11/2026",
+      "url": "https://www.donau-uni.ac.at/de/universitaet/ueber-uns.html"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung ab 15 Jahren nach höchster abgeschlossener Ausbildung, Privathaushalte, durchschnittliche Haushaltsgröße",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/krems/",
+      "label": "Stadtdossier Krems: drei Hochschulen in einer Kleinstadt"
+    },
+    {
+      "href": "/magazin/akademikerquote-oesterreich/",
+      "label": "Akademikerquote in Österreich: die Gemeinden an der Spitze"
+    },
+    {
+      "href": "/partnersuche/",
+      "label": "Alle österreichischen Stadtdossiers im Vergleich"
+    }
+  ]
+}

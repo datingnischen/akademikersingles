@@ -28,6 +28,11 @@ export default function nextConfig(phase: string): NextConfig {
     // Die eingebaute Slash-Umleitung ist aus, damit /magazin/wp-json/... (REST-Endpunkt für ICONY, Aufruf ohne Slash am
     // Ende) 200 JSON liefert statt 308. Seiten ohne Slash bedient proxy.ts unter der Slash-Adresse (Canonical zeigt auf diese).
     skipTrailingSlashRedirect: true,
+    // Der REST-Knoten läuft dynamisch und liest die Marktbeiträge zur Laufzeit aus data/market-magazine
+    // (lib/market-magazine.ts). Der Pfad steht nicht im Code, deshalb muss die Ablage hier explizit mitgepackt werden.
+    outputFileTracingIncludes: {
+      "/magazin/wp-json/[[...route]]": ["data/market-magazine/**"],
+    },
     assetPrefix: isDev ? undefined : `${assetHost}${assetPathPrefix}`,
     images: {
       formats: ["image/avif", "image/webp"],

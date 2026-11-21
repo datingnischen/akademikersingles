@@ -2,6 +2,8 @@ import pagesSnapshot from "../data/public-pages.json" with { type: "json" };
 import categorySnapshot from "../data/magazine-categories.json" with { type: "json" };
 import mediaSnapshot from "../data/wp-media.json" with { type: "json" };
 import wpSnapshot from "../data/wp-posts.json" with { type: "json" };
+import { marketArticles, articleHtml, type MarketArticle } from "./market-magazine.ts";
+import { marketOrigin, type RegionalMarket } from "./markets.ts";
 import { ORIGIN } from "./site.ts";
 import { staticAsset } from "./static-asset.ts";
 
@@ -232,10 +234,44 @@ export function buildMagazineSource(): MagazineSource {
   return { posts, categories, tags, media: posts.flatMap((post) => (post.media ? [post.media] : [])) };
 }
 
-let cached: MagazineSource | null = null;
-export function loadMagazineSource(): MagazineSource {
-  if (!cached) cached = buildMagazineSource();
-  return cached;
+/**
+ * Eigene Quelle je Landesmarkt: ICONY liest die drei Teaser auf den Startseiten von akademikersingles.at und .ch
+ * über dieselbe URL /magazin/wp-json/wp/v2/posts. Dort sollen die Beiträge des jeweiligen Landes stehen und nicht
+ * die deutschen (Christian, 21.11.2026: „Möchte keine Kopie der deutschen Variante“). Kategorien, Schlagwörter und
+ * Beitragsbilder gibt es im Marktmagazin nicht, die Listen bleiben deshalb leer.
+ */
+export function buildMarketMagazineSource(market: RegionalMarket): MagazineSource {
+  const origin = marketOrigin(market);
+  const absolute = (html: string) => html.split('href="/').join(`href="${origin}/`);
+  const posts: SourceEntry[] = marketArticles(market).map((article: MarketArticle) => {
+    const date = article.published;
+    const modified = article.modified || date;
+    return {
+      id: postIdForSlug(`${market}-${article.slug}`),
+      slug: article.slug,
+      link: `${origin}/magazin/${article.slug}/`,
+      title: escapeHtml(article.metaTitle ?? article.title),
+      excerpt: `<p>${escapeHtml(article.description)}</p>
+`,
+      content: absolute(articleHtml(article)),
+      date,
+      dateGmt: berlinToGmt(date),
+      modified,
+      modifiedGmt: berlinToGmt(modified),
+      author: 1,
+      categories: [],
+      tags: [],
+      media: null,
+    };
+  });
+  return { posts, categories: [], tags: [], media: [] };
+}
+
+const cached = new Map<string, MagazineSource>();
+export function loadMagazineSource(market: RegionalMarket | "de" = "de"): MagazineSource {
+  let source = cached.get(market);
+  if (!source) cached.set(market, source = market === "de" ? buildMagazineSource() : buildMarketMagazineSource(market));
+  return source;
 }
 
 // ---------------------------------------------------------------- Objekte im WordPress-Format

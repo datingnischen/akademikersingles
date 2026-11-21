@@ -1,0 +1,273 @@
+{
+  "slug": "wo-die-akademiker-wohnen",
+  "title": "83 Prozent in einem Quartier, 35 im anderen: Wo die Hochqualifizierten wohnen",
+  "metaTitle": "Bildungsstand nach Quartier: Zürich und Basel im Vergleich",
+  "description": "Im Zürcher Quartier Hochschulen haben 83 Prozent einen Tertiärabschluss, in Hirzenbach 35. Zwei Städte, zwei Datensätze, ein klares Muster.",
+  "excerpt": "Zürich und Basel veröffentlichen den Bildungsstand ihrer Bevölkerung quartiersgenau. Die Spannweite innerhalb einer Stadt ist grösser als die zwischen Schweizer Kantonen – und für die Partnersuche aufschlussreicher als jeder Stadtvergleich.",
+  "topic": "Stadtleben",
+  "published": "2026-11-20T16:52:08",
+  "modified": "2026-11-20T16:52:08",
+  "readingMinutes": 7,
+  "heroImageAlt": "Wohnhäuser an einem Zürcher Hang mit Blick über die Stadt",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Städtevergleiche beim Bildungsstand sind beliebt und ungenau. Zürich kommt auf 58,7 Prozent Tertiärabschlüsse bei der Bevölkerung ab 15 Jahren, Basel auf 36,6 Prozent Hochschulabschlüsse, Bern auf 43,9 Prozent ab 25 Jahren – schon die Altersabgrenzungen sind verschieden. Wer verstehen will, wie sich Bildung in einer Stadt tatsächlich verteilt, muss eine Stufe tiefer gehen. Zwei Schweizer Städte machen das möglich, weil ihre Statistikämter die Daten quartiersgenau veröffentlichen.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "82,8 %",
+          "label": "Tertiäranteil im Zürcher Quartier Hochschulen"
+        },
+        {
+          "value": "34,9 %",
+          "label": "Tertiäranteil in Zürich-Hirzenbach"
+        },
+        {
+          "value": "61,5 %",
+          "label": "Gymnasialquote im Basler Wohnviertel Wettstein"
+        },
+        {
+          "value": "13,9 %",
+          "label": "Gymnasialquote im Basler Wohnviertel Klybeck"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Zürich: 48 Punkte zwischen zwei Quartieren"
+    },
+    {
+      "type": "text",
+      "html": "<p>Statistik Stadt Zürich weist den Anteil der Bevölkerung ab 15 Jahren mit Tertiärabschluss für jedes der 34 Stadtquartiere aus, gepoolt über die Erhebungsjahre 2022 bis 2024. An der Spitze steht das Quartier Hochschulen mit 82,8 Prozent – dort liegen ETH-Hauptgebäude, Universität und Universitätsspital, und wer dort wohnt, arbeitet meist auch dort. Dahinter folgen Lindenhof mit 79,1 und Escher Wyss mit 79,0 Prozent, dann Seefeld (74,9), Hottingen (74,3) und Fluntern (72,9).</p><p>Am unteren Ende der Liste stehen die Quartiere in Schwamendingen und am Stadtrand: Hirzenbach 34,9 Prozent, Saatlen 35,0, Schwamendingen-Mitte 41,4, Leimbach 41,9 und Friesenberg 42,3 Prozent. Zwischen Hochschulen und Hirzenbach liegen 48 Prozentpunkte – mehr als zwischen irgendwelchen zwei Schweizer Kantonen.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Anteil Tertiärabschlüsse in Zürcher Stadtquartieren (Bevölkerung ab 15 Jahren)",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Hochschulen",
+          "value": 82.8,
+          "display": "82,8 %",
+          "highlight": true
+        },
+        {
+          "label": "Lindenhof",
+          "value": 79.1,
+          "display": "79,1 %"
+        },
+        {
+          "label": "Escher Wyss",
+          "value": 79.0,
+          "display": "79,0 %"
+        },
+        {
+          "label": "Seefeld",
+          "value": 74.9,
+          "display": "74,9 %"
+        },
+        {
+          "label": "Hottingen",
+          "value": 74.3,
+          "display": "74,3 %"
+        },
+        {
+          "label": "Fluntern",
+          "value": 72.9,
+          "display": "72,9 %"
+        },
+        {
+          "label": "Enge",
+          "value": 72.6,
+          "display": "72,6 %"
+        },
+        {
+          "label": "Langstrasse",
+          "value": 67.0,
+          "display": "67,0 %"
+        },
+        {
+          "label": "Sihlfeld",
+          "value": 63.4,
+          "display": "63,4 %"
+        },
+        {
+          "label": "Altstetten",
+          "value": 48.6,
+          "display": "48,6 %"
+        },
+        {
+          "label": "Schwamendingen-Mitte",
+          "value": 41.4,
+          "display": "41,4 %"
+        },
+        {
+          "label": "Saatlen",
+          "value": 35.0,
+          "display": "35,0 %"
+        },
+        {
+          "label": "Hirzenbach",
+          "value": 34.9,
+          "display": "34,9 %",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Stadt Zürich, BIL101OD1012, Strukturerhebung, Pooling 2022–2024."
+    },
+    {
+      "type": "heading",
+      "text": "Die Mitte ist durchmischter als ihr Ruf"
+    },
+    {
+      "type": "text",
+      "html": "<p>Eine Zahl in dieser Liste lohnt den zweiten Blick: das Quartier Langstrasse mit 67,0 Prozent. Es gilt als das bunteste Quartier der Stadt, mit Bars, Clubs und dem höchsten Ausländeranteil – und liegt beim Bildungsstand trotzdem über dem Stadtmittel von 58,7 Prozent. Dasselbe gilt für Gewerbeschule mit 61,6 und Werd mit 70,7 Prozent. Die alte Trennung zwischen bürgerlichem Hangquartier und Arbeiterquartier erklärt die Zürcher Bildungsgeografie heute nicht mehr; die Trennlinie verläuft zwischen Innenstadtkreisen und Stadtrand.</p><p>Für die Partnersuche heisst das: Der Kreis 4 ist für Akademikerinnen und Akademiker kein Umfeld, in dem man allein unter Fremden wäre – im Gegenteil, er verbindet einen hohen Tertiäranteil mit der grössten Dichte an Orten, an denen man abends überhaupt jemandem begegnet.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Basel: die Gymnasialquote zeigt dasselbe Muster"
+    },
+    {
+      "type": "text",
+      "html": "<p>Basel-Stadt veröffentlicht für seine Wohnviertel keinen Bildungsstand der Erwachsenen, aber eine Kennzahl, die darauf vorausweist: die Gymnasialquote, also den Anteil der Schülerinnen und Schüler, die in das Gymnasium übertreten. Sie reicht von 61,5 Prozent im Wettstein-Quartier bis 13,9 Prozent im Klybeck – 48 Punkte, genau wie in Zürich.</p><p>Nach Wettstein folgen Bachletten mit 60,4, die Altstadt Grossbasel mit 57,9, Bruderholz mit 54,6, die Vorstädte mit 51,1 und Gotthelf mit 50,9 Prozent. St. Alban liegt bei 44,2, Matthäus bei 25,9 Prozent. Die beiden Viertel am unteren Ende, Matthäus und Klybeck, haben gleichzeitig die jüngste Bevölkerung der Stadt – ein Hinweis darauf, dass hier nicht weniger Bildung wohnt, sondern andere Haushalte.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Gymnasialquote in Basler Wohnvierteln",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Wettstein",
+          "value": 61.5,
+          "display": "61,5 %",
+          "highlight": true
+        },
+        {
+          "label": "Bachletten",
+          "value": 60.4,
+          "display": "60,4 %"
+        },
+        {
+          "label": "Altstadt Grossbasel",
+          "value": 57.9,
+          "display": "57,9 %"
+        },
+        {
+          "label": "Bruderholz",
+          "value": 54.6,
+          "display": "54,6 %"
+        },
+        {
+          "label": "Vorstädte",
+          "value": 51.1,
+          "display": "51,1 %"
+        },
+        {
+          "label": "Gotthelf",
+          "value": 50.9,
+          "display": "50,9 %"
+        },
+        {
+          "label": "St. Alban",
+          "value": 44.2,
+          "display": "44,2 %"
+        },
+        {
+          "label": "Matthäus",
+          "value": 25.9,
+          "display": "25,9 %"
+        },
+        {
+          "label": "Klybeck",
+          "value": 13.9,
+          "display": "13,9 %",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Datensatz 100011, Datenjahr 2024."
+    },
+    {
+      "type": "heading",
+      "text": "Warum nur zwei Städte?"
+    },
+    {
+      "type": "text",
+      "html": "<p>Weil es in der Schweiz keine bundesweite Bildungsstatistik je Quartier gibt. Das Bundesamt für Statistik erhebt den Bildungsstand über die Strukturerhebung, eine Stichprobe – und die ist nur dort kleinräumig auswertbar, wo die Stadt die Erhebungsjahre poolt und selbst publiziert. Zürich macht das seit Jahren, Basel-Stadt über seine Wohnviertel-Kennzahlen. Bern, Lausanne, Genf, Luzern und St. Gallen veröffentlichen Bildungsdaten auf Stadtebene, nicht je Quartier.</p><p>Wer die Quartiere anderer Schweizer Städte beurteilen will, muss deshalb mit Hilfsgrössen arbeiten: Beschäftigungsdichte, Anteil Einpersonenhaushalte, Mietniveau, Nähe zu Hochschulstandorten. In unseren Stadtdossiers beschreiben wir die Quartiere darum mit den jeweils besten vorhandenen Daten und nennen sie offen – statt eine Vergleichbarkeit zu behaupten, die die Statistik nicht hergibt.</p>"
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Innerhalb einer Schweizer Stadt ist der Bildungsstand ungleicher verteilt als zwischen den Städten. 48 Prozentpunkte trennen in Zürich und in Basel das oberste vom untersten Quartier. Für die Partnersuche ist die Wohnadresse damit aussagekräftiger als der Ortsname – und die Quartiere mit dem höchsten Tertiäranteil sind in Zürich nicht die ruhigen Villenlagen, sondern die hochschulnahen Innenstadtkreise.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Was ist der Unterschied zwischen Tertiäranteil und Gymnasialquote?",
+          "answer": "Der Tertiäranteil misst, welcher Teil der Erwachsenen bereits einen Hochschul- oder höheren Berufsbildungsabschluss hat. Die Gymnasialquote misst, welcher Teil der Schülerinnen und Schüler in das Gymnasium übertritt – also eine Vorstufe. Beides zeigt dieselbe Geografie, aber in unterschiedlicher Zeit."
+        },
+        {
+          "question": "Warum wird in Zürich über drei Jahre gepoolt?",
+          "answer": "Weil die Strukturerhebung eine Stichprobe ist. Ein einzelnes Erhebungsjahr liefert für ein Quartier mit wenigen Tausend Einwohnern zu wenige Antworten. Durch das Pooling der Jahre 2022 bis 2024 werden die Werte belastbar; das Statistikamt weist zu jedem ein Vertrauensintervall aus."
+        },
+        {
+          "question": "Gilt ein hoher Tertiäranteil auch für die Ledigen im Quartier?",
+          "answer": "Das lässt sich aus diesen Daten nicht ablesen – sie enthalten keinen Zivilstand. Der Bildungsstand bezieht sich auf die gesamte Bevölkerung ab 15 Jahren, also auch auf Familien und Rentnerinnen. In hochschulnahen Quartieren wie Hochschulen, Escher Wyss oder Langstrasse ist der Anteil junger Einpersonenhaushalte allerdings besonders hoch."
+        },
+        {
+          "question": "Ist Basel wirklich weniger akademisch als Zürich?",
+          "answer": "Die Zahlen sind nicht direkt vergleichbar. Zürich weist 58,7 Prozent Tertiärabschlüsse ab 15 Jahren aus, Basel 36,6 Prozent Hochschulabschlüsse ab 15 Jahren – die höhere Berufsbildung fehlt in der Basler Zahl. Nimmt man die Universität Basel mit ihren 13.638 Studierenden und das Life-Sciences-Cluster als Massstab, ist der Unterschied kleiner, als die beiden Prozentwerte suggerieren."
+        },
+        {
+          "question": "Welches Zürcher Quartier verbindet beides – Bildung und Ausgehmöglichkeiten?",
+          "answer": "Nach den Daten der Kreis 4 mit dem Quartier Langstrasse: 67,0 Prozent Tertiäranteil bei der höchsten Dichte an Gastronomie der Stadt. Auch Werd (70,7) und Gewerbeschule (61,6) im Kreis 5 gehören dazu."
+        },
+        {
+          "question": "Wie aktuell sind die Daten?",
+          "answer": "Die Zürcher Werte stammen aus dem Pooling 2022 bis 2024, die Basler aus dem Datenjahr 2024, publiziert 2025. Beide Städte aktualisieren jährlich."
+        },
+        {
+          "question": "Gibt es diese Daten auch für Genf und Lausanne?",
+          "answer": "Nicht je Quartier. Genf publiziert den Bildungsstand für den Kanton – 49 Prozent der 25- bis 64-Jährigen mit Tertiärabschluss – und dazu Haushalts- und Arbeitsplatzdaten je Quartier. Lausanne veröffentlicht den Bildungsstand für die Stadt, 42,0 Prozent Hochschulabschlüsse ab 30 Jahren."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Stadt Zürich (nach BFS-Strukturerhebung)",
+      "title": "Bevölkerung nach Bildungsstand, Stadtkreis und Stadtquartier (BIL101OD1012): Anteil Tertiärstufe an der ständigen Wohnbevölkerung ab 15 Jahren",
+      "stand": "Strukturerhebung, Pooling 2022–2024",
+      "url": "https://data.stadt-zuerich.ch/dataset/bfs_bev_bildungsstand_statquartier_od1012"
+    },
+    {
+      "publisher": "Statistisches Amt des Kantons Basel-Stadt",
+      "title": "Kennzahlen zu den Basler Wohnvierteln und Landgemeinden (Open-Data-Datensatz 100011): Gymnasialquote, Anteil Personen in Einpersonenhaushalten, Einkommenssteuer pro Veranlagung",
+      "stand": "Datenjahr 2024, Publikation 2025",
+      "url": "https://data.bs.ch/explore/dataset/100011/"
+    },
+    {
+      "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+      "title": "Meldung vom 24.06.2025: Niveau de formation de la population résidant dans le canton de Genève – 49 Prozent der 25- bis 64-Jährigen mit Tertiärabschluss",
+      "stand": "Fünfjahresmittel 2019–2023 (Strukturerhebung)",
+      "url": "https://statistique.ge.ch/actualites/welcome.asp?actu=5677"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/zuerich/",
+      "label": "Stadtdossier Zürich mit allen Quartieren"
+    },
+    {
+      "href": "/partnersuche/basel/",
+      "label": "Stadtdossier Basel mit allen Wohnvierteln"
+    },
+    {
+      "href": "/magazin/partnermarkt-schweiz-staedte/",
+      "label": "Partnermarkt Schweiz: ledige Männer und Frauen je Stadt"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "slug": "frauenanteil-studienfaecher",
+  "title": "Getrennte Hörsäle: Der Frauenanteil nach Studienfach",
+  "metaTitle": "Frauenanteil im Studium: Schweizer Zahlen je Fachbereich",
+  "description": "In der Veterinärmedizin sind 85 Prozent der Studierenden Frauen, in Technik und IT 16 Prozent. Was das für den Partnermarkt nach dem Studium heisst.",
+  "excerpt": "Zwischen dem weiblichsten und dem männlichsten Fachbereich der Schweiz liegen 68 Prozentpunkte. Wer an der Hochschule jemanden kennenlernt, lernt damit fast immer jemanden aus dem eigenen Fach oder aus einem Nachbarfach kennen.",
+  "topic": "Hochschulen",
+  "published": "2026-11-18T12:07:44",
+  "modified": "2026-11-18T12:07:44",
+  "readingMinutes": 7,
+  "heroImageAlt": "Studierende verlassen einen Hörsaal mit grossen Fenstern",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Im Wintersemester 2025/26 studierten an den Schweizer Universitäten 167.630 Menschen in einem Bachelor-, Master-, Lizenziats- oder Doktoratsstudium, an Fachhochschulen und pädagogischen Hochschulen kamen weitere 124.299 hinzu. Insgesamt sind rund 52 Prozent dieser Studierenden Frauen. Dieser Durchschnitt beschreibt allerdings keinen einzigen Hörsaal richtig: Innerhalb der Fachbereiche reicht der Frauenanteil von 16,3 bis 84,7 Prozent.</p><p>Für die Partnersuche ist diese Verteilung der unterschätzte Teil der Hochschulstatistik. Wer in Studium oder Beruf jemanden kennenlernt – und laut der Genfer Erhebung trifft das auf 27,3 Prozent der Tertiärgebildeten zu –, trifft diese Person in einem Umfeld, dessen Geschlechterverhältnis das Fach vorgibt.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "84,7 %",
+          "label": "Frauenanteil in der Veterinärmedizin (Universitäten)"
+        },
+        {
+          "value": "16,3 %",
+          "label": "Frauenanteil in Technik und IT (Fachhochschulen)"
+        },
+        {
+          "value": "68 Pkt.",
+          "label": "Abstand zwischen dem weiblichsten und dem männlichsten Fachbereich"
+        },
+        {
+          "value": "52 %",
+          "label": "Frauenanteil über alle Hochschulen hinweg"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Die Universitäten: von der Tiermedizin bis zum Maschinenbau"
+    },
+    {
+      "type": "text",
+      "html": "<p>An den universitären Hochschulen führt die Veterinärmedizin mit 84,7 Prozent Frauenanteil – ein Fach, das noch vor einer Generation als Männerdomäne galt. Dahinter folgen die Sozialwissenschaften mit 74,4 Prozent und 24.947 Studierenden, der grösste stark weiblich geprägte Fachbereich überhaupt. Auch Sprach- und Literaturwissenschaften (73,3 Prozent), Pharmazie (72,3), Zahnmedizin (66,8), Recht (63,3) und Humanmedizin (61,6) haben eine deutliche Frauenmehrheit.</p><p>Am anderen Ende stehen zwei grosse Bereiche: die exakten Wissenschaften, also Mathematik, Physik, Informatik und Astronomie, mit 23,6 Prozent bei 17.612 Studierenden, und die Maschinen- und Elektroingenieurwissenschaften mit 20,9 Prozent bei 11.815 Studierenden. Die Wirtschaftswissenschaften liegen mit 35,1 Prozent bei 22.519 Studierenden dazwischen – bemerkenswert, weil sie nach den Sozialwissenschaften der zweitgrösste universitäre Fachbereich der Schweiz sind.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Frauenanteil an den universitären Hochschulen, Wintersemester 2025/26",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Veterinärmedizin (1.349)",
+          "value": 84.7,
+          "display": "84,7 %",
+          "highlight": true
+        },
+        {
+          "label": "Sozialwissenschaften (24.947)",
+          "value": 74.4,
+          "display": "74,4 %"
+        },
+        {
+          "label": "Sprach-/Literaturwiss. (6.201)",
+          "value": 73.3,
+          "display": "73,3 %"
+        },
+        {
+          "label": "Pharmazie (2.282)",
+          "value": 72.3,
+          "display": "72,3 %"
+        },
+        {
+          "label": "Recht (16.066)",
+          "value": 63.3,
+          "display": "63,3 %"
+        },
+        {
+          "label": "Humanmedizin (14.982)",
+          "value": 61.6,
+          "display": "61,6 %"
+        },
+        {
+          "label": "Naturwissenschaften (14.936)",
+          "value": 54.5,
+          "display": "54,5 %"
+        },
+        {
+          "label": "Bauwesen/Geodäsie (6.693)",
+          "value": 46.9,
+          "display": "46,9 %"
+        },
+        {
+          "label": "Theologie (1.788)",
+          "value": 42.7,
+          "display": "42,7 %"
+        },
+        {
+          "label": "Wirtschaftswiss. (22.519)",
+          "value": 35.1,
+          "display": "35,1 %"
+        },
+        {
+          "label": "Exakte Wissenschaften (17.612)",
+          "value": 23.6,
+          "display": "23,6 %"
+        },
+        {
+          "label": "Maschinen-/Elektrotechnik (11.815)",
+          "value": 20.9,
+          "display": "20,9 %",
+          "highlight": true
+        }
+      ],
+      "note": "In Klammern die Zahl der Studierenden. Quelle: BFS, px-x-1502040100_106, ohne Weiterbildung."
+    },
+    {
+      "type": "heading",
+      "text": "Die Fachhochschulen trennen noch schärfer"
+    },
+    {
+      "type": "text",
+      "html": "<p>An Fachhochschulen und pädagogischen Hochschulen sind die Unterschiede grösser, weil die Fachbereiche näher an Berufsbildern liegen. Der Gesundheitsbereich kommt auf 80,6 Prozent Frauenanteil bei 10.223 Studierenden, Soziale Arbeit auf 73,7 Prozent, angewandte Psychologie auf 73,6 und die Lehrkräfteausbildung auf 70,9 Prozent bei 24.818 Studierenden – der grösste Fachbereich dieses Hochschultyps.</p><p>Gegenüber steht Technik und IT mit 16,3 Prozent bei 14.158 Studierenden: der männlichste Fachbereich der Schweizer Hochschullandschaft. Architektur, Bau- und Planungswesen folgt mit 35,8 Prozent. Nur zwei Bereiche liegen annähernd im Gleichgewicht: Wirtschaft und Dienstleistungen mit 46,9 Prozent bei 25.105 Studierenden und Chemie und Life Sciences mit 54,1 Prozent.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Frauenanteil an Fachhochschulen und pädagogischen Hochschulen",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Gesundheit (10.223)",
+          "value": 80.6,
+          "display": "80,6 %",
+          "highlight": true
+        },
+        {
+          "label": "Angewandte Linguistik (934)",
+          "value": 76.3,
+          "display": "76,3 %"
+        },
+        {
+          "label": "Soziale Arbeit (7.864)",
+          "value": 73.7,
+          "display": "73,7 %"
+        },
+        {
+          "label": "Angewandte Psychologie (2.873)",
+          "value": 73.6,
+          "display": "73,6 %"
+        },
+        {
+          "label": "Lehrkräfteausbildung (24.818)",
+          "value": 70.9,
+          "display": "70,9 %"
+        },
+        {
+          "label": "Design (3.688)",
+          "value": 64.6,
+          "display": "64,6 %"
+        },
+        {
+          "label": "Musik, Theater, Künste (6.860)",
+          "value": 56.2,
+          "display": "56,2 %"
+        },
+        {
+          "label": "Chemie/Life Sciences (3.584)",
+          "value": 54.1,
+          "display": "54,1 %"
+        },
+        {
+          "label": "Wirtschaft/Dienstleistungen (25.105)",
+          "value": 46.9,
+          "display": "46,9 %"
+        },
+        {
+          "label": "Architektur/Bau (4.193)",
+          "value": 35.8,
+          "display": "35,8 %"
+        },
+        {
+          "label": "Technik und IT (14.158)",
+          "value": 16.3,
+          "display": "16,3 %",
+          "highlight": true
+        }
+      ],
+      "note": "In Klammern die Zahl der Studierenden. Quelle: BFS, px-x-1502040400_136, ohne Weiterbildung."
+    },
+    {
+      "type": "heading",
+      "text": "Auch die Hochschulen selbst sind ungleich"
+    },
+    {
+      "type": "text",
+      "html": "<p>Weil Hochschulen unterschiedliche Fächerprofile haben, überträgt sich die Trennung auf die Standorte. An der ETH Zürich sind 33,7 Prozent der 25.787 Studierenden Frauen, an der EPFL in Lausanne 31,2 Prozent von 13.602, an der Universität St.Gallen 35,3 Prozent von 10.116. An der Universität Fribourg sind es 64,0 Prozent, an der Universität Genf 62,9, an der Universität Luzern 63,3 und an der Universität Zürich 59,1 Prozent von 28.556 Studierenden.</p><p>Wer also sagt, in Zürich sei der Partnermarkt für Akademiker günstig, muss dazusagen, welche Hochschule gemeint ist: Zwischen ETH und Universität liegen im selben Stadtkreis 25 Prozentpunkte Frauenanteil.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Frauenanteil an ausgewählten Hochschulen, Wintersemester 2025/26",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Universität Fribourg",
+          "value": 64.0,
+          "display": "64,0 %"
+        },
+        {
+          "label": "Universität Luzern",
+          "value": 63.3,
+          "display": "63,3 %"
+        },
+        {
+          "label": "Universität Genf",
+          "value": 62.9,
+          "display": "62,9 %"
+        },
+        {
+          "label": "Universität Bern",
+          "value": 59.6,
+          "display": "59,6 %"
+        },
+        {
+          "label": "Universität Zürich",
+          "value": 59.1,
+          "display": "59,1 %",
+          "highlight": true
+        },
+        {
+          "label": "Universität Lausanne",
+          "value": 58.7,
+          "display": "58,7 %"
+        },
+        {
+          "label": "Universität Basel",
+          "value": 58.4,
+          "display": "58,4 %"
+        },
+        {
+          "label": "Università della Svizzera italiana",
+          "value": 47.4,
+          "display": "47,4 %"
+        },
+        {
+          "label": "Universität St.Gallen",
+          "value": 35.3,
+          "display": "35,3 %"
+        },
+        {
+          "label": "ETH Zürich",
+          "value": 33.7,
+          "display": "33,7 %",
+          "highlight": true
+        },
+        {
+          "label": "EPFL Lausanne",
+          "value": 31.2,
+          "display": "31,2 %"
+        }
+      ],
+      "note": "Bachelor, Master, Lizenziat/Diplom und Doktorat ohne Weiterbildung. Quelle: BFS, px-x-1502040100_106."
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Die Schweizer Hochschulen sind insgesamt ausgeglichen und in fast jedem einzelnen Fach nicht. Wer Medizin, Recht, Soziale Arbeit, Pädagogik oder Gesundheit studiert hat, hat in einem Umfeld mit klarer Frauenmehrheit gelernt; wer Informatik, Maschinenbau oder Technik studiert hat, im Gegenteil. Diese Trennung endet nicht mit dem Diplom, sie wandert in die Berufsfelder weiter. Für die Partnersuche nach dem Studium ist das der Grund, weshalb der Zufall allein oft nicht reicht.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Welche Studierenden sind in diesen Zahlen enthalten?",
+          "answer": "Alle, die im Wintersemester 2025/26 in einem Bachelor-, Master-, Lizenziats-, Diplom- oder Doktoratsstudium eingeschrieben waren. Weiterbildungsstudiengänge wie MAS, MBA oder CAS sind nicht enthalten, weil sie das Bild sonst verzerren würden."
+        },
+        {
+          "question": "Warum unterscheidet das BFS zwei Hochschultypen?",
+          "answer": "Weil universitäre Hochschulen und Fachhochschulen samt pädagogischen Hochschulen unterschiedliche Fachsystematiken haben. Ein gemeinsames Ranking über alle Fachbereiche wäre nicht korrekt – deshalb stehen hier zwei Diagramme."
+        },
+        {
+          "question": "Ist der Frauenanteil im Studium dasselbe wie im Beruf?",
+          "answer": "Nein, er läuft dem Berufsfeld voraus. Die heutigen Anteile beschreiben die kommenden Jahrgänge. In Fächern, die sich stark verändert haben – Medizin und Veterinärmedizin etwa –, sind die Berufsstände deutlich weniger weiblich als die Hörsäle."
+        },
+        {
+          "question": "Welches ist der grösste Fachbereich der Schweiz?",
+          "answer": "An den Fachhochschulen Wirtschaft und Dienstleistungen mit 25.105 Studierenden, knapp vor der Lehrkräfteausbildung mit 24.818. An den Universitäten sind es die Sozialwissenschaften mit 24.947 Studierenden."
+        },
+        {
+          "question": "Warum hat die ETH einen so niedrigen Frauenanteil?",
+          "answer": "Weil ihr Fächerprofil fast ausschliesslich aus jenen Bereichen besteht, die landesweit die niedrigsten Anteile haben: exakte Wissenschaften, Ingenieurwissenschaften, Architektur und Bau. Innerhalb dieser Fächer liegt die ETH nicht unter dem Schweizer Durchschnitt."
+        },
+        {
+          "question": "Gibt es Fachbereiche, die wirklich ausgeglichen sind?",
+          "answer": "Wenige. Am nächsten an 50 Prozent liegen das universitäre Bauwesen mit 46,9, die technischen Wissenschaften übergreifend mit 46,3, Wirtschaft und Dienstleistungen an Fachhochschulen mit 46,9 und Interdisziplinäres mit 48,7 Prozent."
+        },
+        {
+          "question": "Wie aktuell sind die Daten?",
+          "answer": "Sie beschreiben das laufende Wintersemester 2025/26. Das Bundesamt für Statistik aktualisiert die Hochschulstatistik jährlich; wir übernehmen den neuen Stand, sobald er veröffentlicht ist."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Studierende an den universitären Hochschulen nach Fachbereich, Hochschule und Geschlecht (px-x-1502040100_106); Bachelor, Master, Lizenziat/Diplom und Doktorat ohne Weiterbildung",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040100_106/px-x-1502040100_106.px"
+    },
+    {
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "Studierende an Fachhochschulen und pädagogischen Hochschulen nach Fachbereich, Hochschule und Geschlecht (px-x-1502040400_136), ohne Weiterbildung",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-1502040400_136/px-x-1502040400_136.px"
+    },
+    {
+      "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+      "title": "Tabelle T 01.05.5.03: Mode de rencontre de la ou du partenaire – 27,3 Prozent der Tertiärgebildeten lernten den Partner in Schule, Studium oder Beruf kennen",
+      "stand": "Erhebung 2023",
+      "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_5_03.xlsx"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/zuerich/",
+      "label": "Stadtdossier Zürich: ETH, Universität und 135.754 Ledige"
+    },
+    {
+      "href": "/partnersuche/lausanne/",
+      "label": "Stadtdossier Lausanne: EPFL und UNIL auf einem Campus"
+    },
+    {
+      "href": "/magazin/wie-paare-sich-kennenlernen/",
+      "label": "Wie Paare sich in der Schweiz kennenlernen"
+    }
+  ]
+}

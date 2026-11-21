@@ -1,0 +1,294 @@
+{
+  "slug": "partnermarkt-schweiz-staedte",
+  "title": "Partnermarkt Schweiz: Wo die Rechnung nicht aufgeht",
+  "metaTitle": "Partnermarkt Schweiz: Ledige Männer und Frauen je Stadt",
+  "description": "Auf 100 ledige Frauen zwischen 25 und 54 kommen in der Schweiz 125 ledige Männer. In Emmen sind es 149, in Genf 103. Die Zahlen je Stadt.",
+  "excerpt": "In der Schweiz leben 1,65 Millionen ledige Menschen zwischen 25 und 54 Jahren – aber sehr ungleich verteilt. Wo das Verhältnis kippt und warum Hochschulstädte die Ausnahme sind.",
+  "topic": "Partnermarkt",
+  "published": "2026-11-07T08:14:37",
+  "modified": "2026-11-19T11:42:08",
+  "readingMinutes": 7,
+  "heroImageAlt": "Abendlicher Blick über eine Schweizer Stadt mit beleuchteten Wohnhäusern am Hang",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Wer in der Schweiz eine Partnerin oder einen Partner sucht, bewegt sich auf einem Markt mit einem systematischen Ungleichgewicht. Am 31. Dezember 2025 lebten hier 1.648.440 ledige Menschen zwischen 25 und 54 Jahren: 916.986 Männer und 731.454 Frauen. Das sind 125 ledige Männer auf 100 ledige Frauen – und damit rund 185.000 Männer, für die in dieser Altersgruppe statistisch keine ledige Frau übrig bleibt.</p><p>Diese Zahl ist kein Schicksal, sondern ein Durchschnitt. Sie entsteht aus zwei Dingen, die sich im Verhältnis ungleich verteilen: aus der Zuwanderung in Branchen mit überwiegend männlichen Beschäftigten und daraus, dass Frauen in der Schweiz früher und häufiger heiraten als Männer. Wer ledige Personen zählt, zählt also auch, wer bereits aus dem Markt ausgeschieden ist. Zwischen den Gemeinden liegen dadurch 46 Punkte Unterschied.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "1,65 Mio.",
+          "label": "ledige Menschen zwischen 25 und 54 Jahren in der Schweiz"
+        },
+        {
+          "value": "125",
+          "label": "ledige Männer je 100 ledige Frauen (25–54 Jahre)"
+        },
+        {
+          "value": "43,7 %",
+          "label": "Anteil Lediger an allen 25- bis 54-Jährigen"
+        },
+        {
+          "value": "46",
+          "label": "Punkte Unterschied zwischen Emmen und Carouge"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Die Städte mit dem grössten Männerüberschuss"
+    },
+    {
+      "type": "text",
+      "html": "<p>Ganz oben stehen keine Grossstädte, sondern Industrie- und Agglomerationsgemeinden: Orte mit viel Gewerbe, vielen Einzimmerwohnungen und einem hohen Anteil an Zugezogenen, die zum Arbeiten gekommen sind. Emmen bei Luzern führt die Liste der Gemeinden ab 10.000 Einwohnerinnen und Einwohnern an.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Ledige Männer je 100 ledige Frauen, 25 bis 54 Jahre (31.12.2025)",
+      "unit": "",
+      "bars": [
+        {
+          "label": "Emmen",
+          "value": 148.8,
+          "display": "148,8",
+          "highlight": true
+        },
+        {
+          "label": "Dietikon",
+          "value": 146.9,
+          "display": "146,9"
+        },
+        {
+          "label": "Glarus Nord",
+          "value": 142.8,
+          "display": "142,8"
+        },
+        {
+          "label": "Renens (VD)",
+          "value": 139.3,
+          "display": "139,3"
+        },
+        {
+          "label": "Zug",
+          "value": 137.8,
+          "display": "137,8"
+        },
+        {
+          "label": "Wil (SG)",
+          "value": 135.5,
+          "display": "135,5"
+        },
+        {
+          "label": "Biel/Bienne",
+          "value": 132.7,
+          "display": "132,7"
+        },
+        {
+          "label": "Schaffhausen",
+          "value": 131.5,
+          "display": "131,5"
+        },
+        {
+          "label": "Schweiz",
+          "value": 125.4,
+          "display": "125,4",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: BFS, STATPOP (px-x-0102010000_103). Gemeinden ab 10.000 Einwohnerinnen und Einwohnern."
+    },
+    {
+      "type": "heading",
+      "text": "Und die Städte, in denen das Verhältnis fast stimmt"
+    },
+    {
+      "type": "text",
+      "html": "<p>Am anderen Ende der Liste stehen genau jene Städte, die für Akademikerinnen und Akademiker ohnehin die erste Adresse sind. In Genf kommen auf 100 ledige Frauen 103 ledige Männer, in Bern 105, in Lausanne 111, in Basel 113, in Luzern 114, in Zürich 116. Das ist kein Zufall: Universitätsstädte ziehen Studentinnen und Absolventinnen in mindestens gleicher Zahl an wie Männer, und die Verwaltungen, Spitäler, Schulen und Forschungsinstitute, die dort die meisten Stellen bieten, beschäftigen überwiegend Frauen mit Hochschulabschluss.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Die ausgeglichensten Partnermärkte der Schweiz",
+      "bars": [
+        {
+          "label": "Carouge (GE)",
+          "value": 102.3,
+          "display": "102,3"
+        },
+        {
+          "label": "Genève",
+          "value": 102.9,
+          "display": "102,9",
+          "highlight": true
+        },
+        {
+          "label": "Bern",
+          "value": 104.8,
+          "display": "104,8",
+          "highlight": true
+        },
+        {
+          "label": "Lausanne",
+          "value": 110.5,
+          "display": "110,5"
+        },
+        {
+          "label": "Köniz",
+          "value": 110.8,
+          "display": "110,8"
+        },
+        {
+          "label": "Basel",
+          "value": 112.7,
+          "display": "112,7"
+        },
+        {
+          "label": "Luzern",
+          "value": 113.6,
+          "display": "113,6"
+        },
+        {
+          "label": "Zürich",
+          "value": 116.2,
+          "display": "116,2"
+        }
+      ],
+      "note": "Ledige Männer je 100 ledige Frauen, 25 bis 54 Jahre. Quelle: BFS, STATPOP, 31.12.2025."
+    },
+    {
+      "type": "heading",
+      "text": "Wo überhaupt am meisten Ledige wohnen"
+    },
+    {
+      "type": "text",
+      "html": "<p>Ein ausgeglichenes Verhältnis nützt wenig, wenn kaum jemand ledig ist. Deshalb lohnt der zweite Blick auf den Anteil der Ledigen an allen 25- bis 54-Jährigen. Und hier zeigen die Hochschulstädte ihre eigentliche Stärke: In Bern sind 60,4 Prozent dieser Altersgruppe ledig, in Zürich 58,9, in Lausanne 57,1, in Luzern 56,3, in Basel 53,7 und in Genf 53,3 Prozent. Der Landesdurchschnitt liegt bei 43,7 Prozent.</p><p>Beides zusammen – viele Ledige und ein Verhältnis nahe 100 – gibt es nur in den grossen Hochschulstädten. In Bern leben 41.107 ledige Menschen zwischen 25 und 54 Jahren, davon 20.070 Frauen; in Genf sind es 54.449, in Zürich 135.754. In Emmen, der Gemeinde mit dem grössten Überschuss, stehen 5.660 Ledige einem Anteil von nur 39,7 Prozent gegenüber.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Anteil Lediger an den 25- bis 54-Jährigen",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "Bern",
+          "value": 60.4,
+          "display": "60,4 %",
+          "highlight": true
+        },
+        {
+          "label": "Zürich",
+          "value": 58.9,
+          "display": "58,9 %"
+        },
+        {
+          "label": "Lausanne",
+          "value": 57.1,
+          "display": "57,1 %"
+        },
+        {
+          "label": "Luzern",
+          "value": 56.3,
+          "display": "56,3 %"
+        },
+        {
+          "label": "Fribourg",
+          "value": 55.5,
+          "display": "55,5 %"
+        },
+        {
+          "label": "Basel",
+          "value": 53.7,
+          "display": "53,7 %"
+        },
+        {
+          "label": "Genève",
+          "value": 53.3,
+          "display": "53,3 %"
+        },
+        {
+          "label": "Schweiz",
+          "value": 43.7,
+          "display": "43,7 %",
+          "highlight": true
+        },
+        {
+          "label": "Emmen",
+          "value": 39.7,
+          "display": "39,7 %"
+        }
+      ],
+      "note": "Quelle: BFS, STATPOP (px-x-0102010000_103), 31.12.2025."
+    },
+    {
+      "type": "heading",
+      "text": "Die Kantone kippen noch stärker"
+    },
+    {
+      "type": "text",
+      "html": "<p>Auf Kantonsebene wird das Bild noch deutlicher, weil dort die ländlichen Gemeinden mitzählen. In Appenzell Innerrhoden kommen 155 ledige Männer auf 100 ledige Frauen, in Uri 150, in Glarus 144, in Schwyz 143, in Nidwalden 143 und im Thurgau 141. Dahinter steht ein Muster, das Statistikerinnen seit Jahrzehnten beschreiben: Junge Frauen verlassen ländliche Gemeinden für Ausbildung und Beruf häufiger und früher als junge Männer – und kommen seltener zurück.</p><p>Für die Partnersuche heisst das: Wer in einem ländlichen Kanton wohnt und einen Partner mit Hochschulabschluss sucht, sucht nicht nur gegen das Bildungsgefälle, sondern auch gegen das Geschlechterverhältnis. Die Distanz zur nächsten Hochschulstadt ist in solchen Fällen die wichtigere Zahl als der Umkreis, den man in der Suchmaske einstellt.</p>"
+    },
+    {
+      "type": "takeaway",
+      "title": "Was aus den Zahlen folgt",
+      "html": "<p>Die Schweiz hat einen Männerüberschuss von rund 25 Prozent unter den Ledigen zwischen 25 und 54 – aber er verteilt sich nicht gleichmässig. Für Frauen mit Hochschulabschluss ist der Markt in jeder Gemeinde ausserhalb der Hochschulstädte zahlenmässig günstig. Für Männer ist das Gegenteil der Fall: Jeder Kilometer in Richtung Zürich, Bern, Basel, Lausanne oder Genf verbessert das Verhältnis messbar und erhöht gleichzeitig den Anteil der Ledigen. Wer den Suchradius ernsthaft erweitert, verändert seine Chancen stärker als mit jedem Profiltext.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Woher stammen die Zahlen?",
+          "answer": "Aus der Statistik der Bevölkerung und der Haushalte (STATPOP) des Bundesamts für Statistik, Tabelle px-x-0102010000_103, Stand 31. Dezember 2025. Gezählt wird die ständige Wohnbevölkerung nach Gemeinde, Geschlecht, Zivilstand und Altersklasse."
+        },
+        {
+          "question": "Warum 25 bis 54 Jahre?",
+          "answer": "Diese Spanne deckt die Jahre ab, in denen die meisten festen Partnerschaften entstehen, und sie lässt sich aus den amtlichen Fünfjahresklassen exakt bilden. Unter 25 verzerren Studierende das Bild, über 54 nimmt der Anteil der Verwitweten und Geschiedenen stark zu."
+        },
+        {
+          "question": "Was bedeutet «ledig» hier genau?",
+          "answer": "Ledig ist ein Zivilstand, nicht eine Lebenslage: Gezählt wird, wer nie verheiratet war und keine eingetragene Partnerschaft hat. Wer in einem Konkubinat lebt, gilt statistisch als ledig. Umgekehrt fehlen Getrenntlebende und Geschiedene in diesen Zahlen – sie sind für die Partnersuche ebenso relevant."
+        },
+        {
+          "question": "Sind geschiedene Personen mitgezählt?",
+          "answer": "Nein. In der Schweiz sind 11,3 Prozent der Bevölkerung ab 20 Jahren geschieden. Rechnet man sie hinzu, wächst der Partnermarkt deutlich, und das Geschlechterverhältnis wird ausgeglichener, weil Frauen nach einer Scheidung länger unverheiratet bleiben."
+        },
+        {
+          "question": "Gilt der Männerüberschuss auch für Akademikerinnen und Akademiker?",
+          "answer": "Nicht im gleichen Mass. Die STATPOP-Zahlen enthalten keinen Bildungsstand. In den Hochschulstädten, wo der Anteil der Tertiärabschlüsse am höchsten ist, liegt das Geschlechterverhältnis am nächsten bei 100 – in Genf bei 103, in Bern bei 105. Im akademischen Teil des Marktes ist das Ungleichgewicht also kleiner als im Landesmittel."
+        },
+        {
+          "question": "Welche Rolle spielt die Zuwanderung?",
+          "answer": "Eine grosse. Gemeinden mit Industrie, Logistik und Bau haben einen hohen Anteil an zugezogenen Männern im erwerbsfähigen Alter, die ledig sind. Das erklärt, warum Emmen, Dietikon oder Renens weit über dem Durchschnitt liegen, obwohl sie als Wohnorte unauffällig sind."
+        },
+        {
+          "question": "Wie oft werden die Zahlen aktualisiert?",
+          "answer": "Das BFS veröffentlicht STATPOP jährlich, der Stichtag ist jeweils der 31. Dezember. Die hier gezeigten Werte stammen aus dem Datenstand 31.12.2025, publiziert 2026. Wir aktualisieren diesen Beitrag, sobald der nächste Stand vorliegt."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Bundesamt für Statistik (BFS)",
+      "title": "STATPOP, Tabelle px-x-0102010000_103: ständige Wohnbevölkerung nach Gemeinde, Geschlecht, Zivilstand und Altersklasse",
+      "stand": "Stand 31.12.2025",
+      "url": "https://www.pxweb.bfs.admin.ch/api/v1/de/px-x-0102010000_103/px-x-0102010000_103.px"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/",
+      "label": "Partnersuche in der Schweiz: alle Stadtdossiers im Vergleich"
+    },
+    {
+      "href": "/partnersuche/bern/",
+      "label": "Bern: der ausgeglichenste Partnermarkt der Schweiz"
+    },
+    {
+      "href": "/partnersuche/genf/",
+      "label": "Genf: 103 ledige Männer je 100 ledige Frauen"
+    },
+    {
+      "href": "/magazin/wo-die-akademiker-wohnen/",
+      "label": "Wo die Hochqualifizierten wohnen: Zürich und Basel nach Quartieren"
+    }
+  ]
+}

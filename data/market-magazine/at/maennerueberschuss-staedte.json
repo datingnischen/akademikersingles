@@ -1,0 +1,254 @@
+{
+  "slug": "maennerueberschuss-staedte",
+  "title": "115 zu 100: Wo in Österreich die Männer in der Überzahl sind",
+  "metaTitle": "Männerüberschuss in Österreich: Zahlen je Stadt",
+  "description": "In Leoben kommen 115 Männer auf 100 Frauen zwischen 30 und 49, in Perchtoldsdorf 90. Was hinter den Unterschieden steckt.",
+  "excerpt": "Österreich ist in der Altersgruppe 30 bis 49 fast ausgeglichen – 102 Männer je 100 Frauen. In einzelnen Städten geht die Rechnung aber weit auseinander, und die Gründe liegen in den Hochschulen und der Industrie.",
+  "topic": "Partnermarkt",
+  "published": "2026-11-13T08:57:16",
+  "modified": "2026-11-13T08:57:16",
+  "readingMinutes": 6,
+  "heroImageAlt": "Industriestadt im Tal mit Hochschulgebäude und Berghängen im Hintergrund",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Am 1. Jänner 2026 lebten in Österreich 1.257.639 Männer und 1.230.080 Frauen im Alter zwischen 30 und 49 Jahren. Das sind 102,2 Männer je 100 Frauen – auf Bundesebene praktisch ausgeglichen. Die Zahl taugt deshalb nicht als Argument für oder gegen irgendetwas. Interessant wird sie erst je Gemeinde: Zwischen Leoben und Perchtoldsdorf liegen 26 Punkte.</p><p>Wir haben alle 110 Gemeinden mit mindestens 10.000 Einwohnerinnen und Einwohnern ausgewertet, die Wiener Bezirke eingeschlossen. Zwei Gruppen stechen heraus, und sie liegen beide im akademischen Umfeld – nur auf verschiedenen Seiten.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "102,2",
+          "label": "Männer je 100 Frauen in Österreich (30–49 Jahre)"
+        },
+        {
+          "value": "115,3",
+          "label": "Spitzenwert Leoben"
+        },
+        {
+          "value": "89,5",
+          "label": "niedrigster Wert: Perchtoldsdorf"
+        },
+        {
+          "value": "99,5",
+          "label": "Klagenfurt: die einzige Landeshauptstadt mit Frauenüberschuss"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Leoben und Krems: zwei Hochschulstädte an der Spitze"
+    },
+    {
+      "type": "text",
+      "html": "<p>Ganz oben stehen zwei Städte, in denen eine Hochschule das Bild prägt. Leoben kommt auf 115,3 Männer je 100 Frauen – die Montanuniversität ist Österreichs einzige Universität für Rohstoffe, Werkstoffe und Prozesstechnik, und ihre Fächer haben traditionell einen niedrigen Frauenanteil. Dazu kommt die Industrie der Obersteiermark mit überwiegend männlichen Belegschaften.</p><p>Krems an der Donau folgt mit 113,9. Hier ist die Ursache eine andere: Die Stadt hat mit der Universität für Weiterbildung, der IMC Fachhochschule und der Karl Landsteiner Privatuniversität drei Hochschulen, aber auch die Justizanstalt Stein und einen hohen Anteil an Erwerbstätigen in Weinbau, Gewerbe und Logistik.</p><p>Dahinter kommen Wiener Bezirke und oberösterreichische Industriestädte: Rudolfsheim-Fünfhaus 113,5, Favoriten 113,4, Ried im Innkreis 113,0, Knittelfeld 112,5, Braunau am Inn 111,6, Vöcklabruck 110,1.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Männer je 100 Frauen, 30 bis 49 Jahre – die höchsten Werte",
+      "bars": [
+        {
+          "label": "Leoben",
+          "value": 115.3,
+          "display": "115,3",
+          "highlight": true
+        },
+        {
+          "label": "Krems an der Donau",
+          "value": 113.9,
+          "display": "113,9",
+          "highlight": true
+        },
+        {
+          "label": "Wien 15., Rudolfsheim-Fünfhaus",
+          "value": 113.5,
+          "display": "113,5"
+        },
+        {
+          "label": "Wien 10., Favoriten",
+          "value": 113.4,
+          "display": "113,4"
+        },
+        {
+          "label": "Ried im Innkreis",
+          "value": 113.0,
+          "display": "113,0"
+        },
+        {
+          "label": "Knittelfeld",
+          "value": 112.5,
+          "display": "112,5"
+        },
+        {
+          "label": "Braunau am Inn",
+          "value": 111.6,
+          "display": "111,6"
+        },
+        {
+          "label": "Vöcklabruck",
+          "value": 110.1,
+          "display": "110,1"
+        },
+        {
+          "label": "Innsbruck",
+          "value": 109.5,
+          "display": "109,5"
+        },
+        {
+          "label": "Österreich",
+          "value": 102.2,
+          "display": "102,2",
+          "highlight": true
+        }
+      ],
+      "note": "Gemeinden ab 10.000 Einwohnern, Wiener Bezirke einzeln. Quelle: Statistik Austria, Bevölkerungsstand 01.01.2026."
+    },
+    {
+      "type": "heading",
+      "text": "Und am anderen Ende: der Wiener Speckgürtel"
+    },
+    {
+      "type": "text",
+      "html": "<p>Die Gemeinden mit dem größten Frauenüberschuss sind genau jene, die im Bildungsranking vorn liegen: Perchtoldsdorf mit 89,5 Männern je 100 Frauen und einer Akademikerquote von 35,6 Prozent, Klosterneuburg mit 93,6 und 35,4 Prozent, Baden mit 91,8 und 28,1 Prozent. Dazu kommen die bürgerlichen Wiener Bezirke: Innere Stadt 90,4, Währing 92,3, Döbling 93,3, Hietzing 93,6.</p><p>Für Männer, die eine Partnerin mit Hochschulabschluss suchen, sind das die statistisch günstigsten Adressen Österreichs – hoher Bildungsstand und Frauenüberschuss gleichzeitig. Dass es dieselben Orte sind, ist kein Zufall: Es sind Wohnlagen mit hohen Preisen, älterer Bevölkerung und einem hohen Anteil gut ausgebildeter Frauen, die hier wohnen bleiben.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Die niedrigsten Werte: mehr Frauen als Männer",
+      "bars": [
+        {
+          "label": "Perchtoldsdorf",
+          "value": 89.5,
+          "display": "89,5",
+          "highlight": true
+        },
+        {
+          "label": "Wien 1., Innere Stadt",
+          "value": 90.4,
+          "display": "90,4"
+        },
+        {
+          "label": "Mistelbach",
+          "value": 90.7,
+          "display": "90,7"
+        },
+        {
+          "label": "Baden",
+          "value": 91.8,
+          "display": "91,8"
+        },
+        {
+          "label": "Wien 18., Währing",
+          "value": 92.3,
+          "display": "92,3"
+        },
+        {
+          "label": "Trofaiach",
+          "value": 92.4,
+          "display": "92,4"
+        },
+        {
+          "label": "Wien 19., Döbling",
+          "value": 93.3,
+          "display": "93,3"
+        },
+        {
+          "label": "Wien 22., Donaustadt",
+          "value": 93.5,
+          "display": "93,5"
+        },
+        {
+          "label": "Klosterneuburg",
+          "value": 93.6,
+          "display": "93,6"
+        },
+        {
+          "label": "Klagenfurt",
+          "value": 99.5,
+          "display": "99,5",
+          "highlight": true
+        }
+      ],
+      "note": "Quelle: Statistik Austria, Bevölkerungsstand 01.01.2026 (OGD_bevstandjbab2002)."
+    },
+    {
+      "type": "heading",
+      "text": "Die Landeshauptstädte: nur Klagenfurt kippt"
+    },
+    {
+      "type": "text",
+      "html": "<p>Unter den Landeshauptstädten ist Klagenfurt die einzige mit einem Frauenüberschuss: 99,5 Männer je 100 Frauen. Die Stadt hat 105.200 Einwohner, eine Universität mit 13.655 Studierenden, den Lakeside Science &amp; Technology Park und mit 1,92 Personen je Haushalt die kleinsten Haushalte unter den Landeshauptstädten nach Innsbruck. Innsbruck selbst liegt mit 109,5 am oberen Ende, Graz bei 108,6, Linz bei 109,0, Wels bei 108,8, Salzburg bei 103,0, St. Pölten bei 103,2, Wien bei 102,5, Bregenz bei 100,9 und Dornbirn bei 101,3.</p><p>Dass Innsbruck, Graz und Linz über dem Bundesschnitt liegen, hat mit ihren Hochschulprofilen zu tun: Technische Universitäten, Montan- und Ingenieurfächer ziehen überwiegend Männer an, und viele bleiben nach dem Abschluss in der Stadt.</p>"
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Österreich ist im Ganzen ausgeglichen und im Einzelnen nicht. Die Städte mit technischen Hochschulen und Industrie – Leoben, Krems, Innsbruck, Linz – haben einen Männerüberschuss von 9 bis 15 Prozent. Die Gemeinden mit den höchsten Akademikerquoten des Landes, Perchtoldsdorf und Klosterneuburg, haben einen Frauenüberschuss von 6 bis 10 Prozent. Beide Gruppen sind für die Partnersuche interessant – nur aus entgegengesetzter Richtung.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Warum wird nicht der Familienstand ausgewertet?",
+          "answer": "Weil Statistik Austria den Familienstand nicht je Gemeinde als offene Daten bereitstellt. In der Schweiz ist das anders, dort lässt sich der Anteil der Ledigen je Gemeinde berechnen. Für Österreich bleibt das Geschlechterverhältnis der Altersgruppe als bester verfügbarer Näherungswert."
+        },
+        {
+          "question": "Heißt ein Männerüberschuss, dass es für Frauen leichter ist?",
+          "answer": "Statistisch verbessert er die Zahl der möglichen Begegnungen, über die Qualität sagt er nichts. In Leoben etwa ist der Überschuss hoch, die Stadt hat aber nur 24.581 Einwohner – in absoluten Zahlen ist der Markt klein. Dichte und Verhältnis muss man zusammen lesen."
+        },
+        {
+          "question": "Welche Rolle spielt die Zuwanderung?",
+          "answer": "Eine erhebliche. In Rudolfsheim-Fünfhaus und Favoriten liegt der Anteil ausländischer Staatsangehöriger weit über dem Wiener Schnitt, und zugewanderte Männer im erwerbsfähigen Alter sind überrepräsentiert. Das erklärt, warum zwei innerstädtische Bezirke neben Industriestädten in der Liste stehen."
+        },
+        {
+          "question": "Gilt das auch für Akademikerinnen und Akademiker?",
+          "answer": "Nicht unmittelbar – der Bevölkerungsstand enthält keinen Bildungsstand. Aber die Kombination beider Datensätze zeigt ein konsistentes Muster: Orte mit hoher Akademikerquote haben eher einen Frauenüberschuss, Orte mit technischen Hochschulen und Industrie einen Männerüberschuss."
+        },
+        {
+          "question": "Wie viele Gemeinden wurden verglichen?",
+          "answer": "110 Gemeinden mit mindestens 10.000 Einwohnerinnen und Einwohnern, wobei die 23 Wiener Gemeindebezirke einzeln gezählt werden, weil Statistik Austria sie so ausweist."
+        },
+        {
+          "question": "Woher stammen die Zahlen?",
+          "answer": "Aus dem Datensatz OGD_bevstandjbab2002_BevStand_2026 von Statistik Austria: Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht. Es handelt sich um eine Registerzählung der Wohnbevölkerung, nicht um eine Stichprobe."
+        },
+        {
+          "question": "Wann erscheinen neue Werte?",
+          "answer": "Jährlich, jeweils im Frühjahr mit Stichtag 1. Jänner. Die nächsten Zahlen beziehen sich auf den 1. Jänner 2027."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Statistik Austria",
+      "title": "Bevölkerungsstand zu Jahresbeginn 2026 nach Gemeinde, Alter in Einzeljahren und Geschlecht (Open Government Data, Datensatz OGD_bevstandjbab2002_BevStand_2026)",
+      "stand": "Stand 01.01.2026",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_bevstandjbab2002_BevStand_2026"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Abgestimmte Erwerbsstatistik 2024, Gemeindeergebnisse (Blatt „Gemeindetab“, Gebietsstand 2026): Bevölkerung ab 15 Jahren nach höchster abgeschlossener Ausbildung, Privathaushalte, Arbeitsstätten, Beschäftigte",
+      "stand": "Stichtag 31.10.2024, erstellt 09.06.2026",
+      "url": "https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods"
+    },
+    {
+      "publisher": "Statistik Austria",
+      "title": "Studierende an öffentlichen Universitäten nach Universität (Open Government Data, Datensatz OGD_unistud3_ext_UNI_STUD3_1)",
+      "stand": "Wintersemester 2025/26",
+      "url": "https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_unistud3_ext_UNI_STUD3_1"
+    }
+  ],
+  "related": [
+    {
+      "href": "/partnersuche/leoben/",
+      "label": "Stadtdossier Leoben: die Montanuniversität und ihr Partnermarkt"
+    },
+    {
+      "href": "/partnersuche/klagenfurt/",
+      "label": "Stadtdossier Klagenfurt: die Landeshauptstadt mit Frauenüberschuss"
+    },
+    {
+      "href": "/magazin/wien-nach-bezirken/",
+      "label": "Wien nach Bezirken: Bildung und Geschlechterverhältnis"
+    }
+  ]
+}

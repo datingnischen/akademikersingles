@@ -1,0 +1,228 @@
+{
+  "slug": "bildung-und-partnerwahl",
+  "title": "Bleiben Akademiker unter sich? Eine Schweizer Paarstatistik gibt Auskunft",
+  "metaTitle": "Bildung und Partnerwahl: Zahlen aus dem Kanton Genf",
+  "description": "In 34 von 100 Genfer Paaren haben beide einen Tertiärabschluss. Fünf Jahre vorher waren es 32. Was die Paarstatistik über Partnerwahl verrät.",
+  "excerpt": "Der Kanton Genf zählt seine Paare nach dem Bildungsabschluss beider Partner – 93.983 Paare in einer einzigen Tabelle. Sie zeigt, wie stark Bildung die Partnerwahl ordnet und in welche Richtung sich das verschiebt.",
+  "topic": "Partnerwahl",
+  "published": "2026-11-14T09:38:19",
+  "modified": "2026-11-20T14:19:36",
+  "readingMinutes": 8,
+  "heroImageAlt": "Paar beim Spaziergang entlang einer Hochschulfassade in der Genfer Altstadt",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Dass Akademikerinnen und Akademiker überdurchschnittlich häufig untereinander ein Paar werden, gehört zu den Dingen, die alle vermuten und kaum jemand belegen kann. Die Statistik nennt das Bildungshomogamie. Für die Schweiz gibt es dazu eine Quelle, die diesen Namen verdient: Das kantonale Statistikamt Genf veröffentlicht eine Kreuztabelle, in der alle Paare im Kanton nach dem höchsten abgeschlossenen Bildungsniveau beider Partner stehen – 93.983 Paare im Fünfjahresmittel 2020 bis 2024, und dieselbe Tabelle für 2015 bis 2019 zum Vergleich.</p><p>Das Ergebnis ist eindeutig. In 60.745 Paaren – 64,6 Prozent – haben beide Partner dasselbe Bildungsniveau. Die grösste einzelne Gruppe sind Paare, in denen beide einen Tertiärabschluss haben: 32.240 Paare, also 34,3 Prozent aller Paare im Kanton. Keine andere Kombination kommt annähernd so häufig vor.</p>"
+    },
+    {
+      "type": "kpis",
+      "items": [
+        {
+          "value": "34,3 %",
+          "label": "aller Genfer Paare: beide mit Tertiärabschluss"
+        },
+        {
+          "value": "64,6 %",
+          "label": "aller Paare mit gleichem Bildungsniveau"
+        },
+        {
+          "value": "72,9 %",
+          "label": "der tertiär gebildeten Männer haben eine tertiär gebildete Partnerin"
+        },
+        {
+          "value": "76,0 %",
+          "label": "der tertiär gebildeten Frauen haben einen tertiär gebildeten Partner"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Wer tertiär gebildet ist, hat meist einen tertiär gebildeten Partner"
+    },
+    {
+      "type": "text",
+      "html": "<p>Die aussagekräftigste Rechnung geht nicht über alle Paare, sondern zeilenweise. Im Kanton Genf leben 44.230 Paare, in denen der Mann einen Tertiärabschluss hat. In 32.240 dieser Paare hat auch die Frau einen – das sind 72,9 Prozent. 9.547 dieser Männer haben eine Partnerin mit Sekundarstufe II, 2.335 eine mit obligatorischer Schule.</p><p>Bei den Frauen ist die Bindung noch etwas stärker: Von 42.396 Paaren mit einer tertiär gebildeten Frau haben in 32.240 Fällen beide diesen Abschluss, also 76,0 Prozent. 8.034 dieser Frauen leben mit einem Partner mit Sekundarstufe II, 2.018 mit einem Partner mit obligatorischer Schule.</p><p>Zum Vergleich die andere Seite der Tabelle: Von den 19.541 Paaren, in denen der Mann nur die obligatorische Schule abgeschlossen hat, haben 12.823 – 65,6 Prozent – eine Partnerin mit demselben Abschluss. Die Bildungsgrenze wirkt also an beiden Enden der Skala, nur von unten noch strenger.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Partnerin eines tertiär gebildeten Mannes (44.230 Paare)",
+      "unit": "",
+      "bars": [
+        {
+          "label": "Tertiärabschluss",
+          "value": 32240,
+          "display": "32.240 · 72,9 %",
+          "highlight": true
+        },
+        {
+          "label": "Sekundarstufe II",
+          "value": 9547,
+          "display": "9.547 · 21,6 %"
+        },
+        {
+          "label": "obligatorische Schule",
+          "value": 2335,
+          "display": "2.335 · 5,3 %"
+        }
+      ],
+      "note": "Kanton Genf, Fünfjahresmittel 2020–2024. Quelle: OCSTAT, T 01.05.1.04."
+    },
+    {
+      "type": "chart",
+      "title": "Partner einer tertiär gebildeten Frau (42.396 Paare)",
+      "unit": "",
+      "bars": [
+        {
+          "label": "Tertiärabschluss",
+          "value": 32240,
+          "display": "32.240 · 76,0 %",
+          "highlight": true
+        },
+        {
+          "label": "Sekundarstufe II",
+          "value": 8034,
+          "display": "8.034 · 19,0 %"
+        },
+        {
+          "label": "obligatorische Schule",
+          "value": 2018,
+          "display": "2.018 · 4,8 %"
+        }
+      ],
+      "note": "Kanton Genf, Fünfjahresmittel 2020–2024. Quelle: OCSTAT, T 01.05.1.04."
+    },
+    {
+      "type": "heading",
+      "text": "Die Grenze wird enger, nicht weiter"
+    },
+    {
+      "type": "text",
+      "html": "<p>Spannend wird die Tabelle erst, wenn man die beiden Fünfjahresmittel nebeneinander legt. Von 2015 bis 2019 hatten 29.211 von 91.217 Paaren zwei Tertiärabschlüsse, das waren 32,0 Prozent. Fünf Jahre später sind es 34,3 Prozent. Der Anteil der Paare mit gleichem Bildungsniveau ist von 61,5 auf 64,6 Prozent gestiegen.</p><p>Das liegt zum Teil daran, dass es mehr Hochqualifizierte gibt: Im Kanton Genf haben 49 Prozent der 25- bis 64-Jährigen einen Tertiärabschluss, bei den Frauen 50, bei den Männern 48 Prozent. Wenn die Gruppe wächst, wachsen auch die Paare innerhalb der Gruppe. Aber die Tabelle zeigt mehr als das: Die Kombination, bei der der Mann höher gebildet ist als die Frau, ist von 20,1 auf 18,8 Prozent gesunken, während der umgekehrte Fall von 14,1 auf 15,5 Prozent gestiegen ist.</p>"
+    },
+    {
+      "type": "chart",
+      "title": "Bildungskonstellation der Paare: 2015–2019 und 2020–2024",
+      "unit": " %",
+      "bars": [
+        {
+          "label": "gleiches Niveau · 2015–2019",
+          "value": 61.5,
+          "display": "61,5 %"
+        },
+        {
+          "label": "gleiches Niveau · 2020–2024",
+          "value": 64.6,
+          "display": "64,6 %",
+          "highlight": true
+        },
+        {
+          "label": "Mann höher · 2015–2019",
+          "value": 20.1,
+          "display": "20,1 %"
+        },
+        {
+          "label": "Mann höher · 2020–2024",
+          "value": 18.8,
+          "display": "18,8 %"
+        },
+        {
+          "label": "Frau höher · 2015–2019",
+          "value": 14.1,
+          "display": "14,1 %"
+        },
+        {
+          "label": "Frau höher · 2020–2024",
+          "value": 15.5,
+          "display": "15,5 %",
+          "highlight": true
+        }
+      ],
+      "note": "Anteile an allen Paaren im Kanton Genf. Quelle: OCSTAT, T 01.05.1.04, eigene Berechnung."
+    },
+    {
+      "type": "quote",
+      "text": "Erstmals leben in Genf mehr Paare, in denen die Frau den höheren Abschluss hat, als es solche Paare vor zehn Jahren gab – und gleichzeitig weniger, in denen der Mann vorn liegt. Die traditionelle Konstellation verliert, die umgekehrte gewinnt.",
+      "source": "Eigene Auswertung der Tabelle T 01.05.1.04 des Office cantonal de la statistique"
+    },
+    {
+      "type": "heading",
+      "text": "Was das für die Partnersuche heisst"
+    },
+    {
+      "type": "text",
+      "html": "<p>Für Akademikerinnen und Akademiker steckt in diesen Zahlen eine gute und eine unbequeme Nachricht. Die gute: Wer einen Partner mit vergleichbarer Ausbildung sucht, sucht nichts Ungewöhnliches. Drei von vier tertiär gebildeten Menschen in Genf leben mit einem Partner auf demselben Niveau – das ist der Normalfall, nicht der Anspruch einer Minderheit.</p><p>Die unbequeme: Dieselben Zahlen erklären, warum die Suche sich eng anfühlen kann. Je stärker sich Paare innerhalb ihrer Bildungsgruppe finden, desto mehr hängt die Begegnung davon ab, in welchen Räumen man sich bewegt. Und die sind in der Schweiz ungleich verteilt: In Zürich erreicht der Tertiäranteil im Quartier Hochschulen 82,8 Prozent, in Hirzenbach 34,9. Wer den Bildungsstand als Kriterium hat, sucht immer auch einen Ort.</p>"
+    },
+    {
+      "type": "takeaway",
+      "title": "Fazit",
+      "html": "<p>Bildung ordnet die Partnerwahl in der Schweiz stärker als die Herkunft und stärker als das Alter: 64,6 Prozent aller Genfer Paare haben dasselbe Bildungsniveau, und bei den Tertiärgebildeten sind es über 70 Prozent. Dieser Zusammenhang wird enger, nicht lockerer. Verschoben hat sich nur die Richtung innerhalb der gemischten Paare – zugunsten der Konstellation, in der die Frau den höheren Abschluss hat.</p>"
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Gelten diese Zahlen für die ganze Schweiz?",
+          "answer": "Die Tabelle beschreibt den Kanton Genf. Er hat den höchsten Anteil Tertiärgebildeter des Landes, deshalb ist der Anteil der Paare mit zwei Hochschulabschlüssen hier höher als im Landesmittel. Das Muster selbst – Paare finden sich überwiegend innerhalb ihres Bildungsniveaus – ist international gut belegt und dürfte für die gesamte Schweiz gelten."
+        },
+        {
+          "question": "Warum gibt es diese Statistik nur für Genf?",
+          "answer": "Weil die Daten aus der Strukturerhebung des Bundesamts für Statistik stammen und für eine so feine Kreuztabelle fünf Erhebungsjahre zusammengelegt werden müssen. Das macht nicht jedes kantonale Statistikamt. Genf publiziert die Tabelle regelmässig, zuletzt aktualisiert am 2. Oktober 2026."
+        },
+        {
+          "question": "Was zählt als Tertiärstufe?",
+          "answer": "Zwei Dinge: Hochschulabschlüsse von Universitäten, Fachhochschulen und pädagogischen Hochschulen sowie die höhere Berufsbildung mit eidgenössischem Diplom oder höherer Fachschule. Der Begriff ist breiter als «Hochschulabschluss» allein."
+        },
+        {
+          "question": "Sind gleichgeschlechtliche Paare enthalten?",
+          "answer": "Nein. Die Fussnote der Originaltabelle hält ausdrücklich fest, dass gleichgeschlechtliche Paare hier nicht berücksichtigt sind. Ebenfalls nicht enthalten sind internationale Beamte, Diplomatinnen und Diplomaten und ihre Familien – in Genf eine relevante Gruppe."
+        },
+        {
+          "question": "Wie genau sind die Zahlen?",
+          "answer": "Es sind Schätzungen aus einer Stichprobe, als Mittel über fünf Erhebungsjahre. Das Statistikamt weist zu jedem Wert ein 95-Prozent-Vertrauensintervall aus; für die grossen Zellen liegt es bei rund einem Prozent, für die kleinen bei bis zu 25 Prozent. Die hier gezeigten Hauptwerte stammen alle aus grossen Zellen."
+        },
+        {
+          "question": "Heisst Bildungshomogamie, dass gemischte Paare seltener halten?",
+          "answer": "Dazu sagt diese Statistik nichts. Sie zählt bestehende Paare in Privathaushalten, nicht Trennungen. Ob Paare mit unterschiedlichem Bildungsniveau häufiger auseinandergehen oder einfach seltener zusammenkommen, lässt sich daraus nicht unterscheiden."
+        },
+        {
+          "question": "Spielt es eine Rolle, wer von beiden den höheren Abschluss hat?",
+          "answer": "Für die Verteilung ja: 18,8 Prozent der Genfer Paare bestehen aus einem höher gebildeten Mann, 15,5 Prozent aus einer höher gebildeten Frau. Der Abstand ist in fünf Jahren von sechs auf drei Punkte geschrumpft."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+      "title": "Tabelle T 01.05.1.04: Couples selon le sexe et le niveau de formation achevée le plus élevé des conjoints (Fünfjahresmittel 2020–2024 und 2015–2019)",
+      "stand": "Strukturerhebung, Aktualisierung 02.10.2026",
+      "url": "https://statistique.ge.ch/tel/domaines/01/01_05/T_01_05_1_04.xlsx"
+    },
+    {
+      "publisher": "Office cantonal de la statistique (OCSTAT), Kanton Genf",
+      "title": "Meldung vom 24.06.2025: Niveau de formation de la population résidant dans le canton de Genève – 49 Prozent der 25- bis 64-Jährigen mit Tertiärabschluss",
+      "stand": "Fünfjahresmittel 2019–2023 (Strukturerhebung)",
+      "url": "https://statistique.ge.ch/actualites/welcome.asp?actu=5677"
+    },
+    {
+      "publisher": "Statistik Stadt Zürich (nach BFS-Strukturerhebung)",
+      "title": "Bevölkerung nach Bildungsstand, Stadtkreis und Stadtquartier (BIL101OD1012): Anteil Tertiärstufe an der ständigen Wohnbevölkerung ab 15 Jahren",
+      "stand": "Strukturerhebung, Pooling 2022–2024",
+      "url": "https://data.stadt-zuerich.ch/dataset/bfs_bev_bildungsstand_statquartier_od1012"
+    }
+  ],
+  "related": [
+    {
+      "href": "/magazin/wie-paare-sich-kennenlernen/",
+      "label": "Wie Paare sich in der Schweiz kennenlernen"
+    },
+    {
+      "href": "/magazin/wo-die-akademiker-wohnen/",
+      "label": "Wo die Hochqualifizierten wohnen: Zürich und Basel nach Quartieren"
+    },
+    {
+      "href": "/partnersuche/genf/",
+      "label": "Stadtdossier Genf"
+    }
+  ]
+}

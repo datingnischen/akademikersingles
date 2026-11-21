@@ -4,6 +4,7 @@ import citySeo from "@/data/partnersuche-seo.json";
 import { AUTHORED_PAGES } from "@/lib/authored";
 import { requestMarket } from "@/lib/market-context";
 import { marketCities, marketHub } from "@/lib/market-cities";
+import { marketMagazineHub, marketArticlePages } from "@/lib/market-magazine";
 import { localizePath, type MarketCode, type RegionalMarket } from "@/lib/markets";
 import { marketUrl, registrationUrl, type Aid } from "@/lib/site";
 import { imageOptimizerPath, staticAsset } from "./static-asset";
@@ -34,6 +35,10 @@ export type PublicPage = {
   modified?: string;
   author?: { name: string; path: string };
   excerpt?: string;
+  /** Nur AT/CH-Magazin: Themenlabel statt verlinkter Kategorie (dort gibt es keine Kategorieseiten). */
+  topicLabel?: string;
+  /** Nur AT/CH-Magazin: Fragen für das FAQPage-Schema des Beitrags. */
+  faq?: { question: string; answer: string }[];
 };
 
 export type MagazineCategory = {
@@ -110,7 +115,9 @@ export function normalizeContentPath(slug?: string[]): string {
 export function getMarketPage(market: MarketCode, path: string): PublicPage | null {
   if (market === "de") return pageIndex.get(path) ?? null;
   // AT/CH: Städteübersicht und Stadtseiten kommen aus den Dossiers, DE-Städte und Ratgeber gibt es dort nicht.
-  const own = path === "/partnersuche/" ? marketHub(market) : marketCities(market).find(city => city.path === path);
+  const own = path === "/partnersuche/" ? marketHub(market)
+    : path === "/magazin/" ? marketMagazineHub(market)
+    : marketCities(market).find(city => city.path === path) ?? marketArticlePages(market).find(article => article.path === path);
   if (own) return own;
   const page = pageIndex.get(path);
   return page && !MARKET_HIDDEN.has(page.family) ? page : null;
@@ -120,12 +127,14 @@ export function getPage(path: string): PublicPage | null {
   return getMarketPage(requestMarket(), path);
 }
 
-// Auf den Marktseiten (AT/CH) entfallen DE-Städte und DE-Ratgeber; Magazin, Über uns, FAQ und Startseite sind dieselben Seiten.
-const MARKET_HIDDEN = new Set<Family>(["location", "location-hub", "guide"]);
+// Auf den Marktseiten (AT/CH) entfallen DE-Städte, DE-Ratgeber und das deutsche Magazin: Stadtseiten kommen aus
+// den Dossiers, Magazinbeiträge aus data/market-magazine/<land>/ (Christian, 21.11.2026: keine Kopie der deutschen
+// Variante). Über uns, FAQ und Startseite bleiben dieselben Seiten.
+const MARKET_HIDDEN = new Set<Family>(["location", "location-hub", "guide", "magazine", "magazine-hub", "magazine-category", "magazine-author"]);
 
 /** Seiten, die unter /at/ bzw. /ch/ erreichbar sind (für Suche und generateStaticParams). */
 export function getMarketPages(market: RegionalMarket): PublicPage[] {
-  return [...pages.filter(page => !MARKET_HIDDEN.has(page.family)), marketHub(market), ...marketCities(market)];
+  return [...pages.filter(page => !MARKET_HIDDEN.has(page.family)), marketHub(market), ...marketCities(market), marketMagazineHub(market), ...marketArticlePages(market)];
 }
 
 export function getPages(): PublicPage[] {
@@ -133,6 +142,8 @@ export function getPages(): PublicPage[] {
 }
 
 export function getArticles(): PublicPage[] {
+  const market = requestMarket();
+  if (market !== "de") return marketArticlePages(market);
   return pages.filter(page => page.family === "magazine").sort((a, b) => (b.published ?? "").localeCompare(a.published ?? ""));
 }
 
@@ -159,11 +170,12 @@ export function guideLabel(page: PublicPage): string {
 }
 
 export function getCategories(): MagazineCategory[] {
-  return categories;
+  // AT/CH haben ein eigenes, kleines Magazin ohne Kategorieseiten.
+  return requestMarket() === "de" ? categories : [];
 }
 
 export function getLeadCategories(): MagazineCategory[] {
-  return categories.filter(category => category.slug in LEAD_CATEGORIES);
+  return getCategories().filter(category => category.slug in LEAD_CATEGORIES);
 }
 
 export function getCategory(slug: string): MagazineCategory | null {

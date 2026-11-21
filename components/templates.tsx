@@ -77,7 +77,52 @@ function Body({ page, children }: { page: PublicPage; children?: React.ReactNode
   </section>;
 }
 
+// Magazinübersicht der Marktseiten: eigene Beiträge des Landes, keine Themenwelten (die gibt es nur in DE).
+function MarketMagazineHub({ page }: { page: PublicPage }) {
+  const articles = getArticles();
+  const [featured, ...rest] = articles;
+  const market = getMarket(requestMarket());
+  const crumbs = crumbsFor(page);
+  return <main>
+    <JsonLd data={{ "@context": "https://schema.org", "@graph": [
+      breadcrumbJsonLd(crumbs, marketOrigin(market.code)),
+      { "@type": "CollectionPage", name: page.heroTitle, url: page.canonical, description: page.description, inLanguage: market.locale, isPartOf: { "@type": "WebSite", name: SITE_NAME, url: `${marketOrigin(market.code)}/` }, hasPart: articles.map(article => ({ "@type": "BlogPosting", headline: article.heroTitle, url: article.canonical })) },
+    ] }} />
+    <section className={styles.magHero}>
+      <div className="container">
+        <Breadcrumbs items={crumbs} tone="dark" />
+        <div className={styles.magHeroHead}>
+          <h1 className="display">Das Magazin für <em>{market.countryName}</em></h1>
+          <p>{page.excerpt ?? page.description}</p>
+        </div>
+        {featured ? <div className={styles.magFeatured}><ArticleCard article={featured} size="large" priority heading="h2" /></div> : null}
+      </div>
+    </section>
+    {rest.length ? <section className={`container ${styles.topicSection}`}>
+      <header className={styles.topicHead}>
+        <span className={styles.topicIndex}>01</span>
+        <div>
+          <h2 className="display">Alle Beiträge</h2>
+          <p>Jeder Beitrag entsteht aus amtlichen Zahlen für {market.countryPhrase} – mit Quelle und Stand am Ende des Textes.</p>
+        </div>
+      </header>
+      <div className={styles.grid}>{rest.map(article => <ArticleCard key={article.path} article={article} heading="h3" />)}</div>
+    </section> : null}
+    <section className={`container ${styles.topicSection}`}>
+      <header className={styles.topicHead}>
+        <span className={styles.topicIndex}>02</span>
+        <div>
+          <h2 className="display">Stadtdossiers</h2>
+          <p>Zu jeder Stadt gibt es ein eigenes Dossier mit Hochschulen, Quartieren, Terminen und Partnermarkt-Zahlen.</p>
+        </div>
+      </header>
+      <div className={styles.chips}><Link href="/partnersuche/">Alle Städte ansehen →</Link></div>
+    </section>
+  </main>;
+}
+
 export function MagazineHubTemplate({ page }: { page: PublicPage }) {
+  if (requestMarket() !== "de") return <MarketMagazineHub page={page} />;
   const articles = getArticles();
   const [featured, ...rest] = articles;
   const lead = getLeadCategories();
@@ -162,11 +207,12 @@ export function ArticleTemplate({ page }: { page: PublicPage }) {
         articleSection: category?.name, author: { "@type": "Organization", name: `${page.author?.name ?? "Redaktion"} AkademikerSingles`, url: `${ORIGIN}${page.author?.path ?? "/ueber-uns/"}` },
         publisher: PUBLISHER,
       },
+      ...(page.faq?.length ? [{ "@type": "FAQPage", mainEntity: page.faq.map(item => ({ "@type": "Question", name: item.question, acceptedAnswer: { "@type": "Answer", text: item.answer } })) }] : []),
     ] }} />
     <article>
       <header className={`container ${styles.articleHead}`}>
         <Breadcrumbs items={crumbs} />
-        {category ? <Link className="eyebrow" href={category.path}>{categoryLabel(category)}</Link> : null}
+        {category ? <Link className="eyebrow" href={category.path}>{categoryLabel(category)}</Link> : page.topicLabel ? <p className="eyebrow">{page.topicLabel}</p> : null}
         <h1 className="display">{page.heroTitle}</h1>
         {page.description ? <p className={styles.articleLead}>{page.description}</p> : null}
         <div className={styles.articleMeta}>
