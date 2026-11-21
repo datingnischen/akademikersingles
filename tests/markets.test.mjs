@@ -97,7 +97,10 @@ test("Marktrouten: Canonical der Magazin-/Über-uns-Seiten bleibt die DE-Seite, 
   assert.match(route, /getMarketPage\(market, normalizeContentPath\(slug\)\)/);
   assert.match(route, /setRequestMarket\(market\)/);
   const view = source("components/page-view.tsx");
-  assert.match(view, /canonical: page\.canonical, \.\.\.hreflang\(page\)/);
+  assert.match(view, /canonical, \.\.\.hreflang\(page\)/);
+  // Nur die Startseite wechselt auf der erreichbaren Landesdomain den Canonical; Über uns und FAQ bleiben bei DE.
+  assert.match(view, /page\.family === "home" && isMarketDomainLive\(market\) && market !== "de" \? publicUrl\(market, page\.path\) : page\.canonical/);
+  assert.match(source("lib/market-seo.ts"), /isMarketDomainLive\(market\) \? \["\/"\] : \[\]/);
   assert.match(view, /LIVE_MARKETS\.length/);
   assert.match(view, /isMarketDomainLive\(code\)/);
   assert.match(source("lib/markets.ts"), /process\.env\.NEXT_PUBLIC_LIVE_MARKET_DOMAINS/);

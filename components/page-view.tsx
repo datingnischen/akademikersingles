@@ -12,10 +12,12 @@ import { seoDescription, seoTitle } from "@/lib/seo-meta";
 
 // Gemeinsame Darstellung der Seiten für DE (app/[[...slug]]) und die Marktrouten (app/at, app/ch).
 
-// hreflang nur für die Städteübersicht (in jedem Markt vorhanden) und nur mit Landesdomains, die schon live sind
-// (NEXT_PUBLIC_LIVE_MARKET_DOMAINS, sonst zeigten die Alternativen ins Leere).
+// hreflang nur für Seiten, die es in jedem Markt gibt (Startseite, Städteübersicht), und nur mit Landesdomains,
+// die schon live sind (sonst zeigten die Alternativen ins Leere).
+const SHARED_FAMILIES = new Set(["home", "location-hub"]);
+
 function hreflang(page: PublicPage): Metadata["alternates"] {
-  if (!LIVE_MARKETS.length || page.family !== "location-hub") return {};
+  if (!LIVE_MARKETS.length || !SHARED_FAMILIES.has(page.family)) return {};
   return {
     languages: {
       ...Object.fromEntries(MARKET_CODES.filter(code => isMarketDomainLive(code)).map(code => [getMarket(code).locale, publicUrl(code, page.path)])),
@@ -28,15 +30,19 @@ export function pageMetadata(page: PublicPage, market: MarketCode = "de"): Metad
   const image = page.family === "home" ? "/brand/hero-couple.jpg" : page.heroImage;
   const title = seoTitle(page, market);
   const description = seoDescription(page, market);
+  // Die Startseite ist je Land eine eigene Seite (Landesstädte, Landesmagazin, Landeslogo): sobald die Landesdomain
+  // erreichbar ist, zeigt sie auf sich selbst, sonst wäre sie nicht indexierbar. Über uns und FAQ sind dagegen
+  // wortgleiche Dubletten und behalten den deutschen Canonical.
+  const canonical = page.family === "home" && isMarketDomainLive(market) && market !== "de" ? publicUrl(market, page.path) : page.canonical;
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: page.canonical, ...hreflang(page) },
+    alternates: { canonical, ...hreflang(page) },
     robots: { index: true, follow: true },
     openGraph: {
       title,
       description,
-      url: page.canonical,
+      url: canonical,
       siteName: SITE_NAME,
       locale: getMarket(market).ogLocale,
       type: page.family === "magazine" ? "article" : "website",
