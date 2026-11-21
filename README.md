@@ -21,6 +21,8 @@ Die WordPress-Paginierung (`/magazin/page/<n>/`, auch in Kategorien) leitet per 
 
 Wie bei alleinerziehende-singles: DE ist der unpräfixierte Standard (Live `akademikersingles.de` über nginx, Canonicals unverändert). Auf Vercel antworten zusätzlich `/de/…`, `/at/…` und `/ch/…`. Für `akademikersingles.at` und `.ch` erkennt der Proxy die Landesdomains per Host (auch `X-Forwarded-Host`) und schreibt intern auf `/at/…` bzw. `/ch/…` um.
 
+`akademikersingles.at` und `akademikersingles.ch` laufen seit dem 21. November 2026 direkt auf Vercel (DNS bei Internex: `A @ 216.150.1.1`, `CNAME www b105d9e0755a1ce2.vercel-dns-016.com.`; MX unverändert). Die Startseite jedes Landes ist dort kanonisch und steht in der Landessitemap, die Fußzeile verlinkt die übrigen Landesausgaben, Über uns und FAQ bleiben Dubletten mit deutschem Canonical.
+
 Direkter Vercel-Betrieb wie bei Eishockey-Liebe: Hauptdomain und `www` in Vercel hinterlegen, `www` per 308 auf die Hauptdomain umleiten und die von Vercel angegebenen DNS-Ziele bei Internex eintragen. In Vercel `NEXT_PUBLIC_DIRECT_MARKET_DOMAINS=at,ch` für Production setzen und neu deployen. Redaktionelle Links zeigen auf die Landesdomain und Präfix-URLs werden dort auf die kanonische URL umgeleitet. Registrierung, Login und Rechtstexte führen zur deutschen ICONY-Plattform. Sobald ICONY eine Landesplattform mit nginx übernimmt, deren Länderkürzel von `NEXT_PUBLIC_DIRECT_MARKET_DOMAINS` nach `NEXT_PUBLIC_LIVE_MARKET_DOMAINS` verschieben und neu deployen.
 
 | Pfad | DE | AT / CH |
